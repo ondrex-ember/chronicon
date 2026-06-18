@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "generated": "2026-06-18T19:51:31.724Z",
-  "valid_until": "2026-06-25T19:51:31.724Z",
+  "generated": "2026-06-18T19:59:59.987Z",
+  "valid_until": "2026-06-25T19:59:59.987Z",
   "abbot": {
-    "name": "Bratr Augustin",
+    "name": "Bratr Augustín",
     "mood": "klidný",
     "virtue": 7,
     "portrait": null,
     "scrinium_open": true,
-    "message": null
+    "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 5,
-    "total_tick": 4,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 5"
+    "day": 6,
+    "total_tick": 5,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 6"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,42 @@
     }
   },
   "resources": {
-    "grain": 44,
+    "grain": 42.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
+      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
+      "type": "A",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
     {
       "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
       "type": "A",
@@ -137,6 +167,26 @@
   ],
   "chronicle_local": [
     {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
+      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
+      "type": "A",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
       "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
       "type": "A",
       "icon": "📋",
@@ -189,6 +239,16 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
       "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
       "type": "A",
       "icon": "🛡️",
@@ -210,7 +270,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 5,
+    "day_of_year": 6,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

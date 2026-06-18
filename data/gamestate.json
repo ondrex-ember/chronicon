@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 5,
+    "day": 6,
     "daysPerSeason": 90,
-    "totalTick": 4
+    "totalTick": 5
   },
   "resources": {
     "grain": {
-      "value": 44,
+      "value": 42.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -138,16 +138,46 @@
     }
   },
   "gm": {
-    "abbot_name": "Bratr Augustin",
+    "abbot_name": "Bratr Augustín",
     "abbot_mood": "klidný",
     "abbot_virtue": 7,
     "abbot_portrait": null,
     "scrinium_open": true,
-    "abbot_message": null,
+    "abbot_message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti.",
     "tension_modifier": 0,
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
+    {
+      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
+      "type": "A",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 5,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 6
+    },
     {
       "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
       "type": "A",
@@ -258,6 +288,18 @@
     "frois_006": {
       "tick": 4,
       "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl."
+    },
+    "mono_011": {
+      "tick": 5,
+      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne."
+    },
+    "local_002": {
+      "tick": 5,
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem."
+    },
+    "bourgeois_002": {
+      "tick": 5,
+      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se."
     }
   },
   "flags": {
