@@ -83,9 +83,11 @@ const Picker = {
       entry.id,
       entry.text_cs,
       {
-        type:   entry.type,
-        icon:   entry.icon,
-        source: 'monastery_internal',
+        type:    entry.type,
+        icon:    entry.icon,
+        source:  'monastery_internal',
+        text_cs: entry.text_cs,
+        text_en: entry.text_en || null,
       },
       8
     );
@@ -104,9 +106,11 @@ const Picker = {
       entry.id,
       entry.text_cs,
       {
-        type:   entry.type,
-        icon:   entry.icon,
-        source: 'local_events',
+        type:    entry.type,
+        icon:    entry.icon,
+        source:  'local_events',
+        text_cs: entry.text_cs,
+        text_en: entry.text_en || null,
       },
       6
     );
@@ -125,9 +129,11 @@ const Picker = {
       entry.id,
       entry.text_cs,
       {
-        type:   entry.type,
-        icon:   entry.icon,
-        source: 'distant_events',
+        type:    entry.type,
+        icon:    entry.icon,
+        source:  'distant_events',
+        text_cs: entry.text_cs,
+        text_en: entry.text_en || null,
       },
       10
     );

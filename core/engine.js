@@ -25,6 +25,8 @@ const GameLog = {
 
     const entry = {
       text,
+      text_cs: options.text_cs || text,
+      text_en: options.text_en || null,
       type:   options.type   || 'A',
       icon:   options.icon   || null,
       source: options.source || 'engine',
