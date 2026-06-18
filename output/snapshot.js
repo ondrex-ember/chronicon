@@ -83,6 +83,15 @@ const Snapshot = {
       // Posledních 20 chronicle záznamů
       chronicle: GameState.log.slice(0, 20),
 
+      // Filtrované pohledy dle source
+      chronicle_local:    GameState.log.filter(e =>
+        e.source === 'local_events' || e.source === 'monastery_internal'
+      ).slice(0, 10),
+
+      chronicle_distant:  GameState.log.filter(e =>
+        e.source === 'distant_events'
+      ).slice(0, 10),
+
       church_calendar: Snapshot._calendar(),
     };
   },

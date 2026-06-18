@@ -16,6 +16,7 @@ const { GameState }  = require('./core/state.js');
 const { WeatherSystem } = require('./core/weather.js');
 const { GameEngine } = require('./core/engine.js');
 const { GmOverride } = require('./gm/gm_override.js');
+const { Picker }     = require('./narrative/picker.js');
 const { Persist }    = require('./persist.js');
 const { Snapshot }   = require('./output/snapshot.js');
 
@@ -34,7 +35,10 @@ function tick() {
     // 2. Engine tick — počasí, produkce, posun dne
     GameEngine.tick();
 
-    // 3. Persist — uložit state
+    // 3. Picker — vybere záznamy z narrative JSON setů
+    Picker.run();
+
+    // 4. Persist — uložit state
     Persist.save();
 
     // 4. Snapshot — exportovat JSON pro Scriptorium
