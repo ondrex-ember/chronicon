@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 4,
+    "day": 5,
     "daysPerSeason": 90,
-    "totalTick": 3
+    "totalTick": 4
   },
   "resources": {
     "grain": {
-      "value": 45.5,
+      "value": 44,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,26 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
+    {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
     {
       "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
       "type": "C",
@@ -230,6 +250,14 @@
     "local_007": {
       "tick": 3,
       "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj."
+    },
+    "local_028": {
+      "tick": 4,
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo."
+    },
+    "frois_006": {
+      "tick": 4,
+      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl."
     }
   },
   "flags": {

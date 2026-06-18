@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-18T18:36:59.813Z",
-  "valid_until": "2026-06-25T18:36:59.813Z",
+  "generated": "2026-06-18T19:51:31.724Z",
+  "valid_until": "2026-06-25T19:51:31.724Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 4,
-    "total_tick": 3,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 4"
+    "day": 5,
+    "total_tick": 4,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 5"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,32 @@
     }
   },
   "resources": {
-    "grain": 45.5,
+    "grain": 44,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
+    {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
     {
       "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
       "type": "C",
@@ -117,6 +137,16 @@
   ],
   "chronicle_local": [
     {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
+    {
       "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
       "type": "C",
       "icon": "👑",
@@ -159,6 +189,16 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 4,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 5
+    },
+    {
       "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby.",
       "type": "B",
       "icon": "🔥",
@@ -170,7 +210,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 4,
+    "day_of_year": 5,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
