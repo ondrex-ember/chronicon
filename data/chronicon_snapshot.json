@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-18T19:59:59.987Z",
-  "valid_until": "2026-06-25T19:59:59.987Z",
+  "generated": "2026-06-18T23:49:32.382Z",
+  "valid_until": "2026-06-25T23:49:32.382Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_fog",
+    "name": "Ranní mlha",
+    "icon": "🌫",
+    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 6,
-    "total_tick": 5,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 6"
+    "day": 7,
+    "total_tick": 6,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 7"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 42.5,
+    "grain": 41,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
     {
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
       "type": "B",
@@ -167,6 +191,18 @@
   ],
   "chronicle_local": [
     {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
       "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
       "type": "A",
       "icon": "🌾",
@@ -239,6 +275,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
       "type": "B",
       "icon": "🔥",
@@ -270,7 +318,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 6,
+    "day_of_year": 7,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
