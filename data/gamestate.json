@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 3,
+    "day": 4,
     "daysPerSeason": 90,
-    "totalTick": 2
+    "totalTick": 3
   },
   "resources": {
     "grain": {
-      "value": 47,
+      "value": 45.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -149,6 +149,26 @@
   },
   "log": [
     {
+      "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 3,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 4
+    },
+    {
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 3,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 4
+    },
+    {
       "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby.",
       "type": "B",
       "icon": "🔥",
@@ -202,6 +222,14 @@
     "frois_003": {
       "tick": 2,
       "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby."
+    },
+    "mono_004": {
+      "tick": 3,
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav."
+    },
+    "local_007": {
+      "tick": 3,
+      "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj."
     }
   },
   "flags": {
