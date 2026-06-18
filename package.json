@@ -1,0 +1,20 @@
+{
+  "name": "chronicon-server",
+  "version": "0.1.0",
+  "description": "CHRONICON — generativní engine živého světa pro Scriptorium (myscriptorium.cz)",
+  "main": "cron.js",
+  "scripts": {
+    "start": "node cron.js",
+    "tick": "node cron.js --once",
+    "dev": "node cron.js --dev"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Ondrex",
+  "license": "UNLICENSED",
+  "private": true
+}

@@ -1,0 +1,170 @@
+{
+  "time": {
+    "year": 1465,
+    "season": 0,
+    "day": 2,
+    "daysPerSeason": 90,
+    "totalTick": 1
+  },
+  "resources": {
+    "grain": {
+      "value": 48.5,
+      "rate": -1.5,
+      "min": 0,
+      "max": 9999
+    },
+    "wood": {
+      "value": 30,
+      "rate": 0,
+      "min": 0,
+      "max": 9999
+    },
+    "grose": {
+      "value": 20,
+      "rate": 0,
+      "min": 0,
+      "max": 9999
+    },
+    "piety": {
+      "value": 10,
+      "rate": 0,
+      "min": 0,
+      "max": 9999
+    }
+  },
+  "virtue": {
+    "value": 3,
+    "min": -10,
+    "max": 10
+  },
+  "monks": {
+    "total": 3,
+    "assignments": {
+      "fields": 0,
+      "woodcutting": 0,
+      "prayer": 0,
+      "scriptorium": 0
+    }
+  },
+  "productionRates": {
+    "fields": {
+      "grain": 2
+    },
+    "woodcutting": {
+      "wood": 1.5
+    },
+    "prayer": {
+      "piety": 1,
+      "grose": 0.3
+    },
+    "scriptorium": {
+      "manuscripts": 0.05
+    }
+  },
+  "consumption": {
+    "grain": 0.5
+  },
+  "seasonStats": {
+    "grainProduced": 0,
+    "woodProduced": 0,
+    "pietyGained": 0,
+    "groseEarned": 0
+  },
+  "weather": {
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+  },
+  "actors": {
+    "monastery": {
+      "id": "monastery",
+      "label": "Klášter",
+      "wealth": 50,
+      "mood": 70,
+      "piety": 40,
+      "relations": {
+        "vesnicane": 20,
+        "valach": -10,
+        "kovar": 10,
+        "inkvizitor": 0
+      }
+    },
+    "vesnicane": {
+      "id": "vesnicane",
+      "label": "Vesničané",
+      "wealth": 35,
+      "mood": 50,
+      "stores": 40,
+      "relations": {
+        "monastery": 20,
+        "valach": 30,
+        "kovar": 20
+      }
+    },
+    "valach": {
+      "id": "valach",
+      "label": "Valach",
+      "wealth": 25,
+      "mood": 60,
+      "herd": 12,
+      "relations": {
+        "monastery": 10,
+        "vesnicane": 40,
+        "kovar": 5
+      }
+    },
+    "kovar": {
+      "id": "kovar",
+      "label": "Kovář",
+      "wealth": 45,
+      "mood": 65,
+      "relations": {
+        "monastery": 15,
+        "vesnicane": 50,
+        "valach": 5
+      }
+    },
+    "inkvizitor": {
+      "id": "inkvizitor",
+      "label": "Inkvizitor",
+      "wealth": 80,
+      "mood": 50,
+      "tension": 0,
+      "active": false,
+      "relations": {
+        "monastery": 0
+      }
+    }
+  },
+  "gm": {
+    "abbot_name": "Bratr Augustin",
+    "abbot_mood": "klidný",
+    "abbot_virtue": 7,
+    "abbot_portrait": null,
+    "scrinium_open": true,
+    "abbot_message": null,
+    "tension_modifier": 0,
+    "event_inject": null
+  },
+  "log": [
+    {
+      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "engine",
+      "tick": 0,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    }
+  ],
+  "_chainQueue": [],
+  "_lastChronicle": {},
+  "flags": {
+    "started": true,
+    "paused": false,
+    "consecutiveFamines": 0,
+    "winterCascade": null
+  }
+}

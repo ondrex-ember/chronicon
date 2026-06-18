@@ -1,0 +1,422 @@
+[
+  {
+    "id": "mono_001",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "A",
+    "icon": "🪰",
+    "tags": ["mouchy", "pivovar", "sýrárna", "léto"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1, 2],
+      "weather_keys": ["summer_heatwave", "summer_clear", "summer_ideal", "autumn_clear"]
+    },
+    "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule."
+  },
+  {
+    "id": "mono_002",
+    "source": "monastery_internal",
+    "source_label": "Zápis skriptora",
+    "type": "A",
+    "icon": "📖",
+    "tags": ["skriptorium", "moucha", "iniciála", "trest"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1, 2],
+      "weather_keys": ["summer_heatwave", "summer_clear", "summer_ideal"]
+    },
+    "text_cs": "Bratr Tomáš byl uvržen o chlebu a vodě do cely, neboť během opisování Žalmů ve vzteku rozplácl mouchu přímo na stránce s drahocennou zlatou iniciálou a zničil tak týdenní práci."
+  },
+  {
+    "id": "mono_003",
+    "source": "monastery_internal",
+    "source_label": "Zápis sklepmistra",
+    "type": "B",
+    "icon": "🍺",
+    "tags": ["pivovar", "zima", "zásoby", "led"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_frost", "winter_blizzard", "winter_snow"]
+    },
+    "text_cs": "Sklepmistr hlásí: Pivo ve sklepě začalo mrzat. Tři sudy praskly. Bratři jsou zarmouceni. Opat nařídil přesunout zbývající zásoby blíže ke kuchyni, kde hoří oheň."
+  },
+  {
+    "id": "mono_004",
+    "source": "monastery_internal",
+    "source_label": "Zápis zahradníka",
+    "type": "E",
+    "icon": "🌿",
+    "tags": ["zahrada", "byliny", "jaro", "úroda"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": ["spring_clear", "spring_rain", "spring_heavy_rain"]
+    },
+    "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav."
+  },
+  {
+    "id": "mono_005",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "B",
+    "icon": "❄️",
+    "tags": ["zima", "dřevo", "topení", "krize"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_frost", "winter_blizzard", "winter_snow", "winter_grey"]
+    },
+    "text_cs": "Převor zapsal: Zásoby dřeva ubývají rychleji než jsme počítali. Bratři spí v hábitech a v rukavicích. Opat povolil výjimečně tři hřejivé polévky denně místo dvou."
+  },
+  {
+    "id": "mono_006",
+    "source": "monastery_internal",
+    "source_label": "Zápis skriptora",
+    "type": "E",
+    "icon": "📜",
+    "tags": ["skriptorium", "zima", "jasno", "rukopis"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_clear"]
+    },
+    "text_cs": "Bratr opisovač zapsal: Jasná zimní světla jsou pro skriptorium požehnáním. Slunce svítí nízko, ale dlouho, a stránky jsou vidět dobře. Dokončili jsme dnes dvě folia navíc."
+  },
+  {
+    "id": "mono_007",
+    "source": "monastery_internal",
+    "source_label": "Zápis kuchmistra",
+    "type": "A",
+    "icon": "🍲",
+    "tags": ["kuchyně", "půst", "jaro", "jídlo"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": null
+    },
+    "text_cs": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť."
+  },
+  {
+    "id": "mono_008",
+    "source": "monastery_internal",
+    "source_label": "Zápis zahradníka",
+    "type": "B",
+    "icon": "🌨️",
+    "tags": ["zahrada", "mráz", "jaro", "škoda"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": ["spring_late_frost"]
+    },
+    "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně."
+  },
+  {
+    "id": "mono_009",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "A",
+    "icon": "🌫️",
+    "tags": ["mlha", "chór", "modlitba", "podzim"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [2],
+      "weather_keys": ["autumn_fog"]
+    },
+    "text_cs": "Převor zapsal: Mlha leží nad klášterem již třetí den. V chóru je šero i v poledne. Bratři zpívají oficium při svíčkách. Bratr varhaník říká, že vlhkost škodí nástrojům."
+  },
+  {
+    "id": "mono_010",
+    "source": "monastery_internal",
+    "source_label": "Zápis sklepmistra",
+    "type": "E",
+    "icon": "🍷",
+    "tags": ["víno", "podzim", "sklizeň", "dobrá zpráva"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [2],
+      "weather_keys": ["autumn_clear", "autumn_golden"]
+    },
+    "text_cs": "Sklepmistr hlásí s radostí: Letošní víno z vinohradu u jižní zdi bude dobré. Hrozny byly sladké a zdravé. Opat povolil bratřím jeden pohár navíc na slavnost sv. Martina."
+  },
+  {
+    "id": "mono_011",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "A",
+    "icon": "🐈",
+    "tags": ["kočka", "myši", "skriptorium", "zima"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3, 0],
+      "weather_keys": null
+    },
+    "text_cs": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne."
+  },
+  {
+    "id": "mono_012",
+    "source": "monastery_internal",
+    "source_label": "Zápis infirmáře",
+    "type": "B",
+    "icon": "🤧",
+    "tags": ["nemoc", "nachlazení", "zima", "infirmář"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_frost", "winter_blizzard", "winter_snow", "winter_grey"]
+    },
+    "text_cs": "Bratr infirmář hlásí: Pět bratří leží s horečkou a kašlem. Zásoby medu a zázvoru docházejí. Žádám převora o povolení koupit nové zásoby na trhu, dokud je to možné."
+  },
+  {
+    "id": "mono_013",
+    "source": "monastery_internal",
+    "source_label": "Zápis kuchmistra",
+    "type": "E",
+    "icon": "🌾",
+    "tags": ["sklizeň", "podzim", "zásoby", "dobrá zpráva"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [2],
+      "weather_keys": ["autumn_clear", "autumn_golden", "autumn_rain"]
+    },
+    "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara."
+  },
+  {
+    "id": "mono_014",
+    "source": "monastery_internal",
+    "source_label": "Zápis zahradníka",
+    "type": "A",
+    "icon": "🐦",
+    "tags": ["ptáci", "zahrada", "léto", "třešně"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1],
+      "weather_keys": ["summer_clear", "summer_ideal", "summer_cloudy"]
+    },
+    "text_cs": "Bratr zahradník si stěžuje: Špačci a drozdi sezobali téměř všechny třešně ještě než jsme je stihli sklidit. Bratr vrátný říká, že mu to přijde spravedlivé, neboť ptáci se také potřebují najíst."
+  },
+  {
+    "id": "mono_015",
+    "source": "monastery_internal",
+    "source_label": "Zápis skriptora",
+    "type": "A",
+    "icon": "🌧️",
+    "tags": ["déšť", "skriptorium", "vlhkost", "rukopis"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0, 1, 2],
+      "weather_keys": ["spring_heavy_rain", "summer_storm", "autumn_storm", "autumn_rain"]
+    },
+    "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden."
+  },
+  {
+    "id": "mono_016",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "B",
+    "icon": "⛈️",
+    "tags": ["bouřka", "střecha", "škoda", "léto"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1, 2],
+      "weather_keys": ["summer_storm", "autumn_storm"]
+    },
+    "text_cs": "Převor zapsal: Noční bouřka poškodila část střechy nad dormitářem. Bratři spali v mokru. Ráno bylo nálada v klášteře velmi špatná. Zedník přijde posoudit škody ve čtvrtek."
+  },
+  {
+    "id": "mono_017",
+    "source": "monastery_internal",
+    "source_label": "Zápis cantora",
+    "type": "A",
+    "icon": "🎵",
+    "tags": ["chór", "hlas", "zima", "nachlazení"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_frost", "winter_blizzard", "winter_snow"]
+    },
+    "text_cs": "Cantor zapsal s nevolí: Ze čtrnácti bratří v chóru mají dnes hlas pouze čtyři. Ostatní chrapí jako vrány po dešti. Ranní oficium znělo jako rozladěné varhany. Modlíme se, aby nás Bůh slyšel přesto."
+  },
+  {
+    "id": "mono_018",
+    "source": "monastery_internal",
+    "source_label": "Zápis vrátného",
+    "type": "A",
+    "icon": "🚪",
+    "tags": ["poutníci", "léto", "brána", "návštěva"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1],
+      "weather_keys": ["summer_clear", "summer_ideal", "summer_cloudy"]
+    },
+    "text_cs": "Bratr vrátný zapsal: Přišlo dnes sedm poutníků, dvě rodiny s dětmi a jeden mnich, jehož klášter neznáme. Všichni chtěli noclehu, jídlo a vodu. Přijali jsme je. Ráno odešli bez poděkování, ale to k tomu patří."
+  },
+  {
+    "id": "mono_019",
+    "source": "monastery_internal",
+    "source_label": "Zápis infirmáře",
+    "type": "E",
+    "icon": "🌿",
+    "tags": ["byliny", "léčení", "jaro", "infirmář"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": ["spring_clear", "spring_rain", "spring_cloudy"]
+    },
+    "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas."
+  },
+  {
+    "id": "mono_020",
+    "source": "monastery_internal",
+    "source_label": "Zápis kuchmistra",
+    "type": "A",
+    "icon": "🐷",
+    "tags": ["zabijačka", "zima", "maso", "zásoby"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3, 0],
+      "weather_keys": ["winter_snow", "winter_frost", "winter_clear", "winter_grey"]
+    },
+    "text_cs": "Kuchmistr zapsal: Dnes jsme porazili dvě prasata. Bratři pomáhali s radostí, která je na postech nevídaná. Sůl, uzení, jitrnice. Na tři dny je v klášteře výjimečně dobrá nálada."
+  },
+  {
+    "id": "mono_021",
+    "source": "monastery_internal",
+    "source_label": "Zápis sklepmistra",
+    "type": "B",
+    "icon": "🍺",
+    "tags": ["pivovar", "bouřka", "chmel", "zásoby"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1, 2],
+      "weather_keys": ["summer_storm", "summer_drought", "autumn_storm"]
+    },
+    "text_cs": "Sklepmistr hlásí: Letošní chmel trpěl. Zásoby na zimní vaření piva budou o třetinu menší než vloni. Bratři tuto zprávu přijali tiše, ale smutek byl v jejich očích zřejmý."
+  },
+  {
+    "id": "mono_022",
+    "source": "monastery_internal",
+    "source_label": "Zápis zahradníka",
+    "type": "E",
+    "icon": "🌸",
+    "tags": ["zahrada", "jaro", "květy", "dobrá zpráva"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": ["spring_clear", "spring_rain"]
+    },
+    "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný."
+  },
+  {
+    "id": "mono_023",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "A",
+    "icon": "🌊",
+    "tags": ["povodeň", "sklep", "jaro", "škoda"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [0],
+      "weather_keys": ["spring_heavy_rain", "spring_rain"]
+    },
+    "text_cs": "Převor zapsal: Tání sněhu a dešť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet."
+  },
+  {
+    "id": "mono_024",
+    "source": "monastery_internal",
+    "source_label": "Zápis cantora",
+    "type": "E",
+    "icon": "🎵",
+    "tags": ["chór", "zima", "jasno", "modlitba"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_clear"]
+    },
+    "text_cs": "Cantor zapsal: Dnešní ranní officium bylo nádherné. Jasné mrazivé ráno, ticho, bratři zpívali svorně jako málokdy. Opat seděl s zavřenýma očima celou dobu. Myslím, že plakal, ale to nenapíšu."
+  },
+  {
+    "id": "mono_025",
+    "source": "monastery_internal",
+    "source_label": "Zápis vrátného",
+    "type": "B",
+    "icon": "🐺",
+    "tags": ["vlci", "zima", "brána", "nebezpečí"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_blizzard", "winter_frost", "winter_snow"]
+    },
+    "text_cs": "Bratr vrátný zapsal: V noci bylo u brány slyšet vytí. Ráno jsme našli stopy ve sněhu — velký vlk obcházel zeď. Bratři, kteří chodí do sklepa po setmění, žádají o lampáš a doprovod."
+  },
+  {
+    "id": "mono_026",
+    "source": "monastery_internal",
+    "source_label": "Zápis kuchmistra",
+    "type": "A",
+    "icon": "🐛",
+    "tags": ["zásoby", "brouci", "léto", "obilí"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1, 2],
+      "weather_keys": ["summer_heatwave", "summer_clear", "summer_ideal"]
+    },
+    "text_cs": "Kuchmistr hlásí s nechutí: V zásobárně se objevili brouci v obilí. Dva pytle musely být vyhozeny. Opat nařídil vše prohledat, vysypat a znovu uložit. Práce na dva dny. Bratři reptají."
+  },
+  {
+    "id": "mono_027",
+    "source": "monastery_internal",
+    "source_label": "Zápis infirmáře",
+    "type": "A",
+    "icon": "🐝",
+    "tags": ["včely", "bodnutí", "léto", "infirmář"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [1],
+      "weather_keys": ["summer_clear", "summer_ideal", "summer_heatwave"]
+    },
+    "text_cs": "Bratr infirmář zapsal: Bratr včelař byl dnes bodnut čtyřikrát při přesunu úlů. Přišel do infirmáře s tváří jako buchta. Říká, že včely jsou letos agresivní kvůli horku. Bude v pořádku, ale musí odpočívat."
+  },
+  {
+    "id": "mono_028",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "E",
+    "icon": "☀️",
+    "tags": ["obleva", "zima", "radost", "zahrada"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [3],
+      "weather_keys": ["winter_thaw"]
+    },
+    "text_cs": "Převor zapsal: Přišla nečekaná obleva. Bratři vyšli po týdnech ven na nádvoří a stáli na slunci jako omráčení. Bratr zahradník prohlídl záhony a říká, že cibule přežila. Bůh je milosrdný."
+  },
+  {
+    "id": "mono_029",
+    "source": "monastery_internal",
+    "source_label": "Zápis skriptora",
+    "type": "A",
+    "icon": "🍂",
+    "tags": ["skriptorium", "podzim", "světlo", "práce"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [2],
+      "weather_keys": ["autumn_fog", "autumn_rain", "autumn_storm"]
+    },
+    "text_cs": "Bratr opisovač zapsal: Dny se krátí a světla ubývá. Práce ve skriptoriu se zpomaluje. Přidali jsme svíce, ale vosk nestačí a oči bolí. Bratr Metoděj žádá o silnější brýle — pokud takové existují."
+  },
+  {
+    "id": "mono_030",
+    "source": "monastery_internal",
+    "source_label": "Zápis převora",
+    "type": "E",
+    "icon": "🌤️",
+    "tags": ["babí léto", "podzim", "nálada", "klášter"],
+    "delay_days": 0,
+    "conditions": {
+      "season": [2],
+      "weather_keys": ["autumn_golden"]
+    },
+    "text_cs": "Převor zapsal: Babí léto přineslo do kláštera neobvyklou pohodu. Bratři pracují s chutí, chór zní dobře, zahradník zpívá u záhonů. Opat říká, že toto je odměna za trpělivost. Možná má pravdu."
+  }
+]
