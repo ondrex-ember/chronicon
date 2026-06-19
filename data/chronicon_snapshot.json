@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-19T18:03:02.080Z",
-  "valid_until": "2026-06-26T18:03:02.080Z",
+  "generated": "2026-06-19T23:03:58.472Z",
+  "valid_until": "2026-06-26T23:03:58.472Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 10,
-    "total_tick": 9,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 10"
+    "day": 11,
+    "total_tick": 10,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 11"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,48 @@
     }
   },
   "resources": {
-    "grain": 36.5,
+    "grain": 35,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_cs": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_en": "A pigeon brought news from a trading post: The city of Calais has held the siege for six months. Citizens are said to be eating cats and rats. The English king refuses to negotiate. Merchants await the end, as roads across the strait are impassable.",
+      "type": "C",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
+    {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
+    {
+      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_cs": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
+      "type": "A",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -239,29 +275,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
-    },
-    {
-      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "engine",
-      "tick": 0,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
+    {
+      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_cs": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
+      "type": "A",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
     {
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
       "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
@@ -349,29 +389,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 4
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 3,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 4
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_cs": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_en": "A pigeon brought news from a trading post: The city of Calais has held the siege for six months. Citizens are said to be eating cats and rats. The English king refuses to negotiate. Merchants await the end, as roads across the strait are impassable.",
+      "type": "C",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -452,7 +484,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 10,
+    "day_of_year": 11,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

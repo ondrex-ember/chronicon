@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 10,
+    "day": 11,
     "daysPerSeason": 90,
-    "totalTick": 9
+    "totalTick": 10
   },
   "resources": {
     "grain": {
-      "value": 36.5,
+      "value": 35,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_cs": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
+      "text_en": "A pigeon brought news from a trading post: The city of Calais has held the siege for six months. Citizens are said to be eating cats and rats. The English king refuses to negotiate. Merchants await the end, as roads across the strait are impassable.",
+      "type": "C",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
+    {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
+    {
+      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_cs": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
+      "type": "A",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 10,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 11
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -358,7 +394,7 @@
   "_chainQueue": [],
   "_lastChronicle": {
     "mono_007": {
-      "tick": 2,
+      "tick": 10,
       "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť."
     },
     "local_016": {
@@ -424,6 +460,14 @@
     "zbras_002": {
       "tick": 9,
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
+    },
+    "local_013": {
+      "tick": 10,
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby."
+    },
+    "frois_002": {
+      "tick": 10,
+      "text": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné."
     }
   },
   "flags": {
