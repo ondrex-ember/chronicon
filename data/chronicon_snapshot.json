@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-18T23:49:32.382Z",
-  "valid_until": "2026-06-25T23:49:32.382Z",
+  "generated": "2026-06-19T09:08:22.518Z",
+  "valid_until": "2026-06-26T09:08:22.518Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,10 +11,10 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
     "modifier_grain": 1,
     "modifier_wood": 1
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 7,
-    "total_tick": 6,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 7"
+    "day": 8,
+    "total_tick": 7,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 8"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,24 @@
     }
   },
   "resources": {
-    "grain": 41,
+    "grain": 39.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_cs": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_en": "Parisian notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
     {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
@@ -275,6 +287,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_cs": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_en": "Parisian notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
+    {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
@@ -318,7 +342,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 7,
+    "day_of_year": 8,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
