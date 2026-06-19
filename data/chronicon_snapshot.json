@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-19T13:38:40.243Z",
-  "valid_until": "2026-06-26T13:38:40.243Z",
+  "generated": "2026-06-19T18:03:02.080Z",
+  "valid_until": "2026-06-26T18:03:02.080Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 9,
-    "total_tick": 8,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 9"
+    "day": 10,
+    "total_tick": 9,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 10"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,48 @@
     }
   },
   "resources": {
-    "grain": 38,
+    "grain": 36.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -227,6 +263,30 @@
   ],
   "chronicle_local": [
     {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
       "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
       "text_cs": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
       "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
@@ -309,19 +369,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -390,7 +452,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 9,
+    "day_of_year": 10,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 9,
+    "day": 10,
     "daysPerSeason": 90,
-    "totalTick": 8
+    "totalTick": 9
   },
   "resources": {
     "grain": {
-      "value": 38,
+      "value": 36.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -376,6 +412,18 @@
     "coroner_003": {
       "tick": 8,
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod."
+    },
+    "mono_022": {
+      "tick": 9,
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný."
+    },
+    "local_020": {
+      "tick": 9,
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár."
+    },
+    "zbras_002": {
+      "tick": 9,
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
     }
   },
   "flags": {
