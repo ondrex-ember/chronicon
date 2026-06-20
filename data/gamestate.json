@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 6,
+    "day": 7,
     "daysPerSeason": 90,
-    "totalTick": 5
+    "totalTick": 6
   },
   "resources": {
     "grain": {
-      "value": 42.5,
+      "value": 41,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
+      "type": "C",
+      "icon": "⚓",
+      "source": "distant_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
     {
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
       "type": "B",
@@ -300,6 +336,18 @@
     "bourgeois_002": {
       "tick": 5,
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se."
+    },
+    "mono_022": {
+      "tick": 6,
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný."
+    },
+    "local_008": {
+      "tick": 6,
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění."
+    },
+    "datini_005": {
+      "tick": 6,
+      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží."
     }
   },
   "flags": {

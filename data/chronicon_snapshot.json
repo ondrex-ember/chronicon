@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-18T19:59:59.987Z",
-  "valid_until": "2026-06-25T19:59:59.987Z",
+  "generated": "2026-06-20T07:35:53.302Z",
+  "valid_until": "2026-06-27T07:35:53.302Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 6,
-    "total_tick": 5,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 6"
+    "day": 7,
+    "total_tick": 6,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 7"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,48 @@
     }
   },
   "resources": {
-    "grain": 42.5,
+    "grain": 41,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
+      "type": "C",
+      "icon": "⚓",
+      "source": "distant_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
     {
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
       "type": "B",
@@ -143,44 +179,40 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
+    },
+    {
+      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "type": "A",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 2,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 3
+    },
+    {
+      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "engine",
+      "tick": 0,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
     }
   ],
   "chronicle_local": [
     {
-      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
       "type": "B",
-      "icon": "⚔️",
+      "icon": "🗡️",
       "source": "local_events",
-      "tick": 10,
+      "tick": 6,
       "year": 1465,
       "season": "Jaro",
-      "day": 11
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_cs": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 10,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 11
-    },
-    {
-      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 9,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 10
+      "day": 7
     },
     {
       "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
@@ -189,37 +221,11 @@
       "type": "E",
       "icon": "🌸",
       "source": "monastery_internal",
-      "tick": 9,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 10
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_cs": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 9
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
       "tick": 6,
       "year": 1465,
       "season": "Jaro",
-      "day": 1
-    }
-  ],
-  "chronicle_local": [
+      "day": 7
+    },
     {
       "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
       "type": "A",
@@ -259,71 +265,51 @@
       "year": 1465,
       "season": "Jaro",
       "day": 4
-    }
-  ],
-  "chronicle_distant": [
-    {
-      "text": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
-      "text_cs": "Holub přinesl zprávu z obchodní faktorie: Město Calais drží obléhání již šest měsíců. Měšťané prý pojídají kočky a krysy. Anglický král odmítl vyjednávat. Kupci čekají na konec, neboť cesty přes průliv jsou neprůchodné.",
-      "text_en": "A pigeon brought news from a trading post: The city of Calais has held the siege for six months. Citizens are said to be eating cats and rats. The English king refuses to negotiate. Merchants await the end, as roads across the strait are impassable.",
-      "type": "C",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 10,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 11
     },
     {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 9,
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 3,
       "year": 1465,
       "season": "Jaro",
-      "day": 10
+      "day": 4
     },
     {
-      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
       "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 8,
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 2,
       "year": 1465,
       "season": "Jaro",
-      "day": 9
+      "day": 3
     },
     {
-      "text": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_cs": "Pařížský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_en": "Parisian notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
       "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 8
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 6,
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 2,
       "year": 1465,
       "season": "Jaro",
       "day": 3
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
+      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
+      "type": "C",
+      "icon": "⚓",
+      "source": "distant_events",
+      "tick": 6,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 7
+    },
     {
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
       "type": "B",
@@ -356,7 +342,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 6,
+    "day_of_year": 7,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
