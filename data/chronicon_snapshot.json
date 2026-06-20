@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-20T12:01:51.900Z",
-  "valid_until": "2026-06-27T12:01:51.900Z",
+  "generated": "2026-06-20T12:50:59.074Z",
+  "valid_until": "2026-06-27T12:50:59.074Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 9,
-    "total_tick": 8,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 9"
+    "day": 10,
+    "total_tick": 9,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 10"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,24 @@
     }
   },
   "resources": {
-    "grain": 38,
+    "grain": 36.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
     {
       "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
       "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
@@ -239,6 +251,18 @@
   ],
   "chronicle_local": [
     {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 9,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 10
+    },
+    {
       "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
       "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
       "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
@@ -335,16 +359,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 4
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "chronicle_distant": [
@@ -404,7 +418,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 9,
+    "day_of_year": 10,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
