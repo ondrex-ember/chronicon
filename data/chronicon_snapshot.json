@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-20T07:54:20.620Z",
-  "valid_until": "2026-06-27T07:54:20.620Z",
+  "generated": "2026-06-20T12:01:51.900Z",
+  "valid_until": "2026-06-27T12:01:51.900Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,22 +11,22 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
-    "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.2,
-    "modifier_wood": 0.9
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 8,
-    "total_tick": 7,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 8"
+    "day": 9,
+    "total_tick": 8,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 9"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,24 @@
     }
   },
   "resources": {
-    "grain": 39.5,
+    "grain": 38,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 8,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 9
+    },
     {
       "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
       "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
@@ -227,6 +239,18 @@
   ],
   "chronicle_local": [
     {
+      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 8,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 9
+    },
+    {
       "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
       "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
       "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
@@ -321,16 +345,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "chronicle_distant": [
@@ -390,7 +404,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 8,
+    "day_of_year": 9,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
