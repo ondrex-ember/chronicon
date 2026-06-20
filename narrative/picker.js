@@ -54,13 +54,25 @@ function monthFits(entry) {
 
 // ============================================
 //  Picker
+//
+//  Pravděpodobnostní gates — i když podmínky
+//  (sezóna/počasí/month_hint) sedí, zpráva se
+//  nepřidá vždy. To rozprostírá feed v čase a
+//  dělá ho méně předvídatelným.
+//  0 zpráv za tick je výjimečné (~0.75 % šancí).
 // ============================================
+
+const PROB_MONASTERY = 0.75;
+const PROB_LOCAL     = 0.85;
+const PROB_DISTANT   = 0.80;
 
 const Picker = {
 
   // --- Monastery internal ---
   // Podmíněno sezónou + weather_key. Cooldown 8 ticků.
   pickMonastery() {
+    if (Math.random() > PROB_MONASTERY) return;
+
     const season     = GameState.time.season;
     const weatherKey = GameState.weather.key;
 
@@ -96,6 +108,8 @@ const Picker = {
   // --- Local events ---
   // Filtr dle month_hint. Cooldown 6 ticků.
   pickLocal() {
+    if (Math.random() > PROB_LOCAL) return;
+
     const candidates = LOCAL.filter(monthFits);
     if (candidates.length === 0) return;
 
@@ -119,6 +133,8 @@ const Picker = {
   // --- Distant events ---
   // Filtr dle month_hint. Cooldown 10 ticků.
   pickDistant() {
+    if (Math.random() > PROB_DISTANT) return;
+
     const candidates = DISTANT.filter(monthFits);
     if (candidates.length === 0) return;
 
