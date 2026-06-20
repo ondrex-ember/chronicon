@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 11,
+    "day": 12,
     "daysPerSeason": 90,
-    "totalTick": 10
+    "totalTick": 11
   },
   "resources": {
     "grain": {
-      "value": 35,
+      "value": 33.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 11,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 12
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -428,6 +440,10 @@
     "local_012": {
       "tick": 10,
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna."
+    },
+    "datini_008": {
+      "tick": 11,
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt."
     }
   },
   "flags": {

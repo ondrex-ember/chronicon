@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-20T14:01:08.057Z",
-  "valid_until": "2026-06-27T14:01:08.057Z",
+  "generated": "2026-06-20T14:24:29.680Z",
+  "valid_until": "2026-06-27T14:24:29.680Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 11,
-    "total_tick": 10,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 11"
+    "day": 12,
+    "total_tick": 11,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 12"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,24 @@
     }
   },
   "resources": {
-    "grain": 35,
+    "grain": 33.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 11,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 12
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -377,6 +389,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 11,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 12
+    },
+    {
       "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
       "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
       "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
@@ -432,7 +456,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 11,
+    "day_of_year": 12,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
