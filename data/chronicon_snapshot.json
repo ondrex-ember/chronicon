@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-20T14:24:29.680Z",
-  "valid_until": "2026-06-27T14:24:29.680Z",
+  "generated": "2026-06-20T17:40:17.500Z",
+  "valid_until": "2026-06-27T17:40:17.500Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 12,
-    "total_tick": 11,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 12"
+    "day": 13,
+    "total_tick": 12,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 13"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 33.5,
+    "grain": 32,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
+      "type": "D",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
     {
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
@@ -251,29 +275,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
-    },
-    {
-      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "engine",
-      "tick": 0,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -375,19 +391,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 5
-    },
-    {
-      "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 3,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 4
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
+      "type": "D",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
     {
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
@@ -456,7 +474,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 12,
+    "day_of_year": 13,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 12,
+    "day": 13,
     "daysPerSeason": 90,
-    "totalTick": 11
+    "totalTick": 12
   },
   "resources": {
     "grain": {
-      "value": 33.5,
+      "value": 32,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
+      "type": "D",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 12,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 13
+    },
     {
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
@@ -444,6 +468,14 @@
     "datini_008": {
       "tick": 11,
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt."
+    },
+    "local_022": {
+      "tick": 12,
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká."
+    },
+    "datini_028": {
+      "tick": 12,
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami."
     }
   },
   "flags": {
