@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-20T07:35:53.302Z",
-  "valid_until": "2026-06-27T07:35:53.302Z",
+  "generated": "2026-06-20T07:54:20.620Z",
+  "valid_until": "2026-06-27T07:54:20.620Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,22 +11,22 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
     "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
     "season": 0,
-    "modifier_grain": 1.15,
-    "modifier_wood": 1
+    "modifier_grain": 1.2,
+    "modifier_wood": 0.9
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 7,
-    "total_tick": 6,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 7"
+    "day": 8,
+    "total_tick": 7,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 8"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 41,
+    "grain": 39.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
+    {
+      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
+      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
+      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
     {
       "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
       "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
@@ -203,6 +227,18 @@
   ],
   "chronicle_local": [
     {
+      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
+      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
+      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
+    {
       "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
@@ -299,6 +335,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 8
+    },
+    {
       "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
       "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
       "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
@@ -342,7 +390,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 7,
+    "day_of_year": 8,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
