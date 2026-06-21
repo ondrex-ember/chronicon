@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-21T17:44:11.693Z",
-  "valid_until": "2026-06-28T17:44:11.693Z",
+  "generated": "2026-06-21T23:21:24.186Z",
+  "valid_until": "2026-06-28T23:21:24.186Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,22 +11,22 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
+    "icon": "🌧",
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
     "season": 0,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 1.2,
+    "modifier_wood": 0.9
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 17,
-    "total_tick": 16,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 17"
+    "day": 18,
+    "total_tick": 17,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 18"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 26,
+    "grain": 24.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
+      "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
+      "text_en": "From the notes of the Zbraslav monks, transcribed for memory: The king arrived at the monastery unannounced, with four riders. The abbot gave him food and drink. The king asked nothing about resources, only about prayers. He departed the same night.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 18
+    },
+    {
+      "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
+      "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
+      "text_en": "The prior wrote: The snowmelt and rain caused water to seep into the cellar. The stores of root vegetables are destroyed. Brothers spent the whole day carrying out water in buckets. The abbot prayed, the brothers grumbled — quietly, but it could be heard.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 17,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 18
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -269,29 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 7
-    },
-    {
-      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 6
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 6
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
+      "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
+      "text_en": "The prior wrote: The snowmelt and rain caused water to seep into the cellar. The stores of root vegetables are destroyed. Brothers spent the whole day carrying out water in buckets. The abbot prayed, the brothers grumbled — quietly, but it could be heard.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 17,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 18
+    },
     {
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
       "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
@@ -399,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 8
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 6,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 7
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
+      "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
+      "text_en": "From the notes of the Zbraslav monks, transcribed for memory: The king arrived at the monastery unannounced, with four riders. The abbot gave him food and drink. The king asked nothing about resources, only about prayers. He departed the same night.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 18
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -517,20 +533,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 5
-    },
-    {
-      "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "church_calendar": {
-    "day_of_year": 17,
+    "day_of_year": 18,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
