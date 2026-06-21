@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 14,
+    "day": 15,
     "daysPerSeason": 90,
-    "totalTick": 13
+    "totalTick": 14
   },
   "resources": {
     "grain": {
-      "value": 30.5,
+      "value": 29,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 14,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 15
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 14,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 15
+    },
     {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
@@ -508,6 +532,14 @@
     "datini_001": {
       "tick": 13,
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality."
+    },
+    "local_011": {
+      "tick": 14,
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy."
+    },
+    "praha_003": {
+      "tick": 14,
+      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem."
     }
   },
   "flags": {
