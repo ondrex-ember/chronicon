@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 19,
+    "day": 20,
     "daysPerSeason": 90,
-    "totalTick": 18
+    "totalTick": 19
   },
   "resources": {
     "grain": {
-      "value": 23,
+      "value": 21.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 19,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 20
+    },
     {
       "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
       "text_cs": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
@@ -570,7 +582,7 @@
       "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne."
     },
     "local_002": {
-      "tick": 5,
+      "tick": 19,
       "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem."
     },
     "bourgeois_002": {
