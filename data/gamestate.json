@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 18,
+    "day": 19,
     "daysPerSeason": 90,
-    "totalTick": 17
+    "totalTick": 18
   },
   "resources": {
     "grain": {
-      "value": 24.5,
+      "value": 23,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
-    "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_cs": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_en": "News from the Florentine bank concerns a bill of exchange: the bank of the Alberti brothers in Venice sent the Datini house a bill to pay 400 ducats through the Barcelona branch. Money transfers between Italy, Spain, and Flanders form a growing part of the profit. This modern instrument of trade protects against the risk of transporting silver and gold on dangerous roads.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
     {
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
@@ -542,7 +578,7 @@
       "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se."
     },
     "mono_022": {
-      "tick": 6,
+      "tick": 18,
       "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný."
     },
     "local_008": {
@@ -616,6 +652,14 @@
     "zbras_001": {
       "tick": 17,
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci."
+    },
+    "local_003": {
+      "tick": 18,
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá."
+    },
+    "datini_032": {
+      "tick": 18,
+      "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách."
     }
   },
   "flags": {

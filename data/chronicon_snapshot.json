@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-21T23:21:24.186Z",
-  "valid_until": "2026-06-28T23:21:24.186Z",
+  "generated": "2026-06-22T09:51:36.332Z",
+  "valid_until": "2026-06-29T09:51:36.332Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,22 +11,22 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
-    "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.2,
-    "modifier_wood": 0.9
+    "modifier_grain": 1.1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 18,
-    "total_tick": 17,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 18"
+    "day": 19,
+    "total_tick": 18,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 19"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,48 @@
     }
   },
   "resources": {
-    "grain": 24.5,
+    "grain": 23,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_cs": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_en": "News from the Florentine bank concerns a bill of exchange: the bank of the Alberti brothers in Venice sent the Datini house a bill to pay 400 ducats through the Barcelona branch. Money transfers between Italy, Spain, and Flanders form a growing part of the profit. This modern instrument of trade protects against the risk of transporting silver and gold on dangerous roads.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
     {
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
@@ -257,30 +293,20 @@
       "year": 1465,
       "season": "Jaro",
       "day": 8
-    },
+    }
+  ],
+  "chronicle_local": [
     {
-      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
-      "type": "C",
-      "icon": "⚓",
-      "source": "distant_events",
-      "tick": 6,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 7
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
       "type": "B",
-      "icon": "🗡️",
+      "icon": "🔥",
       "source": "local_events",
-      "tick": 6,
+      "tick": 18,
       "year": 1465,
       "season": "Jaro",
-      "day": 7
+      "day": 19
     },
     {
       "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
@@ -289,13 +315,11 @@
       "type": "E",
       "icon": "🌸",
       "source": "monastery_internal",
-      "tick": 6,
+      "tick": 18,
       "year": 1465,
       "season": "Jaro",
-      "day": 7
-    }
-  ],
-  "chronicle_local": [
+      "day": 19
+    },
     {
       "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
       "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 10
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 9
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 8
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_cs": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
+      "text_en": "News from the Florentine bank concerns a bill of exchange: the bank of the Alberti brothers in Venice sent the Datini house a bill to pay 400 ducats through the Barcelona branch. Money transfers between Italy, Spain, and Flanders form a growing part of the profit. This modern instrument of trade protects against the risk of transporting silver and gold on dangerous roads.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 19
+    },
     {
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
@@ -523,20 +535,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 6
-    },
-    {
-      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 4,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 5
     }
   ],
   "church_calendar": {
-    "day_of_year": 18,
+    "day_of_year": 19,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
