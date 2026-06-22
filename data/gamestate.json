@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 20,
+    "day": 21,
     "daysPerSeason": 90,
-    "totalTick": 19
+    "totalTick": 20
   },
   "resources": {
     "grain": {
-      "value": 21.5,
+      "value": 20,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
+      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
+      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
+      "type": "B",
+      "icon": "🌨️",
+      "source": "monastery_internal",
+      "tick": 20,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 21
+    },
     {
       "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
       "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
@@ -672,6 +684,10 @@
     "datini_032": {
       "tick": 18,
       "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách."
+    },
+    "mono_008": {
+      "tick": 20,
+      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně."
     }
   },
   "flags": {
