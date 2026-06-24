@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 26,
+    "day": 27,
     "daysPerSeason": 90,
-    "totalTick": 25
+    "totalTick": 26
   },
   "resources": {
     "grain": {
-      "value": 12.5,
+      "value": 11,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
+      "text_cs": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌨",
+      "source": "weather",
+      "tick": 26,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 26
+    },
     {
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
