@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-24T07:49:25.971Z",
-  "valid_until": "2026-07-01T07:49:25.971Z",
+  "generated": "2026-06-24T12:22:39.442Z",
+  "valid_until": "2026-07-01T12:22:39.442Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 0.75,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 27,
-    "total_tick": 26,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 27"
+    "day": 28,
+    "total_tick": 27,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 28"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 11,
+    "grain": 9.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 28
+    },
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 28
+    },
     {
       "text": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
       "text_cs": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 17
-    },
-    {
-      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 16,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 17
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 16,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 17
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 28
+    },
     {
       "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
       "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 19
-    },
-    {
-      "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_en": "The prior wrote: The snowmelt and rain caused water to seep into the cellar. The stores of root vegetables are destroyed. Brothers spent the whole day carrying out water in buckets. The abbot prayed, the brothers grumbled — quietly, but it could be heard.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 17,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 18
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 28
+    },
     {
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 14
-    },
-    {
-      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
-      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
-      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
-      "type": "D",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 12,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 13
     }
   ],
   "church_calendar": {
-    "day_of_year": 27,
+    "day_of_year": 28,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
