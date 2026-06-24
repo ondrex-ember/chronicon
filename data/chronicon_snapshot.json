@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-24T12:22:39.442Z",
-  "valid_until": "2026-07-01T12:22:39.442Z",
+  "generated": "2026-06-24T18:01:04.797Z",
+  "valid_until": "2026-07-01T18:01:04.797Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 28,
-    "total_tick": 27,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 28"
+    "day": 29,
+    "total_tick": 28,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 29"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 9.5,
+    "grain": 8,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 29
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 28,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 29
+    },
     {
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
@@ -269,33 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 18
-    },
-    {
-      "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_en": "The prior wrote: The snowmelt and rain caused water to seep into the cellar. The stores of root vegetables are destroyed. Brothers spent the whole day carrying out water in buckets. The abbot prayed, the brothers grumbled — quietly, but it could be heard.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 17,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 18
-    },
-    {
-      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 16,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 17
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 29
+    },
+    {
+      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
+      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
+      "type": "E",
+      "icon": "🌸",
+      "source": "monastery_internal",
+      "tick": 28,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 29
+    },
     {
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 20
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 18,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 19
-    },
-    {
-      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
-      "type": "E",
-      "icon": "🌸",
-      "source": "monastery_internal",
-      "tick": 18,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 19
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 28,
+    "day_of_year": 29,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
