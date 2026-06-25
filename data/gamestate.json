@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 31,
+    "day": 32,
     "daysPerSeason": 90,
-    "totalTick": 30
+    "totalTick": 31
   },
   "resources": {
     "grain": {
-      "value": 5,
+      "value": 3.5,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
+      "type": "E",
+      "icon": "🧪",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
     {
       "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
       "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
@@ -870,7 +894,7 @@
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality."
     },
     "local_011": {
-      "tick": 14,
+      "tick": 31,
       "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy."
     },
     "praha_003": {
@@ -940,6 +964,10 @@
     "datini_018": {
       "tick": 29,
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství."
+    },
+    "datini_019": {
+      "tick": 31,
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách."
     }
   },
   "flags": {

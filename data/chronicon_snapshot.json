@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-25T07:50:48.633Z",
-  "valid_until": "2026-07-02T07:50:48.633Z",
+  "generated": "2026-06-25T12:26:19.617Z",
+  "valid_until": "2026-07-02T12:26:19.617Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 31,
-    "total_tick": 30,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 31"
+    "day": 32,
+    "total_tick": 31,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 32"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 5,
+    "grain": 3.5,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
+      "type": "E",
+      "icon": "🧪",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
     {
       "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
       "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 22
-    },
-    {
-      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
-      "type": "B",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 20,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 21
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 19,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 20
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
     {
       "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
       "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 24
-    },
-    {
-      "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_en": "From Lipník: There was a good catch on the Bečva. Carp and pike are at a reasonable price this week. A merchant from Olomouc arrived with a cart and bought half the catch still on the bank. Little was left for the locals.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "local_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 23
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
+      "type": "E",
+      "icon": "🧪",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 32
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 17
-    },
-    {
-      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 14,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 15
     }
   ],
   "church_calendar": {
-    "day_of_year": 31,
+    "day_of_year": 32,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
