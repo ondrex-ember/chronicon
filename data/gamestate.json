@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 36,
+    "day": 37,
     "daysPerSeason": 90,
-    "totalTick": 35
+    "totalTick": 36
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
     {
       "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
       "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
@@ -1002,7 +1026,7 @@
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci."
     },
     "local_003": {
-      "tick": 28,
+      "tick": 36,
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá."
     },
     "datini_032": {
@@ -1068,12 +1092,16 @@
     "local_027": {
       "tick": 35,
       "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení."
+    },
+    "zbras_002": {
+      "tick": 36,
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 2,
+    "consecutiveFamines": 3,
     "winterCascade": null
   }
 }

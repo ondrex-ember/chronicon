@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-26T12:16:16.383Z",
-  "valid_until": "2026-07-03T12:16:16.383Z",
+  "generated": "2026-06-26T17:55:35.639Z",
+  "valid_until": "2026-07-03T17:55:35.639Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 36,
-    "total_tick": 35,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 36"
+    "day": 37,
+    "total_tick": 36,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 37"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
     {
       "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
       "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 26
-    },
-    {
-      "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
-      "type": "E",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 25,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 26
-    },
-    {
-      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
-      "type": "E",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 25
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
     {
       "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
       "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 29
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 27,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 28
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 37
+    },
     {
       "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
       "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 24
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 23
     }
   ],
   "church_calendar": {
-    "day_of_year": 36,
+    "day_of_year": 37,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
