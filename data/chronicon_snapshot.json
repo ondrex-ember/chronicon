@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-25T23:23:20.280Z",
-  "valid_until": "2026-07-02T23:23:20.280Z",
+  "generated": "2026-06-26T07:58:02.021Z",
+  "valid_until": "2026-07-03T07:58:02.021Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 34,
-    "total_tick": 33,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 34"
+    "day": 35,
+    "total_tick": 34,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 35"
   },
   "actors": {
     "monastery": {
@@ -48,12 +48,36 @@
     }
   },
   "resources": {
-    "grain": 0.5,
+    "grain": 0,
     "wood": 30,
     "grose": 20,
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_en": "From the Old Czech Chronicles: The Hungarian cavalry of Matthias Corvinus crossed into Moravia and plundered three villages near Uherské Hradiště. The monasteries in the area are hiding valuables underground and driving livestock into the forests. It is said that the bishop's curia in Olomouc is considering sending an envoy to the Pope.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 35
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 34,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 34
+    },
     {
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
@@ -269,30 +293,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 25
-    },
-    {
-      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 23,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 24
-    },
-    {
-      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 23,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 24
     }
   ],
   "chronicle_local": [
@@ -419,6 +419,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_en": "From the Old Czech Chronicles: The Hungarian cavalry of Matthias Corvinus crossed into Moravia and plundered three villages near Uherské Hradiště. The monasteries in the area are hiding valuables underground and driving livestock into the forests. It is said that the bishop's curia in Olomouc is considering sending an envoy to the Pope.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 35
+    },
+    {
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 23
-    },
-    {
-      "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
-      "text_cs": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách.",
-      "text_en": "News from the Florentine bank concerns a bill of exchange: the bank of the Alberti brothers in Venice sent the Datini house a bill to pay 400 ducats through the Barcelona branch. Money transfers between Italy, Spain, and Flanders form a growing part of the profit. This modern instrument of trade protects against the risk of transporting silver and gold on dangerous roads.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 18,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 19
     }
   ],
   "church_calendar": {
-    "day_of_year": 34,
+    "day_of_year": 35,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

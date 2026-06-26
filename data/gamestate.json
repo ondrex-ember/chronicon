@@ -2,13 +2,13 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 34,
+    "day": 35,
     "daysPerSeason": 90,
-    "totalTick": 33
+    "totalTick": 34
   },
   "resources": {
     "grain": {
-      "value": 0.5,
+      "value": 0,
       "rate": -1.5,
       "min": 0,
       "max": 9999
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
+      "text_en": "From the Old Czech Chronicles: The Hungarian cavalry of Matthias Corvinus crossed into Moravia and plundered three villages near Uherské Hradiště. The monasteries in the area are hiding valuables underground and driving livestock into the forests. It is said that the bishop's curia in Olomouc is considering sending an envoy to the Pope.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 35
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 34,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 34
+    },
     {
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
@@ -858,8 +882,8 @@
       "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče."
     },
     "frois_003": {
-      "tick": 2,
-      "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby."
+      "tick": 34,
+      "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi."
     },
     "mono_004": {
       "tick": 16,
@@ -1024,12 +1048,16 @@
     "praha_002": {
       "tick": 33,
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
+    },
+    "famine_warning": {
+      "tick": 34,
+      "text": "Zásobárna je prázdná. Bratři hladoví."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 0,
+    "consecutiveFamines": 1,
     "winterCascade": null
   }
 }
