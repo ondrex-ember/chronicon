@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-26T07:58:02.021Z",
-  "valid_until": "2026-07-03T07:58:02.021Z",
+  "generated": "2026-06-26T12:16:16.383Z",
+  "valid_until": "2026-07-03T12:16:16.383Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 35,
-    "total_tick": 34,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 35"
+    "day": 36,
+    "total_tick": 35,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 36"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "local_events",
+      "tick": 35,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 36
+    },
     {
       "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
       "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
@@ -281,21 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 25
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 25
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "local_events",
+      "tick": 35,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 36
+    },
     {
       "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
@@ -403,18 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 28
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 25
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 35,
+    "day_of_year": 36,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
