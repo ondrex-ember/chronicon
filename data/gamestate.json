@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 40,
+    "day": 41,
     "daysPerSeason": 90,
-    "totalTick": 39
+    "totalTick": 40
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_fog",
+    "name": "Ranní mlha",
+    "icon": "🌫",
+    "desc": "Hustá mlha halí údolí. Poutníci bloudí."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
+      "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
+      "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
+      "type": "E",
+      "icon": "🍷",
+      "source": "distant_events",
+      "tick": 40,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 41
+    },
+    {
+      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 40,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 41
+    },
     {
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
@@ -1010,8 +1034,8 @@
       "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť."
     },
     "local_016": {
-      "tick": 8,
-      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče."
+      "tick": 40,
+      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče."
     },
     "frois_003": {
       "tick": 34,
@@ -1158,7 +1182,7 @@
       "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá."
     },
     "datini_026": {
-      "tick": 25,
+      "tick": 40,
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice."
     },
     "datini_012": {
@@ -1205,7 +1229,7 @@
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 6,
+    "consecutiveFamines": 7,
     "winterCascade": null
   }
 }
