@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 41,
+    "day": 42,
     "daysPerSeason": 90,
-    "totalTick": 40
+    "totalTick": 41
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 41,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 42
+    },
+    {
+      "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
+      "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
+      "text_en": "From Lipník: There was a good catch on the Bečva. Carp and pike are at a reasonable price this week. A merchant from Olomouc arrived with a cart and bought half the catch still on the bank. Little was left for the locals.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "local_events",
+      "tick": 41,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 42
+    },
     {
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
@@ -1162,7 +1186,7 @@
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami."
     },
     "local_015": {
-      "tick": 30,
+      "tick": 41,
       "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo."
     },
     "datini_034": {
@@ -1190,7 +1214,7 @@
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod."
     },
     "datini_018": {
-      "tick": 29,
+      "tick": 41,
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství."
     },
     "datini_019": {
@@ -1229,7 +1253,7 @@
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 7,
+    "consecutiveFamines": 8,
     "winterCascade": null
   }
 }
