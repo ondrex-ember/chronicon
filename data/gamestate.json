@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 39,
+    "day": 40,
     "daysPerSeason": 90,
-    "totalTick": 38
+    "totalTick": 39
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
+      "type": "D",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 40
+    },
+    {
+      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 40
+    },
+    {
+      "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_cs": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
+      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
+      "type": "A",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 39,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 40
+    },
     {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
@@ -970,7 +1006,7 @@
   "_chainQueue": [],
   "_lastChronicle": {
     "mono_007": {
-      "tick": 29,
+      "tick": 39,
       "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť."
     },
     "local_016": {
@@ -1030,7 +1066,7 @@
       "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana."
     },
     "local_005": {
-      "tick": 8,
+      "tick": 39,
       "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců."
     },
     "mono_019": {
@@ -1160,12 +1196,16 @@
     "coroner_005": {
       "tick": 38,
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna."
+    },
+    "frois_005": {
+      "tick": 39,
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 5,
+    "consecutiveFamines": 6,
     "winterCascade": null
   }
 }
