@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-28T17:19:43.548Z",
-  "valid_until": "2026-07-05T17:19:43.548Z",
+  "generated": "2026-06-28T23:10:21.867Z",
+  "valid_until": "2026-07-05T23:10:21.867Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 45,
-    "total_tick": 44,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 45"
+    "day": 46,
+    "total_tick": 45,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 46"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
+      "type": "C",
+      "icon": "⛵",
+      "source": "distant_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
+    {
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
       "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 39
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 37,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
-    },
-    {
-      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
-      "text_cs": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
-      "text_en": "The prior wrote: The monastery cat Agáta brought four mice this week and laid them before the altar as a votive offering. The brothers do not know whether to pray for the souls of the mice. The abbot decided: no.",
-      "type": "A",
-      "icon": "🐈",
-      "source": "monastery_internal",
-      "tick": 37,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
+    {
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
       "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 40
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 37,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
+      "type": "C",
+      "icon": "⛵",
+      "source": "distant_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
       "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 34
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 32,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 33
     }
   ],
   "church_calendar": {
-    "day_of_year": 45,
+    "day_of_year": 46,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 45,
+    "day": 46,
     "daysPerSeason": 90,
-    "totalTick": 44
+    "totalTick": 45
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
+      "type": "C",
+      "icon": "⛵",
+      "source": "distant_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
+    {
+      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
+      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 45,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
       "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
@@ -1065,36 +1101,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 6
-    },
-    {
-      "text": "Ze zpráv flanderského obchodníka: V Artois proběhl velký turnaj. Zvítězil rytíř ze Saintonge, jehož jméno nikdo neznal. Přijal cenu, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají, že to byl přestrojený anděl.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 4,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 5
-    },
-    {
-      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 4,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 5
-    },
-    {
-      "text": "Ze Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 3,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 4
     }
   ],
   "_chainQueue": [],
@@ -1112,7 +1118,7 @@
       "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi."
     },
     "mono_004": {
-      "tick": 16,
+      "tick": 45,
       "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav."
     },
     "local_007": {
@@ -1176,7 +1182,7 @@
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt."
     },
     "local_022": {
-      "tick": 12,
+      "tick": 45,
       "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká."
     },
     "datini_028": {
@@ -1306,12 +1312,16 @@
     "datini_027": {
       "tick": 44,
       "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli."
+    },
+    "datini_016": {
+      "tick": 45,
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 11,
+    "consecutiveFamines": 12,
     "winterCascade": null
   }
 }
