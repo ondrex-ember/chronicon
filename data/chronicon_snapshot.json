@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-27T23:09:06.242Z",
-  "valid_until": "2026-07-04T23:09:06.242Z",
+  "generated": "2026-06-28T07:54:26.752Z",
+  "valid_until": "2026-07-05T07:54:26.752Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 0.75,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 42,
-    "total_tick": 41,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 42"
+    "day": 43,
+    "total_tick": 42,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 43"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 42,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 43
+    },
+    {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 42,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 43
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 42,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 42
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 34
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 34
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 34
-    },
-    {
-      "text": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_cs": "Převor zapsal: Tání sněhu a déšť způsobily, že voda vtekla do sklepa. Zásoby kořenové zeleniny jsou zničeny. Bratři celý den vynášeli vodu vědry. Opat se modlil, bratři kleli — tiše, ale bylo to slyšet.",
-      "text_en": "The prior wrote: The snowmelt and rain caused water to seep into the cellar. The stores of root vegetables are destroyed. Brothers spent the whole day carrying out water in buckets. The abbot prayed, the brothers grumbled — quietly, but it could be heard.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 33,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 34
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 42,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 43
+    },
+    {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 42,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 43
+    },
     {
       "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
       "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 37
-    },
-    {
-      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
-      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
-      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "local_events",
-      "tick": 35,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 36
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 34
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 42,
+    "day_of_year": 43,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
