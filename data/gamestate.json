@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 43,
+    "day": 44,
     "daysPerSeason": 90,
-    "totalTick": 42
+    "totalTick": 43
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
+      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
+      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 44
+    },
+    {
+      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
+      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
+      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
+      "type": "B",
+      "icon": "🌨️",
+      "source": "monastery_internal",
+      "tick": 43,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 44
+    },
+    {
+      "text": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
+      "text_cs": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌨",
+      "source": "weather",
+      "tick": 43,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 43
+    },
     {
       "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
@@ -1055,36 +1091,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 3
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddali tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby soli ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
-    },
-    {
-      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "engine",
-      "tick": 0,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "_chainQueue": [],
@@ -1214,7 +1220,7 @@
       "text": "Z florentské banky přišla zpráva o směnce: banka bratří Albertiů v Benátkách zaslala Datiniho domu směnku k proplacení 400 dukátů skrze pobočku v Barceloně. Peněžní převody mezi Itálií, Španělskem a Flandrami tvoří stále větší část zisku. Tento moderní obchodní nástroj chrání před rizikem přepravy stříbra a zlata po nebezpečných cestách."
     },
     "mono_008": {
-      "tick": 20,
+      "tick": 43,
       "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně."
     },
     "local_004": {
@@ -1284,12 +1290,16 @@
     "frois_005": {
       "tick": 39,
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem."
+    },
+    "datini_031": {
+      "tick": 43,
+      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 9,
+    "consecutiveFamines": 10,
     "winterCascade": null
   }
 }
