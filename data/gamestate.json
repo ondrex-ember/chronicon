@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 44,
+    "day": 45,
     "daysPerSeason": 90,
-    "totalTick": 43
+    "totalTick": 44
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_en": "Local salt production is running at full capacity and demand is growing. On the 13th, two German ships arriving all the way from distant Flanders entered the port of Ibiza. All the locals marvel greatly that strangers would undertake such a long and costly voyage by sea just for a cargo of salt.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "distant_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
+    {
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
     {
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
@@ -1071,26 +1095,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 4
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 3,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 4
-    },
-    {
-      "text": "Zpráva z Normandie, zpožděná o pět neděl: Anglická vojska vypálila tři města podél řeky. Kláštery prý ušetřila — prozatím. Opat tamního benediktinského domu žádá o přímluvné modlitby.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 3
     }
   ],
   "_chainQueue": [],
@@ -1294,12 +1298,20 @@
     "datini_031": {
       "tick": 43,
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah."
+    },
+    "local_018": {
+      "tick": 44,
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle."
+    },
+    "datini_027": {
+      "tick": 44,
+      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 10,
+    "consecutiveFamines": 11,
     "winterCascade": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-28T11:50:27.867Z",
-  "valid_until": "2026-07-05T11:50:27.867Z",
+  "generated": "2026-06-28T17:19:43.548Z",
+  "valid_until": "2026-07-05T17:19:43.548Z",
   "abbot": {
     "name": "Bratr Augustín",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 0.75,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 44,
-    "total_tick": 43,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 44"
+    "day": 45,
+    "total_tick": 44,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 45"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_en": "Local salt production is running at full capacity and demand is growing. On the 13th, two German ships arriving all the way from distant Flanders entered the port of Ibiza. All the locals marvel greatly that strangers would undertake such a long and costly voyage by sea just for a cargo of salt.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "distant_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
+    {
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
     {
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 38
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 37
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 37
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
     {
       "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
       "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 38
-    },
-    {
-      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
-      "text_cs": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
-      "text_en": "The prior wrote: The monastery cat Agáta brought four mice this week and laid them before the altar as a votive offering. The brothers do not know whether to pray for the souls of the mice. The abbot decided: no.",
-      "type": "A",
-      "icon": "🐈",
-      "source": "monastery_internal",
-      "tick": 37,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
+      "text_en": "Local salt production is running at full capacity and demand is growing. On the 13th, two German ships arriving all the way from distant Flanders entered the port of Ibiza. All the locals marvel greatly that strangers would undertake such a long and costly voyage by sea just for a cargo of salt.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "distant_events",
+      "tick": 44,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 45
+    },
     {
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 33
-    },
-    {
-      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
-      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
-      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
-      "type": "E",
-      "icon": "🧪",
-      "source": "distant_events",
-      "tick": 31,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 32
     }
   ],
   "church_calendar": {
-    "day_of_year": 44,
+    "day_of_year": 45,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
