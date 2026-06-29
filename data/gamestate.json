@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 48,
+    "day": 49,
     "daysPerSeason": 90,
-    "totalTick": 47
+    "totalTick": 48
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
-    "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
+      "type": "A",
+      "icon": "💰",
+      "source": "local_events",
+      "tick": 48,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 49
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -1095,18 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 8
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 8
     }
   ],
   "_chainQueue": [],
@@ -1330,12 +1330,16 @@
     "coroner_003": {
       "tick": 47,
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod."
+    },
+    "local_109": {
+      "tick": 48,
+      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 14,
+    "consecutiveFamines": 15,
     "winterCascade": null
   }
 }
