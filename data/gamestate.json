@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 46,
+    "day": 47,
     "daysPerSeason": 90,
-    "totalTick": 45
+    "totalTick": 46
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -138,16 +138,52 @@
     }
   },
   "gm": {
-    "abbot_name": "Bratr Augustín",
+    "abbot_name": "Bratr Augustin",
     "abbot_mood": "klidný",
     "abbot_virtue": 7,
     "abbot_portrait": null,
     "scrinium_open": true,
-    "abbot_message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti.",
+    "abbot_message": null,
     "tension_modifier": 0,
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -1071,36 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 7
-    },
-    {
-      "text": "Z Paříže: Dnes upálili dva kacíře na náměstí před chrámem. Na trhu byl zmatek, stánky se převracely. Nikdo nevěděl, jestli utíkat nebo zůstat a dívat se.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 6
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 6
-    },
-    {
-      "text": "Převor zapsal: Klášterní kočka Agáta přinesla tento týden čtyři myši a položila je před oltář jako obětní dar. Bratři nevědí, zda se mají modlit za duše myší. Opat rozhodl, že ne.",
-      "type": "A",
-      "icon": "🐈",
-      "source": "monastery_internal",
-      "tick": 5,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 6
     }
   ],
   "_chainQueue": [],
@@ -1174,7 +1180,7 @@
       "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas."
     },
     "local_012": {
-      "tick": 37,
+      "tick": 46,
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna."
     },
     "datini_008": {
@@ -1210,7 +1216,7 @@
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár."
     },
     "coroner_002": {
-      "tick": 16,
+      "tick": 46,
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou."
     },
     "mono_023": {
@@ -1282,7 +1288,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 42,
+      "tick": 46,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1321,7 +1327,7 @@
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 12,
+    "consecutiveFamines": 13,
     "winterCascade": null
   }
 }

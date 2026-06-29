@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "generated": "2026-06-28T23:10:21.867Z",
-  "valid_until": "2026-07-05T23:10:21.867Z",
+  "generated": "2026-06-29T04:58:15.049Z",
+  "valid_until": "2026-07-06T04:58:15.049Z",
   "abbot": {
-    "name": "Bratr Augustín",
+    "name": "Bratr Augustin",
     "mood": "klidný",
     "virtue": 7,
     "portrait": null,
     "scrinium_open": true,
-    "message": "Bratři, slibuji, že promyslím vaši žádost o postavení Columbaria. Holoubci by nám mohli krásně posloužit! Budu držet v patrnosti a slibuji vás náležitě obeznámiti."
+    "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 46,
-    "total_tick": 45,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 46"
+    "day": 47,
+    "total_tick": 46,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 47"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 46
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -257,45 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 40
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_cs": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 39,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 40
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
     {
       "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
       "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 40
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_cs": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 39,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 40
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 46,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 47
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 35
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 34
     }
   ],
   "church_calendar": {
-    "day_of_year": 46,
+    "day_of_year": 47,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
