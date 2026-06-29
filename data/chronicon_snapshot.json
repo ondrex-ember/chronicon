@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T14:10:06.131Z",
-  "valid_until": "2026-07-06T14:10:06.131Z",
+  "generated": "2026-06-29T17:39:57.138Z",
+  "valid_until": "2026-07-06T17:39:57.138Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 50,
-    "total_tick": 49,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 50"
+    "day": 51,
+    "total_tick": 50,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 51"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
+    {
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
+      "type": "C",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 44
-    },
-    {
-      "text": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
-      "text_cs": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
-      "text_en": null,
-      "type": "A",
-      "icon": "🌨",
-      "source": "weather",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
-    },
-    {
-      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
+    {
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
+      "type": "C",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
     {
       "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
       "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 46
-    },
-    {
-      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 44,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 45
-    },
-    {
-      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
-      "type": "B",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 50,
+    "day_of_year": 51,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

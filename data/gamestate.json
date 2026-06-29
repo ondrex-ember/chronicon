@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 50,
+    "day": 51,
     "daysPerSeason": 90,
-    "totalTick": 49
+    "totalTick": 50
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
+    {
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
+      "type": "C",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 51
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 50,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 13
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 12,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 13
-    },
-    {
-      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 11,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 12
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 10,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 11
     }
   ],
   "_chainQueue": [],
@@ -1228,7 +1228,7 @@
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci."
     },
     "local_003": {
-      "tick": 36,
+      "tick": 50,
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá."
     },
     "datini_032": {
@@ -1288,7 +1288,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 46,
+      "tick": 50,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1346,12 +1346,16 @@
     "datini_010": {
       "tick": 49,
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře."
+    },
+    "mono_114": {
+      "tick": 50,
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 16,
+    "consecutiveFamines": 17,
     "winterCascade": null
   }
 }
