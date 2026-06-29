@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T17:39:57.138Z",
-  "valid_until": "2026-07-06T17:39:57.138Z",
+  "generated": "2026-06-29T18:12:39.958Z",
+  "valid_until": "2026-07-06T18:12:39.958Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 51,
-    "total_tick": 50,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 51"
+    "day": 52,
+    "total_tick": 51,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 52"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
+      "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
+      "text_en": "Coroner's record: An old fisherman fell asleep in his boat and fell into the swollen branch of the Morava river. His body was caught a day later by the mill grates. He left six hungry children behind in the village.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 51,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 52
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 51,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 52
+    },
     {
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
@@ -269,33 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 45
-    },
-    {
-      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
-    },
-    {
-      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
-      "type": "B",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
+      "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
+      "text_en": "Coroner's record: An old fisherman fell asleep in his boat and fell into the swollen branch of the Morava river. His body was caught a day later by the mill grates. He left six hungry children behind in the village.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 51,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 52
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 51,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 52
+    },
     {
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 47
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 46
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 45,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 46
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 51,
+    "day_of_year": 52,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
