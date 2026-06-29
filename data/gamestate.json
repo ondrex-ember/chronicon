@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 52,
+    "day": 53,
     "daysPerSeason": 90,
-    "totalTick": 51
+    "totalTick": 52
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 52,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 53
+    },
     {
       "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
       "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
@@ -1095,18 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 15
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 13,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 14
     }
   ],
   "_chainQueue": [],
@@ -1358,12 +1358,16 @@
     "local_099": {
       "tick": 51,
       "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí."
+    },
+    "mono_084": {
+      "tick": 52,
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 18,
+    "consecutiveFamines": 19,
     "winterCascade": null
   }
 }

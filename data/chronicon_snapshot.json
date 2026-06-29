@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T18:12:39.958Z",
-  "valid_until": "2026-07-06T18:12:39.958Z",
+  "generated": "2026-06-29T23:03:29.800Z",
+  "valid_until": "2026-07-06T23:03:29.800Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 52,
-    "total_tick": 51,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 52"
+    "day": 53,
+    "total_tick": 52,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 53"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 52,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 53
+    },
     {
       "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
       "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
@@ -281,21 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 45
-    },
-    {
-      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 44,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 45
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 52,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 53
+    },
     {
       "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
       "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
@@ -403,18 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 48
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 46,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 47
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 52,
+    "day_of_year": 53,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
