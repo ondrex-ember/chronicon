@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T09:02:38.340Z",
-  "valid_until": "2026-07-06T09:02:38.340Z",
+  "generated": "2026-06-29T14:10:06.131Z",
+  "valid_until": "2026-07-06T14:10:06.131Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 49,
-    "total_tick": 48,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 49"
+    "day": 50,
+    "total_tick": 49,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 50"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
+      "type": "C",
+      "icon": "🧰",
+      "source": "distant_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
+    {
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 43
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 42
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 41,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 42
-    },
-    {
-      "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_en": "From Lipník: There was a good catch on the Bečva. Carp and pike are at a reasonable price this week. A merchant from Olomouc arrived with a cart and bought half the catch still on the bank. Little was left for the locals.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "local_events",
-      "tick": 41,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 42
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
+    {
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 44
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
-    },
-    {
-      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
+      "type": "C",
+      "icon": "🧰",
+      "source": "distant_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 39
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 37
     }
   ],
   "church_calendar": {
-    "day_of_year": 49,
+    "day_of_year": 50,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

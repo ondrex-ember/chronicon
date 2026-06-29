@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 49,
+    "day": 50,
     "daysPerSeason": 90,
-    "totalTick": 48
+    "totalTick": 49
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
+      "type": "C",
+      "icon": "🧰",
+      "source": "distant_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
+    {
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 49,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 50
+    },
     {
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 11
-    },
-    {
-      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 9,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 10
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 9
-    },
-    {
-      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 8
     }
   ],
   "_chainQueue": [],
@@ -1334,12 +1334,24 @@
     "local_109": {
       "tick": 48,
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají."
+    },
+    "mono_113": {
+      "tick": 49,
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně."
+    },
+    "local_084": {
+      "tick": 49,
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři."
+    },
+    "datini_010": {
+      "tick": 49,
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 15,
+    "consecutiveFamines": 16,
     "winterCascade": null
   }
 }
