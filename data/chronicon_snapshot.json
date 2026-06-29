@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T04:58:15.049Z",
-  "valid_until": "2026-07-06T04:58:15.049Z",
+  "generated": "2026-06-29T06:09:28.475Z",
+  "valid_until": "2026-07-06T06:09:28.475Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,22 +11,22 @@
     "message": null
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
     "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
     "season": 0,
-    "modifier_grain": 1.15,
-    "modifier_wood": 1
+    "modifier_grain": 1.2,
+    "modifier_wood": 0.9
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 47,
-    "total_tick": 46,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 47"
+    "day": 48,
+    "total_tick": 47,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 48"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 41
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 41
-    },
-    {
-      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
-      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
-      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
-      "type": "D",
-      "icon": "⛓️",
-      "source": "distant_events",
-      "tick": 39,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 40
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 39,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 40
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 42
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 41
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 39,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 40
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 37
-    },
-    {
-      "text": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
-      "text_cs": "Ze staročeských letopisů: Uherská jízda Matyáše Korvína přejela na Moravu a vyplenila tři vesnice poblíž Uherského Hradiště. Kláštery v okolí skrývají cennosti v podzemí a odvádějí dobytek do lesů. Říká se, že biskupská kuria v Olomouci zvažuje vyslání posla k papežovi.",
-      "text_en": "From the Old Czech Chronicles: The Hungarian cavalry of Matthias Corvinus crossed into Moravia and plundered three villages near Uherské Hradiště. The monasteries in the area are hiding valuables underground and driving livestock into the forests. It is said that the bishop's curia in Olomouc is considering sending an envoy to the Pope.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 34,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 35
     }
   ],
   "church_calendar": {
-    "day_of_year": 47,
+    "day_of_year": 48,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

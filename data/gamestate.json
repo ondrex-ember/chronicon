@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 47,
+    "day": 48,
     "daysPerSeason": 90,
-    "totalTick": 46
+    "totalTick": 47
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
     "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 47,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 48
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 8
-    },
-    {
-      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
-      "type": "C",
-      "icon": "⚓",
-      "source": "distant_events",
-      "tick": 6,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 7
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 6,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 7
-    },
-    {
-      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
-      "type": "E",
-      "icon": "🌸",
-      "source": "monastery_internal",
-      "tick": 6,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 7
     }
   ],
   "_chainQueue": [],
@@ -1204,7 +1204,7 @@
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality."
     },
     "local_011": {
-      "tick": 31,
+      "tick": 47,
       "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy."
     },
     "praha_003": {
@@ -1322,12 +1322,20 @@
     "datini_016": {
       "tick": 45,
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano."
+    },
+    "mono_015": {
+      "tick": 47,
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden."
+    },
+    "coroner_003": {
+      "tick": 47,
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 13,
+    "consecutiveFamines": 14,
     "winterCascade": null
   }
 }
