@@ -166,6 +166,7 @@ const GameState = {
     abbot_portrait:   null,
     scrinium_open:    true,
     abbot_message:    null,
+    unlock_flag:      null,   // GM může poslat obecný unlock flag (např. 'columbarium_available')
     tension_modifier: 0,    // GM může zesílit dramatičnost
     event_inject:     null, // GM může vynutit konkrétní event ID
   },
