@@ -23,6 +23,7 @@ const ALLOWED_KEYS = [
   'abbot_portrait',
   'scrinium_open',
   'abbot_message',
+  'unlock_flag',
   'tension_modifier',
   'event_inject',
 ];
