@@ -33,6 +33,10 @@ const Snapshot = {
         message:       GameState.gm.abbot_message,
       },
 
+      // Obecný unlock flag pro Scriptorium (GameState.flags[x] = true).
+      // null pokud GM nic nenastavil — Scriptorium strana je defenzivní no-op.
+      unlockFlag: GameState.gm.unlock_flag,
+
       weather: {
         key:              GameState.weather.key,
         name:             GameState.weather.name,
