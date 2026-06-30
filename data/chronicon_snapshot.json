@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-29T23:03:29.800Z",
-  "valid_until": "2026-07-06T23:03:29.800Z",
+  "generated": "2026-06-30T07:25:17.058Z",
+  "valid_until": "2026-07-07T07:25:17.058Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 53,
-    "total_tick": 52,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 53"
+    "day": 54,
+    "total_tick": 53,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 54"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_cs": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_en": "The best time to buy English wool is around St. John's Day, when the Cotswold fairs are held in Northleach and Burford. Florentine buyers quickly bought up the best goods, while the rest was taken by local merchants from London and Bristol. Whoever desires good produce must not miss these markets.",
+      "type": "E",
+      "icon": "🎪",
+      "source": "distant_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
+    {
+      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_cs": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_en": "News from Bystřice: There is a desperate shortage of quality construction timber this year. Carpenters complain that the lord's steward sold the best logs to Hungary, leaving only knotty, resin-filled wood for local repairs.",
+      "type": "C",
+      "icon": "🪵",
+      "source": "local_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
+    {
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
+      "type": "A",
+      "icon": "🪶",
+      "source": "monastery_internal",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
     {
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
       "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 46
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 46
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 45,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 46
-    },
-    {
-      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
-      "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
-      "text_en": "Local salt production is running at full capacity and demand is growing. On the 13th, two German ships arriving all the way from distant Flanders entered the port of Ibiza. All the locals marvel greatly that strangers would undertake such a long and costly voyage by sea just for a cargo of salt.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "distant_events",
-      "tick": 44,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 45
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_cs": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_en": "News from Bystřice: There is a desperate shortage of quality construction timber this year. Carpenters complain that the lord's steward sold the best logs to Hungary, leaving only knotty, resin-filled wood for local repairs.",
+      "type": "C",
+      "icon": "🪵",
+      "source": "local_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
+    {
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
+      "type": "A",
+      "icon": "🪶",
+      "source": "monastery_internal",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
     {
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
       "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 49
-    },
-    {
-      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
-    },
-    {
-      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
-      "type": "A",
-      "icon": "🌧️",
-      "source": "monastery_internal",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_cs": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_en": "The best time to buy English wool is around St. John's Day, when the Cotswold fairs are held in Northleach and Burford. Florentine buyers quickly bought up the best goods, while the rest was taken by local merchants from London and Bristol. Whoever desires good produce must not miss these markets.",
+      "type": "E",
+      "icon": "🎪",
+      "source": "distant_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
     {
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 40
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
     }
   ],
   "church_calendar": {
-    "day_of_year": 53,
+    "day_of_year": 54,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

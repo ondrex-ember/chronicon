@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 53,
+    "day": 54,
     "daysPerSeason": 90,
-    "totalTick": 52
+    "totalTick": 53
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_cs": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
+      "text_en": "The best time to buy English wool is around St. John's Day, when the Cotswold fairs are held in Northleach and Burford. Florentine buyers quickly bought up the best goods, while the rest was taken by local merchants from London and Bristol. Whoever desires good produce must not miss these markets.",
+      "type": "E",
+      "icon": "🎪",
+      "source": "distant_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
+    {
+      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_cs": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
+      "text_en": "News from Bystřice: There is a desperate shortage of quality construction timber this year. Carpenters complain that the lord's steward sold the best logs to Hungary, leaving only knotty, resin-filled wood for local repairs.",
+      "type": "C",
+      "icon": "🪵",
+      "source": "local_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
+    {
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
+      "type": "A",
+      "icon": "🪶",
+      "source": "monastery_internal",
+      "tick": 53,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 54
+    },
     {
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
       "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 17
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 16,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 17
-    },
-    {
-      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 14,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 15
-    },
-    {
-      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 14,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 15
     }
   ],
   "_chainQueue": [],
@@ -1362,12 +1362,24 @@
     "mono_084": {
       "tick": 52,
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná."
+    },
+    "mono_031": {
+      "tick": 53,
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality."
+    },
+    "local_098": {
+      "tick": 53,
+      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly."
+    },
+    "datini_015": {
+      "tick": 53,
+      "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 19,
+    "consecutiveFamines": 20,
     "winterCascade": null
   }
 }
