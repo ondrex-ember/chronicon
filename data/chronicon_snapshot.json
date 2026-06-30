@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-30T18:02:31.509Z",
-  "valid_until": "2026-07-07T18:02:31.509Z",
+  "generated": "2026-06-30T23:18:08.830Z",
+  "valid_until": "2026-07-07T23:18:08.830Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 57,
-    "total_tick": 56,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 57"
+    "day": 58,
+    "total_tick": 57,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 58"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
+      "type": "C",
+      "icon": "🗿",
+      "source": "distant_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
+    {
+      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "local_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
+    {
+      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
     {
       "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
       "text_cs": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
@@ -257,45 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 50
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
-      "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
-      "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
-      "type": "A",
-      "icon": "💰",
-      "source": "local_events",
-      "tick": 48,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 49
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "local_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
+    {
+      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
     {
       "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
       "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 52
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 51
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
+      "type": "C",
+      "icon": "🗿",
+      "source": "distant_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
     {
       "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
       "text_cs": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 44
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 41,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 42
     }
   ],
   "church_calendar": {
-    "day_of_year": 57,
+    "day_of_year": 58,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

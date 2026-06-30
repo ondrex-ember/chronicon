@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 57,
+    "day": 58,
     "daysPerSeason": 90,
-    "totalTick": 56
+    "totalTick": 57
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
+      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
+      "type": "C",
+      "icon": "🗿",
+      "source": "distant_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
+    {
+      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
+      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "local_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
+    {
+      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
+      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 57,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
     {
       "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
       "text_cs": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 23
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 21,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 22
-    },
-    {
-      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
-      "type": "B",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 20,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 21
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 19,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 20
     }
   ],
   "_chainQueue": [],
@@ -1398,12 +1398,24 @@
     "zbras_027": {
       "tick": 56,
       "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě."
+    },
+    "mono_091": {
+      "tick": 57,
+      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství."
+    },
+    "local_066": {
+      "tick": 57,
+      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna."
+    },
+    "zbras_014": {
+      "tick": 57,
+      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 23,
+    "consecutiveFamines": 24,
     "winterCascade": null
   }
 }
