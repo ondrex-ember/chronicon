@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-30T07:57:27.407Z",
-  "valid_until": "2026-07-07T07:57:27.407Z",
+  "generated": "2026-06-30T12:14:58.809Z",
+  "valid_until": "2026-07-07T12:14:58.809Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 55,
-    "total_tick": 54,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 55"
+    "day": 56,
+    "total_tick": 55,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 56"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
+      "type": "E",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
     {
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
       "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
@@ -269,33 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 48
-    },
-    {
-      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
-      "type": "A",
-      "icon": "🌧️",
-      "source": "monastery_internal",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
-    },
-    {
-      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 46,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 47
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
+      "type": "E",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
     {
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
       "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 51
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 55,
+    "day_of_year": 56,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

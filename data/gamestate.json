@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 55,
+    "day": 56,
     "daysPerSeason": 90,
-    "totalTick": 54
+    "totalTick": 55
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
+      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
+      "type": "E",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 55,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 56
+    },
     {
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
       "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
@@ -1083,30 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 19
-    },
-    {
-      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
-      "type": "E",
-      "icon": "🌸",
-      "source": "monastery_internal",
-      "tick": 18,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 19
-    },
-    {
-      "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
-      "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
-      "text_en": "From the notes of the Zbraslav monks, transcribed for memory: The king arrived at the monastery unannounced, with four riders. The abbot gave him food and drink. The king asked nothing about resources, only about prayers. He departed the same night.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 17,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 18
     }
   ],
   "_chainQueue": [],
@@ -1382,12 +1382,20 @@
     "mohuc_006": {
       "tick": 54,
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor."
+    },
+    "mono_085": {
+      "tick": 55,
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty."
+    },
+    "local_178": {
+      "tick": 55,
+      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 21,
+    "consecutiveFamines": 22,
     "winterCascade": null
   }
 }
