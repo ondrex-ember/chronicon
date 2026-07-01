@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-01T08:17:28.158Z",
-  "valid_until": "2026-07-08T08:17:28.158Z",
+  "generated": "2026-07-01T12:38:04.471Z",
+  "valid_until": "2026-07-08T12:38:04.471Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.75,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 59,
-    "total_tick": 58,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 59"
+    "day": 60,
+    "total_tick": 59,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 60"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
     {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 53
-    },
-    {
-      "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_en": "Coroner's record: An old fisherman fell asleep in his boat and fell into the swollen branch of the Morava river. His body was caught a day later by the mill grates. He left six hungry children behind in the village.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
     {
       "text": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
       "text_cs": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 54
-    },
-    {
-      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
-      "type": "A",
-      "icon": "🪶",
-      "source": "monastery_internal",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
     {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 46
-    },
-    {
-      "text": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
-      "text_cs": "Místní produkce soli běží naplno a poptávka roste. Dne 13. dorazily do přístavu na Ibize dokonce dvě německé lodě připlouvající až z dalekých Flander. Všichni místní se velmi podivují, že cizinci vážili tak dlouhou a nákladnou cestu po moři jen kvůli nákladu soli.",
-      "text_en": "Local salt production is running at full capacity and demand is growing. On the 13th, two German ships arriving all the way from distant Flanders entered the port of Ibiza. All the locals marvel greatly that strangers would undertake such a long and costly voyage by sea just for a cargo of salt.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "distant_events",
-      "tick": 44,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 45
     }
   ],
   "church_calendar": {
-    "day_of_year": 59,
+    "day_of_year": 60,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

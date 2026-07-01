@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 59,
+    "day": 60,
     "daysPerSeason": 90,
-    "totalTick": 58
+    "totalTick": 59
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 59,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 60
+    },
     {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
@@ -1083,30 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 25
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 25
-    },
-    {
-      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 23,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 24
     }
   ],
   "_chainQueue": [],
@@ -1418,12 +1418,20 @@
     "praha_016": {
       "tick": 58,
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu."
+    },
+    "mono_136": {
+      "tick": 59,
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál."
+    },
+    "praha_033": {
+      "tick": 59,
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 25,
+    "consecutiveFamines": 26,
     "winterCascade": null
   }
 }
