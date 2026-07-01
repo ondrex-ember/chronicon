@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-06-30T23:18:08.830Z",
-  "valid_until": "2026-07-07T23:18:08.830Z",
+  "generated": "2026-07-01T08:17:28.158Z",
+  "valid_until": "2026-07-08T08:17:28.158Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 58,
-    "total_tick": 57,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 58"
+    "day": 59,
+    "total_tick": 58,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 59"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,54 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
+    {
+      "text": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
+      "text_cs": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
+      "text_en": "From Tovačov: The lord's official arbitrarily raised the toll for navigating the Morava river. Rafters stopped timber transports in protest and threatened to let the logs rot on the bank. The town faces a shortage of firewood.",
+      "type": "D",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
+    {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 58
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
       "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
@@ -245,57 +293,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 52
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 51
-    },
-    {
-      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
-      "type": "C",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 51
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
-      "type": "C",
-      "icon": "🧰",
-      "source": "distant_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
+      "text_cs": "Z Tovačova: Panský úředník svévolně zvýšil mýtné za plavbu po řece Moravě. Voraři na protest zastavili transport dřeva a pohrozili, že kmeny nechají shnít na břehu. Městu hrozí nedostatek otopu.",
+      "text_en": "From Tovačov: The lord's official arbitrarily raised the toll for navigating the Morava river. Rafters stopped timber transports in protest and threatened to let the logs rot on the bank. The town faces a shortage of firewood.",
+      "type": "D",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
+    {
+      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
+      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
+      "type": "E",
+      "icon": "🌿",
+      "source": "monastery_internal",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
     {
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
       "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
@@ -391,33 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 54
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 52,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 53
-    },
-    {
-      "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_en": "Coroner's record: An old fisherman fell asleep in his boat and fell into the swollen branch of the Morava river. His body was caught a day later by the mill grates. He left six hungry children behind in the village.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 58,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 59
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
       "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 45
-    },
-    {
-      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
     }
   ],
   "church_calendar": {
-    "day_of_year": 58,
+    "day_of_year": 59,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
