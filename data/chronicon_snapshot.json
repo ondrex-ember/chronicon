@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-01T12:38:04.471Z",
-  "valid_until": "2026-07-08T12:38:04.471Z",
+  "generated": "2026-07-01T18:03:07.848Z",
+  "valid_until": "2026-07-08T18:03:07.848Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 0.75,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 60,
-    "total_tick": 59,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 60"
+    "day": 61,
+    "total_tick": 60,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 61"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
+    {
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
     {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
@@ -269,33 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 54
-    },
-    {
-      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
-      "type": "A",
-      "icon": "🪶",
-      "source": "monastery_internal",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 52,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
     {
       "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
       "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
@@ -403,21 +415,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 55
-    },
-    {
-      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
-      "text_cs": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
-      "text_en": "News from Bystřice: There is a desperate shortage of quality construction timber this year. Carpenters complain that the lord's steward sold the best logs to Hungary, leaving only knotty, resin-filled wood for local repairs.",
-      "type": "C",
-      "icon": "🪵",
-      "source": "local_events",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
     {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
@@ -525,22 +537,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 47
-    },
-    {
-      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
-      "type": "C",
-      "icon": "⛵",
-      "source": "distant_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 46
     }
   ],
   "church_calendar": {
-    "day_of_year": 60,
+    "day_of_year": 61,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

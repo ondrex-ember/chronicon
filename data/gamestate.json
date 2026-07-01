@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 60,
+    "day": 61,
     "daysPerSeason": 90,
-    "totalTick": 59
+    "totalTick": 60
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,30 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
+    {
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 61
+    },
     {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
@@ -1083,30 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 26
-    },
-    {
-      "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
-      "type": "E",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 25,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 26
-    },
-    {
-      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
-      "type": "E",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 25
     }
   ],
   "_chainQueue": [],
@@ -1426,12 +1426,20 @@
     "praha_033": {
       "tick": 59,
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali."
+    },
+    "local_101": {
+      "tick": 60,
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku."
+    },
+    "praha_010": {
+      "tick": 60,
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 26,
+    "consecutiveFamines": 27,
     "winterCascade": null
   }
 }
