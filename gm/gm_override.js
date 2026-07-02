@@ -23,9 +23,11 @@ const ALLOWED_KEYS = [
   'abbot_portrait',
   'scrinium_open',
   'abbot_message',
-  'unlock_flag',
+  'abbot_message_id',
+  'abbot_message_one_shot',
   'tension_modifier',
   'event_inject',
+  'unlock_flag',
 ];
 
 const GmOverride = {
@@ -42,6 +44,19 @@ const GmOverride = {
       for (const key of ALLOWED_KEYS) {
         if (key in input) {
           GameState.gm[key] = input[key];
+        }
+      }
+
+      // Actor overrides — přímý zásah do GameState.actors
+      if (input.actor_overrides && typeof input.actor_overrides === 'object') {
+        for (const [actorId, fields] of Object.entries(input.actor_overrides)) {
+          if (GameState.actors && GameState.actors[actorId] && typeof fields === 'object') {
+            for (const [field, value] of Object.entries(fields)) {
+              if (typeof value === 'number') {
+                GameState.actors[actorId][field] = value;
+              }
+            }
+          }
         }
       }
     } catch (err) {
