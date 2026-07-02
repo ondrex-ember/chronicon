@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 63,
+    "day": 64,
     "daysPerSeason": 90,
-    "totalTick": 62
+    "totalTick": 63
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,18 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 63,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 64
+    },
     {
       "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
       "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
@@ -1095,18 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 31
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 29,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 30
     }
   ],
   "_chainQueue": [],
@@ -1442,12 +1442,16 @@
     "local_191": {
       "tick": 62,
       "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem."
+    },
+    "mono_074": {
+      "tick": 63,
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 29,
+    "consecutiveFamines": 30,
     "winterCascade": null
   }
 }

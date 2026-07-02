@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-02T07:37:04.532Z",
-  "valid_until": "2026-07-09T07:37:04.532Z",
+  "generated": "2026-07-02T12:12:18.260Z",
+  "valid_until": "2026-07-09T12:12:18.260Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 63,
-    "total_tick": 62,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 63"
+    "day": 64,
+    "total_tick": 63,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 64"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 63,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 64
+    },
     {
       "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
       "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
@@ -281,21 +293,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 57
-    },
-    {
-      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
-      "type": "E",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 55,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 56
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 63,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 64
+    },
     {
       "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
       "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
@@ -399,18 +411,6 @@
       "type": "A",
       "icon": "🍞",
       "source": "local_events",
-      "tick": 57,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 58
-    },
-    {
-      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "monastery_internal",
       "tick": 57,
       "year": 1465,
       "season": "Jaro",
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 63,
+    "day_of_year": 64,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
