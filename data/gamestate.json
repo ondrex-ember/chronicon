@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 64,
+    "day": 65,
     "daysPerSeason": 90,
-    "totalTick": 63
+    "totalTick": 64
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -140,14 +140,41 @@
   "gm": {
     "abbot_name": "Bratr Augustin",
     "abbot_mood": "klidný",
-    "abbot_virtue": 7,
+    "abbot_virtue": 5,
     "abbot_portrait": null,
     "scrinium_open": true,
-    "abbot_message": null,
+    "abbot_message": "Milost Boží buď s vámi, bratřie. Skrze mne, bratra Augustína, kázal vám pan opat zvěstovati: Ustanoven sem já za jeho miestodržícieho ve věcech správy naší, pakli by naň jaký neduh uderil, anebo na pút dalekou za povinnostmi vyjel. K tomu nám dopomáhej Bůh a svatí jeho.",
     "tension_modifier": 0,
-    "event_inject": null
+    "event_inject": null,
+    "abbot_message_id": "msg_20260702_367",
+    "abbot_message_one_shot": true,
+    "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 64,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 65
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 64,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 65
+    },
     {
       "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
       "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
@@ -1083,30 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 32
-    },
-    {
-      "text": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_cs": "Z Lipníku: Na Bečvě byl dobrý výlov. Kapři a štiky jsou tento týden za rozumnou cenu. Kupec z Olomouce přijel s vozem a skoupil polovinu úlovku ještě na břehu. Místním zbylo málo.",
-      "text_en": "From Lipník: There was a good catch on the Bečva. Carp and pike are at a reasonable price this week. A merchant from Olomouc arrived with a cart and bought half the catch still on the bank. Little was left for the locals.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "local_events",
-      "tick": 30,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 31
-    },
-    {
-      "text": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_cs": "Bratr infirmář zapsal s radostí: První čerstvé byliny jsou v infirmáři. Meduňka a máta jsou letos brzy. Zimní zásoby sušených rostlin byly skoro vyčerpány — přišlo to právě včas.",
-      "text_en": "Brother the infirmarian wrote with joy: The first fresh herbs are in the infirmary. Lemon balm and mint are early this year. The winter stores of dried plants were nearly exhausted — it came just in time.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 30,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 31
     }
   ],
   "_chainQueue": [],
@@ -1446,12 +1449,20 @@
     "mono_074": {
       "tick": 63,
       "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla."
+    },
+    "mono_134": {
+      "tick": 64,
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data."
+    },
+    "local_260": {
+      "tick": 64,
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 30,
+    "consecutiveFamines": 31,
     "winterCascade": null
   }
 }
