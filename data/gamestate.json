@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 62,
+    "day": 63,
     "daysPerSeason": 90,
-    "totalTick": 61
+    "totalTick": 62
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -148,6 +148,42 @@
     "event_inject": null
   },
   "log": [
+    {
+      "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_en": "An exhausted royal courier galloped through the town, changed horses at the relay station, and immediately set off again towards Olomouc. His satchel was full of sealed documents. Burghers are guessing whether he carries news of a new war or a diplomatic agreement with the Pope.",
+      "type": "C",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 63
+    },
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 63
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 62
+    },
     {
       "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
       "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
@@ -1071,42 +1107,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 30
-    },
-    {
-      "text": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_cs": "Kuchmistr zapsal: Postní zásoby solených ryb docházejí. Bratři jsou tiší, ale jejich tváře mluví za ně. Opat dovolil přidat do polévky trochu kořene, aby měla aspoň chuť.",
-      "text_en": "The cook wrote: The Lenten stores of salt fish are running low. The brothers are quiet, but their faces speak for them. The abbot allowed a little root to be added to the soup so it would at least have some flavor.",
-      "type": "A",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 29,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 30
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 28,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 29
-    },
-    {
-      "text": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_cs": "Bratr zahradník zapsal: Ovocné stromy kvetou jako snad nikdy. Jabloně, hrušně, švestky — vše najednou. Bratr včelař říká, že jeho roje již létají a že med bude letos výjimečný.",
-      "text_en": "Brother the gardener wrote: The fruit trees are blossoming as perhaps never before. Apples, pears, plums — all at once. Brother the beekeeper says his swarms are already flying and the honey will be exceptional this year.",
-      "type": "E",
-      "icon": "🌸",
-      "source": "monastery_internal",
-      "tick": 28,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 29
     }
   ],
   "_chainQueue": [],
@@ -1288,7 +1288,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 58,
+      "tick": 62,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1376,7 +1376,7 @@
       "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat."
     },
     "mono_047": {
-      "tick": 54,
+      "tick": 62,
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží."
     },
     "mohuc_006": {
@@ -1438,12 +1438,16 @@
     "zbras_039": {
       "tick": 61,
       "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště."
+    },
+    "local_191": {
+      "tick": 62,
+      "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 28,
+    "consecutiveFamines": 29,
     "winterCascade": null
   }
 }

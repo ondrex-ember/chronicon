@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-01T23:20:39.526Z",
-  "valid_until": "2026-07-08T23:20:39.526Z",
+  "generated": "2026-07-02T07:37:04.532Z",
+  "valid_until": "2026-07-09T07:37:04.532Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -11,12 +11,12 @@
     "message": null
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -24,9 +24,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 62,
-    "total_tick": 61,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 62"
+    "day": 63,
+    "total_tick": 62,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 63"
   },
   "actors": {
     "monastery": {
@@ -54,6 +54,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_en": "An exhausted royal courier galloped through the town, changed horses at the relay station, and immediately set off again towards Olomouc. His satchel was full of sealed documents. Burghers are guessing whether he carries news of a new war or a diplomatic agreement with the Pope.",
+      "type": "C",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 63
+    },
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 63
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 62,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 62
+    },
     {
       "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
       "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
@@ -257,30 +293,20 @@
       "year": 1465,
       "season": "Jaro",
       "day": 56
-    },
+    }
+  ],
+  "chronicle_local": [
     {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 55,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 56
-    },
-    {
-      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
+      "text_en": "An exhausted royal courier galloped through the town, changed horses at the relay station, and immediately set off again towards Olomouc. His satchel was full of sealed documents. Burghers are guessing whether he carries news of a new war or a diplomatic agreement with the Pope.",
       "type": "C",
-      "icon": "🛠️",
-      "source": "distant_events",
-      "tick": 54,
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 62,
       "year": 1465,
       "season": "Jaro",
-      "day": 55
+      "day": 63
     },
     {
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
@@ -289,13 +315,11 @@
       "type": "E",
       "icon": "🐟",
       "source": "monastery_internal",
-      "tick": 54,
+      "tick": 62,
       "year": 1465,
       "season": "Jaro",
-      "day": 55
-    }
-  ],
-  "chronicle_local": [
+      "day": 63
+    },
     {
       "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
       "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
@@ -391,30 +415,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 58
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 56,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 57
-    },
-    {
-      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
-      "type": "E",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 55,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 56
     }
   ],
   "chronicle_distant": [
@@ -540,7 +540,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 62,
+    "day_of_year": 63,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
