@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 68,
+    "day": 69,
     "daysPerSeason": 90,
-    "totalTick": 67
+    "totalTick": 68
   },
   "resources": {
     "grain": {
@@ -151,6 +151,30 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 68,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 69
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 68,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 69
+    },
     {
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
       "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
@@ -1086,30 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 37
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 37
-    },
-    {
-      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
-      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
-      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "local_events",
-      "tick": 35,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 36
     }
   ],
   "_chainQueue": [],
@@ -1481,12 +1481,20 @@
     "mohuc_003": {
       "tick": 67,
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky."
+    },
+    "mono_112": {
+      "tick": 68,
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat."
+    },
+    "local_127": {
+      "tick": 68,
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 34,
+    "consecutiveFamines": 35,
     "winterCascade": null
   }
 }
