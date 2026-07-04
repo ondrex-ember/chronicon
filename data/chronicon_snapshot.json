@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-04T17:13:19.718Z",
-  "valid_until": "2026-07-11T17:13:19.718Z",
+  "generated": "2026-07-04T23:02:40.045Z",
+  "valid_until": "2026-07-11T23:02:40.045Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,12 +12,12 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_late_frost",
-    "name": "Pozdní mráz",
-    "icon": "🌨",
-    "desc": "Neočekávaný mráz poškozuje osení.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 0.75,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -25,9 +25,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 73,
-    "total_tick": 72,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 73"
+    "day": 74,
+    "total_tick": 73,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 74"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
+      "type": "C",
+      "icon": "💍",
+      "source": "distant_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 74
+    },
+    {
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 74
+    },
     {
       "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
       "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
@@ -270,33 +294,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 66
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 65,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 66
-    },
-    {
-      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 74
+    },
     {
       "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
@@ -404,21 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 68
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 66,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 67
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
+      "type": "C",
+      "icon": "💍",
+      "source": "distant_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 74
+    },
     {
       "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
       "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 59
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
-      "type": "C",
-      "icon": "🗿",
-      "source": "distant_events",
-      "tick": 57,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 58
     }
   ],
   "church_calendar": {
-    "day_of_year": 73,
+    "day_of_year": 74,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
