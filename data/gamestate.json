@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 71,
+    "day": 72,
     "daysPerSeason": 90,
-    "totalTick": 70
+    "totalTick": 71
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,42 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
+      "type": "B",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 71,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 72
+    },
+    {
+      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
+      "type": "A",
+      "icon": "🏗️",
+      "source": "local_events",
+      "tick": 71,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 72
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 71,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 72
+    },
     {
       "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
       "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
@@ -1074,42 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 40
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 39
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 38,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 38
     }
   ],
   "_chainQueue": [],
@@ -1259,7 +1259,7 @@
       "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby."
     },
     "frois_002": {
-      "tick": 23,
+      "tick": 71,
       "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů."
     },
     "datini_009": {
@@ -1489,12 +1489,20 @@
     "local_127": {
       "tick": 68,
       "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů."
+    },
+    "mono_130": {
+      "tick": 71,
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad."
+    },
+    "local_171": {
+      "tick": 71,
+      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 37,
+    "consecutiveFamines": 38,
     "winterCascade": null
   }
 }
