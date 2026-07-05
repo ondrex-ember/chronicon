@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 75,
+    "day": 76,
     "daysPerSeason": 90,
-    "totalTick": 74
+    "totalTick": 75
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
     "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,30 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -1086,30 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 44
-    },
-    {
-      "text": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
-      "text_cs": "🌨 Pozdní mráz udeřil nečekaně. Část osení trpí.",
-      "text_en": null,
-      "type": "A",
-      "icon": "🌨",
-      "source": "weather",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 43
     }
   ],
   "_chainQueue": [],
@@ -1521,12 +1521,20 @@
     "praha_006": {
       "tick": 74,
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše."
+    },
+    "local_050": {
+      "tick": 75,
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně."
+    },
+    "praha_012": {
+      "tick": 75,
+      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 41,
+    "consecutiveFamines": 42,
     "winterCascade": null
   }
 }

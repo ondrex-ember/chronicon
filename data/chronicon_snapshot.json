@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-05T07:33:07.181Z",
-  "valid_until": "2026-07-12T07:33:07.181Z",
+  "generated": "2026-07-05T11:38:39.869Z",
+  "valid_until": "2026-07-12T11:38:39.869Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,22 +12,22 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
     "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.2,
-    "modifier_wood": 0.9
+    "modifier_grain": 1.15,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 75,
-    "total_tick": 74,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 75"
+    "day": 76,
+    "total_tick": 75,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 76"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -270,33 +294,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 68
-    },
-    {
-      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 67,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 68
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 67,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
     {
       "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
       "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
@@ -404,21 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 69
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 68,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 76
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 61
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 59,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 60
     }
   ],
   "church_calendar": {
-    "day_of_year": 75,
+    "day_of_year": 76,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
