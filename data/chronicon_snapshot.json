@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-05T17:17:49.835Z",
-  "valid_until": "2026-07-12T17:17:49.835Z",
+  "generated": "2026-07-05T23:06:21.384Z",
+  "valid_until": "2026-07-12T23:06:21.384Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,12 +12,12 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_fog",
+    "name": "Ranní mlha",
+    "icon": "🌫",
+    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
     "season": 0,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -25,9 +25,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 77,
-    "total_tick": 76,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 77"
+    "day": 78,
+    "total_tick": 77,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 78"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
+      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
+      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
+      "type": "A",
+      "icon": "⛓️",
+      "source": "local_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 78
+    },
+    {
+      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 77,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 78
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -270,33 +294,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 71
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 70
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 68,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 69
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
+      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
+      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
+      "type": "A",
+      "icon": "⛓️",
+      "source": "local_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 78
+    },
+    {
+      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 77,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 78
+    },
     {
       "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
       "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
@@ -392,30 +416,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 72
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 71,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 72
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
     }
   ],
   "chronicle_distant": [
@@ -541,7 +541,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 77,
+    "day_of_year": 78,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
