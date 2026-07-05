@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-05T11:38:39.869Z",
-  "valid_until": "2026-07-12T11:38:39.869Z",
+  "generated": "2026-07-05T17:17:49.835Z",
+  "valid_until": "2026-07-12T17:17:49.835Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,12 +12,12 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -25,9 +25,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 76,
-    "total_tick": 75,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 76"
+    "day": 77,
+    "total_tick": 76,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 77"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
     {
       "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
       "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
@@ -270,33 +294,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 69
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 68,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 69
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 67,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
     {
       "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
       "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
@@ -404,21 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 71
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 68,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
     {
       "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
       "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 62
-    },
-    {
-      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
-      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
-      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 60,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 61
     }
   ],
   "church_calendar": {
-    "day_of_year": 76,
+    "day_of_year": 77,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

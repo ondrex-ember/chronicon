@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 76,
+    "day": 77,
     "daysPerSeason": 90,
-    "totalTick": 75
+    "totalTick": 76
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,30 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 76,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 77
+    },
     {
       "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
       "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
@@ -1086,30 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 45
-    },
-    {
-      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
-    },
-    {
-      "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_cs": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně.",
-      "text_en": "Brother the gardener came to the abbot in tears: The night frost destroyed the young seedlings in the bed. Three weeks of work are gone. The abbot told him that God tests our patience. The gardener did not look convinced.",
-      "type": "B",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 43,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 44
     }
   ],
   "_chainQueue": [],
@@ -1529,12 +1529,20 @@
     "praha_012": {
       "tick": 75,
       "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený."
+    },
+    "mono_059": {
+      "tick": 76,
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně."
+    },
+    "praha_032": {
+      "tick": 76,
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 42,
+    "consecutiveFamines": 43,
     "winterCascade": null
   }
 }
