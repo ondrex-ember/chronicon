@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 80,
+    "day": 81,
     "daysPerSeason": 90,
-    "totalTick": 79
+    "totalTick": 80
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,42 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -1074,42 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 49
-    },
-    {
-      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
-    },
-    {
-      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
-    },
-    {
-      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
-      "type": "A",
-      "icon": "🌧️",
-      "source": "monastery_internal",
-      "tick": 47,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 48
     }
   ],
   "_chainQueue": [],
@@ -1243,7 +1243,7 @@
       "text": "Bratr zahradník přišel k opatovi s pláčem: Noční mráz zničil mladé sazenice v záhoně. Tři týdny práce jsou pryč. Opat mu řekl, že Bůh zkouší naši trpělivost. Zahradník se netvářil přesvědčeně."
     },
     "local_004": {
-      "tick": 27,
+      "tick": 80,
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami."
     },
     "local_015": {
@@ -1557,12 +1557,20 @@
     "zbras_037": {
       "tick": 79,
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno."
+    },
+    "mono_042": {
+      "tick": 80,
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek."
+    },
+    "zbras_040": {
+      "tick": 80,
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 46,
+    "consecutiveFamines": 47,
     "winterCascade": null
   }
 }

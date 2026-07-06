@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-06T13:51:23.755Z",
-  "valid_until": "2026-07-13T13:51:23.755Z",
+  "generated": "2026-07-06T18:15:00.756Z",
+  "valid_until": "2026-07-13T18:15:00.756Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,12 +12,12 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
+    "key": "spring_late_frost",
+    "name": "Pozdní mráz",
+    "icon": "🌨",
+    "desc": "Neočekávaný mráz poškozuje osení.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 0.75,
     "modifier_wood": 1
   },
   "time": {
@@ -25,9 +25,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 80,
-    "total_tick": 79,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 80"
+    "day": 81,
+    "total_tick": 80,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 81"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -258,45 +294,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 74
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 73,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 74
-    },
-    {
-      "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_en": "From Prague: the bells of the Old Town churches ring longer than is custom, the priests calling the people to prayer for peace in the land. People come willingly, for they bear in their hearts an anxious dread of what is to come.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "distant_events",
-      "tick": 72,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 73
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 72,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 73
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
     {
       "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
       "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
@@ -392,33 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 75
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 75
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 73,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 74
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 80,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 81
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 71
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 67,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 68
     }
   ],
   "church_calendar": {
-    "day_of_year": 80,
+    "day_of_year": 81,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
