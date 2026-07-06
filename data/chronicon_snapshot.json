@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-05T23:06:21.384Z",
-  "valid_until": "2026-07-12T23:06:21.384Z",
+  "generated": "2026-07-06T08:26:38.715Z",
+  "valid_until": "2026-07-13T08:26:38.715Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,12 +12,12 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_fog",
-    "name": "Ranní mlha",
-    "icon": "🌫",
-    "desc": "Hustá mlha halí údolí. Poutníci bloudí.",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
+    "icon": "🌧",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -25,9 +25,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 78,
-    "total_tick": 77,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 78"
+    "day": 79,
+    "total_tick": 78,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 79"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,54 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 78
+    },
     {
       "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
       "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
@@ -246,57 +294,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 72
-    },
-    {
-      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
-      "type": "A",
-      "icon": "🏗️",
-      "source": "local_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 72
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 71,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 72
-    },
-    {
-      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
-      "type": "E",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
     {
       "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
       "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
@@ -392,33 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 73
-    },
-    {
-      "text": "Kniha o svatých mučednících má mírně natrženou obálku. Zjistil jsem, že ji kočka Metoděj používá k broušení drápů. Od nynějška nechávám na podlaze jen spisy heretiků.",
-      "text_cs": "Kniha o svatých mučednících má mírně natrženou obálku. Zjistil jsem, že ji kočka Metoděj používá k broušení drápů. Od nynějška nechávám na podlaze jen spisy heretiků.",
-      "text_en": "The book on holy martyrs has a slightly torn cover. I discovered that the cat Metoděj uses it to sharpen her claws. From now on, I will leave only the writings of heretics on the floor.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 72,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 73
-    },
-    {
-      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
-      "type": "A",
-      "icon": "🏗️",
-      "source": "local_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 72
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 78,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 79
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 66
-    },
-    {
-      "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_en": "From the Bohemian lands: a certain merchant brought word that somewhere in the west books are no longer made by the monastic hand alone, but by some manner of machine. The brother librarian believed it not and demanded proof, which the merchant promised to bring next time.",
-      "type": "A",
-      "icon": "📦",
-      "source": "distant_events",
-      "tick": 61,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 62
     }
   ],
   "church_calendar": {
-    "day_of_year": 78,
+    "day_of_year": 79,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
