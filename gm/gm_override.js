@@ -28,6 +28,7 @@ const ALLOWED_KEYS = [
   'tension_modifier',
   'event_inject',
   'unlock_flag',
+  'feast',
 ];
 
 const GmOverride = {
