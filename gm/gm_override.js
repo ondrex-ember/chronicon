@@ -29,6 +29,7 @@ const ALLOWED_KEYS = [
   'event_inject',
   'unlock_flag',
   'feast',
+  'fast',
 ];
 
 const GmOverride = {
