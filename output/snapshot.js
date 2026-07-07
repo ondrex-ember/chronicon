@@ -37,6 +37,9 @@ const Snapshot = {
       // null pokud GM nic nenastavil — Scriptorium strana je defenzivní no-op.
       unlockFlag: GameState.gm.unlock_flag,
 
+      // Svátek (GM): Scriptorium serveMass čte → vliv ×2. null = obyčejný den.
+      feast: GameState.gm.feast || null,
+
       weather: {
         key:              GameState.weather.key,
         name:             GameState.weather.name,
