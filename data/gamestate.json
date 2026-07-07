@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 84,
+    "day": 85,
     "daysPerSeason": 90,
-    "totalTick": 83
+    "totalTick": 84
   },
   "resources": {
     "grain": {
@@ -148,9 +148,35 @@
     "event_inject": null,
     "abbot_message_id": "msg_20260702_367",
     "abbot_message_one_shot": true,
-    "unlock_flag": null
+    "unlock_flag": null,
+    "feast": null,
+    "fast": null
   },
   "log": [
+    {
+      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
+      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
+      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
+      "type": "C",
+      "icon": "🌿",
+      "source": "distant_events",
+      "tick": 84,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 85
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 84,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 85
+    },
     {
       "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
       "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
@@ -1086,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 53
-    },
-    {
-      "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_cs": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí.",
-      "text_en": "Coroner's record: An old fisherman fell asleep in his boat and fell into the swollen branch of the Morava river. His body was caught a day later by the mill grates. He left six hungry children behind in the village.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 51,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 52
     }
   ],
   "_chainQueue": [],
@@ -1573,12 +1575,20 @@
     "praha_022": {
       "tick": 82,
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji."
+    },
+    "anales_sel_006": {
+      "tick": 84,
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí."
+    },
+    "zbras_025": {
+      "tick": 84,
+      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 50,
+    "consecutiveFamines": 51,
     "winterCascade": null
   }
 }
