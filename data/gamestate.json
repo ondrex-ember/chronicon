@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 85,
+    "day": 86,
     "daysPerSeason": 90,
-    "totalTick": 84
+    "totalTick": 85
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste."
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
+    {
+      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "monastery_internal",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
     {
       "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
       "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 54
-    },
-    {
-      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
-      "type": "A",
-      "icon": "🪶",
-      "source": "monastery_internal",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 52,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 53
     }
   ],
   "_chainQueue": [],
@@ -1583,12 +1583,20 @@
     "zbras_025": {
       "tick": 84,
       "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé."
+    },
+    "anales_sel_015": {
+      "tick": 85,
+      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál."
+    },
+    "local_248": {
+      "tick": 85,
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 51,
+    "consecutiveFamines": 52,
     "winterCascade": null
   }
 }

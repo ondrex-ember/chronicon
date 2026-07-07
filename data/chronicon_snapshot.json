@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-07T18:05:07.363Z",
-  "valid_until": "2026-07-14T18:05:07.363Z",
+  "generated": "2026-07-07T23:06:45.858Z",
+  "valid_until": "2026-07-14T23:06:45.858Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "spring_rain",
-    "name": "Mírný déšť",
-    "icon": "🌧",
-    "desc": "Déšť zavlažuje pole. Úroda poroste.",
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
     "season": 0,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 85,
-    "total_tick": 84,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 85"
+    "day": 86,
+    "total_tick": 85,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 86"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
+    {
+      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "monastery_internal",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
     {
       "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
       "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
@@ -272,33 +296,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 78
-    },
-    {
-      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
-      "type": "A",
-      "icon": "⛓️",
-      "source": "local_events",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
+    {
+      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
+      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "monastery_internal",
+      "tick": 85,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
     {
       "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
       "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
@@ -394,30 +418,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 81
-    },
-    {
-      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 79,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 80
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 78,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 79
     }
   ],
   "chronicle_distant": [
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 85,
+    "day_of_year": 86,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
