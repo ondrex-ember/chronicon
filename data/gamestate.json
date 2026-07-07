@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 83,
+    "day": 84,
     "daysPerSeason": 90,
-    "totalTick": 82
+    "totalTick": 83
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
     "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
+    "desc": "Déšť zavlažuje pole. Úroda poroste."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,18 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 83,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 84
+    },
     {
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
       "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
@@ -1098,18 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 52
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 51
     }
   ],
   "_chainQueue": [],
@@ -1515,7 +1515,7 @@
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu."
     },
     "mono_037": {
-      "tick": 74,
+      "tick": 83,
       "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra."
     },
     "praha_006": {
@@ -1578,7 +1578,7 @@
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 49,
+    "consecutiveFamines": 50,
     "winterCascade": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-07T07:47:12.060Z",
-  "valid_until": "2026-07-14T07:47:12.060Z",
+  "generated": "2026-07-07T12:30:20.765Z",
+  "valid_until": "2026-07-14T12:30:20.765Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,22 +12,22 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_heavy_rain",
-    "name": "Silný déšť",
+    "key": "spring_rain",
+    "name": "Mírný déšť",
     "icon": "🌧",
-    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
+    "desc": "Déšť zavlažuje pole. Úroda poroste.",
     "season": 0,
-    "modifier_grain": 1.2,
-    "modifier_wood": 0.9
+    "modifier_grain": 1.15,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 83,
-    "total_tick": 82,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 83"
+    "day": 84,
+    "total_tick": 83,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 84"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 83,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 84
+    },
     {
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
       "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
@@ -282,21 +294,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 77
-    },
-    {
-      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 76
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 83,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 84
+    },
     {
       "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
       "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
@@ -404,18 +416,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 79
-    },
-    {
-      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
-      "type": "A",
-      "icon": "⛓️",
-      "source": "local_events",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
     }
   ],
   "chronicle_distant": [
@@ -541,7 +541,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 83,
+    "day_of_year": 84,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,
