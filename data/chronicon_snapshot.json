@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-06T23:12:47.232Z",
-  "valid_until": "2026-07-13T23:12:47.232Z",
+  "generated": "2026-07-07T07:47:12.060Z",
+  "valid_until": "2026-07-14T07:47:12.060Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -12,22 +12,22 @@
   },
   "unlockFlag": null,
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
+    "icon": "🌧",
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou.",
     "season": 0,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 1.2,
+    "modifier_wood": 0.9
   },
   "time": {
     "year": 1465,
     "season": 0,
     "season_name": "Jaro",
     "season_icon": "🌱",
-    "day": 82,
-    "total_tick": 81,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 82"
+    "day": 83,
+    "total_tick": 82,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 83"
   },
   "actors": {
     "monastery": {
@@ -55,6 +55,54 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
+      "type": "C",
+      "icon": "🎓",
+      "source": "distant_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 82
+    },
     {
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
       "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
@@ -246,57 +294,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 76
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 76
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 75
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 75
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
     {
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
       "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
@@ -392,33 +416,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 78
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 76,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 77
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
+      "type": "C",
+      "icon": "🎓",
+      "source": "distant_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
     {
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
       "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
@@ -526,22 +538,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 72
-    },
-    {
-      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
-      "type": "E",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
     }
   ],
   "church_calendar": {
-    "day_of_year": 82,
+    "day_of_year": 83,
     "season": "Jaro",
     "season_icon": "🌱",
     "year": 1465,

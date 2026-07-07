@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 82,
+    "day": 83,
     "daysPerSeason": 90,
-    "totalTick": 81
+    "totalTick": 82
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
+    "key": "spring_heavy_rain",
+    "name": "Silný déšť",
+    "icon": "🌧",
+    "desc": "Prudký déšť. Pole prospívají, dřevorubci váznou."
   },
   "actors": {
     "monastery": {
@@ -151,6 +151,54 @@
     "unlock_flag": null
   },
   "log": [
+    {
+      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
+      "type": "C",
+      "icon": "🎓",
+      "source": "distant_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 83
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 82,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 82
+    },
     {
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
       "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
@@ -1062,54 +1110,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 51
-    },
-    {
-      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
-      "type": "C",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 51
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 50,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
-      "type": "C",
-      "icon": "🧰",
-      "source": "distant_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 50
     }
   ],
   "_chainQueue": [],
@@ -1291,7 +1291,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 78,
+      "tick": 82,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1491,7 +1491,7 @@
       "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů."
     },
     "mono_130": {
-      "tick": 71,
+      "tick": 82,
       "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad."
     },
     "local_171": {
@@ -1565,12 +1565,20 @@
     "zbras_040": {
       "tick": 80,
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše."
+    },
+    "local_281": {
+      "tick": 82,
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid."
+    },
+    "praha_022": {
+      "tick": 82,
+      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 48,
+    "consecutiveFamines": 49,
     "winterCascade": null
   }
 }
