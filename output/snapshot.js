@@ -40,6 +40,9 @@ const Snapshot = {
       // Svátek (GM): Scriptorium serveMass čte → vliv ×2. null = obyčejný den.
       feast: GameState.gm.feast || null,
 
+      // Půst (GM): Scriptorium calcPrice čte → ryby ×1.5, maso ×0.5. null = obyčejný den.
+      fast: GameState.gm.fast || null,
+
       weather: {
         key:              GameState.weather.key,
         name:             GameState.weather.name,
