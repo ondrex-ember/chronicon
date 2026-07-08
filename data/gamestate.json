@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 86,
+    "day": 87,
     "daysPerSeason": 90,
-    "totalTick": 85
+    "totalTick": 86
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "spring_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně."
+    "key": "spring_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Mírné slunce. Pole i cesty jsou schůdné."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
+      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 86,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 87
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 86,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 87
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 86,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 86
+    },
     {
       "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
       "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 55
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 54,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
-    },
-    {
-      "text": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
-      "text_cs": "Nejlepší čas k nákupu anglické vlny nadešel kolem svátku svatého Jana, kdy se konají cotswoldské jarmarky v Northleachu a Burfordu. Florentští nákupčí rychle skoupili to nejlepší zboží, zbytek si rozebrali místní obchodníci z Londýna a Bristolu. Kdo chce dobrou produkci, nesmí tyto trhy zmeškat.",
-      "text_en": "The best time to buy English wool is around St. John's Day, when the Cotswold fairs are held in Northleach and Burford. Florentine buyers quickly bought up the best goods, while the rest was taken by local merchants from London and Bristol. Whoever desires good produce must not miss these markets.",
-      "type": "E",
-      "icon": "🎪",
-      "source": "distant_events",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
-    },
-    {
-      "text": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
-      "text_cs": "Zpráva z Bystřice: Kvalitního stavebního dřeva je letos zoufalý nedostatek. Tesaři si stěžují, že panský správce prodal nejlepší kmeny do Uher a na místní opravy zbylo jen sukovité dřevo plné smůly.",
-      "text_en": "News from Bystřice: There is a desperate shortage of quality construction timber this year. Carpenters complain that the lord's steward sold the best logs to Hungary, leaving only knotty, resin-filled wood for local repairs.",
-      "type": "C",
-      "icon": "🪵",
-      "source": "local_events",
-      "tick": 53,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 54
     }
   ],
   "_chainQueue": [],
@@ -1293,7 +1293,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 82,
+      "tick": 86,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1357,7 +1357,7 @@
       "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle."
     },
     "mono_095": {
-      "tick": 61,
+      "tick": 86,
       "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat."
     },
     "local_099": {
@@ -1529,7 +1529,7 @@
       "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně."
     },
     "praha_012": {
-      "tick": 75,
+      "tick": 86,
       "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený."
     },
     "mono_059": {
@@ -1596,7 +1596,7 @@
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 52,
+    "consecutiveFamines": 53,
     "winterCascade": null
   }
 }
