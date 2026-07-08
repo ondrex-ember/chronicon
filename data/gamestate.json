@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 0,
-    "day": 88,
+    "day": 89,
     "daysPerSeason": 90,
-    "totalTick": 87
+    "totalTick": 88
   },
   "resources": {
     "grain": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
+      "type": "B",
+      "icon": "🎲",
+      "source": "local_events",
+      "tick": 88,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 89
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 88,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 89
+    },
     {
       "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 57
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 56,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 57
-    },
-    {
-      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
-      "type": "E",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 55,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 56
     }
   ],
   "_chainQueue": [],
@@ -1603,12 +1603,20 @@
     "datini_004": {
       "tick": 87,
       "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno."
+    },
+    "anales_sel_011": {
+      "tick": 88,
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel."
+    },
+    "local_042": {
+      "tick": 88,
+      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 54,
+    "consecutiveFamines": 55,
     "winterCascade": null
   }
 }
