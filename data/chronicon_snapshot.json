@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-09T07:52:44.064Z",
-  "valid_until": "2026-07-16T07:52:44.064Z",
+  "generated": "2026-07-09T12:41:15.917Z",
+  "valid_until": "2026-07-16T12:41:15.917Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
     "season": 1,
-    "modifier_grain": 1.15,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 1,
-    "total_tick": 90,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 1"
+    "day": 2,
+    "total_tick": 91,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 2"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
+    {
+      "text": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
+      "text_cs": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
+      "text_en": "From Přerov: On St. George's Day there was a small jousting tournament. The winner was a rider from Šternberk whose name no one knew. He accepted the wreath, refused to reveal his face, and departed the same evening. People say various things.",
+      "type": "A",
+      "icon": "🎪",
+      "source": "local_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 86
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 85,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
-    },
-    {
-      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
-      "type": "C",
-      "icon": "🌿",
-      "source": "distant_events",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
+      "text_cs": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
+      "text_en": "From Přerov: On St. George's Day there was a small jousting tournament. The winner was a rider from Šternberk whose name no one knew. He accepted the wreath, refused to reveal his face, and departed the same evening. People say various things.",
+      "type": "A",
+      "icon": "🎪",
+      "source": "local_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
     {
       "text": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
       "text_cs": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 88
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 86,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 87
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 85,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 2
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 79
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 76,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 77
     }
   ],
   "church_calendar": {
-    "day_of_year": 91,
+    "day_of_year": 92,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
