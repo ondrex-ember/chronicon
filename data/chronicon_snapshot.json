@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-08T23:13:54.134Z",
-  "valid_until": "2026-07-15T23:13:54.134Z",
+  "generated": "2026-07-09T07:52:44.064Z",
+  "valid_until": "2026-07-16T07:52:44.064Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "spring_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Mírné slunce. Pole i cesty jsou schůdné.",
-    "season": 0,
-    "modifier_grain": 1.1,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "season": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
     "year": 1465,
-    "season": 0,
-    "season_name": "Jaro",
-    "season_icon": "🌱",
-    "day": 90,
-    "total_tick": 89,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 90"
+    "season": 1,
+    "season_name": "Léto",
+    "season_icon": "☀️",
+    "day": 1,
+    "total_tick": 90,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 1"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,66 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
+    {
+      "text": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
+      "text_cs": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
+      "text_en": "During the hot days of the summer haymaking, a bloody accident occurred in the manorial meadows. One of the mowers missed his swing with a sharp scythe and deeply slashed his neighbor's leg. The victim lost a lot of blood and, despite all the barber-surgeon's efforts, died by evening.",
+      "type": "D",
+      "icon": "🩸",
+      "source": "local_events",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
+    {
+      "text": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
+      "text_cs": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
+      "text_en": "From the annals: on the Tuesday before St Peter great hail fell as an army marched past Prague. The sky does not choose whose fields it beats — and the peasant pays for every war twice.",
+      "type": "A",
+      "icon": "🌩️",
+      "source": "monastery_internal",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
+    {
+      "text": "☀️ Léto Léta Páně 1465 začíná.",
+      "text_cs": "☀️ Léto Léta Páně 1465 začíná.",
+      "text_en": null,
+      "type": "A",
+      "icon": "☀️",
+      "source": "engine",
+      "tick": 90,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 91
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 90,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 90
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -236,69 +296,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 85
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 83,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 84
-    },
-    {
-      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
-      "type": "C",
-      "icon": "🎓",
-      "source": "distant_events",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 83
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 83
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 83
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
+      "text_cs": "Během horkých dnů letní senoseče došlo na panských loukách ke krvavé nehodě. Jeden z ženců se při máchnutí ostrou kosou netrefil a těžce sekl svého souseda do nohy. Postižený ztratil mnoho krve a přes veškerou snahu ranhojiče do večera skonal.",
+      "text_en": "During the hot days of the summer haymaking, a bloody accident occurred in the manorial meadows. One of the mowers missed his swing with a sharp scythe and deeply slashed his neighbor's leg. The victim lost a lot of blood and, despite all the barber-surgeon's efforts, died by evening.",
+      "type": "D",
+      "icon": "🩸",
+      "source": "local_events",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
+    {
+      "text": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
+      "text_cs": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
+      "text_en": "From the annals: on the Tuesday before St Peter great hail fell as an army marched past Prague. The sky does not choose whose fields it beats — and the peasant pays for every war twice.",
+      "type": "A",
+      "icon": "🌩️",
+      "source": "monastery_internal",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
     {
       "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
       "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 86
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 85,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 1
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -528,24 +540,12 @@
       "year": 1465,
       "season": "Jaro",
       "day": 77
-    },
-    {
-      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 76
     }
   ],
   "church_calendar": {
-    "day_of_year": 90,
-    "season": "Jaro",
-    "season_icon": "🌱",
+    "day_of_year": 91,
+    "season": "Léto",
+    "season_icon": "☀️",
     "year": 1465,
     "note": null
   }
