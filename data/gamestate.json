@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 4,
+    "day": 5,
     "daysPerSeason": 90,
-    "totalTick": 93
+    "totalTick": 94
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
+      "type": "B",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 4
+    },
     {
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
       "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 64
-    },
-    {
-      "text": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
-      "text_cs": "Uštvaný královský kurýr projel tryskem městem, vyměnil koně na přepřahací stanici a ihned vyrazil dále k Olomouci. Jeho brašna byla plná pečetěných listin. Měšťané se dohadují, zda nese zprávy o nové válce, nebo o diplomatické dohodě s papežem.",
-      "text_en": "An exhausted royal courier galloped through the town, changed horses at the relay station, and immediately set off again towards Olomouc. His satchel was full of sealed documents. Burghers are guessing whether he carries news of a new war or a diplomatic agreement with the Pope.",
-      "type": "C",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 62,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 63
-    },
-    {
-      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
-      "type": "E",
-      "icon": "🐟",
-      "source": "monastery_internal",
-      "tick": 62,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 63
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 62,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 62
     }
   ],
   "_chainQueue": [],
@@ -1293,7 +1293,7 @@
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "famine_warning": {
-      "tick": 90,
+      "tick": 94,
       "text": "Zásobárna je prázdná. Bratři hladoví."
     },
     "local_027": {
@@ -1647,12 +1647,20 @@
     "zbras_018": {
       "tick": 93,
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví."
+    },
+    "anales_sel_023": {
+      "tick": 94,
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano."
+    },
+    "datini_017": {
+      "tick": 94,
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 60,
+    "consecutiveFamines": 61,
     "winterCascade": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-09T23:17:39.944Z",
-  "valid_until": "2026-07-16T23:17:39.944Z",
+  "generated": "2026-07-10T07:41:57.689Z",
+  "valid_until": "2026-07-17T07:41:57.689Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
     "season": 1,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 0.9,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 4,
-    "total_tick": 93,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 4"
+    "day": 5,
+    "total_tick": 94,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 5"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
+      "type": "B",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
+    {
+      "text": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
+      "text_en": null,
+      "type": "B",
+      "icon": "☠️",
+      "source": "engine",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 4
+    },
     {
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
       "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
@@ -260,45 +296,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 89
-    },
-    {
-      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
-      "type": "A",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 87,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 88
-    },
-    {
-      "text": "Zápis koronera: Uhlíř pracující hluboko v lesích překvapil medvědici s mláďaty. Zvíře ho rozsápalo dřív, než stihl utéci k milíři. Rychtář varuje všechny dřevorubce, aby do hvozdu nechodili bez oštěpů.",
-      "text_cs": "Zápis koronera: Uhlíř pracující hluboko v lesích překvapil medvědici s mláďaty. Zvíře ho rozsápalo dřív, než stihl utéci k milíři. Rychtář varuje všechny dřevorubce, aby do hvozdu nechodili bez oštěpů.",
-      "text_en": "Coroner's record: A charcoal burner working deep in the woods surprised a female bear with cubs. The beast mangled him before he could flee to his kiln. The alderman warns all woodcutters not to enter the forest without spears.",
-      "type": "A",
-      "icon": "🐻",
-      "source": "local_events",
-      "tick": 87,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 88
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 87,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 88
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
     {
       "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
       "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
@@ -406,21 +418,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 89
-    },
-    {
-      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 88,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 89
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
+      "type": "B",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 94,
+      "year": 1465,
+      "season": "Léto",
+      "day": 5
+    },
     {
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
       "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 83
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 80,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 81
     }
   ],
   "church_calendar": {
-    "day_of_year": 94,
+    "day_of_year": 95,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
