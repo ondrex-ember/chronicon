@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 6,
+    "day": 7,
     "daysPerSeason": 90,
-    "totalTick": 95
+    "totalTick": 96
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_cs": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_en": "That year, on the Wednesday before Corpus Christi, Čeněk of Vartemberk betrayed Prague Castle and gave it to the city.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
+    {
+      "text": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_cs": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_en": "A messenger from Hradiště warns: A fast detachment of Hungarian light cavalry crossed the border river and plundered two villages on the Moravian side. They drove off a herd of oxen and vanished before the provincial militia arrived.",
+      "type": "B",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
+    {
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
+      "type": "B",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
     {
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
       "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 66
-    },
-    {
-      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 66
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 66
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 65,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 66
     }
   ],
   "_chainQueue": [],
@@ -1663,12 +1663,24 @@
     "letopisy_017": {
       "tick": 95,
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest."
+    },
+    "refect_ex_003": {
+      "tick": 96,
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli."
+    },
+    "local_065": {
+      "tick": 96,
+      "text": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost."
+    },
+    "letopisy_030": {
+      "tick": 96,
+      "text": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 62,
+    "consecutiveFamines": 63,
     "winterCascade": null
   }
 }

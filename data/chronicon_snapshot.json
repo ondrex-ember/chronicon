@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-10T12:28:48.501Z",
-  "valid_until": "2026-07-17T12:28:48.501Z",
+  "generated": "2026-07-10T17:50:54.007Z",
+  "valid_until": "2026-07-17T17:50:54.007Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
     "season": 1,
-    "modifier_grain": 0.9,
-    "modifier_wood": 0.85
+    "modifier_grain": 1.15,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 6,
-    "total_tick": 95,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 6"
+    "day": 7,
+    "total_tick": 96,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 7"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_cs": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_en": "That year, on the Wednesday before Corpus Christi, Čeněk of Vartemberk betrayed Prague Castle and gave it to the city.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
+    {
+      "text": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_cs": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_en": "A messenger from Hradiště warns: A fast detachment of Hungarian light cavalry crossed the border river and plundered two villages on the Moravian side. They drove off a herd of oxen and vanished before the provincial militia arrived.",
+      "type": "B",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
+    {
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
+      "type": "B",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
     {
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
       "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Jaro",
       "day": 91
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 90,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
-    },
-    {
-      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_cs": "Posel z Hradiště varuje: Rychlý oddíl uherské lehké jízdy překročil pomezní řeku a vyraboval dvě vesnice na moravské straně. Odvezli stádo volů a zmizeli dříve, než dorazila zemská hotovost.",
+      "text_en": "A messenger from Hradiště warns: A fast detachment of Hungarian light cavalry crossed the border river and plundered two villages on the Moravian side. They drove off a herd of oxen and vanished before the provincial militia arrived.",
+      "type": "B",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
+    {
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
+      "type": "B",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
     {
       "text": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
       "text_cs": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 1
-    },
-    {
-      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
-    },
-    {
-      "text": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_cs": "Bratr zahradník zapsal s radostí: Levandule přežila zimu celá. Meduňka se rozrůstá za zeď. Šalvěj kvete dříve než loni. Bůh byl k naší zahrádce laskav.",
-      "text_en": "Brother the gardener wrote with joy: The lavender survived the winter whole. The lemon balm is spreading beyond the wall. The sage blooms earlier than last year. God was kind to our garden.",
-      "type": "E",
-      "icon": "🌿",
-      "source": "monastery_internal",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_cs": "Léta téhož v středu před Svátostí Čeněk Veselský z Vartmberka zradil jest Hrad pražský a dal jej městu Pražskému a mnoho lidí, kteříž byli vyšli z města na Hrad, zlúpil jest. A potom opět, drže Hrad, týž pan Čeněk od Pražan dal jej opět a zradil králi zase.",
+      "text_en": "That year, on the Wednesday before Corpus Christi, Čeněk of Vartemberk betrayed Prague Castle and gave it to the city.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 7
+    },
     {
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
       "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 87
-    },
-    {
-      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
-      "type": "C",
-      "icon": "🌿",
-      "source": "distant_events",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
     }
   ],
   "church_calendar": {
-    "day_of_year": 96,
+    "day_of_year": 97,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
