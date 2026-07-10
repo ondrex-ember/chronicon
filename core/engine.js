@@ -153,21 +153,14 @@ const GameEngine = {
     if (res.piety.rate > 0) stats.pietyGained   += res.piety.rate;
     if (res.grose.rate > 0) stats.groseEarned   += res.grose.rate;
 
-    // Chronicle při hladomorové situaci
+    // Interní bookkeeping hladomoru/zimní krize — bez Chronicle injektáže.
+    // "Naše klášter" narativ jde výhradně přes monastery_internal_v1.json (Picker).
+    // Tyto fake-resource stavy zůstávají jako interní flagy pro budoucí napojení
+    // na reálná data ze Scriptoria (mniši/konvrši, jídlo, hladomor/riots — plán fáze 2).
     if (res.grain.value <= 0) {
-      GameLog.addOnce('famine_warning', 'Zásobárna je prázdná. Bratři hladoví.', {
-        type: 'B', icon: '☠️', source: 'engine',
-      }, 4);
       GameState.flags.consecutiveFamines++;
     } else {
       GameState.flags.consecutiveFamines = 0;
-    }
-
-    // Chronicle při zimní krizi s dřevem
-    if (StateHelpers.isWinter() && GameState.flags.winterCascade === 'crisis') {
-      GameLog.addOnce('wood_crisis', 'Žádné dřevo nezbývá. Klášter mrznout.', {
-        type: 'B', icon: '🪵', source: 'engine',
-      }, 4);
     }
   },
 
