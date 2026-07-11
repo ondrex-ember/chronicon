@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 10,
+    "day": 11,
     "daysPerSeason": 90,
-    "totalTick": 99
+    "totalTick": 100
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
+      "type": "B",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 72
-    },
-    {
-      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
-      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
-      "type": "E",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 70,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 71
     }
   ],
   "_chainQueue": [],
@@ -1525,7 +1525,7 @@
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše."
     },
     "local_050": {
-      "tick": 75,
+      "tick": 100,
       "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně."
     },
     "praha_012": {
@@ -1695,12 +1695,16 @@
     "zbras_023": {
       "tick": 99,
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil."
+    },
+    "praha_007": {
+      "tick": 100,
+      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 66,
+    "consecutiveFamines": 67,
     "winterCascade": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-11T11:10:32.619Z",
-  "valid_until": "2026-07-18T11:10:32.619Z",
+  "generated": "2026-07-11T17:03:43.625Z",
+  "valid_until": "2026-07-18T17:03:43.625Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 10,
-    "total_tick": 99,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 10"
+    "day": 11,
+    "total_tick": 100,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 11"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
+      "type": "B",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -272,33 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 4
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 93,
-      "year": 1465,
-      "season": "Léto",
-      "day": 4
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 3
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
     {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
@@ -406,21 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 6
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 5
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
+      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
+      "type": "B",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 11
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 1
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
     }
   ],
   "church_calendar": {
-    "day_of_year": 100,
+    "day_of_year": 101,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
