@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-11T06:19:21.711Z",
-  "valid_until": "2026-07-18T06:19:21.711Z",
+  "generated": "2026-07-11T11:10:32.619Z",
+  "valid_until": "2026-07-18T11:10:32.619Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 0.8,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 9,
-    "total_tick": 98,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 9"
+    "day": 10,
+    "total_tick": 99,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 10"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
+    {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
     {
       "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
       "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 3
-    },
-    {
-      "text": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_cs": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_en": "Today, the richest broadcloth merchant in Brno was laid to rest in his family tomb. The surviving family left a substantial financial donation on the altar and had a hundred white loaves of bread distributed to the poor in front of the church. The long procession of mourners blocked the main street all afternoon.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 3
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 2
-    },
-    {
-      "text": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
-      "text_cs": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
-      "text_en": "From Přerov: On St. George's Day there was a small jousting tournament. The winner was a rider from Šternberk whose name no one knew. He accepted the wreath, refused to reveal his face, and departed the same evening. People say various things.",
-      "type": "A",
-      "icon": "🎪",
-      "source": "local_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 2
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
     {
       "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
       "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 5
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 93,
-      "year": 1465,
-      "season": "Léto",
-      "day": 4
-    },
-    {
-      "text": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_cs": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_en": "Today, the richest broadcloth merchant in Brno was laid to rest in his family tomb. The surviving family left a substantial financial donation on the altar and had a hundred white loaves of bread distributed to the poor in front of the church. The long procession of mourners blocked the main street all afternoon.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 3
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 10
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Jaro",
       "day": 90
-    },
-    {
-      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
-      "type": "A",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 87,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 88
     }
   ],
   "church_calendar": {
-    "day_of_year": 99,
+    "day_of_year": 100,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
