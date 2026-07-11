@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-11T17:03:43.625Z",
-  "valid_until": "2026-07-18T17:03:43.625Z",
+  "generated": "2026-07-11T22:55:33.779Z",
+  "valid_until": "2026-07-18T22:55:33.779Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 11,
-    "total_tick": 100,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 11"
+    "day": 12,
+    "total_tick": 101,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 12"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
+      "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
+      "text_en": "From the Bohemian lands: a certain merchant brought word that somewhere in the west books are no longer made by the monastic hand alone, but by some manner of machine. The brother librarian believed it not and demanded proof, which the merchant promised to bring next time.",
+      "type": "A",
+      "icon": "📦",
+      "source": "distant_events",
+      "tick": 101,
+      "year": 1465,
+      "season": "Léto",
+      "day": 12
+    },
+    {
+      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 101,
+      "year": 1465,
+      "season": "Léto",
+      "day": 12
+    },
     {
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
       "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
@@ -272,33 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 5
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 4
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 93,
-      "year": 1465,
-      "season": "Léto",
-      "day": 4
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 101,
+      "year": 1465,
+      "season": "Léto",
+      "day": 12
+    },
     {
       "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
       "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
@@ -406,21 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 7
-    },
-    {
-      "text": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
-      "text_cs": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
-      "text_en": "Prolonged summer droughts and unbearable heat have turned forests and fields into tinder. A fire broke out in a nearby settlement from an unguarded hearth and, due to strong winds, destroyed several barns full of hay. Inhabitants pray for saving rain before the flames engulf the entire valley.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 6
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
+      "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
+      "text_en": "From the Bohemian lands: a certain merchant brought word that somewhere in the west books are no longer made by the monastic hand alone, but by some manner of machine. The brother librarian believed it not and demanded proof, which the merchant promised to bring next time.",
+      "type": "A",
+      "icon": "📦",
+      "source": "distant_events",
+      "tick": 101,
+      "year": 1465,
+      "season": "Léto",
+      "day": 12
+    },
     {
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
       "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 2
-    },
-    {
-      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
-      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
-      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 1
     }
   ],
   "church_calendar": {
-    "day_of_year": 101,
+    "day_of_year": 102,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
