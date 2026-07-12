@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 12,
+    "day": 13,
     "daysPerSeason": 90,
-    "totalTick": 101
+    "totalTick": 102
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 13
+    },
+    {
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 13
+    },
+    {
+      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
+      "type": "A",
+      "icon": "🫏",
+      "source": "monastery_internal",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 13
+    },
     {
       "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
       "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 73
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 72,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 73
-    },
-    {
-      "text": "Kniha o svatých mučednících má mírně natrženou obálku. Zjistil jsem, že ji kočka Metoděj používá k broušení drápů. Od nynějška nechávám na podlaze jen spisy heretiků.",
-      "text_cs": "Kniha o svatých mučednících má mírně natrženou obálku. Zjistil jsem, že ji kočka Metoděj používá k broušení drápů. Od nynějška nechávám na podlaze jen spisy heretiků.",
-      "text_en": "The book on holy martyrs has a slightly torn cover. I discovered that the cat Metoděj uses it to sharpen her claws. From now on, I will leave only the writings of heretics on the floor.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 72,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 73
-    },
-    {
-      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 72
     }
   ],
   "_chainQueue": [],
@@ -1301,7 +1301,7 @@
       "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení."
     },
     "zbras_002": {
-      "tick": 89,
+      "tick": 102,
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
     },
     "coroner_005": {
@@ -1509,7 +1509,7 @@
       "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí."
     },
     "local_212": {
-      "tick": 73,
+      "tick": 102,
       "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město."
     },
     "frois_004": {
@@ -1703,12 +1703,16 @@
     "local_086": {
       "tick": 101,
       "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu."
+    },
+    "anales_sel_021": {
+      "tick": 102,
+      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 68,
+    "consecutiveFamines": 69,
     "winterCascade": null
   }
 }
