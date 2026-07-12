@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 14,
+    "day": 15,
     "daysPerSeason": 90,
-    "totalTick": 103
+    "totalTick": 104
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
+      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
+      "type": "C",
+      "icon": "🎓",
+      "source": "distant_events",
+      "tick": 104,
+      "year": 1465,
+      "season": "Léto",
+      "day": 15
+    },
+    {
+      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 104,
+      "year": 1465,
+      "season": "Léto",
+      "day": 15
+    },
+    {
+      "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
+      "text_cs": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
+      "text_en": "I found the cat Metoděj sleeping directly on an open tract by Saint Augustine. She seems to choose exclusively heavier theological writings for her rest. I carefully rescued the book, and the cat left grumpily.",
+      "type": "A",
+      "icon": "📚",
+      "source": "monastery_internal",
+      "tick": 104,
+      "year": 1465,
+      "season": "Léto",
+      "day": 15
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 75
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 75
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 74,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 74
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
-      "type": "C",
-      "icon": "💍",
-      "source": "distant_events",
-      "tick": 73,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 74
     }
   ],
   "_chainQueue": [],
@@ -1573,7 +1573,7 @@
       "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid."
     },
     "praha_022": {
-      "tick": 82,
+      "tick": 104,
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji."
     },
     "anales_sel_006": {
@@ -1715,12 +1715,20 @@
     "praha_029": {
       "tick": 103,
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel."
+    },
+    "mono_039": {
+      "tick": 104,
+      "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla."
+    },
+    "local_184": {
+      "tick": 104,
+      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 70,
+    "consecutiveFamines": 71,
     "winterCascade": null
   }
 }
