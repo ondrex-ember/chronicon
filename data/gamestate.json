@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 19,
+    "day": 20,
     "daysPerSeason": 90,
-    "totalTick": 108
+    "totalTick": 109
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,18 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 20
+    },
     {
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
       "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
@@ -1100,18 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 80
-    },
-    {
-      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 79,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 80
     }
   ],
   "_chainQueue": [],
@@ -1747,12 +1747,16 @@
     "local_264": {
       "tick": 108,
       "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji."
+    },
+    "local_254": {
+      "tick": 109,
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 75,
+    "consecutiveFamines": 76,
     "winterCascade": null
   }
 }
