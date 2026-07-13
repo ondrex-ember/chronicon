@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 17,
+    "day": 18,
     "daysPerSeason": 90,
-    "totalTick": 106
+    "totalTick": 107
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
+      "type": "A",
+      "icon": "🔨",
+      "source": "distant_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 18
+    },
+    {
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 18
+    },
+    {
+      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 18
+    },
     {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 79
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 78,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
-    },
-    {
-      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
-      "type": "A",
-      "icon": "⛓️",
-      "source": "local_events",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 77,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 78
     }
   ],
   "_chainQueue": [],
@@ -1541,7 +1541,7 @@
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě."
     },
     "mono_121": {
-      "tick": 77,
+      "tick": 107,
       "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha."
     },
     "local_136": {
@@ -1731,12 +1731,20 @@
     "mono_093": {
       "tick": 106,
       "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti."
+    },
+    "local_151": {
+      "tick": 107,
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář."
+    },
+    "zbras_030": {
+      "tick": 107,
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 73,
+    "consecutiveFamines": 74,
     "winterCascade": null
   }
 }
