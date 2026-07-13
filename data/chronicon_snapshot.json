@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-12T22:55:48.676Z",
-  "valid_until": "2026-07-19T22:55:48.676Z",
+  "generated": "2026-07-13T07:27:21.425Z",
+  "valid_until": "2026-07-20T07:27:21.425Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 16,
-    "total_tick": 105,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 16"
+    "day": 17,
+    "total_tick": 106,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 17"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
     {
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 10
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
-    },
-    {
-      "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_en": "With the rising summer heat, disturbing news of the Black Death's appearance in the southern lands has arrived. Groups of desperate refugees are beginning to form before the gates of Jihlava, begging to be let in. The aldermen ordered the gates closed and guards posted to protect the mining town from ruin.",
-      "type": "B",
-      "icon": "💀",
-      "source": "local_events",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 9
-    },
-    {
-      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
-      "type": "A",
-      "icon": "🐌",
-      "source": "monastery_internal",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 9
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
     {
       "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
       "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 12
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 11
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
     {
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 7
-    },
-    {
-      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 6
     }
   ],
   "church_calendar": {
-    "day_of_year": 106,
+    "day_of_year": 107,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,

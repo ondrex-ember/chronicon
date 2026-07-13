@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 16,
+    "day": 17,
     "daysPerSeason": 90,
-    "totalTick": 105
+    "totalTick": 106
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
+      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 17
+    },
     {
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 78
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 76,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 77
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 76,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 77
-    },
-    {
-      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 76
     }
   ],
   "_chainQueue": [],
@@ -1205,7 +1205,7 @@
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu."
     },
     "datini_001": {
-      "tick": 13,
+      "tick": 106,
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality."
     },
     "local_011": {
@@ -1569,7 +1569,7 @@
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše."
     },
     "local_281": {
-      "tick": 82,
+      "tick": 106,
       "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid."
     },
     "praha_022": {
@@ -1727,12 +1727,16 @@
     "mono_053": {
       "tick": 105,
       "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla."
+    },
+    "mono_093": {
+      "tick": 106,
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 72,
+    "consecutiveFamines": 73,
     "winterCascade": null
   }
 }
