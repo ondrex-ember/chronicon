@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-14T11:35:40.484Z",
-  "valid_until": "2026-07-21T11:35:40.484Z",
+  "generated": "2026-07-14T17:19:53.426Z",
+  "valid_until": "2026-07-21T17:19:53.426Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 22,
-    "total_tick": 111,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 22"
+    "day": 23,
+    "total_tick": 112,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 23"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
+      "type": "C",
+      "icon": "🔨",
+      "source": "local_events",
+      "tick": 112,
+      "year": 1465,
+      "season": "Léto",
+      "day": 23
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -284,21 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 16
-    },
-    {
-      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
-      "type": "C",
-      "icon": "🎓",
-      "source": "distant_events",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 15
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
+      "type": "C",
+      "icon": "🔨",
+      "source": "local_events",
+      "tick": 112,
+      "year": 1465,
+      "season": "Léto",
+      "day": 23
+    },
     {
       "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
       "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
@@ -406,18 +418,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 18
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
     }
   ],
   "chronicle_distant": [
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 112,
+    "day_of_year": 113,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
