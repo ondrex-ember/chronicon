@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 20,
+    "day": 21,
     "daysPerSeason": 90,
-    "totalTick": 109
+    "totalTick": 110
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 81
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 80,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 81
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 80,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 81
-    },
-    {
-      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "distant_events",
-      "tick": 79,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 80
     }
   ],
   "_chainQueue": [],
@@ -1425,7 +1425,7 @@
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu."
     },
     "mono_136": {
-      "tick": 81,
+      "tick": 110,
       "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál."
     },
     "praha_033": {
@@ -1481,7 +1481,7 @@
       "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu."
     },
     "mohuc_003": {
-      "tick": 67,
+      "tick": 110,
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky."
     },
     "mono_112": {
@@ -1751,12 +1751,16 @@
     "local_254": {
       "tick": 109,
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši."
+    },
+    "local_282": {
+      "tick": 110,
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 76,
+    "consecutiveFamines": 77,
     "winterCascade": null
   }
 }

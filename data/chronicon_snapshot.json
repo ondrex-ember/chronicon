@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-13T22:59:58.086Z",
-  "valid_until": "2026-07-20T22:59:58.086Z",
+  "generated": "2026-07-14T06:16:47.122Z",
+  "valid_until": "2026-07-21T06:16:47.122Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 20,
-    "total_tick": 109,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 20"
+    "day": 21,
+    "total_tick": 110,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 21"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 14
-    },
-    {
-      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
-      "type": "A",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 14
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 13
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 13
     }
   ],
   "chronicle_local": [
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 16
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 16
-    },
-    {
-      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 15
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 21
+    },
     {
       "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
       "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 11
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
     }
   ],
   "church_calendar": {
-    "day_of_year": 110,
+    "day_of_year": 111,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
