@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 23,
+    "day": 24,
     "daysPerSeason": 90,
-    "totalTick": 112
+    "totalTick": 113
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,18 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_cs": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_en": "In the heat, the brothers consume twice as much small beer. The cook complains again that I don't give him quality brew for the roast. I assured him that no beverage can save his food anymore.",
+      "type": "A",
+      "icon": "🍻",
+      "source": "monastery_internal",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 24
+    },
     {
       "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
       "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
@@ -1100,18 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 83
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 83
     }
   ],
   "_chainQueue": [],
@@ -1767,12 +1767,16 @@
     "local_233": {
       "tick": 112,
       "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby."
+    },
+    "mono_043": {
+      "tick": 113,
+      "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 79,
+    "consecutiveFamines": 80,
     "winterCascade": null
   }
 }

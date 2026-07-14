@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-14T17:19:53.426Z",
-  "valid_until": "2026-07-21T17:19:53.426Z",
+  "generated": "2026-07-14T23:01:11.516Z",
+  "valid_until": "2026-07-21T23:01:11.516Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.8,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 23,
-    "total_tick": 112,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 23"
+    "day": 24,
+    "total_tick": 113,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 24"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_cs": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_en": "In the heat, the brothers consume twice as much small beer. The cook complains again that I don't give him quality brew for the roast. I assured him that no beverage can save his food anymore.",
+      "type": "A",
+      "icon": "🍻",
+      "source": "monastery_internal",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 24
+    },
     {
       "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
       "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
@@ -284,21 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 16
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 16
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_cs": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
+      "text_en": "In the heat, the brothers consume twice as much small beer. The cook complains again that I don't give him quality brew for the roast. I assured him that no beverage can save his food anymore.",
+      "type": "A",
+      "icon": "🍻",
+      "source": "monastery_internal",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 24
+    },
     {
       "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
       "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
@@ -402,18 +414,6 @@
       "type": "B",
       "icon": "⚔️",
       "source": "local_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 18
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
       "tick": 107,
       "year": 1465,
       "season": "Léto",
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 113,
+    "day_of_year": 114,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
