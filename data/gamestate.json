@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 24,
+    "day": 25,
     "daysPerSeason": 90,
-    "totalTick": 113
+    "totalTick": 114
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,18 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 114,
+      "year": 1465,
+      "season": "Léto",
+      "day": 25
+    },
     {
       "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
       "text_cs": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
@@ -1100,18 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 83
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 82,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 83
     }
   ],
   "_chainQueue": [],
@@ -1771,12 +1771,16 @@
     "mono_043": {
       "tick": 113,
       "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže."
+    },
+    "mohuc_005": {
+      "tick": 114,
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 80,
+    "consecutiveFamines": 81,
     "winterCascade": null
   }
 }

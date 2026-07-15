@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-14T23:01:11.516Z",
-  "valid_until": "2026-07-21T23:01:11.516Z",
+  "generated": "2026-07-15T06:20:14.650Z",
+  "valid_until": "2026-07-22T06:20:14.650Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 24,
-    "total_tick": 113,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 24"
+    "day": 25,
+    "total_tick": 114,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 25"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,18 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 114,
+      "year": 1465,
+      "season": "Léto",
+      "day": 25
+    },
     {
       "text": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
       "text_cs": "V horku bratři spotřebují dvakrát tolik řídkého piva. Kuchmistr si opět stěžuje, že mu nedávám kvalitní mok do pečeně. Ujistil jsem ho, že jeho jídlu už žádný nápoj nepomůže.",
@@ -284,18 +296,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 16
-    },
-    {
-      "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_en": "With the rising summer heat, disturbing news of the Black Death's appearance in the southern lands has arrived. Groups of desperate refugees are beginning to form before the gates of Jihlava, begging to be let in. The aldermen ordered the gates closed and guards posted to protect the mining town from ruin.",
-      "type": "B",
-      "icon": "💀",
-      "source": "local_events",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 16
     }
   ],
   "chronicle_local": [
@@ -422,6 +422,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 114,
+      "year": 1465,
+      "season": "Léto",
+      "day": 25
+    },
+    {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 13
-    },
-    {
-      "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_en": "From the Bohemian lands: a certain merchant brought word that somewhere in the west books are no longer made by the monastic hand alone, but by some manner of machine. The brother librarian believed it not and demanded proof, which the merchant promised to bring next time.",
-      "type": "A",
-      "icon": "📦",
-      "source": "distant_events",
-      "tick": 101,
-      "year": 1465,
-      "season": "Léto",
-      "day": 12
     }
   ],
   "church_calendar": {
-    "day_of_year": 114,
+    "day_of_year": 115,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
