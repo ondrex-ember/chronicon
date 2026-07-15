@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 26,
+    "day": 27,
     "daysPerSeason": 90,
-    "totalTick": 115
+    "totalTick": 116
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
+      "type": "A",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
     {
       "text": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
       "text_cs": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 86
-    },
-    {
-      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
-      "type": "C",
-      "icon": "🌿",
-      "source": "distant_events",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 84,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 85
     }
   ],
   "_chainQueue": [],
@@ -1729,7 +1729,7 @@
       "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla."
     },
     "mono_093": {
-      "tick": 106,
+      "tick": 116,
       "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti."
     },
     "local_151": {
@@ -1783,12 +1783,16 @@
     "letopisy_049": {
       "tick": 115,
       "text": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv."
+    },
+    "local_045": {
+      "tick": 116,
+      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 82,
+    "consecutiveFamines": 83,
     "winterCascade": null
   }
 }

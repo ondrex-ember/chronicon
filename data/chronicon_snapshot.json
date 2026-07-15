@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-15T11:39:16.939Z",
-  "valid_until": "2026-07-22T11:39:16.939Z",
+  "generated": "2026-07-15T17:22:36.600Z",
+  "valid_until": "2026-07-22T17:22:36.600Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 26,
-    "total_tick": 115,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 26"
+    "day": 27,
+    "total_tick": 116,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 27"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
+      "type": "A",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
     {
       "text": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
       "text_cs": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
@@ -272,33 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 18
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
+      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
+      "type": "A",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 27
+    },
     {
       "text": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
       "text_cs": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
@@ -394,30 +418,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 20
-    },
-    {
-      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
-    },
-    {
-      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "monastery_internal",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
     }
   ],
   "chronicle_distant": [
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 116,
+    "day_of_year": 117,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
