@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 27,
+    "day": 28,
     "daysPerSeason": 90,
-    "totalTick": 116
+    "totalTick": 117
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
+    {
+      "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_cs": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_en": "Extreme summer heat awoke evil vapors from the swamps in the south. Many villagers and burghers took to their beds with chills and severe fevers that barber-surgeons cannot cure even by bloodletting. Monasteries in the area opened their pharmacies and distribute wormwood and willow decoctions.",
+      "type": "B",
+      "icon": "🤒",
+      "source": "local_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
     {
       "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
       "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 87
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 86,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 85,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 85,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 86
     }
   ],
   "_chainQueue": [],
@@ -1787,12 +1787,24 @@
     "local_045": {
       "tick": 116,
       "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl."
+    },
+    "mono_067": {
+      "tick": 117,
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby."
+    },
+    "local_220": {
+      "tick": 117,
+      "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby."
+    },
+    "zbras_006": {
+      "tick": 117,
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 83,
+    "consecutiveFamines": 84,
     "winterCascade": null
   }
 }

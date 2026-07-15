@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-15T17:22:36.600Z",
-  "valid_until": "2026-07-22T17:22:36.600Z",
+  "generated": "2026-07-15T23:01:49.437Z",
+  "valid_until": "2026-07-22T23:01:49.437Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 27,
-    "total_tick": 116,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 27"
+    "day": 28,
+    "total_tick": 117,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 28"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
+    {
+      "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_cs": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_en": "Extreme summer heat awoke evil vapors from the swamps in the south. Many villagers and burghers took to their beds with chills and severe fevers that barber-surgeons cannot cure even by bloodletting. Monasteries in the area opened their pharmacies and distribute wormwood and willow decoctions.",
+      "type": "B",
+      "icon": "🤒",
+      "source": "local_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
     {
       "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
       "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 19
-    },
-    {
-      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
-      "type": "A",
-      "icon": "🔨",
-      "source": "distant_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 18
-    },
-    {
-      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 18
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 18
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_cs": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
+      "text_en": "Extreme summer heat awoke evil vapors from the swamps in the south. Many villagers and burghers took to their beds with chills and severe fevers that barber-surgeons cannot cure even by bloodletting. Monasteries in the area opened their pharmacies and distribute wormwood and willow decoctions.",
+      "type": "B",
+      "icon": "🤒",
+      "source": "local_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
     {
       "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
       "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 21
-    },
-    {
-      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
-      "type": "A",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 21
-    },
-    {
-      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 20
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 28
+    },
     {
       "text": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
       "text_cs": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 15
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 14
     }
   ],
   "church_calendar": {
-    "day_of_year": 117,
+    "day_of_year": 118,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
