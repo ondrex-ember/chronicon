@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 28,
+    "day": 29,
     "daysPerSeason": 90,
-    "totalTick": 117
+    "totalTick": 118
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
+      "type": "B",
+      "icon": "🪟",
+      "source": "distant_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
+    {
+      "text": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_cs": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_en": "A messenger from Jihlava reports the discovery of a new silver vein in the upper mines. The mintmaster immediately hired thirty more workers, and the price of silver on the market dropped slightly.",
+      "type": "C",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 88
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 87,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 88
-    },
-    {
-      "text": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_cs": "Z Prahy přišla zpráva: Král vyslal posly k pánům nespokojeným, smír jim nabízeje. Odpověď žádná dosud nepřišla. Dvořané se domnívají, že mlčení horší jest než odpor otevřený.",
-      "text_en": "From Prague comes word: the king hath sent messengers to the discontented lords, offering reconciliation. No answer hath yet come. The courtiers deem that silence is worse than open defiance.",
-      "type": "C",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 86,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 87
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 86,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 87
     }
   ],
   "_chainQueue": [],
@@ -1365,7 +1365,7 @@
       "text": "Zápis koronera: Starý rybář usnul ve své loďce a vypadl do rozvodněného ramene řeky Moravy. Jeho tělo zachytily až o den později mlýnské česle. Ve vsi po něm zůstalo šest hladových dětí."
     },
     "mono_084": {
-      "tick": 66,
+      "tick": 118,
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná."
     },
     "mono_031": {
@@ -1799,12 +1799,20 @@
     "zbras_006": {
       "tick": 117,
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána."
+    },
+    "local_061": {
+      "tick": 118,
+      "text": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla."
+    },
+    "praha_023": {
+      "tick": 118,
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 84,
+    "consecutiveFamines": 85,
     "winterCascade": null
   }
 }

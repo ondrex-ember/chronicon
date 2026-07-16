@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-15T23:01:49.437Z",
-  "valid_until": "2026-07-22T23:01:49.437Z",
+  "generated": "2026-07-16T06:23:53.445Z",
+  "valid_until": "2026-07-23T06:23:53.445Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 28,
-    "total_tick": 117,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 28"
+    "day": 29,
+    "total_tick": 118,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 29"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
+      "type": "B",
+      "icon": "🪟",
+      "source": "distant_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
+    {
+      "text": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_cs": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_en": "A messenger from Jihlava reports the discovery of a new silver vein in the upper mines. The mintmaster immediately hired thirty more workers, and the price of silver on the market dropped slightly.",
+      "type": "C",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 20
-    },
-    {
-      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
-    },
-    {
-      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
-    },
-    {
-      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "monastery_internal",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_cs": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
+      "text_en": "A messenger from Jihlava reports the discovery of a new silver vein in the upper mines. The mintmaster immediately hired thirty more workers, and the price of silver on the market dropped slightly.",
+      "type": "C",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
     {
       "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
       "text_cs": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 22
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 22
-    },
-    {
-      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 21
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
+      "type": "B",
+      "icon": "🪟",
+      "source": "distant_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 29
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 16
-    },
-    {
-      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
-      "type": "C",
-      "icon": "🎓",
-      "source": "distant_events",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 15
     }
   ],
   "church_calendar": {
-    "day_of_year": 118,
+    "day_of_year": 119,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
