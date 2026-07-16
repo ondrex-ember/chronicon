@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 31,
+    "day": 32,
     "daysPerSeason": 90,
-    "totalTick": 120
+    "totalTick": 121
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_en": "From the Old Czech Chronicles: King George personally rode at the head of his mercenaries to meet the army of the League of Zelená Hora, which had fortified the crossings of the Sázava River. It is said that his presence in the saddle caused many nobles to turn back without a fight. The lord of Poděbrady has not yet forgotten how to rule by the sword.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
     {
       "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
       "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 90
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
-    },
-    {
-      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
     }
   ],
   "_chainQueue": [],
@@ -1827,12 +1827,20 @@
     "local_194": {
       "tick": 120,
       "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod."
+    },
+    "mono_133": {
+      "tick": 121,
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času."
+    },
+    "frois_001": {
+      "tick": 121,
+      "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 87,
+    "consecutiveFamines": 88,
     "winterCascade": null
   }
 }

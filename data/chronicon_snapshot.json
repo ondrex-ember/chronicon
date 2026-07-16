@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-16T17:24:47.168Z",
-  "valid_until": "2026-07-23T17:24:47.168Z",
+  "generated": "2026-07-16T23:02:16.998Z",
+  "valid_until": "2026-07-23T23:02:16.998Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
     "season": 1,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 31,
-    "total_tick": 120,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 31"
+    "day": 32,
+    "total_tick": 121,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 32"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_en": "From the Old Czech Chronicles: King George personally rode at the head of his mercenaries to meet the army of the League of Zelená Hora, which had fortified the crossings of the Sázava River. It is said that his presence in the saddle caused many nobles to turn back without a fight. The lord of Poděbrady has not yet forgotten how to rule by the sword.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
     {
       "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
       "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
@@ -272,33 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 23
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 22
-    },
-    {
-      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 22
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
     {
       "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
       "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
@@ -406,21 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 27
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 27
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
+      "text_en": "From the Old Czech Chronicles: King George personally rode at the head of his mercenaries to meet the army of the League of Zelená Hora, which had fortified the crossings of the Sázava River. It is said that his presence in the saddle caused many nobles to turn back without a fight. The lord of Poděbrady has not yet forgotten how to rule by the sword.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 32
+    },
     {
       "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
       "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 18
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
     }
   ],
   "church_calendar": {
-    "day_of_year": 121,
+    "day_of_year": 122,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
