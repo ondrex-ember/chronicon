@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 35,
+    "day": 36,
     "daysPerSeason": 90,
-    "totalTick": 124
+    "totalTick": 125
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
     {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 4
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 3
-    },
-    {
-      "text": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_cs": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_en": "Today, the richest broadcloth merchant in Brno was laid to rest in his family tomb. The surviving family left a substantial financial donation on the altar and had a hundred white loaves of bread distributed to the poor in front of the church. The long procession of mourners blocked the main street all afternoon.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 3
     }
   ],
   "_chainQueue": [],
@@ -1437,7 +1437,7 @@
       "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku."
     },
     "praha_010": {
-      "tick": 60,
+      "tick": 125,
       "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste."
     },
     "zbras_039": {
@@ -1855,12 +1855,16 @@
     "praha_031": {
       "tick": 124,
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění."
+    },
+    "mono_081": {
+      "tick": 125,
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 91,
+    "consecutiveFamines": 92,
     "winterCascade": null
   }
 }

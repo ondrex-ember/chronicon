@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-17T17:17:24.175Z",
-  "valid_until": "2026-07-24T17:17:24.175Z",
+  "generated": "2026-07-17T22:54:01.509Z",
+  "valid_until": "2026-07-24T22:54:01.509Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -18,12 +18,12 @@
     "name_en": "Fasting Friday"
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -31,9 +31,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 35,
-    "total_tick": 124,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 35"
+    "day": 36,
+    "total_tick": 125,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 36"
   },
   "actors": {
     "monastery": {
@@ -61,6 +61,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
     {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
@@ -276,33 +300,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 29
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 28
-    },
-    {
-      "text": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
-      "text_cs": "Extrémní letní vedra probudila zlé výpary z bažin na jihu. Mnoho vesničanů i měšťanů ulehlo se zimnicí a těžkými horečkami, jež lazebníci nedokážou vyléčit ani pouštěním žilou. Kláštery v okolí otevřely lékárny a rozdávají odvary z pelyňku a vrby.",
-      "text_en": "Extreme summer heat awoke evil vapors from the swamps in the south. Many villagers and burghers took to their beds with chills and severe fevers that barber-surgeons cannot cure even by bloodletting. Monasteries in the area opened their pharmacies and distribute wormwood and willow decoctions.",
-      "type": "B",
-      "icon": "🤒",
-      "source": "local_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 28
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
     {
       "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
       "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
@@ -410,21 +422,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 30
-    },
-    {
-      "text": "Do kláštera vstoupil obchodník se svícemi. Nabízel vosk, ale jeho osel byl naložen i plátnem z Vratislavi. Poznamenal jsem si jeho jméno. Kdo skrývá zboží, skrývá i své úmysly.",
-      "text_cs": "Do kláštera vstoupil obchodník se svícemi. Nabízel vosk, ale jeho osel byl naložen i plátnem z Vratislavi. Poznamenal jsem si jeho jméno. Kdo skrývá zboží, skrývá i své úmysly.",
-      "text_en": "A candle merchant entered the monastery. He offered wax, but his donkey was also loaded with linen from Wrocław. I noted down his name. He who hides his goods hides his intentions.",
-      "type": "C",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 30
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
+      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 36
+    },
     {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
@@ -532,22 +544,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 25
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 22
     }
   ],
   "church_calendar": {
-    "day_of_year": 125,
+    "day_of_year": 126,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
