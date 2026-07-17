@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 34,
+    "day": 35,
     "daysPerSeason": 90,
-    "totalTick": 123
+    "totalTick": 124
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 124,
+      "year": 1465,
+      "season": "Léto",
+      "day": 35
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 124,
+      "year": 1465,
+      "season": "Léto",
+      "day": 35
+    },
     {
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 3
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 2
-    },
-    {
-      "text": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
-      "text_cs": "Z Přerova: Na sv. Jiří proběhl malý turnaj v klání. Zvítězil jezdec ze Šternberka, jehož jméno nikdo neznal. Přijal věnec, odmítl odhalit tvář a ještě téhož večera odjel. Lidé říkají různé věci.",
-      "text_en": "From Přerov: On St. George's Day there was a small jousting tournament. The winner was a rider from Šternberk whose name no one knew. He accepted the wreath, refused to reveal his face, and departed the same evening. People say various things.",
-      "type": "A",
-      "icon": "🎪",
-      "source": "local_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 2
     }
   ],
   "_chainQueue": [],
@@ -1493,7 +1493,7 @@
       "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů."
     },
     "mono_130": {
-      "tick": 82,
+      "tick": 124,
       "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad."
     },
     "local_171": {
@@ -1851,12 +1851,16 @@
     "zbras_019": {
       "tick": 123,
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají."
+    },
+    "praha_031": {
+      "tick": 124,
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 90,
+    "consecutiveFamines": 91,
     "winterCascade": null
   }
 }
