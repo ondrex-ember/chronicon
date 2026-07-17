@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 32,
+    "day": 33,
     "daysPerSeason": 90,
-    "totalTick": 121
+    "totalTick": 122
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji."
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
+      "text_cs": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
+      "text_en": "From the Bohemian lands: a certain old woman at a place of pilgrimage said that the most precious thing she hath known is quiet. After fifteen years of arms, even silence, it is said, soundeth like a marvel. The young understand it not; the old nod in silence.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 122,
+      "year": 1465,
+      "season": "Léto",
+      "day": 33
+    },
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 122,
+      "year": 1465,
+      "season": "Léto",
+      "day": 33
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 122,
+      "year": 1465,
+      "season": "Léto",
+      "day": 33
+    },
     {
       "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
       "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 1
-    },
-    {
-      "text": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
-      "text_cs": "Z análů: v úterý před svatým Petrem spadly kroupy veliké, když vojsko táhlo kolem Prahy. Nebe si nevybírá, čí pole tluče — a sedlák platí každou válku dvakrát.",
-      "text_en": "From the annals: on the Tuesday before St Peter great hail fell as an army marched past Prague. The sky does not choose whose fields it beats — and the peasant pays for every war twice.",
-      "type": "A",
-      "icon": "🌩️",
-      "source": "monastery_internal",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 1
-    },
-    {
-      "text": "☀️ Léto Léta Páně 1465 začíná.",
-      "text_cs": "☀️ Léto Léta Páně 1465 začíná.",
-      "text_en": null,
-      "type": "A",
-      "icon": "☀️",
-      "source": "engine",
-      "tick": 90,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 91
-    },
-    {
-      "text": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_cs": "Zásobárna je prázdná. Bratři hladoví.",
-      "text_en": null,
-      "type": "B",
-      "icon": "☠️",
-      "source": "engine",
-      "tick": 90,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 90
     }
   ],
   "_chainQueue": [],
@@ -1485,7 +1485,7 @@
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky."
     },
     "mono_112": {
-      "tick": 68,
+      "tick": 122,
       "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat."
     },
     "local_127": {
@@ -1835,12 +1835,20 @@
     "frois_001": {
       "tick": 121,
       "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem."
+    },
+    "local_113": {
+      "tick": 122,
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam."
+    },
+    "zbras_034": {
+      "tick": 122,
+      "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 88,
+    "consecutiveFamines": 89,
     "winterCascade": null
   }
 }
