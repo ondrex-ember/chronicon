@@ -38,10 +38,12 @@ const Snapshot = {
       unlockFlag: GameState.gm.unlock_flag,
 
       // Svátek (GM): Scriptorium serveMass čte → vliv ×2. null = obyčejný den.
+      // Zatím čistě GM-ruční (Abbot panel) — automatický výpočet je V2, viz _calendar().
       feast: GameState.gm.feast || null,
 
-      // Půst (GM): Scriptorium calcPrice čte → ryby ×1.5, maso ×0.5. null = obyčejný den.
-      fast: GameState.gm.fast || null,
+      // Půst (GM přebíjí, jinak automatický výpočet dle skutečného data):
+      // Scriptorium calcPrice čte → ryby ×1.5, maso ×0.5. null = obyčejný den.
+      fast: GameState.gm.fast || Snapshot._computeFast(),
 
       weather: {
         key:              GameState.weather.key,
@@ -124,6 +126,52 @@ const Snapshot = {
       console.error('[CHRONICON] Chyba při zápisu snapshotu:', err.message);
       return null;
     }
+  },
+
+  // ── Velikonoce (algoritmus Meeuse/Jones/Butcher) — identický se Scriptorium
+  //    client `systems/calendar.js` CalendarSystem.getEaster(), aby oba systémy
+  //    počítaly stejné datum ze stejného reálného roku.
+  _getEaster(year) {
+    const a = year % 19;
+    const b = Math.floor(year / 100);
+    const c = year % 100;
+    const d = Math.floor(b / 4);
+    const e = b % 4;
+    const f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4);
+    const k = c % 4;
+    const l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const month = Math.floor((h + l - 7 * m + 114) / 31);
+    const day = ((h + l - 7 * m + 114) % 31) + 1;
+    return { month, day };
+  },
+
+  // Automatický postní den — počítáno ze SKUTEČNÉHO reálného data (ne z
+  // Chronicon fikčního time modelu). Postní dny: každá středa a pátek celý
+  // rok + celá postní doba (Popeleční středa → Velikonoce). Vigilie svátků
+  // a Advent zatím vynechány (V2 — vyžadovalo by sdílet celou feastDays
+  // databázi ze Scriptorium client repa).
+  _computeFast() {
+    const now   = new Date();
+    const year  = now.getFullYear();
+    const easter = Snapshot._getEaster(year);
+    const easterDate = new Date(year, easter.month - 1, easter.day);
+    const ashDate = new Date(easterDate); ashDate.setDate(easterDate.getDate() - 46);
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+    const dow = today.getDay(); // 0=Ne .. 6=So
+    const inLent = today >= ashDate && today < easterDate;
+    const isWed = dow === 3;
+    const isFri = dow === 5;
+
+    if (!inLent && !isWed && !isFri) return null;
+
+    const name_cs = inLent ? 'Postní doba' : (isWed ? 'Postní středa' : 'Postní pátek');
+    const name_en = inLent ? 'Lent'        : (isWed ? 'Fasting Wednesday' : 'Fasting Friday');
+    return { active: true, name_cs, name_en };
   },
 
   // Pomocná — vrátí weather multiplier pro daný klíč
