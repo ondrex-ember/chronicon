@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-18T06:09:43.383Z",
-  "valid_until": "2026-07-25T06:09:43.383Z",
+  "generated": "2026-07-18T11:08:30.108Z",
+  "valid_until": "2026-07-25T11:08:30.108Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 37,
-    "total_tick": 126,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 37"
+    "day": 38,
+    "total_tick": 127,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 38"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
+    {
+      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
+      "type": "B",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
     {
       "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
@@ -272,33 +296,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 30
-    },
-    {
-      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
-      "type": "D",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 30
-    },
-    {
-      "text": "Do kláštera vstoupil obchodník se svícemi. Nabízel vosk, ale jeho osel byl naložen i plátnem z Vratislavi. Poznamenal jsem si jeho jméno. Kdo skrývá zboží, skrývá i své úmysly.",
-      "text_cs": "Do kláštera vstoupil obchodník se svícemi. Nabízel vosk, ale jeho osel byl naložen i plátnem z Vratislavi. Poznamenal jsem si jeho jméno. Kdo skrývá zboží, skrývá i své úmysly.",
-      "text_en": "A candle merchant entered the monastery. He offered wax, but his donkey was also loaded with linen from Wrocław. I noted down his name. He who hides his goods hides his intentions.",
-      "type": "C",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 30
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
+      "type": "B",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
     {
       "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
       "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
@@ -406,21 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 32
-    },
-    {
-      "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
-      "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
-      "text_en": "A merchant caravan heading to Silesia was brutally ambushed in the deep woods beyond the town. The robbers, probably deserting mercenaries, killed the guards and stole wagons with linen and wax. Traveling north is becoming deadly dangerous, and merchants are demanding armed escorts.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 120,
-      "year": 1465,
-      "season": "Léto",
-      "day": 31
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
     {
       "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 28
-    },
-    {
-      "text": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
-      "text_cs": "Léta téhož Švihov tvrz, hrad Rychmburg a Michalovice dobyty jsú a mnoho jiných hradóv od bratřie táborských a sirotkóv.",
-      "text_en": "That year the strongholds of Švihov, Rychmburk and Michalovice were taken, and many other castles, by the Taborite brethren and Orphans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 115,
-      "year": 1465,
-      "season": "Léto",
-      "day": 26
     }
   ],
   "church_calendar": {
-    "day_of_year": 127,
+    "day_of_year": 128,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
