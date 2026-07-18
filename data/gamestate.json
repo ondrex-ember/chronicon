@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 38,
+    "day": 39,
     "daysPerSeason": 90,
-    "totalTick": 127
+    "totalTick": 128
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
+    {
+      "text": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
+      "text_cs": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🔆",
+      "source": "weather",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 7
-    },
-    {
-      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 6
-    },
-    {
-      "text": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
-      "text_cs": "Dlouhotrvající letní sucha a neúnosná horka proměnila lesy a pole v troud. V nedaleké osadě vypukl požár z neuhlídaného ohniště a kvůli silnému větru zničil několik stodol plných sena. Obyvatelé se modlí za spásný déšť, než plameny zachvátí celé údolí.",
-      "text_en": "Prolonged summer droughts and unbearable heat have turned forests and fields into tinder. A fire broke out in a nearby settlement from an unguarded hearth and, due to strong winds, destroyed several barns full of hay. Inhabitants pray for saving rain before the flames engulf the entire valley.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 6
-    },
-    {
-      "text": "⛈ Bouřka přešla přes klášter. Bratři se modlili za bezpečí.",
-      "text_cs": "⛈ Bouřka přešla přes klášter. Bratři se modlili za bezpečí.",
-      "text_en": null,
-      "type": "A",
-      "icon": "⛈",
-      "source": "weather",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 5
     }
   ],
   "_chainQueue": [],
@@ -1357,7 +1357,7 @@
       "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle."
     },
     "mono_095": {
-      "tick": 86,
+      "tick": 128,
       "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat."
     },
     "local_099": {
@@ -1871,12 +1871,16 @@
     "local_186": {
       "tick": 127,
       "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla."
+    },
+    "local_103": {
+      "tick": 128,
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 94,
+    "consecutiveFamines": 95,
     "winterCascade": null
   }
 }

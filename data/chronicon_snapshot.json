@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-18T11:08:30.108Z",
-  "valid_until": "2026-07-25T11:08:30.108Z",
+  "generated": "2026-07-18T17:02:18.196Z",
+  "valid_until": "2026-07-25T17:02:18.196Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
     "season": 1,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 38,
-    "total_tick": 127,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 38"
+    "day": 39,
+    "total_tick": 128,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 39"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
+    {
+      "text": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
+      "text_cs": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🔆",
+      "source": "weather",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 38
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 32
-    },
-    {
-      "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
-      "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
-      "text_en": "A merchant caravan heading to Silesia was brutally ambushed in the deep woods beyond the town. The robbers, probably deserting mercenaries, killed the guards and stole wagons with linen and wax. Traveling north is becoming deadly dangerous, and merchants are demanding armed escorts.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 120,
-      "year": 1465,
-      "season": "Léto",
-      "day": 31
-    },
-    {
-      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 120,
-      "year": 1465,
-      "season": "Léto",
-      "day": 31
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 30
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 39
+    },
     {
       "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
       "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
@@ -394,30 +418,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 33
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 33
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 121,
-      "year": 1465,
-      "season": "Léto",
-      "day": 32
     }
   ],
   "chronicle_distant": [
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 128,
+    "day_of_year": 129,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
