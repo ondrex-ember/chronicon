@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-19T11:13:00.712Z",
-  "valid_until": "2026-07-26T11:13:00.712Z",
+  "generated": "2026-07-19T17:03:49.206Z",
+  "valid_until": "2026-07-26T17:03:49.206Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 0.8,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 42,
-    "total_tick": 131,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 42"
+    "day": 43,
+    "total_tick": 132,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 43"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,54 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_en": "From the Brno market: Prices of plate armor and swords have risen by half due to rumors of an impending war with the crusaders. Nuremberg armorers sold all their stock in a single afternoon.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌵",
+      "source": "weather",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
       "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
@@ -248,57 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 36
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 36
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 35
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 35
-    },
-    {
-      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
-      "type": "A",
-      "icon": "🐂",
-      "source": "distant_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 34
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_en": "From the Brno market: Prices of plate armor and swords have risen by half due to rumors of an impending war with the crusaders. Nuremberg armorers sold all their stock in a single afternoon.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
     {
       "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
       "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 39
-    },
-    {
-      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
-      "type": "B",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 38
-    },
-    {
-      "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_en": "Masters from the tailors' guild accused the town seamstresses of taking their cloak-making commissions, even though they lack the guild right to do so. A scuffle even broke out in the marketplace, with needles and scissors flying. The burgomaster himself must now judge the dispute to prevent further unrest.",
-      "type": "A",
-      "icon": "✂️",
-      "source": "local_events",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 37
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
     {
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
       "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 30
-    },
-    {
-      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
-      "type": "B",
-      "icon": "🪟",
-      "source": "distant_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 29
     }
   ],
   "church_calendar": {
-    "day_of_year": 132,
+    "day_of_year": 133,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,

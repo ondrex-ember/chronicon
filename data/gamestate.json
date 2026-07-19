@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 42,
+    "day": 43,
     "daysPerSeason": 90,
-    "totalTick": 131
+    "totalTick": 132
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,54 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
+      "text_en": "From the Brno market: Prices of plate armor and swords have risen by half due to rumors of an impending war with the crusaders. Nuremberg armorers sold all their stock in a single afternoon.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 43
+    },
+    {
+      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌵",
+      "source": "weather",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
       "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
@@ -1064,54 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 11
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 10
-    },
-    {
-      "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_en": "With the rising summer heat, disturbing news of the Black Death's appearance in the southern lands has arrived. Groups of desperate refugees are beginning to form before the gates of Jihlava, begging to be let in. The aldermen ordered the gates closed and guards posted to protect the mining town from ruin.",
-      "type": "B",
-      "icon": "💀",
-      "source": "local_events",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 9
     }
   ],
   "_chainQueue": [],
@@ -1537,7 +1537,7 @@
       "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně."
     },
     "praha_032": {
-      "tick": 76,
+      "tick": 132,
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě."
     },
     "mono_121": {
@@ -1883,12 +1883,20 @@
     "local_147": {
       "tick": 131,
       "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru."
+    },
+    "mono_137": {
+      "tick": 132,
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem."
+    },
+    "local_067": {
+      "tick": 132,
+      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 98,
+    "consecutiveFamines": 99,
     "winterCascade": null
   }
 }
