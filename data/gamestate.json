@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 43,
+    "day": 44,
     "daysPerSeason": 90,
-    "totalTick": 132
+    "totalTick": 133
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
+      "type": "B",
+      "icon": "🗣️",
+      "source": "distant_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 12
-    },
-    {
-      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
-      "type": "A",
-      "icon": "🏃",
-      "source": "local_events",
-      "tick": 101,
-      "year": 1465,
-      "season": "Léto",
-      "day": 12
-    },
-    {
-      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
-      "type": "B",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 11
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 11
     }
   ],
   "_chainQueue": [],
@@ -1837,7 +1837,7 @@
       "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem."
     },
     "local_113": {
-      "tick": 122,
+      "tick": 133,
       "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam."
     },
     "zbras_034": {
@@ -1891,12 +1891,20 @@
     "local_067": {
       "tick": 132,
       "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne."
+    },
+    "mono_127": {
+      "tick": 133,
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění."
+    },
+    "praha_009": {
+      "tick": 133,
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 99,
+    "consecutiveFamines": 100,
     "winterCascade": null
   }
 }

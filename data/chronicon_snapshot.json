@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-19T17:03:49.206Z",
-  "valid_until": "2026-07-26T17:03:49.206Z",
+  "generated": "2026-07-19T22:57:23.717Z",
+  "valid_until": "2026-07-26T22:57:23.717Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 43,
-    "total_tick": 132,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 43"
+    "day": 44,
+    "total_tick": 133,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 44"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
+      "type": "B",
+      "icon": "🗣️",
+      "source": "distant_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 37
-    },
-    {
-      "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_en": "Masters from the tailors' guild accused the town seamstresses of taking their cloak-making commissions, even though they lack the guild right to do so. A scuffle even broke out in the marketplace, with needles and scissors flying. The burgomaster himself must now judge the dispute to prevent further unrest.",
-      "type": "A",
-      "icon": "✂️",
-      "source": "local_events",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 37
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 37
-    },
-    {
-      "text": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
-      "text_cs": "Zpráva z Prahy: Král obeslal před soud zemský pány, kteří proti němu řeči vedli. Tři z nich se nedostavili, výmluvu posílajíce psanou. Soud odložen, hněv královský prý roste.",
-      "text_en": "News from Prague: the king hath summoned before the land's court those lords who spoke against him. Three came not, sending instead a written excuse. The court is delayed, and the king's wrath, it is said, doth grow.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 36
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
     {
       "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
       "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 40
-    },
-    {
-      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 39
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 39
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
+      "type": "B",
+      "icon": "🗣️",
+      "source": "distant_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 44
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 32
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 30
     }
   ],
   "church_calendar": {
-    "day_of_year": 133,
+    "day_of_year": 134,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
