@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-19T06:35:35.159Z",
-  "valid_until": "2026-07-26T06:35:35.159Z",
+  "generated": "2026-07-19T11:13:00.712Z",
+  "valid_until": "2026-07-26T11:13:00.712Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 41,
-    "total_tick": 130,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 41"
+    "day": 42,
+    "total_tick": 131,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 42"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
+    {
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
+      "type": "D",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
       "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 34
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 34
-    },
-    {
-      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 34
-    },
-    {
-      "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_cs": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_en": "From the Bohemian lands: a certain old woman at a place of pilgrimage said that the most precious thing she hath known is quiet. After fifteen years of arms, even silence, it is said, soundeth like a marvel. The young understand it not; the old nod in silence.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 33
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
+      "type": "D",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
       "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 37
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 37
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 36
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 29
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 28
     }
   ],
   "church_calendar": {
-    "day_of_year": 131,
+    "day_of_year": 132,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,

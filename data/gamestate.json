@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 41,
+    "day": 42,
     "daysPerSeason": 90,
-    "totalTick": 130
+    "totalTick": 131
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
+    {
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
+      "type": "D",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 42
+    },
     {
       "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
       "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 9
-    },
-    {
-      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
-      "type": "A",
-      "icon": "🐌",
-      "source": "monastery_internal",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 9
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 97,
-      "year": 1465,
-      "season": "Léto",
-      "day": 8
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 97,
-      "year": 1465,
-      "season": "Léto",
-      "day": 8
     }
   ],
   "_chainQueue": [],
@@ -1385,7 +1385,7 @@
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží."
     },
     "mohuc_006": {
-      "tick": 54,
+      "tick": 131,
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor."
     },
     "mono_085": {
@@ -1593,7 +1593,7 @@
       "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny."
     },
     "anales_sel_018": {
-      "tick": 87,
+      "tick": 131,
       "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka."
     },
     "local_097": {
@@ -1879,12 +1879,16 @@
     "refect_ex_006": {
       "tick": 130,
       "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná."
+    },
+    "local_147": {
+      "tick": 131,
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 97,
+    "consecutiveFamines": 98,
     "winterCascade": null
   }
 }
