@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 44,
+    "day": 45,
     "daysPerSeason": 90,
-    "totalTick": 133
+    "totalTick": 134
   },
   "resources": {
     "grain": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
+      "type": "C",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 134,
+      "year": 1465,
+      "season": "Léto",
+      "day": 45
+    },
+    {
+      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
+      "type": "C",
+      "icon": "📯",
+      "source": "local_events",
+      "tick": 134,
+      "year": 1465,
+      "season": "Léto",
+      "day": 45
+    },
     {
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 13
-    },
-    {
-      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
-      "type": "A",
-      "icon": "🫏",
-      "source": "monastery_internal",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 13
-    },
-    {
-      "text": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_cs": "Z českých zemí: Kupec jeden přivezl zprávu, že prý kdesi na západě knihy netvoří už jen ruka mnišská, ale jakýsi stroj. Bratr knihovník tomu nevěřil a žádal důkaz, jejž kupec slíbil přivézt příště.",
-      "text_en": "From the Bohemian lands: a certain merchant brought word that somewhere in the west books are no longer made by the monastic hand alone, but by some manner of machine. The brother librarian believed it not and demanded proof, which the merchant promised to bring next time.",
-      "type": "A",
-      "icon": "📦",
-      "source": "distant_events",
-      "tick": 101,
-      "year": 1465,
-      "season": "Léto",
-      "day": 12
     }
   ],
   "_chainQueue": [],
@@ -1899,12 +1899,20 @@
     "praha_009": {
       "tick": 133,
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam."
+    },
+    "local_078": {
+      "tick": 134,
+      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis."
+    },
+    "praha_019": {
+      "tick": 134,
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 100,
+    "consecutiveFamines": 101,
     "winterCascade": null
   }
 }
