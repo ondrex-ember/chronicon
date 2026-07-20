@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-20T18:09:57.068Z",
-  "valid_until": "2026-07-27T18:09:57.068Z",
+  "generated": "2026-07-20T23:04:31.201Z",
+  "valid_until": "2026-07-27T23:04:31.201Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
     "season": 1,
-    "modifier_grain": 0.8,
-    "modifier_wood": 1
+    "modifier_grain": 0.9,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 47,
-    "total_tick": 136,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 47"
+    "day": 48,
+    "total_tick": 137,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 48"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
+    {
+      "text": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
+      "text_cs": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
+      "text_en": "A unit of hired German-speaking mercenaries marched around the town walls of Bruntál. They forcefully took three villagers as guides and stole a flock of thirty geese. The alderman sent a complaint to the provincial captain.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "local_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
     {
       "text": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
       "text_cs": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 42
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 130,
-      "year": 1465,
-      "season": "Léto",
-      "day": 41
-    },
-    {
-      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
-      "type": "B",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 130,
-      "year": 1465,
-      "season": "Léto",
-      "day": 41
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 129,
-      "year": 1465,
-      "season": "Léto",
-      "day": 40
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
+      "text_cs": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
+      "text_en": "A unit of hired German-speaking mercenaries marched around the town walls of Bruntál. They forcefully took three villagers as guides and stole a flock of thirty geese. The alderman sent a complaint to the provincial captain.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "local_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
     {
       "text": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
       "text_cs": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 43
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 43
-    },
-    {
-      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
-      "type": "D",
-      "icon": "🌧️",
-      "source": "local_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
     {
       "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
       "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 35
-    },
-    {
-      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
-      "type": "A",
-      "icon": "🐂",
-      "source": "distant_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 34
     }
   ],
   "church_calendar": {
-    "day_of_year": 137,
+    "day_of_year": 138,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
