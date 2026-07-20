@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 46,
+    "day": 47,
     "daysPerSeason": 90,
-    "totalTick": 135
+    "totalTick": 136
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
+      "text_cs": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
+      "text_en": "The great summer sheep shearing has begun in the suburbs, and a dozen merchants from the surrounding area have converged here. Piles of raw wool are weighed directly in the square and loaded onto wagons heading to clothiers' workshops. Town tax collectors report record profits from weighing fees.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 47
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 47
+    },
     {
       "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
       "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 15
-    },
-    {
-      "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_cs": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_en": "I found the cat Metoděj sleeping directly on an open tract by Saint Augustine. She seems to choose exclusively heavier theological writings for her rest. I carefully rescued the book, and the cat left grumpily.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 15
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 14
     }
   ],
   "_chainQueue": [],
@@ -1577,7 +1577,7 @@
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji."
     },
     "anales_sel_006": {
-      "tick": 84,
+      "tick": 136,
       "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí."
     },
     "zbras_025": {
@@ -1915,12 +1915,16 @@
     "zbras_015": {
       "tick": 135,
       "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají."
+    },
+    "local_166": {
+      "tick": 136,
+      "text": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 102,
+    "consecutiveFamines": 103,
     "winterCascade": null
   }
 }
