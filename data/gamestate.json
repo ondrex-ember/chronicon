@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 45,
+    "day": 46,
     "daysPerSeason": 90,
-    "totalTick": 134
+    "totalTick": 135
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
+      "type": "A",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
+    {
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
     {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 14
-    },
-    {
-      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
-      "type": "A",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 14
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 13
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 13
     }
   ],
   "_chainQueue": [],
@@ -1473,7 +1473,7 @@
       "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího."
     },
     "mono_082": {
-      "tick": 67,
+      "tick": 135,
       "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval."
     },
     "local_073": {
@@ -1907,12 +1907,20 @@
     "praha_019": {
       "tick": 134,
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku."
+    },
+    "local_071": {
+      "tick": 135,
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek."
+    },
+    "zbras_015": {
+      "tick": 135,
+      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 101,
+    "consecutiveFamines": 102,
     "winterCascade": null
   }
 }

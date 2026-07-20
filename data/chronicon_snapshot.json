@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-20T06:53:03.043Z",
-  "valid_until": "2026-07-27T06:53:03.043Z",
+  "generated": "2026-07-20T12:20:31.452Z",
+  "valid_until": "2026-07-27T12:20:31.452Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 45,
-    "total_tick": 134,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 45"
+    "day": 46,
+    "total_tick": 135,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 46"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
+      "type": "A",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
+    {
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
     {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 39
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 39
-    },
-    {
-      "text": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
-      "text_cs": "🔆 Vlna veder ochromuje práci. V klášteře je dusno.",
-      "text_en": null,
-      "type": "A",
-      "icon": "🔆",
-      "source": "weather",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 38
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 38
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
     {
       "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
       "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 41
-    },
-    {
-      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
-      "type": "B",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 130,
-      "year": 1465,
-      "season": "Léto",
-      "day": 41
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 129,
-      "year": 1465,
-      "season": "Léto",
-      "day": 40
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
+      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
+      "type": "A",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 46
+    },
     {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 34
-    },
-    {
-      "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_cs": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_en": "From the Bohemian lands: a certain old woman at a place of pilgrimage said that the most precious thing she hath known is quiet. After fifteen years of arms, even silence, it is said, soundeth like a marvel. The young understand it not; the old nod in silence.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 33
     }
   ],
   "church_calendar": {
-    "day_of_year": 135,
+    "day_of_year": 136,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
