@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-20T23:04:31.201Z",
-  "valid_until": "2026-07-27T23:04:31.201Z",
+  "generated": "2026-07-21T06:34:22.050Z",
+  "valid_until": "2026-07-28T06:34:22.050Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,22 +14,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 0.9,
-    "modifier_wood": 0.85
+    "modifier_grain": 0.8,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 48,
-    "total_tick": 137,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 48"
+    "day": 49,
+    "total_tick": 138,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 49"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
+    {
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
+    {
+      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌵",
+      "source": "weather",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
     {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 42
-    },
-    {
-      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
-      "type": "C",
-      "icon": "🛠️",
-      "source": "distant_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
-    },
-    {
-      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
-      "type": "D",
-      "icon": "🌧️",
-      "source": "local_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
+    {
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
     {
       "text": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
       "text_cs": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
@@ -394,30 +418,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 44
-    },
-    {
-      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
-      "type": "B",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 44
-    },
-    {
-      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
-      "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
-      "text_en": "From the Brno market: Prices of plate armor and swords have risen by half due to rumors of an impending war with the crusaders. Nuremberg armorers sold all their stock in a single afternoon.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 43
     }
   ],
   "chronicle_distant": [
@@ -543,7 +543,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 138,
+    "day_of_year": 139,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,

@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 48,
+    "day": 49,
     "daysPerSeason": 90,
-    "totalTick": 137
+    "totalTick": 138
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
+      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
+    {
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 49
+    },
+    {
+      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🌵",
+      "source": "weather",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 48
+    },
     {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 17
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
-      "type": "C",
-      "icon": "💍",
-      "source": "distant_events",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 16
-    },
-    {
-      "text": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_cs": "S rostoucím letním horkem přišly znepokojivé zprávy o výskytu černé smrti v jižních zemích. Před branami Jihlavy se začínají tvořit hloučky zoufalých uprchlíků prosících o vpuštění. Konšelé nařídili uzavřít brány a postavit stráže, aby uchránili horní město před zkázou.",
-      "text_en": "With the rising summer heat, disturbing news of the Black Death's appearance in the southern lands has arrived. Groups of desperate refugees are beginning to form before the gates of Jihlava, begging to be let in. The aldermen ordered the gates closed and guards posted to protect the mining town from ruin.",
-      "type": "B",
-      "icon": "💀",
-      "source": "local_events",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 16
     }
   ],
   "_chainQueue": [],
@@ -1217,7 +1217,7 @@
       "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem."
     },
     "local_020": {
-      "tick": 16,
+      "tick": 138,
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár."
     },
     "coroner_002": {
@@ -1931,12 +1931,16 @@
     "letopisy_065": {
       "tick": 137,
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě."
+    },
+    "anales_sel_017": {
+      "tick": 138,
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 104,
+    "consecutiveFamines": 105,
     "winterCascade": null
   }
 }
