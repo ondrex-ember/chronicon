@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 49,
+    "day": 50,
     "daysPerSeason": 90,
-    "totalTick": 138
+    "totalTick": 139
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,42 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
+    {
+      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_cs": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_en": "The town council tightened inspections of imported wine at the town gates to prevent the secret sale of untaxed barrels from Austria. Three dealers were caught, and their goods were poured directly into the street gutter as a sign of the authorities' uncompromising stance. Local winemakers warmly welcomed this measure.",
+      "type": "A",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
+    {
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
     {
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
       "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
@@ -1076,42 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 18
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 18
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 17
     }
   ],
   "_chainQueue": [],
@@ -1935,12 +1935,24 @@
     "anales_sel_017": {
       "tick": 138,
       "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár."
+    },
+    "mono_115": {
+      "tick": 139,
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz."
+    },
+    "local_206": {
+      "tick": 139,
+      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali."
+    },
+    "praha_030": {
+      "tick": 139,
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 105,
+    "consecutiveFamines": 106,
     "winterCascade": null
   }
 }

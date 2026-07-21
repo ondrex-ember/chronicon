@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-21T06:34:22.050Z",
-  "valid_until": "2026-07-28T06:34:22.050Z",
+  "generated": "2026-07-21T11:50:53.197Z",
+  "valid_until": "2026-07-28T11:50:53.197Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -14,12 +14,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -27,9 +27,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 49,
-    "total_tick": 138,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 49"
+    "day": 50,
+    "total_tick": 139,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 50"
   },
   "actors": {
     "monastery": {
@@ -57,6 +57,42 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
+    {
+      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_cs": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_en": "The town council tightened inspections of imported wine at the town gates to prevent the secret sale of untaxed barrels from Austria. Three dealers were caught, and their goods were poured directly into the street gutter as a sign of the authorities' uncompromising stance. Local winemakers warmly welcomed this measure.",
+      "type": "A",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
+    {
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
     {
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
       "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
@@ -260,45 +296,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 43
-    },
-    {
-      "text": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
-      "text_cs": "Z brněnského trhu: Ceny plátové zbroje a mečů stouply o polovinu kvůli pověstem o blížící se válce s křižáky. Norimberští platnéři prodali všechny své zásoby během jediného odpoledne.",
-      "text_en": "From the Brno market: Prices of plate armor and swords have risen by half due to rumors of an impending war with the crusaders. Nuremberg armorers sold all their stock in a single afternoon.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 43
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 43
-    },
-    {
-      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
-      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
-      "text_en": null,
-      "type": "A",
-      "icon": "🌵",
-      "source": "weather",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_cs": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
+      "text_en": "The town council tightened inspections of imported wine at the town gates to prevent the secret sale of untaxed barrels from Austria. Three dealers were caught, and their goods were poured directly into the street gutter as a sign of the authorities' uncompromising stance. Local winemakers warmly welcomed this measure.",
+      "type": "A",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
+    {
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
     {
       "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
       "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
@@ -394,33 +418,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 46
-    },
-    {
-      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
-      "type": "C",
-      "icon": "📯",
-      "source": "local_events",
-      "tick": 134,
-      "year": 1465,
-      "season": "Léto",
-      "day": 45
-    },
-    {
-      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
-      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
-      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 44
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 50
+    },
     {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
@@ -528,22 +540,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 36
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 35
     }
   ],
   "church_calendar": {
-    "day_of_year": 139,
+    "day_of_year": 140,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
