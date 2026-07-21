@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 51,
+    "day": 52,
     "daysPerSeason": 90,
-    "totalTick": 140
+    "totalTick": 141
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
+      "type": "C",
+      "icon": "🐕",
+      "source": "distant_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 52
+    },
+    {
+      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 52
+    },
     {
       "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 20
-    },
-    {
-      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
-    },
-    {
-      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 19
     }
   ],
   "_chainQueue": [],
@@ -1951,12 +1951,20 @@
     "local_255": {
       "tick": 140,
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami."
+    },
+    "local_279": {
+      "tick": 141,
+      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále."
+    },
+    "datini_029": {
+      "tick": 141,
+      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 107,
+    "consecutiveFamines": 108,
     "winterCascade": null
   }
 }
