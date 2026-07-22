@@ -20,6 +20,7 @@ const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
 } = require('../data/actors.js');
+const { EVENT_REGISTRY, CHAIN_CALLBACKS } = require('../data/events.js');
 
 // ============================================
 //  GameLog (beze změny z V1)
@@ -143,8 +144,18 @@ const GameEngine = {
   runWeeklyEconomy() {
     const actors = GameState.actors;
     const seasonIdx = GameState.time.season;
+    GameState.week += 1;
 
-    actors.forEach(a => { a._pulseReason = null; });
+    actors.forEach(a => { a._pulseReason = null; a.ticksActive = (a.ticksActive || 0) + 1; });
+
+    // 0. Splatné odložené následky (scheduleChain z minulých týdnů)
+    const addChronicleFn = (entry) => GameLog.add(entry.text, { type: entry.type, icon: entry.icon, source: 'monastery_internal' });
+    GameState._chainQueue = (GameState._chainQueue || []).filter(item => {
+      if (item.dueWeek > GameState.week) return true;
+      const cb = CHAIN_CALLBACKS[item.chainId];
+      if (cb) cb(GameState, addChronicleFn);
+      return false;
+    });
 
     // 1. Produkce (blokace při mrtvém dodavateli, 50% při krizi dodavatele)
     actors.forEach(a => {
@@ -236,6 +247,100 @@ const GameEngine = {
       });
     });
 
+    // 3b. Náhodné příběhové eventy (kurátorovaný výběr z Betlém EVENT_REGISTRY)
+    const cooldowns = GameState._eventCooldowns || {};
+    Object.keys(cooldowns).forEach(k => { if (cooldowns[k] > 0) cooldowns[k] -= 1; else delete cooldowns[k]; });
+    const scheduleChain = (chainId, delayWeeks) => {
+      GameState._chainQueue.push({ chainId, dueWeek: GameState.week + delayWeeks });
+    };
+    const pool = EVENT_REGISTRY.filter(ev => {
+      if ((cooldowns[ev.id] || 0) > 0) return false;
+      try { return ev.trigger(GameState); } catch (e) { return false; }
+    });
+    if (pool.length > 0) {
+      const totalW = pool.reduce((acc, ev) => acc + ev.weight, 0);
+      let rand = Math.random() * totalW;
+      let selected = pool[0];
+      for (const ev of pool) { rand -= ev.weight; if (rand <= 0) { selected = ev; break; } }
+      try {
+        cooldowns[selected.id] = selected.cooldown;
+        const resText = selected.execute(GameState, addChronicleFn, scheduleChain);
+        if (resText) GameLog.add(resText, { type: selected.type, icon: selected.icon, source: 'monastery_internal' });
+      } catch (e) { /* selhání eventu je tiché — neshodí tick */ }
+    }
+    GameState._eventCooldowns = cooldowns;
+
+    // 3c. Epidemie a demografie (port z Betlém — Černá smrt, hladomor, nepokoje)
+    // Poznámka: _quarantined/_epidemicImmunity zůstávají nenastavené (žádný
+    // hráč v headless enginu je nemůže nastavit) — mor běží podle přirozené
+    // pravděpodobnosti. Advisory event pro Scriptorium navazuje v Sprintu 2/3.
+    let weekDeaths = 0;
+    const weekBirths = Math.floor(Math.random() * 8) + 6;
+    const activePlague = actors.filter(a => a._infected && a.status !== 'mrtvy').length;
+    if (GameState.week >= 8 && activePlague === 0 && Math.random() < 0.05) {
+      const candidates = actors.filter(a => a.id !== 'vrchnost' && a.status !== 'mrtvy' && !a._infected && !a._epidemicImmunity);
+      if (candidates.length > 0) {
+        const victim = candidates[Math.floor(Math.random() * candidates.length)];
+        victim._infected = true; victim.status = 'krize'; victim.mood = Math.max(0, victim.mood - 25);
+        GameLog.add(
+          `ČERNÁ SMRT: V domě poplatníka ${victim.label} vypukla morová rána! Lidé umírají v horečkách, strach se šíří údolím.`,
+          { type: 'D', icon: '☣️', source: 'monastery_internal' }
+        );
+      }
+    }
+    actors.forEach(a => {
+      if (a.id === 'vrchnost' || a.status === 'mrtvy' || !a._infected) return;
+      let casualties = Math.floor(Math.random() * 80) + 70;
+      if (a._quarantined) casualties = Math.floor(casualties * 0.4);
+      weekDeaths += casualties;
+      a.stores = Math.max(0, a.stores - 4); a.wealth = Math.max(0, a.wealth - 6); a.mood = Math.max(0, a.mood - 12);
+      if (Math.random() < (a._quarantined ? 0.08 : 0.22)) {
+        a._infected = false; a._quarantined = false; a.status = 'mrtvy';
+        GameLog.add(`Poplatník ${a.label} podlehl Černé smrti.`, { type: 'E', icon: '💀', source: 'monastery_internal' });
+      } else if (Math.random() < 0.25) {
+        // Přirozené uzdravení — bez tohohle mor v headless enginu (bez
+        // hráčovy karantény/léčby) nikdy sám nekončí a stane se trvale
+        // endemickým. Ohraničuje vlnu na pár týdnů, jak má dramatický beat být.
+        a._infected = false; a._quarantined = false; a._epidemicImmunity = true; a._immunityWeek = GameState.week;
+        GameLog.add(`${a.label} přestál nákazu a uzdravil se. Sousedé děkují Bohu.`,
+          { type: 'C', icon: '💪', source: 'monastery_internal' });
+      }
+    });
+    // Imunita časem slábne (~20 týdnů) — jinak by po dost letech byl celý
+    // kraj natrvalo imunní a mor by se už nikdy nemohl vrátit.
+    actors.forEach(a => {
+      if (a._epidemicImmunity && GameState.week - (a._immunityWeek || 0) > 20) {
+        delete a._epidemicImmunity;
+        delete a._immunityWeek;
+      }
+    });
+    const infectedNow = actors.filter(a => a.id !== 'vrchnost' && a.status !== 'mrtvy' && a._infected && !a._quarantined).length;
+    if (infectedNow > 0) {
+      actors.forEach(a => {
+        if (a.id !== 'vrchnost' && a.status !== 'mrtvy' && !a._infected && !a._epidemicImmunity) {
+          if (Math.random() < 0.22 * infectedNow) {
+            a._infected = true; a.status = 'krize'; a.mood = Math.max(0, a.mood - 20);
+            GameLog.add(`Černá smrt přeskočila na dvůr poplatníka ${a.label}! Lidé propadají panice.`,
+              { type: 'D', icon: '☣️', source: 'monastery_internal' });
+          }
+        }
+      });
+    }
+    actors.forEach(a => {
+      if (a.id === 'vrchnost' || a.status === 'mrtvy') return;
+      if (a.stores === 0) weekDeaths += Math.floor(Math.random() * 25) + 15;
+    });
+    if (GameState.globalTension > 75) weekDeaths += Math.floor(GameState.globalTension * 0.3);
+    GameState.totalDeaths += weekDeaths;
+    GameState.totalPopulation = Math.max(500, GameState.totalPopulation - weekDeaths + weekBirths);
+    if (weekDeaths > 0) {
+      GameLog.add(
+        `Demografie: v tomto týdnu podlehlo nemocem, hladu či neklidu v kraji celkem ${weekDeaths} poddaných. Celková populace klesla na ${GameState.totalPopulation} duší.`,
+        { type: 'E', icon: '💀', source: 'monastery_internal' }
+      );
+    }
+
+
     // 4. Přechody stavu — krize/zánik/smrt (5 týdnů souvislé bídy → smrt)
     actors.forEach(a => {
       if (a.status === 'mrtvy') return;
@@ -243,6 +348,7 @@ const GameEngine = {
         a.ticksInCrisis += 1;
         if (a.ticksInCrisis >= 5) {
           a.status = 'mrtvy';
+          a._deathWeek = GameState.week;
           GameLog.add(
             `Smutná zpráva obletěla kraj. ${a.label} (${a.profession}) podlehl dlouhodobému úpadku a bídě.`,
             { type: 'E', icon: '☠️', source: 'monastery_internal' }
@@ -255,6 +361,29 @@ const GameEngine = {
         a.status = (a.wealth > 78 && a.mood > 78) ? 'prosperujici' : 'stable';
       }
     });
+
+    // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
+    // rozdíl od mnišské smrti ve Scriptoriu, kde je to schválně natrvalo).
+    // Po 3 týdnech smutku převezme dvůr nástupce téhož řemesla — jednotlivé
+    // úmrtí je dramatický beat, ne trvalá díra v ekonomice. Kolaps-obnova
+    // (bod 6) zůstává jako vzácnější pojistka pro celoplošnou krizi.
+    actors.forEach(a => {
+      if (a.status !== 'mrtvy') return;
+      if (GameState.week - (a._deathWeek || 0) < 3) return;
+      a.status = 'stable';
+      a.wealth = 40;
+      a.mood = 55;
+      a.stores = Math.round((a.storesMax || 60) * 0.3);
+      a.ticksInCrisis = 0;
+      delete a._deathWeek;
+      delete a._infected;
+      delete a._quarantined;
+      GameLog.add(
+        `Dvůr po zesnulém ${a.label} nezůstal dlouho prázdný — nový ${a.profession.toLowerCase()} převzal řemeslo a dům.`,
+        { type: 'C', icon: '👤', source: 'monastery_internal' }
+      );
+    });
+
 
     // 5. Globální napětí + Zlatá éra
     const living = actors.filter(a => a.status !== 'mrtvy');
