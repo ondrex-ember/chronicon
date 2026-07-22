@@ -183,17 +183,15 @@ const Snapshot = {
     }
   },
 
-  // Mor v kraji → jeden advisory event, jednou za vzplanutí (ne opakovaně
-  // každý snapshot). Reset, jakmile nákaza pomine, ať příští vlna může
-  // znovu upozornit. Formát zrcadlí events-reference.md (text + volby),
-  // spotřeba na straně Scriptoria je Sprint 3.
+  // Mor v kraji → jeden advisory event, přítomný PO CELOU DOBU vzplanutí
+  // (ne jen jeden tik) — hráči fetchují snapshot jen ~1×/6h s cache, takže
+  // jednorázový výskyt by se snadno prošvihl. "Zobrazit jen jednou" řeší
+  // Scriptorium samo (per hráč), ne CHRONICON.
   _buildAdvisoryEvents() {
     const events = [];
-    if (!GameState.flags) GameState.flags = {};
     const infected = GameState.actors.filter(a => a._infected && a.status !== 'mrtvy');
 
-    if (infected.length > 0 && !GameState.flags.plagueAdvisorySent) {
-      GameState.flags.plagueAdvisorySent = true;
+    if (infected.length > 0) {
       events.push({
         id: 'chronicon_regional_plague',
         icon: '☣️',
@@ -207,8 +205,6 @@ const Snapshot = {
           { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
         ],
       });
-    } else if (infected.length === 0 && GameState.flags.plagueAdvisorySent) {
-      GameState.flags.plagueAdvisorySent = false;
     }
     return events;
   },
