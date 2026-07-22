@@ -28,7 +28,6 @@ const ALLOWED_KEYS = [
   'abbot_message_one_shot',
   'tension_modifier',
   'event_inject',
-  'unlock_flag',
   'feast',
   'fast',
 ];
@@ -47,6 +46,17 @@ const GmOverride = {
       for (const key of ALLOWED_KEYS) {
         if (key in input) {
           GameState.gm[key] = input[key];
+        }
+      }
+
+      // Unlock flags — merge, nikdy přepis. gm_input.json.unlock_flags = jen
+      // dávka k přidání tento tik; GameState.unlockedFlags roste natrvalo.
+      if (Array.isArray(input.unlock_flags)) {
+        if (!Array.isArray(GameState.unlockedFlags)) GameState.unlockedFlags = [];
+        for (const flag of input.unlock_flags) {
+          if (typeof flag === 'string' && !GameState.unlockedFlags.includes(flag)) {
+            GameState.unlockedFlags.push(flag);
+          }
         }
       }
 
