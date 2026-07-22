@@ -40,11 +40,17 @@ const GameState = {
 
   // --- NOVÉ: Actors & Economy (Betlém model, profil 'ricni') ---
   profile: 'ricni',
+  epoch: 'pozdni',            // 1465 = pozdní středověk (Betlém EPOCH_START_YEARS.pozdni: 1410)
+  estateName: 'Olomoucké panství',
+  week: 0,                    // roste 1× za týdenní tick, pro T.week()/cooldowny eventů
   globalTension: 20,
   les: 60,
   goldenAge: false,
   goldenAgeTicks: 0,
   rescueActionsLeft: 3,        // rezerva pro budoucí GM zásah (Sprint 2+), engine sám nikdy nekolabuje
+  totalPopulation: 10000,      // pozaďová populace kraje (mimo 10 sledovaných aktérů) — demografický čítač
+  totalDeaths: 0,
+  _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
   actors: RICNI_ACTORS.map(a => ({
     ...a,
     status: 'stable',
