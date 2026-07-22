@@ -34,9 +34,9 @@ const Snapshot = {
         message_en:    GameState.gm.abbot_message_en,
       },
 
-      // Obecný unlock flag pro Scriptorium (GameState.flags[x] = true).
-      // null pokud GM nic nenastavil — Scriptorium strana je defenzivní no-op.
-      unlockFlag: GameState.gm.unlock_flag,
+      // Trvalý seznam odemčených flagů pro Scriptorium (GameState.flags[x] = true).
+      // Celá historie vždy, ne jen dnešní dávka — nový hráč dostane vše najednou.
+      unlockFlags: GameState.unlockedFlags || [],
 
       // Svátek (GM): Scriptorium serveMass čte → vliv ×2. null = obyčejný den.
       // Zatím čistě GM-ruční (Abbot panel) — automatický výpočet je V2, viz _calendar().
