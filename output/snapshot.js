@@ -31,6 +31,7 @@ const Snapshot = {
         portrait:      GameState.gm.abbot_portrait,
         scrinium_open: GameState.gm.scrinium_open,
         message:       GameState.gm.abbot_message,
+        message_en:    GameState.gm.abbot_message_en,
       },
 
       // Obecný unlock flag pro Scriptorium (GameState.flags[x] = true).
