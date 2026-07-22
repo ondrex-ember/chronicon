@@ -70,12 +70,16 @@ const GameState = {
     scrinium_open:    true,
     abbot_message:    null,
     abbot_message_en: null,
-    unlock_flag:      null,
     feast:            null,   // GM svátek: { active: true, name_cs, name_en } → mše ve Scriptoriu ×2
     fast:             null,   // GM půst: { active: true, name_cs, name_en } → ryby ×1.5, maso ×0.5 na trhu
     tension_modifier: 0,
     event_inject:     null,
   },
+
+  // --- Unlock flags accumulator --- trvalý, nikdy se nepřepisuje, jen roste.
+  // gm_input.json.unlock_flags = dávka k přidání tento tik (GmOverride ji smerguje sem).
+  // Snapshot posílá VŽDY celé pole → každý hráč (starý i nový) dostane celou historii.
+  unlockedFlags: [],
 
   // --- Chronicle log --- (beze změny — kontrakt se Scriptoriem: text_cs/text_en/icon/source/tick/id)
   log: [],
