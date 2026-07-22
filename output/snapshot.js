@@ -79,9 +79,9 @@ const Snapshot = {
         goldenAge: GameState.goldenAge,
       },
 
-      // Kurátorované eventy pro Scriptorium (Sprint 2/3) — zatím vždy prázdné,
-      // no-op, dokud parser vrstva nevznikne. Bezpečné přidání, nic dnes toto pole nečte.
-      advisory_events: [],
+      // Kurátorované eventy pro Scriptorium (Sprint 3 dokončí spotřebu na
+      // straně Scriptoria) — mor v kraji je první konkrétní obsah tohoto pole.
+      advisory_events: Snapshot._buildAdvisoryEvents(),
 
       // V2: stará fake-ekonomika (grain/wood/grose/piety) odstraněna — nikdy
       // nefungovala (assignments se nikdy nenastavily, obilí trvale na 0).
@@ -183,7 +183,37 @@ const Snapshot = {
     }
   },
 
-  // Jednoduchý church calendar — V1: jen sezóna + den roku
+  // Mor v kraji → jeden advisory event, jednou za vzplanutí (ne opakovaně
+  // každý snapshot). Reset, jakmile nákaza pomine, ať příští vlna může
+  // znovu upozornit. Formát zrcadlí events-reference.md (text + volby),
+  // spotřeba na straně Scriptoria je Sprint 3.
+  _buildAdvisoryEvents() {
+    const events = [];
+    if (!GameState.flags) GameState.flags = {};
+    const infected = GameState.actors.filter(a => a._infected && a.status !== 'mrtvy');
+
+    if (infected.length > 0 && !GameState.flags.plagueAdvisorySent) {
+      GameState.flags.plagueAdvisorySent = true;
+      events.push({
+        id: 'chronicon_regional_plague',
+        icon: '☣️',
+        title_cs: 'Zprávy o moru v kraji',
+        title_en: 'News of plague in the region',
+        text_cs: `Z okolí přicházejí znepokojivé zprávy — u ${infected[0].label} vypukla morová nákaza. Bratři se ptají, zda posílit dohled nad nemocnými.`,
+        text_en: `Unsettling news arrives from nearby — plague has broken out near ${infected[0].label}. The brothers wonder whether to reinforce care for the sick.`,
+        choices: [
+          { id: 'bolster', label_cs: 'Posílit dohled (bude vyžadovat Infirmarium)', label_en: 'Reinforce care (will require the Infirmary)' },
+          { id: 'ignore',  label_cs: 'Nechat být', label_en: 'Let it be' },
+          { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
+        ],
+      });
+    } else if (infected.length === 0 && GameState.flags.plagueAdvisorySent) {
+      GameState.flags.plagueAdvisorySent = false;
+    }
+    return events;
+  },
+
+
   // V2: přidat svátky, půsty, církevní kalendář
   _calendar() {
     const t       = GameState.time;
