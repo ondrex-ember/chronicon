@@ -24,7 +24,7 @@ const { Snapshot }   = require('./output/snapshot.js');
 //  Hlavní tick funkce
 // ============================================
 
-function tick() {
+async function tick() {
   const start = Date.now();
   console.log(`\n[CHRONICON] ── Tick začíná ── ${new Date().toISOString()}`);
 
@@ -32,8 +32,8 @@ function tick() {
     // 1. GM override — načíst gm_input.json
     GmOverride.apply();
 
-    // 2. Engine tick — počasí, produkce, posun dne
-    GameEngine.tick();
+    // 2. Engine tick — počasí (Open-Meteo), produkce, posun dne
+    await GameEngine.tick();
 
     // 3. Picker — vybere záznamy z narrative JSON setů
     Picker.run();
@@ -55,7 +55,7 @@ function tick() {
 //  Startup — load state + init engine
 // ============================================
 
-function startup() {
+async function startup() {
   console.log('[CHRONICON] ════════════════════════════');
   console.log('[CHRONICON] CHRONICON Server startuje...');
   console.log('[CHRONICON] ════════════════════════════');
@@ -66,11 +66,11 @@ function startup() {
   // Init engine — počasí + úvodní chronicle záznam
   // Pokud je to restart (totalTick > 0), přeskočíme init chronicle
   if (!GameState.flags.started) {
-    GameEngine.init();
+    await GameEngine.init();
     Persist.save();
   } else {
     // Restart — jen reinit WeatherSystem (nemění state, jen nastaví current)
-    WeatherSystem.init();
+    await WeatherSystem.init();
     console.log('[CHRONICON] Restart — pokračuji od ticku', GameState.time.totalTick);
   }
 }
@@ -81,25 +81,27 @@ function startup() {
 
 const args = process.argv.slice(2);
 
-startup();
+(async () => {
+  await startup();
 
-if (args.includes('--once')) {
-  // Jeden tick — pro GitHub Actions a manuální testování
-  console.log('[CHRONICON] Režim: --once');
-  tick();
-  process.exit(0);
+  if (args.includes('--once')) {
+    // Jeden tick — pro GitHub Actions a manuální testování
+    console.log('[CHRONICON] Režim: --once');
+    await tick();
+    process.exit(0);
 
-} else if (args.includes('--dev')) {
-  // Dev režim — tick každých 30 sekund
-  console.log('[CHRONICON] Režim: --dev (tick každých 30s)');
-  tick(); // Okamžitý první tick
-  cron.schedule('*/30 * * * * *', tick);
+  } else if (args.includes('--dev')) {
+    // Dev režim — tick každých 30 sekund
+    console.log('[CHRONICON] Režim: --dev (tick každých 30s)');
+    await tick(); // Okamžitý první tick
+    cron.schedule('*/30 * * * * *', tick);
 
-} else {
-  // Produkční režim — 4× denně: 6:00, 12:00, 18:00, 00:00
-  console.log('[CHRONICON] Režim: produkce (6:00 / 12:00 / 18:00 / 00:00)');
-  cron.schedule('0 0,6,12,18 * * *', tick, {
-    timezone: 'Europe/Prague',
-  });
-  console.log('[CHRONICON] Scheduler spuštěn. Čekám na tick...\n');
-}
+  } else {
+    // Produkční režim — 4× denně: 6:00, 12:00, 18:00, 00:00
+    console.log('[CHRONICON] Režim: produkce (6:00 / 12:00 / 18:00 / 00:00)');
+    cron.schedule('0 0,6,12,18 * * *', tick, {
+      timezone: 'Europe/Prague',
+    });
+    console.log('[CHRONICON] Scheduler spuštěn. Čekám na tick...\n');
+  }
+})();
