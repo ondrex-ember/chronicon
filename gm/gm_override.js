@@ -23,6 +23,7 @@ const ALLOWED_KEYS = [
   'abbot_portrait',
   'scrinium_open',
   'abbot_message',
+  'abbot_message_en',
   'abbot_message_id',
   'abbot_message_one_shot',
   'tension_modifier',
