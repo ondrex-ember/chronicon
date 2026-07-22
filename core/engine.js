@@ -296,8 +296,19 @@ const GameEngine = {
       weekDeaths += casualties;
       a.stores = Math.max(0, a.stores - 4); a.wealth = Math.max(0, a.wealth - 6); a.mood = Math.max(0, a.mood - 12);
       if (Math.random() < (a._quarantined ? 0.08 : 0.22)) {
-        a._infected = false; a._quarantined = false; a.status = 'mrtvy';
+        a._infected = false; a._quarantined = false; a.status = 'mrtvy'; a._deathWeek = GameState.week;
         GameLog.add(`Poplatník ${a.label} podlehl Černé smrti.`, { type: 'E', icon: '💀', source: 'monastery_internal' });
+        // Právo sepultury — pokud zemřelý nebyl chudý, rodina může žádat o
+        // pohřeb uvnitř kláštera. Probošt gate řeší Scriptorium samo
+        // (CHRONICON nezná rank jednotlivých hráčů, svět je sdílený).
+        if (a.wealth >= 50) {
+          if (!GameState.pendingSepulturas) GameState.pendingSepulturas = [];
+          GameState.pendingSepulturas.push({
+            id: 'chronicon_sepultura_' + a.id + '_' + GameState.week,
+            name: a.label, profession: a.profession, wealth: Math.round(a.wealth), week: GameState.week,
+          });
+          if (GameState.pendingSepulturas.length > 10) GameState.pendingSepulturas.shift();
+        }
       } else if (Math.random() < 0.25) {
         // Přirozené uzdravení — bez tohohle mor v headless enginu (bez
         // hráčovy karantény/léčby) nikdy sám nekončí a stane se trvale
