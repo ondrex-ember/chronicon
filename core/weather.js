@@ -235,18 +235,36 @@ const WeatherSystem = {
 
   CHANGE_CHANCE: 0.20,
 
+  // Stejné souřadnice jako Scriptorium (systems/weather.js) — jednotná realita.
+  // Jsou to ve skutečnosti souřadnice Prahy, ne Olomouce (zděděno), záměrně
+  // ponecháno shodné se Scriptoriem, ne "opraveno" na skutečnou Olomouc.
+  LAT: 50.0755,
+  LON: 14.4378,
+
   init() {
     WeatherSystem.current = null;
     return WeatherSystem.roll(true);
   },
 
-  // Vrací chronicle text pokud došlo ke změně počasí s chronicle property
-  // Jinak vrací null. Engine rozhodne zda logovat.
-  roll(force = false) {
+  // Vrací chronicle text pokud došlo ke změně počasí s chronicle property.
+  // Nejdřív zkusí reálné počasí (Open-Meteo); při chybě sítě spadne zpět
+  // na starý náhodný roll, ať tick neselže jen kvůli výpadku API.
+  async roll(force = false) {
     if (!force && Math.random() > WeatherSystem.CHANGE_CHANCE) return null;
 
     const season = GameState.time.season;
     const pool   = WeatherSystem.POOLS[season];
+
+    try {
+      const real = await WeatherSystem._fetchReal();
+      if (real) {
+        const key = WeatherSystem._mapCodeToKey(real.code, real.tempC, season);
+        const w = pool.find(x => x.key === key) || pool[0];
+        return WeatherSystem._set(w);
+      }
+    } catch (e) {
+      // Síť/API nedostupné — tichý pád do náhodného rollu níž.
+    }
 
     const candidates = pool.filter(w =>
       !WeatherSystem.current || w.key !== WeatherSystem.current.key
@@ -262,6 +280,63 @@ const WeatherSystem = {
       }
     }
     return WeatherSystem._set(source[source.length - 1]);
+  },
+
+  async _fetchReal() {
+    if (typeof fetch !== 'function') return null;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${WeatherSystem.LAT}&longitude=${WeatherSystem.LON}&current=temperature_2m,weather_code&timezone=auto`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data || !data.current) return null;
+    return { code: data.current.weather_code, tempC: data.current.temperature_2m };
+  },
+
+  // WMO weather_code (Open-Meteo) → klíč existujícího POOLS záznamu pro
+  // danou sezónu. Heuristika, ne dokonalý překlad — cíl je "reálné počasí
+  // rozhoduje", ne přesná meteorologie.
+  _mapCodeToKey(code, tempC, season) {
+    const fog      = code === 45 || code === 48;
+    const drizzle  = code >= 51 && code <= 57;
+    const rain     = (code >= 61 && code <= 67) || (code >= 80 && code <= 82);
+    const heavyRain= code === 65 || code === 82 || code === 67;
+    const snow     = (code >= 71 && code <= 77) || code === 85 || code === 86;
+    const heavySnow= code === 75 || code === 86;
+    const storm    = code === 95 || code === 96 || code === 99;
+    const cloudy   = code === 1 || code === 2 || code === 3;
+    const clear    = code === 0;
+
+    if (season === 0) { // Jaro
+      if (storm || heavyRain) return 'spring_heavy_rain';
+      if (fog) return 'spring_fog';
+      if (snow || tempC <= 1) return 'spring_late_frost';
+      if (rain || drizzle) return 'spring_rain';
+      if (cloudy) return 'spring_cloudy';
+      return 'spring_clear';
+    }
+    if (season === 1) { // Léto
+      if (storm || heavyRain) return 'summer_storm';
+      if (rain || drizzle) return 'summer_ideal';
+      if (tempC >= 32) return 'summer_heatwave';
+      if (tempC >= 26 && clear) return 'summer_drought';
+      if (cloudy) return 'summer_cloudy';
+      return 'summer_clear';
+    }
+    if (season === 2) { // Podzim
+      if (storm || heavyRain) return 'autumn_storm';
+      if (fog) return 'autumn_fog';
+      if (snow || tempC <= 1) return 'autumn_early_frost';
+      if (rain || drizzle) return 'autumn_rain';
+      if (clear && tempC >= 12) return 'autumn_golden';
+      return 'autumn_clear';
+    }
+    // Zima
+    if (heavySnow) return 'winter_blizzard';
+    if (snow) return 'winter_snow';
+    if (rain || drizzle || tempC > 4) return 'winter_thaw';
+    if (tempC <= -8) return 'winter_frost';
+    if (clear) return 'winter_clear';
+    return 'winter_grey';
   },
 
   // Nastaví počasí, aktualizuje GameState.weather
