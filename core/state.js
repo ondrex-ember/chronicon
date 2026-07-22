@@ -69,6 +69,7 @@ const GameState = {
     abbot_portrait:   null,
     scrinium_open:    true,
     abbot_message:    null,
+    abbot_message_en: null,
     unlock_flag:      null,
     feast:            null,   // GM svátek: { active: true, name_cs, name_en } → mše ve Scriptoriu ×2
     fast:             null,   // GM půst: { active: true, name_cs, name_en } → ryby ×1.5, maso ×0.5 na trhu
