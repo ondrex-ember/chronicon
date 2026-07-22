@@ -207,6 +207,27 @@ const Snapshot = {
         ],
       });
     }
+
+    // Právo sepultury — jen pro hráče s hodností Probošt (probost_only flag,
+    // gate provádí Scriptorium samo, CHRONICON nezná rank jednotlivých hráčů).
+    (GameState.pendingSepulturas || []).forEach(s => {
+      events.push({
+        id: s.id,
+        icon: '⚱️',
+        probost_only: true,
+        wealth: s.wealth,
+        title_cs: 'Žádost o právo sepultury',
+        title_en: 'Request for the right of sepulture',
+        text_cs: `Zesnul ${s.name} — ${s.profession}, muž nemalého jmění. Jeho rodina žádá klášter o dovolení pochovat jej uvnitř kostelních zdí, výměnou za štědrý dar na spásu duše.`,
+        text_en: `The family of the late ${s.name} (${s.profession}, a man of no small means) petitions the monastery for permission to bury him within the church walls, in exchange for a generous gift for the soul's salvation.`,
+        choices: [
+          { id: 'accept',  label_cs: 'Přijmout dar a právo sepultury udělit', label_en: 'Accept the gift and grant the right' },
+          { id: 'decline', label_cs: 'Zdvořile odmítnout', label_en: 'Politely decline' },
+          { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
+        ],
+      });
+    });
+
     return events;
   },
 
