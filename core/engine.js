@@ -87,11 +87,12 @@ function checkRelThreshold(prev, next) {
 const GameEngine = {
 
   // Hlavní tick — volán 4× denně z cron.js
-  tick() {
+  async tick() {
     GameState.time.totalTick++;
 
-    // 1. Počasí (beze změny z V1 — Sprint 2 přinese Open-Meteo)
-    const weatherChronicle = WeatherSystem.roll();
+    // 1. Počasí — reálné z Open-Meteo (Sprint 2), s tichým fallbackem na
+    // náhodný roll při výpadku sítě (viz WeatherSystem.roll)
+    const weatherChronicle = await WeatherSystem.roll();
     if (weatherChronicle) {
       GameLog.add(weatherChronicle, {
         type:   'A',
@@ -102,7 +103,7 @@ const GameEngine = {
 
     // 2. Posun dne — jednou za 4 ticky (1 den = 6h × 4), oprava proti V1
     if (GameState.time.totalTick % 4 === 0) {
-      GameEngine.advanceDay();
+      await GameEngine.advanceDay();
     }
 
     // 3. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
@@ -111,16 +112,16 @@ const GameEngine = {
     }
   },
 
-  advanceDay() {
+  async advanceDay() {
     const time = GameState.time;
     time.day++;
 
     if (time.day > time.daysPerSeason) {
-      GameEngine.onSeasonEnd();
+      await GameEngine.onSeasonEnd();
     }
   },
 
-  onSeasonEnd() {
+  async onSeasonEnd() {
     const time      = GameState.time;
     const nextSeason = (time.season + 1) % 4;
     const nextYear   = nextSeason === 0 ? time.year + 1 : time.year;
@@ -137,7 +138,7 @@ const GameEngine = {
     time.year   = nextYear;
     time.day    = 1;
 
-    WeatherSystem.init();
+    await WeatherSystem.init();
   },
 
   // ── Týdenní ekonomika (port z Betlém runWeeklyTick, jádro) ──────────────
@@ -443,9 +444,9 @@ const GameEngine = {
   },
 
   // Inicializace při prvním startu
-  init() {
+  async init() {
     GameState.flags.started = true;
-    WeatherSystem.init();
+    await WeatherSystem.init();
 
     GameLog.add(
       `Klášter se probouzí. ${StateHelpers.dateString()}.`,
