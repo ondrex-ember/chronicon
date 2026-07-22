@@ -65,32 +65,27 @@ const Snapshot = {
         date_string: StateHelpers.dateString(),
       },
 
-      actors: {
-        monastery: {
-          mood:   GameState.actors.monastery.mood,
-          wealth: GameState.actors.monastery.wealth,
-          piety:  GameState.actors.monastery.piety,
-        },
-        vesnicane: {
-          mood:   GameState.actors.vesnicane.mood,
-          stores: GameState.actors.vesnicane.stores,
-        },
-        valach: {
-          mood: GameState.actors.valach.mood,
-          herd: GameState.actors.valach.herd,
-        },
-        inkvizitor: {
-          active:  GameState.actors.inkvizitor.active,
-          tension: GameState.actors.inkvizitor.tension,
-        },
+      // V2: dynamický seznam aktérů (Betlém model, profil 'ricni') —
+      // NAHRAZUJE starý pevný seznam {monastery,vesnicane,valach,inkvizitor}.
+      // Abbot-panel čte starý tvar — bude potřebovat vlastní update (plán, ne teď).
+      actors: GameState.actors.map(a => ({
+        id: a.id, label: a.label, profession: a.profession,
+        wealth: Math.round(a.wealth), mood: Math.round(a.mood),
+        stores: Math.round(a.stores), status: a.status,
+      })),
+
+      region: {
+        tension:   Math.round(GameState.globalTension),
+        goldenAge: GameState.goldenAge,
       },
 
-      resources: {
-        grain: GameState.resources.grain.value,
-        wood:  GameState.resources.wood.value,
-        grose: GameState.resources.grose.value,
-        piety: GameState.resources.piety.value,
-      },
+      // Kurátorované eventy pro Scriptorium (Sprint 2/3) — zatím vždy prázdné,
+      // no-op, dokud parser vrstva nevznikne. Bezpečné přidání, nic dnes toto pole nečte.
+      advisory_events: [],
+
+      // V2: stará fake-ekonomika (grain/wood/grose/piety) odstraněna — nikdy
+      // nefungovala (assignments se nikdy nenastavily, obilí trvale na 0).
+      // Abbot-panel na ni měl odkaz — dostane vlastní update.
 
       // Posledních 20 chronicle záznamů
       chronicle: GameState.log.slice(0, 20),
