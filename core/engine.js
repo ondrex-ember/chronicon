@@ -334,6 +334,11 @@ const GameEngine = {
     if (GameState.globalTension > 75) weekDeaths += Math.floor(GameState.globalTension * 0.3);
     GameState.totalDeaths += weekDeaths;
     GameState.totalPopulation = Math.max(500, GameState.totalPopulation - weekDeaths + weekBirths);
+    // Farní pohřby pro Scriptorium (před Proboštem, pasivní) — úměrně
+    // úmrtnosti v kraji, ne jen z moru. Malý dělitel = jen občasný přírůstek.
+    if (weekDeaths > 0 && Math.random() < 0.3) {
+      GameState.totalFuneralEvents += 1;
+    }
     if (weekDeaths > 0) {
       GameLog.add(
         `Demografie: v tomto týdnu podlehlo nemocem, hladu či neklidu v kraji celkem ${weekDeaths} poddaných. Celková populace klesla na ${GameState.totalPopulation} duší.`,
