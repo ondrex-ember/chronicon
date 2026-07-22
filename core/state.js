@@ -51,6 +51,7 @@ const GameState = {
   totalPopulation: 10000,      // pozaďová populace kraje (mimo 10 sledovaných aktérů) — demografický čítač
   totalDeaths: 0,
   totalFuneralEvents: 0,       // monotónní čítač — Scriptorium (před Proboštem) z rozdílu tvoří pasivní pohřby
+  pendingSepulturas: [],       // fronta žádostí o právo sepultury (bohatí zesnulí), max 10, FIFO
   _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
   actors: RICNI_ACTORS.map(a => ({
     ...a,
