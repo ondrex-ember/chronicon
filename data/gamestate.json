@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 53,
+    "day": 54,
     "daysPerSeason": 90,
-    "totalTick": 142
+    "totalTick": 143
   },
   "resources": {
     "grain": {
@@ -71,10 +71,10 @@
     "groseEarned": 0
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje."
   },
   "actors": {
     "monastery": {
@@ -153,6 +153,30 @@
     "fast": null
   },
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
+      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
@@ -1088,30 +1112,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 22
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 21
-    },
-    {
-      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 21
     }
   ],
   "_chainQueue": [],
@@ -1963,12 +1963,20 @@
     "local_161": {
       "tick": 142,
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší."
+    },
+    "local_185": {
+      "tick": 143,
+      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů."
+    },
+    "zbras_038": {
+      "tick": 143,
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli."
     }
   },
   "flags": {
     "started": true,
     "paused": false,
-    "consecutiveFamines": 109,
+    "consecutiveFamines": 110,
     "winterCascade": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-22T06:34:43.027Z",
-  "valid_until": "2026-07-29T06:34:43.027Z",
+  "generated": "2026-07-22T11:51:47.088Z",
+  "valid_until": "2026-07-29T11:51:47.088Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "klidný",
@@ -18,12 +18,12 @@
     "name_en": "Fasting Wednesday"
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -31,9 +31,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 53,
-    "total_tick": 142,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 53"
+    "day": 54,
+    "total_tick": 143,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 54"
   },
   "actors": {
     "monastery": {
@@ -61,6 +61,30 @@
     "piety": 10
   },
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
+      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
@@ -276,33 +300,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 47
-    },
-    {
-      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
-      "type": "A",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 46
-    },
-    {
-      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 46
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
+      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
@@ -410,21 +422,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 49
-    },
-    {
-      "text": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
-      "text_cs": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
-      "text_en": "A unit of hired German-speaking mercenaries marched around the town walls of Bruntál. They forcefully took three villagers as guides and stole a flock of thirty geese. The alderman sent a complaint to the provincial captain.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 48
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
       "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
@@ -532,22 +544,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 42
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 38
     }
   ],
   "church_calendar": {
-    "day_of_year": 143,
+    "day_of_year": 144,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
