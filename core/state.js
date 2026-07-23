@@ -104,6 +104,32 @@ const GameState = {
 
 const StateHelpers = {
 
+  // Odvodí { year, season, day } z reálného data (Europe/Prague), stejná
+  // pravidla hranic měsíců jako Scriptorium._getApiarySeason() (3-5 Jaro,
+  // 6-8 Léto, 9-11 Podzim, 12/1/2 Zima). Rok napevno 1465 — kontrakt se
+  // Scriptoriem, kde se reálný rok nikdy neukazuje.
+  realCalendar() {
+    const fmt = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Prague', year: 'numeric', month: '2-digit', day: '2-digit',
+    });
+    const parts = fmt.formatToParts(new Date());
+    const y = parseInt(parts.find(p => p.type === 'year').value, 10);
+    const m = parseInt(parts.find(p => p.type === 'month').value, 10);
+    const d = parseInt(parts.find(p => p.type === 'day').value, 10);
+
+    let season, seasonStartY, seasonStartM;
+    if (m >= 3 && m <= 5)       { season = 0; seasonStartY = y;                seasonStartM = 3;  }
+    else if (m >= 6 && m <= 8)  { season = 1; seasonStartY = y;                seasonStartM = 6;  }
+    else if (m >= 9 && m <= 11) { season = 2; seasonStartY = y;                seasonStartM = 9;  }
+    else                        { season = 3; seasonStartY = (m === 12 ? y : y - 1); seasonStartM = 12; }
+
+    const seasonStart = Date.UTC(seasonStartY, seasonStartM - 1, 1);
+    const current      = Date.UTC(y, m - 1, d);
+    const day = Math.round((current - seasonStart) / 86400000) + 1;
+
+    return { year: 1465, season, day };
+  },
+
   seasonName() {
     return ['Jaro', 'Léto', 'Podzim', 'Zima'][GameState.time.season];
   },
