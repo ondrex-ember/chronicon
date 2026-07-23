@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-23T06:34:27.413Z",
-  "valid_until": "2026-07-30T06:34:27.413Z",
+  "generated": "2026-07-23T11:21:33.550Z",
+  "valid_until": "2026-07-30T11:21:33.550Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,22 +17,22 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "spring_cloudy",
+    "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
-    "desc": "Zataženo. Den plyne klidně.",
-    "season": 0,
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "season": 1,
     "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
     "year": 1465,
-    "season": 0,
-    "season_name": "Jaro",
-    "season_icon": "🌱",
-    "day": 1,
-    "total_tick": 2,
-    "date_string": "🌱 Jaro, Léta Páně 1465, den 1"
+    "season": 1,
+    "season_name": "Léto",
+    "season_icon": "☀️",
+    "day": 53,
+    "total_tick": 3,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 53"
   },
   "actors": [
     {
@@ -134,6 +134,54 @@
   "advisory_events": [],
   "chronicle": [
     {
+      "text": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
+      "text_cs": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
+      "text_en": "In 1413, on St Alexius's day, Conrad the German was received as Archbishop of Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
+      "text": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
+      "text_cs": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
+      "text_en": "Despite pressure from Hungarian troops and the Catholic opposition, the towns of Uničov and Uherské Hradiště remain loyal to King George. Armorers in both towns work day and night making crossbows and repairing walls. The burgomasters refuse to hand over the gates to Corvinus's mercenaries.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
+      "text": "☀️ Léto Léta Páně 1465 začíná.",
+      "text_cs": "☀️ Léto Léta Páně 1465 začíná.",
+      "text_en": null,
+      "type": "A",
+      "icon": "☀️",
+      "source": "engine",
+      "tick": 3,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    },
+    {
       "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
@@ -208,6 +256,30 @@
   ],
   "chronicle_local": [
     {
+      "text": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
+      "text_cs": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
+      "text_en": "Despite pressure from Hungarian troops and the Catholic opposition, the towns of Uničov and Uherské Hradiště remain loyal to King George. Armorers in both towns work day and night making crossbows and repairing walls. The burgomasters refuse to hand over the gates to Corvinus's mercenaries.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
       "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
@@ -258,6 +330,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
+      "text_cs": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
+      "text_en": "In 1413, on St Alexius's day, Conrad the German was received as Archbishop of Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 3,
+      "year": 1465,
+      "season": "Léto",
+      "day": 53
+    },
+    {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
@@ -271,9 +355,9 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 1,
-    "season": "Jaro",
-    "season_icon": "🌱",
+    "day_of_year": 143,
+    "season": "Léto",
+    "season_icon": "☀️",
     "year": 1465,
     "note": null
   }
