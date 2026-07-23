@@ -101,10 +101,9 @@ const GameEngine = {
       });
     }
 
-    // 2. Posun dne — jednou za 4 ticky (1 den = 6h × 4), oprava proti V1
-    if (GameState.time.totalTick % 4 === 0) {
-      await GameEngine.advanceDay();
-    }
+    // 2. Kalendář — vždy synchronizovaný s reálným datem (Europe/Prague),
+    // ne přírůstkové počítání ticků. Imunní vůči resetům/výpadkům/downtimu.
+    await GameEngine.syncCalendar();
 
     // 3. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
     if (GameState.time.totalTick % 28 === 0) {
@@ -112,31 +111,29 @@ const GameEngine = {
     }
   },
 
-  async advanceDay() {
+  async syncCalendar() {
     const time = GameState.time;
-    time.day++;
+    const real = StateHelpers.realCalendar();
 
-    if (time.day > time.daysPerSeason) {
-      await GameEngine.onSeasonEnd();
+    if (real.season !== time.season) {
+      await GameEngine.onSeasonEnd(real);
+    } else {
+      time.day = real.day;
     }
   },
 
-  async onSeasonEnd() {
-    const time      = GameState.time;
-    const nextSeason = (time.season + 1) % 4;
-    const nextYear   = nextSeason === 0 ? time.year + 1 : time.year;
-
+  async onSeasonEnd(real) {
     const seasonNames = ['Jaro', 'Léto', 'Podzim', 'Zima'];
     const seasonIcons = ['🌱', '☀️', '🍂', '❄️'];
 
     GameLog.add(
-      `${seasonIcons[nextSeason]} ${seasonNames[nextSeason]} Léta Páně ${nextYear} začíná.`,
-      { type: 'A', icon: seasonIcons[nextSeason], source: 'engine' }
+      `${seasonIcons[real.season]} ${seasonNames[real.season]} Léta Páně ${real.year} začíná.`,
+      { type: 'A', icon: seasonIcons[real.season], source: 'engine' }
     );
 
-    time.season = nextSeason;
-    time.year   = nextYear;
-    time.day    = 1;
+    GameState.time.season = real.season;
+    GameState.time.year   = real.year;
+    GameState.time.day    = real.day;
 
     await WeatherSystem.init();
   },
@@ -462,6 +459,14 @@ const GameEngine = {
   // Inicializace při prvním startu
   async init() {
     GameState.flags.started = true;
+
+    // Kalendář hned při startu synchronizovat s reálným datem —
+    // ať uvítací zpráva neukazuje "den 1, Jaro" bez ohledu na to, kdy startuje.
+    const real = StateHelpers.realCalendar();
+    GameState.time.year   = real.year;
+    GameState.time.season = real.season;
+    GameState.time.day    = real.day;
+
     await WeatherSystem.init();
 
     GameLog.add(
