@@ -1,555 +1,231 @@
 {
   "version": 2,
-  "generated": "2026-07-22T11:51:47.088Z",
-  "valid_until": "2026-07-29T11:51:47.088Z",
+  "generated": "2026-07-23T05:30:09.189Z",
+  "valid_until": "2026-07-30T05:30:09.189Z",
   "abbot": {
     "name": "Bratr Augustin",
-    "mood": "klidný",
+    "mood": "natěšený",
     "virtue": 5,
     "portrait": null,
     "scrinium_open": true,
-    "message": "Milost Boží buď s vámi, bratřie. Skrze mne, bratra Augustína, kázal vám pan opat zvěstovati: Ustanoven sem já za jeho miestodržícieho ve věcech správy naší, pakli by naň jaký neduh uderil, anebo na pút dalekou za povinnostmi vyjel. K tomu nám dopomáhej Bůh a svatí jeho."
+    "message": "Milost Boží buď s vámi, bratřie. Pan opat z cest svých se navrátil s novinou radostnou a skrze mne káže vám zvěstovati: Zjednalť on pro nás hejno holubic cvičených, by zprávy a psaní naše nosily. Pročež jest vůlí jeho, a já k tomu důtklivě nabádám, abyste bez meškání ke stavbě holubníku přikročili. Jakmile toto dílo při Portě připraveno bude, rozmlouvati budem moci spěšněji, nežli by dnové minuli. S pozdravením laskavým a milosrdenstvím Božím, bratr váš, Augustín.",
+    "message_en": "The Grace of the Lord be with thee, brethren. Our Lord Abbot hath returned bearing gladsome tidings, and by my voice he doth proclaim: He hath secured for us a flock of trained doves, that they might bear our missives. Wherefore it is his will—and I do strictly counsel thee to heed it—that thou shouldst commence the building of a dovecote without delay. Once thou hast made this ready at the Gate, we shall commune more swiftly than the passing of days. With bountiful regards and the Lord's mercy. Thy brother, Augustine."
   },
-  "unlockFlag": null,
+  "unlockFlags": [
+    "porta_offer"
+  ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
-    "season": 1,
-    "modifier_grain": 1.15,
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně.",
+    "season": 0,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
     "year": 1465,
-    "season": 1,
-    "season_name": "Léto",
-    "season_icon": "☀️",
-    "day": 54,
-    "total_tick": 143,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 54"
+    "season": 0,
+    "season_name": "Jaro",
+    "season_icon": "🌱",
+    "day": 1,
+    "total_tick": 1,
+    "date_string": "🌱 Jaro, Léta Páně 1465, den 1"
   },
-  "actors": {
-    "monastery": {
-      "mood": 70,
-      "wealth": 50,
-      "piety": 40
+  "actors": [
+    {
+      "id": "vrchnost",
+      "label": "Vrchnost",
+      "profession": "Pán panství",
+      "wealth": 70,
+      "mood": 65,
+      "stores": 50,
+      "status": "stable"
     },
-    "vesnicane": {
-      "mood": 50,
-      "stores": 40
-    },
-    "valach": {
+    {
+      "id": "mlynar",
+      "label": "Mlynář",
+      "profession": "Mlynář",
+      "wealth": 55,
       "mood": 60,
-      "herd": 12
+      "stores": 45,
+      "status": "stable"
     },
-    "inkvizitor": {
-      "active": false,
-      "tension": 0
+    {
+      "id": "kovar",
+      "label": "Kovář",
+      "profession": "Kovář",
+      "wealth": 50,
+      "mood": 65,
+      "stores": 40,
+      "status": "stable"
+    },
+    {
+      "id": "uhlic",
+      "label": "Uhlíř",
+      "profession": "Uhlíř",
+      "wealth": 30,
+      "mood": 50,
+      "stores": 30,
+      "status": "stable"
+    },
+    {
+      "id": "vorar",
+      "label": "Vorař",
+      "profession": "Vorař",
+      "wealth": 45,
+      "mood": 60,
+      "stores": 20,
+      "status": "stable"
+    },
+    {
+      "id": "rybnikar",
+      "label": "Rybníkář",
+      "profession": "Rybníkář",
+      "wealth": 40,
+      "mood": 55,
+      "stores": 30,
+      "status": "stable"
+    },
+    {
+      "id": "prevoznik",
+      "label": "Převozník",
+      "profession": "Mýtný",
+      "wealth": 50,
+      "mood": 55,
+      "stores": 25,
+      "status": "stable"
+    },
+    {
+      "id": "valach",
+      "label": "Valach",
+      "profession": "Valach",
+      "wealth": 35,
+      "mood": 55,
+      "stores": 35,
+      "status": "stable"
+    },
+    {
+      "id": "klaster",
+      "label": "Klášter",
+      "profession": "Klášter",
+      "wealth": 65,
+      "mood": 50,
+      "stores": 60,
+      "status": "stable"
+    },
+    {
+      "id": "vcelar",
+      "label": "Včelař",
+      "profession": "Včelař",
+      "wealth": 35,
+      "mood": 60,
+      "stores": 40,
+      "status": "stable"
     }
+  ],
+  "region": {
+    "tension": 20,
+    "goldenAge": false,
+    "totalFuneralEvents": 0
   },
-  "resources": {
-    "grain": 0,
-    "wood": 30,
-    "grose": 20,
-    "piety": 10
-  },
+  "advisory_events": [],
   "chronicle": [
     {
-      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
-      "type": "B",
-      "icon": "⛓️",
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
       "source": "distant_events",
-      "tick": 143,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 54
+      "season": "Jaro",
+      "day": 1
     },
     {
-      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
-      "type": "E",
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
       "icon": "⚖️",
       "source": "local_events",
-      "tick": 143,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 54
+      "season": "Jaro",
+      "day": 1
     },
     {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
-      "type": "C",
-      "icon": "🐕",
-      "source": "distant_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 52
-    },
-    {
-      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 52
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
-      "type": "A",
-      "icon": "📚",
-      "source": "distant_events",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
-      "text_cs": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
-      "text_en": "The town council tightened inspections of imported wine at the town gates to prevent the secret sale of untaxed barrels from Austria. Three dealers were caught, and their goods were poured directly into the street gutter as a sign of the authorities' uncompromising stance. Local winemakers warmly welcomed this measure.",
-      "type": "A",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 49
-    },
-    {
-      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
       "type": "A",
       "icon": "🔥",
       "source": "monastery_internal",
-      "tick": 138,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 49
+      "season": "Jaro",
+      "day": 1
     },
     {
-      "text": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
-      "text_cs": "🌵 Sucho trvá. Studny se zmenšují. Modlíme se za déšť.",
+      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
+      "text_cs": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
       "text_en": null,
       "type": "A",
-      "icon": "🌵",
-      "source": "weather",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 48
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 48
-    },
-    {
-      "text": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
-      "text_cs": "Okolo městských hradeb Bruntálu táhla jednotka najatých žoldnéřů mluvících německy. Násilím odvedli tři vesničany jako průvodce a ukradli stádo třiceti hus. Rychtář poslal stížnost zemskému hejtmanovi.",
-      "text_en": "A unit of hired German-speaking mercenaries marched around the town walls of Bruntál. They forcefully took three villagers as guides and stole a flock of thirty geese. The alderman sent a complaint to the provincial captain.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 48
-    },
-    {
-      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 48
-    },
-    {
-      "text": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
-      "text_cs": "Na předměstí začala velká letní střiž ovcí a sjel se sem tucet obchodníků z okolí. Hromady surové vlny se váží přímo na náměstí a nakládají na vozy směřující do soukenických dílen. Výběrčí městské daně hlásí rekordní zisky z poplatků za vážení.",
-      "text_en": "The great summer sheep shearing has begun in the suburbs, and a dozen merchants from the surrounding area have converged here. Piles of raw wool are weighed directly in the square and loaded onto wagons heading to clothiers' workshops. Town tax collectors report record profits from weighing fees.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 47
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
       "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 136,
+      "source": "engine",
+      "tick": 0,
       "year": 1465,
-      "season": "Léto",
-      "day": 47
+      "season": "Jaro",
+      "day": 1
     }
   ],
   "chronicle_local": [
     {
-      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
-      "type": "E",
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
       "icon": "⚖️",
       "source": "local_events",
-      "tick": 143,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 54
+      "season": "Jaro",
+      "day": 1
     },
     {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 52
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
-      "text_cs": "Městská rada zpřísnila kontroly dováženého vína u městských bran, aby zamezila tajnému prodeji nezdaněných sudů z Rakous. Tři překupníci byli odhaleni a jejich zboží bylo rovnou na ulici vylito do kanálu na znamení nekompromisnosti úřadů. Místní vinaři toto opatření vřele přivítali.",
-      "text_en": "The town council tightened inspections of imported wine at the town gates to prevent the secret sale of untaxed barrels from Austria. Three dealers were caught, and their goods were poured directly into the street gutter as a sign of the authorities' uncompromising stance. Local winemakers warmly welcomed this measure.",
-      "type": "A",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_cs": "Zápis koronera: Mistr Jiří Punčochář vypadl z okna druhého patra, neboť se naklonil příliš daleko, aby viděl průvod biskupského kočáru. Přihlížející říkají, že to byl opravdu hezký kočár.",
-      "text_en": "Coroner's record: Master Jiří the Hosier fell from a second-floor window, having leaned too far out to watch the bishop's carriage pass. Bystanders say it was a very fine carriage.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 49
-    },
-    {
-      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
       "type": "A",
       "icon": "🔥",
       "source": "monastery_internal",
-      "tick": 138,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 49
+      "season": "Jaro",
+      "day": 1
     }
   ],
   "chronicle_distant": [
     {
-      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
-      "type": "B",
-      "icon": "⛓️",
-      "source": "distant_events",
-      "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
-      "type": "C",
-      "icon": "🐕",
-      "source": "distant_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 52
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 51
-    },
-    {
-      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
-      "type": "A",
-      "icon": "📚",
-      "source": "distant_events",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 50
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
       "type": "C",
       "icon": "📜",
       "source": "distant_events",
-      "tick": 137,
+      "tick": 1,
       "year": 1465,
-      "season": "Léto",
-      "day": 48
-    },
-    {
-      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
-      "type": "A",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 46
-    },
-    {
-      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
-      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
-      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
-      "type": "C",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 134,
-      "year": 1465,
-      "season": "Léto",
-      "day": 45
-    },
-    {
-      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
-      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
-      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
-      "type": "B",
-      "icon": "🗣️",
-      "source": "distant_events",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 44
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 43
-    },
-    {
-      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
-      "type": "C",
-      "icon": "🛠️",
-      "source": "distant_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 42
+      "season": "Jaro",
+      "day": 1
     }
   ],
   "church_calendar": {
-    "day_of_year": 144,
-    "season": "Léto",
-    "season_icon": "☀️",
+    "day_of_year": 1,
+    "season": "Jaro",
+    "season_icon": "🌱",
     "year": 1465,
     "note": null
   }

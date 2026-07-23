@@ -1,0 +1,363 @@
+{
+  "time": {
+    "year": 1465,
+    "season": 0,
+    "day": 1,
+    "daysPerSeason": 90,
+    "totalTick": 1
+  },
+  "weather": {
+    "key": "spring_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo. Den plyne klidně."
+  },
+  "virtue": {
+    "value": 3,
+    "min": -10,
+    "max": 10
+  },
+  "profile": "ricni",
+  "epoch": "pozdni",
+  "estateName": "Olomoucké panství",
+  "week": 0,
+  "globalTension": 20,
+  "les": 60,
+  "goldenAge": false,
+  "goldenAgeTicks": 0,
+  "rescueActionsLeft": 3,
+  "totalPopulation": 10000,
+  "totalDeaths": 0,
+  "totalFuneralEvents": 0,
+  "pendingSepulturas": [],
+  "_eventCooldowns": {},
+  "actors": [
+    {
+      "id": "vrchnost",
+      "label": "Vrchnost",
+      "profession": "Pán panství",
+      "core": true,
+      "wealth": 70,
+      "mood": 65,
+      "stores": 50,
+      "storesMax": 100,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "mlynar": 30,
+        "kovar": 20,
+        "uhlic": 10,
+        "vorar": 10,
+        "rybnikar": 20,
+        "prevoznik": 40,
+        "valach": 15,
+        "klaster": -10,
+        "vcelar": 10
+      }
+    },
+    {
+      "id": "mlynar",
+      "label": "Mlynář",
+      "profession": "Mlynář",
+      "core": true,
+      "wealth": 55,
+      "mood": 60,
+      "stores": 45,
+      "storesMax": 90,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 30,
+        "kovar": 40,
+        "uhlic": 5,
+        "vorar": 20,
+        "rybnikar": -25,
+        "prevoznik": 10,
+        "valach": 0,
+        "klaster": 10,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "kovar",
+      "label": "Kovář",
+      "profession": "Kovář",
+      "core": true,
+      "wealth": 50,
+      "mood": 65,
+      "stores": 40,
+      "storesMax": 80,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 20,
+        "mlynar": 40,
+        "uhlic": 50,
+        "vorar": 0,
+        "rybnikar": 0,
+        "prevoznik": 0,
+        "valach": 20,
+        "klaster": 0,
+        "vcelar": 15
+      }
+    },
+    {
+      "id": "uhlic",
+      "label": "Uhlíř",
+      "profession": "Uhlíř",
+      "core": true,
+      "wealth": 30,
+      "mood": 50,
+      "stores": 30,
+      "storesMax": 70,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 10,
+        "mlynar": 5,
+        "kovar": 50,
+        "vorar": 0,
+        "rybnikar": 0,
+        "prevoznik": 0,
+        "valach": 5,
+        "klaster": 0,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "vorar",
+      "label": "Vorař",
+      "profession": "Vorař",
+      "core": true,
+      "wealth": 45,
+      "mood": 60,
+      "stores": 20,
+      "storesMax": 50,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 10,
+        "mlynar": 20,
+        "kovar": 0,
+        "uhlic": 0,
+        "rybnikar": -30,
+        "prevoznik": 15,
+        "valach": 0,
+        "klaster": 0,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "rybnikar",
+      "label": "Rybníkář",
+      "profession": "Rybníkář",
+      "core": true,
+      "wealth": 40,
+      "mood": 55,
+      "stores": 30,
+      "storesMax": 70,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 20,
+        "mlynar": -25,
+        "kovar": 0,
+        "uhlic": 0,
+        "vorar": -30,
+        "prevoznik": 0,
+        "valach": 0,
+        "klaster": 45,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "prevoznik",
+      "label": "Převozník",
+      "profession": "Mýtný",
+      "core": true,
+      "wealth": 50,
+      "mood": 55,
+      "stores": 25,
+      "storesMax": 60,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 40,
+        "mlynar": 10,
+        "kovar": 0,
+        "uhlic": 0,
+        "vorar": 15,
+        "rybnikar": 0,
+        "valach": 0,
+        "klaster": 0,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "valach",
+      "label": "Valach",
+      "profession": "Valach",
+      "core": true,
+      "wealth": 35,
+      "mood": 55,
+      "stores": 35,
+      "storesMax": 70,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 15,
+        "mlynar": 0,
+        "kovar": 20,
+        "uhlic": 5,
+        "vorar": 0,
+        "rybnikar": 0,
+        "prevoznik": 0,
+        "klaster": 20,
+        "vcelar": 0
+      }
+    },
+    {
+      "id": "klaster",
+      "label": "Klášter",
+      "profession": "Klášter",
+      "core": true,
+      "wealth": 65,
+      "mood": 50,
+      "stores": 60,
+      "storesMax": 100,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": -10,
+        "mlynar": 10,
+        "kovar": 0,
+        "uhlic": 0,
+        "vorar": 0,
+        "rybnikar": 45,
+        "prevoznik": 0,
+        "valach": 20,
+        "vcelar": 35
+      }
+    },
+    {
+      "id": "vcelar",
+      "label": "Včelař",
+      "profession": "Včelař",
+      "core": true,
+      "wealth": 35,
+      "mood": 60,
+      "stores": 40,
+      "storesMax": 80,
+      "status": "stable",
+      "ticksActive": 0,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 10,
+        "mlynar": 0,
+        "kovar": 15,
+        "uhlic": 0,
+        "vorar": 0,
+        "rybnikar": 0,
+        "prevoznik": 0,
+        "valach": 0,
+        "klaster": 35
+      }
+    }
+  ],
+  "gm": {
+    "abbot_name": "Bratr Augustin",
+    "abbot_mood": "natěšený",
+    "abbot_virtue": 5,
+    "abbot_portrait": null,
+    "scrinium_open": true,
+    "abbot_message": "Milost Boží buď s vámi, bratřie. Pan opat z cest svých se navrátil s novinou radostnou a skrze mne káže vám zvěstovati: Zjednalť on pro nás hejno holubic cvičených, by zprávy a psaní naše nosily. Pročež jest vůlí jeho, a já k tomu důtklivě nabádám, abyste bez meškání ke stavbě holubníku přikročili. Jakmile toto dílo při Portě připraveno bude, rozmlouvati budem moci spěšněji, nežli by dnové minuli. S pozdravením laskavým a milosrdenstvím Božím, bratr váš, Augustín.",
+    "abbot_message_en": "The Grace of the Lord be with thee, brethren. Our Lord Abbot hath returned bearing gladsome tidings, and by my voice he doth proclaim: He hath secured for us a flock of trained doves, that they might bear our missives. Wherefore it is his will—and I do strictly counsel thee to heed it—that thou shouldst commence the building of a dovecote without delay. Once thou hast made this ready at the Gate, we shall commune more swiftly than the passing of days. With bountiful regards and the Lord's mercy. Thy brother, Augustine.",
+    "feast": null,
+    "fast": null,
+    "tension_modifier": 0,
+    "event_inject": null,
+    "abbot_message_id": "msg_20260722_368",
+    "abbot_message_one_shot": true
+  },
+  "unlockedFlags": [
+    "porta_offer"
+  ],
+  "log": [
+    {
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 1,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    },
+    {
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
+      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 1,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 1,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    },
+    {
+      "text": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
+      "text_cs": "Klášter se probouzí. 🌱 Jaro, Léta Páně 1465, den 1.",
+      "text_en": null,
+      "type": "A",
+      "icon": "✝️",
+      "source": "engine",
+      "tick": 0,
+      "year": 1465,
+      "season": "Jaro",
+      "day": 1
+    }
+  ],
+  "_chainQueue": [],
+  "_lastChronicle": {
+    "anales_sel_023": {
+      "tick": 1,
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano."
+    },
+    "local_212": {
+      "tick": 1,
+      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město."
+    },
+    "letopisy_029": {
+      "tick": 1,
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory."
+    }
+  },
+  "flags": {
+    "started": true,
+    "paused": false
+  }
+}
