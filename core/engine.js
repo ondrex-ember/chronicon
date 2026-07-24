@@ -447,6 +447,21 @@ const GameEngine = {
       }
     }
 
+    // Nový pocestný u brány — max 1 aktivní najednou, anonymní (Vlna 1 /
+    // ubytovna-mrd.md §8c-B). Mirror Studovna vzoru, ale bez vazby na
+    // kteréhokoli z 10 core aktérů — je pryč dřív, než by šlo cokoliv
+    // reportovat/rescueovat. ~18% šance/týden — poutníci jsou běžnější
+    // než šlechtické spory.
+    if (!GameState.pendingPocestny) {
+      if (Math.random() < 0.18) {
+        const variants = ['poutnik', 'kramar', 'zebravy_mnich'];
+        GameState.pendingPocestny = {
+          id: 'pocestny_' + GameState.week,
+          variant: variants[Math.floor(Math.random() * variants.length)],
+        };
+      }
+    }
+
     // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
     // rozdíl od mnišské smrti ve Scriptoriu, kde je to schválně natrvalo).
     // Po 3 týdnech smutku převezme dvůr nástupce téhož řemesla — jednotlivé
