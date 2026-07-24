@@ -53,6 +53,7 @@ const GameState = {
   totalFuneralEvents: 0,       // monotónní čítač — Scriptorium (před Proboštem) z rozdílu tvoří pasivní pohřby
   pendingSepulturas: [],       // fronta žádostí o právo sepultury (bohatí zesnulí), max 10, FIFO
   pendingHospites: [],         // fronta kandidátů na Infirmarium (aktéři v krizi), max 10, FIFO
+  pendingStudovna: null,       // max 1 aktivní žádost Vrchnosti o Studovnu, ne fronta
   _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
   actors: RICNI_ACTORS.map(a => ({
     ...a,
