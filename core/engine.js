@@ -447,20 +447,28 @@ const GameEngine = {
       }
     }
 
-    // Nový pocestný u brány — max 1 aktivní najednou, anonymní (Vlna 1 /
-    // ubytovna-mrd.md §8c-B). Mirror Studovna vzoru, ale bez vazby na
-    // kteréhokoli z 10 core aktérů — je pryč dřív, než by šlo cokoliv
-    // reportovat/rescueovat. ~18% šance/týden — poutníci jsou běžnější
-    // než šlechtické spory.
-    if (!GameState.pendingPocestny) {
-      if (Math.random() < 0.18) {
-        const variants = ['poutnik', 'kramar', 'zebravy_mnich'];
-        GameState.pendingPocestny = {
-          id: 'pocestny_' + GameState.week,
-          variant: variants[Math.floor(Math.random() * variants.length)],
-        };
-      }
+    // Nový pocestný u brány — fronta (Vlna 1 / ubytovna-mrd.md §8c-B,
+    // rozšíření), anonymní, bez vazby na kteréhokoli z 10 core aktérů —
+    // je pryč dřív, než by šlo cokoliv reportovat/rescueovat. ~18%
+    // šance/týden — poutníci jsou běžnější než šlechtické spory. Cap 10,
+    // FIFO (mirror pendingHospites).
+    if (!GameState.pendingPocestny) GameState.pendingPocestny = [];
+    if (Math.random() < 0.18) {
+      const variants = ['poutnik', 'kramar', 'zebravy_mnich'];
+      GameState.pendingPocestny.push({
+        id: 'pocestny_' + GameState.week,
+        week: GameState.week,
+        variant: variants[Math.floor(Math.random() * variants.length)],
+      });
+      if (GameState.pendingPocestny.length > 10) GameState.pendingPocestny.shift();
     }
+
+    // Despawn — nevyřešený pocestný po 2 týdnech tiše odchází dál po
+    // cestě. Žádná zpráva hráči, žádný trvalý dopad, jen zmizí z fronty
+    // (mirror principu "postupně se sami despawnou" — Bouvarde 24.7.).
+    GameState.pendingPocestny = GameState.pendingPocestny.filter(
+      p => (GameState.week - p.week) < 2
+    );
 
     // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
     // rozdíl od mnišské smrti ve Scriptoriu, kde je to schválně natrvalo).
