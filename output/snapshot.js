@@ -229,6 +229,41 @@ const Snapshot = {
       });
     });
 
+    // Infirmarium hospités — kandidáti z pendingHospites (aktéři, co
+    // vstoupili do krize/zanikající). Bez probost_only — péče o nemocné
+    // je univerzální, ne výsadní právo jako sepultura. Jméno vždy v
+    // nominativu/podmětu — vyhýbá se pádovým koncovkám u dynamickýho jména.
+    (GameState.pendingHospites || []).forEach(h => {
+      const isPlague = h.cause === 'plague';
+      events.push({
+        id: h.id,
+        icon: isPlague ? '☣️' : '🩺',
+        kind: 'hospes',
+        cause: h.cause,
+        actorId: h.actorId,
+        wealth: h.wealth,
+        title_cs: isPlague ? 'Poutník prchající před morem' : 'Nemocný u brány',
+        title_en: isPlague ? 'A pilgrim fleeing the plague'  : 'A sick man at the gate',
+        text_cs: isPlague
+          ? `Z kraje, kde řádí mor, dorazil k bráně vyčerpaný poutník. ${h.name} — ${h.profession} — leží v horečkách a prosí o vpuštění. Přijetí není bez rizika, ale i Kristus přijímal malomocné.`
+          : `${h.name} — ${h.profession} — postihla krutá bída a neduh, ulehl na lůžko. Rodina prosí klášter o milosrdenství a útočiště v Infirmariu.`,
+        text_en: isPlague
+          ? `From the region where plague rages, an exhausted pilgrim has reached the gate. ${h.name} — ${h.profession} — lies feverish and begs to be let in. Taking him in is not without risk, but Christ too received the lepers.`
+          : `${h.name} — ${h.profession} — has been struck by bitter poverty and illness, and now lies abed. The family begs the monastery for mercy and shelter in the infirmary.`,
+        choices: isPlague
+          ? [
+              { id: 'accept',  label_cs: 'Přijmout, i s rizikem',        label_en: 'Take him in, despite the risk' },
+              { id: 'decline', label_cs: 'Odmítnout kvůli nákaze',       label_en: 'Turn him away, for fear of contagion' },
+              { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
+            ]
+          : [
+              { id: 'accept',  label_cs: 'Přijmout do Infirmaria',       label_en: 'Take him into the infirmary' },
+              { id: 'decline', label_cs: 'Nemáme místa nazbyt',          label_en: 'We have no beds to spare' },
+              { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
+            ],
+      });
+    });
+
     return events;
   },
 
