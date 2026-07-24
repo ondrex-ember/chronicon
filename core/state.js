@@ -54,7 +54,7 @@ const GameState = {
   pendingSepulturas: [],       // fronta žádostí o právo sepultury (bohatí zesnulí), max 10, FIFO
   pendingHospites: [],         // fronta kandidátů na Infirmarium (aktéři v krizi), max 10, FIFO
   pendingStudovna: null,       // max 1 aktivní žádost Vrchnosti o Studovnu, ne fronta
-  pendingPocestny: null,       // max 1 aktivní pocestný (Vlna 1 / ubytovna-mrd.md §8c-B), anonymní, ne fronta
+  pendingPocestny: [],         // fronta pocestných (Vlna 1 / ubytovna-mrd.md §8c-B), max 10 FIFO, despawn po 2 týdnech (viz engine.js)
   _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
   actors: RICNI_ACTORS.map(a => ({
     ...a,
