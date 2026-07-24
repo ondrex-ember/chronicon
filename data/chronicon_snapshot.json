@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-23T23:01:50.527Z",
-  "valid_until": "2026-07-30T23:01:50.527Z",
+  "generated": "2026-07-24T06:30:52.477Z",
+  "valid_until": "2026-07-31T06:30:52.477Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,14 +15,18 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -31,7 +35,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 54,
-    "total_tick": 6,
+    "total_tick": 7,
     "date_string": "☀️ Léto, Léta Páně 1465, den 54"
   },
   "actors": [
@@ -133,6 +137,42 @@
   },
   "advisory_events": [],
   "chronicle": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
+      "text": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
+      "text_cs": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
+      "text_en": "During Sunday service, the priest read a special decree from the bishop aimed against Hussite followers in the region. Anyone reading heretical books will be subject to exile. This stirred whispers among the people and fear of potential secret informers.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
       "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
@@ -340,6 +380,30 @@
   ],
   "chronicle_local": [
     {
+      "text": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
+      "text_cs": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
+      "text_en": "During Sunday service, the priest read a special decree from the bishop aimed against Hussite followers in the region. Anyone reading heretical books will be subject to exile. This stirred whispers among the people and fear of potential secret informers.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
+    {
       "text": "Z Konice: Hrozivá letní bouřka přinesla smršť blesků. Jeden z nich uhodil přímo do kostelní věže a roztříštil kamenný kříž na vrcholu. Lidé to považují za zlé znamení od Boha a konají kajícná procesí.",
       "text_cs": "Z Konice: Hrozivá letní bouřka přinesla smršť blesků. Jeden z nich uhodil přímo do kostelní věže a roztříštil kamenný kříž na vrcholu. Lidé to považují za zlé znamení od Boha a konají kajícná procesí.",
       "text_en": "From Konice: A fearsome summer storm brought a flurry of lightning. One struck the church tower directly, shattering the stone cross at the top. People consider it a bad omen from God and are holding penitential processions.",
@@ -434,33 +498,21 @@
       "year": 1465,
       "season": "Jaro",
       "day": 1
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 1,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 1,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 7,
+      "year": 1465,
+      "season": "Léto",
+      "day": 54
+    },
     {
       "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
       "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
