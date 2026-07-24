@@ -17,6 +17,7 @@
 const { GameState, StateHelpers } = require('./state.js');
 const { WeatherSystem }           = require('./weather.js');
 const { RegisterSystem }          = require('./register.js');
+const { RescueRegisterSystem }    = require('./rescue-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
@@ -144,6 +145,12 @@ const GameEngine = {
     const actors = GameState.actors;
     const seasonIdx = GameState.time.season;
     GameState.week += 1;
+
+    // Snapshot statusů PŘED tímto tikem — pro detekci "nově vstoupil do krize"
+    // (pendingHospites, viz níž za blokem 4). Pokrývá jak mor, tak wealth/mood
+    // cestu do krize jedním místem, beze změny existující mutační logiky.
+    const prevStatusById = {};
+    actors.forEach(a => { prevStatusById[a.id] = a.status; });
 
     actors.forEach(a => { a._pulseReason = null; a.ticksActive = (a.ticksActive || 0) + 1; });
 
@@ -375,6 +382,42 @@ const GameEngine = {
         a.ticksInCrisis = 0;
         a.status = (a.wealth > 78 && a.mood > 78) ? 'prosperujici' : 'stable';
       }
+    });
+
+    // 4a. Rescue Registrum — komunitní záchrana konkrétních aktérů
+    // (infirmarium-hospites-rescue-mrd.md §4.2). Denní dedup na Scriptorium
+    // straně; tady čteme kolik dní z posledního týdne mělo pro daného
+    // aktéra aspoň 1 report a o stejnou hodnotu odečteme ticksInCrisis —
+    // žádný umělý skok na 'stable', jen brzdění cesty ke smrti.
+    const rescueCounts = RescueRegisterSystem.countDaysThisWeek();
+    let rescueBudget = GameState.rescueActionsLeft || 0;
+    actors.forEach(a => {
+      if (a.status === 'mrtvy') return;
+      const days = rescueCounts[a.id] || 0;
+      if (days <= 0 || rescueBudget <= 0) return;
+      const applied = Math.min(days, rescueBudget, a.ticksInCrisis);
+      if (applied <= 0) return;
+      a.ticksInCrisis -= applied;
+      rescueBudget -= applied;
+    });
+
+    // 4a-bis. pendingHospites — kandidáti na Infirmarium, kdo poprvé
+    // v tomhle krizovém období vstoupil do 'krize'/'zanikajici' (pokrývá
+    // mor i wealth/mood cestu jedním místem, viz prevStatusById výš).
+    actors.forEach(a => {
+      const wasCrisis = prevStatusById[a.id] === 'krize' || prevStatusById[a.id] === 'zanikajici';
+      const isCrisis   = a.status === 'krize' || a.status === 'zanikajici';
+      if (wasCrisis || !isCrisis) return;
+      if (!GameState.pendingHospites) GameState.pendingHospites = [];
+      GameState.pendingHospites.push({
+        id: 'hospes_' + a.id + '_' + GameState.week,
+        actorId: a.id,
+        name: a.label,
+        profession: a.profession,
+        wealth: Math.round(a.wealth),
+        cause: a._infected ? 'plague' : 'poverty',
+      });
+      if (GameState.pendingHospites.length > 10) GameState.pendingHospites.shift();
     });
 
     // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
