@@ -18,6 +18,7 @@ const { GameState, StateHelpers } = require('./state.js');
 const { WeatherSystem }           = require('./weather.js');
 const { RegisterSystem }          = require('./register.js');
 const { RescueRegisterSystem }    = require('./rescue-register.js');
+const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
@@ -419,6 +420,32 @@ const GameEngine = {
       });
       if (GameState.pendingHospites.length > 10) GameState.pendingHospites.shift();
     });
+
+    // 4a-ter. Vrchnost Favor — cílená obousměrná vazba na JEDNOHO aktéra
+    // (studovna-vrchnost-mrd.md). Čtení komunitního reportu → přímé
+    // posílení mood/wealth (opačný směr než Rescue Registrum, stejná
+    // denní-dedup/týdenní-součet mechanika).
+    const favorDays = VrchnostRegisterSystem.countDaysThisWeek();
+    if (favorDays > 0) {
+      const vrchnost = actors.find(a => a.id === 'vrchnost');
+      if (vrchnost && vrchnost.status !== 'mrtvy') {
+        vrchnost.mood   = Math.min(100, vrchnost.mood   + favorDays * 2);
+        vrchnost.wealth = Math.min(100, vrchnost.wealth + favorDays * 1);
+      }
+    }
+
+    // Nová žádost o Studovnu — max 1 aktivní najednou (je to jeden
+    // konkrétní člověk, ne fronta jako sepultura/hospes). ~8% šance/týden.
+    if (!GameState.pendingStudovna) {
+      const vrchnost = actors.find(a => a.id === 'vrchnost');
+      if (vrchnost && vrchnost.status !== 'mrtvy' && Math.random() < 0.08) {
+        const causes = ['dispute', 'lineage', 'testament'];
+        GameState.pendingStudovna = {
+          id: 'studovna_' + GameState.week,
+          cause: causes[Math.floor(Math.random() * causes.length)],
+        };
+      }
+    }
 
     // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
     // rozdíl od mnišské smrti ve Scriptoriu, kde je to schválně natrvalo).
