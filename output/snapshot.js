@@ -306,32 +306,32 @@ const Snapshot = {
       });
     }
 
-    // Pocestný u brány — anonymní, max 1 aktivní (Vlna 1 / ubytovna-mrd.md
-    // §8c-B). Bez actorId, bez rank gate — nejběžnější a nejnižší stakes
-    // typ hosta.
-    if (GameState.pendingPocestny) {
-      const p = GameState.pendingPocestny;
-      const TEXTS = {
-        poutnik: {
-          title_cs: 'Poutník u brány',
-          title_en: 'A pilgrim at the gate',
-          text_cs: 'K bráně dorazil unavený poutník, prý na cestě ke vzdálenému svatému místu. Prosí jen o jednu noc pod střechou a trochu chleba.',
-          text_en: 'A weary pilgrim has reached the gate, bound — he says — for a distant shrine. He asks only for one night under a roof and a little bread.',
-        },
-        kramar: {
-          title_cs: 'Kramář na cestě',
-          title_en: 'A peddler on the road',
-          text_cs: 'Potulný kramář s těžkým rancem žádá o nocleh výměnou za drobné zboží a novinky z okolních trhů.',
-          text_en: 'A wandering peddler with a heavy pack asks for a night\'s lodging in exchange for small wares and news from the nearby markets.',
-        },
-        zebravy_mnich: {
-          title_cs: 'Žebravý bratr',
-          title_en: 'A mendicant friar',
-          text_cs: 'Bratr z žebravého řádu, na cestě mezi kláštery, prosí o pohostinství na jednu noc — jak velí řehole i zvyk mezi domy stejné víry.',
-          text_en: 'A friar of a mendicant order, traveling between monasteries, asks for one night\'s hospitality — as both rule and custom demand between houses of the same faith.',
-        },
-      };
-      const tx = TEXTS[p.variant] || TEXTS.poutnik;
+    // Pocestný u brány — fronta (Vlna 1 / ubytovna-mrd.md §8c-B,
+    // rozšíření). Bez actorId, bez rank gate — nejběžnější a nejnižší
+    // stakes typ hosta. Víc kandidátů může čekat najednou (mirror
+    // pendingHospites forEach vzoru).
+    const POCESTNY_TEXTS = {
+      poutnik: {
+        title_cs: 'Poutník u brány',
+        title_en: 'A pilgrim at the gate',
+        text_cs: 'K bráně dorazil unavený poutník, prý na cestě ke vzdálenému svatému místu. Prosí jen o jednu noc pod střechou a trochu chleba.',
+        text_en: 'A weary pilgrim has reached the gate, bound — he says — for a distant shrine. He asks only for one night under a roof and a little bread.',
+      },
+      kramar: {
+        title_cs: 'Kramář na cestě',
+        title_en: 'A peddler on the road',
+        text_cs: 'Potulný kramář s těžkým rancem žádá o nocleh výměnou za drobné zboží a novinky z okolních trhů.',
+        text_en: 'A wandering peddler with a heavy pack asks for a night\'s lodging in exchange for small wares and news from the nearby markets.',
+      },
+      zebravy_mnich: {
+        title_cs: 'Žebravý bratr',
+        title_en: 'A mendicant friar',
+        text_cs: 'Bratr z žebravého řádu, na cestě mezi kláštery, prosí o pohostinství na jednu noc — jak velí řehole i zvyk mezi domy stejné víry.',
+        text_en: 'A friar of a mendicant order, traveling between monasteries, asks for one night\'s hospitality — as both rule and custom demand between houses of the same faith.',
+      },
+    };
+    (GameState.pendingPocestny || []).forEach(p => {
+      const tx = POCESTNY_TEXTS[p.variant] || POCESTNY_TEXTS.poutnik;
       events.push({
         id: p.id,
         icon: '🥾',
@@ -347,7 +347,7 @@ const Snapshot = {
           { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
         ],
       });
-    }
+    });
 
     return events;
   },
