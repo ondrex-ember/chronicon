@@ -264,6 +264,48 @@ const Snapshot = {
       });
     });
 
+    // Studovna — žádost Vrchnosti, max 1 aktivní (studovna-vrchnost-mrd.md).
+    // Bez rank gate — Vrchnost jedná s klášterem jako institucí.
+    if (GameState.pendingStudovna) {
+      const s = GameState.pendingStudovna;
+      const TEXTS = {
+        dispute: {
+          title_cs: 'Spor o pozemky',
+          title_en: 'A dispute over land',
+          text_cs: 'Vrchnost žádá o nahlédnutí do klášterních listin — hraniční spor se sousedním panstvím se vleče už měsíce a staré mapy i darovací listiny by mohly rozhodnout. Studovna by mu poskytla klid a světlo k bádání.',
+          text_en: "The Lord requests access to the monastery's charters — a boundary dispute with a neighboring estate has dragged on for months, and old maps and donation deeds could settle it. The study room would offer him quiet and light for his research.",
+        },
+        lineage: {
+          title_cs: 'Otázka rodokmenu',
+          title_en: 'A question of lineage',
+          text_cs: 'Vrchnost potřebuje doložit svůj rodokmen — nárok na dědictví po vzdáleném příbuzném závisí na klášterních análech a pamětních knihách. Prosí o přístup do Studovny.',
+          text_en: "The Lord needs to prove his lineage — a claim to inheritance from a distant relative depends on the monastery's annals and memorial books. He asks for access to the study room.",
+        },
+        testament: {
+          title_cs: 'Sepsání závěti',
+          title_en: 'Drafting a testament',
+          text_cs: 'Vrchnost stárne a chce v klidu sepsat poslední vůli — s pomocí učeného bratra a přístupem k právním vzorům z klášterní knihovny. Žádá o Studovnu na pár dní.',
+          text_en: 'The Lord is growing old and wishes to draft his last will in peace — with the help of a learned brother and access to legal precedents from the monastery library. He asks for the study room for a few days.',
+        },
+      };
+      const tx = TEXTS[s.cause] || TEXTS.dispute;
+      events.push({
+        id: s.id,
+        icon: '📜',
+        kind: 'studovna',
+        cause: s.cause,
+        title_cs: tx.title_cs,
+        title_en: tx.title_en,
+        text_cs: tx.text_cs,
+        text_en: tx.text_en,
+        choices: [
+          { id: 'accept',  label_cs: 'Otevřít Studovnu',      label_en: 'Open the study room' },
+          { id: 'decline', label_cs: 'Zdvořile odmítnout',    label_en: 'Politely decline' },
+          { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
+        ],
+      });
+    }
+
     return events;
   },
 
