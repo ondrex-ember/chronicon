@@ -402,21 +402,28 @@ const GameEngine = {
       rescueBudget -= applied;
     });
 
-    // 4a-bis. pendingHospites — kandidáti na Infirmarium, kdo poprvé
-    // v tomhle krizovém období vstoupil do 'krize'/'zanikajici' (pokrývá
-    // mor i wealth/mood cestu jedním místem, viz prevStatusById výš).
+    // 4a-bis. pendingHospites — kandidáti na Infirmarium/Ubytovnu, kdo
+    // poprvé v tomhle krizovém období vstoupil do 'krize'/'zanikajici'
+    // (pokrývá mor i wealth/mood cestu jedním místem, viz prevStatusById
+    // výš). cause: 'war' při vysokém globalTension (Vlna 1 / C —
+    // ubytovna-mrd.md §8c-C) — přednost má vždy mor, war je až po něm.
+    // Práh 55 je placeholder, snadno doladitelný.
+    const WAR_TENSION_THRESHOLD = 55;
     actors.forEach(a => {
       const wasCrisis = prevStatusById[a.id] === 'krize' || prevStatusById[a.id] === 'zanikajici';
       const isCrisis   = a.status === 'krize' || a.status === 'zanikajici';
       if (wasCrisis || !isCrisis) return;
       if (!GameState.pendingHospites) GameState.pendingHospites = [];
+      const cause = a._infected
+        ? 'plague'
+        : (GameState.globalTension >= WAR_TENSION_THRESHOLD ? 'war' : 'poverty');
       GameState.pendingHospites.push({
         id: 'hospes_' + a.id + '_' + GameState.week,
         actorId: a.id,
         name: a.label,
         profession: a.profession,
         wealth: Math.round(a.wealth),
-        cause: a._infected ? 'plague' : 'poverty',
+        cause: cause,
       });
       if (GameState.pendingHospites.length > 10) GameState.pendingHospites.shift();
     });
