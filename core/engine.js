@@ -16,6 +16,7 @@
 
 const { GameState, StateHelpers } = require('./state.js');
 const { WeatherSystem }           = require('./weather.js');
+const { RegisterSystem }          = require('./register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
@@ -408,6 +409,18 @@ const GameEngine = {
     if (GameState.les < 30) tensionDelta += 1.8;
     const crisisCount = living.filter(a => a.status === 'krize' || a.status === 'zanikajici').length;
     tensionDelta += crisisCount * 1.4;
+
+    // GM ruční napětí — pole existovalo, ale nikdy se nečetlo (oprava, ne nová věc)
+    tensionDelta += (GameState.gm && GameState.gm.tension_modifier) || 0;
+
+    // Registrum Coenobii — komunitní agregát ze Scriptoria (registrum-coenobii-reference.md).
+    // Umbra napětí zvyšuje, Lux ho tiší. Tiché selhání, pokud soubor chybí/je poškozený —
+    // stejný vzor jako GmOverride.apply().
+    const registrum = RegisterSystem.readYesterdayAverage();
+    if (registrum) {
+      tensionDelta += (registrum.avgUmbra - registrum.avgLux) * 0.05;
+    }
+
     GameState.globalTension = Math.min(100, Math.max(0, GameState.globalTension + tensionDelta));
 
     if (avgMood > 75 && avgWealth > 75 && GameState.globalTension < 22) {
