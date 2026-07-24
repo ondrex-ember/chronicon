@@ -306,6 +306,49 @@ const Snapshot = {
       });
     }
 
+    // Pocestný u brány — anonymní, max 1 aktivní (Vlna 1 / ubytovna-mrd.md
+    // §8c-B). Bez actorId, bez rank gate — nejběžnější a nejnižší stakes
+    // typ hosta.
+    if (GameState.pendingPocestny) {
+      const p = GameState.pendingPocestny;
+      const TEXTS = {
+        poutnik: {
+          title_cs: 'Poutník u brány',
+          title_en: 'A pilgrim at the gate',
+          text_cs: 'K bráně dorazil unavený poutník, prý na cestě ke vzdálenému svatému místu. Prosí jen o jednu noc pod střechou a trochu chleba.',
+          text_en: 'A weary pilgrim has reached the gate, bound — he says — for a distant shrine. He asks only for one night under a roof and a little bread.',
+        },
+        kramar: {
+          title_cs: 'Kramář na cestě',
+          title_en: 'A peddler on the road',
+          text_cs: 'Potulný kramář s těžkým rancem žádá o nocleh výměnou za drobné zboží a novinky z okolních trhů.',
+          text_en: 'A wandering peddler with a heavy pack asks for a night\'s lodging in exchange for small wares and news from the nearby markets.',
+        },
+        zebravy_mnich: {
+          title_cs: 'Žebravý bratr',
+          title_en: 'A mendicant friar',
+          text_cs: 'Bratr z žebravého řádu, na cestě mezi kláštery, prosí o pohostinství na jednu noc — jak velí řehole i zvyk mezi domy stejné víry.',
+          text_en: 'A friar of a mendicant order, traveling between monasteries, asks for one night\'s hospitality — as both rule and custom demand between houses of the same faith.',
+        },
+      };
+      const tx = TEXTS[p.variant] || TEXTS.poutnik;
+      events.push({
+        id: p.id,
+        icon: '🥾',
+        kind: 'pocestny',
+        variant: p.variant,
+        title_cs: tx.title_cs,
+        title_en: tx.title_en,
+        text_cs: tx.text_cs,
+        text_en: tx.text_en,
+        choices: [
+          { id: 'accept',  label_cs: 'Přijmout na noc',       label_en: 'Take him in for the night' },
+          { id: 'decline', label_cs: 'Zdvořile odmítnout',    label_en: 'Politely decline' },
+          { id: 'defer',   label_cs: 'Rozhodnout se později', label_en: 'Decide later' },
+        ],
+      });
+    }
+
     return events;
   },
 
