@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 54,
+    "day": 55,
     "daysPerSeason": 90,
-    "totalTick": 9
+    "totalTick": 10
   },
   "weather": {
     "key": "summer_clear",
@@ -30,6 +30,9 @@
   "totalDeaths": 0,
   "totalFuneralEvents": 0,
   "pendingSepulturas": [],
+  "pendingHospites": [],
+  "pendingStudovna": null,
+  "pendingPocestny": [],
   "_eventCooldowns": {},
   "actors": [
     {
@@ -292,6 +295,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
+      "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
+      "text_en": "From Mainz, by way of the merchant post: the brothers in the scriptorium passed the leaf of that printed work from hand to hand as though it were a relic. The lettering was exact, line after line alike, a thing no hand could ever achieve.",
+      "type": "A",
+      "icon": "📄",
+      "source": "distant_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
+    {
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 10,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
+    {
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
+      "type": "A",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 10,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
     {
       "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
       "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
@@ -670,6 +709,18 @@
     "praha_011": {
       "tick": 9,
       "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají."
+    },
+    "mono_118": {
+      "tick": 10,
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat."
+    },
+    "local_241": {
+      "tick": 10,
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek."
+    },
+    "mohuc_002": {
+      "tick": 10,
+      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří."
     }
   },
   "flags": {
