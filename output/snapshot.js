@@ -229,38 +229,64 @@ const Snapshot = {
       });
     });
 
-    // Infirmarium hospités — kandidáti z pendingHospites (aktéři, co
-    // vstoupili do krize/zanikající). Bez probost_only — péče o nemocné
-    // je univerzální, ne výsadní právo jako sepultura. Jméno vždy v
-    // nominativu/podmětu — vyhýbá se pádovým koncovkám u dynamickýho jména.
+    // Infirmarium/Ubytovna hospités — kandidáti z pendingHospites (aktéři,
+    // co vstoupili do krize/zanikající). Bez probost_only — péče o nemocné
+    // a útočiště je univerzální, ne výsadní právo jako sepultura. Jméno
+    // vždy v nominativu/podmětu — vyhýbá se pádovým koncovkám u
+    // dynamickýho jména. war = Vlna 1 / C (ubytovna-mrd.md §8c-C), text
+    // plague/poverty beze změny oproti předchozí verzi.
+    const HOSPES_ICONS  = { plague: '☣️', war: '🏚️', poverty: '🩺' };
+    const HOSPES_TITLES_CS = {
+      plague: 'Poutník prchající před morem',
+      war: 'Uprchlík z válkou zmítaného kraje',
+      poverty: 'Nemocný u brány',
+    };
+    const HOSPES_TITLES_EN = {
+      plague: 'A pilgrim fleeing the plague',
+      war: 'A refugee from a war-torn region',
+      poverty: 'A sick man at the gate',
+    };
+    const HOSPES_CHOICES = {
+      plague: [
+        { id: 'accept',  label_cs: 'Přijmout, i s rizikem',        label_en: 'Take him in, despite the risk' },
+        { id: 'decline', label_cs: 'Odmítnout kvůli nákaze',       label_en: 'Turn him away, for fear of contagion' },
+        { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
+      ],
+      war: [
+        { id: 'accept',  label_cs: 'Přijmout do Ubytovny',         label_en: 'Take him into the guesthouse' },
+        { id: 'decline', label_cs: 'Nemáme, kam ho dát',           label_en: 'We have nowhere to put him' },
+        { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
+      ],
+      poverty: [
+        { id: 'accept',  label_cs: 'Přijmout do Infirmaria',       label_en: 'Take him into the infirmary' },
+        { id: 'decline', label_cs: 'Nemáme místa nazbyt',          label_en: 'We have no beds to spare' },
+        { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
+      ],
+    };
     (GameState.pendingHospites || []).forEach(h => {
-      const isPlague = h.cause === 'plague';
+      const cause = h.cause || 'poverty';
+      const textCs = {
+        plague: `Z kraje, kde řádí mor, dorazil k bráně vyčerpaný poutník. ${h.name} — ${h.profession} — leží v horečkách a prosí o vpuštění. Přijetí není bez rizika, ale i Kristus přijímal malomocné.`,
+        war: `${h.name} — ${h.profession} — utekl z kraje zmítaného válkou, dům měl vypálený a rodinu rozehnanou. Prosí jen o střechu nad hlavou, dokud se poměry neuklidní.`,
+        poverty: `${h.name} — ${h.profession} — postihla krutá bída a neduh, ulehl na lůžko. Rodina prosí klášter o milosrdenství a útočiště v Infirmariu.`,
+      }[cause];
+      const textEn = {
+        plague: `From the region where plague rages, an exhausted pilgrim has reached the gate. ${h.name} — ${h.profession} — lies feverish and begs to be let in. Taking him in is not without risk, but Christ too received the lepers.`,
+        war: `${h.name} — ${h.profession} — has fled a region torn by war, his house burned and his family scattered. He asks only for a roof over his head until things settle.`,
+        poverty: `${h.name} — ${h.profession} — has been struck by bitter poverty and illness, and now lies abed. The family begs the monastery for mercy and shelter in the infirmary.`,
+      }[cause];
       events.push({
         id: h.id,
-        icon: isPlague ? '☣️' : '🩺',
+        icon: HOSPES_ICONS[cause] || HOSPES_ICONS.poverty,
         kind: 'hospes',
-        cause: h.cause,
+        cause: cause,
         actorId: h.actorId,
         wealth: h.wealth,
-        title_cs: isPlague ? 'Poutník prchající před morem' : 'Nemocný u brány',
-        title_en: isPlague ? 'A pilgrim fleeing the plague'  : 'A sick man at the gate',
-        text_cs: isPlague
-          ? `Z kraje, kde řádí mor, dorazil k bráně vyčerpaný poutník. ${h.name} — ${h.profession} — leží v horečkách a prosí o vpuštění. Přijetí není bez rizika, ale i Kristus přijímal malomocné.`
-          : `${h.name} — ${h.profession} — postihla krutá bída a neduh, ulehl na lůžko. Rodina prosí klášter o milosrdenství a útočiště v Infirmariu.`,
-        text_en: isPlague
-          ? `From the region where plague rages, an exhausted pilgrim has reached the gate. ${h.name} — ${h.profession} — lies feverish and begs to be let in. Taking him in is not without risk, but Christ too received the lepers.`
-          : `${h.name} — ${h.profession} — has been struck by bitter poverty and illness, and now lies abed. The family begs the monastery for mercy and shelter in the infirmary.`,
-        choices: isPlague
-          ? [
-              { id: 'accept',  label_cs: 'Přijmout, i s rizikem',        label_en: 'Take him in, despite the risk' },
-              { id: 'decline', label_cs: 'Odmítnout kvůli nákaze',       label_en: 'Turn him away, for fear of contagion' },
-              { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
-            ]
-          : [
-              { id: 'accept',  label_cs: 'Přijmout do Infirmaria',       label_en: 'Take him into the infirmary' },
-              { id: 'decline', label_cs: 'Nemáme místa nazbyt',          label_en: 'We have no beds to spare' },
-              { id: 'defer',   label_cs: 'Rozhodnout se později',        label_en: 'Decide later' },
-            ],
+        title_cs: HOSPES_TITLES_CS[cause] || HOSPES_TITLES_CS.poverty,
+        title_en: HOSPES_TITLES_EN[cause] || HOSPES_TITLES_EN.poverty,
+        text_cs: textCs || `${h.name} — ${h.profession} — postihla krutá bída a neduh, ulehl na lůžko. Rodina prosí klášter o milosrdenství a útočiště v Infirmariu.`,
+        text_en: textEn || `${h.name} — ${h.profession} — has been struck by bitter poverty and illness, and now lies abed. The family begs the monastery for mercy and shelter in the infirmary.`,
+        choices: HOSPES_CHOICES[cause] || HOSPES_CHOICES.poverty,
       });
     });
 
