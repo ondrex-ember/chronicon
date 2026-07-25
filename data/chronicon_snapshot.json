@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-25T17:05:33.555Z",
-  "valid_until": "2026-08-01T17:05:33.555Z",
+  "generated": "2026-07-25T22:59:05.226Z",
+  "valid_until": "2026-08-01T22:59:05.226Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,12 +17,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -30,9 +30,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 55,
-    "total_tick": 13,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 55"
+    "day": 56,
+    "total_tick": 14,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 56"
   },
   "actors": [
     {
@@ -154,6 +154,30 @@
   "advisory_events": [],
   "porta_letters": [],
   "chronicle": [
+    {
+      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 14,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 14,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
       "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
@@ -369,33 +393,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
-      "type": "A",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
-      "type": "A",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 14,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
       "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
@@ -503,21 +515,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 14,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
       "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
@@ -625,22 +637,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 53
-    },
-    {
-      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 1,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "church_calendar": {
-    "day_of_year": 145,
+    "day_of_year": 146,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
