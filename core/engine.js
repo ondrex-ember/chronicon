@@ -19,6 +19,7 @@ const { WeatherSystem }           = require('./weather.js');
 const { RegisterSystem }          = require('./register.js');
 const { RescueRegisterSystem }    = require('./rescue-register.js');
 const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
+const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
@@ -440,6 +441,22 @@ const GameEngine = {
         vrchnost.wealth = Math.min(100, vrchnost.wealth + favorDays * 1);
       }
     }
+
+    // 4a-quater. Actor Favor (generický) — stejný vzor jako Vrchnost Favor
+    // výš, ale pro libovolný aktéra reportovaný z api/actor-favor-report.js.
+    // Dnes jediný zdroj: Scriptorium serveMass() → actorId 'klaster' — dělá
+    // z "Klášter" v CHRONICONu mechanickou, ne jen vyprávěcí, zprávu o
+    // komunitě hráčů. Přidání dalšího cíleného aktéra = jen nová volání na
+    // Scriptorium straně, tenhle blok se nemění.
+    const actorFavorCounts = ActorFavorRegisterSystem.countDaysThisWeek();
+    Object.keys(actorFavorCounts).forEach(actorId => {
+      const days = actorFavorCounts[actorId];
+      if (days <= 0) return;
+      const target = actors.find(a => a.id === actorId);
+      if (!target || target.status === 'mrtvy') return;
+      target.mood   = Math.min(100, target.mood   + days * 2);
+      target.wealth = Math.min(100, target.wealth + days * 1);
+    });
 
     // Nová žádost o Studovnu — max 1 aktivní najednou (je to jeden
     // konkrétní člověk, ne fronta jako sepultura/hospes). ~8% šance/týden.
