@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-25T06:22:45.752Z",
-  "valid_until": "2026-08-01T06:22:45.752Z",
+  "generated": "2026-07-25T11:15:52.996Z",
+  "valid_until": "2026-08-01T11:15:52.996Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,12 +17,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 0.8,
     "modifier_wood": 1
   },
   "time": {
@@ -31,14 +31,16 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 55,
-    "total_tick": 11,
+    "total_tick": 12,
     "date_string": "☀️ Léto, Léta Páně 1465, den 55"
   },
   "actors": [
     {
       "id": "vrchnost",
       "label": "Vrchnost",
+      "label_en": "The Lordship",
       "profession": "Pán panství",
+      "profession_en": "Lord of the Manor",
       "wealth": 70,
       "mood": 65,
       "stores": 50,
@@ -47,7 +49,9 @@
     {
       "id": "mlynar",
       "label": "Mlynář",
+      "label_en": "The Miller",
       "profession": "Mlynář",
+      "profession_en": "Miller",
       "wealth": 55,
       "mood": 60,
       "stores": 45,
@@ -56,7 +60,9 @@
     {
       "id": "kovar",
       "label": "Kovář",
+      "label_en": "The Blacksmith",
       "profession": "Kovář",
+      "profession_en": "Blacksmith",
       "wealth": 50,
       "mood": 65,
       "stores": 40,
@@ -65,7 +71,9 @@
     {
       "id": "uhlic",
       "label": "Uhlíř",
+      "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
+      "profession_en": "Charcoal Burner",
       "wealth": 30,
       "mood": 50,
       "stores": 30,
@@ -74,7 +82,9 @@
     {
       "id": "vorar",
       "label": "Vorař",
+      "label_en": "The Raftsman",
       "profession": "Vorař",
+      "profession_en": "Raftsman",
       "wealth": 45,
       "mood": 60,
       "stores": 20,
@@ -83,7 +93,9 @@
     {
       "id": "rybnikar",
       "label": "Rybníkář",
+      "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
+      "profession_en": "Pondkeeper",
       "wealth": 40,
       "mood": 55,
       "stores": 30,
@@ -92,7 +104,9 @@
     {
       "id": "prevoznik",
       "label": "Převozník",
+      "label_en": "The Ferryman",
       "profession": "Mýtný",
+      "profession_en": "Toll Collector",
       "wealth": 50,
       "mood": 55,
       "stores": 25,
@@ -101,7 +115,9 @@
     {
       "id": "valach",
       "label": "Valach",
+      "label_en": "The Shepherd",
       "profession": "Valach",
+      "profession_en": "Shepherd",
       "wealth": 35,
       "mood": 55,
       "stores": 35,
@@ -109,8 +125,10 @@
     },
     {
       "id": "klaster",
-      "label": "Klášter",
-      "profession": "Klášter",
+      "label": "Opat",
+      "label_en": "The Abbot",
+      "profession": "Opat ve městě",
+      "profession_en": "Abbot in the City",
       "wealth": 65,
       "mood": 50,
       "stores": 60,
@@ -119,7 +137,9 @@
     {
       "id": "vcelar",
       "label": "Včelař",
+      "label_en": "The Beekeeper",
       "profession": "Včelař",
+      "profession_en": "Beekeeper",
       "wealth": 35,
       "mood": 60,
       "stores": 40,
@@ -132,6 +152,7 @@
     "totalFuneralEvents": 0
   },
   "advisory_events": [],
+  "porta_letters": [],
   "chronicle": [
     {
       "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",

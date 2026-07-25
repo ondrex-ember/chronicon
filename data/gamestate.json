@@ -4,13 +4,13 @@
     "season": 1,
     "day": 55,
     "daysPerSeason": 90,
-    "totalTick": 11
+    "totalTick": 12
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám."
   },
   "virtue": {
     "value": 3,
@@ -57,7 +57,9 @@
         "valach": 15,
         "klaster": -10,
         "vcelar": 10
-      }
+      },
+      "label_en": "The Lordship",
+      "profession_en": "Lord of the Manor"
     },
     {
       "id": "mlynar",
@@ -81,7 +83,9 @@
         "valach": 0,
         "klaster": 10,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Miller",
+      "profession_en": "Miller"
     },
     {
       "id": "kovar",
@@ -105,7 +109,9 @@
         "valach": 20,
         "klaster": 0,
         "vcelar": 15
-      }
+      },
+      "label_en": "The Blacksmith",
+      "profession_en": "Blacksmith"
     },
     {
       "id": "uhlic",
@@ -129,7 +135,9 @@
         "valach": 5,
         "klaster": 0,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Charcoal Burner",
+      "profession_en": "Charcoal Burner"
     },
     {
       "id": "vorar",
@@ -153,7 +161,9 @@
         "valach": 0,
         "klaster": 0,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Raftsman",
+      "profession_en": "Raftsman"
     },
     {
       "id": "rybnikar",
@@ -177,7 +187,9 @@
         "valach": 0,
         "klaster": 45,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Pondkeeper",
+      "profession_en": "Pondkeeper"
     },
     {
       "id": "prevoznik",
@@ -201,7 +213,9 @@
         "valach": 0,
         "klaster": 0,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Ferryman",
+      "profession_en": "Toll Collector"
     },
     {
       "id": "valach",
@@ -225,12 +239,14 @@
         "prevoznik": 0,
         "klaster": 20,
         "vcelar": 0
-      }
+      },
+      "label_en": "The Shepherd",
+      "profession_en": "Shepherd"
     },
     {
       "id": "klaster",
-      "label": "Klášter",
-      "profession": "Klášter",
+      "label": "Opat",
+      "profession": "Opat ve městě",
       "core": true,
       "wealth": 65,
       "mood": 50,
@@ -249,7 +265,9 @@
         "prevoznik": 0,
         "valach": 20,
         "vcelar": 35
-      }
+      },
+      "label_en": "The Abbot",
+      "profession_en": "Abbot in the City"
     },
     {
       "id": "vcelar",
@@ -273,7 +291,9 @@
         "prevoznik": 0,
         "valach": 0,
         "klaster": 35
-      }
+      },
+      "label_en": "The Beekeeper",
+      "profession_en": "Beekeeper"
     }
   ],
   "gm": {
