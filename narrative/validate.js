@@ -14,7 +14,10 @@ const FILES = [
   { name: 'distant_events_v1.json',    type: 'distant'   },
   { name: 'local_events_v1.json',      type: 'local'     },
   { name: 'monastery_internal_v1.json', type: 'monastery' },
+  { name: 'porta_letters_v1.json',      type: 'porta'     },
 ];
+
+const VALID_SEALS = ['village', 'church', 'scholars', 'abbot', 'noble'];
 
 const VALID_TYPES = ['A', 'B', 'C', 'D', 'E'];
 
@@ -84,6 +87,38 @@ function validateLocal(entry, filename) {
   validateDistant(entry, filename); // stejná pole jako distant
 }
 
+function validatePorta(entry, filename) {
+  validateCommon(entry, filename);
+  const prefix = `${filename} / ${entry.id}`;
+
+  if (!entry.seal || !VALID_SEALS.includes(entry.seal)) {
+    err(`${prefix}: 'seal' musí být jedno z ${VALID_SEALS.join(', ')}, je: ${entry.seal}`);
+  }
+  if (!entry.sender_cs) err(`${prefix}: chybí 'sender_cs'`);
+  if (!entry.sender_en) err(`${prefix}: chybí 'sender_en'`);
+  if (!entry.title_cs)  err(`${prefix}: chybí 'title_cs'`);
+  if (!entry.title_en)  err(`${prefix}: chybí 'title_en'`);
+  if (!entry.conditions) {
+    err(`${prefix}: chybí 'conditions'`);
+  } else if (entry.conditions.season !== null && !Array.isArray(entry.conditions.season)) {
+    err(`${prefix}: 'conditions.season' musí být pole nebo null`);
+  }
+  if (!Array.isArray(entry.choices) || entry.choices.length === 0) {
+    err(`${prefix}: chybí neprázdné pole 'choices'`);
+    return;
+  }
+  const choiceIds = new Set();
+  entry.choices.forEach((c, i) => {
+    const cp = `${prefix} / choice[${i}]`;
+    if (!c.id) err(`${cp}: chybí 'id'`);
+    else if (choiceIds.has(c.id)) err(`${cp}: duplicitní choice id v rámci dopisu`);
+    else choiceIds.add(c.id);
+    if (!c.label_cs) err(`${cp}: chybí 'label_cs'`);
+    if (!c.label_en) err(`${cp}: chybí 'label_en'`);
+    if (!Array.isArray(c.effects)) err(`${cp}: 'effects' musí být pole (i prázdné)`);
+  });
+}
+
 function validateMonastery(entry, filename) {
   validateCommon(entry, filename);
   const prefix = `${filename} / ${entry.id}`;
@@ -131,6 +166,7 @@ function run() {
       if (file.type === 'distant')   validateDistant(entry, file.name);
       if (file.type === 'local')     validateLocal(entry, file.name);
       if (file.type === 'monastery') validateMonastery(entry, file.name);
+      if (file.type === 'porta')     validatePorta(entry, file.name);
     }
   }
 
