@@ -1,0 +1,401 @@
+[
+  {
+    "id": "cletter_001",
+    "seal": "village",
+    "type": "A",
+    "icon": "🌾",
+    "tags": ["mlynar", "povodeň", "obilí"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Mlynář", "sender_en": "The Miller",
+    "title_cs": "List mlynářův o vodě", "title_en": "A Letter from the Miller on the Water",
+    "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+    "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+    "choices": [
+      {
+        "id": "help",
+        "label_cs": "🌊 Poslat pomoc s hrází", "label_en": "🌊 Send help with the weir",
+        "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+        "notify_en": "The miller remembers the help. (Miller +4)",
+        "effects": [ { "type": "contactRelation", "id": "mlynar", "amount": 4 } ]
+      },
+      {
+        "id": "decline",
+        "label_cs": "🙏 Popřát štěstí, ruce nemáme", "label_en": "🙏 Wish him luck, we have no hands to spare",
+        "notify_cs": "Mlynář odpověď přijal bez zloby.",
+        "notify_en": "The miller took the answer without ill will.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_002",
+    "seal": "village",
+    "type": "D",
+    "icon": "🐐",
+    "tags": ["hranice", "spor", "vesnice"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Rychtář z Chválkovic", "sender_en": "The Bailiff of Chválkovice",
+    "title_cs": "Stížnost rychtáře na kozy", "title_en": "The Bailiff's Complaint about the Goats",
+    "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+    "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+    "choices": [
+      {
+        "id": "pay",
+        "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)", "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+        "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+        "notify_en": "The dispute smoothed over with coin. (village +2)",
+        "effects": [ { "type": "grose", "amount": -6 }, { "type": "influence", "axis": "village", "amount": 2 } ]
+      },
+      {
+        "id": "ignore",
+        "label_cs": "🤷 Plot spraví bratři sami, časem", "label_en": "🤷 The brothers will mend it themselves, in time",
+        "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+        "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+        "effects": [ { "type": "influence", "axis": "village", "amount": -1 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_003",
+    "seal": "church",
+    "type": "A",
+    "icon": "🕯️",
+    "tags": ["voskar", "svíce", "farnost"],
+    "conditions": { "season": [3], "tension_min": null, "tension_max": null },
+    "sender_cs": "Voskař", "sender_en": "The Wax Chandler",
+    "title_cs": "List voskařův před zimou", "title_en": "The Wax Chandler's Letter Before Winter",
+    "text_cs": "„Bratře, dlouhé zimní nešpory spálí víc vosku, než si kdo v létě pomyslí. Mám čerstvou dávku z podzimního vytáčení — dám ji přednostně vám, znáte-li se ke starému zákazníku. — Voskař“",
+    "text_en": "\"Brother, the long winter vespers burn more wax than anyone reckons in summer. I have a fresh batch from the autumn extraction — I shall give it to you first, if you still hold yourselves an old customer. — The Wax Chandler\"",
+    "choices": [
+      {
+        "id": "thank",
+        "label_cs": "🕯️ Poděkovat a přijmout nabídku", "label_en": "🕯️ Thank him and accept the offer",
+        "notify_cs": "Voskař potěšen. (Voskař +3, Ecclesia +1)",
+        "notify_en": "The chandler is pleased. (Wax Chandler +3, Ecclesia +1)",
+        "effects": [ { "type": "contactRelation", "id": "voskar", "amount": 3 }, { "type": "influence", "axis": "church", "amount": 1 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_004",
+    "seal": "church",
+    "type": "C",
+    "icon": "🙏",
+    "tags": ["modlitba", "prosba"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Farní kostelník od sv. Michala", "sender_en": "The Parish Sexton of St. Michael's",
+    "title_cs": "Prosba o přímluvnou mši", "title_en": "A Request for an Intercessory Mass",
+    "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
+    "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
+    "choices": [
+      {
+        "id": "pray",
+        "label_cs": "⛪ Odsloužit mši za faráře", "label_en": "⛪ Say a mass for the priest",
+        "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
+        "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
+        "effects": [ { "type": "influence", "axis": "church", "amount": 3 }, { "type": "influence", "axis": "village", "amount": 1 } ]
+      },
+      {
+        "id": "busy",
+        "label_cs": "📜 Slíbit modlitbu při běžné mši", "label_en": "📜 Promise a prayer at the regular mass",
+        "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
+        "notify_en": "A modest reply, still received with thanks.",
+        "effects": [ { "type": "influence", "axis": "church", "amount": 1 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_005",
+    "seal": "scholars",
+    "type": "C",
+    "icon": "📖",
+    "tags": ["opis", "exemplar", "putovní písař"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Putovní písař Wenceslaus", "sender_en": "Wenceslaus, an Itinerant Scribe",
+    "title_cs": "Nabídka putovního písaře", "title_en": "An Itinerant Scribe's Offer",
+    "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+    "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+    "choices": [
+      {
+        "id": "trade",
+        "label_cs": "📚 Vyměnit texty", "label_en": "📚 Trade texts",
+        "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+        "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+        "effects": [ { "type": "influence", "axis": "scholars", "amount": 3 } ]
+      },
+      {
+        "id": "refuse",
+        "label_cs": "🔒 Odmítnout, knihovna není k výměně", "label_en": "🔒 Refuse — the library is not for trading",
+        "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+        "notify_en": "Wenceslaus shrugged and moved on.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_006",
+    "seal": "scholars",
+    "type": "B",
+    "icon": "🎨",
+    "tags": ["lazurit", "pigmenty", "benátky"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Giacomo Foscari", "sender_en": "Giacomo Foscari",
+    "title_cs": "Varování Giacoma Foscariho", "title_en": "A Warning from Giacomo Foscari",
+    "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+    "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+    "choices": [
+      {
+        "id": "note",
+        "label_cs": "📜 Vzít na vědomí", "label_en": "📜 Take note",
+        "notify_cs": "Zvěst uložena v paměti celeráře.",
+        "notify_en": "The rumor is filed in the cellarer's memory.",
+        "effects": [ { "type": "contactRelation", "id": "giacomo", "amount": 2 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_007",
+    "seal": "abbot",
+    "type": "C",
+    "icon": "✝️",
+    "tags": ["opat", "sesterský klášter"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Opat sesterského kláštera", "sender_en": "The Abbot of a Sister House",
+    "title_cs": "Pozdrav od sesterského opatství", "title_en": "Greetings from a Sister Abbey",
+    "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+    "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+    "choices": [
+      {
+        "id": "accept",
+        "label_cs": "🕊️ Opětovat bratrství v modlitbě", "label_en": "🕊️ Return the bond of prayer",
+        "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+        "notify_en": "The bond is confirmed. (Ecclesia +2)",
+        "effects": [ { "type": "influence", "axis": "church", "amount": 2 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_008",
+    "seal": "noble",
+    "type": "B",
+    "icon": "🏹",
+    "tags": ["šlechta", "hon", "les"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Zeman z okolního panství", "sender_en": "A Squire of the Neighbouring Estate",
+    "title_cs": "Napomenutí zemanovo o honitbě", "title_en": "The Squire's Rebuke about the Hunting Grounds",
+    "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
+    "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
+    "choices": [
+      {
+        "id": "apologize",
+        "label_cs": "🙏 Omluvit se a stáhnout lovce", "label_en": "🙏 Apologize and pull back the hunter",
+        "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
+        "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
+        "effects": [ { "type": "contactRelation", "id": "lovec", "amount": -2 } ]
+      },
+      {
+        "id": "deny",
+        "label_cs": "⚖️ Trvat na tom, že hranice je sporná", "label_en": "⚖️ Insist the boundary is disputed",
+        "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
+        "notify_en": "The squire says nothing more, but does not forget. (village −1)",
+        "effects": [ { "type": "influence", "axis": "village", "amount": -1 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_009",
+    "seal": "noble",
+    "type": "C",
+    "icon": "📜",
+    "tags": ["šlechta", "listina", "opis"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Panoše ze vzdáleného rodu", "sender_en": "A Squire's Page from a Distant House",
+    "title_cs": "Žádost o opis darovací listiny", "title_en": "A Request for a Copy of a Donation Charter",
+    "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+    "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+    "choices": [
+      {
+        "id": "accept",
+        "label_cs": "📜 Přijmout zakázku (+10 grošů)", "label_en": "📜 Accept the commission (+10 groschen)",
+        "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+        "notify_en": "The copy is made and sent. (+10 groschen)",
+        "effects": [ { "type": "grose", "amount": 10 } ]
+      },
+      {
+        "id": "decline",
+        "label_cs": "🗄️ Odmítnout, archiv je příliš starý", "label_en": "🗄️ Decline — the archive is too old to search",
+        "notify_cs": "Panoše odešel s prázdnou.",
+        "notify_en": "The page left empty-handed.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_010",
+    "seal": "village",
+    "type": "D",
+    "icon": "🔥",
+    "tags": ["požár", "vesnice", "pohroma"],
+    "conditions": { "season": [1, 2], "tension_min": null, "tension_max": null },
+    "sender_cs": "Soused od kováře", "sender_en": "A Neighbour of the Smith",
+    "title_cs": "Zpráva o požáru u kovárny", "title_en": "News of a Fire by the Forge",
+    "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+    "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+    "choices": [
+      {
+        "id": "alms",
+        "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)", "label_en": "🌾 Send alms of grain (−15 grain)",
+        "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+        "notify_en": "The family received the alms with tears. (village +4)",
+        "effects": [ { "type": "item", "id": "grain", "qty": -15 }, { "type": "influence", "axis": "village", "amount": 4 } ]
+      },
+      {
+        "id": "pray",
+        "label_cs": "🙏 Slíbit jen modlitbu", "label_en": "🙏 Promise only a prayer",
+        "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+        "notify_en": "The family gives thanks, but the winter will be hard.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_011",
+    "seal": "church",
+    "type": "C",
+    "icon": "⛪",
+    "tags": ["relikvie", "kostel"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Kostelník od sv. Mořice", "sender_en": "The Sexton of St. Maurice's",
+    "title_cs": "Dotaz na pravost relikvie", "title_en": "A Question about a Relic's Authenticity",
+    "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+    "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+    "choices": [
+      {
+        "id": "advise",
+        "label_cs": "📖 Poslat radu z knihovny", "label_en": "📖 Send counsel from the library",
+        "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+        "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+        "effects": [ { "type": "influence", "axis": "church", "amount": 2 }, { "type": "influence", "axis": "scholars", "amount": 1 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_012",
+    "seal": "scholars",
+    "type": "A",
+    "icon": "🌙",
+    "tags": ["kalendář", "astronomie"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Žák z olomoucké katedrální školy", "sender_en": "A Pupil of the Olomouc Cathedral School",
+    "title_cs": "Otázka žáka na výpočet Velikonoc", "title_en": "A Pupil's Question on the Reckoning of Easter",
+    "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+    "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+    "choices": [
+      {
+        "id": "teach",
+        "label_cs": "🌙 Vysvětlit výpočet", "label_en": "🌙 Explain the reckoning",
+        "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+        "notify_en": "The pupil left the wiser. (Scholars +3)",
+        "effects": [ { "type": "influence", "axis": "scholars", "amount": 3 } ]
+      },
+      {
+        "id": "busy",
+        "label_cs": "⏳ Nemáme čas, ať se ptá jinde", "label_en": "⏳ No time to spare — let him ask elsewhere",
+        "notify_cs": "Žák odešel zklamaný.",
+        "notify_en": "The pupil left disappointed.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_013",
+    "seal": "village",
+    "type": "A",
+    "icon": "🧂",
+    "tags": ["sůl", "kupec", "cesta"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Potulný solný kupec", "sender_en": "A Wandering Salt Merchant",
+    "title_cs": "Nabídka solného kupce", "title_en": "A Salt Merchant's Offer",
+    "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
+    "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
+    "choices": [
+      {
+        "id": "buy",
+        "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)", "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
+        "notify_cs": "Sůl uložena ve špižírně.",
+        "notify_en": "The salt is stored in the pantry.",
+        "effects": [ { "type": "grose", "amount": -8 }, { "type": "item", "id": "salt", "qty": 6 } ]
+      },
+      {
+        "id": "skip",
+        "label_cs": "🚪 Nechat ho jít dál", "label_en": "🚪 Let him move on",
+        "notify_cs": "Kupec pokračoval na jih.",
+        "notify_en": "The merchant continued south.",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "cletter_014",
+    "seal": "church",
+    "type": "A",
+    "icon": "🔔",
+    "tags": ["zvon", "sklář", "kostel"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Sklář z hutě v lesích", "sender_en": "A Glassmaker from the Forest Works",
+    "title_cs": "List sklářův o barevném skle", "title_en": "The Glassmaker's Letter about Coloured Glass",
+    "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+    "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+    "choices": [
+      {
+        "id": "visit",
+        "label_cs": "🔮 Zajet se podívat", "label_en": "🔮 Go and see",
+        "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+        "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+        "effects": [ { "type": "contactRelation", "id": "sklar", "amount": 3 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_015",
+    "seal": "noble",
+    "type": "E",
+    "icon": "🛡️",
+    "tags": ["šlechta", "poděkování"],
+    "conditions": { "season": null, "tension_min": null, "tension_max": null },
+    "sender_cs": "Paní z blízkého dvora", "sender_en": "The Lady of a Nearby Manor",
+    "title_cs": "Poděkování paní z blízkého dvora", "title_en": "Thanks from the Lady of a Nearby Manor",
+    "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+    "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+    "choices": [
+      {
+        "id": "accept",
+        "label_cs": "🙏 Přijmout dar s díky (+12 grošů)", "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+        "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+        "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+        "effects": [ { "type": "grose", "amount": 12 }, { "type": "influence", "axis": "church", "amount": 2 } ]
+      }
+    ]
+  },
+  {
+    "id": "cletter_016",
+    "seal": "village",
+    "type": "B",
+    "icon": "❄️",
+    "tags": ["zima", "led", "cesta"],
+    "conditions": { "season": [3], "tension_min": null, "tension_max": null },
+    "sender_cs": "Formani od brodu", "sender_en": "Carters at the Ford",
+    "title_cs": "Varování formanů před ledem", "title_en": "The Carters' Warning about the Ice",
+    "text_cs": "„Bratře, brod pod klášterem zamrzl, ale led je tenký a zrádný — jeden vůz se dnes probořil, kůň jen taktak vyvázl. Dokud nezmrzne pořádně, ať vaši lidé raději jdou oklikou přes most. — Formani od brodu“",
+    "text_en": "\"Brother, the ford below the monastery has frozen, but the ice is thin and treacherous — one cart broke through today, and the horse barely escaped. Until it freezes properly, let your people take the longer way by the bridge. — Carters at the Ford\"",
+    "choices": [
+      {
+        "id": "heed",
+        "label_cs": "⚠️ Varovat bratry, ať brod obchází", "label_en": "⚠️ Warn the brothers to avoid the ford",
+        "notify_cs": "Varování předáno. Nikdo se neproboří.",
+        "notify_en": "The warning is passed on. No one falls through.",
+        "effects": [ { "type": "influence", "axis": "village", "amount": 1 } ]
+      }
+    ]
+  }
+]
