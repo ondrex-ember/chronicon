@@ -19,6 +19,7 @@ const { GameLog }       = require('../core/engine.js');
 const MONASTERY = require('./monastery_internal_v1.json');
 const LOCAL     = require('./local_events_v1.json');
 const DISTANT   = require('./distant_events_v1.json');
+const PORTA     = require('./porta_letters_v1.json');
 
 // ============================================
 //  Pomocné funkce
@@ -52,6 +53,16 @@ function monthFits(entry) {
   return entry.month_hint.includes(currentMonth());
 }
 
+// Filtr dle conditions pro porta_letters — sezóna (jako monastery) +
+// volitelné meze globalTension. Vše null/chybí = platí vždy.
+function portaConditionsFit(entry) {
+  const c = entry.conditions || {};
+  if (Array.isArray(c.season) && !c.season.includes(GameState.time.season)) return false;
+  if (typeof c.tension_min === 'number' && GameState.globalTension < c.tension_min) return false;
+  if (typeof c.tension_max === 'number' && GameState.globalTension > c.tension_max) return false;
+  return true;
+}
+
 // ============================================
 //  Picker
 //
@@ -65,6 +76,10 @@ function monthFits(entry) {
 const PROB_MONASTERY = 0.75;
 const PROB_LOCAL     = 0.85;
 const PROB_DISTANT   = 0.80;
+// Nižší pravděpodobnost + delší cooldown než pasivní chronicle — Porta dopis
+// je interaktivní (volba+efekt ve hře), nemá se hromadit ve frontě hráče.
+const PROB_PORTA     = 0.55;
+const PORTA_COOLDOWN_TICKS = 12; // ~3 dny při 4 ticích/den
 
 const Picker = {
 
@@ -155,11 +170,37 @@ const Picker = {
     );
   },
 
+  // --- Porta letters (Vrstva 3 — dynamické dopisy) ---
+  // Podmínky: sezóna + volitelné meze globalTension. Cooldown vlastní
+  // (nesdílí GameLog.add/GameState.log — dopisy nesmí vypadnout z okna
+  // posledních 20 chronicle záznamů, než je hráč vůbec uvidí). Ukládá se do
+  // GameState.portaLetterHistory jako PLNÝ záznam (včetně choices/effects),
+  // ne jen text — Scriptorium ho čte 1:1 ze snapshotu.
+  pickPortaLetters() {
+    if (Math.random() > PROB_PORTA) return;
+
+    const candidates = PORTA.filter(portaConditionsFit);
+    if (candidates.length === 0) return;
+
+    const entry = randomPick(candidates);
+    if (!entry) return;
+
+    const cooldownKey = 'porta_' + entry.id;
+    const last = GameState._lastChronicle[cooldownKey];
+    if (last && (GameState.time.totalTick - last.tick) < PORTA_COOLDOWN_TICKS) return;
+
+    GameState.portaLetterHistory.unshift(Object.assign({}, entry, {
+      _pickedTick: GameState.time.totalTick,
+    }));
+    GameState._lastChronicle[cooldownKey] = { tick: GameState.time.totalTick, text: entry.id };
+  },
+
   // --- Hlavní volání z cron.js ---
   run() {
     Picker.pickMonastery();
     Picker.pickLocal();
     Picker.pickDistant();
+    Picker.pickPortaLetters();
   },
 
 };
