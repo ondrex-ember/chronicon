@@ -70,7 +70,8 @@ const Snapshot = {
       // NAHRAZUJE starý pevný seznam {monastery,vesnicane,valach,inkvizitor}.
       // Abbot-panel čte starý tvar — bude potřebovat vlastní update (plán, ne teď).
       actors: GameState.actors.map(a => ({
-        id: a.id, label: a.label, profession: a.profession,
+        id: a.id, label: a.label, label_en: a.label_en,
+        profession: a.profession, profession_en: a.profession_en,
         wealth: Math.round(a.wealth), mood: Math.round(a.mood),
         stores: Math.round(a.stores), status: a.status,
       })),
@@ -88,6 +89,13 @@ const Snapshot = {
       // V2: stará fake-ekonomika (grain/wood/grose/piety) odstraněna — nikdy
       // nefungovala (assignments se nikdy nenastavily, obilí trvale na 0).
       // Abbot-panel na ni měl odkaz — dostane vlastní update.
+
+      // Vrstva 3 — dynamické Porta dopisy (narrative/porta_letters_v1.json
+      // přes Picker.pickPortaLetters). Plné záznamy včetně choices/effects,
+      // ne jen text. Scriptorium dedupuje po id (GameState.letters.readIds/
+      // dynamic) — poslední 30 stačí, starší už hráč buď má, nebo prošvihl
+      // stejně jako u chronicle.
+      porta_letters: (GameState.portaLetterHistory || []).slice(0, 30),
 
       // Posledních 20 chronicle záznamů
       chronicle: GameState.log.slice(0, 20),
