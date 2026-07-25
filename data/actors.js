@@ -10,16 +10,16 @@
 'use strict';
 
 const RICNI_ACTORS = [
-  { id: 'vrchnost',  label: 'Vrchnost',  profession: 'Pán panství', core: true, wealth: 70, mood: 65, stores: 50, storesMax: 100 },
-  { id: 'mlynar',    label: 'Mlynář',    profession: 'Mlynář',      core: true, wealth: 55, mood: 60, stores: 45, storesMax: 90 },
-  { id: 'kovar',     label: 'Kovář',     profession: 'Kovář',       core: true, wealth: 50, mood: 65, stores: 40, storesMax: 80 },
-  { id: 'uhlic',     label: 'Uhlíř',     profession: 'Uhlíř',       core: true, wealth: 30, mood: 50, stores: 30, storesMax: 70 },
-  { id: 'vorar',     label: 'Vorař',     profession: 'Vorař',       core: true, wealth: 45, mood: 60, stores: 20, storesMax: 50 },
-  { id: 'rybnikar',  label: 'Rybníkář',  profession: 'Rybníkář',    core: true, wealth: 40, mood: 55, stores: 30, storesMax: 70 },
-  { id: 'prevoznik', label: 'Převozník', profession: 'Mýtný',       core: true, wealth: 50, mood: 55, stores: 25, storesMax: 60 },
-  { id: 'valach',    label: 'Valach',    profession: 'Valach',      core: true, wealth: 35, mood: 55, stores: 35, storesMax: 70 },
-  { id: 'klaster',   label: 'Klášter',   profession: 'Klášter',     core: true, wealth: 65, mood: 50, stores: 60, storesMax: 100 },
-  { id: 'vcelar',    label: 'Včelař',    profession: 'Včelař',      core: true, wealth: 35, mood: 60, stores: 40, storesMax: 80 },
+  { id: 'vrchnost',  label: 'Vrchnost',  label_en: 'The Lordship',      profession: 'Pán panství', profession_en: 'Lord of the Manor', core: true, wealth: 70, mood: 65, stores: 50, storesMax: 100 },
+  { id: 'mlynar',    label: 'Mlynář',    label_en: 'The Miller',        profession: 'Mlynář',      profession_en: 'Miller',            core: true, wealth: 55, mood: 60, stores: 45, storesMax: 90 },
+  { id: 'kovar',     label: 'Kovář',     label_en: 'The Blacksmith',    profession: 'Kovář',       profession_en: 'Blacksmith',         core: true, wealth: 50, mood: 65, stores: 40, storesMax: 80 },
+  { id: 'uhlic',     label: 'Uhlíř',     label_en: 'The Charcoal Burner', profession: 'Uhlíř',     profession_en: 'Charcoal Burner',    core: true, wealth: 30, mood: 50, stores: 30, storesMax: 70 },
+  { id: 'vorar',     label: 'Vorař',     label_en: 'The Raftsman',      profession: 'Vorař',       profession_en: 'Raftsman',           core: true, wealth: 45, mood: 60, stores: 20, storesMax: 50 },
+  { id: 'rybnikar',  label: 'Rybníkář',  label_en: 'The Pondkeeper',    profession: 'Rybníkář',    profession_en: 'Pondkeeper',         core: true, wealth: 40, mood: 55, stores: 30, storesMax: 70 },
+  { id: 'prevoznik', label: 'Převozník', label_en: 'The Ferryman',      profession: 'Mýtný',       profession_en: 'Toll Collector',     core: true, wealth: 50, mood: 55, stores: 25, storesMax: 60 },
+  { id: 'valach',    label: 'Valach',    label_en: 'The Shepherd',      profession: 'Valach',      profession_en: 'Shepherd',           core: true, wealth: 35, mood: 55, stores: 35, storesMax: 70 },
+  { id: 'klaster',   label: 'Opat',      label_en: 'The Abbot',         profession: 'Opat ve městě', profession_en: 'Abbot in the City', core: true, wealth: 65, mood: 50, stores: 60, storesMax: 100 },
+  { id: 'vcelar',    label: 'Včelař',    label_en: 'The Beekeeper',     profession: 'Včelař',      profession_en: 'Beekeeper',          core: true, wealth: 35, mood: 60, stores: 40, storesMax: 80 },
 ];
 
 const RICNI_RELATIONS = {
