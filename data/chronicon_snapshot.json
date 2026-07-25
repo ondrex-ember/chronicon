@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-24T23:06:16.943Z",
-  "valid_until": "2026-07-31T23:06:16.943Z",
+  "generated": "2026-07-25T06:22:45.752Z",
+  "valid_until": "2026-08-01T06:22:45.752Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,18 +15,14 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -35,7 +31,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 55,
-    "total_tick": 10,
+    "total_tick": 11,
     "date_string": "☀️ Léto, Léta Páně 1465, den 55"
   },
   "actors": [
@@ -137,6 +133,30 @@
   },
   "advisory_events": [],
   "chronicle": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 11,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 11,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
     {
       "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
       "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
@@ -352,33 +372,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 53
-    },
-    {
-      "text": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
-      "text_cs": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
-      "text_en": "Despite pressure from Hungarian troops and the Catholic opposition, the towns of Uničov and Uherské Hradiště remain loyal to King George. Armorers in both towns work day and night making crossbows and repairing walls. The burgomasters refuse to hand over the gates to Corvinus's mercenaries.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 3,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 3,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 11,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 11,
+      "year": 1465,
+      "season": "Léto",
+      "day": 55
+    },
     {
       "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
       "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
@@ -474,30 +494,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
-      "type": "A",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
-      "type": "B",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
     }
   ],
   "chronicle_distant": [
