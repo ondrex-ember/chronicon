@@ -87,6 +87,12 @@ const GameState = {
   // --- Chronicle log --- (beze změny — kontrakt se Scriptoriem: text_cs/text_en/icon/source/tick/id)
   log: [],
 
+  // --- Porta letter history --- (nové, Vrstva 3: dynamické Porta dopisy)
+  // Plné vybrané záznamy z narrative/porta_letters_v1.json (ne jen text jako
+  // log — obsahují choices/effects). Roste, neořezává se (kontrakt se
+  // Scriptoriem: dedup po id na klientovi, GameState.letters.dynamic).
+  portaLetterHistory: [],
+
   // --- Chain event queue --- (beze změny stub, Sprint 1b)
   _chainQueue: [],
 
