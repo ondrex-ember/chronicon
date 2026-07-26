@@ -20,19 +20,21 @@ const RICNI_ACTORS = [
   { id: 'valach',    label: 'Valach',    label_en: 'The Shepherd',      profession: 'Valach',      profession_en: 'Shepherd',           core: true, wealth: 35, mood: 55, stores: 35, storesMax: 70 },
   { id: 'klaster',   label: 'Opat',      label_en: 'The Abbot',         profession: 'Opat ve městě', profession_en: 'Abbot in the City', core: true, wealth: 65, mood: 50, stores: 60, storesMax: 100 },
   { id: 'vcelar',    label: 'Včelař',    label_en: 'The Beekeeper',     profession: 'Včelař',      profession_en: 'Beekeeper',          core: true, wealth: 35, mood: 60, stores: 40, storesMax: 80 },
+  { id: 'sklar',     label: 'Sklář',     label_en: 'The Glassmaker',    profession: 'Sklář',       profession_en: 'Glassmaker',         core: true, wealth: 45, mood: 55, stores: 35, storesMax: 75 },
 ];
 
 const RICNI_RELATIONS = {
-  vrchnost: { mlynar: 30, kovar: 20, uhlic: 10, vorar: 10, rybnikar: 20, prevoznik: 40, valach: 15, klaster: -10, vcelar: 10 },
-  mlynar:   { vrchnost: 30, kovar: 40, uhlic: 5, vorar: 20, rybnikar: -25, prevoznik: 10, valach: 0, klaster: 10, vcelar: 0 },
-  kovar:    { vrchnost: 20, mlynar: 40, uhlic: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 20, klaster: 0, vcelar: 15 },
-  uhlic:    { vrchnost: 10, mlynar: 5, kovar: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 5, klaster: 0, vcelar: 0 },
-  vorar:    { vrchnost: 10, mlynar: 20, kovar: 0, uhlic: 0, rybnikar: -30, prevoznik: 15, valach: 0, klaster: 0, vcelar: 0 },
-  rybnikar: { vrchnost: 20, mlynar: -25, kovar: 0, uhlic: 0, vorar: -30, prevoznik: 0, valach: 0, klaster: 45, vcelar: 0 },
-  prevoznik:{ vrchnost: 40, mlynar: 10, kovar: 0, uhlic: 0, vorar: 15, rybnikar: 0, valach: 0, klaster: 0, vcelar: 0 },
-  valach:   { vrchnost: 15, mlynar: 0, kovar: 20, uhlic: 5, vorar: 0, rybnikar: 0, prevoznik: 0, klaster: 20, vcelar: 0 },
-  klaster:  { vrchnost: -10, mlynar: 10, kovar: 0, uhlic: 0, vorar: 0, rybnikar: 45, prevoznik: 0, valach: 20, vcelar: 35 },
-  vcelar:   { vrchnost: 10, mlynar: 0, kovar: 15, uhlic: 0, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 0, klaster: 35 },
+  vrchnost: { mlynar: 30, kovar: 20, uhlic: 10, vorar: 10, rybnikar: 20, prevoznik: 40, valach: 15, klaster: -10, vcelar: 10, sklar: 10 },
+  mlynar:   { vrchnost: 30, kovar: 40, uhlic: 5, vorar: 20, rybnikar: -25, prevoznik: 10, valach: 0, klaster: 10, vcelar: 0, sklar: 5 },
+  kovar:    { vrchnost: 20, mlynar: 40, uhlic: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 20, klaster: 0, vcelar: 15, sklar: 20 },
+  uhlic:    { vrchnost: 10, mlynar: 5, kovar: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 5, klaster: 0, vcelar: 0, sklar: 45 },
+  vorar:    { vrchnost: 10, mlynar: 20, kovar: 0, uhlic: 0, rybnikar: -30, prevoznik: 15, valach: 0, klaster: 0, vcelar: 0, sklar: 0 },
+  rybnikar: { vrchnost: 20, mlynar: -25, kovar: 0, uhlic: 0, vorar: -30, prevoznik: 0, valach: 0, klaster: 45, vcelar: 0, sklar: 0 },
+  prevoznik:{ vrchnost: 40, mlynar: 10, kovar: 0, uhlic: 0, vorar: 15, rybnikar: 0, valach: 0, klaster: 0, vcelar: 0, sklar: 10 },
+  valach:   { vrchnost: 15, mlynar: 0, kovar: 20, uhlic: 5, vorar: 0, rybnikar: 0, prevoznik: 0, klaster: 20, vcelar: 0, sklar: 0 },
+  klaster:  { vrchnost: -10, mlynar: 10, kovar: 0, uhlic: 0, vorar: 0, rybnikar: 45, prevoznik: 0, valach: 20, vcelar: 35, sklar: 25 },
+  vcelar:   { vrchnost: 10, mlynar: 0, kovar: 15, uhlic: 0, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 0, klaster: 35, sklar: 5 },
+  sklar:    { vrchnost: 10, mlynar: 5, kovar: 20, uhlic: 45, vorar: 0, rybnikar: 0, prevoznik: 10, valach: 0, klaster: 25, vcelar: 5 },
 };
 
 // base = týdenní produkce do 'stores' (před modifikátory); deps = na kom závisí (blokace při 'mrtvy', 50% při 'krize'/'zanikajici')
@@ -47,6 +49,18 @@ const PROD_TABLE = {
   valach:    { base: 2.5, deps: [],          produces: 'vlna' },
   klaster:   { base: 2.5, deps: [],          produces: 'legitimita' },
   vcelar:    { base: 2.2, deps: [],          produces: 'med' },
+  // Sklář — sdíleny-pool-mrd v2 (26.7.2026). producesItems = item-úroveň
+  // produkce navíc k abstraktnímu 'stores' (paralelní, nedotýká se core
+  // simulace). {rate, cap} pár za item — různá vzácnost, ne plochý strop.
+  sklar:     { base: 2.5, deps: ['uhlic'],   produces: 'sklo',
+               producesItems: {
+                 glass_goblet:        { rate: 0.35, cap: 6 },
+                 glass_vase:          { rate: 0.12, cap: 3 },
+                 glass_pitcher:       { rate: 0.15, cap: 4 },
+                 naramek_sklo_zeleny: { rate: 0.40, cap: 8 },
+                 naramek_sklo_hnedy:  { rate: 0.40, cap: 8 },
+                 naramek_sklo_modry:  { rate: 0.08, cap: 2 },
+               } },
 };
 
 // [prodMod, moodDelta] pro [Jaro, Léto, Podzim, Zima]
@@ -66,7 +80,7 @@ const SEASON_MODS = {
 
 const COMMODITY_VALUE = {
   uhli: 1.0, mouka: 1.5, kovani: 2.0, vlna: 2.0, med: 3.0,
-  ryby: 1.5, doprava: 1.5, myto: 1.5, legitimita: 2.0,
+  ryby: 1.5, doprava: 1.5, myto: 1.5, legitimita: 2.0, sklo: 2.5,
 };
 
 const SEASON_DEMAND = {
