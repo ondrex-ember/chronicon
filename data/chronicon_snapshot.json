@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-26T11:23:06.285Z",
-  "valid_until": "2026-08-02T11:23:06.285Z",
+  "generated": "2026-07-26T17:08:15.155Z",
+  "valid_until": "2026-08-02T17:08:15.155Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -31,7 +31,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 56,
-    "total_tick": 16,
+    "total_tick": 17,
     "date_string": "☀️ Léto, Léta Páně 1465, den 56"
   },
   "actors": [
@@ -154,6 +154,49 @@
   "advisory_events": [],
   "porta_letters": [
     {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 17
+    },
+    {
       "id": "cletter_004",
       "seal": "church",
       "type": "C",
@@ -212,6 +255,42 @@
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
+      "type": "C",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
@@ -415,45 +494,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_cs": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_en": "From Prostějov: A childless baker bequeathed thirty gold pieces in his will to the local parish to purchase a new organ. In return, the church choir promised to serve a requiem mass for him every week for five years.",
-      "type": "E",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
-      "text_cs": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
-      "text_en": "During Sunday service, the priest read a special decree from the bishop aimed against Hussite followers in the region. Anyone reading heretical books will be subject to exile. This stirred whispers among the people and fear of potential secret informers.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
+      "type": "C",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
       "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
@@ -549,33 +616,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 55
-    },
-    {
-      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 10,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 10,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
@@ -680,18 +735,6 @@
       "icon": "💰",
       "source": "distant_events",
       "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
-      "type": "C",
-      "icon": "🗿",
-      "source": "distant_events",
-      "tick": 4,
       "year": 1465,
       "season": "Léto",
       "day": 53

@@ -4,7 +4,7 @@
     "season": 1,
     "day": 56,
     "daysPerSeason": 90,
-    "totalTick": 16
+    "totalTick": 17
   },
   "weather": {
     "key": "summer_cloudy",
@@ -315,6 +315,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
+    {
+      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
+      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
+      "type": "C",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 17,
+      "year": 1465,
+      "season": "Léto",
+      "day": 56
+    },
     {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
@@ -774,6 +810,49 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 17
+    },
+    {
       "id": "cletter_004",
       "seal": "church",
       "type": "C",
@@ -980,6 +1059,22 @@
     "letopisy_045": {
       "tick": 16,
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan."
+    },
+    "mono_072": {
+      "tick": 17,
+      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím."
+    },
+    "local_110": {
+      "tick": 17,
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí."
+    },
+    "praha_029": {
+      "tick": 17,
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel."
+    },
+    "porta_cletter_011": {
+      "tick": 17,
+      "text": "cletter_011"
     }
   },
   "flags": {
