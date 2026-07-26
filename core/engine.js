@@ -203,6 +203,18 @@ const GameEngine = {
 
       const rawProd = pDef.base * prodMultiplier;
       a.stores = Math.min(a.storesMax || 80, a.stores + rawProd);
+
+      // Item-úroveň produkce (sdileny-pool-mrd v2, 26.7.2026) — stejný
+      // prodMultiplier, stejné early-return brzdy (mrtvy/blocked/crisis)
+      // jako stores o řádek výš — mrtvý dodavatel = 0 produkce i tady,
+      // ne zastaralá hodnota z minulého týdne.
+      if (pDef.producesItems) {
+        if (!a.itemStock) a.itemStock = {};
+        Object.entries(pDef.producesItems).forEach(([itemId, cfg]) => {
+          const cur = a.itemStock[itemId] || 0;
+          a.itemStock[itemId] = Math.min(cfg.cap, cur + cfg.rate * prodMultiplier);
+        });
+      }
     });
 
     // 2. Spotřeba a obchod (přebytek → bohatství)
