@@ -74,6 +74,7 @@ const Snapshot = {
         profession: a.profession, profession_en: a.profession_en,
         wealth: Math.round(a.wealth), mood: Math.round(a.mood),
         stores: Math.round(a.stores), status: a.status,
+        itemStock: a.itemStock || undefined,
       })),
 
       region: {
