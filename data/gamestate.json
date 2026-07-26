@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 56,
+    "day": 57,
     "daysPerSeason": 90,
-    "totalTick": 17
+    "totalTick": 18
   },
   "weather": {
     "key": "summer_cloudy",
@@ -315,6 +315,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -810,6 +834,52 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 18
+    },
+    {
       "id": "cletter_011",
       "seal": "church",
       "type": "C",
@@ -1075,6 +1145,18 @@
     "porta_cletter_011": {
       "tick": 17,
       "text": "cletter_011"
+    },
+    "mono_102": {
+      "tick": 18,
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění."
+    },
+    "local_084": {
+      "tick": 18,
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři."
+    },
+    "porta_cletter_009": {
+      "tick": 18,
+      "text": "cletter_009"
     }
   },
   "flags": {

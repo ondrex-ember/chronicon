@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-26T17:08:15.155Z",
-  "valid_until": "2026-08-02T17:08:15.155Z",
+  "generated": "2026-07-26T23:02:06.054Z",
+  "valid_until": "2026-08-02T23:02:06.054Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -30,9 +30,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 56,
-    "total_tick": 17,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 56"
+    "day": 57,
+    "total_tick": 18,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 57"
   },
   "actors": [
     {
@@ -154,6 +154,52 @@
   "advisory_events": [],
   "porta_letters": [
     {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 18
+    },
+    {
       "id": "cletter_011",
       "seal": "church",
       "type": "C",
@@ -255,6 +301,30 @@
     }
   ],
   "chronicle": [
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -470,33 +540,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
-      "type": "D",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 9,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Léta téhož v sobotu před sv. Margretú Bielina město ot pražan dobyto jest a Němci na hrad utekli, kteřížto nazajtří dobyti jsú, a mnozí kněžie a rytieři spáleni. V ty časy byl Žižka oblehl Rabie hrad a tu jest zástřelem zbyl druhého oka.",
-      "text_cs": "Léta téhož v sobotu před sv. Margretú Bielina město ot pražan dobyto jest a Němci na hrad utekli, kteřížto nazajtří dobyti jsú, a mnozí kněžie a rytieři spáleni. V ty časy byl Žižka oblehl Rabie hrad a tu jest zástřelem zbyl druhého oka.",
-      "text_en": "That year, on the Saturday before St Margaret, the town of Bílina was taken by the Praguers; the Germans fled to the castle, which was taken on the morrow.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
+      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
+      "type": "A",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 18,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
       "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
@@ -589,30 +659,6 @@
       "icon": "🍺",
       "source": "monastery_internal",
       "tick": 13,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 11,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 11,
       "year": 1465,
       "season": "Léto",
       "day": 55
@@ -741,7 +787,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 146,
+    "day_of_year": 147,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
