@@ -114,7 +114,17 @@ const RELATION_THRESHOLD_TEXTS = {
   ],
 };
 
+// Žádost o surovinu na hráče — zakazky-centralizace-mrd Fáze 2 (26.7.2026).
+// Spouštěč = SKUTEČNÁ krize (mrtvý dodavatel dle PROD_TABLE.deps), ne čistá
+// náhoda. itemId = ověřené reálné Scriptorium itemy (charcoal, kovani).
+const MATERIAL_REQUEST_POOL = {
+  kovar: { itemId: 'charcoal', qty: 5, days: 14, grose: 25 },  // dep: uhlic
+  sklar: { itemId: 'charcoal', qty: 5, days: 14, grose: 20 },  // dep: uhlic
+  mlynar: { itemId: 'kovani', qty: 2, days: 14, grose: 15 },   // dep: kovar
+};
+
 module.exports = {
   RICNI_ACTORS, RICNI_RELATIONS, PROD_TABLE, SEASON_MODS,
   COMMODITY_VALUE, SEASON_DEMAND, PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
+  MATERIAL_REQUEST_POOL,
 };
