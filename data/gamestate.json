@@ -2,9 +2,9 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 57,
+    "day": 58,
     "daysPerSeason": 90,
-    "totalTick": 21
+    "totalTick": 22
   },
   "weather": {
     "key": "summer_cloudy",
@@ -317,6 +317,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 22,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
+    {
+      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 22,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
     {
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
       "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
@@ -920,6 +944,48 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 22
+    },
+    {
       "id": "cletter_002",
       "seal": "village",
       "type": "D",
@@ -1389,6 +1455,18 @@
     "porta_cletter_002": {
       "tick": 21,
       "text": "cletter_002"
+    },
+    "local_131": {
+      "tick": 22,
+      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha."
+    },
+    "zbras_018": {
+      "tick": 22,
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví."
+    },
+    "porta_cletter_015": {
+      "tick": 22,
+      "text": "cletter_015"
     }
   },
   "flags": {
