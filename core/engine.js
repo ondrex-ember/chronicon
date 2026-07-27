@@ -109,6 +109,11 @@ const GameEngine = {
     // ne přírůstkové počítání ticků. Imunní vůči resetům/výpadkům/downtimu.
     await GameEngine.syncCalendar();
 
+    // 2b. Farní eventy (obyčejné rodiny) — VLASTNÍ denní kadence, mimo
+    // týdenní ekonomiku (farnost-chronicon-reference.md sekce 2). Nesmí se
+    // slít do runWeeklyEconomy — ta zůstává netknutá.
+    GameEngine.farniEventTick();
+
     // 3. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
     if (GameState.time.totalTick % 28 === 0) {
       GameEngine.runWeeklyEconomy();
@@ -140,6 +145,35 @@ const GameEngine = {
     GameState.time.day    = real.day;
 
     await WeatherSystem.init();
+  },
+
+  // ── Farní eventy — obyčejné rodiny (křest/svatba/pohřeb) ────────────────
+  // farnost-chronicon-reference.md sekce 2. Vlastní denní gate (ISO
+  // datum-string, mirror _reportActorFavorIfNewDay vzoru), NEZÁVISLÉ na
+  // GameState.week/weekBirths/weekDeaths (ty existují jen uvnitř
+  // runWeeklyEconomy a neperzistují). Anonymní — bez vazby na
+  // kteréhokoli z 10 core aktérů, žádné jméno se negeneruje zde
+  // (Scriptorium přiřadí příjmení při zobrazení, mirror totalFuneralEvents
+  // vzoru). Bez probost_only — rozhodnuto 27.7.2026, na rozdíl od sepultury.
+  FARNI_EVENT_TYPES: ['baptism', 'wedding', 'funeral'],
+  FARNI_EVENT_CHANCE: 0.4,
+
+  farniEventTick() {
+    const today = new Date().toISOString().slice(0, 10);
+    if (GameState._farniEventLastDay === today) return;
+    GameState._farniEventLastDay = today;
+
+    if (Math.random() >= GameEngine.FARNI_EVENT_CHANCE) return;
+
+    if (!GameState.pendingFarniEvents) GameState.pendingFarniEvents = [];
+    const types = GameEngine.FARNI_EVENT_TYPES;
+    const type = types[Math.floor(Math.random() * types.length)];
+    GameState.pendingFarniEvents.push({
+      id:   'farni_' + type + '_' + GameState.time.totalTick,
+      type: type,
+      tick: GameState.time.totalTick,
+    });
+    if (GameState.pendingFarniEvents.length > 10) GameState.pendingFarniEvents.shift();
   },
 
   // ── Týdenní ekonomika (port z Betlém runWeeklyTick, jádro) ──────────────
