@@ -4,7 +4,7 @@
     "season": 1,
     "day": 57,
     "daysPerSeason": 90,
-    "totalTick": 20
+    "totalTick": 21
   },
   "weather": {
     "key": "summer_cloudy",
@@ -33,6 +33,8 @@
   "pendingHospites": [],
   "pendingStudovna": null,
   "pendingPocestny": [],
+  "pendingFarniEvents": [],
+  "_farniEventLastDay": "2026-07-27",
   "_eventCooldowns": {},
   "actors": [
     {
@@ -315,6 +317,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -894,6 +920,63 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 21
+    },
+    {
       "id": "cletter_008",
       "seal": "noble",
       "type": "B",
@@ -1294,6 +1377,18 @@
     "porta_cletter_008": {
       "tick": 20,
       "text": "cletter_008"
+    },
+    "mono_112": {
+      "tick": 21,
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat."
+    },
+    "local_255": {
+      "tick": 21,
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami."
+    },
+    "porta_cletter_002": {
+      "tick": 21,
+      "text": "cletter_002"
     }
   },
   "flags": {

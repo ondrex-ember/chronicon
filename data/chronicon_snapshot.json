@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-27T12:57:02.886Z",
-  "valid_until": "2026-08-03T12:57:02.886Z",
+  "generated": "2026-07-27T17:47:13.298Z",
+  "valid_until": "2026-08-03T17:47:13.298Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -31,7 +31,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 57,
-    "total_tick": 20,
+    "total_tick": 21,
     "date_string": "☀️ Léto, Léta Páně 1465, den 57"
   },
   "actors": [
@@ -153,6 +153,63 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 21
+    },
     {
       "id": "cletter_008",
       "seal": "noble",
@@ -354,6 +411,30 @@
     }
   ],
   "chronicle": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -569,33 +650,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 55
-    },
-    {
-      "text": "Sklepmistr hlásí: Letošní chmel trpěl. Zásoby na zimní vaření piva budou o třetinu menší než vloni. Bratři tuto zprávu přijali tiše, ale smutek byl v jejich očích zřejmý.",
-      "text_cs": "Sklepmistr hlásí: Letošní chmel trpěl. Zásoby na zimní vaření piva budou o třetinu menší než vloni. Bratři tuto zprávu přijali tiše, ale smutek byl v jejich očích zřejmý.",
-      "text_en": "The cellarer reports: This year's hops suffered. The stores for winter brewing will be a third less than last year. The brothers received this news quietly, but the sorrow was evident in their eyes.",
-      "type": "B",
-      "icon": "🍺",
-      "source": "monastery_internal",
-      "tick": 13,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 11,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 21,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
       "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
@@ -688,30 +769,6 @@
       "icon": "📖",
       "source": "monastery_internal",
       "tick": 16,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
-    },
-    {
-      "text": "Opavský kníže, hotovící se k boji proti Jiřímu z Poděbrad, vydal příkaz k bezohlednému rekvírování zásob. Pěší vojáci vybírají ze sklepů víno i sýry a berou sedlákům nejlepší tažné koně. Obyvatelstvo protestuje, ale proti ozbrojencům v kroužkové zbroji nezmůže nic.",
-      "text_cs": "Opavský kníže, hotovící se k boji proti Jiřímu z Poděbrad, vydal příkaz k bezohlednému rekvírování zásob. Pěší vojáci vybírají ze sklepů víno i sýry a berou sedlákům nejlepší tažné koně. Obyvatelstvo protestuje, ale proti ozbrojencům v kroužkové zbroji nezmůže nic.",
-      "text_en": "The Duke of Opava, preparing for battle against George of Poděbrady, issued an order for the ruthless requisitioning of supplies. Foot soldiers are emptying cellars of wine and cheese and taking the best draft horses from farmers. The population protests, but can do nothing against armed men in chainmail.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 15,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 15,
       "year": 1465,
       "season": "Léto",
       "day": 56
