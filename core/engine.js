@@ -22,7 +22,7 @@ const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
 const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
-  PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS,
+  PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS, MATERIAL_REQUEST_POOL,
 } = require('../data/actors.js');
 const { EVENT_REGISTRY, CHAIN_CALLBACKS } = require('../data/events.js');
 
@@ -184,6 +184,19 @@ const GameEngine = {
         const pool = (key && PROD_BLOCK_TEXTS[key]) || PROD_BLOCK_TEXTS.default;
         a._pulseReason = pool[Math.floor(Math.random() * pool.length)].replace('{actor}', a.label);
         a.mood = Math.max(0, a.mood - 12);
+
+        // Žádost o surovinu na hráče — zakazky-centralizace-mrd Fáze 2
+        // (26.7.2026). Max 1 aktivní najednou (stejný vzor jako Studovna).
+        if (!GameState.pendingMaterialRequest) {
+          const req = MATERIAL_REQUEST_POOL[a.id];
+          if (req) {
+            GameState.pendingMaterialRequest = {
+              id: 'material_' + a.id + '_' + GameState.week,
+              actorId: a.id, itemId: req.itemId, qty: req.qty,
+              deadlineDays: req.days, rewardGrose: req.grose,
+            };
+          }
+        }
         return;
       }
 
