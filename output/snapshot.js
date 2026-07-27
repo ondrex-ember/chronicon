@@ -223,6 +223,7 @@ const Snapshot = {
     (GameState.pendingSepulturas || []).forEach(s => {
       events.push({
         id: s.id,
+        kind: 'sepultura',
         icon: '⚱️',
         probost_only: true,
         wealth: s.wealth,
@@ -407,6 +408,48 @@ const Snapshot = {
         ],
       });
     }
+
+    // Farní eventy — obyčejné rodiny (křest/svatba/pohřeb), BEZ probost_only
+    // (na rozdíl od sepultury — rozhodnuto 27.7.2026). Anonymní, žádné
+    // jméno — Scriptorium přiřadí příjmení při zobrazení (mirror
+    // totalFuneralEvents vzoru). requiredItems = materiálový gate,
+    // farnost-chronicon-reference.md sekce 3 (Scriptorium kontroluje
+    // sklad při 'accept', vinum/wine fallback jako u mše).
+    const FARNI_ICON  = { baptism: '👶', wedding: '💍', funeral: '⚰️' };
+    const FARNI_TITLE_CS = { baptism: 'Žádost o křest', wedding: 'Žádost o oddání', funeral: 'Žádost o pohřeb' };
+    const FARNI_TITLE_EN = { baptism: 'Request for a christening', wedding: 'Request to be wed', funeral: 'Request for a funeral rite' };
+    const FARNI_TEXT_CS = {
+      baptism: 'Rodina z okolí žádá o křest dítěte. Klášter by mohl obřad vykonat výměnou za víno, hostii a zápis do matriky.',
+      wedding: 'Snoubenci z okolí žádají o oddání. Klášter by mohl obřad vykonat výměnou za ohlášky na pergamenu, svíci a víno.',
+      funeral: 'Rodina z okolí žádá o pohřeb blízkého. Klášter by mohl obřad vykonat výměnou za svíce a zápis do matriky.',
+    };
+    const FARNI_TEXT_EN = {
+      baptism: 'A family from the region asks for a christening. The monastery could perform the rite in exchange for wine, a host wafer, and a parish register entry.',
+      wedding: 'A couple from the region asks to be wed. The monastery could perform the rite in exchange for banns on parchment, a candle, and wine.',
+      funeral: 'A family from the region asks for a funeral rite. The monastery could perform the rite in exchange for candles and a parish register entry.',
+    };
+    const FARNI_REQUIRED_ITEMS = {
+      baptism: [{ id: 'wine', qty: 1 }, { id: 'hostia', qty: 1 }, { id: 'paper', qty: 1 }],
+      wedding: [{ id: 'vellum', qty: 1 }, { id: 'candle', qty: 1 }, { id: 'wine', qty: 1 }],
+      funeral: [{ id: 'candle', qty: 2 }, { id: 'paper', qty: 1 }],
+    };
+    (GameState.pendingFarniEvents || []).forEach(f => {
+      events.push({
+        kind: 'farni',
+        id: f.id,
+        farniType: f.type,
+        requiredItems: FARNI_REQUIRED_ITEMS[f.type],
+        icon: FARNI_ICON[f.type],
+        title_cs: FARNI_TITLE_CS[f.type],
+        title_en: FARNI_TITLE_EN[f.type],
+        text_cs: FARNI_TEXT_CS[f.type],
+        text_en: FARNI_TEXT_EN[f.type],
+        choices: [
+          { id: 'accept',  label_cs: '✝️ Vykonat obřad', label_en: '✝️ Officiate' },
+          { id: 'decline', label_cs: '🚪 Odmítnout',      label_en: '🚪 Decline' },
+        ],
+      });
+    });
 
     return events;
   },
