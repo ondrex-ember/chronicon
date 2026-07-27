@@ -384,6 +384,30 @@ const Snapshot = {
       });
     });
 
+    // Žádost o surovinu na hráče — zakazky-centralizace-mrd Fáze 2 (26.7.2026).
+    // Spouštěč = skutečná krize (mrtvý dodavatel), viz core/engine.js.
+    if (GameState.pendingMaterialRequest) {
+      const m = GameState.pendingMaterialRequest;
+      const actor = GameState.actors.find(x => x.id === m.actorId);
+      const who_cs = actor ? actor.label : 'Řemeslník';
+      const who_en = actor ? (actor.label_en || actor.label) : 'A craftsman';
+      events.push({
+        kind: 'material',
+        id: m.id,
+        actorId: m.actorId, itemId: m.itemId, qty: m.qty,
+        deadlineDays: m.deadlineDays, rewardGrose: m.rewardGrose,
+        icon: '📦',
+        title_cs: who_cs + ' potřebuje surovinu',
+        title_en: who_en + ' needs a material',
+        text_cs: who_cs + ' přišel o dodavatele a nutně potřebuje ' + m.qty + '× ' + m.itemId + '. Klášter by mohl pomoct výměnou za ' + m.rewardGrose + ' grošů, do ' + m.deadlineDays + ' dní.',
+        text_en: who_en + ' has lost a supplier and urgently needs ' + m.qty + '× ' + m.itemId + '. The monastery could help in exchange for ' + m.rewardGrose + ' groschen, within ' + m.deadlineDays + ' days.',
+        choices: [
+          { id: 'accept',  label_cs: 'Pomůžeme',  label_en: 'We shall help' },
+          { id: 'decline', label_cs: 'Nemůžeme',  label_en: 'We cannot' },
+        ],
+      });
+    }
+
     return events;
   },
 
