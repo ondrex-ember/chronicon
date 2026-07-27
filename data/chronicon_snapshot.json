@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-27T07:38:15.100Z",
-  "valid_until": "2026-08-03T07:38:15.100Z",
+  "generated": "2026-07-27T12:57:02.886Z",
+  "valid_until": "2026-08-03T12:57:02.886Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -31,7 +31,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 57,
-    "total_tick": 19,
+    "total_tick": 20,
     "date_string": "☀️ Léto, Léta Páně 1465, den 57"
   },
   "actors": [
@@ -153,6 +153,59 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_008",
+      "seal": "noble",
+      "type": "B",
+      "icon": "🏹",
+      "tags": [
+        "šlechta",
+        "hon",
+        "les"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Zeman z okolního panství",
+      "sender_en": "A Squire of the Neighbouring Estate",
+      "title_cs": "Napomenutí zemanovo o honitbě",
+      "title_en": "The Squire's Rebuke about the Hunting Grounds",
+      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
+      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
+      "choices": [
+        {
+          "id": "apologize",
+          "label_cs": "🙏 Omluvit se a stáhnout lovce",
+          "label_en": "🙏 Apologize and pull back the hunter",
+          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
+          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "lovec",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "id": "deny",
+          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
+          "label_en": "⚖️ Insist the boundary is disputed",
+          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
+          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 20
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -301,6 +354,30 @@
     }
   ],
   "chronicle": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -516,33 +593,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 55
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 11,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_en": "From Mainz, by way of the merchant post: the brothers in the scriptorium passed the leaf of that printed work from hand to hand as though it were a relic. The lettering was exact, line after line alike, a thing no hand could ever achieve.",
-      "type": "A",
-      "icon": "📄",
-      "source": "distant_events",
-      "tick": 10,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
       "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
@@ -650,21 +715,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 56
-    },
-    {
-      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 14,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -769,18 +834,6 @@
       "icon": "🌫️",
       "source": "distant_events",
       "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
-      "type": "C",
-      "icon": "⚓",
-      "source": "distant_events",
-      "tick": 6,
       "year": 1465,
       "season": "Léto",
       "day": 54

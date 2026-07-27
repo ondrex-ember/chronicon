@@ -4,7 +4,7 @@
     "season": 1,
     "day": 57,
     "daysPerSeason": 90,
-    "totalTick": 19
+    "totalTick": 20
   },
   "weather": {
     "key": "summer_cloudy",
@@ -315,6 +315,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
+    {
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 20,
+      "year": 1465,
+      "season": "Léto",
+      "day": 57
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -870,6 +894,59 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_008",
+      "seal": "noble",
+      "type": "B",
+      "icon": "🏹",
+      "tags": [
+        "šlechta",
+        "hon",
+        "les"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Zeman z okolního panství",
+      "sender_en": "A Squire of the Neighbouring Estate",
+      "title_cs": "Napomenutí zemanovo o honitbě",
+      "title_en": "The Squire's Rebuke about the Hunting Grounds",
+      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
+      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
+      "choices": [
+        {
+          "id": "apologize",
+          "label_cs": "🙏 Omluvit se a stáhnout lovce",
+          "label_en": "🙏 Apologize and pull back the hunter",
+          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
+          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "lovec",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "id": "deny",
+          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
+          "label_en": "⚖️ Insist the boundary is disputed",
+          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
+          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 20
+    },
+    {
       "id": "cletter_009",
       "seal": "noble",
       "type": "C",
@@ -1205,6 +1282,18 @@
     "frois_008": {
       "tick": 19,
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo."
+    },
+    "local_139": {
+      "tick": 20,
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod."
+    },
+    "zbras_007": {
+      "tick": 20,
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami."
+    },
+    "porta_cletter_008": {
+      "tick": 20,
+      "text": "cletter_008"
     }
   },
   "flags": {
