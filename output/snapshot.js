@@ -239,6 +239,54 @@ const Snapshot = {
       });
     });
 
+    // Farní životní události (křest/svatba/pohřeb) — sdílený vesnický pool,
+    // anonymní jako pocestný (Scriptorium přiřazuje příjmení dynamicky přes
+    // regex na "Rodina"/"Snoubenci"/"A family"/"A couple" — text_cs/text_en
+    // MUSÍ začínat přesně tímhle slovem). probost_only stejně jako sepultura
+    // — farní práva vykonává Probošt. requiredItems musí sedět s klientovou
+    // _FARNI_REQUIRED_ITEMS tabulkou (farnost-chronicon-reference.md).
+    const FARNI_TEXTS = {
+      baptism: {
+        icon: '👶',
+        title_cs: 'Žádost o křest', title_en: 'Request for a christening',
+        text_cs: 'Rodina žádá klášter o křest dítěte.',
+        text_en: 'A family asks the monastery to christen their child.',
+        requiredItems: [{ id: 'wine', qty: 1 }, { id: 'hostia', qty: 1 }, { id: 'paper', qty: 1 }],
+      },
+      wedding: {
+        icon: '💍',
+        title_cs: 'Žádost o oddání', title_en: 'Request for a wedding',
+        text_cs: 'Snoubenci žádají klášter o oddání.',
+        text_en: 'A couple asks the monastery to wed them.',
+        requiredItems: [{ id: 'vellum', qty: 1 }, { id: 'candle', qty: 1 }, { id: 'wine', qty: 1 }],
+      },
+      funeral: {
+        icon: '⚰️',
+        title_cs: 'Žádost o pohřeb', title_en: 'Request for a funeral rite',
+        text_cs: 'Rodina žádá klášter o pohřeb.',
+        text_en: 'A family asks the monastery for a funeral rite.',
+        requiredItems: [{ id: 'candle', qty: 2 }, { id: 'paper', qty: 1 }],
+      },
+    };
+    (GameState.pendingFarniEvents || []).forEach(f => {
+      const tx = FARNI_TEXTS[f.farniType];
+      if (!tx) return;
+      events.push({
+        id: f.id,
+        kind: 'farni',
+        farniType: f.farniType,
+        probost_only: true,
+        icon: tx.icon,
+        title_cs: tx.title_cs, title_en: tx.title_en,
+        text_cs: tx.text_cs, text_en: tx.text_en,
+        requiredItems: tx.requiredItems,
+        choices: [
+          { id: 'accept',  label_cs: '✝️ Vykonat obřad', label_en: '✝️ Officiate' },
+          { id: 'decline', label_cs: '🚪 Odmítnout', label_en: '🚪 Decline' },
+        ],
+      });
+    });
+
     // Infirmarium/Ubytovna hospités — kandidáti z pendingHospites (aktéři,
     // co vstoupili do krize/zanikající). Bez probost_only — péče o nemocné
     // a útočiště je univerzální, ne výsadní právo jako sepultura. Jméno
@@ -408,48 +456,6 @@ const Snapshot = {
         ],
       });
     }
-
-    // Farní eventy — obyčejné rodiny (křest/svatba/pohřeb), BEZ probost_only
-    // (na rozdíl od sepultury — rozhodnuto 27.7.2026). Anonymní, žádné
-    // jméno — Scriptorium přiřadí příjmení při zobrazení (mirror
-    // totalFuneralEvents vzoru). requiredItems = materiálový gate,
-    // farnost-chronicon-reference.md sekce 3 (Scriptorium kontroluje
-    // sklad při 'accept', vinum/wine fallback jako u mše).
-    const FARNI_ICON  = { baptism: '👶', wedding: '💍', funeral: '⚰️' };
-    const FARNI_TITLE_CS = { baptism: 'Žádost o křest', wedding: 'Žádost o oddání', funeral: 'Žádost o pohřeb' };
-    const FARNI_TITLE_EN = { baptism: 'Request for a christening', wedding: 'Request to be wed', funeral: 'Request for a funeral rite' };
-    const FARNI_TEXT_CS = {
-      baptism: 'Rodina z okolí žádá o křest dítěte. Klášter by mohl obřad vykonat výměnou za víno, hostii a zápis do matriky.',
-      wedding: 'Snoubenci z okolí žádají o oddání. Klášter by mohl obřad vykonat výměnou za ohlášky na pergamenu, svíci a víno.',
-      funeral: 'Rodina z okolí žádá o pohřeb blízkého. Klášter by mohl obřad vykonat výměnou za svíce a zápis do matriky.',
-    };
-    const FARNI_TEXT_EN = {
-      baptism: 'A family from the region asks for a christening. The monastery could perform the rite in exchange for wine, a host wafer, and a parish register entry.',
-      wedding: 'A couple from the region asks to be wed. The monastery could perform the rite in exchange for banns on parchment, a candle, and wine.',
-      funeral: 'A family from the region asks for a funeral rite. The monastery could perform the rite in exchange for candles and a parish register entry.',
-    };
-    const FARNI_REQUIRED_ITEMS = {
-      baptism: [{ id: 'wine', qty: 1 }, { id: 'hostia', qty: 1 }, { id: 'paper', qty: 1 }],
-      wedding: [{ id: 'vellum', qty: 1 }, { id: 'candle', qty: 1 }, { id: 'wine', qty: 1 }],
-      funeral: [{ id: 'candle', qty: 2 }, { id: 'paper', qty: 1 }],
-    };
-    (GameState.pendingFarniEvents || []).forEach(f => {
-      events.push({
-        kind: 'farni',
-        id: f.id,
-        farniType: f.type,
-        requiredItems: FARNI_REQUIRED_ITEMS[f.type],
-        icon: FARNI_ICON[f.type],
-        title_cs: FARNI_TITLE_CS[f.type],
-        title_en: FARNI_TITLE_EN[f.type],
-        text_cs: FARNI_TEXT_CS[f.type],
-        text_en: FARNI_TEXT_EN[f.type],
-        choices: [
-          { id: 'accept',  label_cs: '✝️ Vykonat obřad', label_en: '✝️ Officiate' },
-          { id: 'decline', label_cs: '🚪 Odmítnout',      label_en: '🚪 Decline' },
-        ],
-      });
-    });
 
     return events;
   },
