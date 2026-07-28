@@ -55,11 +55,7 @@ const GameState = {
   pendingHospites: [],         // fronta kandidátů na Infirmarium (aktéři v krizi), max 10, FIFO
   pendingStudovna: null,       // max 1 aktivní žádost Vrchnosti o Studovnu, ne fronta
   pendingPocestny: [],         // fronta pocestných (Vlna 1 / ubytovna-mrd.md §8c-B), max 10 FIFO, despawn po 2 týdnech (viz engine.js)
-  pendingFarniEvents: [],      // fronta obyčejných farních rodin (křest/svatba/pohřeb),
-                               // max 10 FIFO, BEZ probost_only gate (na rozdíl od sepultury) —
-                               // farnost-chronicon-reference.md sekce 2, rozhodnuto 27.7.2026.
-                               // Generuje se nezávisle na runWeeklyEconomy (viz farniEventTick v engine.js).
-  _farniEventLastDay: null,    // ISO date string (YYYY-MM-DD) — gate "jednou za den" pro farniEventTick
+  pendingFarniEvents: [],      // fronta farních událostí (křest/svatba/pohřeb, sdílený vesnický pool), max 10 FIFO — farnost-chronicon-reference.md
   _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
   actors: RICNI_ACTORS.map(a => ({
     ...a,
