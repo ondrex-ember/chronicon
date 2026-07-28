@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-28T12:00:34.297Z",
-  "valid_until": "2026-08-04T12:00:34.297Z",
+  "generated": "2026-07-28T17:39:31.320Z",
+  "valid_until": "2026-08-04T17:39:31.320Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,12 +17,12 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 0.8,
     "modifier_wood": 1
   },
   "time": {
@@ -31,7 +31,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 58,
-    "total_tick": 24,
+    "total_tick": 25,
     "date_string": "☀️ Léto, Léta Páně 1465, den 58"
   },
   "actors": [
@@ -153,6 +153,44 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_007",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "tags": [
+        "opat",
+        "sesterský klášter"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Opat sesterského kláštera",
+      "sender_en": "The Abbot of a Sister House",
+      "title_cs": "Pozdrav od sesterského opatství",
+      "title_en": "Greetings from a Sister Abbey",
+      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
+          "label_en": "🕊️ Return the bond of prayer",
+          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+          "notify_en": "The bond is confirmed. (Ecclesia +2)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 25
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -454,6 +492,42 @@
   ],
   "chronicle": [
     {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
+    {
+      "text": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
+      "text_cs": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
+      "text_en": "Brother cook complained about brother cellarer, and brother cellarer about the cook. The abbot heard them out and ordered them to praise each other's work for a whole week. Both now look as if they swallowed a stone.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
+    {
       "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
@@ -656,45 +730,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 56
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 17,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
-    },
-    {
-      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 16,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
-    },
-    {
-      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 16,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
+    {
+      "text": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
+      "text_cs": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
+      "text_en": "Brother cook complained about brother cellarer, and brother cellarer about the cook. The abbot heard them out and ordered them to praise each other's work for a whole week. Both now look as if they swallowed a stone.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
     {
       "text": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
       "text_cs": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
@@ -790,33 +852,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 57
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 19,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 18,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 25,
+      "year": 1465,
+      "season": "Léto",
+      "day": 58
+    },
     {
       "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
@@ -924,18 +974,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 55
-    },
-    {
-      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 9,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "church_calendar": {
