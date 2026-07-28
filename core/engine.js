@@ -109,11 +109,6 @@ const GameEngine = {
     // ne přírůstkové počítání ticků. Imunní vůči resetům/výpadkům/downtimu.
     await GameEngine.syncCalendar();
 
-    // 2b. Farní eventy (obyčejné rodiny) — VLASTNÍ denní kadence, mimo
-    // týdenní ekonomiku (farnost-chronicon-reference.md sekce 2). Nesmí se
-    // slít do runWeeklyEconomy — ta zůstává netknutá.
-    GameEngine.farniEventTick();
-
     // 3. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
     if (GameState.time.totalTick % 28 === 0) {
       GameEngine.runWeeklyEconomy();
@@ -145,35 +140,6 @@ const GameEngine = {
     GameState.time.day    = real.day;
 
     await WeatherSystem.init();
-  },
-
-  // ── Farní eventy — obyčejné rodiny (křest/svatba/pohřeb) ────────────────
-  // farnost-chronicon-reference.md sekce 2. Vlastní denní gate (ISO
-  // datum-string, mirror _reportActorFavorIfNewDay vzoru), NEZÁVISLÉ na
-  // GameState.week/weekBirths/weekDeaths (ty existují jen uvnitř
-  // runWeeklyEconomy a neperzistují). Anonymní — bez vazby na
-  // kteréhokoli z 10 core aktérů, žádné jméno se negeneruje zde
-  // (Scriptorium přiřadí příjmení při zobrazení, mirror totalFuneralEvents
-  // vzoru). Bez probost_only — rozhodnuto 27.7.2026, na rozdíl od sepultury.
-  FARNI_EVENT_TYPES: ['baptism', 'wedding', 'funeral'],
-  FARNI_EVENT_CHANCE: 0.4,
-
-  farniEventTick() {
-    const today = new Date().toISOString().slice(0, 10);
-    if (GameState._farniEventLastDay === today) return;
-    GameState._farniEventLastDay = today;
-
-    if (Math.random() >= GameEngine.FARNI_EVENT_CHANCE) return;
-
-    if (!GameState.pendingFarniEvents) GameState.pendingFarniEvents = [];
-    const types = GameEngine.FARNI_EVENT_TYPES;
-    const type = types[Math.floor(Math.random() * types.length)];
-    GameState.pendingFarniEvents.push({
-      id:   'farni_' + type + '_' + GameState.time.totalTick,
-      type: type,
-      tick: GameState.time.totalTick,
-    });
-    if (GameState.pendingFarniEvents.length > 10) GameState.pendingFarniEvents.shift();
   },
 
   // ── Týdenní ekonomika (port z Betlém runWeeklyTick, jádro) ──────────────
@@ -552,6 +518,23 @@ const GameEngine = {
     GameState.pendingPocestny = GameState.pendingPocestny.filter(
       p => (GameState.week - p.week) < 2
     );
+
+    // Farní životní události — sdílený vesnický pool (křest/svatba/pohřeb),
+    // anonymní jako pocestný, bez vazby na 10 core aktérů. Doplněk k
+    // lokálnímu Scriptorium poolu (parishEventTick), ne náhrada — kód
+    // v Scriptoriu (farnost-chronicon-reference.md) je na obojí připravený.
+    // ~15% šance/týden — mezi pocestný (18%) a studovna (8%). Cap 10, FIFO.
+    if (!GameState.pendingFarniEvents) GameState.pendingFarniEvents = [];
+    if (Math.random() < 0.15) {
+      const farniTypes = ['baptism', 'wedding', 'funeral'];
+      const farniType = farniTypes[Math.floor(Math.random() * farniTypes.length)];
+      GameState.pendingFarniEvents.push({
+        id: 'farni_' + farniType + '_' + GameState.week,
+        week: GameState.week,
+        farniType,
+      });
+      if (GameState.pendingFarniEvents.length > 10) GameState.pendingFarniEvents.shift();
+    }
 
     // 4b. Nástupnictví — mrtvý aktér NENÍ trvale mrtvý pro celý kraj (na
     // rozdíl od mnišské smrti ve Scriptoriu, kde je to schválně natrvalo).
