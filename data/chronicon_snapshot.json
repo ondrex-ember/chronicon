@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-29T17:20:31.873Z",
-  "valid_until": "2026-08-05T17:20:31.873Z",
+  "generated": "2026-07-29T23:02:08.360Z",
+  "valid_until": "2026-08-05T23:02:08.360Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,15 +21,15 @@
     "name_en": "Fasting Wednesday"
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
-    "tempC": 31,
-    "windKmH": 12,
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "tempC": 24,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -37,9 +37,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 59,
-    "total_tick": 29,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 59"
+    "day": 60,
+    "total_tick": 30,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 60"
   },
   "actors": [
     {
@@ -180,6 +180,49 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 30
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -617,6 +660,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
+      "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
+      "text_en": "From the Bohemian lands: fields that lay fallow during the Hussite wars are now at last sown again. Nigh thirty years it took ere the farmers returned. Land overgrown with briar yieldeth its harvest but slowly.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 30,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
+      "type": "B",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 30,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_en": "From the notes of the Zbraslav monks, transcribed for memory: The king arrived at the monastery unannounced, with four riders. The abbot gave him food and drink. The king asked nothing about resources, only about prayers. He departed the same night.",
@@ -831,33 +898,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
-    },
-    {
-      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
+      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
+      "type": "B",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 30,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
       "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
@@ -965,21 +1020,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
-      "text_cs": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
-      "text_en": "Brother cook complained about brother cellarer, and brother cellarer about the cook. The abbot heard them out and ordered them to praise each other's work for a whole week. Both now look as if they swallowed a stone.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 25,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
+      "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
+      "text_en": "From the Bohemian lands: fields that lay fallow during the Hussite wars are now at last sown again. Nigh thirty years it took ere the farmers returned. Land overgrown with briar yieldeth its harvest but slowly.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 30,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
       "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
@@ -1087,22 +1142,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 56
-    },
-    {
-      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 16,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
     }
   ],
   "church_calendar": {
-    "day_of_year": 149,
+    "day_of_year": 150,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
