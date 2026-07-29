@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-29T06:36:27.642Z",
-  "valid_until": "2026-08-05T06:36:27.642Z",
+  "generated": "2026-07-29T12:05:15.912Z",
+  "valid_until": "2026-08-05T12:05:15.912Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,12 +21,15 @@
     "name_en": "Fasting Wednesday"
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "tempC": 29,
+    "windKmH": 9,
+    "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 0.8,
     "modifier_wood": 1
   },
   "time": {
@@ -35,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 59,
-    "total_tick": 27,
+    "total_tick": 28,
     "date_string": "☀️ Léto, Léta Páně 1465, den 59"
   },
   "actors": [
@@ -45,9 +48,9 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 70,
+      "wealth": 87,
       "mood": 65,
-      "stores": 50,
+      "stores": 31,
       "status": "stable"
     },
     {
@@ -56,9 +59,9 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 55,
-      "mood": 60,
-      "stores": 45,
+      "wealth": 80,
+      "mood": 65,
+      "stores": 31,
       "status": "stable"
     },
     {
@@ -67,9 +70,9 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 50,
-      "mood": 65,
-      "stores": 40,
+      "wealth": 79,
+      "mood": 60,
+      "stores": 27,
       "status": "stable"
     },
     {
@@ -78,9 +81,9 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 30,
-      "mood": 50,
-      "stores": 30,
+      "wealth": 41,
+      "mood": 55,
+      "stores": 20,
       "status": "stable"
     },
     {
@@ -89,9 +92,9 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 45,
-      "mood": 60,
-      "stores": 20,
+      "wealth": 56,
+      "mood": 70,
+      "stores": 14,
       "status": "stable"
     },
     {
@@ -100,9 +103,9 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 40,
-      "mood": 55,
-      "stores": 30,
+      "wealth": 48,
+      "mood": 45,
+      "stores": 20,
       "status": "stable"
     },
     {
@@ -111,9 +114,9 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 50,
-      "mood": 55,
-      "stores": 25,
+      "wealth": 64,
+      "mood": 70,
+      "stores": 18,
       "status": "stable"
     },
     {
@@ -122,9 +125,9 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 35,
-      "mood": 55,
-      "stores": 35,
+      "wealth": 60,
+      "mood": 65,
+      "stores": 24,
       "status": "stable"
     },
     {
@@ -133,9 +136,9 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 65,
-      "mood": 50,
-      "stores": 60,
+      "wealth": 100,
+      "mood": 45,
+      "stores": 39,
       "status": "stable"
     },
     {
@@ -144,19 +147,86 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 35,
-      "mood": 60,
-      "stores": 40,
+      "wealth": 78,
+      "mood": 75,
+      "stores": 27,
       "status": "stable"
+    },
+    {
+      "id": "sklar",
+      "label": "Sklář",
+      "label_en": "The Glassmaker",
+      "profession": "Sklář",
+      "profession_en": "Glassmaker",
+      "wealth": 76,
+      "mood": 55,
+      "stores": 23,
+      "status": "stable",
+      "itemStock": {
+        "glass_goblet": 0.35,
+        "glass_vase": 0.12,
+        "glass_pitcher": 0.15,
+        "naramek_sklo_zeleny": 0.4,
+        "naramek_sklo_hnedy": 0.4,
+        "naramek_sklo_modry": 0.08
+      }
     }
   ],
   "region": {
-    "tension": 20,
+    "tension": 17,
     "goldenAge": false,
-    "totalFuneralEvents": 0
+    "totalFuneralEvents": 0,
+    "population": 10010
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 28
+    },
     {
       "id": "cletter_013",
       "seal": "village",
@@ -547,6 +617,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
       "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
@@ -749,45 +855,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 57
-    },
-    {
-      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
-      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
-      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 20,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
-    },
-    {
-      "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 19,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
-    },
-    {
-      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
-      "type": "A",
-      "icon": "⛓️",
-      "source": "local_events",
-      "tick": 19,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
     {
       "text": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
       "text_cs": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
@@ -883,33 +977,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
-      "type": "B",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 23,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
-    },
-    {
-      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
     {
       "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
@@ -1017,18 +1099,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 56
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_en": "From the Zbraslav Chronicle: Sorrowful news from Bohemia: Lord Oldřich of Krajk, a faithful knight of King George, fell in an ambush on the road from Prague to Jihlava. It is said he was lured by a false messenger and rode into a trap. His overlord recorded in the chronicle that loyalty to the king brought him to the bed of glory.",
-      "type": "D",
-      "icon": "💀",
-      "source": "distant_events",
-      "tick": 13,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
     }
   ],
   "church_calendar": {

@@ -4,13 +4,16 @@
     "season": 1,
     "day": 59,
     "daysPerSeason": 90,
-    "totalTick": 27
+    "totalTick": 28
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "tempC": 29,
+    "windKmH": 9,
+    "rainMm": 0
   },
   "virtue": {
     "value": 3,
@@ -20,13 +23,13 @@
   "profile": "ricni",
   "epoch": "pozdni",
   "estateName": "Olomoucké panství",
-  "week": 0,
-  "globalTension": 20,
+  "week": 1,
+  "globalTension": 17.049783549783548,
   "les": 60,
   "goldenAge": false,
   "goldenAgeTicks": 0,
   "rescueActionsLeft": 3,
-  "totalPopulation": 10000,
+  "totalPopulation": 10010,
   "totalDeaths": 0,
   "totalFuneralEvents": 0,
   "pendingSepulturas": [],
@@ -41,142 +44,152 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 70,
+      "wealth": 86.8,
       "mood": 65,
-      "stores": 50,
+      "stores": 31.200000000000003,
       "storesMax": 100,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "mlynar": 30,
-        "kovar": 20,
+        "mlynar": 30.6,
+        "kovar": 20.6,
         "uhlic": 10,
-        "vorar": 10,
+        "vorar": 10.6,
         "rybnikar": 20,
-        "prevoznik": 40,
-        "valach": 15,
+        "prevoznik": 40.6,
+        "valach": 15.6,
         "klaster": -10,
-        "vcelar": 10
+        "vcelar": 10.6,
+        "sklar": 10
       },
       "label_en": "The Lordship",
-      "profession_en": "Lord of the Manor"
+      "profession_en": "Lord of the Manor",
+      "_pulseReason": null
     },
     {
       "id": "mlynar",
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 55,
-      "mood": 60,
-      "stores": 45,
+      "wealth": 79.78,
+      "mood": 65,
+      "stores": 30.680000000000003,
       "storesMax": 90,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "vrchnost": 30,
-        "kovar": 40,
+        "vrchnost": 30.6,
+        "kovar": 40.6,
         "uhlic": 5,
-        "vorar": 20,
+        "vorar": 20.6,
         "rybnikar": -25,
-        "prevoznik": 10,
-        "valach": 0,
+        "prevoznik": 10.6,
+        "valach": 0.6,
         "klaster": 10,
-        "vcelar": 0
+        "vcelar": 0.6,
+        "sklar": 5
       },
       "label_en": "The Miller",
-      "profession_en": "Miller"
+      "profession_en": "Miller",
+      "_pulseReason": null
     },
     {
       "id": "kovar",
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 50,
-      "mood": 65,
-      "stores": 40,
+      "wealth": 78.7,
+      "mood": 60,
+      "stores": 26.65,
       "storesMax": 80,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "vrchnost": 20,
-        "mlynar": 40,
+        "vrchnost": 20.6,
+        "mlynar": 40.6,
         "uhlic": 50,
-        "vorar": 0,
+        "vorar": 0.6,
         "rybnikar": 0,
-        "prevoznik": 0,
-        "valach": 20,
+        "prevoznik": 0.6,
+        "valach": 20.6,
         "klaster": 0,
-        "vcelar": 15
+        "vcelar": 15.6,
+        "sklar": 20
       },
       "label_en": "The Blacksmith",
-      "profession_en": "Blacksmith"
+      "profession_en": "Blacksmith",
+      "_pulseReason": null
     },
     {
       "id": "uhlic",
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 30,
-      "mood": 50,
-      "stores": 30,
+      "wealth": 40.9375,
+      "mood": 55,
+      "stores": 20.3125,
       "storesMax": 70,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
         "vrchnost": 10,
         "mlynar": 5,
         "kovar": 50,
-        "vorar": 0,
+        "vorar": 0.6,
         "rybnikar": 0,
-        "prevoznik": 0,
+        "prevoznik": 0.6,
         "valach": 5,
         "klaster": 0,
-        "vcelar": 0
+        "vcelar": 0.6,
+        "sklar": 45
       },
       "label_en": "The Charcoal Burner",
-      "profession_en": "Charcoal Burner"
+      "profession_en": "Charcoal Burner",
+      "_pulseReason": null
     },
     {
       "id": "vorar",
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 45,
-      "mood": 60,
-      "stores": 20,
+      "wealth": 56.15625,
+      "mood": 70,
+      "stores": 13.8125,
       "storesMax": 50,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "vrchnost": 10,
-        "mlynar": 20,
-        "kovar": 0,
-        "uhlic": 0,
+        "vrchnost": 10.6,
+        "mlynar": 20.6,
+        "kovar": 0.6,
+        "uhlic": 0.6,
         "rybnikar": -30,
-        "prevoznik": 15,
-        "valach": 0,
+        "prevoznik": 15.6,
+        "valach": 0.6,
         "klaster": 0,
-        "vcelar": 0
+        "vcelar": 0.6,
+        "sklar": 0.6
       },
       "label_en": "The Raftsman",
-      "profession_en": "Raftsman"
+      "profession_en": "Raftsman",
+      "_pulseReason": null
     },
     {
       "id": "rybnikar",
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 40,
-      "mood": 55,
-      "stores": 30,
+      "wealth": 47.875,
+      "mood": 45,
+      "stores": 19.5,
       "storesMax": 70,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
         "vrchnost": 20,
@@ -187,74 +200,80 @@
         "prevoznik": 0,
         "valach": 0,
         "klaster": 45,
-        "vcelar": 0
+        "vcelar": 0,
+        "sklar": 0
       },
       "label_en": "The Pondkeeper",
-      "profession_en": "Pondkeeper"
+      "profession_en": "Pondkeeper",
+      "_pulseReason": null
     },
     {
       "id": "prevoznik",
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 50,
-      "mood": 55,
-      "stores": 25,
+      "wealth": 64.28,
+      "mood": 70,
+      "stores": 17.68,
       "storesMax": 60,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "vrchnost": 40,
-        "mlynar": 10,
-        "kovar": 0,
-        "uhlic": 0,
-        "vorar": 15,
+        "vrchnost": 40.6,
+        "mlynar": 10.6,
+        "kovar": 0.6,
+        "uhlic": 0.6,
+        "vorar": 15.6,
         "rybnikar": 0,
-        "valach": 0,
+        "valach": 0.6,
         "klaster": 0,
-        "vcelar": 0
+        "vcelar": 0.6,
+        "sklar": 10.6
       },
       "label_en": "The Ferryman",
-      "profession_en": "Toll Collector"
+      "profession_en": "Toll Collector",
+      "_pulseReason": null
     },
     {
       "id": "valach",
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 35,
-      "mood": 55,
-      "stores": 35,
+      "wealth": 60.375,
+      "mood": 65,
+      "stores": 23.5625,
       "storesMax": 70,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
-        "vrchnost": 15,
-        "mlynar": 0,
-        "kovar": 20,
+        "vrchnost": 15.6,
+        "mlynar": 0.6,
+        "kovar": 20.6,
         "uhlic": 5,
-        "vorar": 0,
+        "vorar": 0.6,
         "rybnikar": 0,
-        "prevoznik": 0,
+        "prevoznik": 0.6,
         "klaster": 20,
-        "vcelar": 0
+        "vcelar": 0.6,
+        "sklar": 0
       },
       "label_en": "The Shepherd",
-      "profession_en": "Shepherd"
+      "profession_en": "Shepherd",
+      "_pulseReason": null
     },
     {
       "id": "klaster",
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 65,
-      "mood": 50,
-      "stores": 60,
+      "wealth": 100,
+      "mood": 45,
+      "stores": 39.1625,
       "storesMax": 100,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
         "vrchnost": -10,
@@ -265,36 +284,76 @@
         "rybnikar": 45,
         "prevoznik": 0,
         "valach": 20,
-        "vcelar": 35
+        "vcelar": 35,
+        "sklar": 25
       },
       "label_en": "The Abbot",
-      "profession_en": "Abbot in the City"
+      "profession_en": "Abbot in the City",
+      "_pulseReason": null
     },
     {
       "id": "vcelar",
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 35,
-      "mood": 60,
-      "stores": 40,
+      "wealth": 78.365,
+      "mood": 75,
+      "stores": 26.845,
       "storesMax": 80,
       "status": "stable",
-      "ticksActive": 0,
+      "ticksActive": 1,
+      "ticksInCrisis": 0,
+      "relations": {
+        "vrchnost": 10.6,
+        "mlynar": 0.6,
+        "kovar": 15.6,
+        "uhlic": 0.6,
+        "vorar": 0.6,
+        "rybnikar": 0,
+        "prevoznik": 0.6,
+        "valach": 0.6,
+        "klaster": 35,
+        "sklar": 5.6
+      },
+      "label_en": "The Beekeeper",
+      "profession_en": "Beekeeper",
+      "_pulseReason": null
+    },
+    {
+      "id": "sklar",
+      "label": "Sklář",
+      "label_en": "The Glassmaker",
+      "profession": "Sklář",
+      "profession_en": "Glassmaker",
+      "core": true,
+      "wealth": 76.0625,
+      "mood": 55,
+      "stores": 23.075000000000003,
+      "storesMax": 75,
+      "status": "stable",
+      "ticksActive": 1,
       "ticksInCrisis": 0,
       "relations": {
         "vrchnost": 10,
-        "mlynar": 0,
-        "kovar": 15,
-        "uhlic": 0,
-        "vorar": 0,
+        "mlynar": 5,
+        "kovar": 20,
+        "uhlic": 45,
+        "vorar": 0.6,
         "rybnikar": 0,
-        "prevoznik": 0,
+        "prevoznik": 10.6,
         "valach": 0,
-        "klaster": 35
+        "klaster": 25,
+        "vcelar": 5.6
       },
-      "label_en": "The Beekeeper",
-      "profession_en": "Beekeeper"
+      "_pulseReason": null,
+      "itemStock": {
+        "glass_goblet": 0.35,
+        "glass_vase": 0.12,
+        "glass_pitcher": 0.15,
+        "naramek_sklo_zeleny": 0.4,
+        "naramek_sklo_hnedy": 0.4,
+        "naramek_sklo_modry": 0.08
+      }
     }
   ],
   "gm": {
@@ -316,6 +375,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 28,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
     {
       "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
@@ -1087,6 +1182,53 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 28
+    },
+    {
       "id": "cletter_013",
       "seal": "village",
       "type": "A",
@@ -1751,6 +1893,22 @@
     "porta_cletter_013": {
       "tick": 27,
       "text": "cletter_013"
+    },
+    "mono_134": {
+      "tick": 28,
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data."
+    },
+    "local_039": {
+      "tick": 28,
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města."
+    },
+    "praha_018": {
+      "tick": 28,
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval."
+    },
+    "porta_cletter_005": {
+      "tick": 28,
+      "text": "cletter_005"
     }
   },
   "flags": {
