@@ -4,13 +4,13 @@
     "season": 1,
     "day": 59,
     "daysPerSeason": 90,
-    "totalTick": 26
+    "totalTick": 27
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně."
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně."
   },
   "virtue": {
     "value": 3,
@@ -316,6 +316,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
+      "text_cs": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
+      "text_en": "After long negotiations, a peace agreement between the two feuding monarchs was solemnly sealed in Olomouc. Both Vladislaus Jagiellon and Matthias Corvinus retain the title of Czech king and have divided the rule over the Crown lands. The streets were filled with crowds hoping that the protracted wars have finally ceased.",
+      "type": "E",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 27,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
+    {
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
+      "type": "D",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 27,
+      "year": 1465,
+      "season": "Léto",
+      "day": 59
+    },
     {
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
       "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
@@ -1051,6 +1087,57 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_013",
+      "seal": "village",
+      "type": "A",
+      "icon": "🧂",
+      "tags": [
+        "sůl",
+        "kupec",
+        "cesta"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Potulný solný kupec",
+      "sender_en": "A Wandering Salt Merchant",
+      "title_cs": "Nabídka solného kupce",
+      "title_en": "A Salt Merchant's Offer",
+      "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
+      "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
+      "choices": [
+        {
+          "id": "buy",
+          "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)",
+          "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
+          "notify_cs": "Sůl uložena ve špižírně.",
+          "notify_en": "The salt is stored in the pantry.",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -8
+            },
+            {
+              "type": "item",
+              "id": "salt",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "id": "skip",
+          "label_cs": "🚪 Nechat ho jít dál",
+          "label_en": "🚪 Let him move on",
+          "notify_cs": "Kupec pokračoval na jih.",
+          "notify_en": "The merchant continued south.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 27
+    },
+    {
       "id": "cletter_007",
       "seal": "abbot",
       "type": "C",
@@ -1648,6 +1735,22 @@
     "local_066": {
       "tick": 26,
       "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna."
+    },
+    "mono_062": {
+      "tick": 27,
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní."
+    },
+    "local_285": {
+      "tick": 27,
+      "text": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly."
+    },
+    "mohuc_005": {
+      "tick": 27,
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí."
+    },
+    "porta_cletter_013": {
+      "tick": 27,
+      "text": "cletter_013"
     }
   },
   "flags": {
