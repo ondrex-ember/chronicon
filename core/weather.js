@@ -260,7 +260,7 @@ const WeatherSystem = {
       if (real) {
         const key = WeatherSystem._mapCodeToKey(real.code, real.tempC, season);
         const w = pool.find(x => x.key === key) || pool[0];
-        return WeatherSystem._set(w);
+        return WeatherSystem._set(w, real);
       }
     } catch (e) {
       // Síť/API nedostupné — tichý pád do náhodného rollu níž.
@@ -284,12 +284,17 @@ const WeatherSystem = {
 
   async _fetchReal() {
     if (typeof fetch !== 'function') return null;
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${WeatherSystem.LAT}&longitude=${WeatherSystem.LON}&current=temperature_2m,weather_code&timezone=auto`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${WeatherSystem.LAT}&longitude=${WeatherSystem.LON}&current=temperature_2m,weather_code,wind_speed_10m,precipitation&timezone=auto`;
     const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
     if (!res.ok) return null;
     const data = await res.json();
     if (!data || !data.current) return null;
-    return { code: data.current.weather_code, tempC: data.current.temperature_2m };
+    return {
+      code:    data.current.weather_code,
+      tempC:   data.current.temperature_2m,
+      windKmH: data.current.wind_speed_10m,
+      rainMm:  data.current.precipitation,
+    };
   },
 
   // WMO weather_code (Open-Meteo) → klíč existujícího POOLS záznamu pro
@@ -341,7 +346,10 @@ const WeatherSystem = {
 
   // Nastaví počasí, aktualizuje GameState.weather
   // Vrací chronicle text nebo null (místo volání GameLog.add)
-  _set(w) {
+  // `real` (volitelné) — {tempC, windKmH, rainMm} ze skutečného Open-Meteo
+  // fetchu; u fallback (náhodného) rollu se nepředává, pole zůstanou
+  // nedefinovaná (Scriptorium/admin typy je mají jako volitelné).
+  _set(w, real) {
     const prev = WeatherSystem.current;
     WeatherSystem.current = w;
 
@@ -351,6 +359,12 @@ const WeatherSystem = {
       icon: w.icon,
       desc: w.desc,
     };
+
+    if (real) {
+      if (typeof real.tempC === 'number')   GameState.weather.tempC   = Math.round(real.tempC);
+      if (typeof real.windKmH === 'number') GameState.weather.windKmH = Math.round(real.windKmH);
+      if (typeof real.rainMm === 'number')  GameState.weather.rainMm  = Math.round(real.rainMm * 10) / 10;
+    }
 
     if (w.chronicle && prev && prev.key !== w.key) {
       return `${w.icon} ${w.chronicle}`;
