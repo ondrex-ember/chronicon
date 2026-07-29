@@ -20,6 +20,7 @@ const { RegisterSystem }          = require('./register.js');
 const { RescueRegisterSystem }    = require('./rescue-register.js');
 const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
 const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
+const { ContactRelationRegisterSystem } = require('./contact-relation-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS, MATERIAL_REQUEST_POOL,
@@ -481,6 +482,23 @@ const GameEngine = {
       if (!target || target.status === 'mrtvy') return;
       target.mood   = Math.min(100, target.mood   + days * 2);
       target.wealth = Math.min(100, target.wealth + days * 1);
+    });
+
+    // 4a-quinter. Clientela↔Chronicon vážený vztahový report (Krok B,
+    // clientela-chronicon-most-mrd.md §5) — druhý, přesnější kanál vedle
+    // Actor Favor výš (ten zůstává, tenhle jen doplňuje). Relation 50 =
+    // neutrál, žádná změna; 100 = plný vztah, jemný kladný posun; 0 =
+    // žádný vztah, jemný záporný posun. Generický pro libovolného
+    // aktéra — přidání dalšího propojeného kontaktu na Scriptorium
+    // straně sem nevyžaduje žádnou další změnu.
+    actors.forEach(a => {
+      if (a.status === 'mrtvy') return;
+      const rel = ContactRelationRegisterSystem.readYesterdayAverage(a.id);
+      if (!rel) return;
+      const moodDelta   = (rel.avgRelation - 50) * 0.3;
+      const wealthDelta = (rel.avgRelation - 50) * 0.15;
+      a.mood   = Math.min(100, Math.max(0, a.mood   + moodDelta));
+      a.wealth = Math.min(100, Math.max(0, a.wealth + wealthDelta));
     });
 
     // Nová žádost o Studovnu — max 1 aktivní najednou (je to jeden
