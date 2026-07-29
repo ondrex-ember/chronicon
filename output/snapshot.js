@@ -81,6 +81,7 @@ const Snapshot = {
         tension:   Math.round(GameState.globalTension),
         goldenAge: GameState.goldenAge,
         totalFuneralEvents: GameState.totalFuneralEvents || 0,
+        population: GameState.totalPopulation,
       },
 
       // Kurátorované eventy pro Scriptorium (Sprint 3 dokončí spotřebu na
