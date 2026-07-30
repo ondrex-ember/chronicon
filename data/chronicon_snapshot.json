@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-29T23:02:08.360Z",
-  "valid_until": "2026-08-05T23:02:08.360Z",
+  "generated": "2026-07-30T06:32:32.940Z",
+  "valid_until": "2026-08-06T06:32:32.940Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,21 +15,17 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 24,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 22,
     "windKmH": 2,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -38,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 60,
-    "total_tick": 30,
+    "total_tick": 31,
     "date_string": "☀️ Léto, Léta Páně 1465, den 60"
   },
   "actors": [
@@ -660,6 +656,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
       "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
       "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
       "text_en": "From the Bohemian lands: fields that lay fallow during the Hussite wars are now at last sown again. Nigh thirty years it took ere the farmers returned. Land overgrown with briar yieldeth its harvest but slowly.",
@@ -862,45 +894,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
-      "text_cs": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
-      "text_en": "From Kroměříž: A bishop's official posted a strict ban on night-time drinking and dancing for all clergy on the church doors, under threat of losing their benefices. Three young vicars have already had to pay a fine of five groats.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
-    },
-    {
-      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
-      "type": "B",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 24,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
-    },
-    {
-      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
-      "type": "B",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 23,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
       "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
@@ -996,33 +1016,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 26,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 25,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
       "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
@@ -1130,18 +1138,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 57
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 17,
-      "year": 1465,
-      "season": "Léto",
-      "day": 56
     }
   ],
   "church_calendar": {

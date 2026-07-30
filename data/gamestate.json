@@ -4,14 +4,14 @@
     "season": 1,
     "day": 60,
     "daysPerSeason": 90,
-    "totalTick": 30
+    "totalTick": 31
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 24,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 22,
     "windKmH": 2,
     "rainMm": 0
   },
@@ -375,6 +375,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 31,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
       "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
@@ -2032,6 +2068,18 @@
     "zbras_013": {
       "tick": 30,
       "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu."
+    },
+    "anales_sel_002": {
+      "tick": 31,
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější."
+    },
+    "local_116": {
+      "tick": 31,
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami."
+    },
+    "zbras_009": {
+      "tick": 31,
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned."
     }
   },
   "flags": {
