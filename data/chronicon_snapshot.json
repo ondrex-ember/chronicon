@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-30T17:41:06.014Z",
-  "valid_until": "2026-08-06T17:41:06.014Z",
+  "generated": "2026-07-30T23:12:27.540Z",
+  "valid_until": "2026-08-06T23:12:27.540Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,25 +17,25 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 36,
-    "windKmH": 6,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 27,
+    "windKmH": 17,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 60,
-    "total_tick": 33,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 60"
+    "day": 61,
+    "total_tick": 34,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 61"
   },
   "actors": [
     {
@@ -695,6 +695,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
+      "text_cs": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
+      "text_en": "That year mansionaries were instituted at the Prague church; the first bishop of Litomyšl was confirmed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
@@ -897,45 +933,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
-      "type": "D",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 27,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 26,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 26,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
       "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
@@ -1031,33 +1055,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
-      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
-      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 28,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
-      "text_cs": "Po dlouhých jednáních byla v Olomouci slavnostně zpečetěna mírová dohoda mezi oběma znesvářenými panovníky. Vladislav Jagellonský i Matyáš Korvín si ponechávají titul českého krále a rozdělili si vládu nad zeměmi Koruny. Ulice zaplnily davy lidí doufajících, že vleklé války konečně ustaly.",
-      "text_en": "After long negotiations, a peace agreement between the two feuding monarchs was solemnly sealed in Olomouc. Both Vladislaus Jagiellon and Matthias Corvinus retain the title of Czech king and have divided the rule over the Crown lands. The streets were filled with crowds hoping that the protracted wars have finally ceased.",
-      "type": "E",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 27,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
+      "text_cs": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
+      "text_en": "That year mansionaries were instituted at the Prague church; the first bishop of Litomyšl was confirmed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 34,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
@@ -1165,22 +1177,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 22,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "church_calendar": {
-    "day_of_year": 150,
+    "day_of_year": 151,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
