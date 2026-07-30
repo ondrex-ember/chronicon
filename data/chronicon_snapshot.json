@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-30T06:32:32.940Z",
-  "valid_until": "2026-08-06T06:32:32.940Z",
+  "generated": "2026-07-30T11:55:23.013Z",
+  "valid_until": "2026-08-06T11:55:23.013Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 22,
-    "windKmH": 2,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 35,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 60,
-    "total_tick": 31,
+    "total_tick": 32,
     "date_string": "☀️ Léto, Léta Páně 1465, den 60"
   },
   "actors": [
@@ -176,6 +176,45 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_006",
+      "seal": "scholars",
+      "type": "B",
+      "icon": "🎨",
+      "tags": [
+        "lazurit",
+        "pigmenty",
+        "benátky"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Giacomo Foscari",
+      "sender_en": "Giacomo Foscari",
+      "title_cs": "Varování Giacoma Foscariho",
+      "title_en": "A Warning from Giacomo Foscari",
+      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+      "choices": [
+        {
+          "id": "note",
+          "label_cs": "📜 Vzít na vědomí",
+          "label_en": "📜 Take note",
+          "notify_cs": "Zvěst uložena v paměti celeráře.",
+          "notify_en": "The rumor is filed in the cellarer's memory.",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "giacomo",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 32
+    },
     {
       "id": "cletter_011",
       "seal": "church",
@@ -656,6 +695,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
@@ -870,33 +933,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 58
-    },
-    {
-      "text": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
-      "text_cs": "Bratr kuchař si stěžoval na bratra sklepmistra, a bratr sklepmistr na kuchaře. Opat je vyslechl a přikázal jim navzájem si chválit svou práci celý týden. Oba nyní vypadají, jako by spolkli kámen.",
-      "text_en": "Brother cook complained about brother cellarer, and brother cellarer about the cook. The abbot heard them out and ordered them to praise each other's work for a whole week. Both now look as if they swallowed a stone.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 25,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
-    },
-    {
-      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 24,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
       "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
@@ -1004,21 +1055,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_cs": "Z mohelnické radnice: Pekařský mistr Klement byl usvědčen z pečení podměrečných bochníků a míchání pilin do mouky. Purkmistr ho nechal vsadit do potupné klece na tržišti. Jeho pec byla dočasně zapečetěna.",
-      "text_en": "From the Mohelnice town hall: Master baker Klement was convicted of baking underweight loaves and mixing sawdust into the flour. The burgomaster had him put in the pillory in the marketplace. His oven was temporarily sealed.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 26,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
@@ -1123,18 +1174,6 @@
       "icon": "🤝",
       "source": "distant_events",
       "tick": 20,
-      "year": 1465,
-      "season": "Léto",
-      "day": 57
-    },
-    {
-      "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 19,
       "year": 1465,
       "season": "Léto",
       "day": 57

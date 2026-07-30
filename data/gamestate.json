@@ -4,15 +4,15 @@
     "season": 1,
     "day": 60,
     "daysPerSeason": 90,
-    "totalTick": 31
+    "totalTick": 32
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 22,
-    "windKmH": 2,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 35,
+    "windKmH": 9,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
+      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
+      "type": "C",
+      "icon": "🛠️",
+      "source": "distant_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
+    {
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 32,
+      "year": 1465,
+      "season": "Léto",
+      "day": 60
+    },
     {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
@@ -1278,6 +1302,45 @@
   ],
   "portaLetterHistory": [
     {
+      "id": "cletter_006",
+      "seal": "scholars",
+      "type": "B",
+      "icon": "🎨",
+      "tags": [
+        "lazurit",
+        "pigmenty",
+        "benátky"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Giacomo Foscari",
+      "sender_en": "Giacomo Foscari",
+      "title_cs": "Varování Giacoma Foscariho",
+      "title_en": "A Warning from Giacomo Foscari",
+      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+      "choices": [
+        {
+          "id": "note",
+          "label_cs": "📜 Vzít na vědomí",
+          "label_en": "📜 Take note",
+          "notify_cs": "Zvěst uložena v paměti celeráře.",
+          "notify_en": "The rumor is filed in the cellarer's memory.",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "giacomo",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 32
+    },
+    {
       "id": "cletter_011",
       "seal": "church",
       "type": "C",
@@ -2080,6 +2143,18 @@
     "zbras_009": {
       "tick": 31,
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned."
+    },
+    "local_177": {
+      "tick": 32,
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí."
+    },
+    "mohuc_006": {
+      "tick": 32,
+      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor."
+    },
+    "porta_cletter_006": {
+      "tick": 32,
+      "text": "cletter_006"
     }
   },
   "flags": {
