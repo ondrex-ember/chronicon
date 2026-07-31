@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-31T12:04:14.364Z",
-  "valid_until": "2026-08-07T12:04:14.364Z",
+  "generated": "2026-07-31T17:44:58.611Z",
+  "valid_until": "2026-08-07T17:44:58.611Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,16 +21,16 @@
     "name_en": "Fasting Friday"
   },
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 34,
-    "windKmH": 4,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 30,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 61,
-    "total_tick": 36,
+    "total_tick": 37,
     "date_string": "☀️ Léto, Léta Páně 1465, den 61"
   },
   "actors": [
@@ -180,6 +180,63 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 37
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -699,6 +756,18 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
+      "type": "B",
+      "icon": "☀️",
+      "source": "local_events",
+      "tick": 37,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
@@ -925,21 +994,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 29,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
+      "type": "B",
+      "icon": "☀️",
+      "source": "local_events",
+      "tick": 37,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
       "text_cs": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
@@ -1044,18 +1113,6 @@
       "icon": "🦗",
       "source": "monastery_internal",
       "tick": 31,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
-      "type": "B",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 30,
       "year": 1465,
       "season": "Léto",
       "day": 60
