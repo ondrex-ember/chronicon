@@ -4,15 +4,15 @@
     "season": 1,
     "day": 61,
     "daysPerSeason": 90,
-    "totalTick": 34
+    "totalTick": 35
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 27,
-    "windKmH": 17,
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "tempC": 25,
+    "windKmH": 2,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
+      "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
+      "text_en": "That year the Taborites and Orphans took many towns in Silesia.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 35,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 35,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 35,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
       "text_cs": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
@@ -1298,42 +1334,6 @@
       "year": 1465,
       "season": "Jaro",
       "day": 1
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
-    },
-    {
-      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 1,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 1,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "portaLetterHistory": [
@@ -2081,7 +2081,7 @@
       "text": "cletter_015"
     },
     "mono_127": {
-      "tick": 24,
+      "tick": 35,
       "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění."
     },
     "local_079": {
@@ -2207,6 +2207,14 @@
     "letopisy_006": {
       "tick": 34,
       "text": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest."
+    },
+    "local_183": {
+      "tick": 35,
+      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry."
+    },
+    "letopisy_055": {
+      "tick": 35,
+      "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú."
     }
   },
   "flags": {
