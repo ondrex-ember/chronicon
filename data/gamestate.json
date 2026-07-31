@@ -2,18 +2,18 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 61,
+    "day": 62,
     "daysPerSeason": 90,
-    "totalTick": 37
+    "totalTick": 38
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 30,
-    "windKmH": 13,
-    "rainMm": 0
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 26,
+    "windKmH": 18,
+    "rainMm": 0.1
   },
   "virtue": {
     "value": 3,
@@ -375,6 +375,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
+      "type": "C",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
+      "type": "B",
+      "icon": "🐄",
+      "source": "local_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
       "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
@@ -1298,45 +1334,55 @@
       "year": 1465,
       "season": "Léto",
       "day": 53
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
-      "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
-      "type": "C",
-      "icon": "🗿",
-      "source": "distant_events",
-      "tick": 4,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
-      "text_cs": "Léta MCCCCXIII den svatého Alexie kněz Konrad Němec přijat jest za arcibiskupa pražského.",
-      "text_en": "In 1413, on St Alexius's day, Conrad the German was received as Archbishop of Prague.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 3,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
-      "text_cs": "Navzdory tlaku uherských vojsk a katolické opozice zůstávají města Uničov a Uherské Hradiště věrná králi Jiřímu. Zbrojíři v obou městech pracují dnem i nocí na výrobě samostřílů a opravách hradeb. Purkmistři odmítají vydat brány do rukou Korvínových žoldnéřů.",
-      "text_en": "Despite pressure from Hungarian troops and the Catholic opposition, the towns of Uničov and Uherské Hradiště remain loyal to King George. Armorers in both towns work day and night making crossbows and repairing walls. The burgomasters refuse to hand over the gates to Corvinus's mercenaries.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 3,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 38
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -2086,7 +2132,7 @@
       "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři."
     },
     "porta_cletter_009": {
-      "tick": 18,
+      "tick": 38,
       "text": "cletter_009"
     },
     "mono_129": {
@@ -2284,6 +2330,18 @@
     "local_089": {
       "tick": 37,
       "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček."
+    },
+    "mono_125": {
+      "tick": 38,
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas."
+    },
+    "local_069": {
+      "tick": 38,
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování."
+    },
+    "praha_019": {
+      "tick": 38,
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku."
     }
   },
   "flags": {

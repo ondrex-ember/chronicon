@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-31T17:44:58.611Z",
-  "valid_until": "2026-08-07T17:44:58.611Z",
+  "generated": "2026-07-31T23:07:40.193Z",
+  "valid_until": "2026-08-07T23:07:40.193Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,15 +21,15 @@
     "name_en": "Fasting Friday"
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 30,
-    "windKmH": 13,
-    "rainMm": 0,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 26,
+    "windKmH": 18,
+    "rainMm": 0.1,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -37,9 +37,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 61,
-    "total_tick": 37,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 61"
+    "day": 62,
+    "total_tick": 38,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 62"
   },
   "actors": [
     {
@@ -180,6 +180,52 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 38
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -756,6 +802,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
+      "type": "C",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
+      "type": "B",
+      "icon": "🐄",
+      "source": "local_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
       "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
       "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
       "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
@@ -958,45 +1040,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
-      "type": "B",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 30,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
-      "text_cs": "Ze zápisků zbraslavských mnichů, přepsaných pro pamět: Král přijel do kláštera bez ohlášení, se čtyřmi jezdci. Opat mu dal jíst a pít. Král se neptal na zdroje, jen na modlitby. Odjel ještě téže noci.",
-      "text_en": "From the notes of the Zbraslav monks, transcribed for memory: The king arrived at the monastery unannounced, with four riders. The abbot gave him food and drink. The king asked nothing about resources, only about prayers. He departed the same night.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 29,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 29,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
+      "type": "B",
+      "icon": "🐄",
+      "source": "local_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
       "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
@@ -1092,33 +1162,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 31,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 31,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
+      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
+      "type": "C",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 38,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
@@ -1226,22 +1284,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
-      "type": "B",
-      "icon": "⚙️",
-      "source": "distant_events",
-      "tick": 27,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "church_calendar": {
-    "day_of_year": 151,
+    "day_of_year": 152,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
