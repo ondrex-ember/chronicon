@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-31T06:49:29.131Z",
-  "valid_until": "2026-08-07T06:49:29.131Z",
+  "generated": "2026-07-31T12:04:14.364Z",
+  "valid_until": "2026-08-07T12:04:14.364Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,16 +21,16 @@
     "name_en": "Fasting Friday"
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 25,
-    "windKmH": 2,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 34,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 61,
-    "total_tick": 35,
+    "total_tick": 36,
     "date_string": "☀️ Léto, Léta Páně 1465, den 61"
   },
   "actors": [
@@ -699,6 +699,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_cs": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_en": "Reports from Bruntál: A detachment of hired mercenaries has not received pay for the third month and threatens to plunder manors in the area. The town guard reinforced wall patrols, and aldermen are hastily gathering silver to pay the soldiers.",
+      "type": "B",
+      "icon": "😠",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
       "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
       "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
       "text_en": "That year the Taborites and Orphans took many towns in Silesia.",
@@ -913,33 +937,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 28,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 28,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_cs": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_en": "Reports from Bruntál: A detachment of hired mercenaries has not received pay for the third month and threatens to plunder manors in the area. The town guard reinforced wall patrols, and aldermen are hastily gathering silver to pay the soldiers.",
+      "type": "B",
+      "icon": "😠",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
@@ -1047,21 +1059,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 29,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
       "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
@@ -1169,18 +1181,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 59
-    },
-    {
-      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
-      "type": "C",
-      "icon": "🖨️",
-      "source": "distant_events",
-      "tick": 25,
-      "year": 1465,
-      "season": "Léto",
-      "day": 58
     }
   ],
   "church_calendar": {

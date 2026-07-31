@@ -4,15 +4,15 @@
     "season": 1,
     "day": 61,
     "daysPerSeason": 90,
-    "totalTick": 35
+    "totalTick": 36
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 25,
-    "windKmH": 2,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 34,
+    "windKmH": 4,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
+    {
+      "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_cs": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
+      "text_en": "Reports from Bruntál: A detachment of hired mercenaries has not received pay for the third month and threatens to plunder manors in the area. The town guard reinforced wall patrols, and aldermen are hastily gathering silver to pay the soldiers.",
+      "type": "B",
+      "icon": "😠",
+      "source": "local_events",
+      "tick": 36,
+      "year": 1465,
+      "season": "Léto",
+      "day": 61
+    },
     {
       "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
       "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
@@ -1310,30 +1334,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 53
-    },
-    {
-      "text": "☀️ Léto Léta Páně 1465 začíná.",
-      "text_cs": "☀️ Léto Léta Páně 1465 začíná.",
-      "text_en": null,
-      "type": "A",
-      "icon": "☀️",
-      "source": "engine",
-      "tick": 3,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 2,
-      "year": 1465,
-      "season": "Jaro",
-      "day": 1
     }
   ],
   "portaLetterHistory": [
@@ -2215,6 +2215,14 @@
     "letopisy_055": {
       "tick": 35,
       "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú."
+    },
+    "local_153": {
+      "tick": 36,
+      "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků."
+    },
+    "praha_004": {
+      "tick": 36,
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid."
     }
   },
   "flags": {
