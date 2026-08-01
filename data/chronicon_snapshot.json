@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-07-31T23:07:40.193Z",
-  "valid_until": "2026-08-07T23:07:40.193Z",
+  "generated": "2026-08-01T06:34:45.515Z",
+  "valid_until": "2026-08-08T06:34:45.515Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,21 +15,17 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
-    "tempC": 26,
-    "windKmH": 18,
-    "rainMm": 0.1,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 24,
+    "windKmH": 9,
+    "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -38,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 62,
-    "total_tick": 38,
+    "total_tick": 39,
     "date_string": "☀️ Léto, Léta Páně 1465, den 62"
   },
   "actors": [
@@ -802,6 +798,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_cs": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_en": "From Brno: The price of Italian silk and brocades dropped thanks to a safer route through the Alpine passes. Wealthy patrician families are ordering new festive garments in droves. Local tailors are overwhelmed with work.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
@@ -1016,33 +1036,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 31,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
-      "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
-      "text_en": "From the Bohemian lands: fields that lay fallow during the Hussite wars are now at last sown again. Nigh thirty years it took ere the farmers returned. Land overgrown with briar yieldeth its harvest but slowly.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 30,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_cs": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_en": "From Brno: The price of Italian silk and brocades dropped thanks to a safer route through the Alpine passes. Wealthy patrician families are ordering new festive garments in droves. Local tailors are overwhelmed with work.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
       "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
@@ -1150,21 +1158,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
-      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
-      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 32,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
@@ -1269,18 +1277,6 @@
       "icon": "👑",
       "source": "distant_events",
       "tick": 29,
-      "year": 1465,
-      "season": "Léto",
-      "day": 59
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 28,
       "year": 1465,
       "season": "Léto",
       "day": 59

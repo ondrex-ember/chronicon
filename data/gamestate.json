@@ -4,16 +4,16 @@
     "season": 1,
     "day": 62,
     "daysPerSeason": 90,
-    "totalTick": 38
+    "totalTick": 39
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
-    "tempC": 26,
-    "windKmH": 18,
-    "rainMm": 0.1
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 24,
+    "windKmH": 9,
+    "rainMm": 0
   },
   "virtue": {
     "value": 3,
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_cs": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
+      "text_en": "From Brno: The price of Italian silk and brocades dropped thanks to a safer route through the Alpine passes. Wealthy patrician families are ordering new festive garments in droves. Local tailors are overwhelmed with work.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 39,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
       "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
@@ -1306,30 +1330,6 @@
       "type": "A",
       "icon": "💰",
       "source": "distant_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_cs": "Dřevorubec Klement kácel starý dub na okraji hvozdu. Strom se nečekaně rozštípl a kmen jej zavalil. Vyproštění trvalo půl dne, přičemž Klement svým zraněním nakonec podlehl.",
-      "text_en": "Klement the woodcutter was felling an old oak on the edge of the forest. The tree unexpectedly splintered, and the trunk crushed him. Extraction took half a day, with Klement ultimately succumbing to his injuries.",
-      "type": "A",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 5,
-      "year": 1465,
-      "season": "Léto",
-      "day": 53
-    },
-    {
-      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
-      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
-      "type": "B",
-      "icon": "📖",
-      "source": "monastery_internal",
       "tick": 5,
       "year": 1465,
       "season": "Léto",
@@ -2342,6 +2342,14 @@
     "praha_019": {
       "tick": 38,
       "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku."
+    },
+    "local_155": {
+      "tick": 39,
+      "text": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu."
+    },
+    "praha_015": {
+      "tick": 39,
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího."
     }
   },
   "flags": {
