@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-01T11:21:39.286Z",
-  "valid_until": "2026-08-08T11:21:39.286Z",
+  "generated": "2026-08-01T17:06:19.666Z",
+  "valid_until": "2026-08-08T17:06:19.666Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,15 +17,15 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 26,
-    "windKmH": 10,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 22,
+    "windKmH": 17,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 62,
-    "total_tick": 40,
+    "total_tick": 41,
     "date_string": "☀️ Léto, Léta Páně 1465, den 62"
   },
   "actors": [
@@ -176,6 +176,52 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_012",
+      "seal": "scholars",
+      "type": "A",
+      "icon": "🌙",
+      "tags": [
+        "kalendář",
+        "astronomie"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Žák z olomoucké katedrální školy",
+      "sender_en": "A Pupil of the Olomouc Cathedral School",
+      "title_cs": "Otázka žáka na výpočet Velikonoc",
+      "title_en": "A Pupil's Question on the Reckoning of Easter",
+      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+      "choices": [
+        {
+          "id": "teach",
+          "label_cs": "🌙 Vysvětlit výpočet",
+          "label_en": "🌙 Explain the reckoning",
+          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+          "notify_en": "The pupil left the wiser. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
+          "label_en": "⏳ No time to spare — let him ask elsewhere",
+          "notify_cs": "Žák odešel zklamaný.",
+          "notify_en": "The pupil left disappointed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 41
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -840,6 +886,30 @@
   ],
   "chronicle": [
     {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
@@ -1054,33 +1124,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 60
-    },
-    {
-      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
-      "type": "C",
-      "icon": "🪨",
-      "source": "local_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_cs": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor.",
-      "text_en": "From Mainz came a report: that inventor is said to be at law with his own partner over the machine itself, for a debt unpaid. The merchants marvel that so wondrous a thing can end in a quarrel over money, like any other craftsman's dispute.",
-      "type": "C",
-      "icon": "🛠️",
-      "source": "distant_events",
-      "tick": 32,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
       "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
@@ -1173,30 +1243,6 @@
       "icon": "✝️",
       "source": "local_events",
       "tick": 35,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
-      "type": "B",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 35,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 34,
       "year": 1465,
       "season": "Léto",
       "day": 61

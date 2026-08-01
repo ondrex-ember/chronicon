@@ -4,15 +4,15 @@
     "season": 1,
     "day": 62,
     "daysPerSeason": 90,
-    "totalTick": 40
+    "totalTick": 41
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 26,
-    "windKmH": 10,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 22,
+    "windKmH": 17,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 41,
+      "year": 1465,
+      "season": "Léto",
+      "day": 62
+    },
     {
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
@@ -1310,33 +1334,55 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_cs": "Z Janova: Připluly dvě benátské galéry z Levanty. Přivezly pepř, šafrán a zprávy, že cesty přes Anatolii jsou opět nebezpečné. Ceny koření porostou. Nakupuj nyní, dokud zásoby drží.",
-      "text_en": "From Genoa: Two Venetian galleys arrived from the Levant. They brought pepper, saffron, and news that routes through Anatolia are dangerous again. Spice prices will rise. Buy now while stocks hold.",
-      "type": "C",
-      "icon": "⚓",
-      "source": "distant_events",
-      "tick": 6,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_012",
+      "seal": "scholars",
+      "type": "A",
+      "icon": "🌙",
+      "tags": [
+        "kalendář",
+        "astronomie"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Žák z olomoucké katedrální školy",
+      "sender_en": "A Pupil of the Olomouc Cathedral School",
+      "title_cs": "Otázka žáka na výpočet Velikonoc",
+      "title_en": "A Pupil's Question on the Reckoning of Easter",
+      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+      "choices": [
+        {
+          "id": "teach",
+          "label_cs": "🌙 Vysvětlit výpočet",
+          "label_en": "🌙 Explain the reckoning",
+          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+          "notify_en": "The pupil left the wiser. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
+          "label_en": "⏳ No time to spare — let him ask elsewhere",
+          "notify_cs": "Žák odešel zklamaný.",
+          "notify_en": "The pupil left disappointed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 41
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -2400,6 +2446,18 @@
     "letopisy_010": {
       "tick": 40,
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest."
+    },
+    "anales_sel_019": {
+      "tick": 41,
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba."
+    },
+    "local_162": {
+      "tick": 41,
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji."
+    },
+    "porta_cletter_012": {
+      "tick": 41,
+      "text": "cletter_012"
     }
   },
   "flags": {
