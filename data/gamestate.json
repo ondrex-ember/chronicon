@@ -2,17 +2,17 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 62,
+    "day": 63,
     "daysPerSeason": 90,
-    "totalTick": 41
+    "totalTick": 42
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
-    "tempC": 22,
-    "windKmH": 17,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 18,
+    "windKmH": 8,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
@@ -1310,33 +1334,47 @@
       "year": 1465,
       "season": "Léto",
       "day": 54
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
-      "text_cs": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů.",
-      "text_en": "During Sunday service, the priest read a special decree from the bishop aimed against Hussite followers in the region. Anyone reading heretical books will be subject to exile. This stirred whispers among the people and fear of potential secret informers.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 7,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_007",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "tags": [
+        "opat",
+        "sesterský klášter"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Opat sesterského kláštera",
+      "sender_en": "The Abbot of a Sister House",
+      "title_cs": "Pozdrav od sesterského opatství",
+      "title_en": "Greetings from a Sister Abbey",
+      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
+          "label_en": "🕊️ Return the bond of prayer",
+          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+          "notify_en": "The bond is confirmed. (Ecclesia +2)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 42
+    },
     {
       "id": "cletter_012",
       "seal": "scholars",
@@ -2296,7 +2334,7 @@
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali."
     },
     "porta_cletter_007": {
-      "tick": 25,
+      "tick": 42,
       "text": "cletter_007"
     },
     "refect_ex_004": {
@@ -2458,6 +2496,14 @@
     "porta_cletter_012": {
       "tick": 41,
       "text": "cletter_012"
+    },
+    "mono_107": {
+      "tick": 42,
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy."
+    },
+    "local_151": {
+      "tick": 42,
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář."
     }
   },
   "flags": {

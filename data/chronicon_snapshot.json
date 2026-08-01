@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-01T17:06:19.666Z",
-  "valid_until": "2026-08-08T17:06:19.666Z",
+  "generated": "2026-08-01T22:58:40.556Z",
+  "valid_until": "2026-08-08T22:58:40.556Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,15 +17,15 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
-    "tempC": 22,
-    "windKmH": 17,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 18,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -33,9 +33,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 62,
-    "total_tick": 41,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 62"
+    "day": 63,
+    "total_tick": 42,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 63"
   },
   "actors": [
     {
@@ -176,6 +176,44 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_007",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "tags": [
+        "opat",
+        "sesterský klášter"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Opat sesterského kláštera",
+      "sender_en": "The Abbot of a Sister House",
+      "title_cs": "Pozdrav od sesterského opatství",
+      "title_en": "Greetings from a Sister Abbey",
+      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
+          "label_en": "🕊️ Return the bond of prayer",
+          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+          "notify_en": "The bond is confirmed. (Ecclesia +2)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 42
+    },
     {
       "id": "cletter_012",
       "seal": "scholars",
@@ -886,6 +924,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
@@ -1100,33 +1162,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 61
-    },
-    {
-      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
-      "type": "D",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 34,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 33,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
+      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 42,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
@@ -1219,30 +1281,6 @@
       "icon": "☀️",
       "source": "local_events",
       "tick": 37,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
-      "text_cs": "Z Bruntálu hlásí: Oddíl najatých žoldnéřů už třetí měsíc nedostal žold a hrozí, že začne plenit panská sídla v okolí. Městská stráž zesílila hlídky na hradbách a konšelé narychlo shánějí stříbro na vyplacení vojáků.",
-      "text_en": "Reports from Bruntál: A detachment of hired mercenaries has not received pay for the third month and threatens to plunder manors in the area. The town guard reinforced wall patrols, and aldermen are hastily gathering silver to pay the soldiers.",
-      "type": "B",
-      "icon": "😠",
-      "source": "local_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 35,
       "year": 1465,
       "season": "Léto",
       "day": 61
@@ -1371,7 +1409,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 152,
+    "day_of_year": 153,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
