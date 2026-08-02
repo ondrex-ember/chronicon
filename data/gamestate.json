@@ -4,15 +4,15 @@
     "season": 1,
     "day": 63,
     "daysPerSeason": 90,
-    "totalTick": 44
+    "totalTick": 45
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 24,
-    "windKmH": 5,
+    "tempC": 27,
+    "windKmH": 9,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
+      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
+      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
+      "type": "C",
+      "icon": "🌿",
+      "source": "distant_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
+      "text_cs": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
+      "text_en": "From Lipník: A rare guest from Venice unpacked his goods full of exotic spices in the marketplace. The smell of cinnamon and ginger attracted crowds, but prices are astronomical for common folk. Only nobles and monasteries are buying.",
+      "type": "C",
+      "icon": "🏺",
+      "source": "local_events",
+      "tick": 45,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
@@ -1310,30 +1334,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 55
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 10,
-      "year": 1465,
-      "season": "Léto",
-      "day": 55
-    },
-    {
-      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 9,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
     }
   ],
   "portaLetterHistory": [
@@ -2512,6 +2512,14 @@
     "datini_022": {
       "tick": 44,
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb."
+    },
+    "local_112": {
+      "tick": 45,
+      "text": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery."
+    },
+    "zbras_025": {
+      "tick": 45,
+      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé."
     }
   },
   "flags": {
