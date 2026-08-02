@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-01T22:58:40.556Z",
-  "valid_until": "2026-08-08T22:58:40.556Z",
+  "generated": "2026-08-02T06:38:16.954Z",
+  "valid_until": "2026-08-09T06:38:16.954Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,8 +21,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 8,
+    "tempC": 17,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 63,
-    "total_tick": 42,
+    "total_tick": 43,
     "date_string": "☀️ Léto, Léta Páně 1465, den 63"
   },
   "actors": [
@@ -924,6 +924,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_cs": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_en": "From Fulnek: Wagons loaded with brightly colored cloth from Wrocław arrived in the town. The price of blue and red linen is so high that only the wealthiest patricians can afford it.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
       "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
       "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
       "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
@@ -1138,33 +1162,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 61
-    },
-    {
-      "text": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
-      "text_cs": "Léta téhož zjednáni jsú mansionáři v Kostele pražském. Téhož léta biskup litomyský první potvrzen jest.",
-      "text_en": "That year mansionaries were instituted at the Prague church; the first bishop of Litomyšl was confirmed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 34,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 34,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_cs": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_en": "From Fulnek: Wagons loaded with brightly colored cloth from Wrocław arrived in the town. The price of blue and red linen is so high that only the wealthiest patricians can afford it.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
       "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
@@ -1272,21 +1284,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 62
-    },
-    {
-      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
-      "type": "B",
-      "icon": "☀️",
-      "source": "local_events",
-      "tick": 37,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
@@ -1391,18 +1403,6 @@
       "icon": "🔥",
       "source": "distant_events",
       "tick": 31,
-      "year": 1465,
-      "season": "Léto",
-      "day": 60
-    },
-    {
-      "text": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
-      "text_cs": "Z českých zemí: Pole, jež za válek husitských ležela ladem, nyní konečně znovu osetá jsou. Trvalo to skoro třicet let, než se sedláci vrátili. Země zarostlá býv šípkem nesnadno vydává úrodu.",
-      "text_en": "From the Bohemian lands: fields that lay fallow during the Hussite wars are now at last sown again. Nigh thirty years it took ere the farmers returned. Land overgrown with briar yieldeth its harvest but slowly.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 30,
       "year": 1465,
       "season": "Léto",
       "day": 60

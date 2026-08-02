@@ -4,15 +4,15 @@
     "season": 1,
     "day": 63,
     "daysPerSeason": 90,
-    "totalTick": 42
+    "totalTick": 43
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 8,
+    "tempC": 17,
+    "windKmH": 5,
     "rainMm": 0
   },
   "virtue": {
@@ -375,6 +375,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
+    {
+      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_cs": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
+      "text_en": "From Fulnek: Wagons loaded with brightly colored cloth from Wrocław arrived in the town. The price of blue and red linen is so high that only the wealthiest patricians can afford it.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 43,
+      "year": 1465,
+      "season": "Léto",
+      "day": 63
+    },
     {
       "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
       "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
@@ -1307,30 +1331,6 @@
       "icon": "⚖️",
       "source": "local_events",
       "tick": 9,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Léta téhož v sobotu před sv. Margretú Bielina město ot pražan dobyto jest a Němci na hrad utekli, kteřížto nazajtří dobyti jsú, a mnozí kněžie a rytieři spáleni. V ty časy byl Žižka oblehl Rabie hrad a tu jest zástřelem zbyl druhého oka.",
-      "text_cs": "Léta téhož v sobotu před sv. Margretú Bielina město ot pražan dobyto jest a Němci na hrad utekli, kteřížto nazajtří dobyti jsú, a mnozí kněžie a rytieři spáleni. V ty časy byl Žižka oblehl Rabie hrad a tu jest zástřelem zbyl druhého oka.",
-      "text_en": "That year, on the Saturday before St Margaret, the town of Bílina was taken by the Praguers; the Germans fled to the castle, which was taken on the morrow.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 8,
-      "year": 1465,
-      "season": "Léto",
-      "day": 54
-    },
-    {
-      "text": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_cs": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_en": "From Prostějov: A childless baker bequeathed thirty gold pieces in his will to the local parish to purchase a new organ. In return, the church choir promised to serve a requiem mass for him every week for five years.",
-      "type": "E",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 8,
       "year": 1465,
       "season": "Léto",
       "day": 54
@@ -2406,7 +2406,7 @@
       "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami."
     },
     "zbras_009": {
-      "tick": 31,
+      "tick": 43,
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned."
     },
     "local_177": {
@@ -2504,6 +2504,10 @@
     "local_151": {
       "tick": 42,
       "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář."
+    },
+    "local_096": {
+      "tick": 43,
+      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové."
     }
   },
   "flags": {
