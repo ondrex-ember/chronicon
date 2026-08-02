@@ -110,10 +110,30 @@ const GameEngine = {
     // ne přírůstkové počítání ticků. Imunní vůči resetům/výpadkům/downtimu.
     await GameEngine.syncCalendar();
 
-    // 3. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
+    // 3. Denní dýchání aktérů (Krok D, drobné živé pohyby nálady/jmění
+    // KAŽDÝ tik, ne jen týdně) — vizuálně dělá svět živější mezi
+    // velkými týdenními vyhodnoceními, které zůstávají beze změny.
+    GameEngine.actorBreathTick();
+
+    // 4. Týdenní ekonomika (Betlém model) — jednou za 28 ticků (7 dní)
     if (GameState.time.totalTick % 28 === 0) {
       GameEngine.runWeeklyEconomy();
     }
+  },
+
+  // Krok D — drobný náhodný pohyb nálady/jmění při KAŽDÉM tiku (4–6×/den),
+  // nezávisle na runWeeklyEconomy (ta zůstává beze změny, běží dál jen na
+  // 28 ticích). Mírný tah podle globálního napětí — klidný kraj lehce
+  // zlepšuje náladu, napjatý lehce zhoršuje. Mrtví aktéři se nehýbou.
+  actorBreathTick() {
+    const actors = GameState.actors;
+    if (!Array.isArray(actors)) return;
+    const tensionPull = GameState.globalTension > 60 ? -1 : (GameState.globalTension < 30 ? 1 : 0);
+    actors.forEach(a => {
+      if (a.status === 'mrtvy') return;
+      a.mood   = Math.max(0, Math.min(100, a.mood   + (Math.random() * 4 - 2) + tensionPull));
+      a.wealth = Math.max(0, Math.min(100, a.wealth + (Math.random() * 2 - 1)));
+    });
   },
 
   async syncCalendar() {
