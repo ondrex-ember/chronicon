@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-03T17:56:09.838Z",
-  "valid_until": "2026-08-10T17:56:09.838Z",
+  "generated": "2026-08-03T23:08:14.179Z",
+  "valid_until": "2026-08-10T23:08:14.179Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,25 +17,25 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 32,
-    "windKmH": 7,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 26,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 64,
-    "total_tick": 49,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 64"
+    "day": 65,
+    "total_tick": 50,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 65"
   },
   "actors": [
     {
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 86,
-      "mood": 69,
+      "mood": 71,
       "stores": 31,
       "status": "stable"
     },
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 81,
-      "mood": 64,
+      "wealth": 80,
+      "mood": 66,
       "stores": 27,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 41,
-      "mood": 61,
+      "mood": 63,
       "stores": 20,
       "status": "stable"
     },
@@ -88,7 +88,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 56,
+      "wealth": 55,
       "mood": 73,
       "stores": 14,
       "status": "stable"
@@ -99,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 49,
-      "mood": 52,
+      "wealth": 50,
+      "mood": 54,
       "stores": 20,
       "status": "stable"
     },
@@ -111,7 +111,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 64,
-      "mood": 70,
+      "mood": 72,
       "stores": 18,
       "status": "stable"
     },
@@ -121,8 +121,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 60,
-      "mood": 69,
+      "wealth": 61,
+      "mood": 70,
       "stores": 24,
       "status": "stable"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 48,
+      "mood": 49,
       "stores": 39,
       "status": "stable"
     },
@@ -144,7 +144,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 79,
-      "mood": 81,
+      "mood": 80,
       "stores": 27,
       "status": "stable"
     },
@@ -154,8 +154,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 77,
-      "mood": 59,
+      "wealth": 78,
+      "mood": 62,
       "stores": 23,
       "status": "stable",
       "itemStock": {
@@ -1010,6 +1010,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
       "text": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
       "text_cs": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
       "text_en": "News from Haná: The summer was wet, the grain did not ripen as hoped. Aldermen from five villages are asking the burgomaster to reduce levies. The abbot ordered monastery stores increased before winter.",
@@ -1212,45 +1248,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 41,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 41,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
       "text_cs": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
@@ -1346,33 +1370,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
-      "text_cs": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
-      "text_en": "From Fulnek: Wagons loaded with brightly colored cloth from Wrocław arrived in the town. The price of blue and red linen is so high that only the wealthiest patricians can afford it.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 50,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
       "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
@@ -1480,22 +1492,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 62
-    },
-    {
-      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 36,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
     }
   ],
   "church_calendar": {
-    "day_of_year": 154,
+    "day_of_year": 155,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
