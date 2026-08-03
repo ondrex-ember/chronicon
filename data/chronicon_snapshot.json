@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-03T07:33:52.486Z",
-  "valid_until": "2026-08-10T07:33:52.486Z",
+  "generated": "2026-08-03T12:57:06.188Z",
+  "valid_until": "2026-08-10T12:57:06.188Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 22,
-    "windKmH": 3,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 32,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 64,
-    "total_tick": 47,
+    "total_tick": 48,
     "date_string": "☀️ Léto, Léta Páně 1465, den 64"
   },
   "actors": [
@@ -44,8 +44,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
-      "mood": 67,
+      "wealth": 86,
+      "mood": 68,
       "stores": 31,
       "status": "stable"
     },
@@ -67,7 +67,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 80,
-      "mood": 62,
+      "mood": 65,
       "stores": 27,
       "status": "stable"
     },
@@ -77,8 +77,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 42,
-      "mood": 58,
+      "wealth": 41,
+      "mood": 60,
       "stores": 20,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 56,
-      "mood": 70,
+      "mood": 73,
       "stores": 14,
       "status": "stable"
     },
@@ -99,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 48,
-      "mood": 47,
+      "wealth": 49,
+      "mood": 49,
       "stores": 20,
       "status": "stable"
     },
@@ -110,8 +110,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 64,
-      "mood": 72,
+      "wealth": 63,
+      "mood": 71,
       "stores": 18,
       "status": "stable"
     },
@@ -122,7 +122,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 60,
-      "mood": 66,
+      "mood": 68,
       "stores": 24,
       "status": "stable"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 46,
+      "mood": 47,
       "stores": 39,
       "status": "stable"
     },
@@ -144,7 +144,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 80,
-      "mood": 77,
+      "mood": 79,
       "stores": 27,
       "status": "stable"
     },
@@ -154,8 +154,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 76,
-      "mood": 58,
+      "wealth": 77,
+      "mood": 59,
       "stores": 23,
       "status": "stable",
       "itemStock": {
@@ -176,6 +176,53 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 48
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -963,6 +1010,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
+      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
+      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
+      "type": "B",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
+    {
+      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
+    {
       "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
@@ -1165,45 +1248,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 62
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 39,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
-      "text_cs": "Z Brna: Cena italského hedvábí a brokátů klesla díky bezpečnější cestě přes alpské průsmyky. Bohatí patriciátní rody houfně objednávají nové slavnostní oděvy. Místní krejčí mají práce nad hlavu.",
-      "text_en": "From Brno: The price of Italian silk and brocades dropped thanks to a safer route through the Alpine passes. Wealthy patrician families are ordering new festive garments in droves. Local tailors are overwhelmed with work.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 39,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
     {
       "text": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
       "text_cs": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
@@ -1299,33 +1370,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 41,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 41,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
+      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
+      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
+      "type": "B",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 48,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
     {
       "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
@@ -1430,18 +1489,6 @@
       "icon": "👑",
       "source": "distant_events",
       "tick": 36,
-      "year": 1465,
-      "season": "Léto",
-      "day": 61
-    },
-    {
-      "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
-      "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
-      "text_en": "That year the Taborites and Orphans took many towns in Silesia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 35,
       "year": 1465,
       "season": "Léto",
       "day": 61
