@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-03T12:57:06.188Z",
-  "valid_until": "2026-08-10T12:57:06.188Z",
+  "generated": "2026-08-03T17:56:09.838Z",
+  "valid_until": "2026-08-10T17:56:09.838Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -22,7 +22,7 @@
     "icon": "🔆",
     "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
     "tempC": 32,
-    "windKmH": 1,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 0.85,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 64,
-    "total_tick": 48,
+    "total_tick": 49,
     "date_string": "☀️ Léto, Léta Páně 1465, den 64"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 86,
-      "mood": 68,
+      "mood": 69,
       "stores": 31,
       "status": "stable"
     },
@@ -55,8 +55,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 80,
-      "mood": 67,
+      "wealth": 81,
+      "mood": 70,
       "stores": 31,
       "status": "stable"
     },
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 80,
-      "mood": 65,
+      "wealth": 81,
+      "mood": 64,
       "stores": 27,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 41,
-      "mood": 60,
+      "mood": 61,
       "stores": 20,
       "status": "stable"
     },
@@ -100,7 +100,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 49,
-      "mood": 49,
+      "mood": 52,
       "stores": 20,
       "status": "stable"
     },
@@ -110,8 +110,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 63,
-      "mood": 71,
+      "wealth": 64,
+      "mood": 70,
       "stores": 18,
       "status": "stable"
     },
@@ -122,7 +122,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 60,
-      "mood": 68,
+      "mood": 69,
       "stores": 24,
       "status": "stable"
     },
@@ -132,8 +132,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 47,
+      "wealth": 97,
+      "mood": 48,
       "stores": 39,
       "status": "stable"
     },
@@ -143,8 +143,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 80,
-      "mood": 79,
+      "wealth": 79,
+      "mood": 81,
       "stores": 27,
       "status": "stable"
     },
@@ -1010,6 +1010,18 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
+      "text_cs": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
+      "text_en": "News from Haná: The summer was wet, the grain did not ripen as hoped. Aldermen from five villages are asking the burgomaster to reduce levies. The abbot ordered monastery stores increased before winter.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
+    {
       "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
       "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
       "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
@@ -1236,21 +1248,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 62
-    },
-    {
-      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
-      "type": "C",
-      "icon": "🔨",
-      "source": "local_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
+      "text_cs": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
+      "text_en": "News from Haná: The summer was wet, the grain did not ripen as hoped. Aldermen from five villages are asking the burgomaster to reduce levies. The abbot ordered monastery stores increased before winter.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 49,
+      "year": 1465,
+      "season": "Léto",
+      "day": 64
+    },
     {
       "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
       "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
@@ -1354,18 +1366,6 @@
       "type": "B",
       "icon": "⚔️",
       "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
-      "type": "E",
-      "icon": "🍞",
-      "source": "monastery_internal",
       "tick": 42,
       "year": 1465,
       "season": "Léto",
