@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-04T12:04:34.832Z",
-  "valid_until": "2026-08-11T12:04:34.832Z",
+  "generated": "2026-08-04T17:53:20.771Z",
+  "valid_until": "2026-08-11T17:53:20.771Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 37,
-    "windKmH": 6,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 29,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1.15,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 65,
-    "total_tick": 52,
+    "total_tick": 53,
     "date_string": "☀️ Léto, Léta Páně 1465, den 65"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 87,
-      "mood": 74,
+      "mood": 73,
       "stores": 31,
       "status": "stable"
     },
@@ -55,8 +55,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 79,
-      "mood": 72,
+      "wealth": 80,
+      "mood": 71,
       "stores": 31,
       "status": "stable"
     },
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 81,
-      "mood": 67,
+      "wealth": 80,
+      "mood": 66,
       "stores": 27,
       "status": "stable"
     },
@@ -77,8 +77,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 41,
-      "mood": 62,
+      "wealth": 42,
+      "mood": 64,
       "stores": 20,
       "status": "stable"
     },
@@ -88,8 +88,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 54,
-      "mood": 72,
+      "wealth": 53,
+      "mood": 74,
       "stores": 14,
       "status": "stable"
     },
@@ -111,7 +111,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 63,
-      "mood": 71,
+      "mood": 73,
       "stores": 18,
       "status": "stable"
     },
@@ -121,7 +121,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 61,
+      "wealth": 60,
       "mood": 70,
       "stores": 24,
       "status": "stable"
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 50,
+      "mood": 52,
       "stores": 39,
       "status": "stable"
     },
@@ -143,8 +143,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 79,
-      "mood": 84,
+      "wealth": 80,
+      "mood": 86,
       "stores": 27,
       "status": "stable"
     },
@@ -154,7 +154,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 78,
+      "wealth": 79,
       "mood": 64,
       "stores": 23,
       "status": "stable",
@@ -1056,6 +1056,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 53,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
       "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
       "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
@@ -1270,33 +1294,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
-      "type": "C",
-      "icon": "🌿",
-      "source": "distant_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
-      "text_cs": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
-      "text_en": "From Lipník: A rare guest from Venice unpacked his goods full of exotic spices in the marketplace. The smell of cinnamon and ginger attracted crowds, but prices are astronomical for common folk. Only nobles and monasteries are buying.",
-      "type": "C",
-      "icon": "🏺",
-      "source": "local_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
+      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 53,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 53,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
       "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
@@ -1389,30 +1413,6 @@
       "icon": "🧵",
       "source": "local_events",
       "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
-      "text_cs": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
-      "text_en": "News from the market day: A merchant from Brno brought pepper and saffron. The price of saffron is this year a third higher than last year. They say the roads through Vienna are dangerous and supplies arrive irregularly.",
-      "type": "C",
-      "icon": "💰",
-      "source": "local_events",
-      "tick": 47,
       "year": 1465,
       "season": "Léto",
       "day": 64
