@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-04T06:32:06.670Z",
-  "valid_until": "2026-08-11T06:32:06.670Z",
+  "generated": "2026-08-04T12:04:34.832Z",
+  "valid_until": "2026-08-11T12:04:34.832Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 24,
-    "windKmH": 1,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 37,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 65,
-    "total_tick": 51,
+    "total_tick": 52,
     "date_string": "☀️ Léto, Léta Páně 1465, den 65"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 87,
-      "mood": 73,
+      "mood": 74,
       "stores": 31,
       "status": "stable"
     },
@@ -55,8 +55,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 80,
-      "mood": 70,
+      "wealth": 79,
+      "mood": 72,
       "stores": 31,
       "status": "stable"
     },
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 80,
-      "mood": 66,
+      "wealth": 81,
+      "mood": 67,
       "stores": 27,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 41,
-      "mood": 63,
+      "mood": 62,
       "stores": 20,
       "status": "stable"
     },
@@ -88,7 +88,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 55,
+      "wealth": 54,
       "mood": 72,
       "stores": 14,
       "status": "stable"
@@ -99,7 +99,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 49,
+      "wealth": 48,
       "mood": 53,
       "stores": 20,
       "status": "stable"
@@ -132,7 +132,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 50,
       "stores": 39,
       "status": "stable"
@@ -143,8 +143,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 78,
-      "mood": 82,
+      "wealth": 79,
+      "mood": 84,
       "stores": 27,
       "status": "stable"
     },
@@ -155,7 +155,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 78,
-      "mood": 62,
+      "mood": 64,
       "stores": 23,
       "status": "stable",
       "itemStock": {
@@ -176,6 +176,52 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 52
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -1010,6 +1056,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
@@ -1212,45 +1294,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
-      "type": "B",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 44,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
-      "text_cs": "Z Fulneku: Do města dorazily vozy naložené pestrobarevným suknem z Vratislavi. Cena modrého a červeného plátna je tak vysoká, že si jej mohou dovolit jen ti nejbohatší patricijové.",
-      "text_en": "From Fulnek: Wagons loaded with brightly colored cloth from Wrocław arrived in the town. The price of blue and red linen is so high that only the wealthiest patricians can afford it.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 43,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
+      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
@@ -1346,33 +1416,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Exemplum o panně, jež chtěla v noci utéci z kláštera: u každých dveří potkala Ukřižovaného. Když padla před obrazem Panny Marie, obraz jí dal políček tak krutý, že ležela do jitra — „Kam jsi chtěla odejít, bláznice?“ Vyznala vše sestrám a v pokání došla Bohu. Novicky se u toho příběhu dívají do země.",
-      "text_cs": "Exemplum o panně, jež chtěla v noci utéci z kláštera: u každých dveří potkala Ukřižovaného. Když padla před obrazem Panny Marie, obraz jí dal políček tak krutý, že ležela do jitra — „Kam jsi chtěla odejít, bláznice?“ Vyznala vše sestrám a v pokání došla Bohu. Novicky se u toho příběhu dívají do země.",
-      "text_en": "An exemplum of a maiden who would flee the convent by night: at every door she met the Crucified. When she fell before the image of Our Lady, the image dealt her a slap so fierce she lay till morning — 'Where did you mean to go, foolish girl?' She confessed all to the sisters and through penance came to God. The novices study the floor at that story.",
-      "type": "B",
-      "icon": "✋",
-      "source": "monastery_internal",
-      "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Městem projela zpráva, že pan Lev z Rožmitálu, králův švagr, vyrazil s velkolepým poselstvem do západní Evropy. Cílem této dlouhé cesty je očistit pověst Českého království a čelit papežově protičeské politice. Výprava má ukázat, že v zemi nežijí jen zapřisáhlí kacíři.",
-      "text_cs": "Městem projela zpráva, že pan Lev z Rožmitálu, králův švagr, vyrazil s velkolepým poselstvem do západní Evropy. Cílem této dlouhé cesty je očistit pověst Českého království a čelit papežově protičeské politice. Výprava má ukázat, že v zemi nežijí jen zapřisáhlí kacíři.",
-      "text_en": "Word passed through the town that Lord Lev of Rožmitál, the king's brother-in-law, set out with a magnificent embassy to Western Europe. The goal of this long journey is to clear the reputation of the Kingdom of Bohemia and counter the Pope's anti-Czech policy. The expedition aims to show that the land is not populated solely by sworn heretics.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 46,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 52,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
@@ -1477,18 +1535,6 @@
       "icon": "✝️",
       "source": "distant_events",
       "tick": 39,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
-      "text_cs": "Zpráva z Prahy: Král svolal sněm zemský, věrnost stavů žádaje veřejně. Mnozí přišli, jiní omluvu poslali. Co na sněmu praveno bylo, šíří se po městě jen pomalu a v půljazyku.",
-      "text_en": "News from Prague: the king hath summoned the land's diet, demanding the estates' loyalty openly. Many came, others sent excuse. What was spoken at the diet spreadeth through the city but slowly, and in half-tongue.",
-      "type": "C",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 38,
       "year": 1465,
       "season": "Léto",
       "day": 62
