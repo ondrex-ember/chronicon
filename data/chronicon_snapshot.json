@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-03T23:08:14.179Z",
-  "valid_until": "2026-08-10T23:08:14.179Z",
+  "generated": "2026-08-04T06:32:06.670Z",
+  "valid_until": "2026-08-11T06:32:06.670Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,8 +21,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 26,
-    "windKmH": 9,
+    "tempC": 24,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 65,
-    "total_tick": 50,
+    "total_tick": 51,
     "date_string": "☀️ Léto, Léta Páně 1465, den 65"
   },
   "actors": [
@@ -44,8 +44,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 86,
-      "mood": 71,
+      "wealth": 87,
+      "mood": 73,
       "stores": 31,
       "status": "stable"
     },
@@ -55,7 +55,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 81,
+      "wealth": 80,
       "mood": 70,
       "stores": 31,
       "status": "stable"
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 55,
-      "mood": 73,
+      "mood": 72,
       "stores": 14,
       "status": "stable"
     },
@@ -99,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 50,
-      "mood": 54,
+      "wealth": 49,
+      "mood": 53,
       "stores": 20,
       "status": "stable"
     },
@@ -110,8 +110,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 64,
-      "mood": 72,
+      "wealth": 63,
+      "mood": 71,
       "stores": 18,
       "status": "stable"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 49,
+      "mood": 50,
       "stores": 39,
       "status": "stable"
     },
@@ -143,8 +143,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 79,
-      "mood": 80,
+      "wealth": 78,
+      "mood": 82,
       "stores": 27,
       "status": "stable"
     },
@@ -1010,6 +1010,30 @@
   ],
   "chronicle": [
     {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 51,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 51,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
@@ -1224,33 +1248,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_cs": "Z Tovačova: Dva rytíři se před zájezdním hostincem pohádali o čest jisté dámy a jali se řešit spor tasenými meči. Jeden rytíř byl smrtelně zraněn do hrudi. Vítěz nasedl na koně a uprchl dřív, než zasáhl rychtář.",
-      "text_en": "From Tovačov: Two knights argued over the honor of a certain lady in front of a coaching inn and set out to resolve the dispute with drawn swords. One knight was mortally wounded in the chest. The victor mounted his horse and fled before the alderman intervened.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 42,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
-      "type": "E",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 42,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
+      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 51,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 51,
+      "year": 1465,
+      "season": "Léto",
+      "day": 65
+    },
     {
       "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
@@ -1346,30 +1370,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 46,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
-      "text_cs": "Z Lipníku: Vzácný host z Benátek rozbalil na tržišti své zboží plné cizokrajného koření. Vůně skořice a zázvoru přilákala davy, ale ceny jsou pro prostý lid astronomické. Nakupují jen šlechtici a kláštery.",
-      "text_en": "From Lipník: A rare guest from Venice unpacked his goods full of exotic spices in the marketplace. The smell of cinnamon and ginger attracted crowds, but prices are astronomical for common folk. Only nobles and monasteries are buying.",
-      "type": "C",
-      "icon": "🏺",
-      "source": "local_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "chronicle_distant": [
