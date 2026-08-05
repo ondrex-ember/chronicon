@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-04T23:07:16.617Z",
-  "valid_until": "2026-08-11T23:07:16.617Z",
+  "generated": "2026-08-05T06:32:59.241Z",
+  "valid_until": "2026-08-12T06:32:59.241Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,17 +15,21 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 26,
-    "windKmH": 2,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 24,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -34,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 66,
-    "total_tick": 54,
+    "total_tick": 55,
     "date_string": "☀️ Léto, Léta Páně 1465, den 66"
   },
   "actors": [
@@ -44,8 +48,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
-      "mood": 73,
+      "wealth": 86,
+      "mood": 75,
       "stores": 31,
       "status": "stable"
     },
@@ -55,7 +59,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 81,
+      "wealth": 80,
       "mood": 74,
       "stores": 31,
       "status": "stable"
@@ -67,7 +71,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 81,
-      "mood": 68,
+      "mood": 69,
       "stores": 27,
       "status": "stable"
     },
@@ -77,8 +81,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 42,
-      "mood": 66,
+      "wealth": 43,
+      "mood": 67,
       "stores": 20,
       "status": "stable"
     },
@@ -88,7 +92,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 53,
+      "wealth": 52,
       "mood": 76,
       "stores": 14,
       "status": "stable"
@@ -100,7 +104,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 49,
-      "mood": 54,
+      "mood": 53,
       "stores": 20,
       "status": "stable"
     },
@@ -111,7 +115,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 63,
-      "mood": 73,
+      "mood": 76,
       "stores": 18,
       "status": "stable"
     },
@@ -121,8 +125,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 60,
-      "mood": 72,
+      "wealth": 61,
+      "mood": 73,
       "stores": 24,
       "status": "stable"
     },
@@ -144,7 +148,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 80,
-      "mood": 85,
+      "mood": 86,
       "stores": 27,
       "status": "stable"
     },
@@ -154,8 +158,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 78,
-      "mood": 65,
+      "wealth": 79,
+      "mood": 68,
       "stores": 23,
       "status": "stable",
       "itemStock": {
@@ -176,6 +180,52 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_012",
+      "seal": "scholars",
+      "type": "A",
+      "icon": "🌙",
+      "tags": [
+        "kalendář",
+        "astronomie"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Žák z olomoucké katedrální školy",
+      "sender_en": "A Pupil of the Olomouc Cathedral School",
+      "title_cs": "Otázka žáka na výpočet Velikonoc",
+      "title_en": "A Pupil's Question on the Reckoning of Easter",
+      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+      "choices": [
+        {
+          "id": "teach",
+          "label_cs": "🌙 Vysvětlit výpočet",
+          "label_en": "🌙 Explain the reckoning",
+          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+          "notify_en": "The pupil left the wiser. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
+          "label_en": "⏳ No time to spare — let him ask elsewhere",
+          "notify_cs": "Žák odešel zklamaný.",
+          "notify_en": "The pupil left disappointed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 55
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -1056,6 +1106,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
+      "text_cs": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
+      "text_en": "Two local bakers were caught baking underweight loaves, into which they also mixed pea flour. They were punished with a fine and had to stand all day in the cage of shame in the square. The local poor threw rotten vegetables at them.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "local_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
       "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
       "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
       "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
@@ -1258,45 +1344,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
-      "text_cs": "Zpráva z trhového dne: Kupec z Brna přivezl pepř a šafrán. Cena šafránu je letos o třetinu vyšší než vloni. Říká se, že cesty přes Vídeň jsou nebezpečné a zásoby přicházejí nepravidelně.",
-      "text_en": "News from the market day: A merchant from Brno brought pepper and saffron. The price of saffron is this year a third higher than last year. They say the roads through Vienna are dangerous and supplies arrive irregularly.",
-      "type": "C",
-      "icon": "💰",
-      "source": "local_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Exemplum o panně, jež chtěla v noci utéci z kláštera: u každých dveří potkala Ukřižovaného. Když padla před obrazem Panny Marie, obraz jí dal políček tak krutý, že ležela do jitra — „Kam jsi chtěla odejít, bláznice?“ Vyznala vše sestrám a v pokání došla Bohu. Novicky se u toho příběhu dívají do země.",
-      "text_cs": "Exemplum o panně, jež chtěla v noci utéci z kláštera: u každých dveří potkala Ukřižovaného. Když padla před obrazem Panny Marie, obraz jí dal políček tak krutý, že ležela do jitra — „Kam jsi chtěla odejít, bláznice?“ Vyznala vše sestrám a v pokání došla Bohu. Novicky se u toho příběhu dívají do země.",
-      "text_en": "An exemplum of a maiden who would flee the convent by night: at every door she met the Crucified. When she fell before the image of Our Lady, the image dealt her a slap so fierce she lay till morning — 'Where did you mean to go, foolish girl?' She confessed all to the sisters and through penance came to God. The novices study the floor at that story.",
-      "type": "B",
-      "icon": "✋",
-      "source": "monastery_internal",
-      "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 46,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
+      "text_cs": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
+      "text_en": "Two local bakers were caught baking underweight loaves, into which they also mixed pea flour. They were punished with a fine and had to stand all day in the cage of shame in the square. The local poor threw rotten vegetables at them.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "local_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
     {
       "text": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
       "text_cs": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
@@ -1392,33 +1466,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 50,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
-      "text_cs": "Zpráva z Hané: Léto bylo mokré, obilí nezrálo tak jak jsme doufali. Rychtáři z pěti vsí žádají purkmistra o snížení odvodů. Opat nařídil zvýšit klášterní zásoby před zimou.",
-      "text_en": "News from Haná: The summer was wet, the grain did not ripen as hoped. Aldermen from five villages are asking the burgomaster to reduce levies. The abbot ordered monastery stores increased before winter.",
-      "type": "A",
-      "icon": "🌧️",
-      "source": "local_events",
-      "tick": 49,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 55,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
     {
       "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
       "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
@@ -1526,18 +1588,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 63
-    },
-    {
-      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "church_calendar": {
