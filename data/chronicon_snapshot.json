@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-05T12:02:34.550Z",
-  "valid_until": "2026-08-12T12:02:34.550Z",
+  "generated": "2026-08-05T17:46:07.800Z",
+  "valid_until": "2026-08-12T17:46:07.800Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,8 +25,8 @@
     "name": "Vlna veder",
     "icon": "🔆",
     "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 35,
-    "windKmH": 3,
+    "tempC": 33,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 0.85,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 66,
-    "total_tick": 56,
+    "total_tick": 57,
     "date_string": "☀️ Léto, Léta Páně 1465, den 66"
   },
   "actors": [
@@ -48,7 +48,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 75,
       "stores": 19,
       "status": "stable"
@@ -59,8 +59,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
-      "mood": 71,
+      "wealth": 94,
+      "mood": 72,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -70,8 +70,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 57,
+      "wealth": 94,
+      "mood": 59,
       "stores": 18,
       "status": "stable"
     },
@@ -82,7 +82,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 51,
-      "mood": 75,
+      "mood": 74,
       "stores": 14,
       "status": "stable"
     },
@@ -104,7 +104,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 55,
-      "mood": 44,
+      "mood": 46,
       "stores": 13,
       "status": "stable"
     },
@@ -115,7 +115,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 74,
-      "mood": 94,
+      "mood": 95,
       "stores": 14,
       "status": "stable"
     },
@@ -126,7 +126,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 78,
-      "mood": 85,
+      "mood": 88,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -137,7 +137,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 57,
+      "mood": 56,
       "stores": 26,
       "status": "stable"
     },
@@ -158,8 +158,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 71,
+      "wealth": 99,
+      "mood": 72,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -208,6 +208,61 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 57
+    },
     {
       "id": "cletter_011",
       "seal": "church",
@@ -1177,6 +1232,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
+      "type": "A",
+      "icon": "🗡️",
+      "source": "monastery_internal",
+      "tick": 57,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
       "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
       "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
       "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
@@ -1391,33 +1470,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
+      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 57,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
+      "type": "A",
+      "icon": "🗡️",
+      "source": "monastery_internal",
+      "tick": 57,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
     {
       "text": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
       "text_cs": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
@@ -1510,30 +1589,6 @@
       "icon": "🦗",
       "source": "monastery_internal",
       "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 51,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
-      "type": "A",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 51,
       "year": 1465,
       "season": "Léto",
       "day": 65
