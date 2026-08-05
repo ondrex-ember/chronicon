@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-05T06:32:59.241Z",
-  "valid_until": "2026-08-12T06:32:59.241Z",
+  "generated": "2026-08-05T12:02:34.550Z",
+  "valid_until": "2026-08-12T12:02:34.550Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,16 +21,16 @@
     "name_en": "Fasting Wednesday"
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 24,
-    "windKmH": 4,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 35,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 66,
-    "total_tick": 55,
+    "total_tick": 56,
     "date_string": "☀️ Léto, Léta Páně 1465, den 66"
   },
   "actors": [
@@ -48,9 +48,9 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 86,
+      "wealth": 97,
       "mood": 75,
-      "stores": 31,
+      "stores": 19,
       "status": "stable"
     },
     {
@@ -59,10 +59,10 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 80,
-      "mood": 74,
-      "stores": 31,
-      "status": "stable"
+      "wealth": 93,
+      "mood": 71,
+      "stores": 21,
+      "status": "prosperujici"
     },
     {
       "id": "kovar",
@@ -70,9 +70,9 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 81,
-      "mood": 69,
-      "stores": 27,
+      "wealth": 95,
+      "mood": 57,
+      "stores": 18,
       "status": "stable"
     },
     {
@@ -81,9 +81,9 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 43,
-      "mood": 67,
-      "stores": 20,
+      "wealth": 51,
+      "mood": 75,
+      "stores": 14,
       "status": "stable"
     },
     {
@@ -92,9 +92,9 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 52,
-      "mood": 76,
-      "stores": 14,
+      "wealth": 60,
+      "mood": 89,
+      "stores": 10,
       "status": "stable"
     },
     {
@@ -103,9 +103,9 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 49,
-      "mood": 53,
-      "stores": 20,
+      "wealth": 55,
+      "mood": 44,
+      "stores": 13,
       "status": "stable"
     },
     {
@@ -114,9 +114,9 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 63,
-      "mood": 76,
-      "stores": 18,
+      "wealth": 74,
+      "mood": 94,
+      "stores": 14,
       "status": "stable"
     },
     {
@@ -125,10 +125,10 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 61,
-      "mood": 73,
-      "stores": 24,
-      "status": "stable"
+      "wealth": 78,
+      "mood": 85,
+      "stores": 17,
+      "status": "prosperujici"
     },
     {
       "id": "klaster",
@@ -136,9 +136,9 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 54,
-      "stores": 39,
+      "wealth": 100,
+      "mood": 57,
+      "stores": 26,
       "status": "stable"
     },
     {
@@ -147,10 +147,10 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 80,
-      "mood": 86,
-      "stores": 27,
-      "status": "stable"
+      "wealth": 100,
+      "mood": 100,
+      "stores": 19,
+      "status": "prosperujici"
     },
     {
       "id": "sklar",
@@ -158,28 +158,99 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 79,
-      "mood": 68,
-      "stores": 23,
+      "wealth": 100,
+      "mood": 71,
+      "stores": 15,
       "status": "stable",
       "itemStock": {
-        "glass_goblet": 0.35,
-        "glass_vase": 0.12,
-        "glass_pitcher": 0.15,
-        "naramek_sklo_zeleny": 0.4,
-        "naramek_sklo_hnedy": 0.4,
-        "naramek_sklo_modry": 0.08
+        "glass_goblet": 0.7,
+        "glass_vase": 0.24,
+        "glass_pitcher": 0.3,
+        "naramek_sklo_zeleny": 0.8,
+        "naramek_sklo_hnedy": 0.8,
+        "naramek_sklo_modry": 0.16
       }
     }
   ],
   "region": {
-    "tension": 17,
+    "tension": 10,
     "goldenAge": false,
     "totalFuneralEvents": 0,
-    "population": 10010
+    "population": 10022
   },
-  "advisory_events": [],
+  "advisory_events": [
+    {
+      "id": "pocestny_2",
+      "icon": "🥾",
+      "kind": "pocestny",
+      "variant": "zebravy_mnich",
+      "title_cs": "Žebravý bratr",
+      "title_en": "A mendicant friar",
+      "text_cs": "Bratr z žebravého řádu, na cestě mezi kláštery, prosí o pohostinství na jednu noc — jak velí řehole i zvyk mezi domy stejné víry.",
+      "text_en": "A friar of a mendicant order, traveling between monasteries, asks for one night's hospitality — as both rule and custom demand between houses of the same faith.",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "Přijmout na noc",
+          "label_en": "Take him in for the night"
+        },
+        {
+          "id": "decline",
+          "label_cs": "Zdvořile odmítnout",
+          "label_en": "Politely decline"
+        },
+        {
+          "id": "defer",
+          "label_cs": "Rozhodnout se později",
+          "label_en": "Decide later"
+        }
+      ]
+    }
+  ],
   "porta_letters": [
+    {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 56
+    },
     {
       "id": "cletter_012",
       "seal": "scholars",
@@ -1106,6 +1177,30 @@
   ],
   "chronicle": [
     {
+      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 56,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
+      "text": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
+      "text_cs": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
+      "text_en": "Coroner's record: Hanuš the locksmith was inspecting the castle masonry at night and fell into the moat. His body with broken limbs was not found until dawn. The guard mistook him for a drunkard.",
+      "type": "A",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 56,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
+    {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
@@ -1320,33 +1415,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
-      "type": "D",
-      "icon": "🥷",
-      "source": "distant_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
+      "text_cs": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
+      "text_en": "Coroner's record: Hanuš the locksmith was inspecting the castle masonry at night and fell into the moat. His body with broken limbs was not found until dawn. The guard mistook him for a drunkard.",
+      "type": "A",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 56,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
     {
       "text": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
       "text_cs": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
@@ -1454,21 +1537,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
+      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 56,
+      "year": 1465,
+      "season": "Léto",
+      "day": 66
+    },
     {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
@@ -1573,18 +1656,6 @@
       "icon": "🐎",
       "source": "distant_events",
       "tick": 44,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 43,
       "year": 1465,
       "season": "Léto",
       "day": 63
