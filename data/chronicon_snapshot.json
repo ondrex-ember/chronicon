@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-05T23:05:45.099Z",
-  "valid_until": "2026-08-12T23:05:45.099Z",
+  "generated": "2026-08-06T06:35:58.661Z",
+  "valid_until": "2026-08-13T06:35:58.661Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,21 +15,17 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
-    "tempC": 28,
-    "windKmH": 4,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 24,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -38,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 67,
-    "total_tick": 58,
+    "total_tick": 59,
     "date_string": "☀️ Léto, Léta Páně 1465, den 67"
   },
   "actors": [
@@ -49,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 98,
-      "mood": 77,
+      "mood": 76,
       "stores": 19,
       "status": "stable"
     },
@@ -59,8 +55,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 94,
-      "mood": 72,
+      "wealth": 93,
+      "mood": 71,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -82,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 51,
-      "mood": 75,
+      "mood": 77,
       "stores": 14,
       "status": "stable"
     },
@@ -93,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 61,
-      "mood": 90,
+      "mood": 91,
       "stores": 10,
       "status": "stable"
     },
@@ -103,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 55,
-      "mood": 46,
+      "wealth": 54,
+      "mood": 47,
       "stores": 13,
       "status": "stable"
     },
@@ -114,8 +110,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 73,
-      "mood": 95,
+      "wealth": 74,
+      "mood": 98,
       "stores": 14,
       "status": "stable"
     },
@@ -126,7 +122,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 77,
-      "mood": 88,
+      "mood": 90,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -136,7 +132,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 57,
       "stores": 26,
       "status": "stable"
@@ -148,7 +144,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 19,
       "status": "prosperujici"
     },
@@ -158,8 +154,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 74,
+      "wealth": 98,
+      "mood": 76,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -1279,6 +1275,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
+      "text_cs": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
+      "text_en": "From the Bohemian lands, an old memory: after the battle of Lipany, merchants, it is said, went out upon the roads again, for the warfare had quieted. Markets that for years had stood empty slowly filled with goods and noise.",
+      "type": "C",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 59,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 59,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
@@ -1493,33 +1513,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 50,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 59,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
     {
       "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
       "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
@@ -1627,21 +1635,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
+      "text_cs": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
+      "text_en": "From the Bohemian lands, an old memory: after the battle of Lipany, merchants, it is said, went out upon the roads again, for the warfare had quieted. Markets that for years had stood empty slowly filled with goods and noise.",
+      "type": "C",
+      "icon": "🌾",
+      "source": "distant_events",
+      "tick": 59,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -1749,18 +1757,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_cs": "Ze zpráv z Čech: Hovoří se o jakési hrstce lidí v kraji východním, kteří prý zbraně i úřady odmítají, žijíce prostě a v pokoji. Někteří je za blázny mají, jiní za svatější než kláštery samé.",
-      "text_en": "From reports from Bohemia: there is talk of a certain small band of people in the eastern parts who are said to refuse weapons and office alike, living simply and in peace. Some hold them for fools, others for holier than the monasteries themselves.",
-      "type": "C",
-      "icon": "🌿",
-      "source": "distant_events",
-      "tick": 45,
-      "year": 1465,
-      "season": "Léto",
-      "day": 63
     }
   ],
   "church_calendar": {
