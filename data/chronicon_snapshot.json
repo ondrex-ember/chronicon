@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-06T06:35:58.661Z",
-  "valid_until": "2026-08-13T06:35:58.661Z",
+  "generated": "2026-08-06T12:05:16.334Z",
+  "valid_until": "2026-08-13T12:05:16.334Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,7 +21,7 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 24,
+    "tempC": 31,
     "windKmH": 8,
     "rainMm": 0,
     "season": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 67,
-    "total_tick": 59,
+    "total_tick": 60,
     "date_string": "☀️ Léto, Léta Páně 1465, den 67"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 98,
-      "mood": 76,
+      "mood": 77,
       "stores": 19,
       "status": "stable"
     },
@@ -56,7 +56,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 93,
-      "mood": 71,
+      "mood": 74,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -67,7 +67,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 59,
+      "mood": 58,
       "stores": 18,
       "status": "stable"
     },
@@ -77,8 +77,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 51,
-      "mood": 77,
+      "wealth": 50,
+      "mood": 79,
       "stores": 14,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 61,
-      "mood": 91,
+      "mood": 90,
       "stores": 10,
       "status": "stable"
     },
@@ -99,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 54,
-      "mood": 47,
+      "wealth": 55,
+      "mood": 48,
       "stores": 13,
       "status": "stable"
     },
@@ -121,8 +121,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 77,
-      "mood": 90,
+      "wealth": 76,
+      "mood": 91,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 57,
+      "mood": 58,
       "stores": 26,
       "status": "stable"
     },
@@ -155,7 +155,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 76,
+      "mood": 78,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -1275,6 +1275,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
+      "type": "B",
+      "icon": "🗣️",
+      "source": "distant_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
+      "text": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
+      "text_cs": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
+      "text_en": "An exotic merchant appeared at the annual market with a cargo of pepper, cinnamon, and ginger, allegedly brought all the way from Venetian galleys. The smell of spices attracted crowds, but the prices are astronomical and accessible only to the nobility. Several poor women tried to steal a handful of pepper but were flogged.",
+      "type": "C",
+      "icon": "🍯",
+      "source": "local_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
       "text": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
       "text_cs": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
       "text_en": "From the Bohemian lands, an old memory: after the battle of Lipany, merchants, it is said, went out upon the roads again, for the warfare had quieted. Markets that for years had stood empty slowly filled with goods and noise.",
@@ -1477,45 +1513,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 51,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
-      "type": "A",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 51,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 50,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
+      "text_cs": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
+      "text_en": "An exotic merchant appeared at the annual market with a cargo of pepper, cinnamon, and ginger, allegedly brought all the way from Venetian galleys. The smell of spices attracted crowds, but the prices are astronomical and accessible only to the nobility. Several poor women tried to steal a handful of pepper but were flogged.",
+      "type": "C",
+      "icon": "🍯",
+      "source": "local_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
     {
       "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
       "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
@@ -1611,33 +1635,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 53,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
+      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
+      "type": "B",
+      "icon": "🗣️",
+      "source": "distant_events",
+      "tick": 60,
+      "year": 1465,
+      "season": "Léto",
+      "day": 67
+    },
     {
       "text": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
       "text_cs": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
@@ -1742,18 +1754,6 @@
       "icon": "🥷",
       "source": "distant_events",
       "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
-    },
-    {
-      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 46,
       "year": 1465,
       "season": "Léto",
       "day": 64
