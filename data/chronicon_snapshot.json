@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-06T12:05:16.334Z",
-  "valid_until": "2026-08-13T12:05:16.334Z",
+  "generated": "2026-08-07T01:30:53.529Z",
+  "valid_until": "2026-08-14T01:30:53.529Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,13 +15,17 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 31,
+    "tempC": 21,
     "windKmH": 8,
     "rainMm": 0,
     "season": 1,
@@ -33,9 +37,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 67,
-    "total_tick": 60,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 67"
+    "day": 68,
+    "total_tick": 61,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 68"
   },
   "actors": [
     {
@@ -45,7 +49,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 98,
-      "mood": 77,
+      "mood": 80,
       "stores": 19,
       "status": "stable"
     },
@@ -55,8 +59,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
-      "mood": 74,
+      "wealth": 92,
+      "mood": 75,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -66,8 +70,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 58,
+      "wealth": 95,
+      "mood": 59,
       "stores": 18,
       "status": "stable"
     },
@@ -77,8 +81,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 50,
-      "mood": 79,
+      "wealth": 51,
+      "mood": 82,
       "stores": 14,
       "status": "stable"
     },
@@ -88,8 +92,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 61,
-      "mood": 90,
+      "wealth": 62,
+      "mood": 92,
       "stores": 10,
       "status": "stable"
     },
@@ -99,8 +103,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 55,
-      "mood": 48,
+      "wealth": 56,
+      "mood": 50,
       "stores": 13,
       "status": "stable"
     },
@@ -110,8 +114,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 74,
-      "mood": 98,
+      "wealth": 73,
+      "mood": 100,
       "stores": 14,
       "status": "stable"
     },
@@ -122,7 +126,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 76,
-      "mood": 91,
+      "mood": 90,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -144,7 +148,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 19,
       "status": "prosperujici"
     },
@@ -155,7 +159,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 78,
+      "mood": 80,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -204,6 +208,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_004",
+      "seal": "church",
+      "type": "C",
+      "icon": "🙏",
+      "tags": [
+        "modlitba",
+        "prosba"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Farní kostelník od sv. Michala",
+      "sender_en": "The Parish Sexton of St. Michael's",
+      "title_cs": "Prosba o přímluvnou mši",
+      "title_en": "A Request for an Intercessory Mass",
+      "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
+      "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
+      "choices": [
+        {
+          "id": "pray",
+          "label_cs": "⛪ Odsloužit mši za faráře",
+          "label_en": "⛪ Say a mass for the priest",
+          "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
+          "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 3
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "📜 Slíbit modlitbu při běžné mši",
+          "label_en": "📜 Promise a prayer at the regular mass",
+          "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
+          "notify_en": "A modest reply, still received with thanks.",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 61
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1275,6 +1336,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
@@ -1477,45 +1574,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 52,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
     {
       "text": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
       "text_cs": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
@@ -1611,33 +1696,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 66
-    },
-    {
-      "text": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_cs": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_en": "From Prostějov: A childless baker bequeathed thirty gold pieces in his will to the local parish to purchase a new organ. In return, the church choir promised to serve a requiem mass for him every week for five years.",
-      "type": "E",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 54,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 53,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 61,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
     {
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
@@ -1745,22 +1818,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 64
-    },
-    {
-      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
-      "type": "D",
-      "icon": "🥷",
-      "source": "distant_events",
-      "tick": 47,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "church_calendar": {
-    "day_of_year": 157,
+    "day_of_year": 158,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
