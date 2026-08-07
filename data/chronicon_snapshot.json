@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-07T01:30:53.529Z",
-  "valid_until": "2026-08-14T01:30:53.529Z",
+  "generated": "2026-08-07T05:44:22.944Z",
+  "valid_until": "2026-08-14T05:44:22.944Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,8 +25,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 8,
+    "tempC": 19,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 68,
-    "total_tick": 61,
+    "total_tick": 62,
     "date_string": "☀️ Léto, Léta Páně 1465, den 68"
   },
   "actors": [
@@ -48,8 +48,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 82,
       "stores": 19,
       "status": "stable"
     },
@@ -59,7 +59,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 75,
       "stores": 21,
       "status": "prosperujici"
@@ -71,7 +71,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 59,
+      "mood": 62,
       "stores": 18,
       "status": "stable"
     },
@@ -82,7 +82,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 51,
-      "mood": 82,
+      "mood": 83,
       "stores": 14,
       "status": "stable"
     },
@@ -92,8 +92,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 62,
-      "mood": 92,
+      "wealth": 61,
+      "mood": 95,
       "stores": 10,
       "status": "stable"
     },
@@ -104,7 +104,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 56,
-      "mood": 50,
+      "mood": 51,
       "stores": 13,
       "status": "stable"
     },
@@ -114,7 +114,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 73,
+      "wealth": 72,
       "mood": 100,
       "stores": 14,
       "status": "stable"
@@ -126,7 +126,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 76,
-      "mood": 90,
+      "mood": 92,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -159,7 +159,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 80,
+      "mood": 79,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -208,6 +208,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 62
+    },
     {
       "id": "cletter_004",
       "seal": "church",
@@ -1336,6 +1393,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
+      "text_cs": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
+      "text_en": "In 1433, on the Monday after St Bartholomew, the lords of both towns of Prague marched to Plzeň to take the city.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
@@ -1538,45 +1631,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 66
-    },
-    {
-      "text": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_cs": "Z Prostějova: Bezdětný pekař odkázal ve své závěti místní farnosti třicet zlatých na pořízení nových varhan. Kostelní sbor mu za to slíbil sloužit zádušní mši každý týden po dobu pěti let.",
-      "text_en": "From Prostějov: A childless baker bequeathed thirty gold pieces in his will to the local parish to purchase a new organ. In return, the church choir promised to serve a requiem mass for him every week for five years.",
-      "type": "E",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 54,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_cs": "Z Prahy dorazily zprávy o těžkém rozhodnutí panovníka. Král Jiří se veřejně vzdal dědičného nároku svých synů na trůn a nabídl českou korunu polskému princi Vladislavovi. Tento diplomatický obrat má zajistit silné spojenectví s Jagellonci proti rozpínavosti uherského vzdorokrále.",
-      "text_en": "News arrived from Prague of the monarch's difficult decision. King George publicly renounced his sons' hereditary claim to the throne and offered the Czech crown to the Polish Prince Vladislaus. This diplomatic shift is intended to secure a strong alliance with the Jagiellonians against the expansionism of the Hungarian anti-king.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 53,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 53,
-      "year": 1465,
-      "season": "Léto",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
+    {
+      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
     {
       "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
       "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
@@ -1672,33 +1753,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 66
-    },
-    {
-      "text": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
-      "text_cs": "Dva místní pekaři byli přistiženi při pečení podměrečných bochníků, do kterých navíc přimíchávali hrachovou mouku. Byli potrestáni pokutou a museli stát celý den v kleci hanby na náměstí. Místní chudina po nich házela zkaženou zeleninu.",
-      "text_en": "Two local bakers were caught baking underweight loaves, into which they also mixed pea flour. They were punished with a fine and had to stand all day in the cage of shame in the square. The local poor threw rotten vegetables at them.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "local_events",
-      "tick": 55,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 55,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
+      "text_cs": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
+      "text_en": "In 1433, on the Monday after St Bartholomew, the lords of both towns of Prague marched to Plzeň to take the city.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 62,
+      "year": 1465,
+      "season": "Léto",
+      "day": 68
+    },
     {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
@@ -1806,18 +1875,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 65
-    },
-    {
-      "text": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_cs": "Z Prahy: Některé hrady na jihu Čech prý posádky své rozmnožily, ač válka žádná vyhlášena není. Páni se chystají, na co, neví se jistě. Kupci tudy jeti se obávají.",
-      "text_en": "From Prague: certain castles in the south of Bohemia are said to have strengthened their garrisons, though no war hath been declared. The lords make ready, for what cause none knoweth surely. Merchants fear to travel that way.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 48,
-      "year": 1465,
-      "season": "Léto",
-      "day": 64
     }
   ],
   "church_calendar": {
