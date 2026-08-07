@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-07T16:58:04.901Z",
-  "valid_until": "2026-08-14T16:58:04.901Z",
+  "generated": "2026-08-07T22:42:27.975Z",
+  "valid_until": "2026-08-14T22:42:27.975Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,15 +21,15 @@
     "name_en": "Fasting Friday"
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 27,
-    "windKmH": 10,
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "tempC": 19,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -37,9 +37,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 68,
-    "total_tick": 64,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 68"
+    "day": 69,
+    "total_tick": 65,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 69"
   },
   "actors": [
     {
@@ -49,7 +49,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 82,
+      "mood": 83,
       "stores": 19,
       "status": "stable"
     },
@@ -59,8 +59,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 91,
-      "mood": 78,
+      "wealth": 92,
+      "mood": 79,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -70,8 +70,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 66,
+      "wealth": 95,
+      "mood": 69,
       "stores": 18,
       "status": "stable"
     },
@@ -81,8 +81,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 52,
-      "mood": 85,
+      "wealth": 53,
+      "mood": 86,
       "stores": 14,
       "status": "stable"
     },
@@ -92,8 +92,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 61,
-      "mood": 98,
+      "wealth": 60,
+      "mood": 99,
       "stores": 10,
       "status": "stable"
     },
@@ -104,7 +104,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 56,
-      "mood": 52,
+      "mood": 55,
       "stores": 13,
       "status": "stable"
     },
@@ -114,8 +114,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 73,
-      "mood": 99,
+      "wealth": 74,
+      "mood": 100,
       "stores": 14,
       "status": "stable"
     },
@@ -126,7 +126,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 76,
-      "mood": 93,
+      "mood": 95,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -137,7 +137,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 59,
+      "mood": 62,
       "stores": 26,
       "status": "stable"
     },
@@ -159,7 +159,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 80,
+      "mood": 83,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -1393,6 +1393,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
+      "type": "D",
+      "icon": "📿",
+      "source": "distant_events",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
+    {
+      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
+    {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
+    {
       "text": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
       "text_cs": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
       "text_en": "That year, on the Monday before St Lawrence, the same envoys returned from the emperor at Brno and appointed a general diet at Prague for St Matthew's day.",
@@ -1595,45 +1631,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 67
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 58,
-      "year": 1465,
-      "season": "Léto",
-      "day": 67
-    },
-    {
-      "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
-      "text_cs": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku.",
-      "text_en": "From Přerov: The town guard caught a thief trying to sell a stolen chestnut horse at the market. The alderman ordered the man flogged and banished from the town, while the horse was returned to its happy owner from Lipník.",
-      "type": "A",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 57,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
-      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
-      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
-      "type": "A",
-      "icon": "🗡️",
-      "source": "monastery_internal",
-      "tick": 57,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
+    {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
     {
       "text": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
       "text_cs": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
@@ -1729,33 +1753,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
-      "text_cs": "Na výročním trhu se objevil exotický obchodník s nákladem pepře, skořice a zázvoru, jež prý přivezl až z benátských galér. Vůně koření přilákala davy, avšak ceny jsou astronomické a dostupné jen pro šlechtu. Několik chudých žen se pokusilo hrst pepře ukrást, ale byly zbičovány.",
-      "text_en": "An exotic merchant appeared at the annual market with a cargo of pepper, cinnamon, and ginger, allegedly brought all the way from Venetian galleys. The smell of spices attracted crowds, but the prices are astronomical and accessible only to the nobility. Several poor women tried to steal a handful of pepper but were flogged.",
-      "type": "C",
-      "icon": "🍯",
-      "source": "local_events",
-      "tick": 60,
-      "year": 1465,
-      "season": "Léto",
-      "day": 67
-    },
-    {
-      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 60,
-      "year": 1465,
-      "season": "Léto",
-      "day": 67
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
+      "type": "D",
+      "icon": "📿",
+      "source": "distant_events",
+      "tick": 65,
+      "year": 1465,
+      "season": "Léto",
+      "day": 69
+    },
     {
       "text": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
       "text_cs": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
@@ -1863,22 +1875,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 66
-    },
-    {
-      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
-      "type": "A",
-      "icon": "🔮",
-      "source": "distant_events",
-      "tick": 54,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
     }
   ],
   "church_calendar": {
-    "day_of_year": 158,
+    "day_of_year": 159,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
