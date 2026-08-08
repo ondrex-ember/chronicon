@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-08T16:39:40.194Z",
-  "valid_until": "2026-08-15T16:39:40.194Z",
+  "generated": "2026-08-08T22:34:51.798Z",
+  "valid_until": "2026-08-15T22:34:51.798Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,15 +17,15 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 27,
-    "windKmH": 7,
+    "key": "summer_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Horké léto. Poutníci přicházejí hojně.",
+    "tempC": 20,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -33,9 +33,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 69,
-    "total_tick": 68,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 69"
+    "day": 70,
+    "total_tick": 69,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 70"
   },
   "actors": [
     {
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 84,
+      "mood": 86,
       "stores": 19,
       "status": "stable"
     },
@@ -56,7 +56,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 91,
-      "mood": 86,
+      "mood": 87,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -66,7 +66,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 72,
       "stores": 18,
       "status": "stable"
@@ -77,8 +77,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 55,
-      "mood": 89,
+      "wealth": 54,
+      "mood": 92,
       "stores": 14,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 62,
-      "mood": 99,
+      "mood": 98,
       "stores": 10,
       "status": "stable"
     },
@@ -100,7 +100,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 55,
-      "mood": 55,
+      "mood": 58,
       "stores": 13,
       "status": "stable"
     },
@@ -111,7 +111,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 75,
-      "mood": 100,
+      "mood": 99,
       "stores": 14,
       "status": "stable"
     },
@@ -121,7 +121,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 76,
+      "wealth": 75,
       "mood": 97,
       "stores": 17,
       "status": "prosperujici"
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 64,
+      "mood": 65,
       "stores": 26,
       "status": "stable"
     },
@@ -144,7 +144,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 19,
       "status": "prosperujici"
     },
@@ -1481,6 +1481,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
+      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
+      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
+      "type": "B",
+      "icon": "🐎",
+      "source": "distant_events",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
+      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
+      "type": "A",
+      "icon": "⚔️",
+      "source": "monastery_internal",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
@@ -1683,45 +1719,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
-      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
-      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
-      "type": "B",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 62,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 62,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 61,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_cs": "Z Uničova: Mistr pekař usnul u pece a přepečený chléb způsobil požár, který zachvátil celou ulici. Vyhořely čtyři domy včetně sladovny. Pekař přežil, ale město po něm žádá uhrazení všech škod.",
+      "text_en": "From Uničov: A master baker fell asleep at his oven, and the overbaked bread started a fire that engulfed the whole street. Four houses burned down, including a malthouse. The baker survived, but the town demands he cover all damages.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
+      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
+      "type": "A",
+      "icon": "⚔️",
+      "source": "monastery_internal",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
     {
       "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
       "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
@@ -1817,33 +1841,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_cs": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_en": "From the annals of 1433: on the Sunday and Monday before St Anthony fell a snow so deep that village folk could not reach the town markets. And so bread in Prague grew very dear — a strych of rye at thirty-four groschen. Snow raises the price of bread better than any bad harvest.",
-      "type": "A",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
-      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 63,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
+      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
+      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
+      "type": "B",
+      "icon": "🐎",
+      "source": "distant_events",
+      "tick": 69,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -1951,22 +1963,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 67
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 58,
-      "year": 1465,
-      "season": "Léto",
-      "day": 67
     }
   ],
   "church_calendar": {
-    "day_of_year": 159,
+    "day_of_year": 160,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
