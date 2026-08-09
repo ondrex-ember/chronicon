@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-08T22:34:51.798Z",
-  "valid_until": "2026-08-15T22:34:51.798Z",
+  "generated": "2026-08-09T05:10:27.946Z",
+  "valid_until": "2026-08-16T05:10:27.946Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,8 +21,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 20,
-    "windKmH": 6,
+    "tempC": 17,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1.1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 70,
-    "total_tick": 69,
+    "total_tick": 70,
     "date_string": "☀️ Léto, Léta Páně 1465, den 70"
   },
   "actors": [
@@ -44,7 +44,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 86,
       "stores": 19,
       "status": "stable"
@@ -55,7 +55,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 87,
       "stores": 21,
       "status": "prosperujici"
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 72,
+      "wealth": 95,
+      "mood": 73,
       "stores": 18,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 54,
-      "mood": 92,
+      "mood": 95,
       "stores": 14,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 62,
-      "mood": 98,
+      "mood": 99,
       "stores": 10,
       "status": "stable"
     },
@@ -99,8 +99,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 55,
-      "mood": 58,
+      "wealth": 56,
+      "mood": 60,
       "stores": 13,
       "status": "stable"
     },
@@ -110,8 +110,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 75,
-      "mood": 99,
+      "wealth": 74,
+      "mood": 100,
       "stores": 14,
       "status": "stable"
     },
@@ -121,8 +121,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 75,
-      "mood": 97,
+      "wealth": 76,
+      "mood": 99,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 65,
+      "mood": 64,
       "stores": 26,
       "status": "stable"
     },
@@ -143,8 +143,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 100,
       "stores": 19,
       "status": "prosperujici"
     },
@@ -154,7 +154,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 83,
       "stores": 15,
       "status": "stable",
@@ -1481,6 +1481,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 70,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
@@ -1707,18 +1719,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
-      "text_cs": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
-      "text_en": "In 1433, on the Monday after St Bartholomew, the lords of both towns of Prague marched to Plzeň to take the city.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 62,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "chronicle_local": [
@@ -1845,6 +1845,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 70,
+      "year": 1465,
+      "season": "Léto",
+      "day": 70
+    },
+    {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
@@ -1948,18 +1960,6 @@
       "icon": "🗣️",
       "source": "distant_events",
       "tick": 60,
-      "year": 1465,
-      "season": "Léto",
-      "day": 67
-    },
-    {
-      "text": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
-      "text_cs": "Z českých zemí, stará pamět: Po bitvě u Lipan prý kupci znovu na cesty vyjeli, neb se válčení utišilo. Trhy, jež léta prázdné stávaly, pomalu plnily se zbožím a hlukem.",
-      "text_en": "From the Bohemian lands, an old memory: after the battle of Lipany, merchants, it is said, went out upon the roads again, for the warfare had quieted. Markets that for years had stood empty slowly filled with goods and noise.",
-      "type": "C",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 59,
       "year": 1465,
       "season": "Léto",
       "day": 67
