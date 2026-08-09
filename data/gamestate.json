@@ -4,15 +4,15 @@
     "season": 1,
     "day": 70,
     "daysPerSeason": 90,
-    "totalTick": 71
+    "totalTick": 72
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 28,
-    "windKmH": 3,
+    "tempC": 32,
+    "windKmH": 4,
     "rainMm": 0
   },
   "virtue": {
@@ -51,7 +51,7 @@
       "profession": "Pán panství",
       "core": true,
       "wealth": 100,
-      "mood": 88.50313554908428,
+      "mood": 91.30438296504495,
       "stores": 18.980000000000004,
       "storesMax": 100,
       "status": "stable",
@@ -78,8 +78,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 90.13294772951105,
-      "mood": 86.1021127215563,
+      "wealth": 90.43489941650118,
+      "mood": 87.05297298120104,
       "stores": 21.372,
       "storesMax": 90,
       "status": "prosperujici",
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 95.97790191555852,
-      "mood": 74.21184223513826,
+      "wealth": 96.73739053335655,
+      "mood": 74.7485113555935,
       "stores": 17.9725,
       "storesMax": 80,
       "status": "stable",
@@ -134,8 +134,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 52.81539965873642,
-      "mood": 94.87486270243335,
+      "wealth": 52.85465767530564,
+      "mood": 95.53706835581464,
       "stores": 14.015625,
       "storesMax": 70,
       "status": "stable",
@@ -162,8 +162,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 61.266353643276446,
-      "mood": 98.4236691841027,
+      "wealth": 61.32842077601428,
+      "mood": 99.15262421780906,
       "stores": 10.318750000000001,
       "storesMax": 50,
       "status": "stable",
@@ -190,8 +190,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 54.6580024756114,
-      "mood": 59.610781501395934,
+      "wealth": 55.4193411137424,
+      "mood": 61.97793669225829,
       "stores": 12.675,
       "storesMax": 70,
       "status": "stable",
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 74.09459912058709,
+      "wealth": 73.31560004695056,
       "mood": 100,
       "stores": 13.604500000000002,
       "storesMax": 60,
@@ -246,8 +246,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 77.0570864827584,
-      "mood": 99.43281025282916,
+      "wealth": 76.92217850342558,
+      "mood": 100,
       "stores": 16.65625,
       "storesMax": 70,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.3917709925891,
-      "mood": 64.76305945048466,
+      "wealth": 98.67079834727748,
+      "mood": 66.7909497484471,
       "stores": 25.618125,
       "storesMax": 100,
       "status": "stable",
@@ -302,8 +302,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.3769992414426,
-      "mood": 99.20055306030116,
+      "wealth": 98.2046892921462,
+      "mood": 100,
       "stores": 18.8305,
       "storesMax": 80,
       "status": "prosperujici",
@@ -332,8 +332,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 97.53610423935274,
-      "mood": 85.12661720489504,
+      "wealth": 97.19330377557012,
+      "mood": 86.52010181623626,
       "stores": 15.323750000000002,
       "storesMax": 75,
       "status": "stable",
@@ -1343,6 +1343,53 @@
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 72
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -2909,7 +2956,7 @@
       "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval."
     },
     "porta_cletter_005": {
-      "tick": 48,
+      "tick": 72,
       "text": "cletter_005"
     },
     "anales_sel_006": {

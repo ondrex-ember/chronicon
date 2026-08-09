@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-09T10:40:01.520Z",
-  "valid_until": "2026-08-16T10:40:01.520Z",
+  "generated": "2026-08-09T16:41:29.456Z",
+  "valid_until": "2026-08-16T16:41:29.456Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,8 +21,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 28,
-    "windKmH": 3,
+    "tempC": 32,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 70,
-    "total_tick": 71,
+    "total_tick": 72,
     "date_string": "☀️ Léto, Léta Páně 1465, den 70"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 100,
-      "mood": 89,
+      "mood": 91,
       "stores": 19,
       "status": "stable"
     },
@@ -56,7 +56,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 90,
-      "mood": 86,
+      "mood": 87,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -66,8 +66,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
-      "mood": 74,
+      "wealth": 97,
+      "mood": 75,
       "stores": 18,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 53,
-      "mood": 95,
+      "mood": 96,
       "stores": 14,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 61,
-      "mood": 98,
+      "mood": 99,
       "stores": 10,
       "status": "stable"
     },
@@ -100,7 +100,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 55,
-      "mood": 60,
+      "mood": 62,
       "stores": 13,
       "status": "stable"
     },
@@ -110,7 +110,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 74,
+      "wealth": 73,
       "mood": 100,
       "stores": 14,
       "status": "stable"
@@ -122,7 +122,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 77,
-      "mood": 99,
+      "mood": 100,
       "stores": 17,
       "status": "prosperujici"
     },
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 65,
+      "mood": 67,
       "stores": 26,
       "status": "stable"
     },
@@ -144,7 +144,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 99,
+      "mood": 100,
       "stores": 19,
       "status": "prosperujici"
     },
@@ -154,8 +154,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 97,
+      "mood": 87,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -204,6 +204,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 72
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
