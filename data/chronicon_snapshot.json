@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-09T16:41:29.456Z",
-  "valid_until": "2026-08-16T16:41:29.456Z",
+  "generated": "2026-08-09T22:36:40.216Z",
+  "valid_until": "2026-08-16T22:36:40.216Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,7 +21,7 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 32,
+    "tempC": 24,
     "windKmH": 4,
     "rainMm": 0,
     "season": 1,
@@ -33,9 +33,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 70,
-    "total_tick": 72,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 70"
+    "day": 71,
+    "total_tick": 73,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 71"
   },
   "actors": [
     {
@@ -55,7 +55,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 90,
+      "wealth": 91,
       "mood": 87,
       "stores": 21,
       "status": "prosperujici"
@@ -77,8 +77,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 53,
-      "mood": 96,
+      "wealth": 54,
+      "mood": 98,
       "stores": 14,
       "status": "stable"
     },
@@ -110,7 +110,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 73,
+      "wealth": 74,
       "mood": 100,
       "stores": 14,
       "status": "stable"
@@ -121,7 +121,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 77,
+      "wealth": 76,
       "mood": 100,
       "stores": 17,
       "status": "prosperujici"
@@ -133,7 +133,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 67,
+      "mood": 69,
       "stores": 26,
       "status": "stable"
     },
@@ -143,7 +143,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 19,
       "status": "prosperujici"
@@ -155,7 +155,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 87,
+      "mood": 89,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -204,6 +204,52 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 73
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -1528,6 +1574,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
       "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_en": "From the Zbraslav notes: the widow of a soldier from the Hussite wars hath begged at the church gate these twenty years. The priests give her alms, but it sufficeth not. Many have forgotten her; she herself forgetteth none.",
@@ -1730,45 +1812,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
-      "text_cs": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
-      "text_en": "From Opava: Bands of river pirates are moving along the river in small boats. Last night they unexpectedly grappled two rafter boats full of wine barrels and dragged them off into unknown blind branches of the river.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_cs": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_en": "From the annals of 1433: on the Sunday and Monday before St Anthony fell a snow so deep that village folk could not reach the town markets. And so bread in Prague grew very dear — a strych of rye at thirty-four groschen. Snow raises the price of bread better than any bad harvest.",
-      "type": "A",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 63,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
@@ -1864,33 +1934,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "monastery_internal",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 73,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
@@ -1998,22 +2056,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 68
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 61,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "church_calendar": {
-    "day_of_year": 160,
+    "day_of_year": 161,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
