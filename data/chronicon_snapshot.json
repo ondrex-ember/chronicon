@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-10T11:12:39.012Z",
-  "valid_until": "2026-08-17T11:12:39.012Z",
+  "generated": "2026-08-10T16:58:29.517Z",
+  "valid_until": "2026-08-17T16:58:29.517Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -22,7 +22,7 @@
     "icon": "🔆",
     "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
     "tempC": 33,
-    "windKmH": 12,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 0.85,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 71,
-    "total_tick": 75,
+    "total_tick": 76,
     "date_string": "☀️ Léto, Léta Páně 1465, den 71"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 90,
+      "mood": 91,
       "stores": 19,
       "status": "stable",
       "relations": {
@@ -68,7 +68,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 91,
-      "mood": 89,
+      "mood": 91,
       "stores": 21,
       "status": "prosperujici",
       "relations": {
@@ -91,7 +91,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 76,
+      "mood": 78,
       "stores": 18,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 54,
-      "mood": 100,
+      "mood": 99,
       "stores": 14,
       "status": "stable",
       "relations": {
@@ -136,7 +136,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 61,
+      "wealth": 62,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -205,7 +205,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 75,
+      "wealth": 76,
       "mood": 100,
       "stores": 17,
       "status": "prosperujici",
@@ -251,8 +251,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 19,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 88,
+      "mood": 89,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -336,6 +336,61 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 76
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -1701,52 +1756,33 @@
         }
       ],
       "_pickedTick": 18
-    },
-    {
-      "id": "cletter_011",
-      "seal": "church",
-      "type": "C",
-      "icon": "⛪",
-      "tags": [
-        "relikvie",
-        "kostel"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Kostelník od sv. Mořice",
-      "sender_en": "The Sexton of St. Maurice's",
-      "title_cs": "Dotaz na pravost relikvie",
-      "title_en": "A Question about a Relic's Authenticity",
-      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
-      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
-      "choices": [
-        {
-          "id": "advise",
-          "label_cs": "📖 Poslat radu z knihovny",
-          "label_en": "📖 Send counsel from the library",
-          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
-          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            },
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 17
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
+      "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
+      "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
+      "type": "A",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
@@ -1962,33 +1998,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
-      "text_cs": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
-      "text_en": "From Opava: A spark from the forge ignited the town smithy, and the fire spread to an adjacent barn. The damages are immense, as the heat also destroyed precious bellows and tools imported all the way from Passau. The blacksmith is ruined.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "local_events",
-      "tick": 67,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_cs": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_en": "Brother librarian recalls from the annals: in 1346, on the twenty-sixth day of November, Charles, Margrave of Moravia, was elected King of the Romans. A margrave of ours — and a king over the Empire. Moravia remembers.",
-      "type": "A",
-      "icon": "👑",
-      "source": "monastery_internal",
-      "tick": 67,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
+      "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
+      "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
+      "type": "A",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
       "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
@@ -2096,21 +2120,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 68,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 76,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
@@ -2218,18 +2242,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_cs": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_en": "That year, on the Monday before St Lawrence, the same envoys returned from the emperor at Brno and appointed a general diet at Prague for St Matthew's day.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "church_calendar": {
