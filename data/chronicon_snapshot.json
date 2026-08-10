@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-09T22:36:40.216Z",
-  "valid_until": "2026-08-16T22:36:40.216Z",
+  "generated": "2026-08-10T05:37:33.649Z",
+  "valid_until": "2026-08-17T05:37:33.649Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,7 +21,7 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 24,
+    "tempC": 23,
     "windKmH": 4,
     "rainMm": 0,
     "season": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 71,
-    "total_tick": 73,
+    "total_tick": 74,
     "date_string": "☀️ Léto, Léta Páně 1465, den 71"
   },
   "actors": [
@@ -45,7 +45,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 100,
-      "mood": 91,
+      "mood": 90,
       "stores": 19,
       "status": "stable"
     },
@@ -56,7 +56,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 91,
-      "mood": 87,
+      "mood": 89,
       "stores": 21,
       "status": "prosperujici"
     },
@@ -67,7 +67,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 75,
+      "mood": 74,
       "stores": 18,
       "status": "stable"
     },
@@ -78,7 +78,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 54,
-      "mood": 98,
+      "mood": 100,
       "stores": 14,
       "status": "stable"
     },
@@ -89,7 +89,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 61,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "stable"
     },
@@ -132,8 +132,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 69,
+      "wealth": 100,
+      "mood": 70,
       "stores": 26,
       "status": "stable"
     },
@@ -154,8 +154,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
-      "mood": 89,
+      "wealth": 98,
+      "mood": 88,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -204,6 +204,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 74
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -1574,6 +1631,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
+      "type": "D",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
+      "text_cs": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
+      "text_en": "From the annals: on the Sunday before St Vitus a flood burst upon Kouřim from a sudden rain such as had not been seen nor heard of in a hundred years. It took the hospital with its sick, the malthouses and homes. Brother infirmarius has mistrusted hospitals built by water ever since.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
@@ -1776,45 +1869,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "monastery_internal",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_cs": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_en": "That year, on the Monday before St Lawrence, the same envoys returned from the emperor at Brno and appointed a general diet at Prague for St Matthew's day.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
+      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
+      "type": "D",
+      "icon": "🌧️",
+      "source": "local_events",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
+      "text_cs": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
+      "text_en": "From the annals: on the Sunday before St Vitus a flood burst upon Kouřim from a sudden rain such as had not been seen nor heard of in a hundred years. It took the hospital with its sick, the malthouses and homes. Brother infirmarius has mistrusted hospitals built by water ever since.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
       "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
@@ -1910,33 +1991,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_cs": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_en": "Brother librarian recalls from the annals: in 1346, on the twenty-sixth day of November, Charles, Margrave of Moravia, was elected King of the Romans. A margrave of ours — and a king over the Empire. Moravia remembers.",
-      "type": "A",
-      "icon": "👑",
-      "source": "monastery_internal",
-      "tick": 67,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 66,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 74,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
@@ -2041,18 +2110,6 @@
       "icon": "🔥",
       "source": "distant_events",
       "tick": 63,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
-      "text_cs": "Léta MCCCCXXXIII u pondělí po sv. Bartoloměji páni pražští obojieho města, Starého i Nového, vyjeli sú ku Plzni dobývat města.",
-      "text_en": "In 1433, on the Monday after St Bartholomew, the lords of both towns of Prague marched to Plzeň to take the city.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 62,
       "year": 1465,
       "season": "Léto",
       "day": 68
