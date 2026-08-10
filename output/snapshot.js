@@ -72,12 +72,16 @@ const Snapshot = {
       // V2: dynamický seznam aktérů (Betlém model, profil 'ricni') —
       // NAHRAZUJE starý pevný seznam {monastery,vesnicane,valach,inkvizitor}.
       // Abbot-panel čte starý tvar — bude potřebovat vlastní update (plán, ne teď).
+      // relations přidáno (abbot-persona-mrd, 9.8.2026) — dřív jen interní
+      // pro engine (blok "Vztahy"), teď čitelné i Scriptoriem pro zobrazení
+      // vztahové sítě konkrétního aktéra (Opat tab).
       actors: GameState.actors.map(a => ({
         id: a.id, label: a.label, label_en: a.label_en,
         profession: a.profession, profession_en: a.profession_en,
         wealth: Math.round(a.wealth), mood: Math.round(a.mood),
         stores: Math.round(a.stores), status: a.status,
         itemStock: a.itemStock || undefined,
+        relations: a.relations || undefined,
       })),
 
       region: {
