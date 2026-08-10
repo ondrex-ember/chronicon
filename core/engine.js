@@ -579,6 +579,10 @@ const GameEngine = {
     // Po 3 týdnech smutku převezme dvůr nástupce téhož řemesla — jednotlivé
     // úmrtí je dramatický beat, ne trvalá díra v ekonomice. Kolaps-obnova
     // (bod 6) zůstává jako vzácnější pojistka pro celoplošnou krizi.
+    // abbot-persona-mrd (9.8.2026) — Opat má jmenovanou zásobu nástupců
+    // (mirror Scriptorium AbbotSystem.CANDIDATES), ostatní aktéři beze
+    // změny (generický "nový [řemeslo] převzal").
+    const KLASTER_SUCCESSORS = ['Prokop', 'Metoděj'];
     actors.forEach(a => {
       if (a.status !== 'mrtvy') return;
       if (GameState.week - (a._deathWeek || 0) < 3) return;
@@ -590,10 +594,18 @@ const GameEngine = {
       delete a._deathWeek;
       delete a._infected;
       delete a._quarantined;
-      GameLog.add(
-        `Dvůr po zesnulém ${a.label} nezůstal dlouho prázdný — nový ${a.profession.toLowerCase()} převzal řemeslo a dům.`,
-        { type: 'C', icon: '👤', source: 'monastery_internal' }
-      );
+      if (a.id === 'klaster') {
+        const successorName = KLASTER_SUCCESSORS[Math.floor(Math.random() * KLASTER_SUCCESSORS.length)];
+        GameLog.add(
+          `Klášter truchlil, ale ne dlouho — bratr ${successorName} byl zvolen novým opatem. Dům pokračuje.`,
+          { type: 'C', icon: '👤', source: 'monastery_internal' }
+        );
+      } else {
+        GameLog.add(
+          `Dvůr po zesnulém ${a.label} nezůstal dlouho prázdný — nový ${a.profession.toLowerCase()} převzal řemeslo a dům.`,
+          { type: 'C', icon: '👤', source: 'monastery_internal' }
+        );
+      }
     });
 
 
