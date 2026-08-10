@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-10T16:58:29.517Z",
-  "valid_until": "2026-08-17T16:58:29.517Z",
+  "generated": "2026-08-10T22:43:22.706Z",
+  "valid_until": "2026-08-17T22:43:22.706Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,25 +17,25 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 33,
-    "windKmH": 13,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 24,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 71,
-    "total_tick": 76,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 71"
+    "day": 72,
+    "total_tick": 77,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 72"
   },
   "actors": [
     {
@@ -44,8 +44,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
-      "mood": 91,
+      "wealth": 98,
+      "mood": 92,
       "stores": 19,
       "status": "stable",
       "relations": {
@@ -67,7 +67,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 91,
       "stores": 21,
       "status": "prosperujici",
@@ -113,7 +113,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 54,
+      "wealth": 55,
       "mood": 99,
       "stores": 14,
       "status": "stable",
@@ -159,8 +159,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 54,
-      "mood": 61,
+      "wealth": 53,
+      "mood": 60,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 69,
+      "wealth": 99,
+      "mood": 70,
       "stores": 26,
       "status": "stable",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 99,
       "stores": 19,
       "status": "prosperujici",
@@ -275,7 +275,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 89,
+      "mood": 88,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -1760,6 +1760,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
+    {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
@@ -1959,42 +1995,6 @@
       "icon": "🤝",
       "source": "distant_events",
       "tick": 68,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 68,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 68,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
-      "type": "C",
-      "icon": "🧶",
-      "source": "distant_events",
-      "tick": 67,
       "year": 1465,
       "season": "Léto",
       "day": 69
@@ -2002,6 +2002,30 @@
   ],
   "chronicle_local": [
     {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
+    {
       "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
       "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
       "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
@@ -2096,33 +2120,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 70
-    },
-    {
-      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
-      "type": "A",
-      "icon": "⚔️",
-      "source": "monastery_internal",
-      "tick": 69,
-      "year": 1465,
-      "season": "Léto",
-      "day": 70
-    },
-    {
-      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 68,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 77,
+      "year": 1465,
+      "season": "Léto",
+      "day": 72
+    },
     {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
@@ -2230,22 +2242,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
-      "type": "D",
-      "icon": "📿",
-      "source": "distant_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "church_calendar": {
-    "day_of_year": 161,
+    "day_of_year": 162,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
