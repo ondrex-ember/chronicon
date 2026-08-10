@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-10T05:37:33.649Z",
-  "valid_until": "2026-08-17T05:37:33.649Z",
+  "generated": "2026-08-10T11:12:39.012Z",
+  "valid_until": "2026-08-17T11:12:39.012Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 23,
-    "windKmH": 4,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 33,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 71,
-    "total_tick": 74,
+    "total_tick": 75,
     "date_string": "☀️ Léto, Léta Páně 1465, den 71"
   },
   "actors": [
@@ -44,10 +44,22 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 90,
       "stores": 19,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "mlynar": 31.200000000000003,
+        "kovar": 21.200000000000003,
+        "uhlic": 10.6,
+        "vorar": 11.2,
+        "rybnikar": 20,
+        "prevoznik": 41.2,
+        "valach": 16.2,
+        "klaster": -9.4,
+        "vcelar": 11.2,
+        "sklar": 10.6
+      }
     },
     {
       "id": "mlynar",
@@ -58,7 +70,19 @@
       "wealth": 91,
       "mood": 89,
       "stores": 21,
-      "status": "prosperujici"
+      "status": "prosperujici",
+      "relations": {
+        "vrchnost": 31.200000000000003,
+        "kovar": 41.2,
+        "uhlic": 5.6,
+        "vorar": 21.200000000000003,
+        "rybnikar": -24.4,
+        "prevoznik": 11.2,
+        "valach": 1.2,
+        "klaster": 10.6,
+        "vcelar": 1.2,
+        "sklar": 5.6
+      }
     },
     {
       "id": "kovar",
@@ -67,9 +91,21 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 74,
+      "mood": 76,
       "stores": 18,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": 21.200000000000003,
+        "mlynar": 41.2,
+        "uhlic": 50.6,
+        "vorar": 1.2,
+        "rybnikar": 0,
+        "prevoznik": 1.2,
+        "valach": 21.200000000000003,
+        "klaster": 0,
+        "vcelar": 16.2,
+        "sklar": 20.6
+      }
     },
     {
       "id": "uhlic",
@@ -80,7 +116,19 @@
       "wealth": 54,
       "mood": 100,
       "stores": 14,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": 10.6,
+        "mlynar": 5.6,
+        "kovar": 50.6,
+        "vorar": 1.2,
+        "rybnikar": 0,
+        "prevoznik": 1.2,
+        "valach": 5.6,
+        "klaster": 0.6,
+        "vcelar": 1.2,
+        "sklar": 45.6
+      }
     },
     {
       "id": "vorar",
@@ -91,7 +139,19 @@
       "wealth": 61,
       "mood": 100,
       "stores": 10,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": 11.2,
+        "mlynar": 21.200000000000003,
+        "kovar": 1.2,
+        "uhlic": 1.2,
+        "rybnikar": -29.4,
+        "prevoznik": 16.2,
+        "valach": 1.2,
+        "klaster": 0.6,
+        "vcelar": 1.2,
+        "sklar": 1.2
+      }
     },
     {
       "id": "rybnikar",
@@ -99,10 +159,22 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 55,
-      "mood": 62,
+      "wealth": 54,
+      "mood": 61,
       "stores": 13,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": 20,
+        "mlynar": -24.4,
+        "kovar": 0,
+        "uhlic": 0,
+        "vorar": -29.4,
+        "prevoznik": 0.6,
+        "valach": 0.6,
+        "klaster": 45,
+        "vcelar": 0.6,
+        "sklar": 0
+      }
     },
     {
       "id": "prevoznik",
@@ -110,10 +182,22 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 74,
+      "wealth": 75,
       "mood": 100,
       "stores": 14,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": 41.2,
+        "mlynar": 11.2,
+        "kovar": 1.2,
+        "uhlic": 1.2,
+        "vorar": 16.2,
+        "rybnikar": 0.6,
+        "valach": 1.2,
+        "klaster": 0.6,
+        "vcelar": 1.2,
+        "sklar": 11.2
+      }
     },
     {
       "id": "valach",
@@ -121,10 +205,22 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 76,
+      "wealth": 75,
       "mood": 100,
       "stores": 17,
-      "status": "prosperujici"
+      "status": "prosperujici",
+      "relations": {
+        "vrchnost": 16.2,
+        "mlynar": 1.2,
+        "kovar": 21.200000000000003,
+        "uhlic": 5.6,
+        "vorar": 1.2,
+        "rybnikar": 0.6,
+        "prevoznik": 1.2,
+        "klaster": 20.6,
+        "vcelar": 1.2,
+        "sklar": 0.6
+      }
     },
     {
       "id": "klaster",
@@ -133,9 +229,21 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 70,
+      "mood": 69,
       "stores": 26,
-      "status": "stable"
+      "status": "stable",
+      "relations": {
+        "vrchnost": -9.4,
+        "mlynar": 10.6,
+        "kovar": 0,
+        "uhlic": 0.6,
+        "vorar": 0.6,
+        "rybnikar": 45,
+        "prevoznik": 0.6,
+        "valach": 20.6,
+        "vcelar": 35.6,
+        "sklar": 25
+      }
     },
     {
       "id": "vcelar",
@@ -143,10 +251,22 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 19,
-      "status": "prosperujici"
+      "status": "prosperujici",
+      "relations": {
+        "vrchnost": 11.2,
+        "mlynar": 1.2,
+        "kovar": 16.2,
+        "uhlic": 1.2,
+        "vorar": 1.2,
+        "rybnikar": 0.6,
+        "prevoznik": 1.2,
+        "valach": 1.2,
+        "klaster": 35.6,
+        "sklar": 6.199999999999999
+      }
     },
     {
       "id": "sklar",
@@ -154,7 +274,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 88,
       "stores": 15,
       "status": "stable",
@@ -165,6 +285,18 @@
         "naramek_sklo_zeleny": 0.8,
         "naramek_sklo_hnedy": 0.8,
         "naramek_sklo_modry": 0.16
+      },
+      "relations": {
+        "vrchnost": 10.6,
+        "mlynar": 5.6,
+        "kovar": 20.6,
+        "uhlic": 45.6,
+        "vorar": 1.2,
+        "rybnikar": 0,
+        "prevoznik": 11.2,
+        "valach": 0.6,
+        "klaster": 25,
+        "vcelar": 6.199999999999999
       }
     }
   ],
@@ -204,6 +336,48 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 75
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -1570,66 +1744,33 @@
         }
       ],
       "_pickedTick": 17
-    },
-    {
-      "id": "cletter_004",
-      "seal": "church",
-      "type": "C",
-      "icon": "🙏",
-      "tags": [
-        "modlitba",
-        "prosba"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Farní kostelník od sv. Michala",
-      "sender_en": "The Parish Sexton of St. Michael's",
-      "title_cs": "Prosba o přímluvnou mši",
-      "title_en": "A Request for an Intercessory Mass",
-      "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
-      "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
-      "choices": [
-        {
-          "id": "pray",
-          "label_cs": "⛪ Odsloužit mši za faráře",
-          "label_en": "⛪ Say a mass for the priest",
-          "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
-          "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 3
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "id": "busy",
-          "label_cs": "📜 Slíbit modlitbu při běžné mši",
-          "label_en": "📜 Promise a prayer at the regular mass",
-          "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
-          "notify_en": "A modest reply, still received with thanks.",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 15
     }
   ],
   "chronicle": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
@@ -1845,33 +1986,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 66,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
-      "type": "D",
-      "icon": "📿",
-      "source": "distant_events",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
       "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
@@ -1979,21 +2108,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
-      "text_cs": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
-      "text_en": "From Opava: A spark from the forge ignited the town smithy, and the fire spread to an adjacent barn. The damages are immense, as the heat also destroyed precious bellows and tools imported all the way from Passau. The blacksmith is ruined.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "local_events",
-      "tick": 67,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
@@ -2098,18 +2227,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 63,
       "year": 1465,
       "season": "Léto",
       "day": 68

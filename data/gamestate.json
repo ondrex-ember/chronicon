@@ -4,15 +4,15 @@
     "season": 1,
     "day": 71,
     "daysPerSeason": 90,
-    "totalTick": 74
+    "totalTick": 75
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 23,
-    "windKmH": 4,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 33,
+    "windKmH": 12,
     "rainMm": 0
   },
   "virtue": {
@@ -50,8 +50,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.80541332228017,
-      "mood": 90.21452181537336,
+      "wealth": 98.87095111124376,
+      "mood": 90.19797455828737,
       "stores": 18.980000000000004,
       "storesMax": 100,
       "status": "stable",
@@ -78,8 +78,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 90.71109630724423,
-      "mood": 88.55843550887928,
+      "wealth": 91.20173262172352,
+      "mood": 89.27061533922921,
       "stores": 21.372,
       "storesMax": 90,
       "status": "prosperujici",
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 96.89326798548237,
-      "mood": 74.18539462790777,
+      "wealth": 96.8817503239234,
+      "mood": 75.89404259059205,
       "stores": 17.9725,
       "storesMax": 80,
       "status": "stable",
@@ -134,8 +134,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 54.01769768909155,
-      "mood": 99.80845687497406,
+      "wealth": 53.88793974381722,
+      "mood": 100,
       "stores": 14.015625,
       "storesMax": 70,
       "status": "stable",
@@ -162,8 +162,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 60.671402924071344,
-      "mood": 100,
+      "wealth": 61.067651495222066,
+      "mood": 99.6615614592463,
       "stores": 10.318750000000001,
       "storesMax": 50,
       "status": "stable",
@@ -190,8 +190,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 54.53690139332656,
-      "mood": 61.72700423682286,
+      "wealth": 54.22444138960785,
+      "mood": 61.40030293096071,
       "stores": 12.675,
       "storesMax": 70,
       "status": "stable",
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 74.24876704332164,
+      "wealth": 74.51127533587794,
       "mood": 100,
       "stores": 13.604500000000002,
       "storesMax": 60,
@@ -246,7 +246,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 75.63073483022283,
+      "wealth": 74.89920244319916,
       "mood": 100,
       "stores": 16.65625,
       "storesMax": 70,
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "core": true,
       "wealth": 100,
-      "mood": 69.80632802573105,
+      "mood": 69.4499214578223,
       "stores": 25.618125,
       "storesMax": 100,
       "status": "stable",
@@ -302,7 +302,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.94346690477353,
+      "wealth": 98.18569880528409,
       "mood": 100,
       "stores": 18.8305,
       "storesMax": 80,
@@ -332,8 +332,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 97.51294848713123,
-      "mood": 87.97190730042502,
+      "wealth": 97.23667843886166,
+      "mood": 87.6881004718054,
       "stores": 15.323750000000002,
       "storesMax": 75,
       "status": "stable",
@@ -381,6 +381,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 75,
+      "year": 1465,
+      "season": "Léto",
+      "day": 71
+    },
     {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
@@ -1316,33 +1340,51 @@
       "year": 1465,
       "season": "Léto",
       "day": 62
-    },
-    {
-      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
-    },
-    {
-      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
-      "type": "C",
-      "icon": "🔨",
-      "source": "local_events",
-      "tick": 40,
-      "year": 1465,
-      "season": "Léto",
-      "day": 62
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 75
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -2923,7 +2965,7 @@
       "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím."
     },
     "local_110": {
-      "tick": 17,
+      "tick": 75,
       "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí."
     },
     "praha_029": {
@@ -2991,7 +3033,7 @@
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví."
     },
     "porta_cletter_015": {
-      "tick": 40,
+      "tick": 75,
       "text": "cletter_015"
     },
     "mono_127": {
@@ -3417,6 +3459,10 @@
     "local_147": {
       "tick": 74,
       "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru."
+    },
+    "zbras_032": {
+      "tick": 75,
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná."
     }
   },
   "flags": {
