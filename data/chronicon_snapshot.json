@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-12T05:40:56.267Z",
-  "valid_until": "2026-08-19T05:40:56.267Z",
+  "generated": "2026-08-12T11:02:57.134Z",
+  "valid_until": "2026-08-19T11:02:57.134Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,8 +25,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 15,
-    "windKmH": 2,
+    "tempC": 23,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1.1,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 73,
-    "total_tick": 82,
+    "total_tick": 83,
     "date_string": "☀️ Léto, Léta Páně 1465, den 73"
   },
   "actors": [
@@ -72,7 +72,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 89,
-      "mood": 94,
+      "mood": 93,
       "stores": 21,
       "status": "prosperujici",
       "relations": {
@@ -94,7 +94,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 83,
       "stores": 18,
       "status": "stable",
@@ -117,7 +117,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 56,
+      "wealth": 55,
       "mood": 100,
       "stores": 14,
       "status": "stable",
@@ -163,7 +163,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 53,
+      "wealth": 52,
       "mood": 70,
       "stores": 13,
       "status": "stable",
@@ -209,7 +209,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 78,
+      "wealth": 77,
       "mood": 100,
       "stores": 17,
       "status": "prosperujici",
@@ -233,7 +233,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 71,
+      "mood": 72,
       "stores": 26,
       "status": "stable",
       "relations": {
@@ -255,8 +255,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 19,
       "status": "prosperujici",
       "relations": {
@@ -278,7 +278,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 93,
       "stores": 15,
       "status": "stable",
@@ -340,6 +340,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 83
+    },
     {
       "id": "cletter_008",
       "seal": "noble",
@@ -1696,66 +1743,33 @@
         }
       ],
       "_pickedTick": 22
-    },
-    {
-      "id": "cletter_002",
-      "seal": "village",
-      "type": "D",
-      "icon": "🐐",
-      "tags": [
-        "hranice",
-        "spor",
-        "vesnice"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Rychtář z Chválkovic",
-      "sender_en": "The Bailiff of Chválkovice",
-      "title_cs": "Stížnost rychtáře na kozy",
-      "title_en": "The Bailiff's Complaint about the Goats",
-      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
-      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
-      "choices": [
-        {
-          "id": "pay",
-          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
-          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
-          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
-          "notify_en": "The dispute smoothed over with coin. (village +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -6
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 2
-            }
-          ]
-        },
-        {
-          "id": "ignore",
-          "label_cs": "🤷 Plot spraví bratři sami, časem",
-          "label_en": "🤷 The brothers will mend it themselves, in time",
-          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
-          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 21
     }
   ],
   "chronicle": [
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 83,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
+    {
+      "text": "Moje včely dnes vyletěly přesně při zvuku poledního zvonu. Mají v sobě více poslušnosti než polovina noviců. Usmál jsem se a vyčistil dno úlu. Svět je někdy v dokonalé harmonii.",
+      "text_cs": "Moje včely dnes vyletěly přesně při zvuku poledního zvonu. Mají v sobě více poslušnosti než polovina noviců. Usmál jsem se a vyčistil dno úlu. Svět je někdy v dokonalé harmonii.",
+      "text_en": "My bees flew out exactly at the sound of the noon bell today. They have more obedience in them than half the novices. I smiled and cleaned the bottom of the hive. The world is sometimes in perfect harmony.",
+      "type": "E",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 83,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
     {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
@@ -1971,33 +1985,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_cs": "Z Přerova: Silné letní průtrže zničily polovinu polí kolem města. Zralá pšenice byla spláchnuta do bahna a sedláci lomí rukama. Biskup slíbil snížit poddaným církve letošní desátky, aby zamezil hladomoru.",
-      "text_en": "From Přerov: Severe summer downpours destroyed half the fields around the town. Ripe wheat was washed into the mud, and farmers wring their hands. The bishop promised to reduce this year's tithes for church serfs to prevent famine.",
-      "type": "D",
-      "icon": "🌧️",
-      "source": "local_events",
-      "tick": 74,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
-    },
-    {
-      "text": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
-      "text_cs": "Z análů: v neděli před svatým Vítem strhla se u Kouřimi potopa z náhlého deště, jaký nebyl vídán ani slýchán sto let. Vzala špitál i s nemocnými, sladovny i domy. Bratr infirmarius od té doby nedá dopustit na špitály stavěné u vody.",
-      "text_en": "From the annals: on the Sunday before St Vitus a flood burst upon Kouřim from a sudden rain such as had not been seen nor heard of in a hundred years. It took the hospital with its sick, the malthouses and homes. Brother infirmarius has mistrusted hospitals built by water ever since.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 74,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 83,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
+    {
+      "text": "Moje včely dnes vyletěly přesně při zvuku poledního zvonu. Mají v sobě více poslušnosti než polovina noviců. Usmál jsem se a vyčistil dno úlu. Svět je někdy v dokonalé harmonii.",
+      "text_cs": "Moje včely dnes vyletěly přesně při zvuku poledního zvonu. Mají v sobě více poslušnosti než polovina noviců. Usmál jsem se a vyčistil dno úlu. Svět je někdy v dokonalé harmonii.",
+      "text_en": "My bees flew out exactly at the sound of the noon bell today. They have more obedience in them than half the novices. I smiled and cleaned the bottom of the hive. The world is sometimes in perfect harmony.",
+      "type": "E",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 83,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
     {
       "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
       "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
@@ -2093,30 +2107,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 72
-    },
-    {
-      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 77,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
-    },
-    {
-      "text": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_cs": "Na zemském sněmu král Jiří z Poděbrad veřejně a emotivně odmítl papežovo zrušení kompaktát. Přísahal, že bude hájit přijímání z kalicha s nasazením vlastního života i životů své rodiny. Opozice je v šoku, zatímco kališníci svého panovníka nadšeně oslavují.",
-      "text_en": "At the provincial diet, King George of Poděbrady publicly and emotionally rejected the Pope's annulment of the Compactata. He swore to defend communion from the chalice at the risk of his own life and the lives of his family. The opposition is in shock, while the Calixtines enthusiastically celebrate their monarch.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 76,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "chronicle_distant": [
