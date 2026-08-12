@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-11T22:50:10.013Z",
-  "valid_until": "2026-08-18T22:50:10.013Z",
+  "generated": "2026-08-12T05:40:56.267Z",
+  "valid_until": "2026-08-19T05:40:56.267Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,14 +15,18 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "weather": {
     "key": "summer_clear",
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 17,
-    "windKmH": 4,
+    "tempC": 15,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1.1,
@@ -34,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 73,
-    "total_tick": 81,
+    "total_tick": 82,
     "date_string": "☀️ Léto, Léta Páně 1465, den 73"
   },
   "actors": [
@@ -44,8 +48,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 93,
+      "wealth": 99,
+      "mood": 95,
       "stores": 19,
       "status": "stable",
       "relations": {
@@ -68,7 +72,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 89,
-      "mood": 93,
+      "mood": 94,
       "stores": 21,
       "status": "prosperujici",
       "relations": {
@@ -90,8 +94,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 83,
       "stores": 18,
       "status": "stable",
       "relations": {
@@ -113,7 +117,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 57,
+      "wealth": 56,
       "mood": 100,
       "stores": 14,
       "status": "stable",
@@ -136,8 +140,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 64,
-      "mood": 99,
+      "wealth": 63,
+      "mood": 100,
       "stores": 10,
       "status": "stable",
       "relations": {
@@ -159,8 +163,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 54,
-      "mood": 68,
+      "wealth": 53,
+      "mood": 70,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -182,8 +186,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 76,
-      "mood": 98,
+      "wealth": 77,
+      "mood": 100,
       "stores": 14,
       "status": "stable",
       "relations": {
@@ -205,7 +209,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 77,
+      "wealth": 78,
       "mood": 100,
       "stores": 17,
       "status": "prosperujici",
@@ -251,7 +255,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 19,
       "status": "prosperujici",
@@ -275,7 +279,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 94,
+      "mood": 93,
       "stores": 15,
       "status": "stable",
       "itemStock": {
@@ -1753,6 +1757,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 82,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
+    {
       "text": "Srpen přinesl ideální suché počasí pro žně a čeledíni od úsvitu do soumraku kosí zralou pšenici. Vozy plné zlatých snopů nepřetržitě směřují k panským stodolám a do městských sýpek. Pokud počasí vydrží ještě týden, bude zajištěn chléb na celou zimu.",
       "text_cs": "Srpen přinesl ideální suché počasí pro žně a čeledíni od úsvitu do soumraku kosí zralou pšenici. Vozy plné zlatých snopů nepřetržitě směřují k panským stodolám a do městských sýpek. Pokud počasí vydrží ještě týden, bude zajištěn chléb na celou zimu.",
       "text_en": "August brought ideal dry weather for the harvest, and farmhands are scything ripe wheat from dawn till dusk. Wagons full of golden sheaves head continuously to the manorial barns and town granaries. If the weather holds for another week, bread for the whole winter will be secured.",
@@ -1967,33 +1995,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 73,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
-    },
-    {
-      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 73,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 82,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
     {
       "text": "Srpen přinesl ideální suché počasí pro žně a čeledíni od úsvitu do soumraku kosí zralou pšenici. Vozy plné zlatých snopů nepřetržitě směřují k panským stodolám a do městských sýpek. Pokud počasí vydrží ještě týden, bude zajištěn chléb na celou zimu.",
       "text_cs": "Srpen přinesl ideální suché počasí pro žně a čeledíni od úsvitu do soumraku kosí zralou pšenici. Vozy plné zlatých snopů nepřetržitě směřují k panským stodolám a do městských sýpek. Pokud počasí vydrží ještě týden, bude zajištěn chléb na celou zimu.",
@@ -2101,21 +2117,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 82,
+      "year": 1465,
+      "season": "Léto",
+      "day": 73
+    },
     {
       "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
       "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
@@ -2220,18 +2236,6 @@
       "icon": "🐟",
       "source": "distant_events",
       "tick": 70,
-      "year": 1465,
-      "season": "Léto",
-      "day": 70
-    },
-    {
-      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
-      "type": "B",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 69,
       "year": 1465,
       "season": "Léto",
       "day": 70
