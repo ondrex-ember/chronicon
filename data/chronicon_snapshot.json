@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-12T17:01:29.500Z",
-  "valid_until": "2026-08-19T17:01:29.500Z",
+  "generated": "2026-08-12T22:48:26.679Z",
+  "valid_until": "2026-08-19T22:48:26.679Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,8 +25,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 25,
-    "windKmH": 9,
+    "tempC": 19,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1.1,
@@ -37,9 +37,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 73,
-    "total_tick": 84,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 73"
+    "day": 74,
+    "total_tick": 85,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 74"
   },
   "actors": [
     {
@@ -71,7 +71,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 90,
       "stores": 16,
       "status": "prosperujici",
@@ -95,7 +95,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 93,
-      "mood": 75,
+      "mood": 76,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -117,7 +117,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 65,
+      "wealth": 64,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -140,7 +140,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 72,
+      "wealth": 71,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -163,7 +163,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 60,
+      "wealth": 59,
       "mood": 70,
       "stores": 8,
       "status": "stable",
@@ -209,7 +209,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 100,
       "stores": 12,
       "status": "prosperujici",
@@ -233,7 +233,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 79,
+      "mood": 81,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -1747,6 +1747,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 85,
+      "year": 1465,
+      "season": "Léto",
+      "day": 74
+    },
+    {
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
+      "type": "C",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 85,
+      "year": 1465,
+      "season": "Léto",
+      "day": 74
+    },
+    {
       "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
       "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
       "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
@@ -1961,33 +1985,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 72
-    },
-    {
-      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 77,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
-    },
-    {
-      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 76,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
+      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
+      "type": "C",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 85,
+      "year": 1465,
+      "season": "Léto",
+      "day": 74
+    },
     {
       "text": "Kvůli zvěstem o pohybu nepřátelských vojsk purkmistr najal skupinu italských kameníků. Ti mají za úkol urychleně zpevnit chátrající severní věž a vybudovat nový příkop. Místní dělníci žárlí na jejich vysoké mzdy a v krčmách dochází ke slovním potyčkám.",
       "text_cs": "Kvůli zvěstem o pohybu nepřátelských vojsk purkmistr najal skupinu italských kameníků. Ti mají za úkol urychleně zpevnit chátrající severní věž a vybudovat nový příkop. Místní dělníci žárlí na jejich vysoké mzdy a v krčmách dochází ke slovním potyčkám.",
@@ -2095,21 +2107,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 72
-    },
-    {
-      "text": "Opavský kníže, hotovící se k boji proti Jiřímu z Poděbrad, vydal příkaz k bezohlednému rekvírování zásob. Pěší vojáci vybírají ze sklepů víno i sýry a berou sedlákům nejlepší tažné koně. Obyvatelstvo protestuje, ale proti ozbrojencům v kroužkové zbroji nezmůže nic.",
-      "text_cs": "Opavský kníže, hotovící se k boji proti Jiřímu z Poděbrad, vydal příkaz k bezohlednému rekvírování zásob. Pěší vojáci vybírají ze sklepů víno i sýry a berou sedlákům nejlepší tažné koně. Obyvatelstvo protestuje, ale proti ozbrojencům v kroužkové zbroji nezmůže nic.",
-      "text_en": "The Duke of Opava, preparing for battle against George of Poděbrady, issued an order for the ruthless requisitioning of supplies. Foot soldiers are emptying cellars of wine and cheese and taking the best draft horses from farmers. The population protests, but can do nothing against armed men in chainmail.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 79,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 85,
+      "year": 1465,
+      "season": "Léto",
+      "day": 74
+    },
     {
       "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
       "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
@@ -2217,22 +2229,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
-      "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
-      "text_en": "From the Zbraslav notes: the widow of a soldier from the Hussite wars hath begged at the church gate these twenty years. The priests give her alms, but it sufficeth not. Many have forgotten her; she herself forgetteth none.",
-      "type": "D",
-      "icon": "⚰️",
-      "source": "distant_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Léto",
-      "day": 70
     }
   ],
   "church_calendar": {
-    "day_of_year": 163,
+    "day_of_year": 164,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
