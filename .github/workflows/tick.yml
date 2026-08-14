@@ -28,6 +28,9 @@ jobs:
       - name: Run CHRONICON tick
         run: node cron.js --once
 
+      - name: Pull latest before commit (race s report webhooky — actor-favor/rescue/vrchnost/registrum/contact-relation report)
+        run: git pull --rebase --autostash origin main
+
       - name: Commit snapshot
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
