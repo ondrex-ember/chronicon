@@ -4,15 +4,15 @@
     "season": 1,
     "day": 75,
     "daysPerSeason": 90,
-    "totalTick": 89
+    "totalTick": 90
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 21,
-    "windKmH": 2,
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "tempC": 27,
+    "windKmH": 5,
     "rainMm": 0
   },
   "virtue": {
@@ -50,8 +50,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 98.02115237118763,
-      "mood": 100,
+      "wealth": 97.99786774257545,
+      "mood": 99.52710922786696,
       "stores": 11.037000000000003,
       "storesMax": 100,
       "status": "prosperujici",
@@ -78,8 +78,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 94.60103237477864,
-      "mood": 97.08314665139213,
+      "wealth": 94.16883881272396,
+      "mood": 99.67610783102373,
       "stores": 16.0043,
       "storesMax": 90,
       "status": "prosperujici",
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 91.92342539539975,
-      "mood": 82.23428842352939,
+      "wealth": 91.64413078924056,
+      "mood": 83.49671872927524,
       "stores": 12.819625,
       "storesMax": 80,
       "status": "prosperujici",
@@ -134,8 +134,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 64.71915895859867,
-      "mood": 100,
+      "wealth": 65.21823480743521,
+      "mood": 99.86913632429926,
       "stores": 10.45078125,
       "storesMax": 70,
       "status": "stable",
@@ -162,8 +162,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 72.3470172590002,
-      "mood": 100,
+      "wealth": 72.03179996543574,
+      "mood": 99.75045572309617,
       "stores": 8.047812500000001,
       "storesMax": 50,
       "status": "stable",
@@ -190,8 +190,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 57.11755812650806,
-      "mood": 75.15310893293244,
+      "wealth": 57.82620211424498,
+      "mood": 77.1985165360072,
       "stores": 8.23875,
       "storesMax": 70,
       "status": "stable",
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 86.4575352620064,
+      "wealth": 86.99506580032715,
       "mood": 100,
       "stores": 10.955425000000002,
       "storesMax": 60,
@@ -246,8 +246,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 91.81500486130918,
-      "mood": 100,
+      "wealth": 91.73760671147109,
+      "mood": 99.30770049553838,
       "stores": 12.1671875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 98.8579529576774,
-      "mood": 84.7573804805738,
+      "wealth": 99.55436453650194,
+      "mood": 85.53600839113562,
       "stores": 16.81428125,
       "storesMax": 100,
       "status": "stable",
@@ -381,6 +381,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
+    {
+      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
+      "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
+      "text_en": "From the annals: Bishop John of Dražice, twenty-seventh on the see of Prague, died after founding a monastery, a hospital and a stone bridge at Roudnice, and having a silver tomb wrought for St Adalbert. Brother prior adds: bishops are judged by the stone they leave behind.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "monastery_internal",
+      "tick": 90,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
     {
       "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
       "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
@@ -1313,30 +1337,6 @@
       "icon": "🗡️",
       "source": "monastery_internal",
       "tick": 57,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 56,
-      "year": 1465,
-      "season": "Léto",
-      "day": 66
-    },
-    {
-      "text": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
-      "text_cs": "Zápis koronera: Zámečník Hanuš zkoumal v noci hradní zdivo a zřítil se do hradního příkopu. Jeho tělo s polámanými údy bylo nalezeno až za úsvitu. Stráž ho považovala za opilce.",
-      "text_en": "Coroner's record: Hanuš the locksmith was inspecting the castle masonry at night and fell into the moat. His body with broken limbs was not found until dawn. The guard mistook him for a drunkard.",
-      "type": "A",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 56,
       "year": 1465,
       "season": "Léto",
       "day": 66
@@ -3132,7 +3132,7 @@
       "text": "Při nedělní bohoslužbě předčítal kněz zvláštní dekret od biskupa namířený proti stoupencům husitství v kraji. Každý, kdo by četl heretické knihy, propadne trestu vyhnanství. Mezi lidem to vzbudilo šepot a strach z případných tajných udavačů."
     },
     "zbras_036": {
-      "tick": 7,
+      "tick": 90,
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí."
     },
     "local_100": {
@@ -3818,6 +3818,10 @@
     "zbras_029": {
       "tick": 89,
       "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují."
+    },
+    "anales_sel_012": {
+      "tick": 90,
+      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal."
     }
   },
   "flags": {
