@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-14T11:00:56.375Z",
-  "valid_until": "2026-08-21T11:00:56.375Z",
+  "generated": "2026-08-14T16:58:41.470Z",
+  "valid_until": "2026-08-21T16:58:41.470Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,8 +25,8 @@
     "name": "Sucho",
     "icon": "🌵",
     "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
-    "tempC": 27,
-    "windKmH": 5,
+    "tempC": 30,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 0.8,
@@ -38,7 +38,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 75,
-    "total_tick": 90,
+    "total_tick": 91,
     "date_string": "☀️ Léto, Léta Páně 1465, den 75"
   },
   "actors": [
@@ -48,7 +48,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -94,8 +94,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 83,
+      "wealth": 93,
+      "mood": 85,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +140,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 72,
+      "wealth": 73,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -164,7 +164,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 58,
-      "mood": 77,
+      "mood": 80,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -209,7 +209,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 99,
       "stores": 12,
       "status": "prosperujici",
@@ -233,7 +233,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 86,
+      "mood": 87,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -278,7 +278,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -1762,6 +1762,30 @@
   ],
   "chronicle": [
     {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
+    {
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
+    {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
@@ -1976,33 +2000,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 73
-    },
-    {
-      "text": "Zlatá éra kraje započala! Lidé oslavují mír, sýpky přetékají a vrchnost se těší úctě.",
-      "text_cs": "Zlatá éra kraje započala! Lidé oslavují mír, sýpky přetékají a vrchnost se těší úctě.",
-      "text_en": null,
-      "type": "E",
-      "icon": "✨",
-      "source": "monastery_internal",
-      "tick": 84,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 83,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
+    {
+      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
+      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 91,
+      "year": 1465,
+      "season": "Léto",
+      "day": 75
+    },
     {
       "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
       "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
@@ -2098,30 +2122,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 74
-    },
-    {
-      "text": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_cs": "Má léčba bolestí hlavy pomocí zpívání žalmů u postele pacienta zafungovala. Bratr Tomáš přestal naříkat po druhé sloce a prosil mě, abych už šel. Uzdravení je věcí vůle.",
-      "text_en": "My treatment for headaches by singing psalms at the patient's bedside worked. Brother Thomas stopped wailing after the second stanza and begged me to leave. Healing is a matter of will.",
-      "type": "C",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 85,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Kvůli zvěstem o pohybu nepřátelských vojsk purkmistr najal skupinu italských kameníků. Ti mají za úkol urychleně zpevnit chátrající severní věž a vybudovat nový příkop. Místní dělníci žárlí na jejich vysoké mzdy a v krčmách dochází ke slovním potyčkám.",
-      "text_cs": "Kvůli zvěstem o pohybu nepřátelských vojsk purkmistr najal skupinu italských kameníků. Ti mají za úkol urychleně zpevnit chátrající severní věž a vybudovat nový příkop. Místní dělníci žárlí na jejich vysoké mzdy a v krčmách dochází ke slovním potyčkám.",
-      "text_en": "Due to rumors about the movement of enemy troops, the burgomaster hired a group of Italian stonemasons. Their task is to quickly reinforce the decaying northern tower and build a new moat. Local laborers are jealous of their high wages, and verbal altercations occur in taverns.",
-      "type": "A",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 84,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
     }
   ],
   "chronicle_distant": [
