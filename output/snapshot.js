@@ -82,6 +82,8 @@ const Snapshot = {
         stores: Math.round(a.stores), status: a.status,
         itemStock: a.itemStock || undefined,
         relations: a.relations || undefined,
+        abbotId: a.abbotId || undefined,
+        abbotName: a.abbotName || undefined,
       })),
 
       region: {
