@@ -585,10 +585,17 @@ const GameEngine = {
     // opat-nastupnictvi-mrd (15.8.2026) — nástupce i strukturovaně
     // (abbotId/abbotName na aktérovi), ne jen text v Kronice. gm.abbot_name
     // se drží synchronizované s realitou.
+    // opat-nastupnictvi-mrd (15.8.2026, revize) — rozšířeno o Havla a
+    // Bohuslava. abbotUsedIds brání opakovanému zvolení téhož bratra;
+    // při vyčerpání poolu žádný jmenovaný nástupce (Scriptorium má na
+    // chybějící abbotId tichý guard), jen info do Kroniky.
     const KLASTER_SUCCESSORS = [
       { id: 'prokop', name: 'Prokop' },
       { id: 'metodej', name: 'Metoděj' },
+      { id: 'havel', name: 'Havel' },
+      { id: 'bohuslav', name: 'Bohuslav' },
     ];
+    if (!GameState.abbotUsedIds) GameState.abbotUsedIds = [];
     actors.forEach(a => {
       if (a.status !== 'mrtvy') return;
       if (GameState.week - (a._deathWeek || 0) < 3) return;
@@ -601,14 +608,23 @@ const GameEngine = {
       delete a._infected;
       delete a._quarantined;
       if (a.id === 'klaster') {
-        const successor = KLASTER_SUCCESSORS[Math.floor(Math.random() * KLASTER_SUCCESSORS.length)];
-        a.abbotId = successor.id;
-        a.abbotName = successor.name;
-        if (GameState.gm) GameState.gm.abbot_name = successor.name;
-        GameLog.add(
-          `Klášter truchlil, ale ne dlouho — bratr ${successor.name} byl zvolen novým opatem. Dům pokračuje.`,
-          { type: 'C', icon: '👤', source: 'monastery_internal' }
-        );
+        const available = KLASTER_SUCCESSORS.filter(s => !GameState.abbotUsedIds.includes(s.id));
+        if (available.length > 0) {
+          const successor = available[Math.floor(Math.random() * available.length)];
+          a.abbotId = successor.id;
+          a.abbotName = successor.name;
+          GameState.abbotUsedIds.push(successor.id);
+          if (GameState.gm) GameState.gm.abbot_name = successor.name;
+          GameLog.add(
+            `Klášter truchlil, ale ne dlouho — bratr ${successor.name} byl zvolen novým opatem. Dům pokračuje.`,
+            { type: 'C', icon: '👤', source: 'monastery_internal' }
+          );
+        } else {
+          GameLog.add(
+            `Klášter dlouho hledá vhodného nástupce mezi svými bratry — kapitula se zatím neshodla.`,
+            { type: 'C', icon: '👤', source: 'monastery_internal' }
+          );
+        }
       } else {
         GameLog.add(
           `Dvůr po zesnulém ${a.label} nezůstal dlouho prázdný — nový ${a.profession.toLowerCase()} převzal řemeslo a dům.`,
