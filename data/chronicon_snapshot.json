@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-15T16:31:00.037Z",
-  "valid_until": "2026-08-22T16:31:00.037Z",
+  "generated": "2026-08-15T22:27:43.774Z",
+  "valid_until": "2026-08-22T22:27:43.774Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,25 +17,25 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_heatwave",
-    "name": "Vlna veder",
-    "icon": "🔆",
-    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
-    "tempC": 34,
-    "windKmH": 5,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 23,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.85
+    "modifier_grain": 1,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 76,
-    "total_tick": 95,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 76"
+    "day": 77,
+    "total_tick": 96,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 77"
   },
   "actors": [
     {
@@ -68,7 +68,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 100,
+      "mood": 99,
       "stores": 16,
       "status": "prosperujici",
       "relations": {
@@ -113,7 +113,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 64,
+      "wealth": 65,
       "mood": 99,
       "stores": 10,
       "status": "stable",
@@ -159,8 +159,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 60,
-      "mood": 88,
+      "wealth": 61,
+      "mood": 91,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 87,
-      "mood": 100,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 92,
-      "mood": 99,
+      "mood": 100,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 94,
+      "wealth": 99,
+      "mood": 95,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 14,
       "status": "prosperujici",
       "relations": {
@@ -274,8 +274,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "itemStock": {
@@ -1775,6 +1775,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
+      "text_cs": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
+      "text_en": "News from Barcelona: Catalan pirates attacked a ship carrying alum and dyes. The ship took shelter in Mallorca. Silk prices rose. Do not send anything of value by sea until the situation calms down.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
       "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
@@ -1989,33 +2013,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 74
-    },
-    {
-      "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_en": "From Prague: the bells of the Old Town churches ring longer than is custom, the priests calling the people to prayer for peace in the land. People come willingly, for they bear in their hearts an anxious dread of what is to come.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "distant_events",
-      "tick": 87,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_cs": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_en": "A massive cave-in occurred in a deep shaft outside the town, trapping a group of silver miners. Rescue efforts are complicated by groundwater and the threat of further rock collapse. Mining has been temporarily suspended, causing panic among Italian silver buyers.",
-      "type": "B",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 87,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
       "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
@@ -2123,21 +2135,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
+      "text_cs": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
+      "text_en": "News from Barcelona: Catalan pirates attacked a ship carrying alum and dyes. The ship took shelter in Mallorca. Silk prices rose. Do not send anything of value by sea until the situation calms down.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 96,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
       "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
@@ -2245,22 +2257,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 74
-    },
-    {
-      "text": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_cs": "Z českých zemí: Daň zemská, kterou král na obranu hranic vypsal, vybírá se s nevolí. Někteří páni platí beze slova, jiní s reptáním, a najdou se i takoví, co dveře poslům zavírají.",
-      "text_en": "From the Bohemian lands: the land tax which the king hath levied for defence of the borders is collected with ill will. Some lords pay without a word, others with murmuring, and there are those who shut their doors upon the collectors.",
-      "type": "A",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 84,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
     }
   ],
   "church_calendar": {
-    "day_of_year": 166,
+    "day_of_year": 167,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
