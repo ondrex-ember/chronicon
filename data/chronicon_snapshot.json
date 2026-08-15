@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-15T10:27:47.883Z",
-  "valid_until": "2026-08-22T10:27:47.883Z",
+  "generated": "2026-08-15T16:31:00.037Z",
+  "valid_until": "2026-08-22T16:31:00.037Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
-    "tempC": 29,
-    "windKmH": 2,
+    "key": "summer_heatwave",
+    "name": "Vlna veder",
+    "icon": "🔆",
+    "desc": "Nesnesitelné horko. Bratři pracují pomaleji.",
+    "tempC": 34,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.8,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 76,
-    "total_tick": 94,
+    "total_tick": 95,
     "date_string": "☀️ Léto, Léta Páně 1465, den 76"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 92,
-      "mood": 89,
+      "mood": 90,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 64,
-      "mood": 98,
+      "mood": 99,
       "stores": 10,
       "status": "stable",
       "relations": {
@@ -136,7 +136,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 75,
+      "wealth": 74,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -160,7 +160,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 60,
-      "mood": 86,
+      "mood": 88,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 86,
+      "wealth": 87,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -206,7 +206,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 92,
-      "mood": 100,
+      "mood": 99,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 92,
+      "mood": 94,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 100,
+      "wealth": 100,
+      "mood": 99,
       "stores": 14,
       "status": "prosperujici",
       "relations": {
@@ -1775,6 +1775,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
+    {
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
+    {
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
       "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
       "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
@@ -1977,45 +2013,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 74
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 87,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
-      "type": "D",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 86,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Norimberští kupci přivezli na slezský trh nové typy těžkých plátových zbrojí s leštěným povrchem. Cena těchto brnění je tak vysoká, že si je mohou dovolit jen nejbohatší knížata. Platnéři hlásí obrovské zisky a objednávky mají nasmlouvané na rok dopředu.",
-      "text_cs": "Norimberští kupci přivezli na slezský trh nové typy těžkých plátových zbrojí s leštěným povrchem. Cena těchto brnění je tak vysoká, že si je mohou dovolit jen nejbohatší knížata. Platnéři hlásí obrovské zisky a objednávky mají nasmlouvané na rok dopředu.",
-      "text_en": "Nuremberg merchants brought new types of heavy plate armor with polished surfaces to the Silesian market. The price of these armors is so high that only the richest dukes can afford them. Armorers report huge profits and have contracts for orders a year in advance.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 86,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
+      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
     {
       "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
       "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
@@ -2111,33 +2135,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Po dvou týdnech zírání do prázdné hlíny vyrašil první lístek dýně. Je fascinující, jak se život prosadí bez ohledu na má očekávání. Kočka Metoděj nad ním udělala bobek. Jistě to myslela jako hnojivo.",
-      "text_cs": "Po dvou týdnech zírání do prázdné hlíny vyrašil první lístek dýně. Je fascinující, jak se život prosadí bez ohledu na má očekávání. Kočka Metoděj nad ním udělala bobek. Jistě to myslela jako hnojivo.",
-      "text_en": "After two weeks of staring at empty dirt, the first pumpkin leaf sprouted. It is fascinating how life asserts itself regardless of my expectations. The cat Metoděj pooped over it. She surely meant it as fertilizer.",
-      "type": "E",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 89,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_cs": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_en": "From the Vyškov market: A shortage of beeswax has doubled its price. Local chandlers have secretly begun mixing cheap animal tallow into the wax, which smells strongly when burned. The burgomaster ordered inspections of the workshops.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 88,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
+      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
+      "type": "B",
+      "icon": "⚙️",
+      "source": "distant_events",
+      "tick": 95,
+      "year": 1465,
+      "season": "Léto",
+      "day": 76
+    },
     {
       "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
       "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
@@ -2242,18 +2254,6 @@
       "icon": "💰",
       "source": "distant_events",
       "tick": 84,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
-    },
-    {
-      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 82,
       "year": 1465,
       "season": "Léto",
       "day": 73
