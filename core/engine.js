@@ -582,7 +582,13 @@ const GameEngine = {
     // abbot-persona-mrd (9.8.2026) — Opat má jmenovanou zásobu nástupců
     // (mirror Scriptorium AbbotSystem.CANDIDATES), ostatní aktéři beze
     // změny (generický "nový [řemeslo] převzal").
-    const KLASTER_SUCCESSORS = ['Prokop', 'Metoděj'];
+    // opat-nastupnictvi-mrd (15.8.2026) — nástupce i strukturovaně
+    // (abbotId/abbotName na aktérovi), ne jen text v Kronice. gm.abbot_name
+    // se drží synchronizované s realitou.
+    const KLASTER_SUCCESSORS = [
+      { id: 'prokop', name: 'Prokop' },
+      { id: 'metodej', name: 'Metoděj' },
+    ];
     actors.forEach(a => {
       if (a.status !== 'mrtvy') return;
       if (GameState.week - (a._deathWeek || 0) < 3) return;
@@ -595,9 +601,12 @@ const GameEngine = {
       delete a._infected;
       delete a._quarantined;
       if (a.id === 'klaster') {
-        const successorName = KLASTER_SUCCESSORS[Math.floor(Math.random() * KLASTER_SUCCESSORS.length)];
+        const successor = KLASTER_SUCCESSORS[Math.floor(Math.random() * KLASTER_SUCCESSORS.length)];
+        a.abbotId = successor.id;
+        a.abbotName = successor.name;
+        if (GameState.gm) GameState.gm.abbot_name = successor.name;
         GameLog.add(
-          `Klášter truchlil, ale ne dlouho — bratr ${successorName} byl zvolen novým opatem. Dům pokračuje.`,
+          `Klášter truchlil, ale ne dlouho — bratr ${successor.name} byl zvolen novým opatem. Dům pokračuje.`,
           { type: 'C', icon: '👤', source: 'monastery_internal' }
         );
       } else {
