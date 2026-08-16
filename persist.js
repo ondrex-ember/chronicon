@@ -12,6 +12,7 @@ const path = require('path');
 
 const { GameState } = require('./core/state.js');
 const { RICNI_ACTORS, RICNI_RELATIONS } = require('./data/actors.js');
+const { GUILDS, GUILD_TENSION_DEFAULT } = require('./data/guilds.js');
 
 const STATE_PATH = path.join(__dirname, 'data', 'gamestate.json');
 
@@ -29,6 +30,8 @@ const Persist = {
       Object.assign(GameState, saved);
       Persist._syncActorLabels();
       Persist._syncMissingActors();
+      Persist._syncGuildLabels();
+      Persist._syncMissingGuilds();
       console.log(
         `[CHRONICON] State načten — tick ${GameState.time.totalTick},` +
         ` ${GameState.time.season === 0 ? 'Jaro' :
@@ -92,6 +95,31 @@ const Persist = {
           actor.relations[otherId] = seedRelations[otherId];
         }
       });
+    });
+  },
+
+  // Cechy — chronicon-cechy-mrd.md (15.8.2026), stejný riziko jako aktéři:
+  // GameState.guilds se inicializuje z data/guilds.js jen jednou, při
+  // vzniku (core/state.js). Mirror _syncActorLabels/_syncMissingActors,
+  // jednodušší (žádné relations, jen label + tension).
+  _syncGuildLabels() {
+    if (!GameState.guilds || typeof GameState.guilds !== 'object') return;
+    GUILDS.forEach(seed => {
+      const g = GameState.guilds[seed.id];
+      if (!g) return;
+      g.label    = seed.label;
+      g.label_en = seed.label_en;
+    });
+  },
+
+  _syncMissingGuilds() {
+    if (!GameState.guilds || typeof GameState.guilds !== 'object') return;
+    GUILDS.forEach(seed => {
+      if (GameState.guilds[seed.id]) return;
+      GameState.guilds[seed.id] = {
+        label: seed.label, label_en: seed.label_en, tension: GUILD_TENSION_DEFAULT,
+      };
+      console.log(`[CHRONICON] Nový cech přidán do běžícího světa: ${seed.id} (${seed.label}).`);
     });
   },
 
