@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-16T16:31:21.981Z",
-  "valid_until": "2026-08-23T16:31:21.981Z",
+  "generated": "2026-08-16T22:26:34.706Z",
+  "valid_until": "2026-08-23T22:26:34.706Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -62,15 +62,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_drought",
-    "name": "Sucho",
-    "icon": "🌵",
-    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
-    "tempC": 28,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 21,
     "windKmH": 6,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.8,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -78,9 +78,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 77,
-    "total_tick": 99,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 77"
+    "day": 78,
+    "total_tick": 100,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 78"
   },
   "actors": [
     {
@@ -89,8 +89,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 96,
-      "mood": 99,
+      "wealth": 95,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -135,8 +135,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 90,
-      "mood": 91,
+      "wealth": 91,
+      "mood": 93,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 75,
+      "wealth": 74,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 60,
-      "mood": 89,
+      "wealth": 61,
+      "mood": 91,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -227,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 86,
+      "wealth": 85,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -250,8 +250,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 92,
-      "mood": 99,
+      "wealth": 91,
+      "mood": 100,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 98,
+      "mood": 99,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -296,8 +296,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 14,
       "status": "prosperujici",
       "relations": {
@@ -319,7 +319,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -1808,6 +1808,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
+      "text_cs": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
+      "text_en": "That year the Taborites and Orphans besieged Lord Hynek Boček at Poděbrady, battering the castle cruelly with guns and slings; Boček defended himself manfully.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
+      "text_cs": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
+      "text_en": "A spark from a blacksmith's forge ignited a thatched roof in the suburbs. Within an hour, six poor dwellings were reduced to ashes. The burgomaster ordered the neighboring cowsheds torn down to prevent the fire from spreading further.",
+      "type": "D",
+      "icon": "🛖",
+      "source": "local_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
@@ -2010,45 +2046,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
+      "text_cs": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
+      "text_en": "A spark from a blacksmith's forge ignited a thatched roof in the suburbs. Within an hour, six poor dwellings were reduced to ashes. The burgomaster ordered the neighboring cowsheds torn down to prevent the fire from spreading further.",
+      "type": "D",
+      "icon": "🛖",
+      "source": "local_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
     {
       "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
       "text_cs": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
@@ -2144,33 +2168,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
-      "type": "E",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
+      "text_cs": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
+      "text_en": "That year the Taborites and Orphans besieged Lord Hynek Boček at Poděbrady, battering the castle cruelly with guns and slings; Boček defended himself manfully.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 100,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
     {
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
@@ -2278,22 +2290,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 88,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "church_calendar": {
-    "day_of_year": 167,
+    "day_of_year": 168,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
