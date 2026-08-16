@@ -11,6 +11,7 @@
 'use strict';
 
 const { RICNI_ACTORS, RICNI_RELATIONS } = require('../data/actors.js');
+const { GUILDS, GUILD_TENSION_DEFAULT } = require('../data/guilds.js');
 
 const GameState = {
 
@@ -64,6 +65,14 @@ const GameState = {
     ticksInCrisis: 0,
     relations: { ...RICNI_RELATIONS[a.id] },
   })),
+
+  // --- Cechy (Guilds) --- chronicon-cechy-mrd.md (15.8.2026). Lehký blok,
+  // NE actors — cechy neprodukujou, jen regulujou (tension = politický
+  // tlak vůči klášterním kličkám obecně, sdílený svět, ne per-hráč vztah).
+  guilds: GUILDS.reduce((acc, g) => {
+    acc[g.id] = { label: g.label, label_en: g.label_en, tension: GUILD_TENSION_DEFAULT };
+    return acc;
+  }, {}),
 
   // --- GM override sekce --- (beze změny, zůstává marginální)
   gm: {
