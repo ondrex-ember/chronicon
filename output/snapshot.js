@@ -46,6 +46,19 @@ const Snapshot = {
       // Scriptorium calcPrice čte → ryby ×1.5, maso ×0.5. null = obyčejný den.
       fast: GameState.gm.fast || Snapshot._computeFast(),
 
+      // Cechy (Guilds) — chronicon-cechy-mrd.md (15.8.2026). Sdílený
+      // politický tlak, ne per-hráč vztah (ten žije ve Scriptoriu
+      // GuildsDB.relation, cechy-a-prava-mrd.md §3).
+      guilds: GameState.guilds,
+
+      // Veletrh — chronicon-cechy-mrd.md §2/§3. Sv. Václav, 28.9., jediný
+      // den v roce cechovní gate (cechy-a-prava-mrd.md §5) padá úplně.
+      // Chronicon je autoritativní zdroj — Scriptorium žádnou vlastní
+      // logiku nepočítá, jen čte tohle pole (mirror feast/fast dualita).
+      // V1: čistě auto-výpočet ze skutečného data; GM override je TBD
+      // (chronicon-cechy-mrd.md TBD #4) — zatím žádný gm.veletrh klíč.
+      veletrh: Snapshot._computeVeletrh(),
+
       weather: {
         key:              GameState.weather.key,
         name:             GameState.weather.name,
@@ -188,6 +201,23 @@ const Snapshot = {
     const name_cs = inLent ? 'Postní doba' : (isWed ? 'Postní středa' : 'Postní pátek');
     const name_en = inLent ? 'Lent'        : (isWed ? 'Fasting Wednesday' : 'Fasting Friday');
     return { active: true, name_cs, name_en };
+  },
+
+  // Veletrh sv. Václava (28.9.) — jeden den v roce, panovníkem vyhlášený
+  // "svobodný trh" (cechy-a-prava-mrd.md §2.4). Počítáno ze skutečného
+  // reálného data, stejný vzor jako _computeFast(). Jen ten jeden den —
+  // vědomě žádné vícedenní okno na V1, TBD pokud se ukáže moc úzké.
+  _computeVeletrh() {
+    const now = new Date();
+    const isVaclav = now.getMonth() === 8 && now.getDate() === 28; // getMonth() 0-indexed, 8 = září
+
+    if (!isVaclav) return { active: false };
+
+    return {
+      active: true,
+      name_cs: 'Veletrh sv. Václava',
+      name_en: "St. Wenceslas' Fair",
+    };
   },
 
   // Pomocná — vrátí weather multiplier pro daný klíč
