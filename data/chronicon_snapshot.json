@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-15T22:27:43.774Z",
-  "valid_until": "2026-08-22T22:27:43.774Z",
+  "generated": "2026-08-16T04:40:46.791Z",
+  "valid_until": "2026-08-23T04:40:46.791Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -21,8 +21,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 23,
-    "windKmH": 4,
+    "tempC": 19,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 77,
-    "total_tick": 96,
+    "total_tick": 97,
     "date_string": "☀️ Léto, Léta Páně 1465, den 77"
   },
   "actors": [
@@ -67,8 +67,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 99,
+      "wealth": 94,
+      "mood": 100,
       "stores": 16,
       "status": "prosperujici",
       "relations": {
@@ -90,8 +90,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 90,
+      "wealth": 91,
+      "mood": 91,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 65,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "stable",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 61,
-      "mood": 91,
+      "mood": 90,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 87,
-      "mood": 99,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -205,8 +205,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 92,
-      "mood": 100,
+      "wealth": 91,
+      "mood": 99,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 95,
+      "mood": 97,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 14,
       "status": "prosperujici",
@@ -275,7 +275,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 99,
+      "mood": 98,
       "stores": 11,
       "status": "prosperujici",
       "itemStock": {
@@ -336,6 +336,45 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_014",
+      "seal": "church",
+      "type": "A",
+      "icon": "🔔",
+      "tags": [
+        "zvon",
+        "sklář",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Sklář z hutě v lesích",
+      "sender_en": "A Glassmaker from the Forest Works",
+      "title_cs": "List sklářův o barevném skle",
+      "title_en": "The Glassmaker's Letter about Coloured Glass",
+      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+      "choices": [
+        {
+          "id": "visit",
+          "label_cs": "🔮 Zajet se podívat",
+          "label_en": "🔮 Go and see",
+          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "sklar",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 97
+    },
     {
       "id": "cletter_010",
       "seal": "village",
@@ -1720,60 +1759,45 @@
         }
       ],
       "_pickedTick": 28
-    },
-    {
-      "id": "cletter_013",
-      "seal": "village",
-      "type": "A",
-      "icon": "🧂",
-      "tags": [
-        "sůl",
-        "kupec",
-        "cesta"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Potulný solný kupec",
-      "sender_en": "A Wandering Salt Merchant",
-      "title_cs": "Nabídka solného kupce",
-      "title_en": "A Salt Merchant's Offer",
-      "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
-      "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
-      "choices": [
-        {
-          "id": "buy",
-          "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)",
-          "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
-          "notify_cs": "Sůl uložena ve špižírně.",
-          "notify_en": "The salt is stored in the pantry.",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -8
-            },
-            {
-              "type": "item",
-              "id": "salt",
-              "qty": 6
-            }
-          ]
-        },
-        {
-          "id": "skip",
-          "label_cs": "🚪 Nechat ho jít dál",
-          "label_en": "🚪 Let him move on",
-          "notify_cs": "Kupec pokračoval na jih.",
-          "notify_en": "The merchant continued south.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 27
     }
   ],
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
+      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
+      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
+      "type": "A",
+      "icon": "🏙️",
+      "source": "distant_events",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
+      "type": "B",
+      "icon": "☀️",
+      "source": "local_events",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
       "text_cs": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
@@ -1977,45 +2001,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Po dvou týdnech zírání do prázdné hlíny vyrašil první lístek dýně. Je fascinující, jak se život prosadí bez ohledu na má očekávání. Kočka Metoděj nad ním udělala bobek. Jistě to myslela jako hnojivo.",
-      "text_cs": "Po dvou týdnech zírání do prázdné hlíny vyrašil první lístek dýně. Je fascinující, jak se život prosadí bez ohledu na má očekávání. Kočka Metoděj nad ním udělala bobek. Jistě to myslela jako hnojivo.",
-      "text_en": "After two weeks of staring at empty dirt, the first pumpkin leaf sprouted. It is fascinating how life asserts itself regardless of my expectations. The cat Metoděj pooped over it. She surely meant it as fertilizer.",
-      "type": "E",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 89,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 88,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_cs": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_en": "From the Vyškov market: A shortage of beeswax has doubled its price. Local chandlers have secretly begun mixing cheap animal tallow into the wax, which smells strongly when burned. The burgomaster ordered inspections of the workshops.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 88,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
+      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
+      "type": "B",
+      "icon": "☀️",
+      "source": "local_events",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
+      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
+      "type": "A",
+      "icon": "💥",
+      "source": "monastery_internal",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
       "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
@@ -2111,33 +2123,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_en": "From the annals: Bishop John of Dražice, twenty-seventh on the see of Prague, died after founding a monastery, a hospital and a stone bridge at Roudnice, and having a silver tomb wrought for St Adalbert. Brother prior adds: bishops are judged by the stone they leave behind.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
+      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
+      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
+      "type": "A",
+      "icon": "🏙️",
+      "source": "distant_events",
+      "tick": 97,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
       "text_cs": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
@@ -2242,18 +2242,6 @@
       "icon": "🌫️",
       "source": "distant_events",
       "tick": 86,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 85,
       "year": 1465,
       "season": "Léto",
       "day": 74
