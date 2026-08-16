@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-16T04:40:46.791Z",
-  "valid_until": "2026-08-23T04:40:46.791Z",
+  "generated": "2026-08-16T10:28:05.664Z",
+  "valid_until": "2026-08-23T10:28:05.664Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -17,16 +17,16 @@
   "feast": null,
   "fast": null,
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 3,
-    "rainMm": 0,
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
+    "tempC": 23,
+    "windKmH": 10,
+    "rainMm": 0.2,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.9,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -34,7 +34,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 77,
-    "total_tick": 97,
+    "total_tick": 98,
     "date_string": "☀️ Léto, Léta Páně 1465, den 77"
   },
   "actors": [
@@ -44,7 +44,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -113,7 +113,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 65,
+      "wealth": 64,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -159,7 +159,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 61,
+      "wealth": 60,
       "mood": 90,
       "stores": 8,
       "status": "stable",
@@ -182,7 +182,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 87,
+      "wealth": 86,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 14,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 98,
+      "wealth": 97,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "itemStock": {
@@ -1763,6 +1763,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 98,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 98,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
       "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
       "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
       "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
@@ -1977,33 +2001,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
-      "type": "C",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 89,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 98,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
       "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
@@ -2111,21 +2123,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 98,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
       "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
@@ -2230,18 +2242,6 @@
       "icon": "🔔",
       "source": "distant_events",
       "tick": 87,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
-      "type": "D",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 86,
       "year": 1465,
       "season": "Léto",
       "day": 74
