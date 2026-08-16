@@ -4,16 +4,16 @@
     "season": 1,
     "day": 77,
     "daysPerSeason": 90,
-    "totalTick": 98
+    "totalTick": 99
   },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
-    "tempC": 23,
-    "windKmH": 10,
-    "rainMm": 0.2
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "tempC": 28,
+    "windKmH": 6,
+    "rainMm": 0
   },
   "virtue": {
     "value": 3,
@@ -50,8 +50,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 96.48981907770305,
-      "mood": 99.75530312836341,
+      "wealth": 95.59382858600513,
+      "mood": 98.89408883522918,
       "stores": 11.037000000000003,
       "storesMax": 100,
       "status": "prosperujici",
@@ -78,7 +78,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 94.43716480028115,
+      "wealth": 94.52848924317381,
       "mood": 100,
       "stores": 16.0043,
       "storesMax": 90,
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 90.59972018381978,
-      "mood": 91.3774110171994,
+      "wealth": 90.37406032767616,
+      "mood": 90.85938486349636,
       "stores": 12.819625,
       "storesMax": 80,
       "status": "prosperujici",
@@ -134,7 +134,7 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 64.03045681406645,
+      "wealth": 63.59188718020438,
       "mood": 100,
       "stores": 10.45078125,
       "storesMax": 70,
@@ -162,7 +162,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 74.02011348907565,
+      "wealth": 74.69854480197202,
       "mood": 100,
       "stores": 8.047812500000001,
       "storesMax": 50,
@@ -190,8 +190,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 60.453881773589785,
-      "mood": 89.8978657601812,
+      "wealth": 60.45824132064252,
+      "mood": 89.18457721244788,
       "stores": 8.23875,
       "storesMax": 70,
       "status": "stable",
@@ -218,8 +218,8 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 86.32270571308426,
-      "mood": 99.76469284497648,
+      "wealth": 85.77077360823795,
+      "mood": 99.99615764080092,
       "stores": 10.955425000000002,
       "storesMax": 60,
       "status": "prosperujici",
@@ -246,8 +246,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 91.33775875841225,
-      "mood": 99.4985779302643,
+      "wealth": 91.96095626476043,
+      "mood": 99.46263217618224,
       "stores": 12.1671875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.39379760478745,
-      "mood": 97.36556561840808,
+      "wealth": 99.92540702999068,
+      "mood": 98.39783006040997,
       "stores": 16.81428125,
       "storesMax": 100,
       "status": "stable",
@@ -302,7 +302,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.26811916420041,
+      "wealth": 98.4645219137969,
       "mood": 100,
       "stores": 13.621075000000001,
       "storesMax": 80,
@@ -332,8 +332,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 97.27095633377756,
-      "mood": 100,
+      "wealth": 97.24477840528688,
+      "mood": 99.66928349488634,
       "stores": 10.691687500000004,
       "storesMax": 75,
       "status": "prosperujici",
@@ -362,6 +362,48 @@
       }
     }
   ],
+  "guilds": {
+    "mlynarsky": {
+      "label": "Mlynářský cech",
+      "label_en": "The Millers' Guild",
+      "tension": 20
+    },
+    "truhlarsky": {
+      "label": "Truhlářský cech",
+      "label_en": "The Cabinetmakers' Guild",
+      "tension": 20
+    },
+    "kolarsky": {
+      "label": "Kolářský cech",
+      "label_en": "The Wheelwrights' Guild",
+      "tension": 20
+    },
+    "kovarsky": {
+      "label": "Kovářský a hamernický cech",
+      "label_en": "The Smiths' and Forgemasters' Guild",
+      "tension": 20
+    },
+    "pekarsky": {
+      "label": "Pekařský cech",
+      "label_en": "The Bakers' Guild",
+      "tension": 20
+    },
+    "reznicky": {
+      "label": "Řeznický cech",
+      "label_en": "The Butchers' Guild",
+      "tension": 20
+    },
+    "zlatnicky": {
+      "label": "Zlatnický cech",
+      "label_en": "The Goldsmiths' Guild",
+      "tension": 20
+    },
+    "kozeluzsky": {
+      "label": "Koželužský cech",
+      "label_en": "The Tanners' Guild",
+      "tension": 20
+    }
+  },
   "gm": {
     "abbot_name": "Bratr Augustin",
     "abbot_mood": "natěšený",
@@ -381,6 +423,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_cs": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_en": "From Krnov: The sons of a deceased tanner argued so fiercely over their inheritance in court that they drew knives on each other. The burgomaster temporarily confiscated the property from both brothers until the priest forces them to reconcile.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -1304,42 +1382,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 69
-    },
-    {
-      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "monastery_internal",
-      "tick": 65,
-      "year": 1465,
-      "season": "Léto",
-      "day": 69
-    },
-    {
-      "text": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_cs": "Léta téhož u pondělí před sv. Vavřincem vrátili sú sě od césaře z Brna tíž poslové a uložili sněm valní obecný u Praze na den svatého Matúše apoštola a evangelisty božieho. A na tom sněmu měl býti volen arcibiskup pražský a dva biskupy sufragány.",
-      "text_en": "That year, on the Monday before St Lawrence, the same envoys returned from the emperor at Brno and appointed a general diet at Prague for St Matthew's day.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
-    },
-    {
-      "text": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
-      "text_cs": "Z Opavy: Po řece se pohybují tlupy říčních pirátů na malých loďkách. Včera v noci znenadání zahákovali dvě vorařské lodě plné sudů s vínem a odtáhli je do neznámých slepých ramen řeky.",
-      "text_en": "From Opava: Bands of river pirates are moving along the river in small boats. Last night they unexpectedly grappled two rafter boats full of wine barrels and dragged them off into unknown blind branches of the river.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 64,
-      "year": 1465,
-      "season": "Léto",
-      "day": 68
     }
   ],
   "portaLetterHistory": [
@@ -3818,7 +3860,7 @@
       "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil."
     },
     "datini_012": {
-      "tick": 77,
+      "tick": 99,
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod."
     },
     "local_132": {
@@ -3956,6 +3998,14 @@
     "praha_026": {
       "tick": 97,
       "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují."
+    },
+    "anales_sel_028": {
+      "tick": 99,
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo."
+    },
+    "local_141": {
+      "tick": 99,
+      "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření."
     }
   },
   "flags": {

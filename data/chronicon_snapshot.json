@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-16T10:28:05.664Z",
-  "valid_until": "2026-08-23T10:28:05.664Z",
+  "generated": "2026-08-16T16:31:21.981Z",
+  "valid_until": "2026-08-23T16:31:21.981Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,17 +16,62 @@
   ],
   "feast": null,
   "fast": null,
+  "guilds": {
+    "mlynarsky": {
+      "label": "Mlynářský cech",
+      "label_en": "The Millers' Guild",
+      "tension": 20
+    },
+    "truhlarsky": {
+      "label": "Truhlářský cech",
+      "label_en": "The Cabinetmakers' Guild",
+      "tension": 20
+    },
+    "kolarsky": {
+      "label": "Kolářský cech",
+      "label_en": "The Wheelwrights' Guild",
+      "tension": 20
+    },
+    "kovarsky": {
+      "label": "Kovářský a hamernický cech",
+      "label_en": "The Smiths' and Forgemasters' Guild",
+      "tension": 20
+    },
+    "pekarsky": {
+      "label": "Pekařský cech",
+      "label_en": "The Bakers' Guild",
+      "tension": 20
+    },
+    "reznicky": {
+      "label": "Řeznický cech",
+      "label_en": "The Butchers' Guild",
+      "tension": 20
+    },
+    "zlatnicky": {
+      "label": "Zlatnický cech",
+      "label_en": "The Goldsmiths' Guild",
+      "tension": 20
+    },
+    "kozeluzsky": {
+      "label": "Koželužský cech",
+      "label_en": "The Tanners' Guild",
+      "tension": 20
+    }
+  },
+  "veletrh": {
+    "active": false
+  },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
-    "tempC": 23,
-    "windKmH": 10,
-    "rainMm": 0.2,
+    "key": "summer_drought",
+    "name": "Sucho",
+    "icon": "🌵",
+    "desc": "Vedro a sucho. Pole trpí, poutníci se vyhýbají cestám.",
+    "tempC": 28,
+    "windKmH": 6,
+    "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.9,
-    "modifier_wood": 0.85
+    "modifier_grain": 0.8,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
@@ -34,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 77,
-    "total_tick": 98,
+    "total_tick": 99,
     "date_string": "☀️ Léto, Léta Páně 1465, den 77"
   },
   "actors": [
@@ -45,7 +90,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 96,
-      "mood": 100,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -67,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 100,
       "stores": 16,
       "status": "prosperujici",
@@ -90,7 +135,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 91,
       "stores": 13,
       "status": "prosperujici",
@@ -136,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 74,
+      "wealth": 75,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -160,7 +205,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 60,
-      "mood": 90,
+      "mood": 89,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -205,7 +250,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 99,
       "stores": 12,
       "status": "prosperujici",
@@ -228,8 +273,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 97,
+      "wealth": 100,
+      "mood": 98,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -1763,6 +1808,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_cs": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_en": "From Krnov: The sons of a deceased tanner argued so fiercely over their inheritance in court that they drew knives on each other. The burgomaster temporarily confiscated the property from both brothers until the priest forces them to reconcile.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
@@ -1965,45 +2046,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 75
-    },
-    {
-      "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_cs": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně.",
-      "text_en": "I managed to shift the blame for the sour beer onto an unfortunate constellation of stars. The brothers grumbled, but accepted it as force majeure. The mathematics of the barrels has balanced in my favor again.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 91,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
-    },
-    {
-      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_en": "From the annals: Bishop John of Dražice, twenty-seventh on the see of Prague, died after founding a monastery, a hospital and a stone bridge at Roudnice, and having a silver tomb wrought for St Adalbert. Brother prior adds: bishops are judged by the stone they leave behind.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_cs": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
+      "text_en": "From Krnov: The sons of a deceased tanner argued so fiercely over their inheritance in court that they drew knives on each other. The burgomaster temporarily confiscated the property from both brothers until the priest forces them to reconcile.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
       "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
@@ -2099,33 +2168,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 92,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
+      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
+      "type": "D",
+      "icon": "🏴‍☠️",
+      "source": "distant_events",
+      "tick": 99,
+      "year": 1465,
+      "season": "Léto",
+      "day": 77
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -2230,18 +2287,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 88,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
-    },
-    {
-      "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_en": "From Prague: the bells of the Old Town churches ring longer than is custom, the priests calling the people to prayer for peace in the land. People come willingly, for they bear in their hearts an anxious dread of what is to come.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "distant_events",
-      "tick": 87,
       "year": 1465,
       "season": "Léto",
       "day": 74
