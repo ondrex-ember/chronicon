@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-17T04:49:32.248Z",
-  "valid_until": "2026-08-24T04:49:32.248Z",
+  "generated": "2026-08-17T10:36:45.307Z",
+  "valid_until": "2026-08-24T10:36:45.307Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 5,
+    "tempC": 23,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 78,
-    "total_tick": 101,
+    "total_tick": 102,
     "date_string": "☀️ Léto, Léta Páně 1465, den 78"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 96,
-      "mood": 100,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -113,7 +113,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 100,
+      "mood": 99,
       "stores": 16,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +136,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 92,
-      "mood": 93,
+      "mood": 94,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 64,
+      "wealth": 63,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 62,
-      "mood": 93,
+      "wealth": 61,
+      "mood": 94,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -274,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -1808,6 +1808,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
+      "type": "B",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
+      "text_cs": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
+      "text_en": "From Kelč: Beekeepers report an exceptionally good year. The linden trees bloomed long and without rain. Honey will be cheap and plentiful this year. I recommend monasteries buy wax stocks for winter candles before city merchants arrive.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "local_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
       "text": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
       "text_cs": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
       "text_en": "That year the town of Beroun was taken by the same warriors, wherein famous Bohemians and valiant knights perished.",
@@ -2010,45 +2046,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
-      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
-      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
-      "type": "D",
-      "icon": "🍷",
-      "source": "monastery_internal",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
-      "type": "C",
-      "icon": "🎓",
-      "source": "distant_events",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_cs": "Mistr zvonař po třech měsících náročné práce úspěšně odlil nový bronzový zvon pro tamní farní kostel. Dnes proběhlo jeho slavnostní svěcení a zavěšení do věže za jásotu stovek měšťanů. Jeho čistý hlas nyní odhání bouřkové mraky široko daleko.",
-      "text_en": "After three months of arduous work, the master bell-founder successfully cast a new bronze bell for the local parish church. Today it was solemnly consecrated and hoisted into the tower amid the cheering of hundreds of burghers. Its clear voice now drives storm clouds away far and wide.",
-      "type": "E",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
+      "text_cs": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
+      "text_en": "From Kelč: Beekeepers report an exceptionally good year. The linden trees bloomed long and without rain. Honey will be cheap and plentiful this year. I recommend monasteries buy wax stocks for winter candles before city merchants arrive.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "local_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
     {
       "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
       "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
@@ -2144,33 +2168,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 96,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
+      "type": "B",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 102,
+      "year": 1465,
+      "season": "Léto",
+      "day": 78
+    },
     {
       "text": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
       "text_cs": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
@@ -2278,18 +2290,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 76
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 90,
-      "year": 1465,
-      "season": "Léto",
-      "day": 75
     }
   ],
   "church_calendar": {
