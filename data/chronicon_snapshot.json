@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-17T16:33:28.329Z",
-  "valid_until": "2026-08-24T16:33:28.329Z",
+  "generated": "2026-08-17T22:29:22.432Z",
+  "valid_until": "2026-08-24T22:29:22.432Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 17,
+    "tempC": 17,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -78,9 +78,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 78,
-    "total_tick": 103,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 78"
+    "day": 79,
+    "total_tick": 104,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 79"
   },
   "actors": [
     {
@@ -89,8 +89,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 96,
-      "mood": 99,
+      "wealth": 97,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 16,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 92,
-      "mood": 94,
+      "mood": 96,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 64,
+      "wealth": 63,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 60,
-      "mood": 93,
+      "wealth": 61,
+      "mood": 96,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -227,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 85,
+      "wealth": 84,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -273,7 +273,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 17,
       "status": "stable",
@@ -296,7 +296,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 99,
       "stores": 14,
       "status": "prosperujici",
@@ -381,6 +381,52 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 104
+    },
     {
       "id": "cletter_013",
       "seal": "village",
@@ -1765,52 +1811,21 @@
         }
       ],
       "_pickedTick": 32
-    },
-    {
-      "id": "cletter_011",
-      "seal": "church",
-      "type": "C",
-      "icon": "⛪",
-      "tags": [
-        "relikvie",
-        "kostel"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Kostelník od sv. Mořice",
-      "sender_en": "The Sexton of St. Maurice's",
-      "title_cs": "Dotaz na pravost relikvie",
-      "title_en": "A Question about a Relic's Authenticity",
-      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
-      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
-      "choices": [
-        {
-          "id": "advise",
-          "label_cs": "📖 Poslat radu z knihovny",
-          "label_en": "📖 Send counsel from the library",
-          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
-          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            },
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 30
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 104,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
@@ -2038,21 +2053,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
-      "type": "B",
-      "icon": "⚙️",
-      "source": "distant_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 104,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
@@ -2157,18 +2172,6 @@
       "icon": "🔪",
       "source": "local_events",
       "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
-      "type": "B",
-      "icon": "☀️",
-      "source": "local_events",
-      "tick": 97,
       "year": 1465,
       "season": "Léto",
       "day": 77
@@ -2297,7 +2300,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 168,
+    "day_of_year": 169,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
