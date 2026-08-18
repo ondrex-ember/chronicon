@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-18T10:34:02.384Z",
-  "valid_until": "2026-08-25T10:34:02.384Z",
+  "generated": "2026-08-18T16:36:55.406Z",
+  "valid_until": "2026-08-25T16:36:55.406Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -62,15 +62,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 9,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 18,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 79,
-    "total_tick": 106,
+    "total_tick": 107,
     "date_string": "☀️ Léto, Léta Páně 1465, den 79"
   },
   "actors": [
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 16,
       "status": "prosperujici",
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 63,
+      "wealth": 64,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 75,
+      "wealth": 76,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -205,7 +205,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 59,
-      "mood": 99,
+      "mood": 98,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -251,7 +251,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 91,
-      "mood": 100,
+      "mood": 99,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -273,8 +273,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 100,
+      "wealth": 100,
+      "mood": 99,
       "stores": 17,
       "status": "stable",
       "relations": {
@@ -319,7 +319,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -381,6 +381,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 107
+    },
     {
       "id": "cletter_007",
       "seal": "abbot",
@@ -1754,55 +1801,45 @@
         }
       ],
       "_pickedTick": 40
-    },
-    {
-      "id": "cletter_009",
-      "seal": "noble",
-      "type": "C",
-      "icon": "📜",
-      "tags": [
-        "šlechta",
-        "listina",
-        "opis"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Panoše ze vzdáleného rodu",
-      "sender_en": "A Squire's Page from a Distant House",
-      "title_cs": "Žádost o opis darovací listiny",
-      "title_en": "A Request for a Copy of a Donation Charter",
-      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
-      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
-          "label_en": "📜 Accept the commission (+10 groschen)",
-          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
-          "notify_en": "The copy is made and sent. (+10 groschen)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": 10
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
-          "label_en": "🗄️ Decline — the archive is too old to search",
-          "notify_cs": "Panoše odešel s prázdnou.",
-          "notify_en": "The page left empty-handed.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 38
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
+      "type": "D",
+      "icon": "🚩",
+      "source": "distant_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
+      "type": "D",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
@@ -2006,45 +2043,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "distant_events",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
+      "type": "D",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
       "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
@@ -2140,33 +2165,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_cs": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_en": "A spark from a blacksmith's forge ignited a thatched roof in the suburbs. Within an hour, six poor dwellings were reduced to ashes. The burgomaster ordered the neighboring cowsheds torn down to prevent the fire from spreading further.",
-      "type": "D",
-      "icon": "🛖",
-      "source": "local_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
+      "type": "D",
+      "icon": "🚩",
+      "source": "distant_events",
+      "tick": 107,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
@@ -2274,18 +2287,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
-      "type": "B",
-      "icon": "⚙️",
-      "source": "distant_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "church_calendar": {
