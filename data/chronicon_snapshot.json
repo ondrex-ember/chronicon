@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-17T22:29:22.432Z",
-  "valid_until": "2026-08-24T22:29:22.432Z",
+  "generated": "2026-08-18T04:40:38.093Z",
+  "valid_until": "2026-08-25T04:40:38.093Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 17,
-    "windKmH": 8,
+    "tempC": 15,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 79,
-    "total_tick": 104,
+    "total_tick": 105,
     "date_string": "☀️ Léto, Léta Páně 1465, den 79"
   },
   "actors": [
@@ -135,8 +135,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 96,
+      "wealth": 93,
+      "mood": 98,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 63,
+      "wealth": 62,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 73,
+      "wealth": 74,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 61,
-      "mood": 96,
+      "wealth": 60,
+      "mood": 97,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -273,7 +273,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 17,
       "status": "stable",
@@ -296,8 +296,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 14,
       "status": "prosperujici",
       "relations": {
@@ -319,7 +319,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -381,6 +381,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 105
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -1772,48 +1819,45 @@
         }
       ],
       "_pickedTick": 37
-    },
-    {
-      "id": "cletter_006",
-      "seal": "scholars",
-      "type": "B",
-      "icon": "🎨",
-      "tags": [
-        "lazurit",
-        "pigmenty",
-        "benátky"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Giacomo Foscari",
-      "sender_en": "Giacomo Foscari",
-      "title_cs": "Varování Giacoma Foscariho",
-      "title_en": "A Warning from Giacomo Foscari",
-      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
-      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
-      "choices": [
-        {
-          "id": "note",
-          "label_cs": "📜 Vzít na vědomí",
-          "label_en": "📜 Take note",
-          "notify_cs": "Zvěst uložena v paměti celeráře.",
-          "notify_en": "The rumor is filed in the cellarer's memory.",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "giacomo",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 32
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
+      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
+      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
@@ -2017,45 +2061,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 97,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
-      "text_cs": "Zpráva z Barcelony: Katalánští piráti přepadli loď vezoucí náklad kamence a barviv. Loď se ukryla na Mallorce. Hedvábí zdražilo. Nepřeposílej nic hodnotného po moři, dokud se situace neuklidní.",
-      "text_en": "News from Barcelona: Catalan pirates attacked a ship carrying alum and dyes. The ship took shelter in Mallorca. Silk prices rose. Do not send anything of value by sea until the situation calms down.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 96,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 96,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
@@ -2151,33 +2183,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
+      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
+      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 105,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
       "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
@@ -2282,18 +2302,6 @@
       "icon": "🎓",
       "source": "distant_events",
       "tick": 94,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
-      "type": "C",
-      "icon": "🧶",
-      "source": "distant_events",
-      "tick": 93,
       "year": 1465,
       "season": "Léto",
       "day": 76
