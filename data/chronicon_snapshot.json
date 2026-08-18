@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-18T04:40:38.093Z",
-  "valid_until": "2026-08-25T04:40:38.093Z",
+  "generated": "2026-08-18T10:34:02.384Z",
+  "valid_until": "2026-08-25T10:34:02.384Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 15,
-    "windKmH": 4,
+    "tempC": 20,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 79,
-    "total_tick": 105,
+    "total_tick": 106,
     "date_string": "☀️ Léto, Léta Páně 1465, den 79"
   },
   "actors": [
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 16,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 93,
-      "mood": 98,
+      "mood": 100,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 62,
+      "wealth": 63,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 74,
+      "wealth": 75,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 60,
-      "mood": 97,
+      "wealth": 59,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -296,7 +296,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 14,
       "status": "prosperujici",
@@ -381,6 +381,44 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_007",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "tags": [
+        "opat",
+        "sesterský klášter"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Opat sesterského kláštera",
+      "sender_en": "The Abbot of a Sister House",
+      "title_cs": "Pozdrav od sesterského opatství",
+      "title_en": "Greetings from a Sister Abbey",
+      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
+          "label_en": "🕊️ Return the bond of prayer",
+          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+          "notify_en": "The bond is confirmed. (Ecclesia +2)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 106
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -1762,66 +1800,33 @@
         }
       ],
       "_pickedTick": 38
-    },
-    {
-      "id": "cletter_002",
-      "seal": "village",
-      "type": "D",
-      "icon": "🐐",
-      "tags": [
-        "hranice",
-        "spor",
-        "vesnice"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Rychtář z Chválkovic",
-      "sender_en": "The Bailiff of Chválkovice",
-      "title_cs": "Stížnost rychtáře na kozy",
-      "title_en": "The Bailiff's Complaint about the Goats",
-      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
-      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
-      "choices": [
-        {
-          "id": "pay",
-          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
-          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
-          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
-          "notify_en": "The dispute smoothed over with coin. (village +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -6
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 2
-            }
-          ]
-        },
-        {
-          "id": "ignore",
-          "label_cs": "🤷 Plot spraví bratři sami, časem",
-          "label_en": "🤷 The brothers will mend it themselves, in time",
-          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
-          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 37
     }
   ],
   "chronicle": [
+    {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
@@ -2037,33 +2042,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
-      "type": "A",
-      "icon": "🏙️",
-      "source": "distant_events",
-      "tick": 97,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_cs": "Zpráva z Lipníku: Dlouhé týdny bez kapky deště způsobily vyschnutí většiny městských studní. Voda se musí dovážet v sudech z řeky, která je navíc plná bahna. Hrozí šíření horeček.",
-      "text_en": "News from Lipník: Long weeks without a drop of rain have caused most of the town's wells to dry up. Water must be carted in barrels from the river, which is additionally full of mud. There is a threat of spreading fevers.",
-      "type": "B",
-      "icon": "☀️",
-      "source": "local_events",
-      "tick": 97,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
       "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
@@ -2171,21 +2164,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
-      "text_cs": "Z Krnova: Synové zemřelého koželuha se u soudu pohádali o dědictví tak zuřivě, že na sebe vytáhli nože. Purkmistr oběma bratrům majetek dočasně zkonfiskoval, dokud je farář nepřiměje k usmíření.",
-      "text_en": "From Krnov: The sons of a deceased tanner argued so fiercely over their inheritance in court that they drew knives on each other. The burgomaster temporarily confiscated the property from both brothers until the priest forces them to reconcile.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
@@ -2290,18 +2283,6 @@
       "icon": "⚙️",
       "source": "distant_events",
       "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_cs": "Ze starých zápisků pražských: Když král Václav dekretem svým cizincům na učení moc odňal, mistři němečtí odešli kvapně, knihy s sebou vezouce. Univerzita osiřela, leč hlasy české v ní od té doby zní hlasitěji.",
-      "text_en": "From old Prague notes: when King Wenceslas by his decree took power from the foreigners at the schools, the German masters departed in haste, bearing their books with them. The university stood bereft, yet Bohemian voices have sounded the louder there ever since.",
-      "type": "C",
-      "icon": "🎓",
-      "source": "distant_events",
-      "tick": 94,
       "year": 1465,
       "season": "Léto",
       "day": 76

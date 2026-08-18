@@ -4,15 +4,15 @@
     "season": 1,
     "day": 79,
     "daysPerSeason": 90,
-    "totalTick": 105
+    "totalTick": 106
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 15,
-    "windKmH": 4,
+    "tempC": 20,
+    "windKmH": 9,
     "rainMm": 0
   },
   "virtue": {
@@ -50,8 +50,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 97.01233029020837,
-      "mood": 99.55305001695524,
+      "wealth": 97.3422847938119,
+      "mood": 100,
       "stores": 11.037000000000003,
       "storesMax": 100,
       "status": "prosperujici",
@@ -78,7 +78,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 97.67512390095986,
+      "wealth": 97.2476688243774,
       "mood": 100,
       "stores": 16.0043,
       "storesMax": 90,
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 92.98942171427963,
-      "mood": 98.30652123575655,
+      "wealth": 92.71094156780907,
+      "mood": 99.53352258025694,
       "stores": 12.819625,
       "storesMax": 80,
       "status": "prosperujici",
@@ -134,8 +134,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 62.20154286952314,
-      "mood": 99.87471969333043,
+      "wealth": 62.60317442784188,
+      "mood": 99.70596173300311,
       "stores": 10.45078125,
       "storesMax": 70,
       "status": "stable",
@@ -162,7 +162,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 74.05522286049049,
+      "wealth": 74.88309723512742,
       "mood": 100,
       "stores": 8.047812500000001,
       "storesMax": 50,
@@ -190,8 +190,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 60.14125903402397,
-      "mood": 97.02695062250213,
+      "wealth": 59.29657663279755,
+      "mood": 99.08706202154815,
       "stores": 8.23875,
       "storesMax": 70,
       "status": "stable",
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 83.52487123937331,
+      "wealth": 83.61978370961442,
       "mood": 100,
       "stores": 10.955425000000002,
       "storesMax": 60,
@@ -246,7 +246,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 90.58780657289647,
+      "wealth": 90.97744055871324,
       "mood": 100,
       "stores": 12.1671875,
       "storesMax": 70,
@@ -274,7 +274,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 98.81461627008419,
+      "wealth": 99.30027696159296,
       "mood": 100,
       "stores": 16.81428125,
       "storesMax": 100,
@@ -302,8 +302,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.96443089342065,
-      "mood": 100,
+      "wealth": 99.02737519864691,
+      "mood": 99.92567783290836,
       "stores": 13.621075000000001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -332,7 +332,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 97.71098819472607,
+      "wealth": 98.32692642955664,
       "mood": 100,
       "stores": 10.691687500000004,
       "storesMax": 75,
@@ -423,6 +423,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 106,
+      "year": 1465,
+      "season": "Léto",
+      "day": 79
+    },
     {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
@@ -1358,33 +1382,47 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
-      "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
-      "text_en": "From the Zbraslav notes: the widow of a soldier from the Hussite wars hath begged at the church gate these twenty years. The priests give her alms, but it sufficeth not. Many have forgotten her; she herself forgetteth none.",
-      "type": "D",
-      "icon": "⚰️",
-      "source": "distant_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Léto",
-      "day": 70
-    },
-    {
-      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 71,
-      "year": 1465,
-      "season": "Léto",
-      "day": 70
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_007",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "tags": [
+        "opat",
+        "sesterský klášter"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Opat sesterského kláštera",
+      "sender_en": "The Abbot of a Sister House",
+      "title_cs": "Pozdrav od sesterského opatství",
+      "title_en": "Greetings from a Sister Abbey",
+      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
+      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
+          "label_en": "🕊️ Return the bond of prayer",
+          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
+          "notify_en": "The bond is confirmed. (Ecclesia +2)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 106
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -3592,7 +3630,7 @@
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali."
     },
     "porta_cletter_007": {
-      "tick": 42,
+      "tick": 106,
       "text": "cletter_007"
     },
     "refect_ex_004": {
@@ -4194,6 +4232,14 @@
     "letopisy_004": {
       "tick": 105,
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku."
+    },
+    "anales_sel_009": {
+      "tick": 106,
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí."
+    },
+    "datini_025": {
+      "tick": 106,
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic."
     }
   },
   "flags": {
