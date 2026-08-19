@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-19T04:41:50.101Z",
-  "valid_until": "2026-08-26T04:41:50.101Z",
+  "generated": "2026-08-19T10:33:58.202Z",
+  "valid_until": "2026-08-26T10:33:58.202Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -70,8 +70,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 17,
-    "windKmH": 8,
+    "tempC": 22,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -83,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 80,
-    "total_tick": 109,
+    "total_tick": 110,
     "date_string": "☀️ Léto, Léta Páně 1465, den 80"
   },
   "actors": [
@@ -116,7 +116,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 99,
       "stores": 16,
       "status": "prosperujici",
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 63,
+      "wealth": 62,
       "mood": 100,
       "stores": 10,
       "status": "stable",
@@ -185,8 +185,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 74,
-      "mood": 100,
+      "wealth": 73,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -208,7 +208,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 59,
+      "wealth": 60,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -231,7 +231,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 83,
+      "wealth": 84,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -254,7 +254,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 100,
       "stores": 12,
       "status": "prosperujici",
@@ -300,7 +300,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 14,
       "status": "prosperujici",
@@ -324,7 +324,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 99,
+      "mood": 98,
       "stores": 11,
       "status": "prosperujici",
       "itemStock": {
@@ -1824,6 +1824,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
       "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
@@ -2038,33 +2062,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
-      "text_cs": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
-      "text_en": "That year the town of Beroun was taken by the same warriors, wherein famous Bohemians and valiant knights perished.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 101,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 101,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
       "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
@@ -2172,21 +2184,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 110,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
@@ -2291,18 +2303,6 @@
       "icon": "🏴‍☠️",
       "source": "distant_events",
       "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "distant_events",
-      "tick": 98,
       "year": 1465,
       "season": "Léto",
       "day": 77
