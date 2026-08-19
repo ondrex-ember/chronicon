@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-19T10:33:58.202Z",
-  "valid_until": "2026-08-26T10:33:58.202Z",
+  "generated": "2026-08-19T16:36:38.499Z",
+  "valid_until": "2026-08-26T16:36:38.499Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,15 +66,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 22,
-    "windKmH": 13,
-    "rainMm": 0,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 25,
+    "windKmH": 8,
+    "rainMm": 0.1,
     "season": 1,
-    "modifier_grain": 1,
+    "modifier_grain": 1.15,
     "modifier_wood": 1
   },
   "time": {
@@ -83,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 80,
-    "total_tick": 110,
+    "total_tick": 111,
     "date_string": "☀️ Léto, Léta Páně 1465, den 80"
   },
   "actors": [
@@ -117,7 +117,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 99,
+      "mood": 98,
       "stores": 16,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 62,
-      "mood": 100,
+      "wealth": 63,
+      "mood": 99,
       "stores": 10,
       "status": "stable",
       "relations": {
@@ -186,7 +186,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 73,
-      "mood": 99,
+      "mood": 98,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -255,7 +255,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 92,
-      "mood": 100,
+      "mood": 99,
       "stores": 12,
       "status": "prosperujici",
       "relations": {
@@ -300,7 +300,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 14,
       "status": "prosperujici",
@@ -323,8 +323,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 98,
+      "wealth": 100,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "itemStock": {
@@ -1824,6 +1824,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_en": "News from Bohemia: an old man, who is said in his youth to have marched with Žižka, sitteth before the tavern telling of battles to whoso will hear. The young mock him; the old nod silently.",
+      "type": "A",
+      "icon": "🪖",
+      "source": "distant_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
+      "type": "C",
+      "icon": "🪨",
+      "source": "local_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_cs": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_en": "The cat Metoděj caught a mole in the carrot bed and laid it on my spade. The look she gave me while doing so suggested she had done more work than I had all morning. The garden is otherwise thriving.",
+      "type": "E",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
       "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
       "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
       "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
@@ -2026,45 +2062,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
-      "type": "B",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
-      "text_cs": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
-      "text_en": "From Kelč: Beekeepers report an exceptionally good year. The linden trees bloomed long and without rain. Honey will be cheap and plentiful this year. I recommend monasteries buy wax stocks for winter candles before city merchants arrive.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "local_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
-      "type": "D",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
+      "type": "C",
+      "icon": "🪨",
+      "source": "local_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_cs": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_en": "The cat Metoděj caught a mole in the carrot bed and laid it on my spade. The look she gave me while doing so suggested she had done more work than I had all morning. The garden is otherwise thriving.",
+      "type": "E",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
       "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
@@ -2160,33 +2184,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_en": "News from Bohemia: an old man, who is said in his youth to have marched with Žižka, sitteth before the tavern telling of battles to whoso will hear. The young mock him; the old nod silently.",
+      "type": "A",
+      "icon": "🪖",
+      "source": "distant_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
       "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
@@ -2294,18 +2306,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
-      "type": "D",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 99,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
     }
   ],
   "church_calendar": {

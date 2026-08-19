@@ -4,16 +4,16 @@
     "season": 1,
     "day": 80,
     "daysPerSeason": 90,
-    "totalTick": 110
+    "totalTick": 111
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 22,
-    "windKmH": 13,
-    "rainMm": 0
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 25,
+    "windKmH": 8,
+    "rainMm": 0.1
   },
   "virtue": {
     "value": 3,
@@ -50,7 +50,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 97.44910442993708,
+      "wealth": 97.41505467932606,
       "mood": 100,
       "stores": 11.037000000000003,
       "storesMax": 100,
@@ -78,8 +78,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.49401441816826,
-      "mood": 98.72099802380545,
+      "wealth": 95.40745920484784,
+      "mood": 97.97202552597274,
       "stores": 16.0043,
       "storesMax": 90,
       "status": "prosperujici",
@@ -106,7 +106,7 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.56660202095372,
+      "wealth": 93.70059223926198,
       "mood": 100,
       "stores": 12.819625,
       "storesMax": 80,
@@ -134,8 +134,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 62.25517291009878,
-      "mood": 100,
+      "wealth": 62.697300885706944,
+      "mood": 99.17638864139577,
       "stores": 10.45078125,
       "storesMax": 70,
       "status": "stable",
@@ -162,8 +162,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 72.93804241145364,
-      "mood": 99.24846806883782,
+      "wealth": 73.37077499990622,
+      "mood": 98.39107562920796,
       "stores": 8.047812500000001,
       "storesMax": 50,
       "status": "stable",
@@ -190,7 +190,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 59.763136785965706,
+      "wealth": 59.64620655252435,
       "mood": 100,
       "stores": 8.23875,
       "storesMax": 70,
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 84.22990225770717,
+      "wealth": 83.82132977693112,
       "mood": 100,
       "stores": 10.955425000000002,
       "storesMax": 60,
@@ -246,8 +246,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 91.70120713504618,
-      "mood": 100,
+      "wealth": 92.19353840065139,
+      "mood": 99.1808985282767,
       "stores": 12.1671875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -274,7 +274,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.5441411156714,
+      "wealth": 100,
       "mood": 100,
       "stores": 16.81428125,
       "storesMax": 100,
@@ -302,7 +302,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.49085386327197,
+      "wealth": 98.64179120776485,
       "mood": 100,
       "stores": 13.621075000000001,
       "storesMax": 80,
@@ -332,8 +332,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 99.11958482848486,
-      "mood": 97.5575490982552,
+      "wealth": 99.99286486441541,
+      "mood": 98.7794020649919,
       "stores": 10.691687500000004,
       "storesMax": 75,
       "status": "prosperujici",
@@ -423,6 +423,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
+      "text_en": "News from Bohemia: an old man, who is said in his youth to have marched with Žižka, sitteth before the tavern telling of battles to whoso will hear. The young mock him; the old nod silently.",
+      "type": "A",
+      "icon": "🪖",
+      "source": "distant_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
+      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
+      "type": "C",
+      "icon": "🪨",
+      "source": "local_events",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_cs": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
+      "text_en": "The cat Metoděj caught a mole in the carrot bed and laid it on my spade. The look she gave me while doing so suggested she had done more work than I had all morning. The garden is otherwise thriving.",
+      "type": "E",
+      "icon": "🐈",
+      "source": "monastery_internal",
+      "tick": 111,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
       "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
@@ -1343,42 +1379,6 @@
       "icon": "🤝",
       "source": "local_events",
       "tick": 78,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
-    },
-    {
-      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
-      "type": "D",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 77,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
-    },
-    {
-      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 77,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
-    },
-    {
-      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 77,
       "year": 1465,
       "season": "Léto",
       "day": 72
@@ -3822,7 +3822,7 @@
       "text": "cletter_006"
     },
     "local_257": {
-      "tick": 33,
+      "tick": 111,
       "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí."
     },
     "letopisy_013": {
@@ -4376,6 +4376,14 @@
     "praha_027": {
       "tick": 110,
       "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest."
+    },
+    "mono_036": {
+      "tick": 111,
+      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá."
+    },
+    "zbras_011": {
+      "tick": 111,
+      "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou."
     }
   },
   "flags": {
