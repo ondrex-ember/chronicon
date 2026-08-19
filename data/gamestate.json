@@ -4,13 +4,13 @@
     "season": 1,
     "day": 80,
     "daysPerSeason": 90,
-    "totalTick": 108
+    "totalTick": 109
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "tempC": 17,
     "windKmH": 8,
     "rainMm": 0
@@ -50,7 +50,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 96.71074302216927,
+      "wealth": 96.85633047320262,
       "mood": 100,
       "stores": 11.037000000000003,
       "storesMax": 100,
@@ -78,8 +78,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 97.3173680120816,
-      "mood": 98.6868168691031,
+      "wealth": 96.35430972199552,
+      "mood": 99.01325943328314,
       "stores": 16.0043,
       "storesMax": 90,
       "status": "prosperujici",
@@ -106,8 +106,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.41750852545611,
-      "mood": 99.08668175754383,
+      "wealth": 93.97579176909014,
+      "mood": 99.70554115250395,
       "stores": 12.819625,
       "storesMax": 80,
       "status": "prosperujici",
@@ -134,7 +134,7 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 63.11466653961388,
+      "wealth": 62.95409124267289,
       "mood": 100,
       "stores": 10.45078125,
       "storesMax": 70,
@@ -162,8 +162,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 74.8166533337497,
-      "mood": 99.4539613790098,
+      "wealth": 73.91245314451015,
+      "mood": 100,
       "stores": 8.047812500000001,
       "storesMax": 50,
       "status": "stable",
@@ -190,7 +190,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 58.70859524710738,
+      "wealth": 59.28615741573423,
       "mood": 100,
       "stores": 8.23875,
       "storesMax": 70,
@@ -218,7 +218,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 83.03688769863135,
+      "wealth": 83.22993737653454,
       "mood": 100,
       "stores": 10.955425000000002,
       "storesMax": 60,
@@ -246,7 +246,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 90.53595966181807,
+      "wealth": 91.05745529827145,
       "mood": 100,
       "stores": 12.1671875,
       "storesMax": 70,
@@ -274,7 +274,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.48337756418863,
+      "wealth": 100,
       "mood": 100,
       "stores": 16.81428125,
       "storesMax": 100,
@@ -302,7 +302,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.60207676609491,
+      "wealth": 98.81736292710322,
       "mood": 100,
       "stores": 13.621075000000001,
       "storesMax": 80,
@@ -332,8 +332,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 97.91927758380106,
-      "mood": 99.37973489019801,
+      "wealth": 98.76818517269507,
+      "mood": 98.53300343234055,
       "stores": 10.691687500000004,
       "storesMax": 75,
       "status": "prosperujici",
@@ -423,6 +423,42 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_en": "An old herbalist from the edge of town was found hanged from a beam in her cottage. Locals had long spread rumors that her decoctions had hexed cattle and children. The coroner quickly closed the case to prevent a potential lynching by an outraged mob.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
       "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
@@ -1346,45 +1382,66 @@
       "year": 1465,
       "season": "Léto",
       "day": 71
-    },
-    {
-      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "distant_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
-    },
-    {
-      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 75,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
-    },
-    {
-      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 74,
-      "year": 1465,
-      "season": "Léto",
-      "day": 71
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 109
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -3637,7 +3694,7 @@
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami."
     },
     "porta_cletter_002": {
-      "tick": 86,
+      "tick": 109,
       "text": "cletter_002"
     },
     "local_131": {
@@ -3829,7 +3886,7 @@
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest."
     },
     "anales_sel_019": {
-      "tick": 41,
+      "tick": 109,
       "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba."
     },
     "local_162": {
@@ -4303,6 +4360,14 @@
     "praha_007": {
       "tick": 108,
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil."
+    },
+    "local_232": {
+      "tick": 109,
+      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu."
+    },
+    "letopisy_009": {
+      "tick": 109,
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se."
     }
   },
   "flags": {

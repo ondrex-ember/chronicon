@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-18T22:28:55.304Z",
-  "valid_until": "2026-08-25T22:28:55.304Z",
+  "generated": "2026-08-19T04:41:50.101Z",
+  "valid_until": "2026-08-26T04:41:50.101Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,7 +15,11 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -62,15 +66,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "tempC": 17,
     "windKmH": 8,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 80,
-    "total_tick": 108,
+    "total_tick": 109,
     "date_string": "☀️ Léto, Léta Páně 1465, den 80"
   },
   "actors": [
@@ -112,7 +116,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 99,
       "stores": 16,
       "status": "prosperujici",
@@ -135,8 +139,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
-      "mood": 99,
+      "wealth": 94,
+      "mood": 100,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -181,8 +185,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 75,
-      "mood": 99,
+      "wealth": 74,
+      "mood": 100,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -273,7 +277,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 17,
       "status": "stable",
@@ -319,7 +323,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 99,
       "stores": 11,
       "status": "prosperujici",
@@ -381,6 +385,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 109
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1759,51 +1820,45 @@
         }
       ],
       "_pickedTick": 41
-    },
-    {
-      "id": "cletter_015",
-      "seal": "noble",
-      "type": "E",
-      "icon": "🛡️",
-      "tags": [
-        "šlechta",
-        "poděkování"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Paní z blízkého dvora",
-      "sender_en": "The Lady of a Nearby Manor",
-      "title_cs": "Poděkování paní z blízkého dvora",
-      "title_en": "Thanks from the Lady of a Nearby Manor",
-      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
-      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
-          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
-          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
-          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": 12
-            },
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 40
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_en": "An old herbalist from the edge of town was found hanged from a beam in her cottage. Locals had long spread rumors that her decoctions had hexed cattle and children. The coroner quickly closed the case to prevent a potential lynching by an outraged mob.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
       "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
@@ -2007,45 +2062,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
-      "text_cs": "Léta téhož táborští a sirotci oblehli sú pana Hynka Bočka na Poděbradech, ukrutně puškami a praky hradu dobývajíce, kterýžto Boček mužsky se jest bránil a velikú jim škodu činil a mnoho jich z pušek a stiekaním zbil. Jednoho dne, když kněz kázal a seděli lidé na kázaní, jedním střelením z pušky zabil jich jedenácte. A když sú nemohli dobyti Poděbrad, s hanbú i s škodú sú pryč odtrhli.",
-      "text_en": "That year the Taborites and Orphans besieged Lord Hynek Boček at Poděbrady, battering the castle cruelly with guns and slings; Boček defended himself manfully.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_cs": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_en": "A spark from a blacksmith's forge ignited a thatched roof in the suburbs. Within an hour, six poor dwellings were reduced to ashes. The burgomaster ordered the neighboring cowsheds torn down to prevent the fire from spreading further.",
-      "type": "D",
-      "icon": "🛖",
-      "source": "local_events",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 100,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
+      "text_en": "An old herbalist from the edge of town was found hanged from a beam in her cottage. Locals had long spread rumors that her decoctions had hexed cattle and children. The coroner quickly closed the case to prevent a potential lynching by an outraged mob.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
       "text_cs": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
@@ -2141,33 +2184,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 78
-    },
-    {
-      "text": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
-      "text_cs": "Z Kelče: Včelaři hlásí výjimečně dobrý rok. Lípy kvetly dlouho a bez deště. Med bude letos levný a hojný. Klášterům doporučuji nakoupit zásoby vosku pro zimní svíce dříve než kupci z měst.",
-      "text_en": "From Kelč: Beekeepers report an exceptionally good year. The linden trees bloomed long and without rain. Honey will be cheap and plentiful this year. I recommend monasteries buy wax stocks for winter candles before city merchants arrive.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "local_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
-      "type": "D",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 109,
+      "year": 1465,
+      "season": "Léto",
+      "day": 80
+    },
     {
       "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
       "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
@@ -2272,18 +2303,6 @@
       "icon": "🐟",
       "source": "distant_events",
       "tick": 98,
-      "year": 1465,
-      "season": "Léto",
-      "day": 77
-    },
-    {
-      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
-      "type": "A",
-      "icon": "🏙️",
-      "source": "distant_events",
-      "tick": 97,
       "year": 1465,
       "season": "Léto",
       "day": 77
