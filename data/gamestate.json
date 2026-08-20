@@ -4,15 +4,15 @@
     "season": 1,
     "day": 81,
     "daysPerSeason": 90,
-    "totalTick": 113
+    "totalTick": 114
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 6,
+    "tempC": 25,
+    "windKmH": 11,
     "rainMm": 0
   },
   "virtue": {
@@ -74,8 +74,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 94.08745447201383,
-      "mood": 90.31638239498487,
+      "wealth": 93.67476337938758,
+      "mood": 92.06623004699604,
       "stores": 12.515295000000002,
       "storesMax": 90,
       "status": "prosperujici",
@@ -102,8 +102,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.2545772488183,
-      "mood": 83.10941689944497,
+      "wealth": 94.0248321842399,
+      "mood": 85.9057349949126,
       "stores": 9.470256250000002,
       "storesMax": 80,
       "status": "prosperujici",
@@ -130,8 +130,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 69.69456154494235,
-      "mood": 99.08369321257015,
+      "wealth": 70.69235235371714,
+      "mood": 100,
       "stores": 8.1336328125,
       "storesMax": 70,
       "status": "stable",
@@ -158,7 +158,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 79.8310308643256,
+      "wealth": 80.80017482479398,
       "mood": 100,
       "stores": 6.571703125000001,
       "storesMax": 50,
@@ -186,8 +186,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 66.75489533606604,
-      "mood": 94.43486853969169,
+      "wealth": 67.68786807916234,
+      "mood": 94.52160324051184,
       "stores": 5.6801875,
       "storesMax": 70,
       "status": "stable",
@@ -214,7 +214,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 91.25182585773433,
+      "wealth": 90.9472237201392,
       "mood": 100,
       "stores": 9.23352625,
       "storesMax": 60,
@@ -271,7 +271,7 @@
       "profession": "Opat ve městě",
       "core": true,
       "wealth": 100,
-      "mood": 95.73062172962673,
+      "mood": 95.17643432580745,
       "stores": 11.457407812500001,
       "storesMax": 100,
       "status": "prosperujici",
@@ -328,8 +328,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 94.43838834557458,
-      "mood": 93.13661216184663,
+      "wealth": 94.68239384732918,
+      "mood": 92.83934058308036,
       "stores": 7.680846875000003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -419,6 +419,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 114,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
+    {
+      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
+      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
+      "type": "A",
+      "icon": "⚔️",
+      "source": "monastery_internal",
+      "tick": 114,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -1354,30 +1378,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 73
-    },
-    {
-      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 81,
-      "year": 1465,
-      "season": "Léto",
-      "day": 73
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 80,
-      "year": 1465,
-      "season": "Léto",
-      "day": 72
     }
   ],
   "portaLetterHistory": [
@@ -4102,7 +4102,7 @@
       "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem."
     },
     "anales_sel_014": {
-      "tick": 69,
+      "tick": 114,
       "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech."
     },
     "zbras_037": {
@@ -4392,6 +4392,10 @@
     "local_122": {
       "tick": 113,
       "text": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem."
+    },
+    "local_013": {
+      "tick": 114,
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby."
     }
   },
   "flags": {
