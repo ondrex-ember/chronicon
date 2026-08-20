@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-19T22:29:26.675Z",
-  "valid_until": "2026-08-26T22:29:26.675Z",
+  "generated": "2026-08-20T04:41:45.503Z",
+  "valid_until": "2026-08-27T04:41:45.503Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,11 +15,7 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -66,15 +62,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 20,
-    "windKmH": 5,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 18,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -83,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 81,
-    "total_tick": 112,
+    "total_tick": 113,
     "date_string": "☀️ Léto, Léta Páně 1465, den 81"
   },
   "actors": [
@@ -116,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 90,
       "stores": 13,
       "status": "prosperujici",
@@ -139,7 +135,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 83,
       "stores": 9,
       "status": "prosperujici",
@@ -162,8 +158,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 69,
-      "mood": 100,
+      "wealth": 70,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -186,7 +182,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 80,
-      "mood": 98,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -208,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 66,
-      "mood": 92,
+      "wealth": 67,
+      "mood": 94,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -232,7 +228,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 91,
-      "mood": 98,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -278,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 95,
+      "mood": 96,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -323,8 +319,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 91,
+      "wealth": 94,
+      "mood": 93,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -1796,6 +1792,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
+    {
+      "text": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
+      "text_cs": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
+      "text_en": "From Litovel: During a severe summer heatwave, thirty barrels of a fresh batch of beer went sour in the town brewery. Angry drinkers are demanding compensation from the brewer, but he claims someone hexed the barrels with the evil eye.",
+      "type": "D",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
+    {
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
@@ -2010,33 +2030,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 105,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
+      "text_cs": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
+      "text_en": "From Litovel: During a severe summer heatwave, thirty barrels of a fresh batch of beer went sour in the town brewery. Angry drinkers are demanding compensation from the brewer, but he claims someone hexed the barrels with the evil eye.",
+      "type": "D",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
     {
       "text": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
       "text_cs": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
@@ -2144,21 +2152,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
+      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 113,
+      "year": 1465,
+      "season": "Léto",
+      "day": 81
+    },
     {
       "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
       "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
@@ -2263,18 +2271,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
-    },
-    {
-      "text": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
-      "text_cs": "Léta téhož město Berún od týchž bojovníkóv dobyto jest, v němžto slovútní Čechové a stateční rytieři pan Koblih kobih, pan Bohuslav Dúpovec s otcem i s jinými rytieři, kněžími, mistry a panošemi jsú upáleni v jedné jistbě před městem ten úterý po Próvodě.",
-      "text_en": "That year the town of Beroun was taken by the same warriors, wherein famous Bohemians and valiant knights perished.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 101,
       "year": 1465,
       "season": "Léto",
       "day": 78
