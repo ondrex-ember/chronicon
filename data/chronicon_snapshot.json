@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-20T16:40:06.154Z",
-  "valid_until": "2026-08-27T16:40:06.154Z",
+  "generated": "2026-08-20T22:32:38.475Z",
+  "valid_until": "2026-08-27T22:32:38.475Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 27,
-    "windKmH": 7,
+    "tempC": 21,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -78,9 +78,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 81,
-    "total_tick": 115,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 81"
+    "day": 82,
+    "total_tick": 116,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 82"
   },
   "actors": [
     {
@@ -89,7 +89,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -112,8 +112,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 95,
+      "wealth": 94,
+      "mood": 98,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -135,8 +135,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
-      "mood": 89,
+      "wealth": 94,
+      "mood": 91,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 82,
+      "wealth": 83,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 69,
-      "mood": 96,
+      "wealth": 68,
+      "mood": 99,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -227,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -274,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 95,
+      "mood": 98,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -319,8 +319,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
-      "mood": 94,
+      "wealth": 95,
+      "mood": 96,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -353,6 +353,45 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_006",
+      "seal": "scholars",
+      "type": "B",
+      "icon": "🎨",
+      "tags": [
+        "lazurit",
+        "pigmenty",
+        "benátky"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Giacomo Foscari",
+      "sender_en": "Giacomo Foscari",
+      "title_cs": "Varování Giacoma Foscariho",
+      "title_en": "A Warning from Giacomo Foscari",
+      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+      "choices": [
+        {
+          "id": "note",
+          "label_cs": "📜 Vzít na vědomí",
+          "label_en": "📜 Take note",
+          "notify_cs": "Zvěst uložena v paměti celeráře.",
+          "notify_en": "The rumor is filed in the cellarer's memory.",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "giacomo",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 116
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -1742,55 +1781,45 @@
         }
       ],
       "_pickedTick": 42
-    },
-    {
-      "id": "cletter_012",
-      "seal": "scholars",
-      "type": "A",
-      "icon": "🌙",
-      "tags": [
-        "kalendář",
-        "astronomie"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Žák z olomoucké katedrální školy",
-      "sender_en": "A Pupil of the Olomouc Cathedral School",
-      "title_cs": "Otázka žáka na výpočet Velikonoc",
-      "title_en": "A Pupil's Question on the Reckoning of Easter",
-      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
-      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
-      "choices": [
-        {
-          "id": "teach",
-          "label_cs": "🌙 Vysvětlit výpočet",
-          "label_en": "🌙 Explain the reckoning",
-          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
-          "notify_en": "The pupil left the wiser. (Scholars +3)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 3
-            }
-          ]
-        },
-        {
-          "id": "busy",
-          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
-          "label_en": "⏳ No time to spare — let him ask elsewhere",
-          "notify_cs": "Žák odešel zklamaný.",
-          "notify_en": "The pupil left disappointed.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 41
     }
   ],
   "chronicle": [
+    {
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
+      "text_cs": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
+      "text_en": "The provincial court in Brno dealt with a dispute between two Italian merchants over a debt of one hundred and fifty ducats. One of them presented a forged bill of exchange. The fraudster was immediately thrown into the town dungeon at Špilberk.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
+      "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
+      "text_en": "An entry that makes the brothers laugh aloud: before Christmas the Bohemians mustered in arms and rode into Meissen — to avenge the deer the Meisseners had shot in the game park before Prague. Wars begin over venison too.",
+      "type": "A",
+      "icon": "🦌",
+      "source": "monastery_internal",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
       "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
@@ -1994,45 +2023,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_cs": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_en": "I found the cat Metoděj sleeping directly on an open tract by Saint Augustine. She seems to choose exclusively heavier theological writings for her rest. I carefully rescued the book, and the cat left grumpily.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
-      "type": "D",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
+      "text_cs": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
+      "text_en": "The provincial court in Brno dealt with a dispute between two Italian merchants over a debt of one hundred and fifty ducats. One of them presented a forged bill of exchange. The fraudster was immediately thrown into the town dungeon at Špilberk.",
+      "type": "C",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
+      "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
+      "text_en": "An entry that makes the brothers laugh aloud: before Christmas the Bohemians mustered in arms and rode into Meissen — to avenge the deer the Meisseners had shot in the game park before Prague. Wars begin over venison too.",
+      "type": "A",
+      "icon": "🦌",
+      "source": "monastery_internal",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
       "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
@@ -2128,33 +2145,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
-      "type": "B",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
-      "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
-      "text_en": "An old herbalist from the edge of town was found hanged from a beam in her cottage. Locals had long spread rumors that her decoctions had hexed cattle and children. The coroner quickly closed the case to prevent a potential lynching by an outraged mob.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
+      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 116,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
@@ -2262,22 +2267,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
-      "type": "B",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 102,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "church_calendar": {
-    "day_of_year": 171,
+    "day_of_year": 172,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
