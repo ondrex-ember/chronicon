@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-21T10:35:06.422Z",
-  "valid_until": "2026-08-28T10:35:06.422Z",
+  "generated": "2026-08-21T16:40:03.655Z",
+  "valid_until": "2026-08-28T16:40:03.655Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,16 +66,16 @@
     "active": false
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 25,
-    "windKmH": 3,
-    "rainMm": 0,
+    "key": "summer_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
+    "tempC": 20,
+    "windKmH": 17,
+    "rainMm": 1.9,
     "season": 1,
-    "modifier_grain": 1,
-    "modifier_wood": 1
+    "modifier_grain": 0.9,
+    "modifier_wood": 0.85
   },
   "time": {
     "year": 1465,
@@ -83,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 82,
-    "total_tick": 118,
+    "total_tick": 119,
     "date_string": "☀️ Léto, Léta Páně 1465, den 82"
   },
   "actors": [
@@ -116,7 +116,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -185,7 +185,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 84,
+      "wealth": 83,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -209,7 +209,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 67,
-      "mood": 98,
+      "mood": 100,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -231,7 +231,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 89,
+      "wealth": 90,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -254,7 +254,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -277,8 +277,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 98,
+      "wealth": 99,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -300,7 +300,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -1802,6 +1802,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
+      "type": "C",
+      "icon": "🐕",
+      "source": "distant_events",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "monastery_internal",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
@@ -2004,45 +2040,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
-      "type": "C",
-      "icon": "🪨",
-      "source": "local_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
-      "text_cs": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
-      "text_en": "The cat Metoděj caught a mole in the carrot bed and laid it on my spade. The look she gave me while doing so suggested she had done more work than I had all morning. The garden is otherwise thriving.",
-      "type": "E",
-      "icon": "🐈",
-      "source": "monastery_internal",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
+      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "monastery_internal",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
       "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
@@ -2138,33 +2162,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
-      "text_cs": "Z Litovle: Během silných letních veder zkyslo v městském pivovaru třicet sudů čerstvé várky piva. Rozzlobení pijáci požadují po sládkovi náhradu, ale ten tvrdí, že sudy někdo uhranul zlým okem.",
-      "text_en": "From Litovel: During a severe summer heatwave, thirty barrels of a fresh batch of beer went sour in the town brewery. Angry drinkers are demanding compensation from the brewer, but he claims someone hexed the barrels with the evil eye.",
-      "type": "D",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 113,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
-      "text_cs": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
-      "text_en": "The baptism of an esteemed goldsmith's son brought the church a generous gift of a silver candlestick. After the ceremony, the family hosted a feast for the burghers in the town hall courtyard. It was a very blessed day.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 112,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
+      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
+      "type": "C",
+      "icon": "🐕",
+      "source": "distant_events",
+      "tick": 119,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
       "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
@@ -2272,18 +2284,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
     }
   ],
   "church_calendar": {
