@@ -2,18 +2,18 @@
   "time": {
     "year": 1465,
     "season": 1,
-    "day": 82,
+    "day": 83,
     "daysPerSeason": 90,
-    "totalTick": 119
+    "totalTick": 120
   },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
-    "tempC": 20,
-    "windKmH": 17,
-    "rainMm": 1.9
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 15,
+    "windKmH": 12,
+    "rainMm": 0
   },
   "virtue": {
     "value": 3,
@@ -46,8 +46,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 97.69874693258978,
-      "mood": 100,
+      "wealth": 97.03725880543249,
+      "mood": 99.1651636169406,
       "stores": 5.874050000000002,
       "storesMax": 100,
       "status": "prosperujici",
@@ -74,7 +74,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 93.35938219917465,
+      "wealth": 92.78369232389191,
       "mood": 100,
       "stores": 12.515295000000002,
       "storesMax": 90,
@@ -102,8 +102,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.78573395174728,
-      "mood": 89.89279129058743,
+      "wealth": 94.04636645630175,
+      "mood": 90.45175312874562,
       "stores": 9.470256250000002,
       "storesMax": 80,
       "status": "prosperujici",
@@ -130,8 +130,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 68.59862440044556,
-      "mood": 99.62834861821787,
+      "wealth": 68.51923140913257,
+      "mood": 100,
       "stores": 8.1336328125,
       "storesMax": 70,
       "status": "stable",
@@ -158,8 +158,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 82.83132151193311,
-      "mood": 100,
+      "wealth": 82.37875255704992,
+      "mood": 99.1739244513175,
       "stores": 6.571703125000001,
       "storesMax": 50,
       "status": "stable",
@@ -186,7 +186,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 66.54391833025608,
+      "wealth": 67.00867351150437,
       "mood": 100,
       "stores": 5.6801875,
       "storesMax": 70,
@@ -214,7 +214,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 90.2242763413455,
+      "wealth": 91.18767042231498,
       "mood": 100,
       "stores": 9.23352625,
       "storesMax": 60,
@@ -242,8 +242,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.43144319648005,
-      "mood": 99.6483650625725,
+      "wealth": 100,
+      "mood": 99.99377220741748,
       "stores": 9.249296875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -270,8 +270,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.1848355924434,
-      "mood": 98.98431488412271,
+      "wealth": 98.40014756480818,
+      "mood": 98.65107988942007,
       "stores": 11.457407812500001,
       "storesMax": 100,
       "status": "prosperujici",
@@ -298,7 +298,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.19746039942983,
+      "wealth": 97.7383258764218,
       "mood": 100,
       "stores": 10.234948750000001,
       "storesMax": 80,
@@ -328,8 +328,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.58170650629617,
-      "mood": 97.16971649017461,
+      "wealth": 96.4780912377783,
+      "mood": 98.78016128798276,
       "stores": 7.680846875000003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -419,6 +419,18 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 120,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
       "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
@@ -1366,21 +1378,56 @@
       "year": 1465,
       "season": "Léto",
       "day": 74
-    },
-    {
-      "text": "Norimberští kupci přivezli na slezský trh nové typy těžkých plátových zbrojí s leštěným povrchem. Cena těchto brnění je tak vysoká, že si je mohou dovolit jen nejbohatší knížata. Platnéři hlásí obrovské zisky a objednávky mají nasmlouvané na rok dopředu.",
-      "text_cs": "Norimberští kupci přivezli na slezský trh nové typy těžkých plátových zbrojí s leštěným povrchem. Cena těchto brnění je tak vysoká, že si je mohou dovolit jen nejbohatší knížata. Platnéři hlásí obrovské zisky a objednávky mají nasmlouvané na rok dopředu.",
-      "text_en": "Nuremberg merchants brought new types of heavy plate armor with polished surfaces to the Silesian market. The price of these armors is so high that only the richest dukes can afford them. Armorers report huge profits and have contracts for orders a year in advance.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 86,
-      "year": 1465,
-      "season": "Léto",
-      "day": 74
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 120
+    },
     {
       "id": "cletter_013",
       "seal": "village",
@@ -4096,7 +4143,7 @@
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil."
     },
     "porta_cletter_001": {
-      "tick": 107,
+      "tick": 120,
       "text": "cletter_001"
     },
     "mono_049": {
@@ -4224,7 +4271,7 @@
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná."
     },
     "mono_074": {
-      "tick": 77,
+      "tick": 120,
       "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla."
     },
     "local_103": {

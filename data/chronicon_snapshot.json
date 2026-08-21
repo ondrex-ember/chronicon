@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-21T16:40:03.655Z",
-  "valid_until": "2026-08-28T16:40:03.655Z",
+  "generated": "2026-08-21T22:29:54.694Z",
+  "valid_until": "2026-08-28T22:29:54.694Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,25 +66,25 @@
     "active": false
   },
   "weather": {
-    "key": "summer_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Prudká bouřka. Dřevorubci a poutníci se ukrývají.",
-    "tempC": 20,
-    "windKmH": 17,
-    "rainMm": 1.9,
+    "key": "summer_ideal",
+    "name": "Ideální počasí",
+    "icon": "🌤",
+    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "tempC": 15,
+    "windKmH": 12,
+    "rainMm": 0,
     "season": 1,
-    "modifier_grain": 0.9,
-    "modifier_wood": 0.85
+    "modifier_grain": 1.15,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 82,
-    "total_tick": 119,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 82"
+    "day": 83,
+    "total_tick": 120,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 83"
   },
   "actors": [
     {
@@ -93,8 +93,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -185,8 +185,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 83,
-      "mood": 100,
+      "wealth": 82,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -231,7 +231,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 90,
+      "wealth": 91,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -254,7 +254,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -277,7 +277,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 99,
       "stores": 11,
       "status": "prosperujici",
@@ -324,7 +324,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 97,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -357,6 +357,53 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 120
+    },
     {
       "id": "cletter_013",
       "seal": "village",
@@ -1759,48 +1806,21 @@
         }
       ],
       "_pickedTick": 48
-    },
-    {
-      "id": "cletter_006",
-      "seal": "scholars",
-      "type": "B",
-      "icon": "🎨",
-      "tags": [
-        "lazurit",
-        "pigmenty",
-        "benátky"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Giacomo Foscari",
-      "sender_en": "Giacomo Foscari",
-      "title_cs": "Varování Giacoma Foscariho",
-      "title_en": "A Warning from Giacomo Foscari",
-      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
-      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
-      "choices": [
-        {
-          "id": "note",
-          "label_cs": "📜 Vzít na vědomí",
-          "label_en": "📜 Take note",
-          "notify_cs": "Zvěst uložena v paměti celeráře.",
-          "notify_en": "The rumor is filed in the cellarer's memory.",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "giacomo",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 47
     }
   ],
   "chronicle": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 120,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
       "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
@@ -2028,21 +2048,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
-      "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
-      "text_en": "News from Bohemia: an old man, who is said in his youth to have marched with Žižka, sitteth before the tavern telling of battles to whoso will hear. The young mock him; the old nod silently.",
-      "type": "A",
-      "icon": "🪖",
-      "source": "distant_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
+      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 120,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
       "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
@@ -2146,18 +2166,6 @@
       "type": "B",
       "icon": "⚔️",
       "source": "local_events",
-      "tick": 114,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
-      "type": "A",
-      "icon": "⚔️",
-      "source": "monastery_internal",
       "tick": 114,
       "year": 1465,
       "season": "Léto",
@@ -2287,7 +2295,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 172,
+    "day_of_year": 173,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
