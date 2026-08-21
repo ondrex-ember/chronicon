@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-20T22:32:38.475Z",
-  "valid_until": "2026-08-27T22:32:38.475Z",
+  "generated": "2026-08-21T04:43:50.642Z",
+  "valid_until": "2026-08-28T04:43:50.642Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,7 +15,11 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -66,8 +70,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 6,
+    "tempC": 19,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 82,
-    "total_tick": 116,
+    "total_tick": 117,
     "date_string": "☀️ Léto, Léta Páně 1465, den 82"
   },
   "actors": [
@@ -112,8 +116,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 94,
-      "mood": 98,
+      "wealth": 95,
+      "mood": 100,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -135,8 +139,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 91,
+      "wealth": 93,
+      "mood": 90,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 70,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -227,7 +231,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 90,
+      "wealth": 89,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -274,7 +278,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 98,
+      "mood": 97,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -320,7 +324,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 96,
+      "mood": 95,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -1785,6 +1789,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
+      "type": "B",
+      "icon": "🪟",
+      "source": "distant_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
+      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
+      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
+      "type": "C",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
@@ -1999,33 +2027,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
-      "type": "B",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 108,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
+      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
+      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
+      "type": "C",
+      "icon": "🍷",
+      "source": "local_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
       "text_cs": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
@@ -2133,21 +2149,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
-      "text_cs": "Kočka Metoděj ulovila v záhonu mrkve krtka a položila ho na můj rýč. Pohled, kterým mě u toho sledovala, naznačoval, že odvedla více práce než já za celé dopoledne. Zahrada jinak prospívá.",
-      "text_en": "The cat Metoděj caught a mole in the carrot bed and laid it on my spade. The look she gave me while doing so suggested she had done more work than I had all morning. The garden is otherwise thriving.",
-      "type": "E",
-      "icon": "🐈",
-      "source": "monastery_internal",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
+      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
+      "type": "B",
+      "icon": "🪟",
+      "source": "distant_events",
+      "tick": 117,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
@@ -2252,18 +2268,6 @@
       "icon": "🧵",
       "source": "distant_events",
       "tick": 106,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 105,
       "year": 1465,
       "season": "Léto",
       "day": 79
