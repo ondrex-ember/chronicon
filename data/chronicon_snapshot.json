@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-21T04:43:50.642Z",
-  "valid_until": "2026-08-28T04:43:50.642Z",
+  "generated": "2026-08-21T10:35:06.422Z",
+  "valid_until": "2026-08-28T10:35:06.422Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -70,8 +70,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 1,
+    "tempC": 25,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -83,7 +83,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 82,
-    "total_tick": 117,
+    "total_tick": 118,
     "date_string": "☀️ Léto, Léta Páně 1465, den 82"
   },
   "actors": [
@@ -93,7 +93,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -116,7 +116,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -139,7 +139,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
+      "wealth": 94,
       "mood": 90,
       "stores": 9,
       "status": "prosperujici",
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 70,
-      "mood": 99,
+      "wealth": 69,
+      "mood": 100,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -185,7 +185,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 83,
+      "wealth": 84,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -208,8 +208,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 68,
-      "mood": 99,
+      "wealth": 67,
+      "mood": 98,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -278,7 +278,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 97,
+      "mood": 98,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -323,8 +323,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 95,
+      "wealth": 96,
+      "mood": 97,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -357,6 +357,57 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_013",
+      "seal": "village",
+      "type": "A",
+      "icon": "🧂",
+      "tags": [
+        "sůl",
+        "kupec",
+        "cesta"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Potulný solný kupec",
+      "sender_en": "A Wandering Salt Merchant",
+      "title_cs": "Nabídka solného kupce",
+      "title_en": "A Salt Merchant's Offer",
+      "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
+      "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
+      "choices": [
+        {
+          "id": "buy",
+          "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)",
+          "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
+          "notify_cs": "Sůl uložena ve špižírně.",
+          "notify_en": "The salt is stored in the pantry.",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -8
+            },
+            {
+              "type": "item",
+              "id": "salt",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "id": "skip",
+          "label_cs": "🚪 Nechat ho jít dál",
+          "label_en": "🚪 Let him move on",
+          "notify_cs": "Kupec pokračoval na jih.",
+          "notify_en": "The merchant continued south.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 118
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -1747,47 +1798,45 @@
         }
       ],
       "_pickedTick": 47
-    },
-    {
-      "id": "cletter_007",
-      "seal": "abbot",
-      "type": "C",
-      "icon": "✝️",
-      "tags": [
-        "opat",
-        "sesterský klášter"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Opat sesterského kláštera",
-      "sender_en": "The Abbot of a Sister House",
-      "title_cs": "Pozdrav od sesterského opatství",
-      "title_en": "Greetings from a Sister Abbey",
-      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
-      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
-          "label_en": "🕊️ Return the bond of prayer",
-          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
-          "notify_en": "The bond is confirmed. (Ecclesia +2)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 42
     }
   ],
   "chronicle": [
+    {
+      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
       "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
@@ -1991,45 +2040,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 80
-    },
-    {
-      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
-      "type": "B",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 110,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
-      "text_cs": "Stará bylinkářka z okraje města byla nalezena oběšená na trámu ve své chalupě. Místní o ní dlouho šířili zvěsti, že svými odvary uhranula dobytek i děti. Koroner případ rychle uzavřel, aby předešel případnému lynčování ze strany pobouřeného davu.",
-      "text_en": "An old herbalist from the edge of town was found hanged from a beam in her cottage. Locals had long spread rumors that her decoctions had hexed cattle and children. The coroner quickly closed the case to prevent a potential lynching by an outraged mob.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
+      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
       "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
@@ -2125,33 +2162,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Zemský sněm vyhlásil mimořádnou berni na obranu hranic. <em>Vrchnost</em> musí vybrat stříbro od všech poddaných.",
-      "text_cs": "Zemský sněm vyhlásil mimořádnou berni na obranu hranic. <em>Vrchnost</em> musí vybrat stříbro od všech poddaných.",
-      "text_en": null,
-      "type": "D",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 112,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_cs": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí.",
-      "text_en": "Precious wagons loaded with lumps of raw alum from Genoese merchants arrived at the local marketplace from abroad. The goods are vital for cloth dyers to fix rich colors on fabrics. Merchant guilds from the wide area are bidding for the raw material, which thus disappears at immense speed.",
-      "type": "C",
-      "icon": "🪨",
-      "source": "local_events",
-      "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 118,
+      "year": 1465,
+      "season": "Léto",
+      "day": 82
+    },
     {
       "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
       "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
@@ -2256,18 +2281,6 @@
       "icon": "🚩",
       "source": "distant_events",
       "tick": 107,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 106,
       "year": 1465,
       "season": "Léto",
       "day": 79
