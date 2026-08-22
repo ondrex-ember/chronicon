@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-22T10:29:05.263Z",
-  "valid_until": "2026-08-29T10:29:05.263Z",
+  "generated": "2026-08-22T16:30:36.379Z",
+  "valid_until": "2026-08-29T16:30:36.379Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 18,
+    "tempC": 19,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 83,
-    "total_tick": 122,
+    "total_tick": 123,
     "date_string": "☀️ Léto, Léta Páně 1465, den 83"
   },
   "actors": [
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
+      "wealth": 94,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -135,8 +135,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 92,
+      "wealth": 95,
+      "mood": 93,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 67,
+      "wealth": 68,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 83,
+      "wealth": 82,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -227,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
+      "wealth": 94,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -296,7 +296,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -353,6 +353,45 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_014",
+      "seal": "church",
+      "type": "A",
+      "icon": "🔔",
+      "tags": [
+        "zvon",
+        "sklář",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Sklář z hutě v lesích",
+      "sender_en": "A Glassmaker from the Forest Works",
+      "title_cs": "List sklářův o barevném skle",
+      "title_en": "The Glassmaker's Letter about Coloured Glass",
+      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+      "choices": [
+        {
+          "id": "visit",
+          "label_cs": "🔮 Zajet se podívat",
+          "label_en": "🔮 Go and see",
+          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "sklar",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 123
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1755,56 +1794,33 @@
         }
       ],
       "_pickedTick": 52
-    },
-    {
-      "id": "cletter_005",
-      "seal": "scholars",
-      "type": "C",
-      "icon": "📖",
-      "tags": [
-        "opis",
-        "exemplar",
-        "putovní písař"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Putovní písař Wenceslaus",
-      "sender_en": "Wenceslaus, an Itinerant Scribe",
-      "title_cs": "Nabídka putovního písaře",
-      "title_en": "An Itinerant Scribe's Offer",
-      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
-      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
-      "choices": [
-        {
-          "id": "trade",
-          "label_cs": "📚 Vyměnit texty",
-          "label_en": "📚 Trade texts",
-          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
-          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 3
-            }
-          ]
-        },
-        {
-          "id": "refuse",
-          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
-          "label_en": "🔒 Refuse — the library is not for trading",
-          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
-          "notify_en": "Wenceslaus shrugged and moved on.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 48
     }
   ],
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
+      "text_cs": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
+      "text_en": "A note from Prague: nigh thirty years have passed since the Compacts, and yet in the Old Town churches it is still asked who receives in both kinds and who doth not. Neighbours know this of one another, though it is not spoken aloud.",
+      "type": "A",
+      "icon": "🍷",
+      "source": "distant_events",
+      "tick": 123,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 123,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
@@ -2020,33 +2036,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
-      "type": "A",
-      "icon": "⚔️",
-      "source": "monastery_internal",
-      "tick": 114,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 113,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 123,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
       "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
@@ -2154,21 +2158,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_en": "An entry that makes the brothers laugh aloud: before Christmas the Bohemians mustered in arms and rode into Meissen — to avenge the deer the Meisseners had shot in the game park before Prague. Wars begin over venison too.",
-      "type": "A",
-      "icon": "🦌",
-      "source": "monastery_internal",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
+      "text_cs": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
+      "text_en": "A note from Prague: nigh thirty years have passed since the Compacts, and yet in the Old Town churches it is still asked who receives in both kinds and who doth not. Neighbours know this of one another, though it is not spoken aloud.",
+      "type": "A",
+      "icon": "🍷",
+      "source": "distant_events",
+      "tick": 123,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
       "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
@@ -2273,18 +2277,6 @@
       "icon": "🪖",
       "source": "distant_events",
       "tick": 111,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 110,
       "year": 1465,
       "season": "Léto",
       "day": 80
