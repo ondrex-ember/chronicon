@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-21T22:29:54.694Z",
-  "valid_until": "2026-08-28T22:29:54.694Z",
+  "generated": "2026-08-22T04:38:12.325Z",
+  "valid_until": "2026-08-29T04:38:12.325Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -15,11 +15,7 @@
     "porta_offer"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -66,15 +62,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_ideal",
-    "name": "Ideální počasí",
-    "icon": "🌤",
-    "desc": "Teplé slunce s občasným deštěm. Vše prosperuje.",
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
     "tempC": 15,
-    "windKmH": 12,
+    "windKmH": 14,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.15,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -83,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 83,
-    "total_tick": 120,
+    "total_tick": 121,
     "date_string": "☀️ Léto, Léta Páně 1465, den 83"
   },
   "actors": [
@@ -94,7 +90,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -116,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -162,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 69,
+      "wealth": 68,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -186,7 +182,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 82,
-      "mood": 99,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -208,7 +204,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 67,
+      "wealth": 68,
       "mood": 100,
       "stores": 6,
       "status": "stable",
@@ -231,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -277,8 +273,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -301,7 +297,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -1810,6 +1806,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
+      "type": "B",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
+    {
+      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
+      "type": "D",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
+    {
       "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
       "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
       "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
@@ -2024,33 +2044,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
-      "text_cs": "Křest syna váženého zlatníka přinesl kostelu štědrý dar v podobě stříbrného svícnu. Po obřadu rodina uspořádala pro měšťany hostinu na radničním nádvoří. Byl to velmi požehnaný den.",
-      "text_en": "The baptism of an esteemed goldsmith's son brought the church a generous gift of a silver candlestick. After the ceremony, the family hosted a feast for the burghers in the town hall courtyard. It was a very blessed day.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 112,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Zemský sněm vyhlásil mimořádnou berni na obranu hranic. <em>Vrchnost</em> musí vybrat stříbro od všech poddaných.",
-      "text_cs": "Zemský sněm vyhlásil mimořádnou berni na obranu hranic. <em>Vrchnost</em> musí vybrat stříbro od všech poddaných.",
-      "text_en": null,
-      "type": "D",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 112,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
+      "type": "D",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
       "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
@@ -2158,21 +2166,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 81
-    },
-    {
-      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 114,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
+      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
+      "type": "B",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 121,
+      "year": 1465,
+      "season": "Léto",
+      "day": 83
+    },
     {
       "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
       "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
@@ -2277,18 +2285,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 109,
-      "year": 1465,
-      "season": "Léto",
-      "day": 80
-    },
-    {
-      "text": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_cs": "Z Prahy přišla zpráva pokoutná: Páni se prý sjeli na Zelené Hoře, řeč vedouce o víře a o králi, an se kacířem nazýváno bývá. Co tam praveno bylo, nikdo veřejně nedí. Klášterní bratři se modlí, aby zemí mír neopustil.",
-      "text_en": "From Prague came a report whispered low: certain lords are said to have gathered at Zelená Hora, speaking of faith and of the king, whom some dare call heretic. What was spoken there, none doth say aloud. The brothers pray that peace forsake not the land.",
-      "type": "B",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 108,
       "year": 1465,
       "season": "Léto",
       "day": 80
