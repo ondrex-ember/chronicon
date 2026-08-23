@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-23T16:31:50.312Z",
-  "valid_until": "2026-08-30T16:31:50.312Z",
+  "generated": "2026-08-23T22:27:39.365Z",
+  "valid_until": "2026-08-30T22:27:39.365Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 8,
+    "tempC": 15,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -78,9 +78,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 84,
-    "total_tick": 127,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 84"
+    "day": 85,
+    "total_tick": 128,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 85"
   },
   "actors": [
     {
@@ -89,7 +89,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -135,7 +135,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 94,
       "stores": 9,
       "status": "prosperujici",
@@ -181,8 +181,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 81,
-      "mood": 99,
+      "wealth": 80,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -205,7 +205,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 67,
-      "mood": 98,
+      "mood": 100,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -227,8 +227,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 94,
-      "mood": 99,
+      "wealth": 93,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -273,7 +273,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -319,8 +319,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 98,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -1805,6 +1805,30 @@
   ],
   "chronicle": [
     {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
+    {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
@@ -2019,33 +2043,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 128,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -2138,30 +2162,6 @@
       "icon": "🐟",
       "source": "monastery_internal",
       "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
-      "type": "D",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 121,
       "year": 1465,
       "season": "Léto",
       "day": 83
@@ -2290,7 +2290,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 174,
+    "day_of_year": 175,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
