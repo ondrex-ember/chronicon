@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-23T10:29:01.974Z",
-  "valid_until": "2026-08-30T10:29:01.974Z",
+  "generated": "2026-08-23T16:31:50.312Z",
+  "valid_until": "2026-08-30T16:31:50.312Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 9,
+    "tempC": 21,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 84,
-    "total_tick": 126,
+    "total_tick": 127,
     "date_string": "☀️ Léto, Léta Páně 1465, den 84"
   },
   "actors": [
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 92,
+      "mood": 94,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 69,
+      "wealth": 70,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -181,7 +181,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 82,
+      "wealth": 81,
       "mood": 99,
       "stores": 7,
       "status": "stable",
@@ -204,8 +204,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 68,
-      "mood": 99,
+      "wealth": 67,
+      "mood": 98,
       "stores": 6,
       "status": "stable",
       "relations": {
@@ -227,8 +227,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
-      "mood": 100,
+      "wealth": 94,
+      "mood": 99,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -273,8 +273,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 96,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -319,8 +319,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "itemStock": {
@@ -353,6 +353,59 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_008",
+      "seal": "noble",
+      "type": "B",
+      "icon": "🏹",
+      "tags": [
+        "šlechta",
+        "hon",
+        "les"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Zeman z okolního panství",
+      "sender_en": "A Squire of the Neighbouring Estate",
+      "title_cs": "Napomenutí zemanovo o honitbě",
+      "title_en": "The Squire's Rebuke about the Hunting Grounds",
+      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
+      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
+      "choices": [
+        {
+          "id": "apologize",
+          "label_cs": "🙏 Omluvit se a stáhnout lovce",
+          "label_en": "🙏 Apologize and pull back the hunter",
+          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
+          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "lovec",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "id": "deny",
+          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
+          "label_en": "⚖️ Insist the boundary is disputed",
+          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
+          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 127
+    },
     {
       "id": "cletter_014",
       "seal": "church",
@@ -1748,55 +1801,33 @@
         }
       ],
       "_pickedTick": 55
-    },
-    {
-      "id": "cletter_009",
-      "seal": "noble",
-      "type": "C",
-      "icon": "📜",
-      "tags": [
-        "šlechta",
-        "listina",
-        "opis"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Panoše ze vzdáleného rodu",
-      "sender_en": "A Squire's Page from a Distant House",
-      "title_cs": "Žádost o opis darovací listiny",
-      "title_en": "A Request for a Copy of a Donation Charter",
-      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
-      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
-          "label_en": "📜 Accept the commission (+10 groschen)",
-          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
-          "notify_en": "The copy is made and sent. (+10 groschen)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": 10
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
-          "label_en": "🗄️ Decline — the archive is too old to search",
-          "notify_cs": "Panoše odešel s prázdnou.",
-          "notify_en": "The page left empty-handed.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 52
     }
   ],
   "chronicle": [
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
+      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
+      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
+      "type": "E",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
       "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
@@ -2012,33 +2043,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
+      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
+      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
+      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
+      "type": "E",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 127,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
       "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
@@ -2134,30 +2165,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 83
-    },
-    {
-      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 120,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_distant": [
