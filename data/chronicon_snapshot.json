@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-23T04:42:41.199Z",
-  "valid_until": "2026-08-30T04:42:41.199Z",
+  "generated": "2026-08-23T10:29:01.974Z",
+  "valid_until": "2026-08-30T10:29:01.974Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 12,
-    "windKmH": 5,
+    "tempC": 19,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 84,
-    "total_tick": 125,
+    "total_tick": 126,
     "date_string": "☀️ Léto, Léta Páně 1465, den 84"
   },
   "actors": [
@@ -181,8 +181,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 81,
-      "mood": 100,
+      "wealth": 82,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -204,7 +204,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 67,
+      "wealth": 68,
       "mood": 99,
       "stores": 6,
       "status": "stable",
@@ -274,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -319,7 +319,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -1798,6 +1798,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
+      "type": "C",
+      "icon": "🏛️",
+      "source": "distant_events",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
+      "type": "C",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
       "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
       "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
       "text_en": "Agent from Florence: Seven people died in the district across the river this week. The doctors speak of fever, but older merchants know well what such a fever looks like. The market is half empty. Sending this letter quickly, then closing the office.",
@@ -2000,45 +2036,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
-      "type": "B",
-      "icon": "🪟",
-      "source": "distant_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
+      "type": "C",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
       "text_cs": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
@@ -2134,33 +2158,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
+      "type": "C",
+      "icon": "🏛️",
+      "source": "distant_events",
+      "tick": 126,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
       "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
@@ -2268,18 +2280,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 113,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
     }
   ],
   "church_calendar": {
