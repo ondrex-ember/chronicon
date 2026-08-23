@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-22T22:27:05.330Z",
-  "valid_until": "2026-08-29T22:27:05.330Z",
+  "generated": "2026-08-23T04:42:41.199Z",
+  "valid_until": "2026-08-30T04:42:41.199Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -66,8 +66,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 16,
-    "windKmH": 7,
+    "tempC": 12,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,7 +79,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 84,
-    "total_tick": 124,
+    "total_tick": 125,
     "date_string": "☀️ Léto, Léta Páně 1465, den 84"
   },
   "actors": [
@@ -112,7 +112,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -158,7 +158,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 68,
+      "wealth": 69,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -181,8 +181,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 82,
-      "mood": 99,
+      "wealth": 81,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -227,7 +227,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -296,7 +296,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -1798,6 +1798,42 @@
   ],
   "chronicle": [
     {
+      "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
+      "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
+      "text_en": "Agent from Florence: Seven people died in the district across the river this week. The doctors speak of fever, but older merchants know well what such a fever looks like. The market is half empty. Sending this letter quickly, then closing the office.",
+      "type": "B",
+      "icon": "💀",
+      "source": "distant_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
+      "text_cs": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
+      "text_en": "Copies of King George's amazing proposal to create a general peaceful alliance of Christian monarchs are circulating among scholars. The knight Antonio Marini has reportedly presented this plan at the Polish and French courts. It is supposed to ensure lasting peace in Europe and mutual defense against the Turkish threat.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "local_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
+      "type": "A",
+      "icon": "🏰",
+      "source": "monastery_internal",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
       "text": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
       "text_cs": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
       "text_en": "That year, returning from Silesia, they took and razed the castle of Žleby.",
@@ -2000,45 +2036,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
-      "text_cs": "Zemský soud v Brně řešil spor mezi dvěma italskými kupci o dluh ve výši sto padesáti dukátů. Jeden z nich předložil padělanou směnku. Podvodník byl ihned vsazen do městského žaláře na Špilberku.",
-      "text_en": "The provincial court in Brno dealt with a dispute between two Italian merchants over a debt of one hundred and fifty ducats. One of them presented a forged bill of exchange. The fraudster was immediately thrown into the town dungeon at Špilberk.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_en": "An entry that makes the brothers laugh aloud: before Christmas the Bohemians mustered in arms and rode into Meissen — to avenge the deer the Meisseners had shot in the game park before Prague. Wars begin over venison too.",
-      "type": "A",
-      "icon": "🦌",
-      "source": "monastery_internal",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
+      "text_cs": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
+      "text_en": "Copies of King George's amazing proposal to create a general peaceful alliance of Christian monarchs are circulating among scholars. The knight Antonio Marini has reportedly presented this plan at the Polish and French courts. It is supposed to ensure lasting peace in Europe and mutual defense against the Turkish threat.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "local_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
+    {
+      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
+      "type": "A",
+      "icon": "🏰",
+      "source": "monastery_internal",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
       "text_cs": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
@@ -2134,33 +2158,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
+      "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
+      "text_en": "Agent from Florence: Seven people died in the district across the river this week. The doctors speak of fever, but older merchants know well what such a fever looks like. The market is half empty. Sending this letter quickly, then closing the office.",
+      "type": "B",
+      "icon": "💀",
+      "source": "distant_events",
+      "tick": 125,
+      "year": 1465,
+      "season": "Léto",
+      "day": 84
+    },
     {
       "text": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
       "text_cs": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
@@ -2265,18 +2277,6 @@
       "icon": "🏚️",
       "source": "distant_events",
       "tick": 113,
-      "year": 1465,
-      "season": "Léto",
-      "day": 81
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
-      "type": "C",
-      "icon": "💍",
-      "source": "distant_events",
-      "tick": 112,
       "year": 1465,
       "season": "Léto",
       "day": 81
