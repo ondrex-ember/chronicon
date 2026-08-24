@@ -21,6 +21,7 @@ const { RescueRegisterSystem }    = require('./rescue-register.js');
 const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
 const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
 const { ContactRelationRegisterSystem } = require('./contact-relation-register.js');
+const { GuildRegisterSystem }           = require('./guild-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS, MATERIAL_REQUEST_POOL,
@@ -656,6 +657,54 @@ const GameEngine = {
     }
 
     GameState.globalTension = Math.min(100, Math.max(0, GameState.globalTension + tensionDelta));
+
+    // 5b. Cechovní napětí (Guild Tension) — kurzorové zpracování, KAŽDÝ DEN
+    // JEDNOU (oprava v0.6 bod 1 — dřív se celé 7denní okno přičítalo znovu
+    // při každém ze 4 ticků/den, tension vylítla na strop ze dvou prodejů).
+    // GM modifikátor zůstává jako okamžitá ruční korekce každý tick
+    // (mirror chování tension_modifier u globálního napětí výš).
+    if (GameState.guilds) {
+      if (!GameState.guildRegisterCursor) {
+        // První běh — kurzor je "poslední zpracovaný den". Nastav na
+        // předevčírem, ať smyčka níž na prvním běhu správně zpracuje
+        // včerejšek (ne starší historii zpětně).
+        const y = new Date();
+        y.setUTCDate(y.getUTCDate() - 2);
+        GameState.guildRegisterCursor = y.toISOString().slice(0, 10);
+      }
+
+      const yesterday = new Date();
+      yesterday.setUTCDate(yesterday.getUTCDate() - 1);
+      const yesterdayKey = yesterday.toISOString().slice(0, 10);
+
+      let cursor = new Date(GameState.guildRegisterCursor + 'T00:00:00Z');
+      let guard = 0; // pojistka — max 10 dní dohnat najednou (mirror PRUNE_AFTER_DAYS)
+      while (cursor.toISOString().slice(0, 10) < yesterdayKey && guard < 10) {
+        cursor.setUTCDate(cursor.getUTCDate() + 1);
+        const dayKey = cursor.toISOString().slice(0, 10);
+        const daySales = GuildRegisterSystem.getGuildSalesCountsForDay(dayKey);
+
+        Object.keys(GameState.guilds).forEach(guildId => {
+          const gData = GameState.guilds[guildId];
+          if (!gData) return;
+          const unprivilegedCount = daySales[guildId] || 0;
+          const gDelta = unprivilegedCount > 0 ? (unprivilegedCount * 4) : -1;
+          gData.tension = Math.min(100, Math.max(0, (gData.tension !== undefined ? gData.tension : 20) + gDelta));
+        });
+
+        GameState.guildRegisterCursor = dayKey;
+        guard++;
+      }
+
+      const gmGuildTensionMod = (GameState.gm && GameState.gm.guild_tension_modifier) || 0;
+      if (gmGuildTensionMod) {
+        Object.keys(GameState.guilds).forEach(guildId => {
+          const gData = GameState.guilds[guildId];
+          if (!gData) return;
+          gData.tension = Math.min(100, Math.max(0, gData.tension + gmGuildTensionMod));
+        });
+      }
+    }
 
     if (avgMood > 75 && avgWealth > 75 && GameState.globalTension < 22) {
       if (!GameState.goldenAge) {
