@@ -27,6 +27,7 @@ const ALLOWED_KEYS = [
   'abbot_message_id',
   'abbot_message_one_shot',
   'tension_modifier',
+  'guild_tension_modifier',
   'event_inject',
   'feast',
   'fast',
@@ -68,6 +69,17 @@ const GmOverride = {
               if (typeof value === 'number') {
                 GameState.actors[actorId][field] = value;
               }
+            }
+          }
+        }
+      }
+
+      // Guild overrides — přímý zásah do GameState.guilds
+      if (input.guild_overrides && typeof input.guild_overrides === 'object') {
+        for (const [guildId, fields] of Object.entries(input.guild_overrides)) {
+          if (GameState.guilds && GameState.guilds[guildId] && typeof fields === 'object') {
+            if (typeof fields.tension === 'number') {
+              GameState.guilds[guildId].tension = Math.max(0, Math.min(100, fields.tension));
             }
           }
         }
