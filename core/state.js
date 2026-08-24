@@ -74,6 +74,11 @@ const GameState = {
     return acc;
   }, {}),
 
+  // Poslední den (YYYY-MM-DD), který engine.js už zpracoval z guild_register.json.
+  // Zabraňuje opakovanému přičtení stejného dne při 4 ticích/den (oprava,
+  // cechy-a-prava-mrd.md v0.6 bod 1). null = ještě nikdy nezpracováno.
+  guildRegisterCursor: null,
+
   // --- GM override sekce --- (beze změny, zůstává marginální)
   gm: {
     abbot_name:       'Bratr Augustin',
