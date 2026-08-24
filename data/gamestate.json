@@ -4,14 +4,14 @@
     "season": 1,
     "day": 85,
     "daysPerSeason": 90,
-    "totalTick": 129
+    "totalTick": 130
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 11,
+    "tempC": 20,
     "windKmH": 2,
     "rainMm": 0
   },
@@ -46,8 +46,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 95.12505229983498,
-      "mood": 99.10595536410905,
+      "wealth": 94.66965987825758,
+      "mood": 100,
       "stores": 5.874050000000002,
       "storesMax": 100,
       "status": "prosperujici",
@@ -74,7 +74,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 91.62106127413082,
+      "wealth": 92.24603396176184,
       "mood": 100,
       "stores": 12.515295000000002,
       "storesMax": 90,
@@ -102,8 +102,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.54600541847611,
-      "mood": 94.50295492949562,
+      "wealth": 93.83451974430399,
+      "mood": 96.0249145123273,
       "stores": 9.470256250000002,
       "storesMax": 80,
       "status": "prosperujici",
@@ -130,7 +130,7 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 70.58151689933716,
+      "wealth": 69.894528664349,
       "mood": 100,
       "stores": 8.1336328125,
       "storesMax": 70,
@@ -158,7 +158,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 81.26361748541227,
+      "wealth": 81.25444814403089,
       "mood": 100,
       "stores": 6.571703125000001,
       "storesMax": 50,
@@ -186,8 +186,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 67.75565138282981,
-      "mood": 99.38717229223627,
+      "wealth": 67.1981798665157,
+      "mood": 100,
       "stores": 5.6801875,
       "storesMax": 70,
       "status": "stable",
@@ -214,7 +214,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 92.4180314373816,
+      "wealth": 93.21716309013257,
       "mood": 100,
       "stores": 9.23352625,
       "storesMax": 60,
@@ -242,7 +242,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.71586598585978,
+      "wealth": 99.41195331812953,
       "mood": 100,
       "stores": 9.249296875,
       "storesMax": 70,
@@ -270,7 +270,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 95.34960625499741,
+      "wealth": 95.98734872839599,
       "mood": 100,
       "stores": 11.457407812500001,
       "storesMax": 100,
@@ -298,8 +298,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 96.13365769398789,
-      "mood": 99.29191287887785,
+      "wealth": 96.5788315248575,
+      "mood": 98.42455687611819,
       "stores": 10.234948750000001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -328,8 +328,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 98.16678346532434,
-      "mood": 97.98130647613631,
+      "wealth": 98.40582829409065,
+      "mood": 99.10773900032571,
       "stores": 7.680846875000003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -1381,6 +1381,61 @@
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 130
+    },
     {
       "id": "cletter_008",
       "seal": "noble",
@@ -4227,7 +4282,7 @@
       "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku."
     },
     "porta_cletter_010": {
-      "tick": 92,
+      "tick": 130,
       "text": "cletter_010"
     },
     "zbras_023": {
