@@ -4,15 +4,15 @@
     "season": 1,
     "day": 85,
     "daysPerSeason": 90,
-    "totalTick": 130
+    "totalTick": 131
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 2,
+    "tempC": 21,
+    "windKmH": 10,
     "rainMm": 0
   },
   "virtue": {
@@ -46,7 +46,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 94.66965987825758,
+      "wealth": 95.45380659086446,
       "mood": 100,
       "stores": 5.874050000000002,
       "storesMax": 100,
@@ -74,8 +74,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 92.24603396176184,
-      "mood": 100,
+      "wealth": 92.23883483599623,
+      "mood": 99.85712490468295,
       "stores": 12.515295000000002,
       "storesMax": 90,
       "status": "prosperujici",
@@ -102,8 +102,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.83451974430399,
-      "mood": 96.0249145123273,
+      "wealth": 93.33453691201362,
+      "mood": 96.0037197999202,
       "stores": 9.470256250000002,
       "storesMax": 80,
       "status": "prosperujici",
@@ -130,7 +130,7 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 69.894528664349,
+      "wealth": 69.02299126013283,
       "mood": 100,
       "stores": 8.1336328125,
       "storesMax": 70,
@@ -158,7 +158,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 81.25444814403089,
+      "wealth": 80.4965692196553,
       "mood": 100,
       "stores": 6.571703125000001,
       "storesMax": 50,
@@ -186,7 +186,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 67.1981798665157,
+      "wealth": 68.19368012932988,
       "mood": 100,
       "stores": 5.6801875,
       "storesMax": 70,
@@ -214,7 +214,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 93.21716309013257,
+      "wealth": 93.43181485521856,
       "mood": 100,
       "stores": 9.23352625,
       "storesMax": 60,
@@ -242,8 +242,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.41195331812953,
-      "mood": 100,
+      "wealth": 99.83906545642681,
+      "mood": 99.18358765001138,
       "stores": 9.249296875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -270,7 +270,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 95.98734872839599,
+      "wealth": 96.06541424344651,
       "mood": 100,
       "stores": 11.457407812500001,
       "storesMax": 100,
@@ -298,8 +298,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 96.5788315248575,
-      "mood": 98.42455687611819,
+      "wealth": 97.29314270535048,
+      "mood": 99.16335136942152,
       "stores": 10.234948750000001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -328,8 +328,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 98.40582829409065,
-      "mood": 99.10773900032571,
+      "wealth": 97.94268899927489,
+      "mood": 100,
       "stores": 7.680846875000003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -419,6 +419,30 @@
     "porta_offer"
   ],
   "log": [
+    {
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
+      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "distant_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 131,
+      "year": 1465,
+      "season": "Léto",
+      "day": 85
+    },
     {
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
       "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
@@ -1354,33 +1378,51 @@
       "year": 1465,
       "season": "Léto",
       "day": 77
-    },
-    {
-      "text": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_cs": "Ze zpráv z Porýní: Bratr mladší se ptal, zda stroj onen jednou opisovače nahradí docela. Starší bratr odpověděl, že knih je na světě tolik, kolik rukou je ochotno je psát, a stroj jedny ruce nestačí.",
-      "text_en": "From reports from the Rhineland: a younger brother asked whether that machine might one day replace the copyists entirely. An elder brother answered that there are as many books in the world as hands willing to write them, and one machine sufficeth not for all.",
-      "type": "B",
-      "icon": "⚙️",
-      "source": "distant_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 95,
-      "year": 1465,
-      "season": "Léto",
-      "day": 76
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 131
+    },
     {
       "id": "cletter_010",
       "seal": "village",
@@ -3986,7 +4028,7 @@
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví."
     },
     "porta_cletter_015": {
-      "tick": 75,
+      "tick": 131,
       "text": "cletter_015"
     },
     "mono_127": {
@@ -4082,7 +4124,7 @@
       "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější."
     },
     "local_116": {
-      "tick": 31,
+      "tick": 131,
       "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami."
     },
     "zbras_009": {
@@ -4776,6 +4818,10 @@
     "zbras_040": {
       "tick": 129,
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše."
+    },
+    "zbras_002": {
+      "tick": 131,
+      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
     }
   },
   "flags": {
