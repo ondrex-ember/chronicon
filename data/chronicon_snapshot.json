@@ -1,18 +1,19 @@
 {
   "version": 2,
-  "generated": "2026-08-24T16:44:12.271Z",
-  "valid_until": "2026-08-31T16:44:12.271Z",
+  "generated": "2026-08-25T10:37:37.673Z",
+  "valid_until": "2026-09-01T10:37:37.673Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
     "virtue": 5,
     "portrait": null,
     "scrinium_open": true,
-    "message": "Milost Boží buď s vámi, bratřie. Pan opat z cest svých se navrátil s novinou radostnou a skrze mne káže vám zvěstovati: Zjednalť on pro nás hejno holubic cvičených, by zprávy a psaní naše nosily. Pročež jest vůlí jeho, a já k tomu důtklivě nabádám, abyste bez meškání ke stavbě holubníku přikročili. Jakmile toto dílo při Portě připraveno bude, rozmlouvati budem moci spěšněji, nežli by dnové minuli. S pozdravením laskavým a milosrdenstvím Božím, bratr váš, Augustín.",
-    "message_en": "The Grace of the Lord be with thee, brethren. Our Lord Abbot hath returned bearing gladsome tidings, and by my voice he doth proclaim: He hath secured for us a flock of trained doves, that they might bear our missives. Wherefore it is his will—and I do strictly counsel thee to heed it—that thou shouldst commence the building of a dovecote without delay. Once thou hast made this ready at the Gate, we shall commune more swiftly than the passing of days. With bountiful regards and the Lord's mercy. Thy brother, Augustine."
+    "message": "Milost Boží buď s vámi, bratřie. Zprávy z města k nám dolehly, žeť mistři cechovní zvěděli o skutcích našich na trzích olomúckých — vieť se již, že klášter mele, peče i řemeslněti počíná, a oko cechů se na naše počínání upřelo. Neníť to důvod k obavám, nýbrž k opatrnosti: kdo bez svolení na trhu prodává, tomu cechové nepřejí a snadno by nás z fušerství nařkli. Pročež jest vůlí opatovou, abychom s mistry cechovními jednali jako se sousedy — k čemuž jest ale nejprve zapotřebí jeho vlastního svolení. Kdo z vás chce s některým cechem promluviti, nechť žádost nejprve jemu předloží. S pozdravením laskavým a milosrdenstvím Božím, bratr váš, Augustín.",
+    "message_en": "The Grace of the Lord be with thee, brethren. Word hath reached us from the town that the guild masters have taken notice of our dealings at the Olomouc markets — it is known now that the monastery grinds, bakes, and takes up the crafts, and the guilds' eye hath turned upon our doings. This is no cause for fear, but for prudence: he who sells at market without leave earns the guilds' displeasure, and we might easily be charged with botching their trade. Wherefore it is the Abbot's will that we treat with the guild masters as neighbours — for which his own leave must first be sought. Whosoever among you wishes to speak with a guild, let him first bring the matter before him. With bountiful regards and the Lord's mercy. Thy brother, Augustine."
   },
   "unlockFlags": [
-    "porta_offer"
+    "porta_offer",
+    "guilds_noticed"
   ],
   "feast": null,
   "fast": null,
@@ -66,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 10,
+    "tempC": 20,
+    "windKmH": 15,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -78,9 +79,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 85,
-    "total_tick": 131,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 85"
+    "day": 86,
+    "total_tick": 132,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 86"
   },
   "actors": [
     {
@@ -89,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -112,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -158,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 69,
+      "wealth": 70,
       "mood": 100,
       "stores": 8,
       "status": "stable",
@@ -181,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 80,
+      "wealth": 81,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -227,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
-      "mood": 100,
+      "wealth": 92,
+      "mood": 99,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -251,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -273,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -297,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -1813,6 +1814,42 @@
   ],
   "chronicle": [
     {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
@@ -2015,45 +2052,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 83
-    },
-    {
-      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
-      "type": "E",
-      "icon": "🐟",
-      "source": "monastery_internal",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
-      "type": "D",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 122,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
+      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
     {
       "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
       "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
@@ -2149,33 +2174,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
-      "text_cs": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
-      "text_en": "Copies of King George's amazing proposal to create a general peaceful alliance of Christian monarchs are circulating among scholars. The knight Antonio Marini has reportedly presented this plan at the Polish and French courts. It is supposed to ensure lasting peace in Europe and mutual defense against the Turkish threat.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "monastery_internal",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 132,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
     {
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
       "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
@@ -2283,22 +2296,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "church_calendar": {
-    "day_of_year": 175,
+    "day_of_year": 176,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
