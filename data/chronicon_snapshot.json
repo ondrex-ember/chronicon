@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-25T16:42:35.369Z",
-  "valid_until": "2026-09-01T16:42:35.369Z",
+  "generated": "2026-08-25T22:32:46.980Z",
+  "valid_until": "2026-09-01T22:32:46.980Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 12,
+    "tempC": 16,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,9 +79,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 86,
-    "total_tick": 133,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 86"
+    "day": 87,
+    "total_tick": 134,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 87"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 97,
+      "wealth": 93,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 69,
-      "mood": 99,
+      "mood": 100,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 92,
-      "mood": 99,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -297,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -1806,6 +1806,18 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
+      "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
+      "text_en": "That year, on the Thursday of the fast before St Bartholomew, the lords of the land and of Prague with the other towns received the most serene prince and lord, Emperor Sigismund.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 134,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
       "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
@@ -2032,18 +2044,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "monastery_internal",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_local": [
@@ -2170,6 +2170,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
+      "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
+      "text_en": "That year, on the Thursday of the fast before St Bartholomew, the lords of the land and of Prague with the other towns received the most serene prince and lord, Emperor Sigismund.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 134,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
       "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
@@ -2276,22 +2288,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 83
-    },
-    {
-      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 121,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
     }
   ],
   "church_calendar": {
-    "day_of_year": 176,
+    "day_of_year": 177,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
