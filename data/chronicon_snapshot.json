@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-25T10:37:37.673Z",
-  "valid_until": "2026-09-01T10:37:37.673Z",
+  "generated": "2026-08-25T16:42:35.369Z",
+  "valid_until": "2026-09-01T16:42:35.369Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 15,
+    "tempC": 21,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 86,
-    "total_tick": 132,
+    "total_tick": 133,
     "date_string": "☀️ Léto, Léta Páně 1465, den 86"
   },
   "actors": [
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 13,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
-      "mood": 96,
+      "wealth": 92,
+      "mood": 97,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 70,
-      "mood": 100,
+      "wealth": 69,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -354,6 +354,53 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 133
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -1755,64 +1802,45 @@
         }
       ],
       "_pickedTick": 58
-    },
-    {
-      "id": "cletter_010",
-      "seal": "village",
-      "type": "D",
-      "icon": "🔥",
-      "tags": [
-        "požár",
-        "vesnice",
-        "pohroma"
-      ],
-      "conditions": {
-        "season": [
-          1,
-          2
-        ],
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Soused od kováře",
-      "sender_en": "A Neighbour of the Smith",
-      "title_cs": "Zpráva o požáru u kovárny",
-      "title_en": "News of a Fire by the Forge",
-      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
-      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
-      "choices": [
-        {
-          "id": "alms",
-          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
-          "label_en": "🌾 Send alms of grain (−15 grain)",
-          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
-          "notify_en": "The family received the alms with tears. (village +4)",
-          "effects": [
-            {
-              "type": "item",
-              "id": "grain",
-              "qty": -15
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "pray",
-          "label_cs": "🙏 Slíbit jen modlitbu",
-          "label_en": "🙏 Promise only a prayer",
-          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
-          "notify_en": "The family gives thanks, but the winter will be hard.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 57
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
+      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
+      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
     {
       "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
       "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
@@ -2016,45 +2044,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
-      "text_cs": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
-      "text_en": "That year, returning from Silesia, they took and razed the castle of Žleby.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
-      "text_cs": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
-      "text_en": "Coroner's record: A sleepwalking tailor left his house at night in just his shirt, climbed the walls, and fell directly into the dry moat. His shocked family discovered him only in the morning with a broken neck.",
-      "type": "D",
-      "icon": "😴",
-      "source": "local_events",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_cs": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_en": "A note from Prague: nigh thirty years have passed since the Compacts, and yet in the Old Town churches it is still asked who receives in both kinds and who doth not. Neighbours know this of one another, though it is not spoken aloud.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
+    {
+      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
+      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
+      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
     {
       "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
       "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
@@ -2150,33 +2166,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
-      "type": "C",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 133,
+      "year": 1465,
+      "season": "Léto",
+      "day": 86
+    },
     {
       "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
       "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
@@ -2284,18 +2288,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 83
-    },
-    {
-      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
-      "type": "C",
-      "icon": "🐕",
-      "source": "distant_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "church_calendar": {
