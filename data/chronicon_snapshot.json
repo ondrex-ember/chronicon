@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-26T10:39:36.538Z",
-  "valid_until": "2026-09-02T10:39:36.538Z",
+  "generated": "2026-08-26T16:51:06.695Z",
+  "valid_until": "2026-09-02T16:51:06.695Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 7,
+    "tempC": 21,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -84,7 +84,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 87,
-    "total_tick": 136,
+    "total_tick": 137,
     "date_string": "☀️ Léto, Léta Páně 1465, den 87"
   },
   "actors": [
@@ -117,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 91,
-      "mood": 100,
+      "wealth": 92,
+      "mood": 99,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 81,
+      "wealth": 80,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -232,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -279,7 +279,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -301,7 +301,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -324,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -358,6 +358,52 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 137
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -1759,66 +1805,33 @@
         }
       ],
       "_pickedTick": 62
-    },
-    {
-      "id": "cletter_004",
-      "seal": "church",
-      "type": "C",
-      "icon": "🙏",
-      "tags": [
-        "modlitba",
-        "prosba"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Farní kostelník od sv. Michala",
-      "sender_en": "The Parish Sexton of St. Michael's",
-      "title_cs": "Prosba o přímluvnou mši",
-      "title_en": "A Request for an Intercessory Mass",
-      "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
-      "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
-      "choices": [
-        {
-          "id": "pray",
-          "label_cs": "⛪ Odsloužit mši za faráře",
-          "label_en": "⛪ Say a mass for the priest",
-          "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
-          "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 3
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "id": "busy",
-          "label_cs": "📜 Slíbit modlitbu při běžné mši",
-          "label_en": "📜 Promise a prayer at the regular mass",
-          "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
-          "notify_en": "A modest reply, still received with thanks.",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 61
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
+      "text_cs": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
+      "text_en": "After a week of persistent downpours, the Morava River breached old dikes. The treacherous element flooded the advanced mills and washed freshly mown hay from the meadows beyond recovery. Farmers are desperately pulling cattle to higher ground and expect losses to the wheat.",
+      "type": "B",
+      "icon": "🌊",
+      "source": "local_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -2034,33 +2047,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 85
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
+      "text_cs": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
+      "text_en": "After a week of persistent downpours, the Morava River breached old dikes. The treacherous element flooded the advanced mills and washed freshly mown hay from the meadows beyond recovery. Farmers are desperately pulling cattle to higher ground and expect losses to the wheat.",
+      "type": "B",
+      "icon": "🌊",
+      "source": "local_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
       "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
@@ -2168,21 +2169,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 85
-    },
-    {
-      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
-      "type": "D",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 129,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 137,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -2287,18 +2288,6 @@
       "icon": "💀",
       "source": "distant_events",
       "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
-      "text_cs": "Léta téhož, vrátivše se z Slezie, hrad Žleby dobyli sú a zbořili.",
-      "text_en": "That year, returning from Silesia, they took and razed the castle of Žleby.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 124,
       "year": 1465,
       "season": "Léto",
       "day": 84
