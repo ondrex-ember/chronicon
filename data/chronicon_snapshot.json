@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-25T22:32:46.980Z",
-  "valid_until": "2026-09-01T22:32:46.980Z",
+  "generated": "2026-08-26T04:45:08.053Z",
+  "valid_until": "2026-09-02T04:45:08.053Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 16,
-    "windKmH": 6,
+    "tempC": 15,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +84,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 87,
-    "total_tick": 134,
+    "total_tick": 135,
     "date_string": "☀️ Léto, Léta Páně 1465, den 87"
   },
   "actors": [
@@ -136,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -274,7 +278,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -320,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -1806,6 +1810,42 @@
   ],
   "chronicle": [
     {
+      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
+      "type": "A",
+      "icon": "🐖",
+      "source": "local_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
       "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
       "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
       "text_en": "That year, on the Thursday of the fast before St Bartholomew, the lords of the land and of Prague with the other towns received the most serene prince and lord, Emperor Sigismund.",
@@ -2008,45 +2048,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
-      "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
-      "text_en": "Agent from Florence: Seven people died in the district across the river this week. The doctors speak of fever, but older merchants know well what such a fever looks like. The market is half empty. Sending this letter quickly, then closing the office.",
-      "type": "B",
-      "icon": "💀",
-      "source": "distant_events",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
-      "text_cs": "Mezi vzdělanci kolují opisy úžasného návrhu krále Jiřího na vytvoření všeobecného mírového spolku křesťanských panovníků. Rytíř Antonio Marini prý tento plán představil na polském i francouzském dvoře. Měl by zajistit trvalý mír v Evropě a společnou obranu před nebezpečím od Turků.",
-      "text_en": "Copies of King George's amazing proposal to create a general peaceful alliance of Christian monarchs are circulating among scholars. The knight Antonio Marini has reportedly presented this plan at the Polish and French courts. It is supposed to ensure lasting peace in Europe and mutual defense against the Turkish threat.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
+      "type": "A",
+      "icon": "🐖",
+      "source": "local_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
@@ -2142,33 +2170,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 85
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
+      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 135,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
       "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
@@ -2273,18 +2289,6 @@
       "icon": "🍷",
       "source": "distant_events",
       "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
-      "type": "D",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 122,
       "year": 1465,
       "season": "Léto",
       "day": 83
