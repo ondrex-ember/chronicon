@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-26T04:45:08.053Z",
-  "valid_until": "2026-09-02T04:45:08.053Z",
+  "generated": "2026-08-26T10:39:36.538Z",
+  "valid_until": "2026-09-02T10:39:36.538Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 15,
-    "windKmH": 4,
+    "tempC": 20,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -84,7 +84,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 87,
-    "total_tick": 135,
+    "total_tick": 136,
     "date_string": "☀️ Léto, Léta Páně 1465, den 87"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -209,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 68,
+      "wealth": 69,
       "mood": 100,
       "stores": 6,
       "status": "stable",
@@ -232,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -278,8 +278,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 11,
       "status": "prosperujici",
       "relations": {
@@ -302,7 +302,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -324,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -358,6 +358,63 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 136
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1759,56 +1816,45 @@
         }
       ],
       "_pickedTick": 61
-    },
-    {
-      "id": "cletter_001",
-      "seal": "village",
-      "type": "A",
-      "icon": "🌾",
-      "tags": [
-        "mlynar",
-        "povodeň",
-        "obilí"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Mlynář",
-      "sender_en": "The Miller",
-      "title_cs": "List mlynářův o vodě",
-      "title_en": "A Letter from the Miller on the Water",
-      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
-      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
-      "choices": [
-        {
-          "id": "help",
-          "label_cs": "🌊 Poslat pomoc s hrází",
-          "label_en": "🌊 Send help with the weir",
-          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
-          "notify_en": "The miller remembers the help. (Miller +4)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "mlynar",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
-          "label_en": "🙏 Wish him luck, we have no hands to spare",
-          "notify_cs": "Mlynář odpověď přijal bez zloby.",
-          "notify_en": "The miller took the answer without ill will.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 58
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
+      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
+      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "monastery_internal",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -2012,45 +2058,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 127,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
-      "type": "C",
-      "icon": "🏛️",
-      "source": "distant_events",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
-      "type": "C",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 126,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
+    {
+      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
+      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
+      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "monastery_internal",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
       "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
@@ -2146,33 +2180,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 85
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 136,
+      "year": 1465,
+      "season": "Léto",
+      "day": 87
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -2280,18 +2302,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_cs": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_en": "A note from Prague: nigh thirty years have passed since the Compacts, and yet in the Old Town churches it is still asked who receives in both kinds and who doth not. Neighbours know this of one another, though it is not spoken aloud.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
     }
   ],
   "church_calendar": {
