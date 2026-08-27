@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-26T16:51:06.695Z",
-  "valid_until": "2026-09-02T16:51:06.695Z",
+  "generated": "2026-08-27T03:01:21.793Z",
+  "valid_until": "2026-09-03T03:01:21.793Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 11,
+    "tempC": 16,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -83,9 +79,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 87,
-    "total_tick": 137,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 87"
+    "day": 88,
+    "total_tick": 138,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 88"
   },
   "actors": [
     {
@@ -94,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 94,
-      "mood": 100,
+      "wealth": 95,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -117,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 92,
-      "mood": 99,
+      "wealth": 91,
+      "mood": 100,
       "stores": 13,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -164,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 69,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -186,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 80,
-      "mood": 100,
+      "wealth": 81,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -232,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -278,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 11,
       "status": "prosperujici",
@@ -358,6 +354,49 @@
   },
   "advisory_events": [],
   "porta_letters": [
+    {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 138
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -1748,66 +1787,45 @@
         }
       ],
       "_pickedTick": 67
-    },
-    {
-      "id": "cletter_002",
-      "seal": "village",
-      "type": "D",
-      "icon": "🐐",
-      "tags": [
-        "hranice",
-        "spor",
-        "vesnice"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Rychtář z Chválkovic",
-      "sender_en": "The Bailiff of Chválkovice",
-      "title_cs": "Stížnost rychtáře na kozy",
-      "title_en": "The Bailiff's Complaint about the Goats",
-      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
-      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
-      "choices": [
-        {
-          "id": "pay",
-          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
-          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
-          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
-          "notify_en": "The dispute smoothed over with coin. (village +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -6
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 2
-            }
-          ]
-        },
-        {
-          "id": "ignore",
-          "label_cs": "🤷 Plot spraví bratři sami, časem",
-          "label_en": "🤷 The brothers will mend it themselves, in time",
-          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
-          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 62
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
+      "type": "D",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
+      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
+      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
+      "type": "B",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
     {
       "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
       "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
@@ -2011,45 +2029,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 85
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 129,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
-      "type": "D",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 129,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 128,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
+      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
+      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
+      "type": "B",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
     {
       "text": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
       "text_cs": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
@@ -2145,33 +2151,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 86
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 132,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
+      "type": "D",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 138,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
     {
       "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
       "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
@@ -2279,22 +2273,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
-      "text_cs": "Agent z Florencie: Ve čtvrti za řekou zemřelo tento týden sedm lidí. Lékaři mluví o horečce, ale starší kupci dobře vědí, jak taková horečka vypadá. Trh je poloprázdný. Odesílám tento dopis rychle, pak zavřu kancelář.",
-      "text_en": "Agent from Florence: Seven people died in the district across the river this week. The doctors speak of fever, but older merchants know well what such a fever looks like. The market is half empty. Sending this letter quickly, then closing the office.",
-      "type": "B",
-      "icon": "💀",
-      "source": "distant_events",
-      "tick": 125,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
     }
   ],
   "church_calendar": {
-    "day_of_year": 177,
+    "day_of_year": 178,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
