@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-27T03:01:21.793Z",
-  "valid_until": "2026-09-03T03:01:21.793Z",
+  "generated": "2026-08-27T15:05:00.698Z",
+  "valid_until": "2026-09-03T15:05:00.698Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 16,
-    "windKmH": 4,
+    "tempC": 29,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 88,
-    "total_tick": 138,
+    "total_tick": 139,
     "date_string": "☀️ Léto, Léta Páně 1465, den 88"
   },
   "actors": [
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 69,
-      "mood": 99,
+      "wealth": 70,
+      "mood": 100,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 81,
-      "mood": 99,
+      "wealth": 80,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -1791,6 +1791,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
+      "type": "A",
+      "icon": "🐌",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
@@ -2005,33 +2029,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 86
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
-      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
+      "type": "A",
+      "icon": "🐌",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
     {
       "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
       "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
@@ -2124,30 +2148,6 @@
       "icon": "🔔",
       "source": "local_events",
       "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_cs": "Z Kroměříže: Pohřeb vznešené paní z rodu Šternberků trval dva dny. Klášter dostal na památku jejího jména pole u řeky a dvě korce medu ročně. Opat přijal s pokorou a zapsal do pamětní knihy.",
-      "text_en": "From Kroměříž: The funeral of a noble lady of the Šternberk family lasted two days. The monastery received in her memory a field by the river and two bushels of honey annually. The abbot accepted humbly and recorded it in the memorial book.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 132,
       "year": 1465,
       "season": "Léto",
       "day": 86

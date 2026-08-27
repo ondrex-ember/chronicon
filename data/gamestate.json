@@ -4,15 +4,15 @@
     "season": 1,
     "day": 88,
     "daysPerSeason": 90,
-    "totalTick": 138
+    "totalTick": 139
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 16,
-    "windKmH": 4,
+    "tempC": 29,
+    "windKmH": 13,
     "rainMm": 0
   },
   "virtue": {
@@ -46,8 +46,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 94.67546691040484,
-      "mood": 99.03228648331579,
+      "wealth": 95.0317884090039,
+      "mood": 99.43864021300035,
       "stores": 5.874050000000002,
       "storesMax": 100,
       "status": "prosperujici",
@@ -74,8 +74,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 91.09184957243541,
-      "mood": 100,
+      "wealth": 90.92944216395398,
+      "mood": 99.78624952919063,
       "stores": 12.515295000000002,
       "storesMax": 90,
       "status": "prosperujici",
@@ -102,7 +102,7 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 91.90766516012606,
+      "wealth": 92.22614501146728,
       "mood": 100,
       "stores": 9.470256250000002,
       "storesMax": 80,
@@ -130,8 +130,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 68.89230743861123,
-      "mood": 99.38799540852932,
+      "wealth": 69.59524755876441,
+      "mood": 100,
       "stores": 8.1336328125,
       "storesMax": 70,
       "status": "stable",
@@ -158,8 +158,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 80.63701227085052,
-      "mood": 99.41590207403408,
+      "wealth": 79.75041830964025,
+      "mood": 100,
       "stores": 6.571703125000001,
       "storesMax": 50,
       "status": "stable",
@@ -186,7 +186,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 68.89407121424827,
+      "wealth": 68.7822128573184,
       "mood": 100,
       "stores": 5.6801875,
       "storesMax": 70,
@@ -214,7 +214,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 91.30207628871902,
+      "wealth": 90.97559792623852,
       "mood": 100,
       "stores": 9.23352625,
       "storesMax": 60,
@@ -242,7 +242,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.43750161082615,
       "mood": 100,
       "stores": 9.249296875,
       "storesMax": 70,
@@ -270,7 +270,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 97.71922850911133,
+      "wealth": 97.98356709819501,
       "mood": 100,
       "stores": 11.457407812500001,
       "storesMax": 100,
@@ -298,7 +298,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 97.79522880145245,
+      "wealth": 97.0485707456481,
       "mood": 100,
       "stores": 10.234948750000001,
       "storesMax": 80,
@@ -421,6 +421,30 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
+    {
+      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
+      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
+      "type": "A",
+      "icon": "🐌",
+      "source": "monastery_internal",
+      "tick": 139,
+      "year": 1465,
+      "season": "Léto",
+      "day": 88
+    },
     {
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
@@ -1356,30 +1380,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 79
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 104,
-      "year": 1465,
-      "season": "Léto",
-      "day": 79
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 103,
-      "year": 1465,
-      "season": "Léto",
-      "day": 78
     }
   ],
   "portaLetterHistory": [
@@ -4107,7 +4107,7 @@
       "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže."
     },
     "local_154": {
-      "tick": 34,
+      "tick": 139,
       "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby."
     },
     "mono_021": {
@@ -5069,6 +5069,10 @@
     "frois_005": {
       "tick": 138,
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem."
+    },
+    "mono_076": {
+      "tick": 139,
+      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka."
     }
   },
   "flags": {
