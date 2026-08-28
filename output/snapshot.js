@@ -430,6 +430,100 @@ const Snapshot = {
       });
     }
 
+    // Čtenář v Studovně (knihovna-rozsireni-mrd §4C1, 28.8.2026) — mirror
+    // studovna výš, ale contactId je libovolný core aktér, ne natvrdo
+    // Vrchnost. Kontrakt se Scriptoriem: kind:'ctenar', contactId,
+    // choices accept/decline (2, ne 3 — na rozdíl od vypujcka níž).
+    if (GameState.pendingCtenar) {
+      const c = GameState.pendingCtenar;
+      const actor = GameState.actors.find(x => x.id === c.actorId);
+      const actorLabel = actor ? actor.label : c.actorId;
+      const actorLabelEn = actor ? actor.label_en : c.actorId;
+      const CTENAR_TEXTS = {
+        recipe: {
+          title_cs: 'Zvědavost o starém postupu',
+          title_en: 'Curiosity about an old method',
+          text_cs: `${actorLabel} slyšel, že klášterní knihovna chová spisy o řemeslech a postupech, jaké se dnes už málokde učí. Rád by si u vás na místě přečetl, co víte.`,
+          text_en: `${actorLabelEn} has heard the monastery library holds writings on crafts and methods rarely taught these days. He would like to read what you know, here at the lectern.`,
+        },
+        faith: {
+          title_cs: 'Duchovní útěcha',
+          title_en: 'Spiritual comfort',
+          text_cs: `${actorLabel} prochází těžkým obdobím a doslechl se, že vaše knihovna chová útěšné spisy. Prosí o chvíli v Studovně, s knihou v ruce.`,
+          text_en: `${actorLabelEn} is going through a hard time and has heard your library holds comforting writings. He asks for a while in the study room, book in hand.`,
+        },
+        curiosity: {
+          title_cs: 'Prostá zvědavost',
+          title_en: 'Simple curiosity',
+          text_cs: `${actorLabel} je v kraji známý svou zvědavostí — doslechl se o vaší knihovně a rád by nahlédl, co ukrývá, aspoň na jedno odpoledne.`,
+          text_en: `${actorLabelEn} is known in these parts for his curiosity — word of your library reached him, and he would like to see what it holds, if only for an afternoon.`,
+        },
+      };
+      const tx = CTENAR_TEXTS[c.cause] || CTENAR_TEXTS.curiosity;
+      events.push({
+        id: c.id,
+        icon: '📖',
+        kind: 'ctenar',
+        contactId: c.actorId,
+        title_cs: tx.title_cs,
+        title_en: tx.title_en,
+        text_cs: tx.text_cs,
+        text_en: tx.text_en,
+        choices: [
+          { id: 'accept',  label_cs: 'Přijmout do Studovny', label_en: 'Receive in the study room' },
+          { id: 'decline', label_cs: 'Zdvořile odmítnout',   label_en: 'Politely decline' },
+        ],
+      });
+    }
+
+    // Absenční výpůjčka (knihovna-rozsireni-mrd §4C2, 28.8.2026) — kniha
+    // smí opustit klášter. 3 volby (ne 2) — accept_standard/accept_higher/
+    // decline, kontrakt se Scriptoriem počítá s vyjednáváním o zástavě.
+    // durationDays už rozhodnuto v engine.js (ContactRelationRegisterSystem).
+    if (GameState.pendingVypujcka) {
+      const v = GameState.pendingVypujcka;
+      const actor = GameState.actors.find(x => x.id === v.actorId);
+      const actorLabel = actor ? actor.label : v.actorId;
+      const actorLabelEn = actor ? actor.label_en : v.actorId;
+      const VYPUJCKA_TEXTS = {
+        study: {
+          title_cs: 'Žádost o výpůjčku ke studiu',
+          title_en: 'A request to borrow for study',
+          text_cs: `${actorLabel} prosí o zapůjčení jednoho svazku domů, na ${v.durationDays} dní — slibuje pečlivé zacházení a zástavu dle zvyklosti.`,
+          text_en: `${actorLabelEn} asks to borrow one volume home, for ${v.durationDays} days — he promises careful handling and a pledge as is customary.`,
+        },
+        copy: {
+          title_cs: 'Žádost o opis',
+          title_en: 'A request to copy',
+          text_cs: `${actorLabel} by rád nechal knihu opsat vlastním písařem a potřebuje ji na ${v.durationDays} dní mimo klášter. Nabízí zástavu.`,
+          text_en: `${actorLabelEn} would like to have the book copied by his own scribe and needs it away from the monastery for ${v.durationDays} days. He offers a pledge.`,
+        },
+        gift: {
+          title_cs: 'Dar pro nemocného příbuzného',
+          title_en: 'A gift for a sick relative',
+          text_cs: `${actorLabel} má nemocného příbuzného, kterému by kniha přinesla útěchu na ${v.durationDays} dní. Zástavu složí bez váhání.`,
+          text_en: `${actorLabelEn} has a sick relative to whom the book would bring comfort for ${v.durationDays} days. He offers the pledge without hesitation.`,
+        },
+      };
+      const tx = VYPUJCKA_TEXTS[v.cause] || VYPUJCKA_TEXTS.study;
+      events.push({
+        id: v.id,
+        icon: '📤',
+        kind: 'vypujcka',
+        contactId: v.actorId,
+        durationDays: v.durationDays,
+        title_cs: tx.title_cs,
+        title_en: tx.title_en,
+        text_cs: tx.text_cs,
+        text_en: tx.text_en,
+        choices: [
+          { id: 'accept_standard', label_cs: 'Přijmout za nabídnutou zástavu', label_en: 'Accept the offered pledge' },
+          { id: 'accept_higher',   label_cs: 'Žádat vyšší zástavu',            label_en: 'Demand a higher pledge' },
+          { id: 'decline',         label_cs: 'Odmítnout',                     label_en: 'Decline' },
+        ],
+      });
+    }
+
     // Pocestný u brány — fronta (Vlna 1 / ubytovna-mrd.md §8c-B,
     // rozšíření). Bez actorId, bez rank gate — nejběžnější a nejnižší
     // stakes typ hosta. Víc kandidátů může čekat najednou (mirror
