@@ -21,6 +21,7 @@ const { RescueRegisterSystem }    = require('./rescue-register.js');
 const { VrchnostRegisterSystem }  = require('./vrchnost-register.js');
 const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
 const { ContactRelationRegisterSystem } = require('./contact-relation-register.js');
+const { AdvisoryResolvedRegisterSystem } = require('./advisory-resolved-register.js');
 const { GuildRegisterSystem }           = require('./guild-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
@@ -521,6 +522,21 @@ const GameEngine = {
       a.mood   = Math.min(100, Math.max(0, a.mood   + moodDelta));
       a.wealth = Math.min(100, Math.max(0, a.wealth + wealthDelta));
     });
+
+    // Uvolnit vyřešené single-slot pending advisory (28.8.2026 oprava) —
+    // dřív se tohle nikdy nemazalo, guardy níž tak navždy blokovaly další
+    // žádost stejného typu po první, co kdy padla. Musí běžet PŘED
+    // všemi třemi `if (!GameState.pendingX)` guardy, ať se místo hned
+    // uvolní pro tenhle týdenní tik, ne až příští.
+    if (GameState.pendingStudovna && AdvisoryResolvedRegisterSystem.isResolved(GameState.pendingStudovna.id)) {
+      GameState.pendingStudovna = null;
+    }
+    if (GameState.pendingCtenar && AdvisoryResolvedRegisterSystem.isResolved(GameState.pendingCtenar.id)) {
+      GameState.pendingCtenar = null;
+    }
+    if (GameState.pendingVypujcka && AdvisoryResolvedRegisterSystem.isResolved(GameState.pendingVypujcka.id)) {
+      GameState.pendingVypujcka = null;
+    }
 
     // Nová žádost o Studovnu — max 1 aktivní najednou (je to jeden
     // konkrétní člověk, ne fronta jako sepultura/hospes). ~8% šance/týden.
