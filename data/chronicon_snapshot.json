@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-28T00:48:37.970Z",
-  "valid_until": "2026-09-04T00:48:37.970Z",
+  "generated": "2026-08-28T16:28:33.888Z",
+  "valid_until": "2026-09-04T16:28:33.888Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 8,
+    "tempC": 25,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -84,7 +84,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 89,
-    "total_tick": 140,
+    "total_tick": 141,
     "date_string": "☀️ Léto, Léta Páně 1465, den 89"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -141,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 88,
+      "mood": 89,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -209,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 78,
+      "wealth": 79,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -255,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -324,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 88,
       "stores": 6,
       "status": "prosperujici",
@@ -1829,6 +1829,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
+    {
+      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
+    {
       "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
       "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
       "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
@@ -2031,45 +2067,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
     {
       "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
       "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
@@ -2165,33 +2189,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "monastery_internal",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
-      "type": "A",
-      "icon": "🐖",
-      "source": "local_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 141,
+      "year": 1465,
+      "season": "Léto",
+      "day": 89
+    },
     {
       "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
       "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
@@ -2296,18 +2308,6 @@
       "icon": "🗡️",
       "source": "distant_events",
       "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 129,
       "year": 1465,
       "season": "Léto",
       "day": 85
