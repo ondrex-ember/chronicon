@@ -535,6 +535,43 @@ const GameEngine = {
       }
     }
 
+    // Nová žádost o čtení v Studovně (knihovna-rozsireni-mrd §4C1,
+    // 28.8.2026) — mirror pendingStudovna, ale kdokoliv z core aktérů
+    // (ne jen Vrchnost) a max 1 aktivní najednou (jeden konkrétní host).
+    // ~12% šance/týden — časnější než studovna (8%), protože nižší stakes.
+    if (!GameState.pendingCtenar) {
+      const pool = actors.filter(a => a.status !== 'mrtvy');
+      if (pool.length > 0 && Math.random() < 0.12) {
+        const actor = pool[Math.floor(Math.random() * pool.length)];
+        const causes = ['recipe', 'faith', 'curiosity'];
+        GameState.pendingCtenar = {
+          id: 'ctenar_' + GameState.week,
+          actorId: actor.id,
+          cause: causes[Math.floor(Math.random() * causes.length)],
+        };
+      }
+    }
+
+    // Nová žádost o absenční výpůjčku (knihovna-rozsireni-mrd §4C2,
+    // 28.8.2026) — kniha smí opustit klášter. ~7% šance/týden, o něco
+    // vzácnější než ctenar (12%) — je to větší závazek pro obě strany.
+    // Délka výpůjčky (7 vs 14 dní) čte ContactRelationRegisterSystem —
+    // stejný kanál jako Actor Favor výš, žádný nový datový tok.
+    if (!GameState.pendingVypujcka) {
+      const pool = actors.filter(a => a.status !== 'mrtvy');
+      if (pool.length > 0 && Math.random() < 0.07) {
+        const actor = pool[Math.floor(Math.random() * pool.length)];
+        const rel = ContactRelationRegisterSystem.readYesterdayAverage(actor.id);
+        const causes = ['study', 'copy', 'gift'];
+        GameState.pendingVypujcka = {
+          id: 'vypujcka_' + GameState.week,
+          actorId: actor.id,
+          cause: causes[Math.floor(Math.random() * causes.length)],
+          durationDays: (rel && rel.avgRelation >= 70) ? 14 : 7,
+        };
+      }
+    }
+
     // Nový pocestný u brány — fronta (Vlna 1 / ubytovna-mrd.md §8c-B,
     // rozšíření), anonymní, bez vazby na kteréhokoli z 10 core aktérů —
     // je pryč dřív, než by šlo cokoliv reportovat/rescueovat. ~18%
