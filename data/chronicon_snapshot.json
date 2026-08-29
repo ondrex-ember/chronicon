@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-29T03:35:59.260Z",
-  "valid_until": "2026-09-05T03:35:59.260Z",
+  "generated": "2026-08-29T10:56:52.879Z",
+  "valid_until": "2026-09-05T10:56:52.879Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 18,
-    "windKmH": 10,
+    "tempC": 23,
+    "windKmH": 17,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 90,
-    "total_tick": 142,
+    "total_tick": 143,
     "date_string": "☀️ Léto, Léta Páně 1465, den 90"
   },
   "actors": [
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 93,
+      "mood": 94,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 89,
+      "mood": 90,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 99,
       "stores": 8,
       "status": "prosperujici",
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 88,
+      "mood": 87,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -388,6 +388,52 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_012",
+      "seal": "scholars",
+      "type": "A",
+      "icon": "🌙",
+      "tags": [
+        "kalendář",
+        "astronomie"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Žák z olomoucké katedrální školy",
+      "sender_en": "A Pupil of the Olomouc Cathedral School",
+      "title_cs": "Otázka žáka na výpočet Velikonoc",
+      "title_en": "A Pupil's Question on the Reckoning of Easter",
+      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+      "choices": [
+        {
+          "id": "teach",
+          "label_cs": "🌙 Vysvětlit výpočet",
+          "label_en": "🌙 Explain the reckoning",
+          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+          "notify_en": "The pupil left the wiser. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
+          "label_en": "⏳ No time to spare — let him ask elsewhere",
+          "notify_cs": "Žák odešel zklamaný.",
+          "notify_en": "The pupil left disappointed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 143
+    },
     {
       "id": "cletter_011",
       "seal": "church",
@@ -1768,62 +1814,45 @@
         }
       ],
       "_pickedTick": 68
-    },
-    {
-      "id": "cletter_008",
-      "seal": "noble",
-      "type": "B",
-      "icon": "🏹",
-      "tags": [
-        "šlechta",
-        "hon",
-        "les"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Zeman z okolního panství",
-      "sender_en": "A Squire of the Neighbouring Estate",
-      "title_cs": "Napomenutí zemanovo o honitbě",
-      "title_en": "The Squire's Rebuke about the Hunting Grounds",
-      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
-      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
-      "choices": [
-        {
-          "id": "apologize",
-          "label_cs": "🙏 Omluvit se a stáhnout lovce",
-          "label_en": "🙏 Apologize and pull back the hunter",
-          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
-          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "lovec",
-              "amount": -2
-            }
-          ]
-        },
-        {
-          "id": "deny",
-          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
-          "label_en": "⚖️ Insist the boundary is disputed",
-          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
-          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 67
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
@@ -2027,45 +2056,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_cs": "Jediná věta v análech, a přece hýbe zemí: „Léta téhož král Karel dal Moravu Janovi, bratru svému.“ Markrabství mění pány jednou větou — a vsi to poznají až na daních.",
-      "text_en": "A single sentence in the annals, yet it moves the land: 'In that year King Charles gave Moravia to John his brother.' A margraviate changes masters in one sentence — and the villages learn of it only through the taxes.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "monastery_internal",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
       "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
@@ -2161,33 +2178,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 88
-    },
-    {
-      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
-    },
-    {
-      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
-      "type": "B",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 143,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
@@ -2292,18 +2297,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
-    },
-    {
-      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 132,
       "year": 1465,
       "season": "Léto",
       "day": 86
