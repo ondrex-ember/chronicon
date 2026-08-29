@@ -504,6 +504,21 @@ const Snapshot = {
           text_cs: `${actorLabel} má nemocného příbuzného, kterému by kniha přinesla útěchu na ${v.durationDays} dní. Zástavu složí bez váhání.`,
           text_en: `${actorLabelEn} has a sick relative to whom the book would bring comfort for ${v.durationDays} days. He offers the pledge without hesitation.`,
         },
+        // Opat (klaster) — bere knihu s sebou na cesty, ne ke studiu ani
+        // opisu (vypujcky-gradient-mrd, 29.8.2026). Žádná zástava —
+        // je to jeho vlastní klášter, ne cizí žadatel.
+        osobni: {
+          title_cs: 'Opat si bere knihu na cestu',
+          title_en: 'The Abbot takes a book on his journey',
+          text_cs: `Opat odjíždí do Olomouce a přeje si vzít s sebou jeden svazek — pro vlastní potěchu a klid mysli na cestě, na ${v.durationDays} dní.`,
+          text_en: `The Abbot is leaving for Olomouc and wishes to take one volume with him — for his own comfort and peace of mind on the road, for ${v.durationDays} days.`,
+        },
+        diplomaticky: {
+          title_cs: 'Opat žádá knihu pro jednání',
+          title_en: 'The Abbot requests a book for negotiations',
+          text_cs: `Opat odjíždí k jednání s biskupstvím a rád by s sebou vzal jeden svazek — doklad učenosti kláštera před cizíma očima, na ${v.durationDays} dní.`,
+          text_en: `The Abbot is leaving for talks with the bishopric and would like to bring one volume with him — proof of the monastery's learning before outside eyes, for ${v.durationDays} days.`,
+        },
       };
       const tx = VYPUJCKA_TEXTS[v.cause] || VYPUJCKA_TEXTS.study;
       events.push({
