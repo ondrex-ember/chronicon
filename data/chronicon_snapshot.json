@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-29T10:56:52.879Z",
-  "valid_until": "2026-09-05T10:56:52.879Z",
+  "generated": "2026-08-29T19:19:24.027Z",
+  "valid_until": "2026-09-05T19:19:24.027Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 23,
-    "windKmH": 17,
+    "tempC": 21,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 90,
-    "total_tick": 143,
+    "total_tick": 144,
     "date_string": "☀️ Léto, Léta Páně 1465, den 90"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 100,
+      "mood": 99,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 94,
+      "mood": 97,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 90,
+      "wealth": 94,
+      "mood": 92,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 79,
+      "wealth": 78,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 87,
       "stores": 6,
       "status": "prosperujici",
@@ -388,6 +388,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_004",
+      "seal": "church",
+      "type": "C",
+      "icon": "🙏",
+      "tags": [
+        "modlitba",
+        "prosba"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Farní kostelník od sv. Michala",
+      "sender_en": "The Parish Sexton of St. Michael's",
+      "title_cs": "Prosba o přímluvnou mši",
+      "title_en": "A Request for an Intercessory Mass",
+      "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
+      "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
+      "choices": [
+        {
+          "id": "pray",
+          "label_cs": "⛪ Odsloužit mši za faráře",
+          "label_en": "⛪ Say a mass for the priest",
+          "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
+          "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 3
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "📜 Slíbit modlitbu při běžné mši",
+          "label_en": "📜 Promise a prayer at the regular mass",
+          "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
+          "notify_en": "A modest reply, still received with thanks.",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 144
+    },
     {
       "id": "cletter_012",
       "seal": "scholars",
@@ -1775,48 +1832,45 @@
         }
       ],
       "_pickedTick": 72
-    },
-    {
-      "id": "cletter_006",
-      "seal": "scholars",
-      "type": "B",
-      "icon": "🎨",
-      "tags": [
-        "lazurit",
-        "pigmenty",
-        "benátky"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Giacomo Foscari",
-      "sender_en": "Giacomo Foscari",
-      "title_cs": "Varování Giacoma Foscariho",
-      "title_en": "A Warning from Giacomo Foscari",
-      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
-      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
-      "choices": [
-        {
-          "id": "note",
-          "label_cs": "📜 Vzít na vědomí",
-          "label_en": "📜 Take note",
-          "notify_cs": "Zvěst uložena v paměti celeráře.",
-          "notify_en": "The rumor is filed in the cellarer's memory.",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "giacomo",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 68
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
+      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
+      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
@@ -2020,45 +2074,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 88
-    },
-    {
-      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
-      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
-      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
-      "text_cs": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
-      "text_en": "After a week of persistent downpours, the Morava River breached old dikes. The treacherous element flooded the advanced mills and washed freshly mown hay from the meadows beyond recovery. Farmers are desperately pulling cattle to higher ground and expect losses to the wheat.",
-      "type": "B",
-      "icon": "🌊",
-      "source": "local_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
       "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
@@ -2154,33 +2196,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 89
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
-    },
-    {
-      "text": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_cs": "Po dešti vylezli plzáci. Každého z nich jsem pečlivě sebral a přehodil přes zeď. Vím, že se zítra vrátí, ale má vytrvalost musí být větší než jejich. To je úděl zahradníka.",
-      "text_en": "Slugs came out after the rain. I carefully picked up each one and tossed it over the wall. I know they will return tomorrow, but my persistence must be greater than theirs. That is the gardener's lot.",
-      "type": "A",
-      "icon": "🐌",
-      "source": "monastery_internal",
-      "tick": 139,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
+      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
+      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 144,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
@@ -2288,18 +2318,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 133,
-      "year": 1465,
-      "season": "Léto",
-      "day": 86
     }
   ],
   "church_calendar": {
