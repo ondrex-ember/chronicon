@@ -23,6 +23,7 @@ const { ActorFavorRegisterSystem } = require('./actor-favor-register.js');
 const { ContactRelationRegisterSystem } = require('./contact-relation-register.js');
 const { AdvisoryResolvedRegisterSystem } = require('./advisory-resolved-register.js');
 const { GuildRegisterSystem }           = require('./guild-register.js');
+const { LibraryFondRegisterSystem }     = require('./library-fond-register.js');
 const {
   PROD_TABLE, SEASON_MODS, COMMODITY_VALUE, SEASON_DEMAND,
   PROD_BLOCK_TEXTS, RELATION_THRESHOLD_TEXTS, MATERIAL_REQUEST_POOL,
@@ -541,12 +542,17 @@ const GameEngine = {
     // ── Gradient helpers (vypujcky-gradient-mrd, 29.8.2026) ────────────────
     // A) pool bonus — víc žijících aktérů = mírně vyšší šance (strop 3 %,
     //    ne lineární na celý pool, ať to nepřeteče při velkém světě).
+    // C) fond bonus — čím proslulejší knihovna (nejvyšší nahlášený počet
+    //    odemčených knih napříč hráči, LibraryFondRegisterSystem), tím
+    //    víc zájemců zvenčí (strop 5 %). Historicky podložené — pověst
+    //    klášterní knihovny se šířila mezi učenci reálně.
     // E) sucho pojistka — čím déle daný typ žádosti nepadl, tím víc roste
     //    šance (strop 10 %), aby extrémně dlouhé výpadky nebyly možné.
     // B) váhovaný výběr aktéra dle vztahu — kdo víc důvěřuje, je
     //    pravděpodobnější žadatel (floor 5, ať i nulový vztah má šanci).
     const livingActors = actors.filter(a => a.status !== 'mrtvy');
     const poolBonus = Math.min(0.03, Math.max(0, livingActors.length - 5) * 0.005);
+    const fondBonus = Math.min(0.05, LibraryFondRegisterSystem.getRecentMax() * 0.001);
     if (!GameState.lastCtenarWeek) GameState.lastCtenarWeek = 0;
     if (!GameState.lastVypujckaWeek) GameState.lastVypujckaWeek = 0;
     const droughtBonus = (lastWeek) => Math.min(0.10, Math.max(0, (GameState.week - lastWeek) - 5) * 0.01);
@@ -582,12 +588,12 @@ const GameEngine = {
     // Nová žádost o čtení v Studovně (knihovna-rozsireni-mrd §4C1,
     // 28.8.2026) — mirror pendingStudovna, ale kdokoliv z core aktérů
     // (ne jen Vrchnost) a max 1 aktivní najednou (jeden konkrétní host).
-    // ~12% šance/týden základ, + A (pool) + E (sucho) gradient
+    // ~12% šance/týden základ, + A (pool) + C (fond) + E (sucho) gradient
     // (vypujcky-gradient-mrd, 29.8.2026). Výběr aktéra teď vážený
     // vztahem (B), ne rovnoměrný.
     if (!GameState.pendingCtenar) {
       const pool = livingActors;
-      const chance = 0.12 + poolBonus + droughtBonus(GameState.lastCtenarWeek);
+      const chance = 0.12 + poolBonus + fondBonus + droughtBonus(GameState.lastCtenarWeek);
       if (pool.length > 0 && Math.random() < chance) {
         const actor = pickWeightedActor(pool);
         const causes = ['recipe', 'faith', 'curiosity'];
@@ -602,16 +608,16 @@ const GameEngine = {
 
     // Nová žádost o absenční výpůjčku (knihovna-rozsireni-mrd §4C2,
     // 28.8.2026) — kniha smí opustit klášter. ~7% šance/týden základ,
-    // + A (pool) + E (sucho) gradient, výběr vážený vztahem (B) — mirror
-    // ctenar výš (vypujcky-gradient-mrd, 29.8.2026). Délka výpůjčky
-    // (7 vs 14 dní) čte ContactRelationRegisterSystem — stejný kanál
-    // jako Actor Favor výš, žádný nový datový tok.
+    // + A (pool) + C (fond) + E (sucho) gradient, výběr vážený vztahem
+    // (B) — mirror ctenar výš (vypujcky-gradient-mrd, 29.8.2026). Délka
+    // výpůjčky (7 vs 14 dní) čte ContactRelationRegisterSystem — stejný
+    // kanál jako Actor Favor výš, žádný nový datový tok.
     // Opat (klaster) — zvláštní případ: bere knihu s sebou na cesty,
     // z osobních nebo diplomatických důvodů, ne ke studiu/opisu/daru,
     // a vždy na 14 dní (cesta netrvá krátce).
     if (!GameState.pendingVypujcka) {
       const pool = livingActors;
-      const chance = 0.07 + poolBonus + droughtBonus(GameState.lastVypujckaWeek);
+      const chance = 0.07 + poolBonus + fondBonus + droughtBonus(GameState.lastVypujckaWeek);
       if (pool.length > 0 && Math.random() < chance) {
         const actor = pickWeightedActor(pool);
         const isAbbot = actor.id === 'klaster';
