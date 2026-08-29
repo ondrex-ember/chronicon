@@ -553,7 +553,9 @@ const GameEngine = {
     const pickWeightedActor = (pool) => {
       const weights = pool.map(a => {
         const rel = ContactRelationRegisterSystem.readYesterdayAverage(a.id);
-        return Math.max(5, (rel && typeof rel.avgRelation === 'number') ? rel.avgRelation : 50);
+        const relWeight = Math.max(5, (rel && typeof rel.avgRelation === 'number') ? rel.avgRelation : 50);
+        const literacy = typeof a.literacy === 'number' ? a.literacy : 1.0; // D) profese/gramotnost, vypujcky-gradient-mrd
+        return relWeight * literacy;
       });
       const total = weights.reduce((s, w) => s + w, 0);
       let r = Math.random() * total;
