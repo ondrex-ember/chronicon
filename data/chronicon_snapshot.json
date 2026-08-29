@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-28T16:28:33.888Z",
-  "valid_until": "2026-09-04T16:28:33.888Z",
+  "generated": "2026-08-29T03:35:59.260Z",
+  "valid_until": "2026-09-05T03:35:59.260Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 25,
-    "windKmH": 4,
+    "tempC": 18,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -83,9 +79,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 89,
-    "total_tick": 141,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 89"
+    "day": 90,
+    "total_tick": 142,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 90"
   },
   "actors": [
     {
@@ -118,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 91,
+      "mood": 93,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 89,
       "stores": 7,
       "status": "prosperujici",
@@ -186,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -232,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -255,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -278,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -1829,6 +1825,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
+      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
+      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
+      "type": "D",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_cs": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_en": "I tested my theory that consuming garlic drives away foul humors. The brothers have foul breath and no one talks to anyone. A truce has been established; the illness was evidently defeated.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
@@ -2031,45 +2063,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
-      "type": "A",
-      "icon": "🐖",
-      "source": "local_events",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 135,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
-      "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
-      "text_en": "That year, on the Thursday of the fast before St Bartholomew, the lords of the land and of Prague with the other towns received the most serene prince and lord, Emperor Sigismund.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 134,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
+      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
+      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
+      "type": "D",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
+    {
+      "text": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_cs": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_en": "I tested my theory that consuming garlic drives away foul humors. The brothers have foul breath and no one talks to anyone. A truce has been established; the illness was evidently defeated.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
       "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
@@ -2165,33 +2185,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 88
-    },
-    {
-      "text": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
-      "text_cs": "Po týdnu vytrvalých lijáků protrhla řeka Morava staré hráze. Zrádný živel zaplavil předsunuté mlýny a spláchl čerstvě posečené seno z luk do nenávratna. Hospodáři zoufale tahají dobytek do vyšších poloh a očekávají ztráty na pšenici.",
-      "text_en": "After a week of persistent downpours, the Morava River breached old dikes. The treacherous element flooded the advanced mills and washed freshly mown hay from the meadows beyond recovery. Farmers are desperately pulling cattle to higher ground and expect losses to the wheat.",
-      "type": "B",
-      "icon": "🌊",
-      "source": "local_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 136,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 142,
+      "year": 1465,
+      "season": "Léto",
+      "day": 90
+    },
     {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
@@ -2299,22 +2307,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 86
-    },
-    {
-      "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_cs": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí.",
-      "text_en": "From reports from the Bohemian lands, old memory: The king was found dead in Olomouc. It is said it was an assassination. It is also said it was wine. Who did it, no one says aloud. The monasteries pray.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "distant_events",
-      "tick": 131,
-      "year": 1465,
-      "season": "Léto",
-      "day": 85
     }
   ],
   "church_calendar": {
-    "day_of_year": 179,
+    "day_of_year": 180,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
