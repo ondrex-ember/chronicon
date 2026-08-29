@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-29T19:19:24.027Z",
-  "valid_until": "2026-09-05T19:19:24.027Z",
+  "generated": "2026-08-29T23:59:26.569Z",
+  "valid_until": "2026-09-05T23:59:26.569Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 5,
+    "tempC": 18,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -79,9 +79,9 @@
     "season": 1,
     "season_name": "Léto",
     "season_icon": "☀️",
-    "day": 90,
-    "total_tick": 144,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 90"
+    "day": 91,
+    "total_tick": 145,
+    "date_string": "☀️ Léto, Léta Páně 1465, den 91"
   },
   "actors": [
     {
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 97,
+      "wealth": 96,
+      "mood": 98,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 92,
+      "wealth": 95,
+      "mood": 93,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 80,
-      "mood": 100,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 91,
-      "mood": 100,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 87,
       "stores": 6,
       "status": "prosperujici",
@@ -1836,6 +1836,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 145,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
+      "type": "C",
+      "icon": "📯",
+      "source": "local_events",
+      "tick": 145,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
@@ -2050,33 +2074,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 88
-    },
-    {
-      "text": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_cs": "V Olomouci se odehrála neslýchaná událost, když Zelenohorská jednota a moravští katolíci slavnostně zvolili Matyáše Korvína za českého krále. Korunovace se však nekonala, neboť pravé klenoty bezpečně střeží král Jiří na Karlštejně. Korvín se tak stal pouhým vzdorokrálem, což zemi uvrhne do další krveprolití.",
-      "text_en": "An unheard-of event took place in Olomouc when the Green Mountain Unity and Moravian Catholics solemnly elected Matthias Corvinus as the Czech king. However, no coronation took place, as the true jewels are safely guarded by King George at Karlštejn. Corvinus has thus become a mere anti-king, which will plunge the land into further bloodshed.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
-    },
-    {
-      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
-      "type": "B",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 138,
-      "year": 1465,
-      "season": "Léto",
-      "day": 88
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
+      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
+      "type": "C",
+      "icon": "📯",
+      "source": "local_events",
+      "tick": 145,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
       "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
@@ -2184,21 +2196,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 89
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 145,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
       "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
@@ -2306,22 +2318,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 87
-    },
-    {
-      "text": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
-      "text_cs": "Léta téhož ve čtvrtek, postiece se k sv. Bartoloměji, páni zemští a páni Pražené s jinými městy země české přijali sú najjasnějšie knieže a pána, pana Sigmunda, ciesaře římského, za pána svého milostivého, a s velikú poctivostí uvedli jej do města Pražského tu hodinu, když horloj udeřil a znamenal bez jedné dvadceti hodin. Item cizojazyčný text léta téhož tu neděli po sv.",
-      "text_en": "That year, on the Thursday of the fast before St Bartholomew, the lords of the land and of Prague with the other towns received the most serene prince and lord, Emperor Sigismund.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 134,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "church_calendar": {
-    "day_of_year": 180,
+    "day_of_year": 181,
     "season": "Léto",
     "season_icon": "☀️",
     "year": 1465,
