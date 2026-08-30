@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-30T09:51:02.761Z",
-  "valid_until": "2026-09-06T09:51:02.761Z",
+  "generated": "2026-08-30T14:44:45.075Z",
+  "valid_until": "2026-09-06T14:44:45.075Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "summer_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Horké léto. Poutníci přicházejí hojně.",
-    "tempC": 25,
-    "windKmH": 16,
+    "key": "summer_cloudy",
+    "name": "Oblačno",
+    "icon": "⛅",
+    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
+    "tempC": 27,
+    "windKmH": 15,
     "rainMm": 0,
     "season": 1,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 91,
-    "total_tick": 146,
+    "total_tick": 147,
     "date_string": "☀️ Léto, Léta Páně 1465, den 91"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 98,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
-      "mood": 93,
+      "wealth": 95,
+      "mood": 95,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -297,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 87,
+      "wealth": 96,
+      "mood": 90,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -388,6 +388,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 147
+    },
     {
       "id": "cletter_004",
       "seal": "church",
@@ -1785,56 +1832,45 @@
         }
       ],
       "_pickedTick": 73
-    },
-    {
-      "id": "cletter_005",
-      "seal": "scholars",
-      "type": "C",
-      "icon": "📖",
-      "tags": [
-        "opis",
-        "exemplar",
-        "putovní písař"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Putovní písař Wenceslaus",
-      "sender_en": "Wenceslaus, an Itinerant Scribe",
-      "title_cs": "Nabídka putovního písaře",
-      "title_en": "An Itinerant Scribe's Offer",
-      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
-      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
-      "choices": [
-        {
-          "id": "trade",
-          "label_cs": "📚 Vyměnit texty",
-          "label_en": "📚 Trade texts",
-          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
-          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 3
-            }
-          ]
-        },
-        {
-          "id": "refuse",
-          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
-          "label_en": "🔒 Refuse — the library is not for trading",
-          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
-          "notify_en": "Wenceslaus shrugged and moved on.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 72
     }
   ],
   "chronicle": [
+    {
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
+      "type": "C",
+      "icon": "⛵",
+      "source": "distant_events",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
       "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
@@ -2038,45 +2074,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 89
-    },
-    {
-      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
-      "type": "C",
-      "icon": "🖼️",
-      "source": "distant_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
-      "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
-      "text_en": "A wandering preacher appeared in the square, fiery speaking against the wealth of the church and praising the teachings of the Compactata. His words outraged local orthodox Catholics and almost led to a lynching. Guards had to escort the preacher to the safety of the town jail.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
       "text_cs": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
@@ -2172,33 +2196,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
-      "text_cs": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
-      "text_en": "I tested my theory that consuming garlic drives away foul humors. The brothers have foul breath and no one talks to anyone. A truce has been established; the illness was evidently defeated.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
+      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
+      "type": "C",
+      "icon": "⛵",
+      "source": "distant_events",
+      "tick": 147,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
       "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
@@ -2303,18 +2315,6 @@
       "icon": "🕊️",
       "source": "distant_events",
       "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
-    },
-    {
-      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 136,
       "year": 1465,
       "season": "Léto",
       "day": 87
