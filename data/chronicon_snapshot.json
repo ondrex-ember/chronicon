@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-30T14:44:45.075Z",
-  "valid_until": "2026-09-06T14:44:45.075Z",
+  "generated": "2026-08-30T19:13:15.065Z",
+  "valid_until": "2026-09-06T19:13:15.065Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 27,
-    "windKmH": 15,
+    "tempC": 24,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 91,
-    "total_tick": 147,
+    "total_tick": 148,
     "date_string": "☀️ Léto, Léta Páně 1465, den 91"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 100,
+      "mood": 99,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 79,
+      "wealth": 78,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
-      "mood": 90,
+      "wealth": 97,
+      "mood": 92,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -388,6 +388,45 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_006",
+      "seal": "scholars",
+      "type": "B",
+      "icon": "🎨",
+      "tags": [
+        "lazurit",
+        "pigmenty",
+        "benátky"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Giacomo Foscari",
+      "sender_en": "Giacomo Foscari",
+      "title_cs": "Varování Giacoma Foscariho",
+      "title_en": "A Warning from Giacomo Foscari",
+      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+      "choices": [
+        {
+          "id": "note",
+          "label_cs": "📜 Vzít na vědomí",
+          "label_en": "📜 Take note",
+          "notify_cs": "Zvěst uložena v paměti celeráře.",
+          "notify_en": "The rumor is filed in the cellarer's memory.",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "giacomo",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 148
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1786,55 +1825,45 @@
         }
       ],
       "_pickedTick": 74
-    },
-    {
-      "id": "cletter_009",
-      "seal": "noble",
-      "type": "C",
-      "icon": "📜",
-      "tags": [
-        "šlechta",
-        "listina",
-        "opis"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Panoše ze vzdáleného rodu",
-      "sender_en": "A Squire's Page from a Distant House",
-      "title_cs": "Žádost o opis darovací listiny",
-      "title_en": "A Request for a Copy of a Donation Charter",
-      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
-      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
-          "label_en": "📜 Accept the commission (+10 groschen)",
-          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
-          "notify_en": "The copy is made and sent. (+10 groschen)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": 10
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
-          "label_en": "🗄️ Decline — the archive is too old to search",
-          "notify_cs": "Panoše odešel s prázdnou.",
-          "notify_en": "The page left empty-handed.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 73
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -2038,45 +2067,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
+      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
+      "type": "D",
+      "icon": "⛏️",
+      "source": "local_events",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
+    {
+      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
+      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
+      "type": "A",
+      "icon": "🦗",
+      "source": "monastery_internal",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
       "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
@@ -2172,33 +2189,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
-      "type": "D",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 148,
+      "year": 1465,
+      "season": "Léto",
+      "day": 91
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -2306,18 +2311,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 88
-    },
-    {
-      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
-      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
-      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 137,
-      "year": 1465,
-      "season": "Léto",
-      "day": 87
     }
   ],
   "church_calendar": {
