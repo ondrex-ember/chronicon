@@ -4,15 +4,15 @@
     "season": 1,
     "day": 92,
     "daysPerSeason": 90,
-    "totalTick": 149
+    "totalTick": 150
   },
   "weather": {
     "key": "summer_cloudy",
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 3,
+    "tempC": 21,
+    "windKmH": 16,
     "rainMm": 0
   },
   "virtue": {
@@ -52,7 +52,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.86382225294889,
+      "wealth": 100,
       "mood": 100,
       "stores": 2.5181325000000014,
       "storesMax": 100,
@@ -80,7 +80,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.10532634550046,
+      "wealth": 94.97897721124639,
       "mood": 100,
       "stores": 10.247441750000002,
       "storesMax": 90,
@@ -108,8 +108,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 94.52763254823932,
-      "mood": 95.76715864472672,
+      "wealth": 93.97151065653276,
+      "mood": 98.4958269913204,
       "stores": 7.2931665625000015,
       "storesMax": 80,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 80.05905819911035,
-      "mood": 100,
+      "wealth": 80.0141347463146,
+      "mood": 99.55015895754221,
       "stores": 6.627486328125,
       "storesMax": 70,
       "status": "stable",
@@ -164,7 +164,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 89.85930623221597,
+      "wealth": 90.60336701519594,
       "mood": 100,
       "stores": 5.6122320312500005,
       "storesMax": 50,
@@ -192,8 +192,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 78.67451509265148,
-      "mood": 99.78566631054142,
+      "wealth": 78.90390585601529,
+      "mood": 100,
       "stores": 4.017121874999999,
       "storesMax": 70,
       "status": "stable",
@@ -220,7 +220,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 97.07003690964974,
+      "wealth": 96.79124089161022,
       "mood": 100,
       "stores": 8.1142920625,
       "storesMax": 60,
@@ -248,8 +248,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.72986319762636,
-      "mood": 100,
+      "wealth": 98.8338898335014,
+      "mood": 99.07417161567032,
       "stores": 7.3526679687500005,
       "storesMax": 70,
       "status": "prosperujici",
@@ -276,7 +276,7 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.4176575923284,
+      "wealth": 99.33956337743014,
       "mood": 100,
       "stores": 7.975440078125001,
       "storesMax": 100,
@@ -304,7 +304,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.6582126824955,
+      "wealth": 99.42625305655783,
       "mood": 100,
       "stores": 8.033966687500001,
       "storesMax": 80,
@@ -334,8 +334,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 96.17263281814317,
-      "mood": 92.29538275384947,
+      "wealth": 96.25181660240492,
+      "mood": 92.11743312176655,
       "stores": 5.723800468750003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -427,6 +427,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
@@ -1350,45 +1386,48 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
-      "type": "B",
-      "icon": "🪟",
-      "source": "distant_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 117,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 116,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_014",
+      "seal": "church",
+      "type": "A",
+      "icon": "🔔",
+      "tags": [
+        "zvon",
+        "sklář",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Sklář z hutě v lesích",
+      "sender_en": "A Glassmaker from the Forest Works",
+      "title_cs": "List sklářův o barevném skle",
+      "title_en": "The Glassmaker's Letter about Coloured Glass",
+      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+      "choices": [
+        {
+          "id": "visit",
+          "label_cs": "🔮 Zajet se podívat",
+          "label_en": "🔮 Go and see",
+          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "sklar",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 150
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -4214,7 +4253,7 @@
       "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru."
     },
     "local_125": {
-      "tick": 50,
+      "tick": 150,
       "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly."
     },
     "mono_137": {
@@ -4318,7 +4357,7 @@
       "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy."
     },
     "anales_sel_011": {
-      "tick": 82,
+      "tick": 150,
       "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel."
     },
     "zbras_017": {
@@ -4834,7 +4873,7 @@
       "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka."
     },
     "coroner_005": {
-      "tick": 73,
+      "tick": 150,
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna."
     },
     "anales_sel_008": {
@@ -4866,7 +4905,7 @@
       "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína."
     },
     "porta_cletter_014": {
-      "tick": 123,
+      "tick": 150,
       "text": "cletter_014"
     },
     "mono_097": {

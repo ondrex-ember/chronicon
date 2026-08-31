@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-31T00:19:42.839Z",
-  "valid_until": "2026-09-07T00:19:42.839Z",
+  "generated": "2026-08-31T10:42:57.485Z",
+  "valid_until": "2026-09-07T10:42:57.485Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 19,
-    "windKmH": 3,
+    "tempC": 21,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 92,
-    "total_tick": 149,
+    "total_tick": 150,
     "date_string": "☀️ Léto, Léta Páně 1465, den 92"
   },
   "actors": [
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 96,
+      "wealth": 94,
+      "mood": 98,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 90,
+      "wealth": 91,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -388,6 +388,45 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_014",
+      "seal": "church",
+      "type": "A",
+      "icon": "🔔",
+      "tags": [
+        "zvon",
+        "sklář",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Sklář z hutě v lesích",
+      "sender_en": "A Glassmaker from the Forest Works",
+      "title_cs": "List sklářův o barevném skle",
+      "title_en": "The Glassmaker's Letter about Coloured Glass",
+      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+      "choices": [
+        {
+          "id": "visit",
+          "label_cs": "🔮 Zajet se podívat",
+          "label_en": "🔮 Go and see",
+          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "sklar",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 150
+    },
     {
       "id": "cletter_006",
       "seal": "scholars",
@@ -1768,66 +1807,45 @@
         }
       ],
       "_pickedTick": 75
-    },
-    {
-      "id": "cletter_002",
-      "seal": "village",
-      "type": "D",
-      "icon": "🐐",
-      "tags": [
-        "hranice",
-        "spor",
-        "vesnice"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Rychtář z Chválkovic",
-      "sender_en": "The Bailiff of Chválkovice",
-      "title_cs": "Stížnost rychtáře na kozy",
-      "title_en": "The Bailiff's Complaint about the Goats",
-      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
-      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
-      "choices": [
-        {
-          "id": "pay",
-          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
-          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
-          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
-          "notify_en": "The dispute smoothed over with coin. (village +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -6
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 2
-            }
-          ]
-        },
-        {
-          "id": "ignore",
-          "label_cs": "🤷 Plot spraví bratři sami, časem",
-          "label_en": "🤷 The brothers will mend it themselves, in time",
-          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
-          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 74
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
@@ -2031,45 +2049,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "distant_events",
-      "tick": 142,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
+      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
+      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
       "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
@@ -2165,33 +2171,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 150,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
@@ -2296,18 +2290,6 @@
       "icon": "🧵",
       "source": "distant_events",
       "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
-      "type": "C",
-      "icon": "🖼️",
-      "source": "distant_events",
-      "tick": 140,
       "year": 1465,
       "season": "Léto",
       "day": 89
