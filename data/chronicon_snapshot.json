@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-31T10:42:57.485Z",
-  "valid_until": "2026-09-07T10:42:57.485Z",
+  "generated": "2026-08-31T21:23:38.807Z",
+  "valid_until": "2026-09-07T21:23:38.807Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Oblačno",
     "icon": "⛅",
     "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 21,
-    "windKmH": 16,
+    "tempC": 20,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 1,
     "modifier_grain": 1,
@@ -80,7 +80,7 @@
     "season_name": "Léto",
     "season_icon": "☀️",
     "day": 92,
-    "total_tick": 150,
+    "total_tick": 151,
     "date_string": "☀️ Léto, Léta Páně 1465, den 92"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 98,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 80,
+      "wealth": 79,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 91,
+      "wealth": 90,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 79,
+      "wealth": 80,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 92,
+      "mood": 91,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1811,6 +1811,30 @@
   ],
   "chronicle": [
     {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 151,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
+      "text": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
+      "text_cs": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
+      "text_en": "From Hranice: A royal emissary publicly announced an amnesty for three bandits who voluntarily laid down their weapons and joined the provincial defense against Hungarian raids. Their past debts, however, were not forgiven.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 151,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
+    {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
@@ -2025,33 +2049,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
-      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
+      "text_cs": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
+      "text_en": "From Hranice: A royal emissary publicly announced an amnesty for three bandits who voluntarily laid down their weapons and joined the provincial defense against Hungarian raids. Their past debts, however, were not forgiven.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 151,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
       "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
@@ -2159,21 +2171,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
-      "type": "C",
-      "icon": "📯",
-      "source": "local_events",
-      "tick": 145,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 151,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
@@ -2281,18 +2293,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 90
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
     }
   ],
   "church_calendar": {
