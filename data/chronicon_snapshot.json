@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-01T19:18:36.042Z",
-  "valid_until": "2026-09-08T19:18:36.042Z",
+  "generated": "2026-09-01T23:54:29.893Z",
+  "valid_until": "2026-09-08T23:54:29.893Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,12 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_fog",
-    "name": "Mlha",
-    "icon": "🌫",
-    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 16,
+    "windKmH": 5,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -76,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 1,
-    "total_tick": 155,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 1"
+    "day": 2,
+    "total_tick": 156,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 2"
   },
   "actors": [
     {
@@ -111,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -202,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 79,
+      "wealth": 78,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -294,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -318,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 94,
+      "mood": 95,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -385,6 +388,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_005",
+      "seal": "scholars",
+      "type": "C",
+      "icon": "📖",
+      "tags": [
+        "opis",
+        "exemplar",
+        "putovní písař"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Putovní písař Wenceslaus",
+      "sender_en": "Wenceslaus, an Itinerant Scribe",
+      "title_cs": "Nabídka putovního písaře",
+      "title_en": "An Itinerant Scribe's Offer",
+      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
+      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
+      "choices": [
+        {
+          "id": "trade",
+          "label_cs": "📚 Vyměnit texty",
+          "label_en": "📚 Trade texts",
+          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
+          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "refuse",
+          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
+          "label_en": "🔒 Refuse — the library is not for trading",
+          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
+          "notify_en": "Wenceslaus shrugged and moved on.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 156
+    },
     {
       "id": "cletter_013",
       "seal": "village",
@@ -1751,62 +1801,45 @@
         }
       ],
       "_pickedTick": 83
-    },
-    {
-      "id": "cletter_008",
-      "seal": "noble",
-      "type": "B",
-      "icon": "🏹",
-      "tags": [
-        "šlechta",
-        "hon",
-        "les"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Zeman z okolního panství",
-      "sender_en": "A Squire of the Neighbouring Estate",
-      "title_cs": "Napomenutí zemanovo o honitbě",
-      "title_en": "The Squire's Rebuke about the Hunting Grounds",
-      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
-      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
-      "choices": [
-        {
-          "id": "apologize",
-          "label_cs": "🙏 Omluvit se a stáhnout lovce",
-          "label_en": "🙏 Apologize and pull back the hunter",
-          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
-          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "lovec",
-              "amount": -2
-            }
-          ]
-        },
-        {
-          "id": "deny",
-          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
-          "label_en": "⚖️ Insist the boundary is disputed",
-          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
-          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 80
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -2010,45 +2043,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
-      "type": "A",
-      "icon": "📚",
-      "source": "distant_events",
-      "tick": 149,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 149,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
-      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
+      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
+      "type": "A",
+      "icon": "🔪",
+      "source": "local_events",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
       "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
@@ -2144,33 +2165,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
-      "text_cs": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
-      "text_en": "From Hranice: A royal emissary publicly announced an amnesty for three bandits who voluntarily laid down their weapons and joined the provincial defense against Hungarian raids. Their past debts, however, were not forgiven.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 151,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 150,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 156,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
       "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
@@ -2278,22 +2287,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 145,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "church_calendar": {
-    "day_of_year": 181,
+    "day_of_year": 182,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
