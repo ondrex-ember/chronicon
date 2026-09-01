@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-01T09:18:19.821Z",
-  "valid_until": "2026-09-08T09:18:19.821Z",
+  "generated": "2026-09-01T14:39:11.824Z",
+  "valid_until": "2026-09-08T14:39:11.824Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 13,
+    "tempC": 23,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 1,
-    "total_tick": 153,
+    "total_tick": 154,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 1"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 100,
+      "wealth": 96,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 93,
-      "mood": 100,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 78,
-      "mood": 99,
+      "mood": 98,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 90,
+      "wealth": 89,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 78,
+      "wealth": 79,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 91,
+      "wealth": 96,
+      "mood": 93,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -388,6 +388,57 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_013",
+      "seal": "village",
+      "type": "A",
+      "icon": "🧂",
+      "tags": [
+        "sůl",
+        "kupec",
+        "cesta"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Potulný solný kupec",
+      "sender_en": "A Wandering Salt Merchant",
+      "title_cs": "Nabídka solného kupce",
+      "title_en": "A Salt Merchant's Offer",
+      "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
+      "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
+      "choices": [
+        {
+          "id": "buy",
+          "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)",
+          "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
+          "notify_cs": "Sůl uložena ve špižírně.",
+          "notify_en": "The salt is stored in the pantry.",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -8
+            },
+            {
+              "type": "item",
+              "id": "salt",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "id": "skip",
+          "label_cs": "🚪 Nechat ho jít dál",
+          "label_en": "🚪 Let him move on",
+          "notify_cs": "Kupec pokračoval na jih.",
+          "notify_en": "The merchant continued south.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 154
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -1756,48 +1807,45 @@
         }
       ],
       "_pickedTick": 80
-    },
-    {
-      "id": "cletter_014",
-      "seal": "church",
-      "type": "A",
-      "icon": "🔔",
-      "tags": [
-        "zvon",
-        "sklář",
-        "kostel"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Sklář z hutě v lesích",
-      "sender_en": "A Glassmaker from the Forest Works",
-      "title_cs": "List sklářův o barevném skle",
-      "title_en": "The Glassmaker's Letter about Coloured Glass",
-      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
-      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
-      "choices": [
-        {
-          "id": "visit",
-          "label_cs": "🔮 Zajet se podívat",
-          "label_en": "🔮 Go and see",
-          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
-          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "sklar",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 78
     }
   ],
   "chronicle": [
+    {
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
+      "type": "D",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
       "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
@@ -2001,45 +2049,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
-      "type": "A",
-      "icon": "🏙️",
-      "source": "distant_events",
-      "tick": 146,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -2135,33 +2171,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
+      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
+      "type": "D",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 154,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
       "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
@@ -2266,18 +2290,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 143,
       "year": 1465,
       "season": "Léto",
       "day": 90
