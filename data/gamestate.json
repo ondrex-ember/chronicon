@@ -1,18 +1,18 @@
 {
   "time": {
     "year": 1465,
-    "season": 1,
-    "day": 92,
+    "season": 2,
+    "day": 1,
     "daysPerSeason": 90,
-    "totalTick": 151
+    "totalTick": 152
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 10,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 17,
+    "windKmH": 11,
     "rainMm": 0
   },
   "virtue": {
@@ -52,7 +52,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.37681669695081,
+      "wealth": 99.62912666941116,
       "mood": 100,
       "stores": 2.5181325000000014,
       "storesMax": 100,
@@ -80,7 +80,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.80623324807833,
+      "wealth": 95.51873226823949,
       "mood": 100,
       "stores": 10.247441750000002,
       "storesMax": 90,
@@ -108,8 +108,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 93.58653708952781,
-      "mood": 99.31821804217915,
+      "wealth": 94.00830486862196,
+      "mood": 100,
       "stores": 7.2931665625000015,
       "storesMax": 80,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 79.46649768428641,
-      "mood": 100,
+      "wealth": 78.8041955783652,
+      "mood": 99.97621544663615,
       "stores": 6.627486328125,
       "storesMax": 70,
       "status": "stable",
@@ -164,8 +164,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 89.87747903649264,
-      "mood": 99.98896211352648,
+      "wealth": 89.38086331259773,
+      "mood": 100,
       "stores": 5.6122320312500005,
       "storesMax": 50,
       "status": "prosperujici",
@@ -192,7 +192,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 79.6024171446141,
+      "wealth": 78.86382691096165,
       "mood": 100,
       "stores": 4.017121874999999,
       "storesMax": 70,
@@ -220,8 +220,8 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 96.8389637714638,
-      "mood": 99.42944456905144,
+      "wealth": 97.74207952556128,
+      "mood": 100,
       "stores": 8.1142920625,
       "storesMax": 60,
       "status": "prosperujici",
@@ -248,8 +248,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.68062361376415,
-      "mood": 100,
+      "wealth": 100,
+      "mood": 99.8245711636716,
       "stores": 7.3526679687500005,
       "storesMax": 70,
       "status": "prosperujici",
@@ -334,8 +334,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.973929623893,
-      "mood": 91.15097127732236,
+      "wealth": 95.93022407444663,
+      "mood": 91.33798998257453,
       "stores": 5.723800468750003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -427,6 +427,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
+      "type": "D",
+      "icon": "🍯",
+      "source": "monastery_internal",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "🍂 Podzim Léta Páně 1465 začíná.",
+      "text_cs": "🍂 Podzim Léta Páně 1465 začíná.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🍂",
+      "source": "engine",
+      "tick": 152,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -1350,45 +1386,52 @@
       "year": 1465,
       "season": "Léto",
       "day": 82
-    },
-    {
-      "text": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_cs": "Z fulnecké radnice: Oharek z koželužské dílny zapálil doškovou střechu a vítr oheň roznesl na další tři domy. Měšťané s vědry vody bojovali s plameny až do rána. Dvě rodiny přišly o veškerý majetek.",
-      "text_en": "From the Fulnek town hall: A cinder from a tannery ignited a thatched roof, and the wind spread the fire to three more houses. Burghers with buckets of water fought the flames until morning. Two families lost all their possessions.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 118,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 152
+    },
     {
       "id": "cletter_014",
       "seal": "church",
@@ -4397,7 +4440,7 @@
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel."
     },
     "porta_cletter_011": {
-      "tick": 138,
+      "tick": 152,
       "text": "cletter_011"
     },
     "mono_102": {
@@ -5001,7 +5044,7 @@
       "text": "Podařilo se mi přesunout vinu za kyselé pivo na nešťastnou konstelaci hvězd. Bratři sice nadávali, ale přijali to jako vyšší moc. Matematika sudů se opět srovnala na mé straně."
     },
     "local_175": {
-      "tick": 91,
+      "tick": 152,
       "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste."
     },
     "mono_053": {
@@ -5359,6 +5402,10 @@
     "coroner_002": {
       "tick": 151,
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou."
+    },
+    "mono_132": {
+      "tick": 152,
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme."
     }
   },
   "flags": {

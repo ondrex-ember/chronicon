@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-08-31T21:23:38.807Z",
-  "valid_until": "2026-09-07T21:23:38.807Z",
+  "generated": "2026-09-01T01:08:53.077Z",
+  "valid_until": "2026-09-08T01:08:53.077Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,25 +63,25 @@
     "active": false
   },
   "weather": {
-    "key": "summer_cloudy",
-    "name": "Oblačno",
-    "icon": "⛅",
-    "desc": "Zataženo, ale bez deště. Práce probíhá normálně.",
-    "tempC": 20,
-    "windKmH": 10,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 17,
+    "windKmH": 11,
     "rainMm": 0,
-    "season": 1,
-    "modifier_grain": 1,
+    "season": 2,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
     "year": 1465,
-    "season": 1,
-    "season_name": "Léto",
-    "season_icon": "☀️",
-    "day": 92,
-    "total_tick": 151,
-    "date_string": "☀️ Léto, Léta Páně 1465, den 92"
+    "season": 2,
+    "season_name": "Podzim",
+    "season_icon": "🍂",
+    "day": 1,
+    "total_tick": 152,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 1"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 99,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 90,
+      "wealth": 89,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 80,
+      "wealth": 79,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -388,6 +388,49 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_011",
+      "seal": "church",
+      "type": "C",
+      "icon": "⛪",
+      "tags": [
+        "relikvie",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Kostelník od sv. Mořice",
+      "sender_en": "The Sexton of St. Maurice's",
+      "title_cs": "Dotaz na pravost relikvie",
+      "title_en": "A Question about a Relic's Authenticity",
+      "text_cs": "„Ctihodní otcové, kupec nám nabízí úlomek kosti, prý ostatek svatého poustevníka, za slušnou cenu. Vaše knihovna má prý texty, jimiž se pravost relikvií zkouší. Poradili byste, na co se ptát, než farnost vydá peníze? — Kostelník od sv. Mořice“",
+      "text_en": "\"Reverend fathers, a merchant offers us a bone fragment, said to be the relic of a holy hermit, for a fair price. Your library, they say, holds texts by which the authenticity of relics is examined. Might you advise what to ask, before the parish parts with its money? — The Sexton of St. Maurice's\"",
+      "choices": [
+        {
+          "id": "advise",
+          "label_cs": "📖 Poslat radu z knihovny",
+          "label_en": "📖 Send counsel from the library",
+          "notify_cs": "Rada odeslána. Kostelník je vděčný. (Ecclesia +2, Scholars +1)",
+          "notify_en": "Counsel is sent. The sexton is grateful. (Ecclesia +2, Scholars +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            },
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 152
+    },
     {
       "id": "cletter_014",
       "seal": "church",
@@ -1765,51 +1808,45 @@
         }
       ],
       "_pickedTick": 76
-    },
-    {
-      "id": "cletter_015",
-      "seal": "noble",
-      "type": "E",
-      "icon": "🛡️",
-      "tags": [
-        "šlechta",
-        "poděkování"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Paní z blízkého dvora",
-      "sender_en": "The Lady of a Nearby Manor",
-      "title_cs": "Poděkování paní z blízkého dvora",
-      "title_en": "Thanks from the Lady of a Nearby Manor",
-      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
-      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
-          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
-          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
-          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": 12
-            },
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 75
     }
   ],
   "chronicle": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
+      "type": "D",
+      "icon": "🍯",
+      "source": "monastery_internal",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "🍂 Podzim Léta Páně 1465 začíná.",
+      "text_cs": "🍂 Podzim Léta Páně 1465 začíná.",
+      "text_en": null,
+      "type": "A",
+      "icon": "🍂",
+      "source": "engine",
+      "tick": 152,
+      "year": 1465,
+      "season": "Léto",
+      "day": 92
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -2013,45 +2050,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_cs": "Z Přerova: Městem projela honosná družina panských poslů mířících na sněm do Brna. Zrekvírovali pět vozů ovsa a všechny zásoby vína v místním zájezdním hostinci. Hostinský dostal jen dlužní úpis.",
-      "text_en": "From Přerov: A grand retinue of noble envoys heading to the diet in Brno passed through the town. They requisitioned five wagons of oats and all the wine supplies at the local coaching inn. The innkeeper received only a promissory note.",
-      "type": "C",
-      "icon": "📯",
-      "source": "local_events",
-      "tick": 145,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
+      "type": "D",
+      "icon": "🍯",
+      "source": "monastery_internal",
+      "tick": 152,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
       "text_cs": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
@@ -2144,30 +2169,6 @@
       "icon": "👀",
       "source": "monastery_internal",
       "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
-      "text_cs": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
-      "text_en": "Coroner's record: After a night of drinking in the military camp near the town, the guard found the body of a mercenary pierced by a spear. The other soldiers claim he caused his own death by falling on the weapon. The coroner disbelieves this but lacks witnesses.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 146,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 146,
       "year": 1465,
       "season": "Léto",
       "day": 91
@@ -2296,9 +2297,9 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 182,
-    "season": "Léto",
-    "season_icon": "☀️",
+    "day_of_year": 181,
+    "season": "Podzim",
+    "season_icon": "🍂",
     "year": 1465,
     "note": null
   }
