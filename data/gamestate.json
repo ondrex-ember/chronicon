@@ -4,16 +4,13 @@
     "season": 2,
     "day": 1,
     "daysPerSeason": 90,
-    "totalTick": 154
+    "totalTick": 155
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 23,
-    "windKmH": 9,
-    "rainMm": 0
+    "key": "autumn_fog",
+    "name": "Mlha",
+    "icon": "🌫",
+    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu."
   },
   "virtue": {
     "value": 3,
@@ -52,7 +49,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.31664832432534,
+      "wealth": 99.15447732941522,
       "mood": 100,
       "stores": 2.5181325000000014,
       "storesMax": 100,
@@ -80,8 +77,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.5295803529932,
-      "mood": 99.2951429091739,
+      "wealth": 95.69855521502062,
+      "mood": 98.5147164408036,
       "stores": 10.247441750000002,
       "storesMax": 90,
       "status": "prosperujici",
@@ -108,8 +105,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 92.96410371093154,
-      "mood": 99.11418757520943,
+      "wealth": 92.49324280921219,
+      "mood": 100,
       "stores": 7.2931665625000015,
       "storesMax": 80,
       "status": "prosperujici",
@@ -136,8 +133,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 77.50243311484746,
-      "mood": 98.4367713354901,
+      "wealth": 78.48389838909029,
+      "mood": 97.55934694439637,
       "stores": 6.627486328125,
       "storesMax": 70,
       "status": "stable",
@@ -164,8 +161,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 89.06276613809527,
-      "mood": 100,
+      "wealth": 89.43768327565758,
+      "mood": 99.52338068751523,
       "stores": 5.6122320312500005,
       "storesMax": 50,
       "status": "prosperujici",
@@ -192,8 +189,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 79.17766171985434,
-      "mood": 100,
+      "wealth": 78.59587884157165,
+      "mood": 99.58477147656218,
       "stores": 4.017121874999999,
       "storesMax": 70,
       "status": "stable",
@@ -220,7 +217,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 97.26234913011953,
+      "wealth": 97.29553605859411,
       "mood": 100,
       "stores": 8.1142920625,
       "storesMax": 60,
@@ -249,7 +246,7 @@
       "profession": "Valach",
       "core": true,
       "wealth": 100,
-      "mood": 98.71886421008631,
+      "mood": 100,
       "stores": 7.3526679687500005,
       "storesMax": 70,
       "status": "prosperujici",
@@ -276,8 +273,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.49790715375664,
-      "mood": 99.63802325768327,
+      "wealth": 100,
+      "mood": 99.7754259278274,
       "stores": 7.975440078125001,
       "storesMax": 100,
       "status": "prosperujici",
@@ -304,7 +301,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.58456045335184,
+      "wealth": 98.28254397046723,
       "mood": 100,
       "stores": 8.033966687500001,
       "storesMax": 80,
@@ -334,8 +331,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.86570448700391,
-      "mood": 92.57563955941814,
+      "wealth": 96.49730989990427,
+      "mood": 93.91298817806111,
       "stores": 5.723800468750003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -427,6 +424,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
+      "type": "A",
+      "icon": "🏺",
+      "source": "local_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
@@ -1350,42 +1383,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 84
-    },
-    {
-      "text": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
-      "text_cs": "Zápis koronera: Náměsíčný krejčí vyšel v noci z domu v pouhé košili, vylezl na hradby a zřítil se přímo do suchého příkopu. Jeho šokovaná rodina ho objevila až ráno se zlomeným vazem.",
-      "text_en": "Coroner's record: A sleepwalking tailor left his house at night in just his shirt, climbed the walls, and fell directly into the dry moat. His shocked family discovered him only in the morning with a broken neck.",
-      "type": "D",
-      "icon": "😴",
-      "source": "local_events",
-      "tick": 124,
-      "year": 1465,
-      "season": "Léto",
-      "day": 84
-    },
-    {
-      "text": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_cs": "Zápis z Prahy: Od kompaktát uplynulo již skoro třicet let, a přec se v kostelích staroměstských stále táže, kdo přijímá podobojí a kdo ne. Sousedé to o sobě navzájem vědí, ač nahlas se o tom nemluví.",
-      "text_en": "A note from Prague: nigh thirty years have passed since the Compacts, and yet in the Old Town churches it is still asked who receives in both kinds and who doth not. Neighbours know this of one another, though it is not spoken aloud.",
-      "type": "A",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
-      "type": "E",
-      "icon": "🐟",
-      "source": "monastery_internal",
-      "tick": 123,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
     }
   ],
   "portaLetterHistory": [
@@ -5389,7 +5386,7 @@
       "text": "Ze zpráv z českých zemí, stará pamět: Král byl nalezen mrtev v Olomouci. Říká se, že to byl atentát. Říká se také, že to bylo víno. Kdo to udělal, nikdo nahlas neříká. Kláštery se modlí."
     },
     "mono_128": {
-      "tick": 132,
+      "tick": 155,
       "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích."
     },
     "local_011": {
@@ -5515,6 +5512,14 @@
     "datini_028": {
       "tick": 154,
       "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami."
+    },
+    "local_219": {
+      "tick": 155,
+      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem."
+    },
+    "zbras_006": {
+      "tick": 155,
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána."
     }
   },
   "flags": {

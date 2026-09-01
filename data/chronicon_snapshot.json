@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-01T14:39:11.824Z",
-  "valid_until": "2026-09-08T14:39:11.824Z",
+  "generated": "2026-09-01T19:18:36.042Z",
+  "valid_until": "2026-09-08T19:18:36.042Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,12 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 23,
-    "windKmH": 9,
-    "rainMm": 0,
+    "key": "autumn_fog",
+    "name": "Mlha",
+    "icon": "🌫",
+    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +77,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 1,
-    "total_tick": 154,
+    "total_tick": 155,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 1"
   },
   "actors": [
@@ -136,8 +133,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
-      "mood": 99,
+      "wealth": 92,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +249,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +271,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -297,7 +294,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -321,7 +318,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 93,
+      "mood": 94,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1811,6 +1808,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
+      "type": "A",
+      "icon": "🏺",
+      "source": "local_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
       "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
@@ -2013,45 +2046,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_cs": "Zápis koronera: Ve stříbrném dole se zbortila ztrouchnivělá dřevěná výdřeva. Tři havíři zůstali zavaleni hluboko pod zemí a vyprošťovací práce postupují zoufale pomalu. Nikdo nevěří, že ještě žijí.",
-      "text_en": "Coroner's record: Rotten wooden shoring collapsed in the silver mine. Three miners were buried deep underground, and rescue work is proceeding desperately slowly. No one believes they are still alive.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
-      "type": "C",
-      "icon": "⛵",
-      "source": "distant_events",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
+      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
+      "type": "A",
+      "icon": "🏺",
+      "source": "local_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
       "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
@@ -2147,33 +2168,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 150,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 149,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
+      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "distant_events",
+      "tick": 155,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
@@ -2281,18 +2290,6 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_cs": "Léta téhož Ludvík, knieže bavorské, jenž se činil římským králem, umřel jest.",
-      "text_en": "That year died Louis, Duke of Bavaria, who styled himself King of the Romans.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 144,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
     }
   ],
   "church_calendar": {
