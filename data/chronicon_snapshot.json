@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-01T01:08:53.077Z",
-  "valid_until": "2026-09-08T01:08:53.077Z",
+  "generated": "2026-09-01T09:18:19.821Z",
+  "valid_until": "2026-09-08T09:18:19.821Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 17,
-    "windKmH": 11,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 20,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 1,
-    "total_tick": 152,
+    "total_tick": 153,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 1"
   },
   "actors": [
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 79,
-      "mood": 100,
+      "wealth": 78,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 89,
+      "wealth": 90,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 79,
+      "wealth": 78,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 91,
       "stores": 6,
       "status": "prosperujici",
@@ -388,6 +388,48 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 153
+    },
     {
       "id": "cletter_011",
       "seal": "church",
@@ -1753,64 +1795,45 @@
         }
       ],
       "_pickedTick": 78
-    },
-    {
-      "id": "cletter_010",
-      "seal": "village",
-      "type": "D",
-      "icon": "🔥",
-      "tags": [
-        "požár",
-        "vesnice",
-        "pohroma"
-      ],
-      "conditions": {
-        "season": [
-          1,
-          2
-        ],
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Soused od kováře",
-      "sender_en": "A Neighbour of the Smith",
-      "title_cs": "Zpráva o požáru u kovárny",
-      "title_en": "News of a Fire by the Forge",
-      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
-      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
-      "choices": [
-        {
-          "id": "alms",
-          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
-          "label_en": "🌾 Send alms of grain (−15 grain)",
-          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
-          "notify_en": "The family received the alms with tears. (village +4)",
-          "effects": [
-            {
-              "type": "item",
-              "id": "grain",
-              "qty": -15
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "pray",
-          "label_cs": "🙏 Slíbit jen modlitbu",
-          "label_en": "🙏 Promise only a prayer",
-          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
-          "notify_en": "The family gives thanks, but the winter will be hard.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 76
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
+      "type": "A",
+      "icon": "🏇",
+      "source": "distant_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
       "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
@@ -2014,45 +2037,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
-      "text_cs": "Zápis koronera: Po noční pitce ve vojenském ležení u města našla stráž tělo žoldnéře probodnuté kopím. Ostatní vojáci tvrdí, že si smrt způsobil sám pádem na zbraň. Koroner tomu nevěří, ale nemá svědky.",
-      "text_en": "Coroner's record: After a night of drinking in the military camp near the town, the guard found the body of a mercenary pierced by a spear. The other soldiers claim he caused his own death by falling on the weapon. The coroner disbelieves this but lacks witnesses.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 146,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 146,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 145,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
       "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
@@ -2148,33 +2159,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 91
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
+      "type": "A",
+      "icon": "🏇",
+      "source": "distant_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
       "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
@@ -2279,18 +2278,6 @@
       "icon": "🔥",
       "source": "distant_events",
       "tick": 143,
-      "year": 1465,
-      "season": "Léto",
-      "day": 90
-    },
-    {
-      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "distant_events",
-      "tick": 142,
       "year": 1465,
       "season": "Léto",
       "day": 90

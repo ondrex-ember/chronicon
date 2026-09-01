@@ -4,15 +4,15 @@
     "season": 2,
     "day": 1,
     "daysPerSeason": 90,
-    "totalTick": 152
+    "totalTick": 153
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 17,
-    "windKmH": 11,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 20,
+    "windKmH": 13,
     "rainMm": 0
   },
   "virtue": {
@@ -52,8 +52,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.62912666941116,
-      "mood": 100,
+      "wealth": 99.78790412935804,
+      "mood": 99.88602301043976,
       "stores": 2.5181325000000014,
       "storesMax": 100,
       "status": "prosperujici",
@@ -80,7 +80,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.51873226823949,
+      "wealth": 95.23242045091474,
       "mood": 100,
       "stores": 10.247441750000002,
       "storesMax": 90,
@@ -108,7 +108,7 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 94.00830486862196,
+      "wealth": 93.04254084118185,
       "mood": 100,
       "stores": 7.2931665625000015,
       "storesMax": 80,
@@ -136,8 +136,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 78.8041955783652,
-      "mood": 99.97621544663615,
+      "wealth": 78.18889878437815,
+      "mood": 99.08969902371634,
       "stores": 6.627486328125,
       "storesMax": 70,
       "status": "stable",
@@ -164,7 +164,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 89.38086331259773,
+      "wealth": 89.70198909581387,
       "mood": 100,
       "stores": 5.6122320312500005,
       "storesMax": 50,
@@ -192,7 +192,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 78.86382691096165,
+      "wealth": 78.42827371955006,
       "mood": 100,
       "stores": 4.017121874999999,
       "storesMax": 70,
@@ -220,7 +220,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 97.74207952556128,
+      "wealth": 98.19127813905955,
       "mood": 100,
       "stores": 8.1142920625,
       "storesMax": 60,
@@ -249,7 +249,7 @@
       "profession": "Valach",
       "core": true,
       "wealth": 100,
-      "mood": 99.8245711636716,
+      "mood": 99.5789327687126,
       "stores": 7.3526679687500005,
       "storesMax": 70,
       "status": "prosperujici",
@@ -304,7 +304,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.35950337805119,
       "mood": 100,
       "stores": 8.033966687500001,
       "storesMax": 80,
@@ -334,8 +334,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.93022407444663,
-      "mood": 91.33798998257453,
+      "wealth": 95.39206761818566,
+      "mood": 91.02689853510692,
       "stores": 5.723800468750003,
       "storesMax": 75,
       "status": "prosperujici",
@@ -427,6 +427,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
+      "type": "A",
+      "icon": "🏇",
+      "source": "distant_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
+    {
+      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
+      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
+      "type": "E",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 153,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 1
+    },
     {
       "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
       "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
@@ -1350,45 +1386,51 @@
       "year": 1465,
       "season": "Léto",
       "day": 83
-    },
-    {
-      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
-      "type": "D",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 121,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_cs": "Aplikoval jsem pavučiny na řeznou ránu bratra kuchaře. Tvrdí, že se to zanítilo, ale já vidím očistný proces. Jeho křik je jen známkou vyhánění zlých par z těla.",
-      "text_en": "I applied cobwebs to a cut on the cook brother. He claims it got infected, but I see a cleansing process. His screaming is just a sign of evil vapors being expelled from the body.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 120,
-      "year": 1465,
-      "season": "Léto",
-      "day": 83
-    },
-    {
-      "text": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_cs": "Z Boloně přišla zvláštní zpráva: aby si Datiniho dům naklonil boloňského kardinála a přesvědčil ho k účasti na svatbě dcery Ginevry, odeslal mu neobvyklý dar. Obrovský katalánský mastif dostal pozlacený obojek se znaky prelátova rodu a na cestu přes hory šarlatový plášť. Náklady prý převýšily 50 florénů, ale kardinál přijal dar s nesmírným nadšením.",
-      "text_en": "A peculiar piece of news came from Bologna: to win the favor of the Cardinal of Bologna and persuade him to officiate at daughter Ginevra's wedding, the Datini house sent him an unusual gift. A massive Catalonian mastiff was fitted with a gilded collar bearing the prelate's coat of arms and a scarlet coat for crossing the mountains. The costs are said to have exceeded 50 florins, but the Cardinal received the gift with immense delight.",
-      "type": "C",
-      "icon": "🐕",
-      "source": "distant_events",
-      "tick": 119,
-      "year": 1465,
-      "season": "Léto",
-      "day": 82
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 153
+    },
     {
       "id": "cletter_011",
       "seal": "church",
@@ -4500,7 +4542,7 @@
       "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví."
     },
     "porta_cletter_015": {
-      "tick": 131,
+      "tick": 153,
       "text": "cletter_015"
     },
     "mono_127": {
@@ -4692,7 +4734,7 @@
       "text": "cletter_012"
     },
     "mono_107": {
-      "tick": 42,
+      "tick": 153,
       "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy."
     },
     "local_151": {
@@ -5406,6 +5448,14 @@
     "mono_132": {
       "tick": 152,
       "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme."
+    },
+    "local_254": {
+      "tick": 153,
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši."
+    },
+    "frois_006": {
+      "tick": 153,
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství."
     }
   },
   "flags": {
