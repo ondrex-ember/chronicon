@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-02T19:18:33.437Z",
-  "valid_until": "2026-09-09T19:18:33.437Z",
+  "generated": "2026-09-02T23:56:18.017Z",
+  "valid_until": "2026-09-09T23:56:18.017Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 22,
-    "windKmH": 5,
+    "tempC": 18,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 2,
-    "total_tick": 159,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 2"
+    "day": 3,
+    "total_tick": 160,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 3"
   },
   "actors": [
     {
@@ -117,7 +117,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 99,
       "stores": 10,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 77,
+      "wealth": 78,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 88,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -233,7 +233,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 95,
-      "mood": 99,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -302,7 +302,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -325,7 +325,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 99,
+      "mood": 98,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1809,6 +1809,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
+      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
+      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
@@ -2011,45 +2047,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
-      "type": "A",
-      "icon": "🏇",
-      "source": "distant_events",
-      "tick": 153,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 153,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
-      "type": "E",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 153,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
+      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
+      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
       "text_cs": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
@@ -2145,33 +2169,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 160,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
       "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
@@ -2279,22 +2291,10 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
-      "type": "A",
-      "icon": "📚",
-      "source": "distant_events",
-      "tick": 149,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "church_calendar": {
-    "day_of_year": 182,
+    "day_of_year": 183,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
