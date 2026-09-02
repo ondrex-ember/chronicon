@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-01T23:54:29.893Z",
-  "valid_until": "2026-09-08T23:54:29.893Z",
+  "generated": "2026-09-02T08:39:59.244Z",
+  "valid_until": "2026-09-09T08:39:59.244Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 5,
+    "tempC": 19,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 2,
-    "total_tick": 156,
+    "total_tick": 157,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 2"
   },
   "actors": [
@@ -90,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -113,7 +117,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -160,7 +164,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 78,
-      "mood": 98,
+      "mood": 99,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -182,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 89,
-      "mood": 100,
+      "wealth": 88,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -205,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 78,
+      "wealth": 77,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -297,8 +301,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +324,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
-      "mood": 95,
+      "wealth": 95,
+      "mood": 96,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1805,6 +1809,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 157,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 157,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
@@ -2019,33 +2047,21 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_cs": "Z Kroměříže: Samotný olomoucký biskup přijel zkontrolovat správu svých panství. Během slavnostní mše varoval před pýchou a nařídil opravu chátrající střechy špitálu z peněz místní kapituly.",
-      "text_en": "From Kroměříž: The Bishop of Olomouc himself arrived to inspect the administration of his estates. During a solemn mass, he warned against pride and ordered the repair of the decaying hospital roof using funds from the local chapter.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 150,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_cs": "Anály vzpomínají zimu, jaké nebylo pamětníka přes sto let: začala na svatého Ondřeje a držela do konce února. Z města do města nebylo cesty pro sníh. Bratr vrátný tvrdí, že tehdy klášterní brána týden nezavrzala — nikdo nepřišel.",
-      "text_en": "The annals recall a winter without living memory in a hundred years: it began on St Andrew's day and held till the end of February. There was no road from town to town for the snow. Brother porter claims the monastery gate did not creak for a week — no one came.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 150,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 157,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
       "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
@@ -2153,21 +2169,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
-      "type": "D",
-      "icon": "🍯",
-      "source": "monastery_internal",
-      "tick": 152,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 157,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -2272,18 +2288,6 @@
       "icon": "⛵",
       "source": "distant_events",
       "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_cs": "Zápis z Prahy: Stará léta, kdy královská města sama o sobě rozhodovala, neb pán jim na hrad nevládl, dosud žijí v paměti starců. Mladí konšelé prý té moci po předcích dychtivě litují.",
-      "text_en": "A note from Prague: the old years, when the royal towns decided for themselves, for no lord ruled them from the castle, live yet in the memory of old men. The young councillors, it is said, eagerly mourn that power their forebears once held.",
-      "type": "A",
-      "icon": "🏙️",
-      "source": "distant_events",
-      "tick": 146,
       "year": 1465,
       "season": "Léto",
       "day": 91
