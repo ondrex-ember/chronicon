@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-02T08:39:59.244Z",
-  "valid_until": "2026-09-09T08:39:59.244Z",
+  "generated": "2026-09-02T14:13:34.948Z",
+  "valid_until": "2026-09-09T14:13:34.948Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 19,
-    "windKmH": 3,
+    "tempC": 25,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 2,
-    "total_tick": 157,
+    "total_tick": 158,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 2"
   },
   "actors": [
@@ -118,7 +118,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -163,8 +163,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 78,
-      "mood": 99,
+      "wealth": 77,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 88,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -232,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -255,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -301,8 +301,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 97,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -325,7 +325,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 96,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1809,6 +1809,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
+      "text_cs": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
+      "text_en": "In 1437, on the Friday before the Nativity of the Mother of God, Sion, the new castle of Roháč, was taken at the command of Emperor Sigismund.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
@@ -2011,45 +2047,33 @@
       "year": 1465,
       "season": "Léto",
       "day": 92
-    },
-    {
-      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 151,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
-      "text_cs": "Z Hranic: Královský emisar veřejně vyhlásil amnestii pro tři zbojníky, kteří dobrovolně složili zbraně a přidali se k zemské obraně proti uherským nájezdům. Jejich dřívější dluhy však splaceny nebyly.",
-      "text_en": "From Hranice: A royal emissary publicly announced an amnesty for three bandits who voluntarily laid down their weapons and joined the provincial defense against Hungarian raids. Their past debts, however, were not forgiven.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 151,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 150,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
+    {
+      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
+      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
+      "type": "B",
+      "icon": "🎵",
+      "source": "monastery_internal",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
       "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
@@ -2145,33 +2169,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_cs": "Upekl jsem chléb s přídavkem kmínu. Bratři se tvářili zmateně, ale snědli to. Sklepmistr prohlásil, že se snažím zakrýt plíseň. Ale já vím, že mé inovace jednou změní kulinářské dějiny Moravy.",
-      "text_en": "I baked bread with the addition of caraway. The brothers looked confused but ate it. The cellarer declared I am trying to hide mold. But I know my innovations will one day change the culinary history of Moravia.",
-      "type": "E",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 153,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 152,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
+      "text_cs": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
+      "text_en": "In 1437, on the Friday before the Nativity of the Mother of God, Sion, the new castle of Roháč, was taken at the command of Emperor Sigismund.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 158,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 2
+    },
     {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
@@ -2276,18 +2288,6 @@
       "icon": "📋",
       "source": "distant_events",
       "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
-      "type": "C",
-      "icon": "⛵",
-      "source": "distant_events",
-      "tick": 147,
       "year": 1465,
       "season": "Léto",
       "day": 91
