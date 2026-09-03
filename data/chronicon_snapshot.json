@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-03T14:17:15.343Z",
-  "valid_until": "2026-09-10T14:17:15.343Z",
+  "generated": "2026-09-03T19:12:49.904Z",
+  "valid_until": "2026-09-10T19:12:49.904Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 24,
-    "windKmH": 13,
+    "tempC": 19,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 3,
-    "total_tick": 162,
+    "total_tick": 163,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 3"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 100,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 78,
+      "wealth": 77,
       "mood": 100,
       "stores": 7,
       "status": "stable",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 77,
+      "wealth": 78,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 93,
-      "mood": 100,
+      "mood": 99,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 98,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -388,6 +388,61 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 163
+    },
     {
       "id": "cletter_005",
       "seal": "scholars",
@@ -1754,56 +1809,45 @@
         }
       ],
       "_pickedTick": 86
-    },
-    {
-      "id": "cletter_001",
-      "seal": "village",
-      "type": "A",
-      "icon": "🌾",
-      "tags": [
-        "mlynar",
-        "povodeň",
-        "obilí"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Mlynář",
-      "sender_en": "The Miller",
-      "title_cs": "List mlynářův o vodě",
-      "title_en": "A Letter from the Miller on the Water",
-      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
-      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
-      "choices": [
-        {
-          "id": "help",
-          "label_cs": "🌊 Poslat pomoc s hrází",
-          "label_en": "🌊 Send help with the weir",
-          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
-          "notify_en": "The miller remembers the help. (Miller +4)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "mlynar",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
-          "label_en": "🙏 Wish him luck, we have no hands to spare",
-          "notify_cs": "Mlynář odpověď přijal bez zloby.",
-          "notify_en": "The miller took the answer without ill will.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 83
     }
   ],
   "chronicle": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -2007,45 +2051,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 156,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 156,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_cs": "Z Uničova: Tovaryši z cechu soukeníků vyhlásili stávku proti přísným mistrům a začali v noci házet kameny do oken patricijských domů. Purkmistr na ně povolal městskou stráž s halapartnami.",
+      "text_en": "From Uničov: Journeymen from the clothiers' guild declared a strike against their strict masters and began throwing stones at patrician house windows at night. The burgomaster summoned the town guard with halberds against them.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
       "text_cs": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
@@ -2141,33 +2173,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 158,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 157,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 163,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -2272,18 +2292,6 @@
       "icon": "✉️",
       "source": "distant_events",
       "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
-      "type": "A",
-      "icon": "🏇",
-      "source": "distant_events",
-      "tick": 153,
       "year": 1465,
       "season": "Podzim",
       "day": 1
