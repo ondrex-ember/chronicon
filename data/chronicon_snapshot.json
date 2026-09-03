@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-03T08:48:29.843Z",
-  "valid_until": "2026-09-10T08:48:29.843Z",
+  "generated": "2026-09-03T14:17:15.343Z",
+  "valid_until": "2026-09-10T14:17:15.343Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 8,
+    "tempC": 24,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 3,
-    "total_tick": 161,
+    "total_tick": 162,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 3"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 99,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 87,
+      "wealth": 86,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
-      "mood": 97,
+      "wealth": 95,
+      "mood": 98,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1805,6 +1805,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
+      "text_cs": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
+      "text_en": "From Fulnek, a delayed report: Five people died in the village beyond the hill this week. The doctors speak of fever, but the elders know what such a fever looks like. The market is half empty. People are avoiding contact.",
+      "type": "B",
+      "icon": "💀",
+      "source": "local_events",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
       "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
       "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
       "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
@@ -2007,45 +2043,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
-      "type": "A",
-      "icon": "🏺",
-      "source": "local_events",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
-      "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
-      "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
-      "type": "D",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
+      "text_cs": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
+      "text_en": "From Fulnek, a delayed report: Five people died in the village beyond the hill this week. The doctors speak of fever, but the elders know what such a fever looks like. The market is half empty. People are avoiding contact.",
+      "type": "B",
+      "icon": "💀",
+      "source": "local_events",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
       "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
@@ -2141,33 +2165,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 156,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 156,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 162,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
       "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
@@ -2275,18 +2287,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
-      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 151,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
     }
   ],
   "church_calendar": {
