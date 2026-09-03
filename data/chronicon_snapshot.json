@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-02T23:56:18.017Z",
-  "valid_until": "2026-09-09T23:56:18.017Z",
+  "generated": "2026-09-03T08:48:29.843Z",
+  "valid_until": "2026-09-10T08:48:29.843Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
-    "windKmH": 3,
+    "tempC": 20,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 3,
-    "total_tick": 160,
+    "total_tick": 161,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 3"
   },
   "actors": [
@@ -140,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -186,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 88,
+      "wealth": 87,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -209,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 76,
+      "wealth": 77,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -232,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -255,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -301,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -324,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 98,
+      "wealth": 94,
+      "mood": 97,
       "stores": 6,
       "status": "prosperujici",
       "itemStock": {
@@ -1809,6 +1805,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 161,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
+      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 161,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
+    {
       "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
       "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
       "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
@@ -2023,33 +2043,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
+      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 161,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
@@ -2157,21 +2165,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
-      "type": "A",
-      "icon": "🏺",
-      "source": "local_events",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 161,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 3
+    },
     {
       "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
       "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
@@ -2276,18 +2284,6 @@
       "icon": "📋",
       "source": "distant_events",
       "tick": 151,
-      "year": 1465,
-      "season": "Léto",
-      "day": 92
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 150,
       "year": 1465,
       "season": "Léto",
       "day": 92
