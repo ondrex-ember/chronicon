@@ -28,11 +28,24 @@ jobs:
       - name: Run CHRONICON tick
         run: node cron.js --once
 
-      - name: Pull latest before commit (race s report webhooky — actor-favor/rescue/vrchnost/registrum/contact-relation report)
-        run: git pull --rebase --autostash origin main
-
-      - name: Commit snapshot
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chronicon: tick'
-          file_pattern: 'data/chronicon_snapshot.json data/gamestate.json'
+      # Retry smyčka místo git-auto-commit-action — actor-favor/rescue/vrchnost/
+      # registrum/contact-relation/library-fond report umí commitnout na main
+      # v rychlém sledu (viz diagnostika 4.9.2026), git-auto-commit-action sám
+      # retry neumí, proto vlastní smyčka s pull --rebase mezi pokusy.
+      - name: Commit and push snapshot (with retry)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git add data/chronicon_snapshot.json data/gamestate.json
+            git diff --cached --quiet && { echo "Nothing to commit."; break; }
+            git commit -m "chronicon: tick"
+            if git push origin HEAD:main; then
+              echo "Pushed OK."
+              break
+            fi
+            echo "Push rejected, retry $i..."
+            git reset --soft HEAD~1
+            git pull --rebase --autostash origin main
+            sleep $((RANDOM % 3 + 1))
+          done
