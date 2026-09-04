@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-04T08:49:14.505Z",
-  "valid_until": "2026-09-11T08:49:14.505Z",
+  "generated": "2026-09-04T14:06:43.423Z",
+  "valid_until": "2026-09-11T14:06:43.423Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 22,
-    "windKmH": 15,
+    "tempC": 28,
+    "windKmH": 19,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 4,
-    "total_tick": 166,
+    "total_tick": 167,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 4"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 3,
       "status": "prosperujici",
@@ -117,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 99,
+      "wealth": 95,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -141,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 96,
-      "mood": 99,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 85,
+      "wealth": 84,
       "mood": 99,
       "stores": 6,
       "status": "prosperujici",
@@ -209,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 76,
+      "wealth": 75,
       "mood": 99,
       "stores": 4,
       "status": "stable",
@@ -232,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
+      "wealth": 94,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -255,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -1784,6 +1784,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
+      "type": "D",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
@@ -1986,45 +2022,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 160,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
-      "type": "C",
-      "icon": "⛵",
-      "source": "distant_events",
-      "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_cs": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_en": "The royal army of Prince Victorin failed to hold the town of Třebíč against the onslaught of Hungarian troops. The last soldiers fought desperately in the fortified monastery, but finally had to surrender in exchange for a promise of free departure. Matthias Corvinus thus strengthened his position in southwestern Moravia.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
       "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
@@ -2120,33 +2144,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 162,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_cs": "Ze farní knihy: Tento týden se oddaly tři páry. Jedno oddání muselo být přerušeno, neboť se ukázalo, že ženich je již ženat — v Brně. Záležitost předána biskupskému soudu. Nevěsta pláče.",
-      "text_en": "From the parish register: Three couples were wed this week. One ceremony had to be interrupted, as it emerged the groom was already married — in Brno. The matter has been referred to the bishop's court. The bride is weeping.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 161,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
+      "type": "D",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 167,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
@@ -2251,18 +2263,6 @@
       "icon": "🌫️",
       "source": "distant_events",
       "tick": 157,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 156,
       "year": 1465,
       "season": "Podzim",
       "day": 2
