@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-04T18:55:02.308Z",
-  "valid_until": "2026-09-11T18:55:02.308Z",
+  "generated": "2026-09-04T23:50:56.706Z",
+  "valid_until": "2026-09-11T23:50:56.706Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 26,
-    "windKmH": 11,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 19,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -83,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 4,
-    "total_tick": 168,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 4"
+    "day": 5,
+    "total_tick": 169,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 5"
   },
   "actors": [
     {
@@ -117,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 94,
+      "wealth": 96,
+      "mood": 97,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 91,
       "stores": 6,
       "status": "prosperujici",
@@ -209,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 84,
+      "wealth": 85,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -325,7 +325,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 91,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1839,6 +1839,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_en": "That year, before the Nativity of the Mother of God, Lord Hynek of Kolštejn and Smiřický with six hundred horse burst into Prague — and there perished.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
       "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
       "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
       "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
@@ -2053,33 +2077,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 162,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 161,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
       "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
@@ -2187,21 +2199,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
-      "type": "D",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 164,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_en": "That year, before the Nativity of the Mother of God, Lord Hynek of Kolštejn and Smiřický with six hundred horse burst into Prague — and there perished.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
       "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
@@ -2309,22 +2321,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 157,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "church_calendar": {
-    "day_of_year": 184,
+    "day_of_year": 185,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,

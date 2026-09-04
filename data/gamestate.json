@@ -2,17 +2,17 @@
   "time": {
     "year": 1465,
     "season": 2,
-    "day": 4,
+    "day": 5,
     "daysPerSeason": 90,
-    "totalTick": 168
+    "totalTick": 169
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 26,
-    "windKmH": 11,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 19,
+    "windKmH": 6,
     "rainMm": 0
   },
   "virtue": {
@@ -59,7 +59,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.62019371281264,
       "mood": 100,
       "stores": 0.5181325000000014,
       "storesMax": 100,
@@ -87,8 +87,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 97.18620689655172,
-      "mood": 94.37241379310345,
+      "wealth": 96.29437065965051,
+      "mood": 97.23162612305671,
       "stores": 9.6264621375,
       "storesMax": 90,
       "status": "prosperujici",
@@ -115,8 +115,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 95.47931034482758,
-      "mood": 90.95862068965518,
+      "wealth": 95.62253072490394,
+      "mood": 91.2036447533605,
       "stores": 6.365558265625001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -143,8 +143,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 83.2865490038159,
-      "mood": 100,
+      "wealth": 83.07156310327179,
+      "mood": 99.76843162782393,
       "stores": 5.445366113281251,
       "storesMax": 70,
       "status": "prosperujici",
@@ -172,7 +172,7 @@
       "profession": "Vorař",
       "core": true,
       "wealth": 100,
-      "mood": 100,
+      "mood": 99.6047985328151,
       "stores": 4.785450820312501,
       "storesMax": 50,
       "status": "prosperujici",
@@ -199,7 +199,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 84.42508313161437,
+      "wealth": 84.87494487259531,
       "mood": 100,
       "stores": 4.35800421875,
       "storesMax": 70,
@@ -227,7 +227,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.71960189504554,
       "mood": 100,
       "stores": 7.143039840625001,
       "storesMax": 60,
@@ -341,8 +341,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.70689655172414,
-      "mood": 91.41379310344827,
+      "wealth": 95.63305999202902,
+      "mood": 93.9322078610673,
       "stores": 4.451720304687502,
       "storesMax": 75,
       "status": "prosperujici",
@@ -434,6 +434,30 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
+      "text_en": "That year, before the Nativity of the Mother of God, Lord Hynek of Kolštejn and Smiřický with six hundred horse burst into Prague — and there perished.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 169,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
       "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
@@ -1365,30 +1389,6 @@
       "type": "C",
       "icon": "🖼️",
       "source": "distant_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
-      "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
-      "text_en": "A wandering preacher appeared in the square, fiery speaking against the wealth of the church and praising the teachings of the Compactata. His words outraged local orthodox Catholics and almost led to a lynching. Guards had to escort the preacher to the safety of the town jail.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 140,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
       "tick": 140,
       "year": 1465,
       "season": "Léto",
@@ -5853,6 +5853,14 @@
     "local_275": {
       "tick": 168,
       "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu."
+    },
+    "local_059": {
+      "tick": 169,
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku."
+    },
+    "letopisy_058": {
+      "tick": 169,
+      "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",
