@@ -114,6 +114,11 @@ const GameState = {
   // --- Chronicle cooldown tracker ---
   _lastChronicle: {},
 
+  // --- Dedup key pro poslední GM zprávu opata odeslanou do Porty jako
+  // dopis (narrative/picker.js pickAbbotLetter) — abbot_message_id nebo
+  // fallback text zprávy. null = ještě žádná zpráva neposlána.
+  _lastAbbotLetterKey: null,
+
   // --- Flags ---
   flags: {
     started: false,
