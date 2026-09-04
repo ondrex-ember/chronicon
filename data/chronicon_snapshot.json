@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-03T23:55:00.184Z",
-  "valid_until": "2026-09-10T23:55:00.184Z",
+  "generated": "2026-09-04T06:55:44.321Z",
+  "valid_until": "2026-09-11T06:55:44.321Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
-    "windKmH": 10,
+    "tempC": 19,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 4,
-    "total_tick": 164,
+    "total_tick": 165,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 4"
   },
   "actors": [
@@ -137,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 96,
-      "mood": 100,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -205,7 +209,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 77,
+      "wealth": 76,
       "mood": 100,
       "stores": 4,
       "status": "stable",
@@ -274,7 +278,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -297,7 +301,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 8,
       "status": "prosperujici",
@@ -388,6 +392,20 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "abbot_msg_msg_20260824_401",
+      "seal": "abbot",
+      "type": "C",
+      "icon": "✝️",
+      "sender_cs": "Bratr Augustin",
+      "sender_en": "Bratr Augustin",
+      "title_cs": "Zpráva od opata",
+      "title_en": "A Message from the Abbot",
+      "text_cs": "Milost Boží buď s vámi, bratřie. Zprávy z města k nám dolehly, žeť mistři cechovní zvěděli o skutcích našich na trzích olomúckých — vieť se již, že klášter mele, peče i řemeslněti počíná, a oko cechů se na naše počínání upřelo. Neníť to důvod k obavám, nýbrž k opatrnosti: kdo bez svolení na trhu prodává, tomu cechové nepřejí a snadno by nás z fušerství nařkli. Pročež jest vůlí opatovou, abychom s mistry cechovními jednali jako se sousedy — k čemuž jest ale nejprve zapotřebí jeho vlastního svolení. Kdo z vás chce s některým cechem promluviti, nechť žádost nejprve jemu předloží. S pozdravením laskavým a milosrdenstvím Božím, bratr váš, Augustín.",
+      "text_en": "The Grace of the Lord be with thee, brethren. Word hath reached us from the town that the guild masters have taken notice of our dealings at the Olomouc markets — it is known now that the monastery grinds, bakes, and takes up the crafts, and the guilds' eye hath turned upon our doings. This is no cause for fear, but for prudence: he who sells at market without leave earns the guilds' displeasure, and we might easily be charged with botching their trade. Wherefore it is the Abbot's will that we treat with the guild masters as neighbours — for which his own leave must first be sought. Whosoever among you wishes to speak with a guild, let him first bring the matter before him. With bountiful regards and the Lord's mercy. Thy brother, Augustine.",
+      "choices": [],
+      "_pickedTick": 165
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1744,64 +1762,45 @@
         }
       ],
       "_pickedTick": 97
-    },
-    {
-      "id": "cletter_010",
-      "seal": "village",
-      "type": "D",
-      "icon": "🔥",
-      "tags": [
-        "požár",
-        "vesnice",
-        "pohroma"
-      ],
-      "conditions": {
-        "season": [
-          1,
-          2
-        ],
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Soused od kováře",
-      "sender_en": "A Neighbour of the Smith",
-      "title_cs": "Zpráva o požáru u kovárny",
-      "title_en": "News of a Fire by the Forge",
-      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
-      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
-      "choices": [
-        {
-          "id": "alms",
-          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
-          "label_en": "🌾 Send alms of grain (−15 grain)",
-          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
-          "notify_en": "The family received the alms with tears. (village +4)",
-          "effects": [
-            {
-              "type": "item",
-              "id": "grain",
-              "qty": -15
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "pray",
-          "label_cs": "🙏 Slíbit jen modlitbu",
-          "label_en": "🙏 Promise only a prayer",
-          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
-          "notify_en": "The family gives thanks, but the winter will be hard.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 92
     }
   ],
   "chronicle": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
+      "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
+      "text_en": "Masters from the tailors' guild accused the town seamstresses of taking their cloak-making commissions, even though they lack the guild right to do so. A scuffle even broke out in the marketplace, with needles and scissors flying. The burgomaster himself must now judge the dispute to prevent further unrest.",
+      "type": "A",
+      "icon": "✂️",
+      "source": "local_events",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
@@ -2005,45 +2004,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 158,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 158,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 157,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
+      "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
+      "text_en": "Masters from the tailors' guild accused the town seamstresses of taking their cloak-making commissions, even though they lack the guild right to do so. A scuffle even broke out in the marketplace, with needles and scissors flying. The burgomaster himself must now judge the dispute to prevent further unrest.",
+      "type": "A",
+      "icon": "✂️",
+      "source": "local_events",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
       "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
@@ -2139,33 +2126,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_cs": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_en": "The royal army of Prince Victorin failed to hold the town of Třebíč against the onslaught of Hungarian troops. The last soldiers fought desperately in the fortified monastery, but finally had to surrender in exchange for a promise of free departure. Matthias Corvinus thus strengthened his position in southwestern Moravia.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_cs": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_en": "I said goodbye to the bees for the winter. I believe they understood my instructions on saving wax. One of them stung me on the nose, which I interpret as a sign of their deep gratitude for my care.",
-      "type": "E",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 165,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
@@ -2273,18 +2248,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_cs": "Ze zápisků zbraslavských: Na Moravě prý páni jistí krále poslouchati přestávají, daně odpírajíce a posly královské od bran odhánějíce. Klášterní statky leží mezi nimi jako pole bez pána.",
-      "text_en": "From the Zbraslav notes: certain lords in Moravia are said to cease obeying the king, refusing his taxes and turning the royal messengers from their gates. The monastery's lands lie among them like a field without lord.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 155,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "church_calendar": {
