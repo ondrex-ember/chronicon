@@ -195,12 +195,40 @@ const Picker = {
     GameState._lastChronicle[cooldownKey] = { tick: GameState.time.totalTick, text: entry.id };
   },
 
+  // --- GM zpráva od opata (Augustin) → i jako normální Porta dopis ---
+  // (chronicon-porta-abbot-link, 4.9.2026). Dedup přes abbot_message_id
+  // (gm_input.json pole, dřív se k tomuhle nevyužívalo) — nová zpráva jen
+  // když se key změní, ne znovu každý tik dokud GM zprávu nevymění/nesmaže.
+  pickAbbotLetter() {
+    const gm = GameState.gm;
+    if (!gm.abbot_message) return;
+    const key = gm.abbot_message_id || gm.abbot_message;
+    if (GameState._lastAbbotLetterKey === key) return;
+    GameState._lastAbbotLetterKey = key;
+
+    GameState.portaLetterHistory.unshift({
+      id:         'abbot_msg_' + (gm.abbot_message_id || GameState.time.totalTick),
+      seal:       'abbot',
+      type:       'C',
+      icon:       '✝️',
+      sender_cs:  gm.abbot_name || 'Opat',
+      sender_en:  gm.abbot_name || 'The Abbot',
+      title_cs:   'Zpráva od opata',
+      title_en:   'A Message from the Abbot',
+      text_cs:    gm.abbot_message,
+      text_en:    gm.abbot_message_en || gm.abbot_message,
+      choices:    [],
+      _pickedTick: GameState.time.totalTick,
+    });
+  },
+
   // --- Hlavní volání z cron.js ---
   run() {
     Picker.pickMonastery();
     Picker.pickLocal();
     Picker.pickDistant();
     Picker.pickPortaLetters();
+    Picker.pickAbbotLetter();
   },
 
 };
