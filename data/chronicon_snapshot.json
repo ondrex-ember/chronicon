@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-04T06:55:44.321Z",
-  "valid_until": "2026-09-11T06:55:44.321Z",
+  "generated": "2026-09-04T08:49:14.505Z",
+  "valid_until": "2026-09-11T08:49:14.505Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 19,
-    "windKmH": 13,
+    "tempC": 22,
+    "windKmH": 15,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 4,
-    "total_tick": 165,
+    "total_tick": 166,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 4"
   },
   "actors": [
@@ -117,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 100,
+      "wealth": 96,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -163,8 +163,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 78,
-      "mood": 99,
+      "wealth": 77,
+      "mood": 100,
       "stores": 7,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 86,
-      "mood": 100,
+      "wealth": 85,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +210,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 76,
-      "mood": 100,
+      "mood": 99,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -232,8 +232,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 92,
-      "mood": 98,
+      "wealth": 93,
+      "mood": 100,
       "stores": 8,
       "status": "prosperujici",
       "relations": {
@@ -392,6 +392,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_004",
+      "seal": "church",
+      "type": "C",
+      "icon": "🙏",
+      "tags": [
+        "modlitba",
+        "prosba"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Farní kostelník od sv. Michala",
+      "sender_en": "The Parish Sexton of St. Michael's",
+      "title_cs": "Prosba o přímluvnou mši",
+      "title_en": "A Request for an Intercessory Mass",
+      "text_cs": "„Důstojní otcové, náš farář stůně už třetí týden a lékaři si nejsou jisti. Farníci prosí, zda by váš klášter neodsloužil mši za jeho uzdravení — vaše modlitby prý sahají dál než naše. — Kostelník od sv. Michala“",
+      "text_en": "\"Reverend fathers, our parish priest has lain ill these three weeks, and the physicians are unsure. The parishioners ask whether your monastery might say a mass for his recovery — your prayers, they say, carry further than ours. — Sexton of St. Michael's\"",
+      "choices": [
+        {
+          "id": "pray",
+          "label_cs": "⛪ Odsloužit mši za faráře",
+          "label_en": "⛪ Say a mass for the priest",
+          "notify_cs": "Mše odsloužena. Farnost je vděčná. (Ecclesia +3, Vesnice +1)",
+          "notify_en": "The mass is said. The parish is grateful. (Ecclesia +3, village +1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 3
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "📜 Slíbit modlitbu při běžné mši",
+          "label_en": "📜 Promise a prayer at the regular mass",
+          "notify_cs": "Skromná odpověď, přesto přijatá s vděkem.",
+          "notify_en": "A modest reply, still received with thanks.",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 166
+    },
     {
       "id": "abbot_msg_msg_20260824_401",
       "seal": "abbot",
@@ -1723,48 +1780,33 @@
         }
       ],
       "_pickedTick": 103
-    },
-    {
-      "id": "cletter_014",
-      "seal": "church",
-      "type": "A",
-      "icon": "🔔",
-      "tags": [
-        "zvon",
-        "sklář",
-        "kostel"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Sklář z hutě v lesích",
-      "sender_en": "A Glassmaker from the Forest Works",
-      "title_cs": "List sklářův o barevném skle",
-      "title_en": "The Glassmaker's Letter about Coloured Glass",
-      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
-      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
-      "choices": [
-        {
-          "id": "visit",
-          "label_cs": "🔮 Zajet se podívat",
-          "label_en": "🔮 Go and see",
-          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
-          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "sklar",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 97
     }
   ],
   "chronicle": [
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 166,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 166,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
@@ -1980,33 +2022,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_cs": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_en": "I said goodbye to the bees for the winter. I believe they understood my instructions on saving wax. One of them stung me on the nose, which I interpret as a sign of their deep gratitude for my care.",
-      "type": "E",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
-      "text_cs": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
-      "text_en": "In 1437, on the Friday before the Nativity of the Mother of God, Sion, the new castle of Roháč, was taken at the command of Emperor Sigismund.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 158,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
+      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 166,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 166,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 4
+    },
     {
       "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
       "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
@@ -2099,30 +2141,6 @@
       "icon": "🔔",
       "source": "local_events",
       "tick": 161,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 160,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 160,
       "year": 1465,
       "season": "Podzim",
       "day": 3
