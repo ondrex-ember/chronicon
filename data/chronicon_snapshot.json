@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-05T18:01:56.706Z",
-  "valid_until": "2026-09-12T18:01:56.706Z",
+  "generated": "2026-09-05T23:41:24.166Z",
+  "valid_until": "2026-09-12T23:41:24.166Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 21,
-    "windKmH": 13,
+    "tempC": 16,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 5,
-    "total_tick": 172,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 5"
+    "day": 6,
+    "total_tick": 173,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 6"
   },
   "actors": [
     {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 95,
+      "mood": 97,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 84,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 86,
-      "mood": 100,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 93,
-      "mood": 93,
+      "mood": 95,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1827,6 +1827,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
+      "text_cs": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
+      "text_en": "A note from Prague: King George hath sent letters to the surrounding rulers, proposing peace among Christians. Answer came but from a few courts, and that lukewarm. The courtiers say this dream exceedeth the king's strength.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
       "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
       "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
       "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
@@ -2029,45 +2065,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_cs": "Zápis z radnice: Petr Krejčí žaluje Jana Soukeníka o čtyři groše za nedodané sukno. Jan tvrdí, že sukno dodal, jen jiné barvy. Soud rozhodne příští týden. Oba jsou zasnoubeni se sestrami.",
-      "text_en": "Record from the town hall: Peter the Tailor is suing Jan the Cloth Merchant for four groats for undelivered cloth. Jan claims he delivered it, just a different color. The court will decide next week. Both are betrothed to sisters.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 166,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 166,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "distant_events",
-      "tick": 165,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
+      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
     {
       "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
       "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
@@ -2163,33 +2187,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 168,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Na panství dorazil kupecký vůz. <em>Vorař</em> třepe měšcem — přivezl sůl a novinky.",
-      "text_cs": "Na panství dorazil kupecký vůz. <em>Vorař</em> třepe měšcem — přivezl sůl a novinky.",
-      "text_en": null,
-      "type": "B",
-      "icon": "🛒",
-      "source": "monastery_internal",
-      "tick": 168,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
+      "text_cs": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
+      "text_en": "A note from Prague: King George hath sent letters to the surrounding rulers, proposing peace among Christians. Answer came but from a few courts, and that lukewarm. The courtiers say this dream exceedeth the king's strength.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 173,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
     {
       "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
       "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
@@ -2297,22 +2309,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 161,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
     }
   ],
   "church_calendar": {
-    "day_of_year": 185,
+    "day_of_year": 186,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
