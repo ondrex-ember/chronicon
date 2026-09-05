@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-04T23:50:56.706Z",
-  "valid_until": "2026-09-11T23:50:56.706Z",
+  "generated": "2026-09-05T08:14:45.733Z",
+  "valid_until": "2026-09-12T08:14:45.733Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 19,
-    "windKmH": 6,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 18,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 5,
-    "total_tick": 169,
+    "total_tick": 170,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 5"
   },
   "actors": [
@@ -117,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 97,
+      "wealth": 97,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 83,
+      "wealth": 84,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -186,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -324,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 94,
       "stores": 4,
       "status": "prosperujici",
@@ -1839,6 +1835,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
+      "type": "B",
+      "icon": "💰",
+      "source": "monastery_internal",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
       "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
       "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
       "text_en": "That year, before the Nativity of the Mother of God, Lord Hynek of Kolštejn and Smiřický with six hundred horse burst into Prague — and there perished.",
@@ -2041,45 +2073,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 3
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 163,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "distant_events",
-      "tick": 162,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
-    },
-    {
-      "text": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
-      "text_cs": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
-      "text_en": "From Fulnek, a delayed report: Five people died in the village beyond the hill this week. The doctors speak of fever, but the elders know what such a fever looks like. The market is half empty. People are avoiding contact.",
-      "type": "B",
-      "icon": "💀",
-      "source": "local_events",
-      "tick": 162,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 3
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
+      "type": "B",
+      "icon": "💰",
+      "source": "monastery_internal",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
       "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
@@ -2175,33 +2195,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_cs": "Mistři z krejčovského cechu obvinili městské švadleny, že jim přebírají zakázky na šití plášťů, ačkoliv k tomu nemají cechovní právo. Došlo dokonce k potyčce na tržišti, při níž létaly jehly a nůžky. Spor musí nyní rozsoudit samotný purkmistr, aby se zabránilo dalším nepokojům.",
-      "text_en": "Masters from the tailors' guild accused the town seamstresses of taking their cloak-making commissions, even though they lack the guild right to do so. A scuffle even broke out in the marketplace, with needles and scissors flying. The burgomaster himself must now judge the dispute to prevent further unrest.",
-      "type": "A",
-      "icon": "✂️",
-      "source": "local_events",
-      "tick": 165,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
-      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
-      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 165,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
       "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
@@ -2306,18 +2314,6 @@
       "icon": "⛵",
       "source": "distant_events",
       "tick": 159,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
-    },
-    {
-      "text": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
-      "text_cs": "Léta božieho narozenie MCCCCXXXVII u pátek před Narozením Matky božie Sion, hrad nový Roháčuov, dobyt jest kázaním najjasnějšieho kniežete a pána Sigmunda, boží milostí římského césaře, uherského, českého etc. cizojazyčný text krále.",
-      "text_en": "In 1437, on the Friday before the Nativity of the Mother of God, Sion, the new castle of Roháč, was taken at the command of Emperor Sigismund.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 158,
       "year": 1465,
       "season": "Podzim",
       "day": 2

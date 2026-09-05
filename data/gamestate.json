@@ -4,15 +4,15 @@
     "season": 2,
     "day": 5,
     "daysPerSeason": 90,
-    "totalTick": 169
+    "totalTick": 170
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 19,
-    "windKmH": 6,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 18,
+    "windKmH": 16,
     "rainMm": 0
   },
   "virtue": {
@@ -59,7 +59,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 99.62019371281264,
+      "wealth": 100,
       "mood": 100,
       "stores": 0.5181325000000014,
       "storesMax": 100,
@@ -87,8 +87,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 96.29437065965051,
-      "mood": 97.23162612305671,
+      "wealth": 96.7035213932712,
+      "mood": 100,
       "stores": 9.6264621375,
       "storesMax": 90,
       "status": "prosperujici",
@@ -115,8 +115,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 95.62253072490394,
-      "mood": 91.2036447533605,
+      "wealth": 95.57311964977386,
+      "mood": 90.764420694228,
       "stores": 6.365558265625001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -143,8 +143,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 83.07156310327179,
-      "mood": 99.76843162782393,
+      "wealth": 83.90792284800371,
+      "mood": 100,
       "stores": 5.445366113281251,
       "storesMax": 70,
       "status": "prosperujici",
@@ -171,8 +171,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 100,
-      "mood": 99.6047985328151,
+      "wealth": 99.45753495643494,
+      "mood": 100,
       "stores": 4.785450820312501,
       "storesMax": 50,
       "status": "prosperujici",
@@ -199,8 +199,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 84.87494487259531,
-      "mood": 100,
+      "wealth": 84.5921967221725,
+      "mood": 99.69367144584383,
       "stores": 4.35800421875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -227,7 +227,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 99.71960189504554,
+      "wealth": 100,
       "mood": 100,
       "stores": 7.143039840625001,
       "storesMax": 60,
@@ -311,7 +311,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.87536104750038,
       "mood": 100,
       "stores": 6.245828346875001,
       "storesMax": 80,
@@ -341,8 +341,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 95.63305999202902,
-      "mood": 93.9322078610673,
+      "wealth": 94.66830667575606,
+      "mood": 93.85314395905462,
       "stores": 4.451720304687502,
       "storesMax": 75,
       "status": "prosperujici",
@@ -434,6 +434,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
+      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_cs": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha.",
+      "text_en": "From the parish of St. Wenceslas: An abandoned but healthy infant wrapped in a costly linen cloth was found at the church doors at dawn. A childless baker's wife took it in, seeing it as a gift from God himself.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
+    {
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
+      "type": "B",
+      "icon": "💰",
+      "source": "monastery_internal",
+      "tick": 170,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 5
+    },
     {
       "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
       "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
@@ -1354,42 +1390,6 @@
       "icon": "🧵",
       "source": "distant_events",
       "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 141,
-      "year": 1465,
-      "season": "Léto",
-      "day": 89
-    },
-    {
-      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
-      "type": "C",
-      "icon": "🖼️",
-      "source": "distant_events",
-      "tick": 140,
       "year": 1465,
       "season": "Léto",
       "day": 89
@@ -4863,7 +4863,7 @@
       "text": "cletter_002"
     },
     "local_131": {
-      "tick": 63,
+      "tick": 170,
       "text": "Z farnosti sv. Václava: U dveří kostela bylo za úsvitu nalezeno opuštěné, ale zdravé nemluvně zabalené v drahé lněné pleně. Ujala se ho bezdětná pekařova žena, která v něm vidí dar od samotného Boha."
     },
     "zbras_018": {
@@ -5587,7 +5587,7 @@
       "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle."
     },
     "praha_002": {
-      "tick": 118,
+      "tick": 170,
       "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů."
     },
     "mono_087": {
@@ -5861,6 +5861,10 @@
     "letopisy_058": {
       "tick": 169,
       "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu."
+    },
+    "refect_ex_006": {
+      "tick": 170,
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",
