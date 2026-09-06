@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-05T23:41:24.166Z",
-  "valid_until": "2026-09-12T23:41:24.166Z",
+  "generated": "2026-09-06T08:33:28.462Z",
+  "valid_until": "2026-09-13T08:33:28.462Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,7 +67,7 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
+    "tempC": 17,
     "windKmH": 9,
     "rainMm": 0,
     "season": 2,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 6,
-    "total_tick": 173,
+    "total_tick": 174,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 6"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 1,
       "status": "prosperujici",
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 97,
       "stores": 6,
       "status": "prosperujici",
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 84,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 86,
-      "mood": 99,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 93,
-      "mood": 95,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -443,6 +443,48 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 174
+    },
     {
       "id": "cletter_007",
       "seal": "abbot",
@@ -1776,56 +1818,33 @@
         }
       ],
       "_pickedTick": 106
-    },
-    {
-      "id": "cletter_005",
-      "seal": "scholars",
-      "type": "C",
-      "icon": "📖",
-      "tags": [
-        "opis",
-        "exemplar",
-        "putovní písař"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Putovní písař Wenceslaus",
-      "sender_en": "Wenceslaus, an Itinerant Scribe",
-      "title_cs": "Nabídka putovního písaře",
-      "title_en": "An Itinerant Scribe's Offer",
-      "text_cs": "„Bratře ve víře, putuji od skriptoria ke skriptoriu a nabízím výměnu: opíšu vám jeden text z mé mošny za dovolení opsat jeden z vaší knihovny. Obchod poctivý, žádné groše nemění majitele. — Wenceslaus, písař na cestách“",
-      "text_en": "\"Brother in faith, I travel from scriptorium to scriptorium, offering an exchange: I shall copy you one text from my satchel for leave to copy one from your library. An honest trade — no coin changes hands. — Wenceslaus, a scribe on the road\"",
-      "choices": [
-        {
-          "id": "trade",
-          "label_cs": "📚 Vyměnit texty",
-          "label_en": "📚 Trade texts",
-          "notify_cs": "Výměna proběhla. Knihovna o něco bohatší. (Scholars +3)",
-          "notify_en": "The exchange took place. The library is a little richer. (Scholars +3)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "scholars",
-              "amount": 3
-            }
-          ]
-        },
-        {
-          "id": "refuse",
-          "label_cs": "🔒 Odmítnout, knihovna není k výměně",
-          "label_en": "🔒 Refuse — the library is not for trading",
-          "notify_cs": "Wenceslaus pokrčil rameny a šel dál.",
-          "notify_en": "Wenceslaus shrugged and moved on.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 105
     }
   ],
   "chronicle": [
+    {
+      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "local_events",
+      "tick": 174,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
+      "type": "B",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 174,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
     {
       "text": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
       "text_cs": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
@@ -2041,33 +2060,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 167,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 167,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_cs": "Posel z Hranic: Přijel kupec z Uher s novými zprávami. Co přesně přivezl, neví nikdo přesně — šel rovnou na radnici a seděl tam dvě hodiny. Pak odjel zpět. Radní jsou od té doby zamyšlení.",
+      "text_en": "Messenger from Hranice: A merchant arrived from Hungary with new reports. What exactly he brought, no one knows — he went straight to the town hall and sat there two hours. Then he left again. The councillors have been pensive since.",
+      "type": "C",
+      "icon": "✉️",
+      "source": "local_events",
+      "tick": 174,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
+      "type": "B",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 174,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
     {
       "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
       "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
@@ -2163,30 +2182,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 5
-    },
-    {
-      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
-      "type": "D",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 169,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
-      "type": "D",
-      "icon": "🏳️",
-      "source": "local_events",
-      "tick": 168,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_distant": [
