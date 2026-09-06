@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-06T13:29:33.563Z",
-  "valid_until": "2026-09-13T13:29:33.563Z",
+  "generated": "2026-09-06T18:09:45.299Z",
+  "valid_until": "2026-09-13T18:09:45.299Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -68,7 +68,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 20,
-    "windKmH": 8,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 6,
-    "total_tick": 175,
+    "total_tick": 176,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 6"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 1,
       "status": "prosperujici",
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 100,
+      "wealth": 93,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 84,
+      "wealth": 83,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 93,
-      "mood": 97,
+      "wealth": 92,
+      "mood": 96,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1822,6 +1822,30 @@
   ],
   "chronicle": [
     {
+      "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
+      "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
+      "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 176,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 176,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
@@ -2036,33 +2060,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 5
-    },
-    {
-      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
-      "type": "D",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 169,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
-      "type": "D",
-      "icon": "🏳️",
-      "source": "local_events",
-      "tick": 168,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
+      "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
+      "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 176,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
+    {
+      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
+      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
+      "type": "A",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 176,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 6
+    },
     {
       "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
       "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
@@ -2155,30 +2179,6 @@
       "icon": "🕊️",
       "source": "monastery_internal",
       "tick": 172,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
-      "type": "A",
-      "icon": "🤕",
-      "source": "local_events",
-      "tick": 171,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 171,
       "year": 1465,
       "season": "Podzim",
       "day": 5
