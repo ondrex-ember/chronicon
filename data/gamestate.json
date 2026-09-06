@@ -2,17 +2,17 @@
   "time": {
     "year": 1465,
     "season": 2,
-    "day": 6,
+    "day": 7,
     "daysPerSeason": 90,
-    "totalTick": 176
+    "totalTick": 177
   },
   "weather": {
     "key": "autumn_clear",
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 4,
+    "tempC": 15,
+    "windKmH": 2,
     "rainMm": 0
   },
   "virtue": {
@@ -59,7 +59,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 98.99325819765055,
+      "wealth": 98.51881923070265,
       "mood": 100,
       "stores": 0.5181325000000014,
       "storesMax": 100,
@@ -87,8 +87,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 97.52499133239652,
-      "mood": 99.29094427180351,
+      "wealth": 98.51895326797965,
+      "mood": 99.19405584151359,
       "stores": 9.6264621375,
       "storesMax": 90,
       "status": "prosperujici",
@@ -115,8 +115,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 92.8024927895879,
-      "mood": 98.72082715784475,
+      "wealth": 93.6970447577441,
+      "mood": 100,
       "stores": 6.365558265625001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -143,8 +143,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 83.23828122737467,
-      "mood": 99.51596411394118,
+      "wealth": 82.30621936424102,
+      "mood": 100,
       "stores": 5.445366113281251,
       "storesMax": 70,
       "status": "prosperujici",
@@ -172,7 +172,7 @@
       "profession": "Vorař",
       "core": true,
       "wealth": 100,
-      "mood": 99.19779637354615,
+      "mood": 100,
       "stores": 4.785450820312501,
       "storesMax": 50,
       "status": "prosperujici",
@@ -199,7 +199,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 84.93978884851455,
+      "wealth": 84.6606379246994,
       "mood": 100,
       "stores": 4.35800421875,
       "storesMax": 70,
@@ -255,7 +255,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.50946355955271,
+      "wealth": 99.59925054361301,
       "mood": 100,
       "stores": 5.510484179687501,
       "storesMax": 70,
@@ -283,8 +283,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 98.0497995122114,
-      "mood": 99.77023078597595,
+      "wealth": 97.8957481272579,
+      "mood": 100,
       "stores": 6.11841105078125,
       "storesMax": 100,
       "status": "prosperujici",
@@ -311,8 +311,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 97.75512028604999,
-      "mood": 100,
+      "wealth": 98.6292840339019,
+      "mood": 99.04269367674007,
       "stores": 6.245828346875001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -341,8 +341,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 92.32892739846467,
-      "mood": 96.31701189399095,
+      "wealth": 93.13678748892136,
+      "mood": 98.43536915526074,
       "stores": 4.451720304687502,
       "storesMax": 75,
       "status": "prosperujici",
@@ -434,6 +434,30 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
     {
       "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
       "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
@@ -1366,30 +1390,6 @@
       "icon": "🦗",
       "source": "monastery_internal",
       "tick": 148,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_cs": "Z Southamptonu přišla zpráva: Bratři Manniniové spolu s lidmi Datiniho domu najali podíl na mohutné anglické lodi, kterou vlastní vznešený rytíř Sir Thomas de Presi. Loď doprovází padesát dobře ozbrojených mužů a střelců z kuší pro obranu před útoky. Tento drahocenný náklad by měl bezpečně dorazit do přístavu Porto Pisano.",
-      "text_en": "News from Southampton: The Mannini brothers, together with men of the Datini house, chartered a share in a massive English ship owned by the noble knight Sir Thomas de Presi. The ship is accompanied by fifty well-armed men and crossbowmen to defend against attacks. This precious cargo should arrive safely at Porto Pisano.",
-      "type": "C",
-      "icon": "⛵",
-      "source": "distant_events",
-      "tick": 147,
-      "year": 1465,
-      "season": "Léto",
-      "day": 91
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 147,
       "year": 1465,
       "season": "Léto",
       "day": 91
@@ -5731,7 +5731,7 @@
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna."
     },
     "mono_130": {
-      "tick": 128,
+      "tick": 177,
       "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad."
     },
     "local_235": {
@@ -5981,6 +5981,10 @@
     "local_202": {
       "tick": 176,
       "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě."
+    },
+    "local_199": {
+      "tick": 177,
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",

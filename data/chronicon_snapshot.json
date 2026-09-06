@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-06T18:09:45.299Z",
-  "valid_until": "2026-09-13T18:09:45.299Z",
+  "generated": "2026-09-06T23:40:11.959Z",
+  "valid_until": "2026-09-13T23:40:11.959Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 4,
+    "tempC": 15,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 6,
-    "total_tick": 176,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 6"
+    "day": 7,
+    "total_tick": 177,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 7"
   },
   "actors": [
     {
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 99,
       "stores": 10,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
-      "mood": 99,
+      "wealth": 94,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 83,
+      "wealth": 82,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -297,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 92,
-      "mood": 96,
+      "wealth": 93,
+      "mood": 98,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1822,6 +1822,30 @@
   ],
   "chronicle": [
     {
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
+    {
       "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
       "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
       "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
@@ -2036,33 +2060,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 5
-    },
-    {
-      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
-      "type": "B",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 170,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
-      "text_cs": "Léta téhož před Narozením Matky božie v sobotu pan Hynek z Kolštejna s Smiřickým jako s šesti Sſty sty jiezdnými do města Pražského vskočili sú, chtiec Prahu obdržeti, v kterémžto městě pan Hynek v domu U Slonuov nalezen jest a zabit jest a svržen jest z domu.",
-      "text_en": "That year, before the Nativity of the Mother of God, Lord Hynek of Kolštejn and Smiřický with six hundred horse burst into Prague — and there perished.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 169,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 177,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
     {
       "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
       "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
@@ -2158,30 +2182,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_en": "From Bystřice: Local hunters managed to trap a massive bear that had been plaguing mountain homesteads in a deep pit. The beast was carted off in a cage to entertain the duke, while the hunters celebrate a rich reward.",
-      "type": "E",
-      "icon": "🐻",
-      "source": "local_events",
-      "tick": 172,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
-      "type": "B",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 172,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
     }
   ],
   "chronicle_distant": [
@@ -2307,7 +2307,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 186,
+    "day_of_year": 187,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
