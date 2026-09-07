@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-07T09:11:36.885Z",
-  "valid_until": "2026-09-14T09:11:36.885Z",
+  "generated": "2026-09-07T15:40:31.348Z",
+  "valid_until": "2026-09-14T15:40:31.348Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 2,
+    "tempC": 24,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 7,
-    "total_tick": 178,
+    "total_tick": 179,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 7"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 98,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 83,
-      "mood": 100,
+      "wealth": 84,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 99,
       "stores": 6,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -443,6 +443,53 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_001",
+      "seal": "village",
+      "type": "A",
+      "icon": "🌾",
+      "tags": [
+        "mlynar",
+        "povodeň",
+        "obilí"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Mlynář",
+      "sender_en": "The Miller",
+      "title_cs": "List mlynářův o vodě",
+      "title_en": "A Letter from the Miller on the Water",
+      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
+      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
+      "choices": [
+        {
+          "id": "help",
+          "label_cs": "🌊 Poslat pomoc s hrází",
+          "label_en": "🌊 Send help with the weir",
+          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
+          "notify_en": "The miller remembers the help. (Miller +4)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "mlynar",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
+          "label_en": "🙏 Wish him luck, we have no hands to spare",
+          "notify_cs": "Mlynář odpověď přijal bez zloby.",
+          "notify_en": "The miller took the answer without ill will.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 179
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -1780,47 +1827,33 @@
         }
       ],
       "_pickedTick": 107
-    },
-    {
-      "id": "cletter_007",
-      "seal": "abbot",
-      "type": "C",
-      "icon": "✝️",
-      "tags": [
-        "opat",
-        "sesterský klášter"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Opat sesterského kláštera",
-      "sender_en": "The Abbot of a Sister House",
-      "title_cs": "Pozdrav od sesterského opatství",
-      "title_en": "Greetings from a Sister Abbey",
-      "text_cs": "„Ctihodní bratři, píši vám jménem svého opatství, s nímž váš dům již dlouho sdílí modlitební bratrství. Vzpomeňte nás v modlitbách o svátku našeho patrona, jako my vzpomínáme vás o vašem. — Opat sesterského kláštera“",
-      "text_en": "\"Venerable brothers, I write in the name of my abbey, which has long shared a bond of prayer with your house. Remember us in your prayers on our patron's feast, as we remember you on yours. — The Abbot of a Sister House\"",
-      "choices": [
-        {
-          "id": "accept",
-          "label_cs": "🕊️ Opětovat bratrství v modlitbě",
-          "label_en": "🕊️ Return the bond of prayer",
-          "notify_cs": "Bratrství potvrzeno. (Ecclesia +2)",
-          "notify_en": "The bond is confirmed. (Ecclesia +2)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "church",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 106
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
+      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
+      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 179,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
+    {
+      "text": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
+      "text_cs": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
+      "text_en": "Coroner's record: Woodcutter Jíra was felling an old fir on the slopes of Hostýn when the trunk unexpectedly splintered and struck him down. He died of internal bleeding before his journeymen could carry him to the village.",
+      "type": "A",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 179,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
     {
       "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
@@ -2036,33 +2069,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 5
-    },
-    {
-      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
-      "type": "A",
-      "icon": "🤕",
-      "source": "local_events",
-      "tick": 171,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 171,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
+      "text_cs": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
+      "text_en": "Coroner's record: Woodcutter Jíra was felling an old fir on the slopes of Hostýn when the trunk unexpectedly splintered and struck him down. He died of internal bleeding before his journeymen could carry him to the village.",
+      "type": "A",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 179,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
     {
       "text": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
       "text_cs": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
@@ -2170,21 +2191,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 173,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
+      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
+      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "distant_events",
+      "tick": 179,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 7
+    },
     {
       "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
@@ -2289,18 +2310,6 @@
       "icon": "🍞",
       "source": "distant_events",
       "tick": 165,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
-    },
-    {
-      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
-      "type": "B",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 164,
       "year": 1465,
       "season": "Podzim",
       "day": 4
