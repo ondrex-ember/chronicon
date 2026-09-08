@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-08T19:21:15.284Z",
-  "valid_until": "2026-09-15T19:21:15.284Z",
+  "generated": "2026-09-08T23:57:17.758Z",
+  "valid_until": "2026-09-15T23:57:17.758Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 26,
-    "windKmH": 4,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 23,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 8,
-    "total_tick": 184,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 8"
+    "day": 9,
+    "total_tick": 185,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 9"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -136,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -205,8 +205,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 84,
-      "mood": 99,
+      "wealth": 83,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 99,
       "stores": 6,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -1831,6 +1831,18 @@
   ],
   "chronicle": [
     {
+      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 185,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
@@ -2057,21 +2069,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 175,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 185,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
       "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
@@ -2176,18 +2188,6 @@
       "icon": "🌲",
       "source": "local_events",
       "tick": 179,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
-      "text_cs": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
-      "text_en": "A grand wedding took place between the daughter of a wealthy Opava maltster and a Kraków merchant. The feast lasted three days, and twelve barrels of wine were drunk. The newlyweds donated a silver chalice to the church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 178,
       "year": 1465,
       "season": "Podzim",
       "day": 7
@@ -2316,7 +2316,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 188,
+    "day_of_year": 189,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
