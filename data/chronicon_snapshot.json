@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-08T00:06:13.239Z",
-  "valid_until": "2026-09-15T00:06:13.239Z",
+  "generated": "2026-09-08T08:45:57.762Z",
+  "valid_until": "2026-09-15T08:45:57.762Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 3,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 22,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 8,
-    "total_tick": 181,
+    "total_tick": 182,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 8"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 99,
       "stores": 10,
       "status": "prosperujici",
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 82,
+      "wealth": 83,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -1831,6 +1831,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
+    {
+      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
+      "type": "A",
+      "icon": "🏗️",
+      "source": "local_events",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
+    {
+      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
+      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
+      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
+    {
       "text": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
       "text_cs": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
       "text_en": "A dead Italian merchant was found on the road to Brno. He had a dagger stuck in his back, but surprisingly his heavy purse with gold florins remained untouched on his belt. Authorities believe it was a contract killing out of personal revenge, not a robbery.",
@@ -2033,45 +2069,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
-      "text_cs": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
-      "text_en": "A note from Prague: King George hath sent letters to the surrounding rulers, proposing peace among Christians. Answer came but from a few courts, and that lukewarm. The courtiers say this dream exceedeth the king's strength.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 173,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
-    },
-    {
-      "text": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_cs": "Cech pergameníků podal ostrou stížnost proti kupcům, kteří do města přivezli vozy plné papíru s norimberským vodoznakem. Argumentují, že tyto levné hadrové listy kazí mravy a ohrožují staré poctivé řemeslo. Purkmistr se snaží situaci uklidnit a spor odročil na příští týden.",
-      "text_en": "The parchment makers' guild filed a bitter complaint against merchants who brought wagons full of paper with a Nuremberg watermark into the town. They argue that these cheap rag sheets ruin morals and threaten the honest old craft. The burgomaster is trying to calm the situation and postponed the dispute until next week.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 173,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 173,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
+      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
+      "type": "A",
+      "icon": "🏗️",
+      "source": "local_events",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
+    {
+      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
+      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
+      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
+      "type": "B",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
     {
       "text": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
       "text_cs": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
@@ -2167,33 +2191,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 176,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 175,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 182,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 8
+    },
     {
       "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
       "text_cs": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
@@ -2301,18 +2313,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 5
-    },
-    {
-      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
-      "type": "D",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 167,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "church_calendar": {
