@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-08T23:57:17.758Z",
-  "valid_until": "2026-09-15T23:57:17.758Z",
+  "generated": "2026-09-09T08:51:56.452Z",
+  "valid_until": "2026-09-16T08:51:56.452Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 23,
-    "windKmH": 8,
+    "windKmH": 14,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 9,
-    "total_tick": 185,
+    "total_tick": 186,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 9"
   },
   "actors": [
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 100,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +140,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 100,
+      "wealth": 93,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -205,8 +209,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 83,
-      "mood": 100,
+      "wealth": 84,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -228,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -298,7 +302,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -443,6 +447,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 186
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -1780,56 +1841,33 @@
         }
       ],
       "_pickedTick": 109
-    },
-    {
-      "id": "cletter_001",
-      "seal": "village",
-      "type": "A",
-      "icon": "🌾",
-      "tags": [
-        "mlynar",
-        "povodeň",
-        "obilí"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Mlynář",
-      "sender_en": "The Miller",
-      "title_cs": "List mlynářův o vodě",
-      "title_en": "A Letter from the Miller on the Water",
-      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
-      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
-      "choices": [
-        {
-          "id": "help",
-          "label_cs": "🌊 Poslat pomoc s hrází",
-          "label_en": "🌊 Send help with the weir",
-          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
-          "notify_en": "The miller remembers the help. (Miller +4)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "mlynar",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
-          "label_en": "🙏 Wish him luck, we have no hands to spare",
-          "notify_cs": "Mlynář odpověď přijal bez zloby.",
-          "notify_en": "The miller took the answer without ill will.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 107
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
+      "type": "D",
+      "icon": "📿",
+      "source": "distant_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
       "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
@@ -2045,33 +2083,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 176,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 176,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
       "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
@@ -2179,21 +2205,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
-      "text_cs": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
-      "text_en": "Coroner's record: Woodcutter Jíra was felling an old fir on the slopes of Hostýn when the trunk unexpectedly splintered and struck him down. He died of internal bleeding before his journeymen could carry him to the village.",
-      "type": "A",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 179,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
+      "type": "D",
+      "icon": "📿",
+      "source": "distant_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -2298,18 +2324,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 171,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_cs": "Z Prahy: Na Staroměstském náměstí dnes popravili dva lapky, kteří přepadali kupce na cestě k Berounu. Na trhu byl zmatek, stánky se převracely. Děti se na popravu dívaly ze stromů.",
-      "text_en": "From Prague: Two robbers who had been waylaying merchants on the road to Beroun were executed in the Old Town Square today. There was chaos at the market, stalls were overturned. Children watched the execution from the trees.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "distant_events",
-      "tick": 170,
       "year": 1465,
       "season": "Podzim",
       "day": 5

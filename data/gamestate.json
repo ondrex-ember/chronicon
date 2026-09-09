@@ -4,15 +4,15 @@
     "season": 2,
     "day": 9,
     "daysPerSeason": 90,
-    "totalTick": 185
+    "totalTick": 186
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 23,
-    "windKmH": 8,
+    "windKmH": 14,
     "rainMm": 0
   },
   "virtue": {
@@ -59,8 +59,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 97.38122474431457,
-      "mood": 99.26303505816078,
+      "wealth": 98.15008474235064,
+      "mood": 100,
       "stores": 0.5181325000000014,
       "storesMax": 100,
       "status": "prosperujici",
@@ -87,8 +87,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 98.21595211192684,
-      "mood": 100,
+      "wealth": 98.56275846139616,
+      "mood": 99.19234195929006,
       "stores": 9.6264621375,
       "storesMax": 90,
       "status": "prosperujici",
@@ -115,8 +115,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 92.21596472562614,
-      "mood": 100,
+      "wealth": 93.05228044332401,
+      "mood": 99.4258540783345,
       "stores": 6.365558265625001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -143,7 +143,7 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 82.91419006245916,
+      "wealth": 82.90175898478,
       "mood": 100,
       "stores": 5.445366113281251,
       "storesMax": 70,
@@ -171,8 +171,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 99.65880673676932,
-      "mood": 100,
+      "wealth": 99.99747125929504,
+      "mood": 99.5482070741965,
       "stores": 4.785450820312501,
       "storesMax": 50,
       "status": "prosperujici",
@@ -199,8 +199,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 83.4082866820199,
-      "mood": 99.81592243079423,
+      "wealth": 84.02994297287105,
+      "mood": 99.11919592075567,
       "stores": 4.35800421875,
       "storesMax": 70,
       "status": "prosperujici",
@@ -227,7 +227,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 98.30090248862834,
+      "wealth": 97.44358531313688,
       "mood": 100,
       "stores": 7.143039840625001,
       "storesMax": 60,
@@ -255,7 +255,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.7088293017558,
       "mood": 100,
       "stores": 5.510484179687501,
       "storesMax": 70,
@@ -283,8 +283,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.5689332748357,
-      "mood": 100,
+      "wealth": 99.8815526820342,
+      "mood": 99.59728796621154,
       "stores": 6.11841105078125,
       "storesMax": 100,
       "status": "prosperujici",
@@ -311,8 +311,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.49879463223984,
-      "mood": 99.47488006977952,
+      "wealth": 98.95510107386481,
+      "mood": 100,
       "stores": 6.245828346875001,
       "storesMax": 80,
       "status": "prosperujici",
@@ -341,7 +341,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 91.59615069332946,
+      "wealth": 92.04048125755465,
       "mood": 100,
       "stores": 4.451720304687502,
       "storesMax": 75,
@@ -434,6 +434,30 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
+      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
+      "type": "D",
+      "icon": "📿",
+      "source": "distant_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
+      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 186,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
       "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
@@ -1369,33 +1393,66 @@
       "year": 1465,
       "season": "Podzim",
       "day": 1
-    },
-    {
-      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 154,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 1
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 186
+    },
     {
       "id": "cletter_001",
       "seal": "village",
@@ -4986,7 +5043,7 @@
       "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami."
     },
     "porta_cletter_002": {
-      "tick": 136,
+      "tick": 186,
       "text": "cletter_002"
     },
     "local_131": {
@@ -5374,7 +5431,7 @@
       "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů."
     },
     "zbras_031": {
-      "tick": 65,
+      "tick": 186,
       "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé."
     },
     "local_007": {
@@ -5478,7 +5535,7 @@
       "text": "Moje včely dnes vyletěly přesně při zvuku poledního zvonu. Mají v sobě více poslušnosti než polovina noviců. Usmál jsem se a vyčistil dno úlu. Svět je někdy v dokonalé harmonii."
     },
     "local_040": {
-      "tick": 158,
+      "tick": 186,
       "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb."
     },
     "mono_026": {
