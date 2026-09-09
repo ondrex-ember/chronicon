@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-09T14:18:06.518Z",
-  "valid_until": "2026-09-16T14:18:06.518Z",
+  "generated": "2026-09-09T19:10:57.095Z",
+  "valid_until": "2026-09-16T19:10:57.095Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,9 +71,9 @@
     "name": "Déšť",
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 19,
-    "windKmH": 12,
-    "rainMm": 0.3,
+    "tempC": 17,
+    "windKmH": 6,
+    "rainMm": 0,
     "season": 2,
     "modifier_grain": 0.95,
     "modifier_wood": 1
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 9,
-    "total_tick": 187,
+    "total_tick": 188,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 9"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 1,
       "status": "prosperujici",
@@ -117,7 +117,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 83,
+      "wealth": 84,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -256,7 +256,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -301,7 +301,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -447,6 +447,48 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_015",
+      "seal": "noble",
+      "type": "E",
+      "icon": "🛡️",
+      "tags": [
+        "šlechta",
+        "poděkování"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Paní z blízkého dvora",
+      "sender_en": "The Lady of a Nearby Manor",
+      "title_cs": "Poděkování paní z blízkého dvora",
+      "title_en": "Thanks from the Lady of a Nearby Manor",
+      "text_cs": "„Ctihodní otcové, můj manžel se uzdravil z horečky poté, co jste za něj odsloužili mši, o niž jsem prosila. Nevím, zda to způsobily modlitby, nebo lékařův odvar, ale vděk patří oběma. Přijměte prosím tento skromný dar. — Paní z blízkého dvora“",
+      "text_en": "\"Reverend fathers, my husband has recovered from his fever after you said the mass I asked for. I know not whether it was the prayers or the physician's draught, but the gratitude belongs to both. Pray accept this modest gift. — The Lady of a Nearby Manor\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "🙏 Přijmout dar s díky (+12 grošů)",
+          "label_en": "🙏 Accept the gift with thanks (+12 groschen)",
+          "notify_cs": "Dar přijat. (+12 grošů, Ecclesia +2)",
+          "notify_en": "The gift is accepted. (+12 groschen, Ecclesia +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 12
+            },
+            {
+              "type": "influence",
+              "axis": "church",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 188
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -1784,66 +1826,45 @@
         }
       ],
       "_pickedTick": 116
-    },
-    {
-      "id": "cletter_002",
-      "seal": "village",
-      "type": "D",
-      "icon": "🐐",
-      "tags": [
-        "hranice",
-        "spor",
-        "vesnice"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Rychtář z Chválkovic",
-      "sender_en": "The Bailiff of Chválkovice",
-      "title_cs": "Stížnost rychtáře na kozy",
-      "title_en": "The Bailiff's Complaint about the Goats",
-      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
-      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
-      "choices": [
-        {
-          "id": "pay",
-          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
-          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
-          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
-          "notify_en": "The dispute smoothed over with coin. (village +2)",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -6
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 2
-            }
-          ]
-        },
-        {
-          "id": "ignore",
-          "label_cs": "🤷 Plot spraví bratři sami, časem",
-          "label_en": "🤷 The brothers will mend it themselves, in time",
-          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
-          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 109
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
+      "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
+      "text_en": "That year the town of Brod was taken by the Praguers and many people slain; the German mercenaries fled to the belfry, and in that belfry were burned.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
+      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
+      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
+      "text_cs": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
+      "text_en": "Due to today's fog, my set-aside sheet got damp, and the ink is bleeding. I will have to trim the quill to make the line sharper. A scribe's life is a battle with humidity, blunt pens, and one's own inattention.",
+      "type": "B",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
       "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
@@ -2047,45 +2068,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
-      "text_cs": "Zápis koronera: Dřevorubec Jíra kácel starou jedli na svazích Hostýna, když se kmen nečekaně rozštípl a srazil ho k zemi. Zemřel na vnitřní krvácení dříve, než ho tovaryši donesli do vsi.",
-      "text_en": "Coroner's record: Woodcutter Jíra was felling an old fir on the slopes of Hostýn when the trunk unexpectedly splintered and struck him down. He died of internal bleeding before his journeymen could carry him to the village.",
-      "type": "A",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 179,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
-    },
-    {
-      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
-      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
-      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
-      "type": "A",
-      "icon": "📖",
-      "source": "distant_events",
-      "tick": 178,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
-      "text_cs": "Konala se velkolepá svatba dcery bohatého opavského sladovníka s krakovským kupcem. Hostina trvala tři dny a vypilo se dvanáct sudů vína. Novomanželé věnovali kostelu stříbrný kalich.",
-      "text_en": "A grand wedding took place between the daughter of a wealthy Opava maltster and a Kraków merchant. The feast lasted three days, and twelve barrels of wine were drunk. The newlyweds donated a silver chalice to the church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 178,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
+      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
+      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
+      "text_cs": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
+      "text_en": "Due to today's fog, my set-aside sheet got damp, and the ink is bleeding. I will have to trim the quill to make the line sharper. A scribe's life is a battle with humidity, blunt pens, and one's own inattention.",
+      "type": "B",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
       "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
@@ -2181,33 +2190,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
-      "text_cs": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
-      "text_en": "A dead Italian merchant was found on the road to Brno. He had a dagger stuck in his back, but surprisingly his heavy purse with gold florins remained untouched on his belt. Authorities believe it was a contract killing out of personal revenge, not a robbery.",
-      "type": "D",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 181,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Svatý otec Pavel II. vyhlásil českého krále za křivopřísežníka a zavilého kacíře. Zbavil ho královského titulu a poddané zprostil veškerých přísah věrnosti vůči jeho osobě. Tato klatba šíří mezi věřícími hrůzu a mnozí se ptají, zda nevypukne nová krvavá válka.",
-      "text_cs": "Svatý otec Pavel II. vyhlásil českého krále za křivopřísežníka a zavilého kacíře. Zbavil ho královského titulu a poddané zprostil veškerých přísah věrnosti vůči jeho osobě. Tato klatba šíří mezi věřícími hrůzu a mnozí se ptají, zda nevypukne nová krvavá válka.",
-      "text_en": "Holy Father Paul II declared the Czech king a perjurer and a hardened heretic. He stripped him of his royal title and absolved his subjects of all oaths of loyalty to his person. This anathema spreads terror among the faithful, and many wonder if a new bloody war will break out.",
-      "type": "D",
-      "icon": "🌩️",
-      "source": "local_events",
-      "tick": 180,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
+      "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
+      "text_en": "That year the town of Brod was taken by the Praguers and many people slain; the German mercenaries fled to the belfry, and in that belfry were burned.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 188,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
       "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
@@ -2315,18 +2312,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_cs": "Pražský zápisník: Cena chleba stoupla již potřetí tento měsíc. Pekaři říkají, že za mlýnský kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik lidí omdlelo přímo před krámem.",
-      "text_en": "Prague notebook: The price of bread has risen for the third time this month. Bakers say the millstone costs more than before. The poor queue from dawn. Several people fainted right in front of the shop.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 172,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
     }
   ],
   "church_calendar": {
