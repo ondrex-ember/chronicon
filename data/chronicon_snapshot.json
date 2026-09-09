@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-09T08:51:56.452Z",
-  "valid_until": "2026-09-16T08:51:56.452Z",
+  "generated": "2026-09-09T14:18:06.518Z",
+  "valid_until": "2026-09-16T14:18:06.518Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 23,
-    "windKmH": 14,
-    "rainMm": 0,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 19,
+    "windKmH": 12,
+    "rainMm": 0.3,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 9,
-    "total_tick": 186,
+    "total_tick": 187,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 9"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 1,
       "status": "prosperujici",
@@ -117,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -141,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 93,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -209,8 +209,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 84,
-      "mood": 99,
+      "wealth": 85,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -232,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -255,8 +255,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -279,7 +279,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -324,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -1845,6 +1845,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
+      "type": "D",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 187,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 187,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
+    {
       "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
       "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
@@ -2059,33 +2083,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 177,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 177,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
+      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 187,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
       "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
@@ -2193,21 +2205,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 180,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
+      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
+      "type": "D",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 187,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 9
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
@@ -2312,18 +2324,6 @@
       "icon": "🌾",
       "source": "distant_events",
       "tick": 172,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 5
-    },
-    {
-      "text": "Léta tisíc CCCX Jan, hrabie lucemburský, přijat jest do země české za král. A téhož léta pojal jest Alžbětu, kněžnu českú.",
-      "text_cs": "Léta tisíc CCCX Jan, hrabie lucemburský, přijat jest do země české za král. A téhož léta pojal jest Alžbětu, kněžnu českú.",
-      "text_en": "In 1310 John, Count of Luxembourg, was received as king of Bohemia; that year he wed Elizabeth, princess of Bohemia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 171,
       "year": 1465,
       "season": "Podzim",
       "day": 5
