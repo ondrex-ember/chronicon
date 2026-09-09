@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-09T19:10:57.095Z",
-  "valid_until": "2026-09-16T19:10:57.095Z",
+  "generated": "2026-09-09T23:57:28.553Z",
+  "valid_until": "2026-09-16T23:57:28.553Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 17,
-    "windKmH": 6,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 15,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -83,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 9,
-    "total_tick": 188,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 9"
+    "day": 10,
+    "total_tick": 189,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 10"
   },
   "actors": [
     {
@@ -117,7 +117,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 10,
       "status": "prosperujici",
@@ -140,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -164,7 +164,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 84,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -255,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -279,7 +279,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -447,6 +447,61 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 189
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -1787,48 +1842,21 @@
         }
       ],
       "_pickedTick": 118
-    },
-    {
-      "id": "cletter_006",
-      "seal": "scholars",
-      "type": "B",
-      "icon": "🎨",
-      "tags": [
-        "lazurit",
-        "pigmenty",
-        "benátky"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Giacomo Foscari",
-      "sender_en": "Giacomo Foscari",
-      "title_cs": "Varování Giacoma Foscariho",
-      "title_en": "A Warning from Giacomo Foscari",
-      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
-      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
-      "choices": [
-        {
-          "id": "note",
-          "label_cs": "📜 Vzít na vědomí",
-          "label_en": "📜 Take note",
-          "notify_cs": "Zvěst uložena v paměti celeráře.",
-          "notify_en": "The rumor is filed in the cellarer's memory.",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "giacomo",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 116
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 189,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
     {
       "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
       "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
@@ -2056,18 +2084,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 179,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_local": [
@@ -2194,6 +2210,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 189,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
+    {
       "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
       "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
       "text_en": "That year the town of Brod was taken by the Praguers and many people slain; the German mercenaries fled to the belfry, and in that belfry were burned.",
@@ -2300,22 +2328,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 6
-    },
-    {
-      "text": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
-      "text_cs": "Zápis z Prahy: Král Jiří vyslal listy k panovníkům okolním, mír mezi křesťany navrhuje. Odpověď přišla jen z málokterých dvorů a ta vlažná. Dvořané praví, že sen ten větší jest než síly krále.",
-      "text_en": "A note from Prague: King George hath sent letters to the surrounding rulers, proposing peace among Christians. Answer came but from a few courts, and that lukewarm. The courtiers say this dream exceedeth the king's strength.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 173,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "church_calendar": {
-    "day_of_year": 189,
+    "day_of_year": 190,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,

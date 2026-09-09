@@ -2,17 +2,17 @@
   "time": {
     "year": 1465,
     "season": 2,
-    "day": 9,
+    "day": 10,
     "daysPerSeason": 90,
-    "totalTick": 188
+    "totalTick": 189
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 17,
-    "windKmH": 6,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 15,
+    "windKmH": 9,
     "rainMm": 0
   },
   "virtue": {
@@ -59,7 +59,7 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 98.02860707080153,
+      "wealth": 98.47934954941962,
       "mood": 100,
       "stores": 0.5181325000000014,
       "storesMax": 100,
@@ -87,7 +87,7 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 98.88172603294484,
+      "wealth": 98.35324911963129,
       "mood": 100,
       "stores": 9.6264621375,
       "storesMax": 90,
@@ -115,7 +115,7 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 92.93703017056168,
+      "wealth": 92.2497990574853,
       "mood": 100,
       "stores": 6.365558265625001,
       "storesMax": 80,
@@ -143,8 +143,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 83.55463577025182,
-      "mood": 100,
+      "wealth": 84.35086580403136,
+      "mood": 99.45564599766924,
       "stores": 5.445366113281251,
       "storesMax": 70,
       "status": "prosperujici",
@@ -171,7 +171,7 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 99.79794956356388,
+      "wealth": 100,
       "mood": 100,
       "stores": 4.785450820312501,
       "storesMax": 50,
@@ -199,7 +199,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 84.51975111930156,
+      "wealth": 85.22806703419946,
       "mood": 100,
       "stores": 4.35800421875,
       "storesMax": 70,
@@ -227,8 +227,8 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 98.34484592425531,
-      "mood": 100,
+      "wealth": 98.49822688688596,
+      "mood": 99.68160512720793,
       "stores": 7.143039840625001,
       "storesMax": 60,
       "status": "prosperujici",
@@ -255,7 +255,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.14209156655312,
+      "wealth": 98.26743872473622,
       "mood": 100,
       "stores": 5.510484179687501,
       "storesMax": 70,
@@ -283,8 +283,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 100,
-      "mood": 98.81835454454118,
+      "wealth": 99.98326277337931,
+      "mood": 100,
       "stores": 6.11841105078125,
       "storesMax": 100,
       "status": "prosperujici",
@@ -311,7 +311,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.2639945737123,
+      "wealth": 98.40516210150443,
       "mood": 100,
       "stores": 6.245828346875001,
       "storesMax": 80,
@@ -341,7 +341,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 91.14159909811946,
+      "wealth": 91.3816430576211,
       "mood": 100,
       "stores": 4.451720304687502,
       "storesMax": 75,
@@ -434,6 +434,18 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
+      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 189,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
     {
       "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
       "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
@@ -1381,21 +1393,64 @@
       "year": 1465,
       "season": "Podzim",
       "day": 2
-    },
-    {
-      "text": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_cs": "Při stahování kůže z čerstvě poraženého vola v masných krámech uklouzl řeznický tovaryš na krvavé podlaze. Nešťastník padl přímo na ostrý stahovací nůž, který mu prorazil plíci. Přes rychlou pomoc umřel do několika minut a koroner nařídil podlahy posypat popelem a pilinami.",
-      "text_en": "While skinning a freshly slaughtered ox in the meat stalls, a butcher's journeyman slipped on the bloody floor. The unfortunate man fell directly onto a sharp flaying knife, which pierced his lung. Despite quick help, he died within minutes, and the coroner ordered the floors sprinkled with ash and sawdust.",
-      "type": "A",
-      "icon": "🔪",
-      "source": "local_events",
-      "tick": 156,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 2
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_010",
+      "seal": "village",
+      "type": "D",
+      "icon": "🔥",
+      "tags": [
+        "požár",
+        "vesnice",
+        "pohroma"
+      ],
+      "conditions": {
+        "season": [
+          1,
+          2
+        ],
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Soused od kováře",
+      "sender_en": "A Neighbour of the Smith",
+      "title_cs": "Zpráva o požáru u kovárny",
+      "title_en": "News of a Fire by the Forge",
+      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
+      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
+      "choices": [
+        {
+          "id": "alms",
+          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
+          "label_en": "🌾 Send alms of grain (−15 grain)",
+          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
+          "notify_en": "The family received the alms with tears. (village +4)",
+          "effects": [
+            {
+              "type": "item",
+              "id": "grain",
+              "qty": -15
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "id": "pray",
+          "label_cs": "🙏 Slíbit jen modlitbu",
+          "label_en": "🙏 Promise only a prayer",
+          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
+          "notify_en": "The family gives thanks, but the winter will be hard.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 189
+    },
     {
       "id": "cletter_015",
       "seal": "noble",
@@ -5217,7 +5272,7 @@
       "text": "Na místní tržiště dorazily z ciziny drahocenné vozy naložené hrudami surového kamence od janovských kupců. Zboží je životně důležité pro barvíře suken k ustálení sytých barev na látkách. Kupecké cechy z širokého okolí draží surovinu, která tak mizí obrovskou rychlostí."
     },
     "letopisy_013": {
-      "tick": 76,
+      "tick": 189,
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství."
     },
     "mono_068": {
@@ -5393,7 +5448,7 @@
       "text": "Z Přerova: Městská stráž dopadla zloděje, který se pokoušel na trhu prodat ukradeného ryzáka. Rychtář nařídil muže zmrskat a vypovědět z města, zatímco kůň byl vrácen šťastnému majiteli z Lipníku."
     },
     "porta_cletter_010": {
-      "tick": 163,
+      "tick": 189,
       "text": "cletter_010"
     },
     "zbras_023": {
