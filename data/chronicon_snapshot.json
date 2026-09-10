@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-10T14:11:22.683Z",
-  "valid_until": "2026-09-17T14:11:22.683Z",
+  "generated": "2026-09-10T19:02:16.109Z",
+  "valid_until": "2026-09-17T19:02:16.109Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
-    "windKmH": 2,
+    "tempC": 17,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 10,
-    "total_tick": 191,
+    "total_tick": 192,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 10"
   },
   "actors": [
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 91,
-      "mood": 100,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 85,
+      "wealth": 84,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 86,
+      "wealth": 87,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -1842,6 +1842,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 192,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
+    {
+      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 192,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
+    {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
@@ -2056,33 +2080,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 182,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
-      "text_cs": "Na cestě do Brna byl nalezen mrtvý italský obchodník. V zádech měl zabodnutou dýku, ale překvapivě jeho těžký měšec se zlatými florény zůstal nedotčen na opasku. Úřady se domnívají, že šlo o nájemnou vraždu z osobní msty, nikoliv o loupež.",
-      "text_en": "A dead Italian merchant was found on the road to Brno. He had a dagger stuck in his back, but surprisingly his heavy purse with gold florins remained untouched on his belt. Authorities believe it was a contract killing out of personal revenge, not a robbery.",
-      "type": "D",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 181,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
+      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 192,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
     {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
@@ -2190,21 +2202,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 184,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
+      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 192,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
     {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
@@ -2312,18 +2324,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 175,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 6
     }
   ],
   "church_calendar": {
