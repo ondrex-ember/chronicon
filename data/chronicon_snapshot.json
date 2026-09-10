@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-10T19:02:16.109Z",
-  "valid_until": "2026-09-17T19:02:16.109Z",
+  "generated": "2026-09-10T23:53:59.235Z",
+  "valid_until": "2026-09-17T23:53:59.235Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 5,
+    "tempC": 13,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 10,
-    "total_tick": 192,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 10"
+    "day": 11,
+    "total_tick": 193,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 11"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 1,
       "status": "prosperujici",
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 91,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -443,6 +443,45 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_014",
+      "seal": "church",
+      "type": "A",
+      "icon": "🔔",
+      "tags": [
+        "zvon",
+        "sklář",
+        "kostel"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Sklář z hutě v lesích",
+      "sender_en": "A Glassmaker from the Forest Works",
+      "title_cs": "List sklářův o barevném skle",
+      "title_en": "The Glassmaker's Letter about Coloured Glass",
+      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
+      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
+      "choices": [
+        {
+          "id": "visit",
+          "label_cs": "🔮 Zajet se podívat",
+          "label_en": "🔮 Go and see",
+          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
+          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "sklar",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 193
+    },
     {
       "id": "cletter_010",
       "seal": "village",
@@ -1787,60 +1826,33 @@
         }
       ],
       "_pickedTick": 120
-    },
-    {
-      "id": "cletter_013",
-      "seal": "village",
-      "type": "A",
-      "icon": "🧂",
-      "tags": [
-        "sůl",
-        "kupec",
-        "cesta"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Potulný solný kupec",
-      "sender_en": "A Wandering Salt Merchant",
-      "title_cs": "Nabídka solného kupce",
-      "title_en": "A Salt Merchant's Offer",
-      "text_cs": "„Bratře celeráři, vezu sůl z Halle, čerstvou a bílou, a mířím dál na jih. Zastavím se u brány zítra za svítání — kdo první, ten mele, jak se říká o mlýnu, ne o soli, ale platí to stejně. — Potulný solný kupec“",
-      "text_en": "\"Brother cellarer, I carry salt from Halle, fresh and white, and I am bound further south. I shall stop at your gate tomorrow at dawn — first come, first served, as they say of the mill, though this is salt. It holds true all the same. — A Wandering Salt Merchant\"",
-      "choices": [
-        {
-          "id": "buy",
-          "label_cs": "🧂 Koupit zásobu (−8 grošů, +6 sůl)",
-          "label_en": "🧂 Buy a stock (−8 groschen, +6 salt)",
-          "notify_cs": "Sůl uložena ve špižírně.",
-          "notify_en": "The salt is stored in the pantry.",
-          "effects": [
-            {
-              "type": "grose",
-              "amount": -8
-            },
-            {
-              "type": "item",
-              "id": "salt",
-              "qty": 6
-            }
-          ]
-        },
-        {
-          "id": "skip",
-          "label_cs": "🚪 Nechat ho jít dál",
-          "label_en": "🚪 Let him move on",
-          "notify_cs": "Kupec pokračoval na jih.",
-          "notify_en": "The merchant continued south.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 118
     }
   ],
   "chronicle": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 193,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
+      "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
+      "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
+      "type": "D",
+      "icon": "🏳️",
+      "source": "local_events",
+      "tick": 193,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
       "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
@@ -2056,33 +2068,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 182,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_cs": "Při opravě střechy na patricijském domě prasklo nosné lešení a dva zedničtí tovaryši se zřítili na dlážděnou ulici. Jeden z nich zemřel ihned, druhý podlehl svým zraněním o několik hodin později u ranhojiče. Koroner nařídil prošetřit kvalitu dřeva použitého na stavbu.",
-      "text_en": "During roof repairs on a patrician house, the supporting scaffolding broke, and two journeyman masons fell onto the paved street. One died immediately, the other succumbed to his injuries a few hours later at the barber-surgeon's. The coroner ordered an investigation into the quality of the wood used for the construction.",
-      "type": "A",
-      "icon": "🏗️",
-      "source": "local_events",
-      "tick": 182,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
+      "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
+      "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
+      "type": "D",
+      "icon": "🏳️",
+      "source": "local_events",
+      "tick": 193,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
       "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
@@ -2190,21 +2190,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 9
-    },
-    {
-      "text": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_cs": "Zápis koronera: Vdova Kateřina Tkalcová vystoupila na střechu svého domu opravit krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na nejstaršího syna.",
-      "text_en": "Coroner's record: Widow Kateřina the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to the eldest son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 184,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 193,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
       "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
@@ -2312,22 +2312,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
-      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
-      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
-      "type": "A",
-      "icon": "📖",
-      "source": "distant_events",
-      "tick": 178,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "church_calendar": {
-    "day_of_year": 190,
+    "day_of_year": 191,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
