@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-09T23:57:28.553Z",
-  "valid_until": "2026-09-16T23:57:28.553Z",
+  "generated": "2026-09-10T08:50:45.242Z",
+  "valid_until": "2026-09-17T08:50:45.242Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -72,7 +68,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 15,
-    "windKmH": 9,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 10,
-    "total_tick": 189,
+    "total_tick": 190,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 10"
   },
   "actors": [
@@ -117,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
+      "wealth": 91,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -164,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 84,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -186,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -209,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 85,
+      "wealth": 86,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -233,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -256,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 100,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -278,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -301,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -324,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 91,
+      "wealth": 92,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -1846,6 +1842,18 @@
   ],
   "chronicle": [
     {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 190,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
+    {
       "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
       "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
@@ -2072,21 +2080,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 7
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 180,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 190,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 10
+    },
     {
       "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
       "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
@@ -2190,18 +2198,6 @@
       "type": "A",
       "icon": "🏗️",
       "source": "local_events",
-      "tick": 182,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_cs": "Bratr kazatel připomněl příběh jeptišky Beátky: krásná a nábožná, přece podlehla žáku a odešla s ním, klíče od kláštera svěřivši obrazu Panny Marie. Žák ji zradil a opustil. Vrátila se v pokání — a shledala, že po celý čas ji u brány nikdo nepohřešoval. Milost drží službu za ty, kdo padli.",
-      "text_en": "Brother preacher recalled the tale of the nun Beatrice: fair and devout, yet she yielded to a cleric and left with him, entrusting the convent keys to the image of Our Lady. The cleric betrayed and abandoned her. She returned in penance — and found that all that while, no one at the gate had missed her. Grace keeps the watch for those who fall.",
-      "type": "B",
-      "icon": "⚖️",
-      "source": "monastery_internal",
       "tick": 182,
       "year": 1465,
       "season": "Podzim",
