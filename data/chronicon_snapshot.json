@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-10T23:53:59.235Z",
-  "valid_until": "2026-09-17T23:53:59.235Z",
+  "generated": "2026-09-11T08:48:21.824Z",
+  "valid_until": "2026-09-18T08:48:21.824Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 2,
+    "tempC": 15,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 11,
-    "total_tick": 193,
+    "total_tick": 194,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 11"
   },
   "actors": [
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 97,
+      "mood": 99,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 10,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +163,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 84,
+      "wealth": 85,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -228,7 +232,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -251,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -297,7 +301,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 6,
       "status": "prosperujici",
@@ -320,7 +324,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 93,
+      "wealth": 94,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -1830,6 +1834,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
+      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
+      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 194,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
+      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
+      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
+      "type": "C",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 194,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
@@ -2044,33 +2072,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 184,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 183,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
+      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
+      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 194,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
+      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
+      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
+      "type": "C",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 194,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
       "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
@@ -2163,30 +2191,6 @@
       "icon": "💊",
       "source": "monastery_internal",
       "tick": 187,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 186,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 185,
       "year": 1465,
       "season": "Podzim",
       "day": 9
