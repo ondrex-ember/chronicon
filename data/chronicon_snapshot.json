@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-11T14:10:47.344Z",
-  "valid_until": "2026-09-18T14:10:47.344Z",
+  "generated": "2026-09-11T19:04:11.626Z",
+  "valid_until": "2026-09-18T19:04:11.626Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -25,42 +25,42 @@
     "mlynarsky": {
       "label": "Mlynářský cech",
       "label_en": "The Millers' Guild",
-      "tension": 12
+      "tension": 5
     },
     "truhlarsky": {
       "label": "Truhlářský cech",
       "label_en": "The Cabinetmakers' Guild",
-      "tension": 12
+      "tension": 5
     },
     "kolarsky": {
       "label": "Kolářský cech",
       "label_en": "The Wheelwrights' Guild",
-      "tension": 12
+      "tension": 5
     },
     "kovarsky": {
       "label": "Kovářský a hamernický cech",
       "label_en": "The Smiths' and Forgemasters' Guild",
-      "tension": 12
+      "tension": 5
     },
     "pekarsky": {
       "label": "Pekařský cech",
       "label_en": "The Bakers' Guild",
-      "tension": 12
+      "tension": 5
     },
     "reznicky": {
       "label": "Řeznický cech",
       "label_en": "The Butchers' Guild",
-      "tension": 12
+      "tension": 5
     },
     "zlatnicky": {
       "label": "Zlatnický cech",
       "label_en": "The Goldsmiths' Guild",
-      "tension": 12
+      "tension": 5
     },
     "kozeluzsky": {
       "label": "Koželužský cech",
       "label_en": "The Tanners' Guild",
-      "tension": 12
+      "tension": 5
     }
   },
   "veletrh": {
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 19,
-    "windKmH": 6,
+    "tempC": 17,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 11,
-    "total_tick": 195,
+    "total_tick": 196,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 11"
   },
   "actors": [
@@ -94,21 +94,21 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 98,
-      "mood": 100,
-      "stores": 1,
+      "wealth": 94,
+      "mood": 96,
+      "stores": 0,
       "status": "prosperujici",
       "relations": {
-        "mlynar": 33.60000000000001,
-        "kovar": 23.60000000000001,
-        "uhlic": 12.999999999999998,
-        "vorar": 13.599999999999998,
-        "rybnikar": 22.400000000000006,
-        "prevoznik": 43.60000000000001,
-        "valach": 18.600000000000005,
-        "klaster": -7.000000000000002,
-        "vcelar": 13.599999999999998,
-        "sklar": 12.999999999999998
+        "mlynar": 34.20000000000001,
+        "kovar": 24.20000000000001,
+        "uhlic": 13.599999999999998,
+        "vorar": 14.199999999999998,
+        "rybnikar": 23.000000000000007,
+        "prevoznik": 44.20000000000001,
+        "valach": 19.200000000000006,
+        "klaster": -6.400000000000002,
+        "vcelar": 14.199999999999998,
+        "sklar": 13.599999999999998
       }
     },
     {
@@ -117,21 +117,21 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 100,
-      "stores": 10,
+      "wealth": 99,
+      "mood": 98,
+      "stores": 9,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 33.60000000000001,
-        "kovar": 43.60000000000001,
-        "uhlic": 7.999999999999998,
-        "vorar": 23.60000000000001,
-        "rybnikar": -21.999999999999993,
-        "prevoznik": 13.599999999999998,
-        "valach": 3.6,
-        "klaster": 12.999999999999998,
-        "vcelar": 3.6,
-        "sklar": 7.999999999999998
+        "vrchnost": 34.20000000000001,
+        "kovar": 44.20000000000001,
+        "uhlic": 8.599999999999998,
+        "vorar": 24.20000000000001,
+        "rybnikar": -21.39999999999999,
+        "prevoznik": 14.199999999999998,
+        "valach": 4.2,
+        "klaster": 13.599999999999998,
+        "vcelar": 4.2,
+        "sklar": 8.599999999999998
       }
     },
     {
@@ -140,21 +140,21 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 92,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 96,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 23.60000000000001,
-        "mlynar": 43.60000000000001,
-        "uhlic": 53.00000000000001,
-        "vorar": 3.6,
-        "rybnikar": 2.4,
-        "prevoznik": 3.6,
-        "valach": 23.60000000000001,
-        "klaster": 2.4,
-        "vcelar": 18.600000000000005,
-        "sklar": 23.000000000000007
+        "vrchnost": 24.20000000000001,
+        "mlynar": 44.20000000000001,
+        "uhlic": 53.60000000000001,
+        "vorar": 4.2,
+        "rybnikar": 3,
+        "prevoznik": 4.2,
+        "valach": 24.20000000000001,
+        "klaster": 3,
+        "vcelar": 19.200000000000006,
+        "sklar": 23.60000000000001
       }
     },
     {
@@ -163,21 +163,21 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 86,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 12.999999999999998,
-        "mlynar": 7.999999999999998,
-        "kovar": 53.00000000000001,
-        "vorar": 3.6,
-        "rybnikar": 2.4,
-        "prevoznik": 3.6,
-        "valach": 7.999999999999998,
-        "klaster": 3,
-        "vcelar": 3.6,
-        "sklar": 48.00000000000001
+        "vrchnost": 13.599999999999998,
+        "mlynar": 8.599999999999998,
+        "kovar": 53.60000000000001,
+        "vorar": 4.2,
+        "rybnikar": 3,
+        "prevoznik": 4.2,
+        "valach": 8.599999999999998,
+        "klaster": 3.6,
+        "vcelar": 4.2,
+        "sklar": 48.60000000000001
       }
     },
     {
@@ -188,19 +188,19 @@
       "profession_en": "Raftsman",
       "wealth": 100,
       "mood": 100,
-      "stores": 5,
+      "stores": 4,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 13.599999999999998,
-        "mlynar": 23.60000000000001,
-        "kovar": 3.6,
-        "uhlic": 3.6,
-        "rybnikar": -26.999999999999993,
-        "prevoznik": 18.600000000000005,
-        "valach": 3.6,
-        "klaster": 3,
-        "vcelar": 3.6,
-        "sklar": 3.6
+        "vrchnost": 14.199999999999998,
+        "mlynar": 24.20000000000001,
+        "kovar": 4.2,
+        "uhlic": 4.2,
+        "rybnikar": -26.39999999999999,
+        "prevoznik": 19.200000000000006,
+        "valach": 4.2,
+        "klaster": 3.6,
+        "vcelar": 4.2,
+        "sklar": 4.2
       }
     },
     {
@@ -209,21 +209,21 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 87,
+      "wealth": 98,
       "mood": 100,
-      "stores": 4,
+      "stores": 5,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 22.400000000000006,
-        "mlynar": -21.999999999999993,
-        "kovar": 2.4,
-        "uhlic": 2.4,
-        "vorar": -26.999999999999993,
-        "prevoznik": 3,
-        "valach": 3,
-        "klaster": 47.400000000000006,
-        "vcelar": 3,
-        "sklar": 2.4
+        "vrchnost": 23.000000000000007,
+        "mlynar": -21.39999999999999,
+        "kovar": 3,
+        "uhlic": 3,
+        "vorar": -26.39999999999999,
+        "prevoznik": 3.6,
+        "valach": 3.6,
+        "klaster": 48.00000000000001,
+        "vcelar": 3.6,
+        "sklar": 3
       }
     },
     {
@@ -232,21 +232,21 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 100,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 43.60000000000001,
-        "mlynar": 13.599999999999998,
-        "kovar": 3.6,
-        "uhlic": 3.6,
-        "vorar": 18.600000000000005,
-        "rybnikar": 3,
-        "valach": 3.6,
-        "klaster": 3,
-        "vcelar": 3.6,
-        "sklar": 13.599999999999998
+        "vrchnost": 44.20000000000001,
+        "mlynar": 14.199999999999998,
+        "kovar": 4.2,
+        "uhlic": 4.2,
+        "vorar": 19.200000000000006,
+        "rybnikar": 3.6,
+        "valach": 4.2,
+        "klaster": 3.6,
+        "vcelar": 4.2,
+        "sklar": 14.199999999999998
       }
     },
     {
@@ -257,19 +257,19 @@
       "profession_en": "Shepherd",
       "wealth": 100,
       "mood": 100,
-      "stores": 6,
+      "stores": 4,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 18.600000000000005,
-        "mlynar": 3.6,
-        "kovar": 23.60000000000001,
-        "uhlic": 7.999999999999998,
-        "vorar": 3.6,
-        "rybnikar": 3,
-        "prevoznik": 3.6,
-        "klaster": 23.000000000000007,
-        "vcelar": 3.6,
-        "sklar": 3
+        "vrchnost": 19.200000000000006,
+        "mlynar": 4.2,
+        "kovar": 24.20000000000001,
+        "uhlic": 8.599999999999998,
+        "vorar": 4.2,
+        "rybnikar": 3.6,
+        "prevoznik": 4.2,
+        "klaster": 23.60000000000001,
+        "vcelar": 4.2,
+        "sklar": 3.6
       }
     },
     {
@@ -278,21 +278,21 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 99,
-      "stores": 6,
+      "wealth": 97,
+      "mood": 100,
+      "stores": 5,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": -7.000000000000002,
-        "mlynar": 12.999999999999998,
-        "kovar": 2.4,
-        "uhlic": 3,
-        "vorar": 3,
-        "rybnikar": 47.400000000000006,
-        "prevoznik": 3,
-        "valach": 23.000000000000007,
-        "vcelar": 38.00000000000001,
-        "sklar": 27.400000000000006
+        "vrchnost": -6.400000000000002,
+        "mlynar": 13.599999999999998,
+        "kovar": 11,
+        "uhlic": 3.6,
+        "vorar": 3.6,
+        "rybnikar": 48.00000000000001,
+        "prevoznik": 3.6,
+        "valach": 23.60000000000001,
+        "vcelar": 38.60000000000001,
+        "sklar": 28.000000000000007
       }
     },
     {
@@ -301,21 +301,21 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
-      "stores": 6,
+      "stores": 5,
       "status": "prosperujici",
       "relations": {
-        "vrchnost": 13.599999999999998,
-        "mlynar": 3.6,
-        "kovar": 18.600000000000005,
-        "uhlic": 3.6,
-        "vorar": 3.6,
-        "rybnikar": 3,
-        "prevoznik": 3.6,
-        "valach": 3.6,
-        "klaster": 38.00000000000001,
-        "sklar": 8.599999999999998
+        "vrchnost": 14.199999999999998,
+        "mlynar": 4.2,
+        "kovar": 19.200000000000006,
+        "uhlic": 4.2,
+        "vorar": 4.2,
+        "rybnikar": 3.6,
+        "prevoznik": 4.2,
+        "valach": 4.2,
+        "klaster": 38.60000000000001,
+        "sklar": 9.199999999999998
       }
     },
     {
@@ -324,29 +324,29 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 93,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 96,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
-        "glass_goblet": 2.45,
-        "glass_vase": 0.8400000000000001,
-        "glass_pitcher": 1.05,
-        "naramek_sklo_zeleny": 2.8,
-        "naramek_sklo_hnedy": 2.8,
-        "naramek_sklo_modry": 0.5599999999999999
+        "glass_goblet": 2.8875,
+        "glass_vase": 0.9900000000000001,
+        "glass_pitcher": 1.2375,
+        "naramek_sklo_zeleny": 3.3,
+        "naramek_sklo_hnedy": 3.3,
+        "naramek_sklo_modry": 0.6599999999999999
       },
       "relations": {
-        "vrchnost": 12.999999999999998,
-        "mlynar": 7.999999999999998,
-        "kovar": 23.000000000000007,
-        "uhlic": 48.00000000000001,
-        "vorar": 3.6,
-        "rybnikar": 2.4,
-        "prevoznik": 13.599999999999998,
-        "valach": 3,
-        "klaster": 27.400000000000006,
-        "vcelar": 8.599999999999998
+        "vrchnost": 13.599999999999998,
+        "mlynar": 8.599999999999998,
+        "kovar": 23.60000000000001,
+        "uhlic": 48.60000000000001,
+        "vorar": 4.2,
+        "rybnikar": 3,
+        "prevoznik": 14.199999999999998,
+        "valach": 3.6,
+        "klaster": 28.000000000000007,
+        "vcelar": 9.199999999999998
       }
     }
   ],
@@ -354,7 +354,7 @@
     "tension": 0,
     "goldenAge": true,
     "totalFuneralEvents": 0,
-    "population": 10066
+    "population": 10073
   },
   "advisory_events": [
     {
@@ -391,15 +391,37 @@
       ]
     },
     {
-      "id": "vypujcka_6",
+      "id": "ctenar_7",
+      "icon": "📖",
+      "kind": "ctenar",
+      "contactId": "klaster",
+      "title_cs": "Zvědavost o starém postupu",
+      "title_en": "Curiosity about an old method",
+      "text_cs": "Opat slyšel, že klášterní knihovna chová spisy o řemeslech a postupech, jaké se dnes už málokde učí. Rád by si u vás na místě přečetl, co víte.",
+      "text_en": "The Abbot has heard the monastery library holds writings on crafts and methods rarely taught these days. He would like to read what you know, here at the lectern.",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "Přijmout do Studovny",
+          "label_en": "Receive in the study room"
+        },
+        {
+          "id": "decline",
+          "label_cs": "Zdvořile odmítnout",
+          "label_en": "Politely decline"
+        }
+      ]
+    },
+    {
+      "id": "vypujcka_7",
       "icon": "📤",
       "kind": "vypujcka",
-      "contactId": "rybnikar",
+      "contactId": "uhlic",
       "durationDays": 7,
-      "title_cs": "Žádost o výpůjčku ke studiu",
-      "title_en": "A request to borrow for study",
-      "text_cs": "Rybníkář prosí o zapůjčení jednoho svazku domů, na 7 dní — slibuje pečlivé zacházení a zástavu dle zvyklosti.",
-      "text_en": "The Pondkeeper asks to borrow one volume home, for 7 days — he promises careful handling and a pledge as is customary.",
+      "title_cs": "Žádost o opis",
+      "title_en": "A request to copy",
+      "text_cs": "Uhlíř by rád nechal knihu opsat vlastním písařem a potřebuje ji na 7 dní mimo klášter. Nabízí zástavu.",
+      "text_en": "The Charcoal Burner would like to have the book copied by his own scribe and needs it away from the monastery for 7 days. He offers a pledge.",
       "choices": [
         {
           "id": "accept_standard",
@@ -447,6 +469,52 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_009",
+      "seal": "noble",
+      "type": "C",
+      "icon": "📜",
+      "tags": [
+        "šlechta",
+        "listina",
+        "opis"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Panoše ze vzdáleného rodu",
+      "sender_en": "A Squire's Page from a Distant House",
+      "title_cs": "Žádost o opis darovací listiny",
+      "title_en": "A Request for a Copy of a Donation Charter",
+      "text_cs": "„Ctihodní otcové, můj pán potřebuje pro soud opis staré darovací listiny, kterou prý vaše skriptorium kdysi psalo pro jeho děda. Za práci a pergamen zaplatí — potřebuje ji však do měsíce. — Panoše ze vzdáleného rodu“",
+      "text_en": "\"Reverend fathers, my lord needs, for a court matter, a copy of an old donation charter which your scriptorium is said to have once written for his grandfather. He will pay for the labour and parchment — but he needs it within the month. — A Page of a Distant House\"",
+      "choices": [
+        {
+          "id": "accept",
+          "label_cs": "📜 Přijmout zakázku (+10 grošů)",
+          "label_en": "📜 Accept the commission (+10 groschen)",
+          "notify_cs": "Opis vyhotoven a odeslán. (+10 grošů)",
+          "notify_en": "The copy is made and sent. (+10 groschen)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": "decline",
+          "label_cs": "🗄️ Odmítnout, archiv je příliš starý",
+          "label_en": "🗄️ Decline — the archive is too old to search",
+          "notify_cs": "Panoše odešel s prázdnou.",
+          "notify_en": "The page left empty-handed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 196
+    },
     {
       "id": "cletter_014",
       "seal": "church",
@@ -1783,56 +1851,57 @@
         }
       ],
       "_pickedTick": 123
-    },
-    {
-      "id": "cletter_001",
-      "seal": "village",
-      "type": "A",
-      "icon": "🌾",
-      "tags": [
-        "mlynar",
-        "povodeň",
-        "obilí"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Mlynář",
-      "sender_en": "The Miller",
-      "title_cs": "List mlynářův o vodě",
-      "title_en": "A Letter from the Miller on the Water",
-      "text_cs": "„Bratře, jarní tání vzedmulo řeku výš, než si kdo pamatuje. Kolo běží dobře, ale hráz sténá. Kdybys mohl poslat pár rukou na pytle s pískem, mlel bych ti tvé obilí přednostně, dokud voda neopadne. — Mlynář“",
-      "text_en": "\"Brother, the spring thaw has swollen the river higher than any man recalls. The wheel turns well, but the weir groans. If thou couldst send a few hands with sandbags, I would grind thy grain first, until the water falls. — The Miller\"",
-      "choices": [
-        {
-          "id": "help",
-          "label_cs": "🌊 Poslat pomoc s hrází",
-          "label_en": "🌊 Send help with the weir",
-          "notify_cs": "Mlynář si pomoc zapamatoval. (Mlynář +4)",
-          "notify_en": "The miller remembers the help. (Miller +4)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "mlynar",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "decline",
-          "label_cs": "🙏 Popřát štěstí, ruce nemáme",
-          "label_en": "🙏 Wish him luck, we have no hands to spare",
-          "notify_cs": "Mlynář odpověď přijal bez zloby.",
-          "notify_en": "The miller took the answer without ill will.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 120
     }
   ],
   "chronicle": [
+    {
+      "text": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
+      "text_cs": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
+      "text_en": "That year, after the Nativity of the Mother of God, the Praguers of the Old Town went in procession to St Wenceslas at the Castle to give thanks to God for the victory.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
+      "text_cs": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
+      "text_en": "A warm autumn brought an excellent harvest of grapes, which are currently being brought to the pressing houses. Grape treading goes on from dawn till dusk, and the air smells of fermenting must. Coopers cannot make new barrels fast enough to satisfy the huge demand from winemakers.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Opat rozhodl o stavbě nové románské baziliky. <em>Kovář</em> získává obrovskou panskou zakázku na kování.",
+      "text_cs": "Opat rozhodl o stavbě nové románské baziliky. <em>Kovář</em> získává obrovskou panskou zakázku na kování.",
+      "text_en": null,
+      "type": "B",
+      "icon": "🏗️",
+      "source": "monastery_internal",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -2024,57 +2093,45 @@
       "year": 1465,
       "season": "Podzim",
       "day": 9
-    },
-    {
-      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
-      "type": "D",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 187,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_cs": "Můj nový obklad ze zelných listů a bláta měl vyléčit bratrovu dnu. Bohužel, bláto zaschlo tak tvrdě, že se bratr nemůže pohnout. Ale nestěžuje si na bolest kloubů, léčba je tedy zjevně úspěšná.",
-      "text_en": "My new compress of cabbage leaves and mud was supposed to cure the brother's gout. Unfortunately, the mud dried so hard that the brother cannot move. But he doesn't complain of joint pain, so the treatment is clearly a success.",
-      "type": "D",
-      "icon": "💊",
-      "source": "monastery_internal",
-      "tick": 187,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
-      "type": "D",
-      "icon": "📿",
-      "source": "distant_events",
-      "tick": 186,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_cs": "Vdovec Jíra z Konice byl nalezen mrtev ve své stáji. Podle stop jej kopl do hlavy jeho vlastní kůň, když se ho pokoušel okovat. Kůň byl prodán v dražbě za dvacet grošů, aby se zaplatil pohřeb.",
-      "text_en": "Widower Jíra of Konice was found dead in his stable. According to the tracks, his own horse kicked him in the head while he was trying to shoe it. The horse was sold at auction for twenty groats to pay for the funeral.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 186,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
+      "text_cs": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
+      "text_en": "A warm autumn brought an excellent harvest of grapes, which are currently being brought to the pressing houses. Grape treading goes on from dawn till dusk, and the air smells of fermenting must. Coopers cannot make new barrels fast enough to satisfy the huge demand from winemakers.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
+      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
+    {
+      "text": "Opat rozhodl o stavbě nové románské baziliky. <em>Kovář</em> získává obrovskou panskou zakázku na kování.",
+      "text_cs": "Opat rozhodl o stavbě nové románské baziliky. <em>Kovář</em> získává obrovskou panskou zakázku na kování.",
+      "text_en": null,
+      "type": "B",
+      "icon": "🏗️",
+      "source": "monastery_internal",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
       "text_cs": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
@@ -2158,45 +2215,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 10
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 191,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 190,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 188,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
+      "text_cs": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
+      "text_en": "That year, after the Nativity of the Mother of God, the Praguers of the Old Town went in procession to St Wenceslas at the Castle to give thanks to God for the victory.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 196,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 11
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -2304,18 +2337,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 8
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
-      "text_cs": "Ze zápisků zbraslavských: Kněz jeden z kraje východního varuje před sborem lidí, kteří prý kostely opouštějí a vlastní cesty k Bohu hledají. Zda kacířství to jest, či pouhá prostota, neví se jistě.",
-      "text_en": "From the Zbraslav notes: a certain priest from the eastern parts warns against a band of people who are said to forsake the churches and seek their own paths to God. Whether this be heresy or mere simplicity, none knoweth surely.",
-      "type": "B",
-      "icon": "👁️",
-      "source": "distant_events",
-      "tick": 180,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 7
     }
   ],
   "church_calendar": {
