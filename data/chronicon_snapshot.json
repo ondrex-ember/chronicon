@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-12T18:14:48.465Z",
-  "valid_until": "2026-09-19T18:14:48.465Z",
+  "generated": "2026-09-12T23:52:52.228Z",
+  "valid_until": "2026-09-19T23:52:52.228Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 5,
+    "tempC": 13,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 12,
-    "total_tick": 200,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 12"
+    "day": 13,
+    "total_tick": 201,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 13"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 91,
-      "mood": 97,
+      "wealth": 92,
+      "mood": 100,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 9,
       "status": "prosperujici",
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 99,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -274,7 +274,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 98,
       "stores": 5,
       "status": "prosperujici",
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -465,6 +465,63 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_002",
+      "seal": "village",
+      "type": "D",
+      "icon": "🐐",
+      "tags": [
+        "hranice",
+        "spor",
+        "vesnice"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Rychtář z Chválkovic",
+      "sender_en": "The Bailiff of Chválkovice",
+      "title_cs": "Stížnost rychtáře na kozy",
+      "title_en": "The Bailiff's Complaint about the Goats",
+      "text_cs": "„Ctihodný otče, klášterní kozy už potřetí přelezly mez a spásly sousedovic zelí. Soused hrozí, že je zažene do vlastního chléva a bude žádat výkupné. Prosím, dejte spravit plot, než z toho bude spor pro rychtu. — Rychtář z Chválkovic“",
+      "text_en": "\"Reverend father, the monastery's goats have thrice climbed the boundary and grazed the neighbour's cabbage. He threatens to pen them himself and demand a ransom. Pray, mend the fence before this becomes a matter for the court. — The Bailiff of Chválkovice\"",
+      "choices": [
+        {
+          "id": "pay",
+          "label_cs": "💰 Poslat omluvu a pár grošů (−6 grošů)",
+          "label_en": "💰 Send an apology and a few groschen (−6 groschen)",
+          "notify_cs": "Spor uhlazen groši. (Vesnice +2)",
+          "notify_en": "The dispute smoothed over with coin. (village +2)",
+          "effects": [
+            {
+              "type": "grose",
+              "amount": -6
+            },
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": "ignore",
+          "label_cs": "🤷 Plot spraví bratři sami, časem",
+          "label_en": "🤷 The brothers will mend it themselves, in time",
+          "notify_cs": "Rychtář si zapsal, že klášter mešká. (Vesnice −1)",
+          "notify_en": "The bailiff noted the monastery's delay. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 201
+    },
     {
       "id": "cletter_012",
       "seal": "scholars",
@@ -1799,64 +1856,21 @@
         }
       ],
       "_pickedTick": 131
-    },
-    {
-      "id": "cletter_010",
-      "seal": "village",
-      "type": "D",
-      "icon": "🔥",
-      "tags": [
-        "požár",
-        "vesnice",
-        "pohroma"
-      ],
-      "conditions": {
-        "season": [
-          1,
-          2
-        ],
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Soused od kováře",
-      "sender_en": "A Neighbour of the Smith",
-      "title_cs": "Zpráva o požáru u kovárny",
-      "title_en": "News of a Fire by the Forge",
-      "text_cs": "„Bratře, kovářova výheň v noci zapálila slámu na střeše sousední stodoly. Oheň se podařilo zdusit, ale stodola i s letošní sklizní shořela. Rodina prosí klášter o almužnu, než přežije zimu. — Soused od kováře“",
-      "text_en": "\"Brother, the smith's forge set the thatch of the neighbouring barn alight in the night. The fire was smothered in time, but the barn — and this year's harvest with it — burned. The family begs the monastery for alms to see out the winter. — A Neighbour of the Smith\"",
-      "choices": [
-        {
-          "id": "alms",
-          "label_cs": "🌾 Poslat almužnu z obilí (−15 obilí)",
-          "label_en": "🌾 Send alms of grain (−15 grain)",
-          "notify_cs": "Rodina almužnu přijala se slzami. (Vesnice +4)",
-          "notify_en": "The family received the alms with tears. (village +4)",
-          "effects": [
-            {
-              "type": "item",
-              "id": "grain",
-              "qty": -15
-            },
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": 4
-            }
-          ]
-        },
-        {
-          "id": "pray",
-          "label_cs": "🙏 Slíbit jen modlitbu",
-          "label_en": "🙏 Promise only a prayer",
-          "notify_cs": "Rodina děkuje, ale zima bude tvrdá.",
-          "notify_en": "The family gives thanks, but the winter will be hard.",
-          "effects": []
-        }
-      ],
-      "_pickedTick": 130
     }
   ],
   "chronicle": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 201,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
     {
       "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
       "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
@@ -2084,21 +2098,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_cs": "Léta téhož o svatém Václavě učinili sú sněm obecný u Praze, na kterémžto sněmu ostali sú všichni páni a rytieřští lidé, všechna města Královstvie českého, aby po ciesaře Sigmunda jeli, kromě jediného města, Hradce Králové.",
-      "text_en": "That year, about St Wenceslas, a general diet met in Prague, at which remained all the lords, knights and towns of the Bohemian kingdom.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 192,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
+      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 201,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
     {
       "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
       "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
@@ -2203,18 +2217,6 @@
       "icon": "🏗️",
       "source": "monastery_internal",
       "tick": 196,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
-      "text_cs": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
-      "text_en": "Coroner's record: The old miller slipped while chopping ice near the mill wheel and fell into the icy water. The wheel pulled him under and crushed his ribs. The mill will fall to his youngest son.",
-      "type": "A",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 195,
       "year": 1465,
       "season": "Podzim",
       "day": 11
@@ -2343,7 +2345,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 192,
+    "day_of_year": 193,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
