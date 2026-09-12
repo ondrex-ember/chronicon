@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-12T13:28:50.158Z",
-  "valid_until": "2026-09-19T13:28:50.158Z",
+  "generated": "2026-09-12T18:14:48.465Z",
+  "valid_until": "2026-09-19T18:14:48.465Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 22,
-    "windKmH": 0,
+    "tempC": 20,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 12,
-    "total_tick": 199,
+    "total_tick": 200,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 12"
   },
   "actors": [
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 100,
+      "wealth": 98,
+      "mood": 99,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -205,8 +205,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -1858,6 +1858,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
+      "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
+      "text_en": "From Kroměříž: This year's grape harvest on the bishop's slopes is particularly successful. Sweet grapes fill the vats, and cellar masters predict wine of excellent taste. A portion of the production will be sent as a gift to Rome.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 200,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 200,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
       "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
@@ -2072,33 +2096,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 10
-    },
-    {
-      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
-      "type": "A",
-      "icon": "🏃",
-      "source": "local_events",
-      "tick": 192,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 191,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
+      "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
+      "text_en": "From Kroměříž: This year's grape harvest on the bishop's slopes is particularly successful. Sweet grapes fill the vats, and cellar masters predict wine of excellent taste. A portion of the production will be sent as a gift to Rome.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 200,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 200,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
       "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
@@ -2191,30 +2215,6 @@
       "icon": "☠️",
       "source": "local_events",
       "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 194,
       "year": 1465,
       "season": "Podzim",
       "day": 11
