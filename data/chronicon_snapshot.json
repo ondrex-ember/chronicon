@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-12T00:00:44.361Z",
-  "valid_until": "2026-09-19T00:00:44.361Z",
+  "generated": "2026-09-12T08:32:09.377Z",
+  "valid_until": "2026-09-19T08:32:09.377Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 4,
+    "tempC": 16,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 12,
-    "total_tick": 197,
+    "total_tick": 198,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 12"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 97,
+      "wealth": 92,
+      "mood": 98,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 95,
+      "wealth": 99,
+      "mood": 98,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -465,6 +465,59 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_008",
+      "seal": "noble",
+      "type": "B",
+      "icon": "🏹",
+      "tags": [
+        "šlechta",
+        "hon",
+        "les"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Zeman z okolního panství",
+      "sender_en": "A Squire of the Neighbouring Estate",
+      "title_cs": "Napomenutí zemanovo o honitbě",
+      "title_en": "The Squire's Rebuke about the Hunting Grounds",
+      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
+      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
+      "choices": [
+        {
+          "id": "apologize",
+          "label_cs": "🙏 Omluvit se a stáhnout lovce",
+          "label_en": "🙏 Apologize and pull back the hunter",
+          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
+          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "lovec",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "id": "deny",
+          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
+          "label_en": "⚖️ Insist the boundary is disputed",
+          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
+          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "village",
+              "amount": -1
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 198
+    },
     {
       "id": "cletter_009",
       "seal": "noble",
@@ -1808,48 +1861,33 @@
         }
       ],
       "_pickedTick": 127
-    },
-    {
-      "id": "cletter_014",
-      "seal": "church",
-      "type": "A",
-      "icon": "🔔",
-      "tags": [
-        "zvon",
-        "sklář",
-        "kostel"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Sklář z hutě v lesích",
-      "sender_en": "A Glassmaker from the Forest Works",
-      "title_cs": "List sklářův o barevném skle",
-      "title_en": "The Glassmaker's Letter about Coloured Glass",
-      "text_cs": "„Bratře, v huti se nám povedla tavba barevného skla — modř hluboká jako půlnoční nebe. Napadlo mě, že by se hodila do okna vaší kaple, ne jen do křivule na stole. Přijeďte se podívat, než pec vychladne a barva se ztratí. — Sklář“",
-      "text_en": "\"Brother, our works have succeeded in a melt of coloured glass — a blue as deep as the midnight sky. It occurred to me it might suit a window of your chapel, not only a retort on a table. Come and see before the furnace cools and the colour is lost. — The Glassmaker\"",
-      "choices": [
-        {
-          "id": "visit",
-          "label_cs": "🔮 Zajet se podívat",
-          "label_en": "🔮 Go and see",
-          "notify_cs": "Sklář potěšen zájmem. (Sklář +3)",
-          "notify_en": "The glassmaker is pleased by the interest. (Glassmaker +3)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "sklar",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 123
     }
   ],
   "chronicle": [
+    {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 198,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 198,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
       "text_cs": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
@@ -2065,33 +2103,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 10
-    },
-    {
-      "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
-      "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
-      "text_en": "That year the town of Brod was taken by the Praguers and many people slain; the German mercenaries fled to the belfry, and in that belfry were burned.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 188,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 188,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
+      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
+      "type": "A",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 198,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
       "text_cs": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
@@ -2199,21 +2225,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
-      "type": "A",
-      "icon": "🏃",
-      "source": "local_events",
-      "tick": 192,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 198,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
       "text_cs": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
@@ -2318,18 +2344,6 @@
       "icon": "⚔️",
       "source": "distant_events",
       "tick": 184,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 182,
       "year": 1465,
       "season": "Podzim",
       "day": 8
