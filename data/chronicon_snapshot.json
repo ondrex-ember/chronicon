@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-12T08:32:09.377Z",
-  "valid_until": "2026-09-19T08:32:09.377Z",
+  "generated": "2026-09-12T13:28:50.158Z",
+  "valid_until": "2026-09-19T13:28:50.158Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 3,
+    "tempC": 22,
+    "windKmH": 0,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 12,
-    "total_tick": 198,
+    "total_tick": 199,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 12"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 92,
-      "mood": 98,
+      "wealth": 91,
+      "mood": 97,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 98,
+      "mood": 100,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 7,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 98,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 99,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -465,6 +465,52 @@
     }
   ],
   "porta_letters": [
+    {
+      "id": "cletter_012",
+      "seal": "scholars",
+      "type": "A",
+      "icon": "🌙",
+      "tags": [
+        "kalendář",
+        "astronomie"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Žák z olomoucké katedrální školy",
+      "sender_en": "A Pupil of the Olomouc Cathedral School",
+      "title_cs": "Otázka žáka na výpočet Velikonoc",
+      "title_en": "A Pupil's Question on the Reckoning of Easter",
+      "text_cs": "„Ctihodný bratře, náš mistr nám zadal počítat datum Velikonoc podle zlatého čísla a epakty, a já se v tom ztrácím. Slyšel jsem, že vaše skriptorium má perpetuální kalendář. Ukázal byste mi, jak se to počítá? — Žák z katedrální školy“",
+      "text_en": "\"Venerable brother, our master has set us to reckon the date of Easter by the golden number and the epact, and I am lost in it. I have heard your scriptorium keeps a perpetual calendar. Would you show me how it is reckoned? — A Pupil of the Cathedral School\"",
+      "choices": [
+        {
+          "id": "teach",
+          "label_cs": "🌙 Vysvětlit výpočet",
+          "label_en": "🌙 Explain the reckoning",
+          "notify_cs": "Žák odešel moudřejší. (Scholars +3)",
+          "notify_en": "The pupil left the wiser. (Scholars +3)",
+          "effects": [
+            {
+              "type": "influence",
+              "axis": "scholars",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "id": "busy",
+          "label_cs": "⏳ Nemáme čas, ať se ptá jinde",
+          "label_en": "⏳ No time to spare — let him ask elsewhere",
+          "notify_cs": "Žák odešel zklamaný.",
+          "notify_en": "The pupil left disappointed.",
+          "effects": []
+        }
+      ],
+      "_pickedTick": 199
+    },
     {
       "id": "cletter_008",
       "seal": "noble",
@@ -1808,62 +1854,45 @@
         }
       ],
       "_pickedTick": 130
-    },
-    {
-      "id": "cletter_008",
-      "seal": "noble",
-      "type": "B",
-      "icon": "🏹",
-      "tags": [
-        "šlechta",
-        "hon",
-        "les"
-      ],
-      "conditions": {
-        "season": null,
-        "tension_min": null,
-        "tension_max": null
-      },
-      "sender_cs": "Zeman z okolního panství",
-      "sender_en": "A Squire of the Neighbouring Estate",
-      "title_cs": "Napomenutí zemanovo o honitbě",
-      "title_en": "The Squire's Rebuke about the Hunting Grounds",
-      "text_cs": "„Ctihodný otče, můj hajný zahlédl klášterního lovce s okem přes hranici mé honitby. Vím, že mniši sami zvěř neloví, ale kdo mu tu snáru dal, ať ji odnese zpět. Nechci s klášterem při, jen klid ve svém lese. — Zeman“",
-      "text_en": "\"Reverend father, my gamekeeper spotted the monastery's hunter with a snare across the border of my hunting ground. I know the monks themselves do not hunt, but whoever gave him that snare, let him take it back. I want no quarrel with the monastery — only peace in my forest. — The Squire\"",
-      "choices": [
-        {
-          "id": "apologize",
-          "label_cs": "🙏 Omluvit se a stáhnout lovce",
-          "label_en": "🙏 Apologize and pull back the hunter",
-          "notify_cs": "Zeman omluvu přijal. (Lovec −2, spor uhašen)",
-          "notify_en": "The squire accepted the apology. (Hunter −2, dispute settled)",
-          "effects": [
-            {
-              "type": "contactRelation",
-              "id": "lovec",
-              "amount": -2
-            }
-          ]
-        },
-        {
-          "id": "deny",
-          "label_cs": "⚖️ Trvat na tom, že hranice je sporná",
-          "label_en": "⚖️ Insist the boundary is disputed",
-          "notify_cs": "Zeman mlčí, ale nezapomíná. (Vesnice −1)",
-          "notify_en": "The squire says nothing more, but does not forget. (village −1)",
-          "effects": [
-            {
-              "type": "influence",
-              "axis": "village",
-              "amount": -1
-            }
-          ]
-        }
-      ],
-      "_pickedTick": 127
     }
   ],
   "chronicle": [
+    {
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
+      "type": "A",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
@@ -2067,45 +2096,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 10
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 191,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 190,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_cs": "Léta tisíc CCCLIII král Karel český korunován jest k césařství.",
-      "text_en": "In 1353 Charles, King of Bohemia, was crowned to the empire.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 189,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
+      "type": "A",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
       "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
@@ -2201,33 +2218,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 194,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_cs": "Po dlouhém vzdoru se vyhladovělá posádka královských vojáků na hradě Špilberku vzdala vojskům Matyáše Korvína. Uherský král tak získal plnou kontrolu nad Brnem a jeho okolím. Odtud prý plánuje vytáhnout přímo do východních Čech směrem na Kutnou Horu.",
-      "text_en": "After a long resistance, the starving garrison of royal soldiers at Špilberk Castle surrendered to the forces of Matthias Corvinus. The Hungarian king thus gained full control over Brno and its surroundings. From there, he reportedly plans to march directly into eastern Bohemia toward Kutná Hora.",
-      "type": "D",
-      "icon": "🏳️",
-      "source": "local_events",
-      "tick": 193,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
+      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 199,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
@@ -2335,18 +2340,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 9
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 184,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 8
     }
   ],
   "church_calendar": {
