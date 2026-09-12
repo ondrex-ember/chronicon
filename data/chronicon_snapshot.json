@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-11T19:04:11.626Z",
-  "valid_until": "2026-09-18T19:04:11.626Z",
+  "generated": "2026-09-12T00:00:44.361Z",
+  "valid_until": "2026-09-19T00:00:44.361Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 1,
+    "tempC": 13,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 11,
-    "total_tick": 196,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 11"
+    "day": 12,
+    "total_tick": 197,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 12"
   },
   "actors": [
     {
@@ -94,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 94,
-      "mood": 96,
+      "wealth": 93,
+      "mood": 97,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -117,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 98,
+      "wealth": 100,
+      "mood": 100,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -141,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 96,
+      "mood": 95,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -325,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 96,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1855,6 +1851,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
+      "text_cs": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
+      "text_en": "From Konice: The lord's steward is asking the town to hand over three runaway serfs who allegedly fled from corvée labor on the estates. The burgomaster refuses to surrender them, claiming that after a year and a day they are entitled to the freedom of the town walls.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 197,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
+    {
       "text": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
       "text_cs": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
       "text_en": "That year, after the Nativity of the Mother of God, the Praguers of the Old Town went in procession to St Wenceslas at the Castle to give thanks to God for the victory.",
@@ -2081,21 +2089,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 9
-    },
-    {
-      "text": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_cs": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_en": "Due to today's fog, my set-aside sheet got damp, and the ink is bleeding. I will have to trim the quill to make the line sharper. A scribe's life is a battle with humidity, blunt pens, and one's own inattention.",
-      "type": "B",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 188,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
+      "text_cs": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
+      "text_en": "From Konice: The lord's steward is asking the town to hand over three runaway serfs who allegedly fled from corvée labor on the estates. The burgomaster refuses to surrender them, claiming that after a year and a day they are entitled to the freedom of the town walls.",
+      "type": "A",
+      "icon": "🏃",
+      "source": "local_events",
+      "tick": 197,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 12
+    },
     {
       "text": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
       "text_cs": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
@@ -2200,18 +2208,6 @@
       "icon": "🏃",
       "source": "local_events",
       "tick": 192,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 10
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 191,
       "year": 1465,
       "season": "Podzim",
       "day": 10
@@ -2340,7 +2336,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 191,
+    "day_of_year": 192,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
