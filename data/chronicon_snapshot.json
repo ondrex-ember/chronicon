@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-13T09:20:11.512Z",
-  "valid_until": "2026-09-20T09:20:11.512Z",
+  "generated": "2026-09-13T14:11:50.705Z",
+  "valid_until": "2026-09-20T14:11:50.705Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 16,
-    "windKmH": 7,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 18,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 13,
-    "total_tick": 202,
+    "total_tick": 203,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 13"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 91,
-      "mood": 99,
+      "mood": 100,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 99,
+      "mood": 100,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 100,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -205,7 +205,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -251,7 +251,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 100,
       "stores": 4,
       "status": "prosperujici",
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 97,
+      "wealth": 99,
+      "mood": 98,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 100,
       "stores": 5,
       "status": "prosperujici",
@@ -1857,6 +1857,42 @@
   ],
   "chronicle": [
     {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
+    {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
+    {
+      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
+      "type": "C",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
+    {
       "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
@@ -2059,45 +2095,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 194,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_cs": "Bratr zahradník dnes požadoval knihu o léčbě plevele. Dal jsem mu spisek o trpělivosti a vytrvalosti. Nechápal to. Očekávám, že kniha skončí jako podložka pro nějaký květináč.",
-      "text_en": "The gardener brother asked for a book on weed treatment today. I gave him a tract on patience and perseverance. He didn't understand it. I expect the book will end up as a coaster for some flowerpot.",
-      "type": "C",
-      "icon": "📖",
-      "source": "monastery_internal",
-      "tick": 194,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 193,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
+      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
+    {
+      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
+      "type": "C",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
     {
       "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
@@ -2193,33 +2217,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 12
-    },
-    {
-      "text": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
-      "text_cs": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
-      "text_en": "A warm autumn brought an excellent harvest of grapes, which are currently being brought to the pressing houses. Grape treading goes on from dawn till dusk, and the air smells of fermenting must. Coopers cannot make new barrels fast enough to satisfy the huge demand from winemakers.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 196,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_cs": "Anály z dobývání Hříčan: kněží tam byli od Žižkových upáleni v jedné jizbě. Bratr převor ten zápis předčítá novicům bez komentáře. Komentář není potřeba.",
-      "text_en": "The annals on the taking of Hříčany: the priests there were burned by Žižka's men in a single room. Brother prior reads that entry to the novices without comment. No comment is needed.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 196,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
+      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 203,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
     {
       "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
@@ -2324,18 +2336,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 187,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden prý ostatky svatého svého před vojsky polními zachránil tím, že je do studny ukryl. Léta poté je teprve vynesli zpět na oltář, kameny otlučené, leč celé.",
-      "text_en": "From the Zbraslav notes: a certain monastery is said to have saved its saint's relics from the field armies by hiding them in a well. Only years later were they brought back to the altar, the stones worn, but whole.",
-      "type": "D",
-      "icon": "📿",
-      "source": "distant_events",
-      "tick": 186,
       "year": 1465,
       "season": "Podzim",
       "day": 9
