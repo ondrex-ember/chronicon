@@ -187,11 +187,14 @@ const GameEngine = {
     actors.forEach(a => { a._pulseReason = null; a.ticksActive = (a.ticksActive || 0) + 1; });
 
     // 0. Splatné odložené následky (scheduleChain z minulých týdnů)
-    const addChronicleFn = (entry) => GameLog.add(entry.text, { type: entry.type, icon: entry.icon, source: 'monastery_internal' });
+    const addChronicleFn = (entry) => GameLog.add(entry.text_cs || entry.text, {
+      type: entry.type, icon: entry.icon, source: 'monastery_internal',
+      text_cs: entry.text_cs || entry.text, text_en: entry.text_en || null,
+    });
     GameState._chainQueue = (GameState._chainQueue || []).filter(item => {
       if (item.dueWeek > GameState.week) return true;
       const cb = CHAIN_CALLBACKS[item.chainId];
-      if (cb) cb(GameState, addChronicleFn);
+      if (cb) cb(GameState, addChronicleFn, item.data);
       return false;
     });
 
@@ -313,8 +316,8 @@ const GameEngine = {
     // 3b. Náhodné příběhové eventy (kurátorovaný výběr z Betlém EVENT_REGISTRY)
     const cooldowns = GameState._eventCooldowns || {};
     Object.keys(cooldowns).forEach(k => { if (cooldowns[k] > 0) cooldowns[k] -= 1; else delete cooldowns[k]; });
-    const scheduleChain = (chainId, delayWeeks) => {
-      GameState._chainQueue.push({ chainId, dueWeek: GameState.week + delayWeeks });
+    const scheduleChain = (chainId, delayWeeks, data) => {
+      GameState._chainQueue.push({ chainId, dueWeek: GameState.week + delayWeeks, data });
     };
     const pool = EVENT_REGISTRY.filter(ev => {
       if ((cooldowns[ev.id] || 0) > 0) return false;
@@ -327,8 +330,17 @@ const GameEngine = {
       for (const ev of pool) { rand -= ev.weight; if (rand <= 0) { selected = ev; break; } }
       try {
         cooldowns[selected.id] = selected.cooldown;
-        const resText = selected.execute(GameState, addChronicleFn, scheduleChain);
-        if (resText) GameLog.add(resText, { type: selected.type, icon: selected.icon, source: 'monastery_internal' });
+        const result = selected.execute(GameState, addChronicleFn, scheduleChain);
+        // tension-wave-1-mrd (13.9.2026): execute() teď smí vrátit buď starý
+        // plain string (beze změny), nebo nový { text_cs, text_en } objekt.
+        const isBilingual = result && typeof result === 'object';
+        const resText = isBilingual ? result.text_cs : result;
+        if (resText) {
+          GameLog.add(resText, {
+            type: selected.type, icon: selected.icon, source: 'monastery_internal',
+            text_cs: resText, text_en: isBilingual ? (result.text_en || null) : null,
+          });
+        }
       } catch (e) { /* selhání eventu je tiché — neshodí tick */ }
     }
     GameState._eventCooldowns = cooldowns;
