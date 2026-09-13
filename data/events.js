@@ -47,6 +47,14 @@ function aName(state, id) {
   return `<em>${ACTOR_LABELS[id] || id}</em>`;
 }
 
+// Anglický protějšek aName() — tension-wave-1-mrd (13.9.2026). Nové eventy
+// jsou dvojjazyčné (text_cs/text_en), staré zůstávají česky-only beze změny.
+function aNameEn(state, id) {
+  const a = state.actors.find(x => x.id === id);
+  if (a) return `<em>${a.label_en || a.label}</em>`;
+  return `<em>${id}</em>`;
+}
+
 // Serializovatelná fronta odložených následků (žádné closures)
 const CHAIN_CALLBACKS = {
   a_prival_oprava(state, addChronicle) {
@@ -69,6 +77,52 @@ const CHAIN_CALLBACKS = {
       addChronicle({ type: 'A', icon: '🪦', text: `Mor ovcí pokračuje. ${aName(state, 'valach')} ztratil třetinu stáda. Zima bude krutá.` });
     }
   },
+  // tension-wave-1-mrd (13.9.2026) — následek d_fire_workshop za 4 týdny.
+  // data.victimId přichází ze scheduleChain(chainId, delayWeeks, data).
+  d_fire_rebuild_outcome(state, addChronicle, data) {
+    const victimId = data && data.victimId;
+    const victim = victimId && T.actor(state, victimId);
+    if (!victim) return;
+    if (Math.random() < 0.5) {
+      FX.wealth(state, victimId, 6); FX.mood(state, victimId, 8);
+      if (victimId !== 'kovar') FX.rel(state, victimId, 'kovar', 10);
+      addChronicle({
+        type: 'A', icon: '🔨',
+        text_cs: `Dílna ${aName(state, victimId)}e stojí znovu na nohou — sousedé pomohli se stavbou dříve, než napadl první sníh.`,
+        text_en: `${aNameEn(state, victimId)}'s workshop stands again — neighbours helped rebuild before the first snow fell.`,
+      });
+    } else {
+      FX.mood(state, victimId, -6); FX.wealth(state, victimId, -3);
+      addChronicle({
+        type: 'C', icon: '🪵',
+        text_cs: `Obnova dílny ${aName(state, victimId)}e vázne — dříví na stavbu je drahé a ruce k pomoci řídnou.`,
+        text_en: `Rebuilding ${aNameEn(state, victimId)}'s workshop drags on — timber is dear and helping hands grow scarce.`,
+      });
+    }
+  },
+
+  // tension-wave-1-mrd (13.9.2026) — následek c_bandit_raid_road za 3 týdny.
+  c_bandit_raid_outcome(state, addChronicle, data) {
+    void data; // vyhrazeno pro budoucí rozšíření (např. specifický text dle oběti)
+    if (Math.random() < 0.4) {
+      FX.tension(state, -3);
+      if (T.actor(state, 'vrchnost')) FX.mood(state, 'vrchnost', 5);
+      addChronicle({
+        type: 'C', icon: '⛓️',
+        text_cs: 'Vrchnostenští jezdci dostihli lapky na hranici panství. Uloupené zboží se z valné části vrátilo majitelům.',
+        text_en: "The lordship's riders caught up with the bandits at the estate's edge. Most of the stolen goods found their way back to their owners.",
+      });
+    } else {
+      FX.tension(state, 2);
+      if (T.actor(state, 'vrchnost')) FX.mood(state, 'vrchnost', -5);
+      addChronicle({
+        type: 'C', icon: '🌲',
+        text_cs: 'Lapkové unikli beze stopy do lesů. Cestující si stále víc stěžují, že cesty nejsou bezpečné.',
+        text_en: 'The bandits vanished into the woods without a trace. Travellers complain more and more that the roads are not safe.',
+      });
+    }
+  },
+
   c_mlyn_rozsudek(state, addChronicle) {
     const klaWins = Math.random() < 0.4;
     addChronicle({
@@ -112,6 +166,7 @@ const EVENT_REGISTRY = [
     trigger: (s) => !!T.actor(s, 'valach') && T.epoch(s, 'vrcholny', 'pozdni') && T.chance(0.015),
     execute: (s, addChronicle, scheduleChain) => {
       FX.wealth(s, 'valach', -12); FX.stores(s, 'valach', -20); FX.mood(s, 'valach', -15);
+      FX.tension(s, 12); // tension-wave-1-mrd (13.9.2026) retrofit — dřív chybělo úplně
       scheduleChain('a_mor_vysledek', 4);
       return `Stádo ${aName(s, 'valach')}a decimuje neznámá choroba. Léčba je drahá.`;
     },
@@ -263,6 +318,84 @@ const EVENT_REGISTRY = [
     execute: (s) => {
       FX.mood(s, 'uhlic', -12); FX.wealth(s, 'uhlic', -6);
       return `${aName(s, 'uhlic')} těžce onemocněl z uhelného dýmu. Milíře doutnají bez dozoru a hrozí vyhasnutí pecí.`;
+    },
+  },
+
+  // ============================================
+  //  TENSION WAVE 1 — tension-wave-1-mrd (13.9.2026)
+  //  Nová anglická ID (na rozdíl od starých českých slugů výš) — dohodnuto
+  //  s Bouvardem. Dvojjazyčné text_cs/text_en (execute() vrací objekt
+  //  místo řetězce — engine.js blok 3b to teď umí obojí).
+  // ============================================
+
+  {
+    id: 'd_fire_workshop', type: 'D', icon: '🔥', weight: 1, cooldown: 18,
+    trigger: (s) => ['kovar', 'uhlic', 'sklar'].some(id => T.actor(s, id)) && T.chance(0.03),
+    execute: (s, addChronicle, scheduleChain) => {
+      const candidates = ['kovar', 'uhlic', 'sklar'].filter(id => T.actor(s, id));
+      const victimId = candidates[Math.floor(Math.random() * candidates.length)];
+      FX.wealth(s, victimId, -8); FX.stores(s, victimId, -15); FX.mood(s, victimId, -14);
+      FX.moodAll(s, -3); FX.tension(s, 12);
+      if (victimId === 'uhlic') FX.les(s, -4); // milíř v lese — oheň se snáz šíří dál
+      scheduleChain('d_fire_rebuild_outcome', 4, { victimId });
+      return {
+        text_cs: `Z dílny ${aName(s, victimId)}e vyšlehly v noci plameny — jiskra z výhně přeskočila na suchou střechu. Než sousedé donosili vodu, oheň strávil půl stavení i zásoby uvnitř. Kouř byl prý vidět až od kláštera.`,
+        text_en: `Flames broke out at night in ${aNameEn(s, victimId)}'s workshop — a spark from the forge caught the dry roof. Before neighbours could carry enough water, the fire had consumed half the building and the stores within. The smoke, they say, was seen as far as the monastery.`,
+      };
+    },
+  },
+  {
+    id: 'd_poor_harvest', type: 'D', icon: '🥀', weight: 2, cooldown: 16,
+    trigger: (s) => T.season(s, 2) && T.chance(0.035),
+    execute: (s) => {
+      s.actors.filter(a => a.status !== 'mrtvy').forEach(a => {
+        a.stores = Math.max(0, a.stores - (a.storesMax || 60) * 0.12);
+        a.mood = Math.max(0, a.mood - 10);
+      });
+      FX.tension(s, 14);
+      return {
+        text_cs: 'Podzimní sklizeň byla hubená — zrno v klasech bylo řídké a mnohé pole zůstalo napůl prázdné. Sedláci počítají pytle a mlčí. Zima bude dlouhá.',
+        text_en: 'The autumn harvest was thin — the grain stood sparse in the ear, and many fields were left half-bare. The farmers count their sacks in silence. Winter will be long.',
+      };
+    },
+  },
+  {
+    id: 'c_bandit_raid_road', type: 'D', icon: '🏹', weight: 2, cooldown: 14,
+    trigger: (s) => (T.actor(s, 'vorar') || T.actor(s, 'prevoznik')) && T.chance(0.03),
+    execute: (s, addChronicle, scheduleChain) => {
+      const candidates = ['vorar', 'prevoznik'].filter(id => T.actor(s, id));
+      const victimId = candidates[Math.floor(Math.random() * candidates.length)];
+      FX.wealth(s, victimId, -10); FX.stores(s, victimId, -10); FX.mood(s, victimId, -15);
+      if (T.actor(s, 'vrchnost')) FX.wealth(s, 'vrchnost', -4);
+      FX.tension(s, 12);
+      scheduleChain('c_bandit_raid_outcome', 3, { victimId });
+      return {
+        text_cs: `Na cestě k brodu přepadli lapkové ${aName(s, victimId)}ův povoz. Zboží je pryč, kůň zraněný. Vrchnost slibuje spravedlnost, ale cesty jsou dlouhé a hlídek málo.`,
+        text_en: `Bandits ambushed ${aNameEn(s, victimId)}'s cart on the road to the ford. The goods are gone, the horse wounded. The lordship promises justice, but the roads are long and the watch is thin.`,
+      };
+    },
+  },
+  {
+    id: 'd_feudal_skirmish', type: 'D', icon: '⚔️', weight: 1, cooldown: 25,
+    trigger: (s) => T.actor(s, 'vrchnost') && T.epoch(s, 'vrcholny', 'pozdni') && T.chance(0.02),
+    execute: (s) => {
+      FX.mood(s, 'vrchnost', -15); FX.wealth(s, 'vrchnost', -8);
+      FX.moodAll(s, -4); FX.tension(s, 16);
+      return {
+        text_cs: 'Sousedský spor o mez přerostl v ozbrojenou potyčku — dva dvory vypáleny, čeleď zraněna. Vrchnost svolává hotovost, ale klid v kraji je ten tam.',
+        text_en: "A boundary dispute between neighbours turned to armed skirmish — two farmsteads burned, servants wounded. The lordship musters its men, but peace in the land is gone for now.",
+      };
+    },
+  },
+  {
+    id: 'c_landfriede_declared', type: 'C', icon: '📯', weight: 2, cooldown: 15,
+    trigger: (s) => T.actor(s, 'vrchnost') && T.gt(s, 50, 100) && T.chance(0.04),
+    execute: (s) => {
+      FX.tension(s, -12); FX.wealth(s, 'vrchnost', -3); FX.mood(s, 'vrchnost', 5);
+      return {
+        text_cs: 'Vrchnost svolala okolní pány a vyhlásila zemský mír — kdo bude nadále loupit, propadne cti i majetku. Na několik týdnů je na cestách klidněji.',
+        text_en: 'The lordship summoned the neighbouring lords and proclaimed a land peace — whoever continues to plunder shall forfeit both honour and property. For a few weeks, the roads grow quieter.',
+      };
     },
   },
 ];
