@@ -62,12 +62,18 @@ const GmOverride = {
       }
 
       // Actor overrides — přímý zásah do GameState.actors
+      // GameState.actors je POLE (RICNI_ACTORS.map(...) v core/state.js), ne
+      // objekt klíčovaný podle ID — [actorId] proto vždy vracelo undefined
+      // a override se tiše nikdy neaplikoval (bug nalezený auditem 13.9.2026).
       if (input.actor_overrides && typeof input.actor_overrides === 'object') {
         for (const [actorId, fields] of Object.entries(input.actor_overrides)) {
-          if (GameState.actors && GameState.actors[actorId] && typeof fields === 'object') {
+          const actor = Array.isArray(GameState.actors)
+            ? GameState.actors.find(a => a.id === actorId)
+            : null;
+          if (actor && typeof fields === 'object') {
             for (const [field, value] of Object.entries(fields)) {
               if (typeof value === 'number') {
-                GameState.actors[actorId][field] = value;
+                actor[field] = value;
               }
             }
           }
