@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-13T18:40:40.653Z",
-  "valid_until": "2026-09-20T18:40:40.653Z",
+  "generated": "2026-09-13T23:59:47.398Z",
+  "valid_until": "2026-09-20T23:59:47.398Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -68,8 +68,8 @@
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
     "tempC": 16,
-    "windKmH": 5,
-    "rainMm": 0.6,
+    "windKmH": 2,
+    "rainMm": 0,
     "season": 2,
     "modifier_grain": 0.95,
     "modifier_wood": 1
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 13,
-    "total_tick": 204,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 13"
+    "day": 14,
+    "total_tick": 205,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 14"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 91,
-      "mood": 97,
+      "wealth": 92,
+      "mood": 94,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 99,
+      "wealth": 97,
+      "mood": 98,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 98,
+      "wealth": 98,
+      "mood": 95,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 98,
+      "mood": 97,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 98,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 99,
+      "mood": 98,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 98,
+      "wealth": 100,
+      "mood": 97,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 96,
+      "mood": 92,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 96,
+      "wealth": 100,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 100,
+      "mood": 98,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 96,
+      "mood": 95,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1857,30 @@
   ],
   "chronicle": [
     {
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 205,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 205,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
       "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
       "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
       "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
@@ -2071,33 +2095,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
-      "text_cs": "Zápis koronera: Starý mlynář se při prosekávání ledu u mlýnského kola smekl a spadl do ledové vody. Kolo ho vtáhlo pod hladinu a rozdrtilo mu žebra. Mlýn připadne jeho nejmladšímu synovi.",
-      "text_en": "Coroner's record: The old miller slipped while chopping ice near the mill wheel and fell into the icy water. The wheel pulled him under and crushed his ribs. The mill will fall to his youngest son.",
-      "type": "A",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
+      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 205,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 205,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
     {
       "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
       "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
@@ -2190,30 +2214,6 @@
       "icon": "👶",
       "source": "local_events",
       "tick": 199,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 199,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_cs": "Kuchmistr zapsal: Stará kuchařka kláštera vypráví, jak za válek vařila polévku z kůry a kopřiv, neb jiného nebylo. Dnes, když mladí bratři reptají na řídkou kaši, jen mlčky míchá hrnec dál.",
-      "text_en": "The kitchen master wrote: the monastery's old cook tells how during the wars she made soup of bark and nettles, for there was nothing else. Today, when the young brothers grumble at thin porridge, she only stirs the pot on in silence.",
-      "type": "A",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 198,
       "year": 1465,
       "season": "Podzim",
       "day": 12
@@ -2342,7 +2342,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 193,
+    "day_of_year": 194,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
