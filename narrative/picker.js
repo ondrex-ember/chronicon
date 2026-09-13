@@ -223,11 +223,15 @@ const Picker = {
   },
 
   // --- Hlavní volání z cron.js ---
+  // pickPortaLetters() (obecný pool porta_letters_v1.json, NE od Augustina)
+  // dočasně vypnuto — krátké/nedopsané dopisy chodily do Porty spolu s
+  // Augustinovými, i když odtud nejsou. Zůstává funkce k dispozici pro
+  // budoucí návrat, až bude obsah pool-u doplněný. Augustinův kanál
+  // (pickAbbotLetter) beze změny.
   run() {
     Picker.pickMonastery();
     Picker.pickLocal();
     Picker.pickDistant();
-    Picker.pickPortaLetters();
     Picker.pickAbbotLetter();
   },
 
