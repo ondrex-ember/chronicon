@@ -4,15 +4,15 @@
     "season": 2,
     "day": 13,
     "daysPerSeason": 90,
-    "totalTick": 201
+    "totalTick": 202
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 4,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 16,
+    "windKmH": 7,
     "rainMm": 0
   },
   "virtue": {
@@ -60,8 +60,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 91.97750176954476,
-      "mood": 99.61259314732456,
+      "wealth": 91.13058106436837,
+      "mood": 98.87588380309528,
       "stores": 0,
       "storesMax": 100,
       "status": "prosperujici",
@@ -88,8 +88,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 99.14530900706896,
-      "mood": 100,
+      "wealth": 98.32079370981764,
+      "mood": 99.83193932194004,
       "stores": 9.222825389375,
       "storesMax": 90,
       "status": "prosperujici",
@@ -116,8 +116,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 98.14184525755482,
-      "mood": 100,
+      "wealth": 99.09405158333362,
+      "mood": 99.53951216081241,
       "stores": 5.762612872656251,
       "storesMax": 80,
       "status": "prosperujici",
@@ -144,8 +144,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 98.18147675389076,
-      "mood": 100,
+      "wealth": 98.60031174086633,
+      "mood": 99.22871391060407,
       "stores": 4.676987973632814,
       "storesMax": 70,
       "status": "prosperujici",
@@ -172,8 +172,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 98.33039111911148,
-      "mood": 99.74846113907942,
+      "wealth": 99.24254014850789,
+      "mood": 99.05754348505103,
       "stores": 4.2480430332031265,
       "storesMax": 50,
       "status": "prosperujici",
@@ -200,7 +200,7 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 98.82278168999488,
+      "wealth": 99.81201647050754,
       "mood": 100,
       "stores": 4.5795777421875,
       "storesMax": 70,
@@ -228,7 +228,7 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 99.78353363482742,
+      "wealth": 100,
       "mood": 100,
       "stores": 6.511725896406251,
       "storesMax": 60,
@@ -256,7 +256,7 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 100,
+      "wealth": 99.46510795107028,
       "mood": 100,
       "stores": 4.313064716796877,
       "storesMax": 70,
@@ -284,8 +284,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.20156519513118,
-      "mood": 98.22106037977176,
+      "wealth": 98.49568790952307,
+      "mood": 97.43943502075459,
       "stores": 4.911342183007814,
       "storesMax": 100,
       "status": "prosperujici",
@@ -312,7 +312,7 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.85734841350937,
+      "wealth": 99.10526844919049,
       "mood": 100,
       "stores": 5.083538425468751,
       "storesMax": 80,
@@ -342,8 +342,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 99.05863890402301,
-      "mood": 99.20083669053743,
+      "wealth": 99.85830501782154,
+      "mood": 99.17729471204999,
       "stores": 3.624868198046876,
       "storesMax": 75,
       "status": "prosperujici",
@@ -435,6 +435,18 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 202,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 13
+    },
     {
       "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
       "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
@@ -1382,21 +1394,48 @@
       "year": 1465,
       "season": "Podzim",
       "day": 4
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 166,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 4
     }
   ],
   "portaLetterHistory": [
+    {
+      "id": "cletter_006",
+      "seal": "scholars",
+      "type": "B",
+      "icon": "🎨",
+      "tags": [
+        "lazurit",
+        "pigmenty",
+        "benátky"
+      ],
+      "conditions": {
+        "season": null,
+        "tension_min": null,
+        "tension_max": null
+      },
+      "sender_cs": "Giacomo Foscari",
+      "sender_en": "Giacomo Foscari",
+      "title_cs": "Varování Giacoma Foscariho",
+      "title_en": "A Warning from Giacomo Foscari",
+      "text_cs": "„Bratře, benátská loď s lazuritem z Afghánistánu prý ztroskotala u Dalmácie. Cena modři na podzimním trhu poletí vzhůru jako svátost při pozdvihování. Kdo má zásobu, ať ji drží — kdo nemá, ať nakupuje teď. — Giacomo Foscari“",
+      "text_en": "\"Brother, a Venetian ship bearing lapis lazuli from Afghanistan is said to have wrecked off Dalmatia. The price of blue at the autumn fair will rise like the Host at the elevation. Whoever holds a stock, let him keep it — whoever does not, let him buy now. — Giacomo Foscari\"",
+      "choices": [
+        {
+          "id": "note",
+          "label_cs": "📜 Vzít na vědomí",
+          "label_en": "📜 Take note",
+          "notify_cs": "Zvěst uložena v paměti celeráře.",
+          "notify_en": "The rumor is filed in the cellarer's memory.",
+          "effects": [
+            {
+              "type": "contactRelation",
+              "id": "giacomo",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "_pickedTick": 202
+    },
     {
       "id": "cletter_002",
       "seal": "village",
@@ -5506,7 +5545,7 @@
       "text": "Z Mohuče přišla zvěst: Vynálezce onen se prý se svým společníkem soudí o stroj sám, neb dluh nesplatil. Kupci se diví, že věc tak podivuhodná může končit hádkou o peníze jako kterýkoli jiný řemeslný spor."
     },
     "porta_cletter_006": {
-      "tick": 148,
+      "tick": 202,
       "text": "cletter_006"
     },
     "local_257": {
@@ -6516,6 +6555,10 @@
     "local_102": {
       "tick": 200,
       "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma."
+    },
+    "local_260": {
+      "tick": 202,
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",
