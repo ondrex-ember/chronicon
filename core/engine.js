@@ -128,13 +128,19 @@ const GameEngine = {
   // nezávisle na runWeeklyEconomy (ta zůstává beze změny, běží dál jen na
   // 28 ticích). Mírný tah podle globálního napětí — klidný kraj lehce
   // zlepšuje náladu, napjatý lehce zhoršuje. Mrtví aktéři se nehýbou.
+  // nalada-tension-mrd (13.9.2026): přidán nezávislý tah ke středu (60) —
+  // tensionPull sám o sobě jen posiloval směr, kterým se svět už hýbal
+  // (nízké napětí → +1 každý tik → nálada ke stropu → napětí dál klesá),
+  // bez protisíly se to zamklo na extrému. meanRevert táhne zpátky bez
+  // ohledu na tension, takže smyčka nemůže uváznout na 0/100.
   actorBreathTick() {
     const actors = GameState.actors;
     if (!Array.isArray(actors)) return;
     const tensionPull = GameState.globalTension > 60 ? -1 : (GameState.globalTension < 30 ? 1 : 0);
     actors.forEach(a => {
       if (a.status === 'mrtvy') return;
-      a.mood   = Math.max(0, Math.min(100, a.mood   + (Math.random() * 4 - 2) + tensionPull));
+      const meanRevert = (60 - a.mood) * 0.08;
+      a.mood   = Math.max(0, Math.min(100, a.mood   + (Math.random() * 4 - 2) + tensionPull + meanRevert));
       a.wealth = Math.max(0, Math.min(100, a.wealth + (Math.random() * 2 - 1)));
     });
   },
@@ -739,6 +745,9 @@ const GameEngine = {
     const avgWealth = living.reduce((acc, a) => acc + a.wealth, 0) / living.length;
 
     let tensionDelta = (50 - avgMood) * 0.16;
+    // nalada-tension-mrd (13.9.2026): nezávislý základ ~30 — tension dřív
+    // reagoval jen na avgMood, takže vysoká nálada ho táhla k 0 bez brzdy.
+    tensionDelta += (30 - GameState.globalTension) * 0.5;
     if (GameState.les < 30) tensionDelta += 1.8;
     const crisisCount = living.filter(a => a.status === 'krize' || a.status === 'zanikajici').length;
     tensionDelta += crisisCount * 1.4;
