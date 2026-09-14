@@ -39,15 +39,24 @@ async function tick() {
     Picker.run();
 
     // 4. Persist — uložit state
-    Persist.save();
+    const saved = Persist.save();
 
     // 4. Snapshot — exportovat JSON pro Scriptorium
-    Snapshot.write();
+    const snap = Snapshot.write();
 
     const ms = Date.now() - start;
+    // chronicon-p0-fix-mrd (14.9.2026), audit-3 bod 13: dřív se chyba
+    // zápisu jen zalogovala a tick i tak "uspěl" — --once mode pak vrátil
+    // exit 0 bez ohledu na to, jestli se stav vůbec uložil/exportoval.
+    if (!saved || !snap) {
+      console.error(`[CHRONICON] ── Tick DOKONČEN S CHYBOU ZÁPISU (${ms}ms) — save=${!!saved}, snapshot=${!!snap}\n`);
+      return false;
+    }
     console.log(`[CHRONICON] ── Tick hotov ── ${ms}ms\n`);
+    return true;
   } catch (err) {
     console.error('[CHRONICON] CHYBA V TIKU:', err);
+    return false;
   }
 }
 
@@ -87,8 +96,8 @@ const args = process.argv.slice(2);
   if (args.includes('--once')) {
     // Jeden tick — pro GitHub Actions a manuální testování
     console.log('[CHRONICON] Režim: --once');
-    await tick();
-    process.exit(0);
+    const ok = await tick();
+    process.exit(ok ? 0 : 1);
 
   } else if (args.includes('--dev')) {
     // Dev režim — tick každých 30 sekund
