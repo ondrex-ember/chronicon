@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-14T18:15:21.096Z",
-  "valid_until": "2026-09-21T18:15:21.096Z",
+  "generated": "2026-09-14T18:34:25.774Z",
+  "valid_until": "2026-09-21T18:34:25.774Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,7 +67,7 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 19,
+    "tempC": 18,
     "windKmH": 2,
     "rainMm": 0,
     "season": 2,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 14,
-    "total_tick": 209,
+    "total_tick": 210,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 14"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 92,
-      "mood": 87,
+      "wealth": 93,
+      "mood": 88,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 89,
+      "wealth": 100,
+      "mood": 86,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 93,
+      "wealth": 98,
+      "mood": 91,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 98,
+      "mood": 87,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 91,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 92,
+      "mood": 90,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 86,
+      "mood": 84,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 90,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 87,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 93,
       "stores": 4,
       "status": "prosperujici",
@@ -1857,6 +1857,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 210,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 210,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
       "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
@@ -2071,33 +2095,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
-      "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
-      "text_en": "From Kroměříž: This year's grape harvest on the bishop's slopes is particularly successful. Sweet grapes fill the vats, and cellar masters predict wine of excellent taste. A portion of the production will be sent as a gift to Rome.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 200,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 200,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 210,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
     {
       "text": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
       "text_cs": "Z Fulneku, zpráva přišla se zpožděním: Ve vsi za kopcem zemřelo tento týden pět lidí. Lékaři mluví o horečce, ale starší vědí, jak taková horečka vypadá. Trh je poloprázdný. Lidé se vyhýbají kontaktu.",
@@ -2205,21 +2217,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 203,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 13
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
+      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 210,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
     {
       "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
@@ -2324,18 +2336,6 @@
       "icon": "🏹",
       "source": "distant_events",
       "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 193,
       "year": 1465,
       "season": "Podzim",
       "day": 11
