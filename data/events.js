@@ -436,6 +436,53 @@ const EVENT_REGISTRY = [
       };
     },
   },
+
+  // ============================================
+  //  TENSION WAVE 3 — chronicon-wave3-mrd (14.9.2026)
+  //  Regionální varianty vedle stávajících a_jaro_prival/a_krupobi (ty se
+  //  nemění), + odložený mercenary levy.
+  // ============================================
+
+  {
+    id: 'c_regional_flood', type: 'C', icon: '🌉', weight: 1, cooldown: 30,
+    trigger: (s) => ['vorar', 'prevoznik', 'rybnikar'].some(id => T.actor(s, id)) && T.season(s, 0) && T.chance(0.015),
+    execute: (s) => {
+      ['vorar', 'prevoznik', 'rybnikar'].forEach(id => {
+        if (T.actor(s, id)) { FX.wealth(s, id, -6); FX.mood(s, id, -8); }
+      });
+      FX.tension(s, 12);
+      return {
+        text_cs: 'Morava se rozvodnila v celém kraji — voda strhla lávku u brodu, potopila několik rybníků a vor uvízl na naplaveném dříví. Škody hlásí skoro každý, kdo žije u vody.',
+        text_en: 'The Morava has flooded across the whole region — the water swept away the footbridge at the ford, drowned several fishponds, and a raft ran aground on driftwood. Nearly everyone who lives by the water reports damage.',
+      };
+    },
+  },
+  {
+    id: 'd_severe_hailstorm', type: 'D', icon: '🧊', weight: 1, cooldown: 30,
+    trigger: (s) => (T.actor(s, 'mlynar') || T.actor(s, 'vcelar')) && T.season(s, 1, 2) && T.chance(0.015),
+    execute: (s) => {
+      if (T.actor(s, 'mlynar')) FX.stores(s, 'mlynar', -10);
+      if (T.actor(s, 'vcelar')) { FX.wealth(s, 'vcelar', -8); FX.mood(s, 'vcelar', -10); }
+      FX.tension(s, 12);
+      return {
+        text_cs: 'Kroupy velké jako vlašské ořechy bily přes čtvrt hodiny. Obilí v pytlích na mlýně navlhlo skrz rozbitou střechu a včelaři popadaly úly i s roji.',
+        text_en: 'Hailstones the size of walnuts battered the land for a quarter of an hour. Grain sacks at the mill soaked through a shattered roof, and the beekeeper lost hives, swarms and all.',
+      };
+    },
+  },
+  {
+    id: 'd_mercenary_levy', type: 'D', icon: '🛡️', weight: 1, cooldown: 30,
+    trigger: (s) => T.actor(s, 'vrchnost') && T.epoch(s, 'vrcholny', 'pozdni') && T.chance(0.018),
+    execute: (s) => {
+      FX.wealth(s, 'vrchnost', -6); FX.moodAll(s, -6);
+      if (T.actor(s, 'kovar')) FX.wealth(s, 'kovar', 5);
+      FX.tension(s, 10);
+      return {
+        text_cs: 'Vrchnost povolala hotovost — muži odcházejí od pluhů a kovadlin s kopími na rameni. Kovář má plné ruce práce s brněním, ale pole zůstávají napůl obdělaná.',
+        text_en: "The lordship has called the levy — men leave plough and anvil, spears on their shoulders. The blacksmith's hands are full with armour, but the fields stand half-tilled.",
+      };
+    },
+  },
 ];
 
 module.exports = { T, FX, rndText, aName, ACTOR_LABELS, EVENT_REGISTRY, CHAIN_CALLBACKS };
