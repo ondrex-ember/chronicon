@@ -455,6 +455,16 @@ const GameEngine = {
       }
     });
 
+    // 4a-0. chronicon-p0-fix-mrd (14.9.2026), audit-3 bod 9: krok výš
+    // (obecný status resolver) nesmí přepsat status nakaženého aktéra
+    // zpátky na stable/prosperujici jen proto, že má wealth/mood ještě
+    // nad prahem 22 — mor je krize bez ohledu na měšec. Bez tohohle
+    // pendingHospites (4a-bis níž) nikdy nezachytí přechod do krize
+    // s cause:'plague' u bohatého/spokojeného nakaženého.
+    actors.forEach(a => {
+      if (a._infected && a.status !== 'mrtvy') a.status = 'krize';
+    });
+
     // 4a. Rescue Registrum — komunitní záchrana konkrétních aktérů
     // (infirmarium-hospites-rescue-mrd.md §4.2). Denní dedup na Scriptorium
     // straně; tady čteme kolik dní z posledního týdne mělo pro daného
