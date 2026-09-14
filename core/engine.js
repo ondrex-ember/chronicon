@@ -319,7 +319,9 @@ const GameEngine = {
     const scheduleChain = (chainId, delayWeeks, data) => {
       GameState._chainQueue.push({ chainId, dueWeek: GameState.week + delayWeeks, data });
     };
+    const firedOnce = GameState._firedOnceEvents || [];
     const pool = EVENT_REGISTRY.filter(ev => {
+      if (ev.once && firedOnce.includes(ev.id)) return false;
       if ((cooldowns[ev.id] || 0) > 0) return false;
       try { return ev.trigger(GameState); } catch (e) { return false; }
     });
@@ -331,6 +333,10 @@ const GameEngine = {
       try {
         cooldowns[selected.id] = selected.cooldown;
         const result = selected.execute(GameState, addChronicleFn, scheduleChain);
+        if (selected.once) {
+          GameState._firedOnceEvents = GameState._firedOnceEvents || [];
+          GameState._firedOnceEvents.push(selected.id);
+        }
         // tension-wave-1-mrd (13.9.2026): execute() teď smí vrátit buď starý
         // plain string (beze změny), nebo nový { text_cs, text_en } objekt.
         const isBilingual = result && typeof result === 'object';
