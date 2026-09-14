@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-14T07:30:13.295Z",
-  "valid_until": "2026-09-21T07:30:13.295Z",
+  "generated": "2026-09-14T09:43:33.732Z",
+  "valid_until": "2026-09-21T09:43:33.732Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 6,
+    "tempC": 17,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 14,
-    "total_tick": 206,
+    "total_tick": 207,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 14"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 92,
+      "wealth": 92,
+      "mood": 91,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 98,
+      "mood": 96,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 91,
+      "mood": 90,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 96,
+      "wealth": 99,
+      "mood": 95,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 92,
+      "wealth": 99,
+      "mood": 89,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 94,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 96,
+      "mood": 95,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 90,
+      "mood": 88,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 93,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -297,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 95,
+      "wealth": 99,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 95,
+      "wealth": 98,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1857,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
+      "type": "E",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
       "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_en": "From the Zbraslav notes: the widow of a soldier from the Hussite wars hath begged at the church gate these twenty years. The priests give her alms, but it sufficeth not. Many have forgotten her; she herself forgetteth none.",
@@ -2059,45 +2095,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 12
-    },
-    {
-      "text": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
-      "text_cs": "Z Konice: Panský správce žádá město o vydání tří zběhlých nevolníků, kteří prý utekli z roboty na statcích. Purkmistr je odmítá vydat s tvrzením, že po uplynutí roku a dne jim náleží svoboda městských zdí.",
-      "text_en": "From Konice: The lord's steward is asking the town to hand over three runaway serfs who allegedly fled from corvée labor on the estates. The burgomaster refuses to surrender them, claiming that after a year and a day they are entitled to the freedom of the town walls.",
-      "type": "A",
-      "icon": "🏃",
-      "source": "local_events",
-      "tick": 197,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
-      "text_cs": "Léta téhož po Narození Matky božie po tom vítězství, když Pražané Města Starého, jdúc s processí na Hrad k sv. Václavu, Pánu Bohu chválu vzdávali, a když jsú zase šli s Hradu, obořil se ſe ſe jest s nimi most před Hradem, u té brány k řece jdúc, a s ním upadlo na sto lidu.",
-      "text_en": "That year, after the Nativity of the Mother of God, the Praguers of the Old Town went in procession to St Wenceslas at the Castle to give thanks to God for the victory.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 196,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
-    },
-    {
-      "text": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
-      "text_cs": "Teplý podzim přinesl vynikající úrodu hroznů, které se právě svážejí do lisoven. Šlapání vína probíhá od svítání do setmění a vzduch voní kvasícím moštem. Bednáři nestíhají vyrábět nové sudy, aby uspokojili obrovskou poptávku vinařů.",
-      "text_en": "A warm autumn brought an excellent harvest of grapes, which are currently being brought to the pressing houses. Grape treading goes on from dawn till dusk, and the air smells of fermenting must. Coopers cannot make new barrels fast enough to satisfy the huge demand from winemakers.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 196,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
+    {
+      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
+      "type": "E",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
     {
       "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
       "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
@@ -2193,33 +2217,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
-      "text_cs": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma.",
-      "text_en": "From Kroměříž: This year's grape harvest on the bishop's slopes is particularly successful. Sweet grapes fill the vats, and cellar masters predict wine of excellent taste. A portion of the production will be sent as a gift to Rome.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 200,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 200,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 207,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 14
+    },
     {
       "text": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
       "text_cs": "Ze zápisků zbraslavských: Vdova po vojákovi z válek husitských žebrá u kostelních vrat již dvacet let. Kněží jí almužnu dávají, ale jí to nestačí. Mnozí na ni zapomněli, ona sama na nikoho ne.",
@@ -2327,18 +2339,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 10
-    },
-    {
-      "text": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
-      "text_cs": "Léta téhož dobyto jest město Brod od Pražan, v němžto mnoho lidu jest zbito. Ale žoldnéři němečští utekli sú na zvonici, v kteréžto zvonici jsú zapáleni, a krovové padli, ale žoldnéřóm nic neškodilo, než potom vyvedeni jsú za město a cepy zbiti i spáleni.",
-      "text_en": "That year the town of Brod was taken by the Praguers and many people slain; the German mercenaries fled to the belfry, and in that belfry were burned.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 188,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 9
     }
   ],
   "church_calendar": {
