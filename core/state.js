@@ -58,6 +58,11 @@ const GameState = {
   pendingPocestny: [],         // fronta pocestných (Vlna 1 / ubytovna-mrd.md §8c-B), max 10 FIFO, despawn po 2 týdnech (viz engine.js)
   pendingFarniEvents: [],      // fronta farních událostí (křest/svatba/pohřeb, sdílený vesnický pool), max 10 FIFO — farnost-chronicon-reference.md
   _eventCooldowns: {},         // { eventId: ticksLeft } — pro EVENT_REGISTRY
+  // chronicon-wave2-mrd (14.9.2026) — jednorázové historické eventy
+  // (ev.once === true). Na rozdíl od _eventCooldowns se NIKDY nesnižuje/
+  // nemaže — jakmile je ID tady, ten event už se v tomhle save nikdy
+  // znovu nespustí, i kdyby jeho sezónní okno přišlo znovu příští rok.
+  _firedOnceEvents: [],
   actors: RICNI_ACTORS.map(a => ({
     ...a,
     status: 'stable',
