@@ -11,7 +11,7 @@
 'use strict';
 
 const T = {
-  season:    (state, s) => state.time.season === s,
+  season:    (state, ...seasons) => seasons.includes(state.time.season),
   gt:        (state, min, max = 100) => state.globalTension >= min && state.globalTension <= max,
   actor:     (state, id) => state.actors.find(a => a.id === id && a.status !== 'mrtvy'),
   wealth:    (state, id, min, max = 100) => { const a = T.actor(state, id); return a ? (a.wealth >= min && a.wealth <= max) : false; },
@@ -395,6 +395,44 @@ const EVENT_REGISTRY = [
       return {
         text_cs: 'Vrchnost svolala okolní pány a vyhlásila zemský mír — kdo bude nadále loupit, propadne cti i majetku. Na několik týdnů je na cestách klidněji.',
         text_en: 'The lordship summoned the neighbouring lords and proclaimed a land peace — whoever continues to plunder shall forfeit both honour and property. For a few weeks, the roads grow quieter.',
+      };
+    },
+  },
+
+  // ============================================
+  //  TENSION WAVE 2 — chronicon-wave2-mrd (14.9.2026)
+  //  Datované politické beaty roku 1465, fired-once (viz ev.once + engine.js
+  //  blok 3b). Konkrétní historická jména dle dohody s Bouvardem — u
+  //  datovaných beatů jmenovat, u generických eventů ne.
+  // ============================================
+
+  {
+    id: 'd_papal_citation_1465', type: 'D', icon: '📜', weight: 1, cooldown: 20, once: true,
+    // chronicon-wave2-fix-mrd (14.9.2026): gate rozšířen z Léto-only na
+    // Léto/Podzim/Zima — text nezmiňuje konkrétní datum, "zpráva z Říma
+    // dorazila" i na podzim/v zimě je věrohodné (pomalá komunikace 1465).
+    // Jaro záměrně vynecháno — to by bylo dřív než srpen 1465.
+    trigger: (s) => T.actor(s, 'klaster') && T.season(s, 1, 2, 3) && T.chance(0.15),
+    execute: (s) => {
+      FX.mood(s, 'klaster', -12); FX.rel(s, 'klaster', 'vrchnost', -8); FX.tension(s, 14);
+      return {
+        text_cs: 'Z Říma dorazila zpráva, která znepokojila celé království: papež Pavel II. obnovil půhon proti králi Jiřímu a předvolal ho před římský soud. Krátce nato prý dostali papežovi legáti pravomoc stíhat klatbou i ty, kdo zůstávají věrni koruně. Opat čte list potichu a dlouho mlčí.',
+        text_en: 'News arrived from Rome that has troubled the whole kingdom: Pope Paul II renewed the citation against King George and summoned him before the Roman court. Soon after, it is said, the papal legates were granted the power to pursue with excommunication even those who remain loyal to the Crown. The abbot reads the letter in silence, and says nothing for a long while.',
+      };
+    },
+  },
+  {
+    id: 'd_green_mountain_league', type: 'D', icon: '⚜️', weight: 1, cooldown: 20, once: true,
+    // Historické pořadí: musí proběhnout AŽ PO d_papal_citation_1465
+    // (srpen → listopad 1465) — viz poznámka v dodávce.
+    trigger: (s) => T.actor(s, 'vrchnost') && T.season(s, 2) && T.chance(0.15)
+      && (s._firedOnceEvents || []).includes('d_papal_citation_1465'),
+    execute: (s) => {
+      FX.tension(s, 16); FX.moodAll(s, -5);
+      if (T.actor(s, 'klaster')) FX.rel(s, 'klaster', 'vrchnost', -5);
+      return {
+        text_cs: 'Z Čech přišla zpráva: na Zelené Hoře se katoličtí páni v čele se Zdeňkem ze Šternberka spojili proti králi Jiřímu. V hostincích i kapitulních síních se šeptá, kdo zůstane věrný koruně a kdo se přikloní k odpůrcům — a nikdo na panství neví, přidá-li se i Morava.',
+        text_en: 'News has come from Bohemia: at Zelená Hora, Catholic lords led by Zdeněk ze Šternberka have joined together against King George. In taverns and chapter halls men whisper about who will remain loyal to the Crown and who will side with its opponents — and no one on the estate knows whether Moravia, too, will join.',
       };
     },
   },
