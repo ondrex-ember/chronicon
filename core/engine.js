@@ -432,20 +432,16 @@ const GameEngine = {
     }
 
 
-    // 4. Přechody stavu — krize/zánik/smrt (5 týdnů souvislé bídy → smrt)
+    // 4. Přechody stavu — krize/zánik (5 týdnů souvislé bídy → smrt, ale
+    // o smrti se rozhoduje až v kroku 4b, AŽ PO Rescue Registrum — viz
+    // chronicon-audit2-mrd (14.9.2026), bod 12: dřív se smrt rozhodla
+    // dřív, než mohl rescue cokoli udělat, protože rescue blok sám sebe
+    // vynechával pro už-mrtvé aktéry. Teď rescue dostane šanci snížit
+    // ticksInCrisis ještě předtím, než se o smrti rozhoduje.
     actors.forEach(a => {
       if (a.status === 'mrtvy') return;
       if (a.wealth < 22 || a.mood < 22) {
         a.ticksInCrisis += 1;
-        if (a.ticksInCrisis >= 5) {
-          a.status = 'mrtvy';
-          a._deathWeek = GameState.week;
-          GameLog.add(
-            `Smutná zpráva obletěla kraj. ${a.label} (${a.profession}) podlehl dlouhodobému úpadku a bídě.`,
-            { type: 'E', icon: '☠️', source: 'monastery_internal' }
-          );
-          return;
-        }
         a.status = (a.wealth < 10 || a.mood < 10) ? 'zanikajici' : 'krize';
       } else {
         a.ticksInCrisis = 0;
@@ -468,6 +464,20 @@ const GameEngine = {
       if (applied <= 0) return;
       a.ticksInCrisis -= applied;
       rescueBudget -= applied;
+    });
+
+    // 4b. Finální rozhodnutí o smrti — teprve TEĎ, s hodnotou ticksInCrisis
+    // už případně sníženou rescue akcí z kroku 4a.
+    actors.forEach(a => {
+      if (a.status === 'mrtvy') return;
+      if (a.ticksInCrisis >= 5) {
+        a.status = 'mrtvy';
+        a._deathWeek = GameState.week;
+        GameLog.add(
+          `Smutná zpráva obletěla kraj. ${a.label} (${a.profession}) podlehl dlouhodobému úpadku a bídě.`,
+          { type: 'E', icon: '☠️', source: 'monastery_internal' }
+        );
+      }
     });
 
     // 4a-bis. pendingHospites — kandidáti na Infirmarium/Ubytovnu, kdo
