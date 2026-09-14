@@ -41,7 +41,7 @@ const { EVENT_REGISTRY } = require('../data/events.js');
 
 // --- Instrumentace: kolikrát se který event skutečně spustil napříč
 // všemi běhy (execute() proběhlo, ne jen trigger() vrátil true) ---
-const NEW_EVENT_IDS = ['d_fire_workshop', 'd_poor_harvest', 'c_bandit_raid_road', 'd_feudal_skirmish', 'c_landfriede_declared', 'd_papal_citation_1465', 'd_green_mountain_league'];
+const NEW_EVENT_IDS = ['d_fire_workshop', 'd_poor_harvest', 'c_bandit_raid_road', 'd_feudal_skirmish', 'c_landfriede_declared', 'd_papal_citation_1465', 'd_green_mountain_league', 'c_regional_flood', 'd_severe_hailstorm', 'd_mercenary_levy'];
 const fireCounts = {};       // celkový počet spuštění napříč VŠEMI běhy
 const firedInRunCount = {};  // v kolika bězích to proběhlo AlESPOŇ jednou
 EVENT_REGISTRY.forEach(ev => {
