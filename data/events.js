@@ -10,6 +10,8 @@
 
 'use strict';
 
+const { Liturgical } = require('../core/liturgical.js');
+
 const T = {
   season:    (state, ...seasons) => seasons.includes(state.time.season),
   gt:        (state, min, max = 100) => state.globalTension >= min && state.globalTension <= max,
@@ -221,12 +223,18 @@ const EVENT_REGISTRY = [
     trigger: (s) => T.actor(s, 'klaster') && T.wealth(s, 'klaster', 55) && T.chance(0.05),
     execute: (s) => {
       FX.wealth(s, 'klaster', -10); FX.wealth(s, 'kovar', 6); FX.wealth(s, 'uhlic', 4); FX.rel(s, 'klaster', 'kovar', 8); FX.tension(s, -3);
-      return `Opat rozhodl o stavbě nové románské baziliky. ${aName(s, 'kovar')} získává obrovskou panskou zakázku na kování.`;
+      // chronicon-p0-fix-mrd (14.9.2026), audit-3 bod 17: "románská
+      // bazilika" byl anachronismus — v roce 1465 se stavělo/přestavovalo
+      // goticky, ne románsky (to bylo hotové +/- 200-300 let dřív).
+      return `Opat rozhodl o přestavbě klášterního kostela v gotickém slohu — nová žebrová klenba a vyšší okna mají vpustit víc světla do chóru. ${aName(s, 'kovar')} získává obrovskou panskou zakázku na kování.`;
     },
   },
   {
     id: 'b_pust_ryby', type: 'B', icon: '🐟', weight: 2, cooldown: 10,
-    trigger: (s) => (T.season(s, 0) || T.season(s, 3)) && !!T.actor(s, 'rybnikar') && !!T.actor(s, 'klaster') && T.chance(0.07),
+    // chronicon-p0-fix-mrd (14.9.2026), audit-3 bod 17: dřív hrubý sezónní
+    // odhad (Jaro nebo Zima — skoro půl roku), teď skutečná postní doba
+    // (Popeleční středa → Velikonoce), stejný výpočet jako snapshot.js.
+    trigger: (s) => Liturgical.isLent() && !!T.actor(s, 'rybnikar') && !!T.actor(s, 'klaster') && T.chance(0.07),
     execute: (s) => {
       FX.wealth(s, 'rybnikar', 8); FX.stores(s, 'rybnikar', -20); FX.wealth(s, 'klaster', -5); FX.rel(s, 'rybnikar', 'klaster', 6);
       return `Nastal přísný předvelikonoční půst a hlad po rybách. ${aName(s, 'rybnikar')} dodává kapry přímo do klášterního refektáře.`;
