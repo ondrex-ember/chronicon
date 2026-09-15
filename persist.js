@@ -130,8 +130,10 @@ const Persist = {
         fs.mkdirSync(dir, { recursive: true });
       }
       fs.writeFileSync(STATE_PATH, JSON.stringify(GameState, null, 2), 'utf8');
+      return true;
     } catch (err) {
       console.error('[CHRONICON] Chyba při ukládání state:', err.message);
+      return false;
     }
   },
 
