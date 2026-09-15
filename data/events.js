@@ -138,6 +138,12 @@ const CHAIN_CALLBACKS = {
 };
 
 // weight = relativní šance výběru mezi triggernutými; cooldown = ticky (28/týden) než smí znovu
+// chronicon-wave2-deadline-mrd (15.9.2026) — sdílené mezi eligible() a
+// trigger() u obou wave-2 once-eventů, ať se ty dvě podmínky nerozejdou.
+const _papalEligible = (s) => !!T.actor(s, 'klaster') && T.season(s, 1, 2, 3);
+const _leagueEligible = (s) => !!T.actor(s, 'vrchnost') && T.season(s, 2)
+  && (s._firedOnceEvents || []).includes('d_papal_citation_1465');
+
 const EVENT_REGISTRY = [
   {
     id: 'a_jaro_prival', type: 'A', icon: '🌊', weight: 2, cooldown: 12,
@@ -412,15 +418,28 @@ const EVENT_REGISTRY = [
   //  Datované politické beaty roku 1465, fired-once (viz ev.once + engine.js
   //  blok 3b). Konkrétní historická jména dle dohody s Bouvardem — u
   //  datovaných beatů jmenovat, u generických eventů ne.
+  //
+  //  chronicon-wave2-deadline-mrd (15.9.2026): forceAfterWeeks — absolutní
+  //  pojistka, aby se tahle konkrétní historická událost v žádném světě
+  //  nemohla "prostě nestat" jen kvůli smůle na kostce. eligible() je
+  //  stejná podmínka jako trigger(), sdílená přes lokální funkci, aby
+  //  se to nerozešlo, kdyby se jedna z nich upravila a druhá ne.
   // ============================================
 
   {
     id: 'd_papal_citation_1465', type: 'D', icon: '📜', weight: 1, cooldown: 20, once: true,
+    // chronicon-wave2-deadline-mrd (15.9.2026), zpřesněno 15.9.2026: 13
+    // (ne 26) — worst-case vynucení musí padnout NEJPOZDĚJI do konce Léta
+    // (jeho první eligible sezóny), aby jednotě zbyl celý Podzim (13
+    // týdnů) na její vlastní forceAfterWeeks:10. S 26 by se teoreticky
+    // mohly obě spadnout do dvou různých let (ověřeno testem).
+    forceAfterWeeks: 13,
+    eligible: _papalEligible,
     // chronicon-wave2-fix-mrd (14.9.2026): gate rozšířen z Léto-only na
     // Léto/Podzim/Zima — text nezmiňuje konkrétní datum, "zpráva z Říma
     // dorazila" i na podzim/v zimě je věrohodné (pomalá komunikace 1465).
     // Jaro záměrně vynecháno — to by bylo dřív než srpen 1465.
-    trigger: (s) => T.actor(s, 'klaster') && T.season(s, 1, 2, 3) && T.chance(0.15),
+    trigger: (s) => _papalEligible(s) && T.chance(0.15),
     execute: (s) => {
       FX.mood(s, 'klaster', -12); FX.rel(s, 'klaster', 'vrchnost', -8); FX.tension(s, 14);
       return {
@@ -431,10 +450,15 @@ const EVENT_REGISTRY = [
   },
   {
     id: 'd_green_mountain_league', type: 'D', icon: '⚜️', weight: 1, cooldown: 20, once: true,
+    // chronicon-wave2-deadline-mrd (15.9.2026): jednota má eligible okno
+    // jen 1 sezónu (Podzim, ~13 týdnů) na rozdíl od půhonu (3 sezóny,
+    // ~39 týdnů) — nižší hranice, ať se vynucení vejde do PRVNÍHO podzimu
+    // po půhonu, ne až do druhého.
+    forceAfterWeeks: 10,
+    eligible: _leagueEligible,
     // Historické pořadí: musí proběhnout AŽ PO d_papal_citation_1465
-    // (srpen → listopad 1465) — viz poznámka v dodávce.
-    trigger: (s) => T.actor(s, 'vrchnost') && T.season(s, 2) && T.chance(0.15)
-      && (s._firedOnceEvents || []).includes('d_papal_citation_1465'),
+    // (srpen → listopad 1465) — vynuceno přes _leagueEligible.
+    trigger: (s) => _leagueEligible(s) && T.chance(0.15),
     execute: (s) => {
       FX.tension(s, 16); FX.moodAll(s, -5);
       if (T.actor(s, 'klaster')) FX.rel(s, 'klaster', 'vrchnost', -5);
