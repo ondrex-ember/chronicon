@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-15T16:12:18.244Z",
-  "valid_until": "2026-09-22T16:12:18.244Z",
+  "generated": "2026-09-15T19:36:36.647Z",
+  "valid_until": "2026-09-22T19:36:36.647Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 23,
-    "windKmH": 4,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 20,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 15,
-    "total_tick": 212,
+    "total_tick": 213,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 15"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 85,
+      "wealth": 94,
+      "mood": 84,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 91,
+      "wealth": 98,
+      "mood": 89,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 86,
+      "mood": 83,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 97,
-      "mood": 88,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 87,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 86,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 82,
+      "mood": 81,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 88,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -297,8 +297,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
-      "mood": 90,
+      "wealth": 98,
+      "mood": 88,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1857,18 @@
   ],
   "chronicle": [
     {
+      "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
+      "type": "A",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 213,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 15
+    },
+    {
       "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
       "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
       "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
@@ -2083,21 +2095,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_cs": "Nespokojení tovaryši a učedníci několika řemeslných cechů se vzbouřili proti tvrdým podmínkám a nízké mzdě. Srotili se na náměstí, vybili okna několika domům bohatých mistrů a odmítají pracovat. Městská stráž se připravuje na tvrdý zásah s halapartnami.",
-      "text_en": "Dissatisfied journeymen and apprentices from several craft guilds rebelled against harsh conditions and low pay. They gathered in the square, smashed the windows of several rich masters' houses, and refuse to work. The town guard is preparing for a harsh crackdown with halberds.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 203,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 13
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
+      "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
+      "type": "A",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 213,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 15
+    },
     {
       "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
       "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
@@ -2202,18 +2214,6 @@
       "icon": "🌾",
       "source": "monastery_internal",
       "tick": 207,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 206,
       "year": 1465,
       "season": "Podzim",
       "day": 14
