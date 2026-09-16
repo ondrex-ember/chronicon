@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-15T19:36:36.647Z",
-  "valid_until": "2026-09-22T19:36:36.647Z",
+  "generated": "2026-09-16T00:04:10.387Z",
+  "valid_until": "2026-09-23T00:04:10.387Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 20,
-    "windKmH": 1,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 16,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 15,
-    "total_tick": 213,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 15"
+    "day": 16,
+    "total_tick": 214,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 16"
   },
   "actors": [
     {
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 94,
-      "mood": 84,
+      "wealth": 93,
+      "mood": 83,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 89,
+      "wealth": 97,
+      "mood": 87,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +140,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 100,
+      "mood": 82,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 98,
+      "mood": 81,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -205,8 +209,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +255,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -274,8 +278,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +324,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 88,
+      "wealth": 97,
+      "mood": 86,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1861,18 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 214,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
       "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
       "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
       "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
@@ -2083,18 +2099,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_cs": "Záznam koronera z Londýna: Ve čtvrtek večer se v krčmě u řeky pohádali dva soukeníci o cenu sukna. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ uzavřen jako sebeobrana.",
-      "text_en": "London coroner's record: On Thursday evening two cloth merchants argued in a riverside tavern over the price of cloth. One took a jug, the other a knife. The jug won. Case closed as self-defense.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 203,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 13
     }
   ],
   "chronicle_local": [
@@ -2221,6 +2225,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 214,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
       "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
       "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
@@ -2327,22 +2343,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 11
-    },
-    {
-      "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 195,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 11
     }
   ],
   "church_calendar": {
-    "day_of_year": 195,
+    "day_of_year": 196,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
