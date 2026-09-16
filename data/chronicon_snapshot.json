@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-16T09:12:00.640Z",
-  "valid_until": "2026-09-23T09:12:00.640Z",
+  "generated": "2026-09-16T14:44:21.043Z",
+  "valid_until": "2026-09-23T14:44:21.043Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
-    "windKmH": 4,
+    "tempC": 23,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 16,
-    "total_tick": 215,
+    "total_tick": 216,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 16"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 84,
+      "wealth": 92,
+      "mood": 83,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -118,7 +118,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 86,
+      "mood": 83,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -140,7 +140,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 81,
       "stores": 6,
       "status": "prosperujici",
@@ -164,7 +164,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +210,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 82,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -233,7 +233,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 86,
+      "mood": 85,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -256,7 +256,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 77,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -279,7 +279,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -302,7 +302,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 84,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -325,7 +325,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 87,
+      "mood": 86,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1861,6 +1861,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
+      "text_cs": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
+      "text_en": "From Zábřeh: A wealthy noble procession ceremoniously entered the town. The nobleman distributed small silver coins to the poor and had two barrels of beer tapped in the square to celebrate the birth of his heir.",
+      "type": "E",
+      "icon": "📯",
+      "source": "local_events",
+      "tick": 216,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 216,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
       "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
       "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
       "text_en": "A wandering preacher appeared in the square, fiery speaking against the wealth of the church and praising the teachings of the Compactata. His words outraged local orthodox Catholics and almost led to a lynching. Guards had to escort the preacher to the safety of the town jail.",
@@ -2075,33 +2099,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 14
-    },
-    {
-      "text": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_cs": "V análech stojí psáno: Léta MCCCXXXVIII přiletěly kobylky do země. A o dvě léta dřív vtrhli Švábi a škodu učinili takovou, že lidé nemohli síti za sedm let. Bratr celerář říká, že sýpka plná je modlitba nejjistější.",
-      "text_en": "It stands written in the annals: in 1338 locusts came into the land. And two years before, the Swabians invaded and wrought such ruin that folk could not sow for seven years. Brother cellarer says a full granary is the surest prayer.",
-      "type": "A",
-      "icon": "🦗",
-      "source": "monastery_internal",
-      "tick": 206,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_cs": "Nedbalý učedník v kovárně zanechal rozžhavené železo blízko kupy dřevěného uhlí. Do rána vyhořela dílna i s obytným stavením a uhelný prach způsobil smrtelné zadušení starého mistra. Městská stráž musela mladíka bránit před hněvem sousedů, kteří přišli o majetek.",
-      "text_en": "A careless apprentice in the smithy left glowing iron near a pile of charcoal. By morning, the workshop and residential building burned down, and the coal dust caused the fatal suffocation of the old master. The town guard had to protect the young man from the anger of neighbors who lost property.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 205,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
+      "text_cs": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
+      "text_en": "From Zábřeh: A wealthy noble procession ceremoniously entered the town. The nobleman distributed small silver coins to the poor and had two barrels of beer tapped in the square to celebrate the birth of his heir.",
+      "type": "E",
+      "icon": "📯",
+      "source": "local_events",
+      "tick": 216,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
+      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
+      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 216,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
     {
       "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
       "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
@@ -2194,30 +2218,6 @@
       "icon": "💀",
       "source": "local_events",
       "tick": 209,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 208,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
-      "type": "B",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 208,
       "year": 1465,
       "season": "Podzim",
       "day": 14
