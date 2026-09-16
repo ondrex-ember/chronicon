@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-16T00:04:10.387Z",
-  "valid_until": "2026-09-23T00:04:10.387Z",
+  "generated": "2026-09-16T09:12:00.640Z",
+  "valid_until": "2026-09-23T09:12:00.640Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 3,
+    "tempC": 18,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 16,
-    "total_tick": 214,
+    "total_tick": 215,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 16"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 93,
-      "mood": 83,
+      "mood": 84,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -118,7 +118,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 87,
+      "mood": 86,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -140,8 +140,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 81,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -163,8 +163,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
-      "mood": 85,
+      "wealth": 98,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 81,
       "stores": 4,
       "status": "prosperujici",
@@ -210,7 +210,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 85,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -255,8 +255,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -278,7 +278,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 83,
       "stores": 5,
       "status": "prosperujici",
@@ -301,8 +301,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 98,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -325,7 +325,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 86,
+      "mood": 87,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1861,6 +1861,30 @@
   ],
   "chronicle": [
     {
+      "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
+      "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
+      "text_en": "A wandering preacher appeared in the square, fiery speaking against the wealth of the church and praising the teachings of the Compactata. His words outraged local orthodox Catholics and almost led to a lynching. Guards had to escort the preacher to the safety of the town jail.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 215,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
+      "text": "Bratr vrátný přišel s obviněním, že skriptoři příliš hlasitě brousí své brky. Skriptoři kontrovali, že on vrže bránou. Opat oběma nakázal měsíc mlčení. Kroniku tak doplňuji o vítězství ticha.",
+      "text_cs": "Bratr vrátný přišel s obviněním, že skriptoři příliš hlasitě brousí své brky. Skriptoři kontrovali, že on vrže bránou. Opat oběma nakázal měsíc mlčení. Kroniku tak doplňuji o vítězství ticha.",
+      "text_en": "Brother porter brought an accusation that the scribes sharpen their quills too loudly. The scribes countered that his gate creaks. The abbot ordered a month of silence for both. I thus add the victory of silence to the chronicle.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 215,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
       "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
       "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
       "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
@@ -2075,33 +2099,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 14
-    },
-    {
-      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 205,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_cs": "Z radnice: Biskupský soud projednával případ dvou mužů obviněných z kacířství. Jeden se přiznal a byl odsouzen k veřejnému pokání. Druhý se nepřiznal. Záležitost byla postoupena výše. Město čeká.",
-      "text_en": "From the town hall: The bishop's court heard the case of two men accused of heresy. One confessed and was sentenced to public penance. The other did not confess. The matter was referred higher. The town waits.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 204,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 13
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
+      "text_cs": "Na náměstí se objevil potulný kazatel, který ohnivě řečnil proti bohatství církve a chválil učení kompaktát. Jeho slova pobouřila místní pravověrné katolíky a málem došlo k lynčování. Stráže musely kazatele odvést do bezpečí městské šatlavy.",
+      "text_en": "A wandering preacher appeared in the square, fiery speaking against the wealth of the church and praising the teachings of the Compactata. His words outraged local orthodox Catholics and almost led to a lynching. Guards had to escort the preacher to the safety of the town jail.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 215,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
+    {
+      "text": "Bratr vrátný přišel s obviněním, že skriptoři příliš hlasitě brousí své brky. Skriptoři kontrovali, že on vrže bránou. Opat oběma nakázal měsíc mlčení. Kroniku tak doplňuji o vítězství ticha.",
+      "text_cs": "Bratr vrátný přišel s obviněním, že skriptoři příliš hlasitě brousí své brky. Skriptoři kontrovali, že on vrže bránou. Opat oběma nakázal měsíc mlčení. Kroniku tak doplňuji o vítězství ticha.",
+      "text_en": "Brother porter brought an accusation that the scribes sharpen their quills too loudly. The scribes countered that his gate creaks. The abbot ordered a month of silence for both. I thus add the victory of silence to the chronicle.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 215,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 16
+    },
     {
       "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
       "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
@@ -2194,30 +2218,6 @@
       "icon": "🍞",
       "source": "monastery_internal",
       "tick": 208,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 207,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
-      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
-      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
-      "type": "E",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 207,
       "year": 1465,
       "season": "Podzim",
       "day": 14
