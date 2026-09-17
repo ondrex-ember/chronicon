@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-17T14:47:48.833Z",
-  "valid_until": "2026-09-24T14:47:48.833Z",
+  "generated": "2026-09-17T19:38:53.235Z",
+  "valid_until": "2026-09-24T19:38:53.235Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 21,
-    "windKmH": 8,
+    "tempC": 17,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 17,
-    "total_tick": 220,
+    "total_tick": 221,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 17"
   },
   "actors": [
@@ -113,7 +113,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 80,
       "stores": 9,
       "status": "prosperujici",
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 76,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 80,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 81,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 82,
       "stores": 7,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 81,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 82,
+      "wealth": 97,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 79,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,7 +320,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 79,
       "stores": 4,
       "status": "prosperujici",
@@ -1857,6 +1857,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
+      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
@@ -2059,45 +2095,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 15
-    },
-    {
-      "text": "Sklepmistr hlásí s radostí: Letošní víno z vinohradu u jižní zdi bude dobré. Hrozny byly sladké a zdravé. Opat povolil bratřím jeden pohár navíc na slavnost sv. Martina.",
-      "text_cs": "Sklepmistr hlásí s radostí: Letošní víno z vinohradu u jižní zdi bude dobré. Hrozny byly sladké a zdravé. Opat povolil bratřím jeden pohár navíc na slavnost sv. Martina.",
-      "text_en": "The cellarer reports with joy: This year's wine from the vineyard by the south wall will be good. The grapes were sweet and healthy. The abbot permitted brothers an extra cup on the feast of St. Martin.",
-      "type": "E",
-      "icon": "🍷",
-      "source": "monastery_internal",
-      "tick": 211,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 15
-    },
-    {
-      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 210,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
-      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
-      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 210,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
+      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -2193,33 +2217,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 16
-    },
-    {
-      "text": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
-      "text_cs": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
-      "text_en": "From Zábřeh: A wealthy noble procession ceremoniously entered the town. The nobleman distributed small silver coins to the poor and had two barrels of beer tapped in the square to celebrate the birth of his heir.",
-      "type": "E",
-      "icon": "📯",
-      "source": "local_events",
-      "tick": 216,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
-    },
-    {
-      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 216,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
+      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
+      "type": "A",
+      "icon": "❓",
+      "source": "distant_events",
+      "tick": 221,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
     {
       "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
       "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
@@ -2324,18 +2336,6 @@
       "icon": "✝️",
       "source": "distant_events",
       "tick": 199,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
-    },
-    {
-      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
-      "type": "C",
-      "icon": "🖨️",
-      "source": "distant_events",
-      "tick": 198,
       "year": 1465,
       "season": "Podzim",
       "day": 12
