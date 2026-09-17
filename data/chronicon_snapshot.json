@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-17T00:14:40.005Z",
-  "valid_until": "2026-09-24T00:14:40.005Z",
+  "generated": "2026-09-17T09:20:10.833Z",
+  "valid_until": "2026-09-24T09:20:10.833Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,7 +67,7 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 15,
+    "tempC": 17,
     "windKmH": 6,
     "rainMm": 0,
     "season": 2,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 17,
-    "total_tick": 218,
+    "total_tick": 219,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 17"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 81,
+      "wealth": 94,
+      "mood": 80,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 82,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 77,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 81,
       "stores": 5,
       "status": "prosperujici",
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -205,8 +205,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 100,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 86,
       "stores": 7,
       "status": "prosperujici",
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 79,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 82,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 80,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 82,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1857,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
+      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
+      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 219,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 219,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
       "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
@@ -2071,33 +2095,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 14
-    },
-    {
-      "text": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_cs": "Z Janova přišla truchlivá zpráva — agenti prý volali, ať Bůh zatratí všechny piráty. Loď Datiniho domu naložená pšenicí byla potopena korzárem operujícím pod janovským velením. Očekávají se značné finanční ztráty, neboť taková zhouba dopadá na celý obchod.",
-      "text_en": "Sorrowful news arrived from Genoa — the agents are said to have cried that God confound all pirates. A ship of the Datini house laden with wheat was sunk by a privateer operating under Genoese command. Substantial financial losses are expected, as such ruin falls heavily upon the whole trade.",
-      "type": "D",
-      "icon": "🏴‍☠️",
-      "source": "distant_events",
-      "tick": 208,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 208,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
+      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
+      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 219,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
+    {
+      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
+      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
+      "type": "B",
+      "icon": "🥣",
+      "source": "monastery_internal",
+      "tick": 219,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 17
+    },
     {
       "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
@@ -2193,30 +2217,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 16
-    },
-    {
-      "text": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
-      "text_cs": "Do farnosti byl přinesen k pokřtění syn místního kováře. Kmotrem se stal vážený cechmistr, který kostelu daroval krásně zdobenou křtitelnici z tepané mědi. Zvony se rozezněly a otec uspořádal před kostelem skromnou hostinu pro kolemjdoucí.",
-      "text_en": "The son of the local blacksmith was brought to the parish to be baptized. The godfather was an esteemed guild master, who donated a beautifully decorated baptismal font of beaten copper to the church. The bells rang out, and the father hosted a modest feast for passersby in front of the church.",
-      "type": "A",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 213,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 15
-    },
-    {
-      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
-      "type": "D",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 212,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 15
     }
   ],
   "chronicle_distant": [
