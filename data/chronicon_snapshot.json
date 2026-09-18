@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-17T19:38:53.235Z",
-  "valid_until": "2026-09-24T19:38:53.235Z",
+  "generated": "2026-09-18T00:01:03.436Z",
+  "valid_until": "2026-09-25T00:01:03.436Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 3,
+    "tempC": 12,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 17,
-    "total_tick": 221,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 17"
+    "day": 18,
+    "total_tick": 222,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 18"
   },
   "actors": [
     {
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 95,
-      "mood": 80,
+      "wealth": 94,
+      "mood": 81,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -113,8 +117,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +140,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 75,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +164,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 78,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -183,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 76,
+      "mood": 74,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +210,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 82,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +255,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 100,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -274,8 +278,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 83,
+      "wealth": 98,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +302,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -320,8 +324,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "itemStock": {
@@ -1857,6 +1861,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 222,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
+    {
+      "text": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
+      "text_cs": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
+      "text_en": "Wagons fully loaded with high-quality iron in raw bars arrived in the town from the mountain hammer mills. The demand for metal is huge due to the production of weapons and agricultural tools. Blacksmiths pay cash in silver and rejoice in the excellent purity of the metal from the new veins.",
+      "type": "C",
+      "icon": "🧲",
+      "source": "local_events",
+      "tick": 222,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
+    {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
@@ -2071,33 +2099,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 15
-    },
-    {
-      "text": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_cs": "Dva zbojníci, usvědčení z přepadení a vraždy kupce na císařské cestě, byli předáni spravedlnosti. Městský soud je odsoudil k trestu smrti rozčtvrcením. Vykonání rozsudku přihlížely davy měšťanů a ostatky byly pro výstrahu rozvěšeny u hlavních bran.",
-      "text_en": "Two bandits, convicted of ambushing and murdering a merchant on the imperial road, were handed over to justice. The town court sentenced them to death by drawing and quartering. Crowds of burghers watched the execution, and the remains were hung at the main gates as a warning.",
-      "type": "D",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 212,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 15
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 211,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 15
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
+      "text_cs": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
+      "text_en": "Wagons fully loaded with high-quality iron in raw bars arrived in the town from the mountain hammer mills. The demand for metal is huge due to the production of weapons and agricultural tools. Blacksmiths pay cash in silver and rejoice in the excellent purity of the metal from the new veins.",
+      "type": "C",
+      "icon": "🧲",
+      "source": "local_events",
+      "tick": 222,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
     {
       "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
       "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
@@ -2205,21 +2221,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 16
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 217,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
+      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 222,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
     {
       "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
       "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
@@ -2327,22 +2343,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 13
-    },
-    {
-      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 199,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 12
     }
   ],
   "church_calendar": {
-    "day_of_year": 197,
+    "day_of_year": 198,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
