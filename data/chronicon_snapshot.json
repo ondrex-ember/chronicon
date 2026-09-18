@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-18T14:16:17.256Z",
-  "valid_until": "2026-09-25T14:16:17.256Z",
+  "generated": "2026-09-18T18:57:15.439Z",
+  "valid_until": "2026-09-25T18:57:15.439Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 20,
-    "windKmH": 11,
+    "tempC": 17,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 18,
-    "total_tick": 224,
+    "total_tick": 225,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 18"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 91,
-      "mood": 83,
+      "wealth": 90,
+      "mood": 81,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -141,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -164,7 +164,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 88,
+      "mood": 86,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 94,
       "stores": 3,
       "status": "prosperujici",
@@ -209,8 +209,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -233,7 +233,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 100,
+      "mood": 98,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -255,7 +255,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 90,
       "stores": 3,
       "status": "stable",
@@ -278,8 +278,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 99,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -301,8 +301,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 96,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -324,8 +324,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 97,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1806,6 +1806,30 @@
   ],
   "chronicle": [
     {
+      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 225,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
+    {
+      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 225,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
+    {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
@@ -2020,33 +2044,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 16
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 217,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
-    },
-    {
-      "text": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
-      "text_cs": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice.",
-      "text_en": "From Zábřeh: A wealthy noble procession ceremoniously entered the town. The nobleman distributed small silver coins to the poor and had two barrels of beer tapped in the square to celebrate the birth of his heir.",
-      "type": "E",
-      "icon": "📯",
-      "source": "local_events",
-      "tick": 216,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 225,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
+    {
+      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
+      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 225,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 18
+    },
     {
       "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
       "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
@@ -2139,30 +2163,6 @@
       "icon": "⚔️",
       "source": "monastery_internal",
       "tick": 220,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 219,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
-      "type": "B",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 219,
       "year": 1465,
       "season": "Podzim",
       "day": 17
