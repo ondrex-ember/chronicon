@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-18T18:57:15.439Z",
-  "valid_until": "2026-09-25T18:57:15.439Z",
+  "generated": "2026-09-19T00:02:55.379Z",
+  "valid_until": "2026-09-26T00:02:55.379Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 5,
+    "tempC": 14,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 18,
-    "total_tick": 225,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 18"
+    "day": 19,
+    "total_tick": 226,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 19"
   },
   "actors": [
     {
@@ -118,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 100,
+      "mood": 95,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -141,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 99,
+      "mood": 96,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -164,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 86,
+      "mood": 83,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -186,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 94,
+      "wealth": 98,
+      "mood": 93,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 99,
+      "mood": 95,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -232,8 +228,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 98,
+      "wealth": 99,
+      "mood": 96,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -255,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 90,
+      "wealth": 100,
+      "mood": 87,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -278,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 98,
+      "mood": 96,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -301,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 96,
       "stores": 4,
       "status": "prosperujici",
@@ -325,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 97,
+      "mood": 95,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1806,6 +1802,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
+      "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
+      "text_en": "That year Master Jan Příbram disputed with Peter Payne the Englishman on the Nativity and on the sacrament of the Lord's Body.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 226,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
+      "text_cs": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
+      "text_en": "Toll collectors at the town gate detained a merchant trying to smuggle three barrels of salt disguised as spoiled cabbage. The salt was confiscated on the spot, and the smuggler lost his wagon and his freedom.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 226,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
@@ -2020,33 +2040,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 17
-    },
-    {
-      "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
-      "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
-      "text_en": "From Mainz: by that machine, it is said, an entire work hath been printed, the Holy Scripture itself, in many copies wholly alike. The abbot shook his head at this, saying a work written by hand hath a soul, whereas the machine hath only exactness.",
-      "type": "A",
-      "icon": "📖",
-      "source": "distant_events",
-      "tick": 217,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
-    },
-    {
-      "text": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_cs": "Zemský soud po dlouhém líčení rozhodl ve prospěch italského kupce, jehož zboží bylo neoprávněně zadrženo místním šlechticem. Kupec získal zpět své balíky luxusního hedvábí a navíc tučné odškodné ve zlatě. Tento verdikt obnovil důvěru zahraničních obchodníků v bezpečnost místních trhů.",
-      "text_en": "After a long hearing, the provincial court ruled in favor of an Italian merchant whose goods had been unlawfully detained by a local nobleman. The merchant recovered his bales of luxury silk, plus a hefty compensation in gold. This verdict restored the confidence of foreign traders in the security of local markets.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 217,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
+      "text_cs": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
+      "text_en": "Toll collectors at the town gate detained a merchant trying to smuggle three barrels of salt disguised as spoiled cabbage. The salt was confiscated on the spot, and the smuggler lost his wagon and his freedom.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 226,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
@@ -2154,21 +2162,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 17
-    },
-    {
-      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
-      "type": "A",
-      "icon": "⚔️",
-      "source": "monastery_internal",
-      "tick": 220,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
+      "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
+      "text_en": "That year Master Jan Příbram disputed with Peter Payne the Englishman on the Nativity and on the sacrament of the Lord's Body.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 226,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
@@ -2276,22 +2284,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 14
-    },
-    {
-      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
-      "type": "A",
-      "icon": "🐂",
-      "source": "distant_events",
-      "tick": 207,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
     }
   ],
   "church_calendar": {
-    "day_of_year": 198,
+    "day_of_year": 199,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
