@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-19T08:42:14.174Z",
-  "valid_until": "2026-09-26T08:42:14.174Z",
+  "generated": "2026-09-19T13:48:13.551Z",
+  "valid_until": "2026-09-26T13:48:13.551Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 17,
-    "windKmH": 10,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 23,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 19,
-    "total_tick": 227,
+    "total_tick": 228,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 19"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 89,
+      "wealth": 90,
       "mood": 81,
       "stores": 0,
       "status": "stable",
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 93,
+      "wealth": 98,
+      "mood": 91,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +159,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 79,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 90,
       "stores": 3,
       "status": "prosperujici",
@@ -205,8 +205,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 95,
+      "wealth": 100,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 96,
+      "mood": 93,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 87,
+      "mood": 88,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 96,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -297,7 +297,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 95,
       "stores": 4,
       "status": "prosperujici",
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 94,
+      "mood": 93,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1802,6 +1802,42 @@
   ],
   "chronicle": [
     {
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
+      "type": "B",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
+      "text_cs": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
+      "text_en": "From Zábřeh: A local herbalist was accused of hexing a neighbor's cow, which stopped producing milk. At court, however, it emerged that the neighbor fed the cow spoiled turnips. The woman was acquitted, and the plaintiff had to pay court costs.",
+      "type": "A",
+      "icon": "🌿",
+      "source": "local_events",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
@@ -2004,45 +2040,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 17
-    },
-    {
-      "text": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_cs": "Anály k svátku Všech svatých: před Vyšehradem poražen byl král uherský a mnoho pánů českých i moravských smrtelně raněno. Bratr knihovník při tom zápisu vždy zavře knihu a chvíli mlčí. Moravská jména zná i po letech.",
-      "text_en": "The annals for All Saints: before Vyšehrad the Hungarian king was beaten and many lords of Bohemia and Moravia mortally wounded. Brother librarian always closes the book at that entry and is silent a while. He knows the Moravian names even after all these years.",
-      "type": "A",
-      "icon": "⚔️",
-      "source": "monastery_internal",
-      "tick": 220,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_cs": "Z Bystřice: Valach přehnal stádo přes pole sedláka Matoušů a pošlapal ozim. Sedlák žádá náhradu. Valach říká, že se stádo utrhlo samo. Spor řeší rychtář, který je valachův švagr.",
-      "text_en": "From Bystřice: A wallachian shepherd drove his flock across the Matouš family's field and trampled the winter crops. The farmer demands compensation. The shepherd says the flock broke loose on its own. The dispute is being settled by the alderman, who is the shepherd's brother-in-law.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 219,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_cs": "Sklepmistr mi dnes dodal tak kyselé víno, že by i mrtvého vzbudilo. Snažil jsem se tím vylepšit zelí. Výsledek byl nepoživatelný. Opět stojím před nespravedlivou kritikou svého umění.",
-      "text_en": "The cellarer supplied me with wine so sour today it would wake the dead. I tried to improve the cabbage with it. The result was inedible. Once again I face unfair criticism of my art.",
-      "type": "B",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 219,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
+      "text_cs": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
+      "text_en": "From Zábřeh: A local herbalist was accused of hexing a neighbor's cow, which stopped producing milk. At court, however, it emerged that the neighbor fed the cow spoiled turnips. The woman was acquitted, and the plaintiff had to pay court costs.",
+      "type": "A",
+      "icon": "🌿",
+      "source": "local_events",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_cs": "Anály praví: Léta MCCCXXXVIII shořel kostel svatého Ondřeje v Praze i s puškou, v níž tělo Boží bylo — ale tělo Boží neshořelo. Bratr sakristán to vypráví pokaždé, když se v kostele zapomene svíce.",
+      "text_en": "The annals say: in 1338 the church of St Andrew in Prague burned with the pyx wherein the Host lay — yet the Host did not burn. Brother sacristan tells it every time a candle is left burning in the church.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
       "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
@@ -2138,33 +2162,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 18
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 221,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
-      "type": "C",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 221,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
+      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
+      "type": "B",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 228,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
       "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
@@ -2269,18 +2281,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 210,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
-    },
-    {
-      "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
-      "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
-      "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
-      "type": "B",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 209,
       "year": 1465,
       "season": "Podzim",
       "day": 14
