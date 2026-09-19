@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-19T13:48:13.551Z",
-  "valid_until": "2026-09-26T13:48:13.551Z",
+  "generated": "2026-09-19T18:30:58.404Z",
+  "valid_until": "2026-09-26T18:30:58.404Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 23,
-    "windKmH": 11,
+    "tempC": 20,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 19,
-    "total_tick": 228,
+    "total_tick": 229,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 19"
   },
   "actors": [
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 93,
+      "mood": 92,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -137,7 +137,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 91,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 90,
+      "wealth": 99,
+      "mood": 89,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 93,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 93,
+      "mood": 92,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 88,
+      "wealth": 100,
+      "mood": 87,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 94,
+      "mood": 91,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 95,
+      "mood": 93,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 93,
+      "mood": 92,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1802,6 +1802,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
+      "text_cs": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
+      "text_en": "From the Vyškov market: A shortage of beeswax has doubled its price. Local chandlers have secretly begun mixing cheap animal tallow into the wax, which smells strongly when burned. The burgomaster ordered inspections of the workshops.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
       "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_en": "The Signoria of the Florentine Republic has once again levied a massive forced loan for the German Emperor to defend Tuscany against the troops of Gian Galeazzo Visconti. The Datini company alone has been called upon to pay fifteen such loans this year, out of a total 500,000 florins for the whole city. Master Datini is said to complain bitterly of this injustice.",
@@ -2004,45 +2040,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 17
-    },
-    {
-      "text": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_cs": "Posel z Uničova varuje: Na cestě mezi Uničovem a Šternberkem přepadla banda bez znaků kupecký vůz. Vzali koně a zboží, posádce nechali život. Kupci žádají o doprovod ozbrojených jezdců.",
-      "text_en": "A messenger from Uničov warns: On the road between Uničov and Šternberk, an unmarked band attacked a merchant wagon. They took the horses and goods, left the crew their lives. Merchants are requesting an armed escort.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 221,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
-      "type": "C",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 221,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
-    },
-    {
-      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 220,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
+      "text_cs": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
+      "text_en": "From the Vyškov market: A shortage of beeswax has doubled its price. Local chandlers have secretly begun mixing cheap animal tallow into the wax, which smells strongly when burned. The burgomaster ordered inspections of the workshops.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
       "text_cs": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
@@ -2138,33 +2162,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 18
-    },
-    {
-      "text": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_cs": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_en": "I said goodbye to the bees for the winter. I believe they understood my instructions on saving wax. One of them stung me on the nose, which I interpret as a sign of their deep gratitude for my care.",
-      "type": "E",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 223,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
-    },
-    {
-      "text": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
-      "text_cs": "Z horských hamrů dorazily do města vozy vrchovatě naložené kvalitním železem v surových prutech. Poptávka po kovu je obrovská kvůli výrobě zbraní i zemědělského nářadí. Kováři platí stříbrem na ruku a radují se z vynikající čistoty kovu z nových žil.",
-      "text_en": "Wagons fully loaded with high-quality iron in raw bars arrived in the town from the mountain hammer mills. The demand for metal is huge due to the production of weapons and agricultural tools. Blacksmiths pay cash in silver and rejoice in the excellent purity of the metal from the new veins.",
-      "type": "C",
-      "icon": "🧲",
-      "source": "local_events",
-      "tick": 222,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 229,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 19
+    },
     {
       "text": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
       "text_cs": "Signoria Florentské republiky opět vypsala obrovskou nucenou půjčku pro německého císaře, aby bránil Toskánsko proti vojskům Gian Galeazza Viscontiho. Datiniho společnost byla jen letos vyzvána k úhradě patnácti takových půjček v celkové výši 500 000 florénů za celé město. Mistr Datini si prý hořce stěžuje na tuto nespravedlnost.",
@@ -2272,18 +2284,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 16
-    },
-    {
-      "text": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_cs": "Léta téhož učenie pražské potvrzeno jest a milostivé léto změnilo se.",
-      "text_en": "That year the learning of Prague was confirmed, and the year of jubilee was changed.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 210,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 14
     }
   ],
   "church_calendar": {
