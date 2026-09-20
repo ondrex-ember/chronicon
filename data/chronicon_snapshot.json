@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-20T14:02:37.219Z",
-  "valid_until": "2026-09-27T14:02:37.219Z",
+  "generated": "2026-09-20T18:36:34.510Z",
+  "valid_until": "2026-09-27T18:36:34.510Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,9 +67,9 @@
     "name": "Déšť",
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 21,
-    "windKmH": 11,
-    "rainMm": 0,
+    "tempC": 17,
+    "windKmH": 17,
+    "rainMm": 0.3,
     "season": 2,
     "modifier_grain": 0.95,
     "modifier_wood": 1
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 20,
-    "total_tick": 232,
+    "total_tick": 233,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 20"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 91,
-      "mood": 80,
+      "wealth": 92,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 87,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -159,7 +159,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 80,
       "stores": 4,
       "status": "stable",
@@ -182,8 +182,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 87,
+      "wealth": 97,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 85,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -228,7 +228,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 89,
       "stores": 6,
       "status": "prosperujici",
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 85,
+      "mood": 86,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 88,
+      "mood": 85,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 88,
+      "mood": 87,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1802,6 +1802,18 @@
   ],
   "chronicle": [
     {
+      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 233,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
+    {
       "text": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
       "text_cs": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
       "text_en": "From Bystřice pod Hostýnem: Miners successfully deepened the old town well and struck a generous spring of clean water. Inhabitants no longer have to walk to the river with buckets, and the burgomaster rewarded the miners generously.",
@@ -2028,21 +2040,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 18
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
-      "type": "C",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 223,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
+      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 233,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
     {
       "text": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
       "text_cs": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
@@ -2147,18 +2159,6 @@
       "icon": "📖",
       "source": "local_events",
       "tick": 227,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
-    },
-    {
-      "text": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
-      "text_cs": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
-      "text_en": "Toll collectors at the town gate detained a merchant trying to smuggle three barrels of salt disguised as spoiled cabbage. The salt was confiscated on the spot, and the smuggler lost his wagon and his freedom.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 226,
       "year": 1465,
       "season": "Podzim",
       "day": 19
