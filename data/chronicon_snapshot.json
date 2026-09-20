@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-20T09:11:11.731Z",
-  "valid_until": "2026-09-27T09:11:11.731Z",
+  "generated": "2026-09-20T14:02:37.219Z",
+  "valid_until": "2026-09-27T14:02:37.219Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
     "tempC": 21,
-    "windKmH": 13,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 20,
-    "total_tick": 231,
+    "total_tick": 232,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 20"
   },
   "actors": [
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 93,
+      "mood": 91,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +136,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 86,
       "stores": 5,
       "status": "prosperujici",
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 79,
+      "mood": 80,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -182,7 +182,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 87,
       "stores": 3,
       "status": "prosperujici",
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 88,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -251,8 +251,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -275,7 +275,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 88,
+      "mood": 85,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -1802,6 +1802,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
+      "text_cs": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
+      "text_en": "From Bystřice pod Hostýnem: Miners successfully deepened the old town well and struck a generous spring of clean water. Inhabitants no longer have to walk to the river with buckets, and the burgomaster rewarded the miners generously.",
+      "type": "E",
+      "icon": "🚰",
+      "source": "local_events",
+      "tick": 232,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 232,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
+    {
       "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
       "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
       "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
@@ -2016,33 +2040,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 18
-    },
-    {
-      "text": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_cs": "Rozloučil jsem se se včelami na zimu. Věřím, že pochopily mé pokyny k úspoře vosku. Jedna z nich mě píchla do nosu, což si vykládám jako projev jejich hluboké vděčnosti za mou péči.",
-      "text_en": "I said goodbye to the bees for the winter. I believe they understood my instructions on saving wax. One of them stung me on the nose, which I interpret as a sign of their deep gratitude for my care.",
-      "type": "E",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 223,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
-    },
-    {
-      "text": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_cs": "Ze starých zápisků pražských: Kazatel onen, jenž dav k radnici vedl, sám zahynul později ohněm a zradou. Jméno jeho se ještě připomíná, ale šeptem, neb se neví, zda kletbou či chválou jest.",
-      "text_en": "From old Prague notes: that preacher who led the mob to the town hall later perished himself by fire and betrayal. His name is still recalled, but in whispers, for none knoweth whether it be curse or praise.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 222,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
+      "text_cs": "Z Bystřice pod Hostýnem: Horníci úspěšně prohloubili starou městskou studnu a narazili na vydatný pramen čisté vody. Obyvatelé již nemusí chodit s vědry k řece a purkmistr horníky štědře odměnil.",
+      "text_en": "From Bystřice pod Hostýnem: Miners successfully deepened the old town well and struck a generous spring of clean water. Inhabitants no longer have to walk to the river with buckets, and the burgomaster rewarded the miners generously.",
+      "type": "E",
+      "icon": "🚰",
+      "source": "local_events",
+      "tick": 232,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
+    {
+      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
+      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "monastery_internal",
+      "tick": 232,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 20
+    },
     {
       "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
       "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
@@ -2138,30 +2162,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 19
-    },
-    {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 225,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
-    },
-    {
-      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 225,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "chronicle_distant": [
