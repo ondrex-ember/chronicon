@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-21T09:47:50.478Z",
-  "valid_until": "2026-09-28T09:47:50.478Z",
+  "generated": "2026-09-21T16:21:09.895Z",
+  "valid_until": "2026-09-28T16:21:09.895Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 15,
-    "windKmH": 15,
+    "tempC": 16,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 21,
-    "total_tick": 235,
+    "total_tick": 236,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 21"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 93,
-      "mood": 75,
+      "wealth": 92,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -113,8 +113,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 88,
+      "wealth": 99,
+      "mood": 89,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 97,
-      "mood": 82,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 84,
+      "mood": 83,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 80,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -320,8 +320,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1802,6 +1802,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 236,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 21
+    },
+    {
+      "text": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
+      "text_cs": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
+      "text_en": "From Přerov: Wandering blacksmiths brought cheap swords and halberds made of inferior soft steel to the market. Aldermen confiscated the weapons and broke them in the square, as such blades would betray a defender at the very first strike.",
+      "type": "C",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 236,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 21
+    },
+    {
       "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
       "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
       "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
@@ -2016,33 +2040,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 19
-    },
-    {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 225,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
-    },
-    {
-      "text": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_cs": "Z knihy exempel: žena, jíž muž lásku vrátit neuměl kouzly, ukradla v kostele tělo Páně a rok je věznila v truhle. Když je v hněvu vhodila do ohně, vyskočilo z plamenů bez úhony. Bratr sakristán dodává: co je svaté, hoří jen tomu, kdo to ctí.",
-      "text_en": "From the book of exempla: a woman whose husband's love no charm could win stole the Lord's Body from church and kept it locked a year in a chest. When in anger she cast it into the fire, it leapt from the flames unharmed. Brother sacristan adds: what is holy burns only for those who honour it.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 225,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
+      "text_cs": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
+      "text_en": "From Přerov: Wandering blacksmiths brought cheap swords and halberds made of inferior soft steel to the market. Aldermen confiscated the weapons and broke them in the square, as such blades would betray a defender at the very first strike.",
+      "type": "C",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 236,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 21
+    },
     {
       "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
       "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
@@ -2150,21 +2162,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 19
-    },
-    {
-      "text": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
-      "text_cs": "Ze Zábřehu: Místní kořenářka byla obviněna, že uřkla sousedovu krávu, která přestala dojit. U soudu se však ukázalo, že soused krávu krmil zkaženou řepou. Žena byla osvobozena a žalobce musel zaplatit soudní výlohy.",
-      "text_en": "From Zábřeh: A local herbalist was accused of hexing a neighbor's cow, which stopped producing milk. At court, however, it emerged that the neighbor fed the cow spoiled turnips. The woman was acquitted, and the plaintiff had to pay court costs.",
-      "type": "A",
-      "icon": "🌿",
-      "source": "local_events",
-      "tick": 228,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 236,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 21
+    },
     {
       "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
       "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
@@ -2272,18 +2284,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 17
-    },
-    {
-      "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
-      "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
-      "text_en": "From Mainz: by that machine, it is said, an entire work hath been printed, the Holy Scripture itself, in many copies wholly alike. The abbot shook his head at this, saying a work written by hand hath a soul, whereas the machine hath only exactness.",
-      "type": "A",
-      "icon": "📖",
-      "source": "distant_events",
-      "tick": 217,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 16
     }
   ],
   "church_calendar": {
