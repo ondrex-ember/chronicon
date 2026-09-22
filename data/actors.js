@@ -27,20 +27,28 @@ const RICNI_ACTORS = [
   { id: 'klaster',   label: 'Opat',      label_en: 'The Abbot',         profession: 'Opat ve městě', profession_en: 'Abbot in the City', core: true, wealth: 65, mood: 50, stores: 60, storesMax: 100, literacy: 1.8 },
   { id: 'vcelar',    label: 'Včelař',    label_en: 'The Beekeeper',     profession: 'Včelař',      profession_en: 'Beekeeper',          core: true, wealth: 35, mood: 60, stores: 40, storesMax: 80, literacy: 0.7 },
   { id: 'sklar',     label: 'Sklář',     label_en: 'The Glassmaker',    profession: 'Sklář',       profession_en: 'Glassmaker',         core: true, wealth: 45, mood: 55, stores: 35, storesMax: 75, literacy: 1.3 },
+  // bell-casting-mrd Phase B (21.9.2026) — mirror sklar (26.7.2026) přesně:
+  // nový specialista přidaný do už běžícího světa, Persist._syncMissingActors()
+  // ho sám domigruje při příštím ticku, žádný ruční zásah do gamestate.json.
+  { id: 'zvonar',    label: 'Zvonař',    label_en: 'The Bellfounder',   profession: 'Zvonař',      profession_en: 'Bellfounder',        core: true, wealth: 50, mood: 55, stores: 30, storesMax: 70, literacy: 1.0 },
 ];
 
 const RICNI_RELATIONS = {
-  vrchnost: { mlynar: 30, kovar: 20, uhlic: 10, vorar: 10, rybnikar: 20, prevoznik: 40, valach: 15, klaster: -10, vcelar: 10, sklar: 10 },
-  mlynar:   { vrchnost: 30, kovar: 40, uhlic: 5, vorar: 20, rybnikar: -25, prevoznik: 10, valach: 0, klaster: 10, vcelar: 0, sklar: 5 },
-  kovar:    { vrchnost: 20, mlynar: 40, uhlic: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 20, klaster: 0, vcelar: 15, sklar: 20 },
-  uhlic:    { vrchnost: 10, mlynar: 5, kovar: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 5, klaster: 0, vcelar: 0, sklar: 45 },
-  vorar:    { vrchnost: 10, mlynar: 20, kovar: 0, uhlic: 0, rybnikar: -30, prevoznik: 15, valach: 0, klaster: 0, vcelar: 0, sklar: 0 },
-  rybnikar: { vrchnost: 20, mlynar: -25, kovar: 0, uhlic: 0, vorar: -30, prevoznik: 0, valach: 0, klaster: 45, vcelar: 0, sklar: 0 },
-  prevoznik:{ vrchnost: 40, mlynar: 10, kovar: 0, uhlic: 0, vorar: 15, rybnikar: 0, valach: 0, klaster: 0, vcelar: 0, sklar: 10 },
-  valach:   { vrchnost: 15, mlynar: 0, kovar: 20, uhlic: 5, vorar: 0, rybnikar: 0, prevoznik: 0, klaster: 20, vcelar: 0, sklar: 0 },
-  klaster:  { vrchnost: -10, mlynar: 10, kovar: 0, uhlic: 0, vorar: 0, rybnikar: 45, prevoznik: 0, valach: 20, vcelar: 35, sklar: 25 },
-  vcelar:   { vrchnost: 10, mlynar: 0, kovar: 15, uhlic: 0, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 0, klaster: 35, sklar: 5 },
-  sklar:    { vrchnost: 10, mlynar: 5, kovar: 20, uhlic: 45, vorar: 0, rybnikar: 0, prevoznik: 10, valach: 0, klaster: 25, vcelar: 5 },
+  vrchnost: { mlynar: 30, kovar: 20, uhlic: 10, vorar: 10, rybnikar: 20, prevoznik: 40, valach: 15, klaster: -10, vcelar: 10, sklar: 10, zvonar: 25 },
+  mlynar:   { vrchnost: 30, kovar: 40, uhlic: 5, vorar: 20, rybnikar: -25, prevoznik: 10, valach: 0, klaster: 10, vcelar: 0, sklar: 5, zvonar: 5 },
+  kovar:    { vrchnost: 20, mlynar: 40, uhlic: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 20, klaster: 0, vcelar: 15, sklar: 20, zvonar: 45 },
+  uhlic:    { vrchnost: 10, mlynar: 5, kovar: 50, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 5, klaster: 0, vcelar: 0, sklar: 45, zvonar: 40 },
+  vorar:    { vrchnost: 10, mlynar: 20, kovar: 0, uhlic: 0, rybnikar: -30, prevoznik: 15, valach: 0, klaster: 0, vcelar: 0, sklar: 0, zvonar: 0 },
+  rybnikar: { vrchnost: 20, mlynar: -25, kovar: 0, uhlic: 0, vorar: -30, prevoznik: 0, valach: 0, klaster: 45, vcelar: 0, sklar: 0, zvonar: 0 },
+  prevoznik:{ vrchnost: 40, mlynar: 10, kovar: 0, uhlic: 0, vorar: 15, rybnikar: 0, valach: 0, klaster: 0, vcelar: 0, sklar: 10, zvonar: 10 },
+  valach:   { vrchnost: 15, mlynar: 0, kovar: 20, uhlic: 5, vorar: 0, rybnikar: 0, prevoznik: 0, klaster: 20, vcelar: 0, sklar: 0, zvonar: 0 },
+  klaster:  { vrchnost: -10, mlynar: 10, kovar: 0, uhlic: 0, vorar: 0, rybnikar: 45, prevoznik: 0, valach: 20, vcelar: 35, sklar: 25, zvonar: 30 },
+  vcelar:   { vrchnost: 10, mlynar: 0, kovar: 15, uhlic: 0, vorar: 0, rybnikar: 0, prevoznik: 0, valach: 0, klaster: 35, sklar: 5, zvonar: 10 },
+  sklar:    { vrchnost: 10, mlynar: 5, kovar: 20, uhlic: 45, vorar: 0, rybnikar: 0, prevoznik: 10, valach: 0, klaster: 25, vcelar: 5, zvonar: 15 },
+  // bell-casting-mrd Phase B (21.9.2026) — nový, mirror sklar addition.
+  // kovar/uhlic nejblíž (sdílené hutnictví), klaster hlavní odběratel
+  // (velké zvony pro kostel/katedrálu), vcelar kvůli vosku na formy.
+  zvonar:   { vrchnost: 25, mlynar: 5, kovar: 45, uhlic: 40, vorar: 0, rybnikar: 0, prevoznik: 10, valach: 0, klaster: 30, vcelar: 10, sklar: 15 },
 };
 
 // base = týdenní produkce do 'stores' (před modifikátory); deps = na kom závisí (blokace při 'mrtvy', 50% při 'krize'/'zanikajici')
@@ -67,6 +75,10 @@ const PROD_TABLE = {
                  naramek_sklo_hnedy:  { rate: 0.40, cap: 8 },
                  naramek_sklo_modry:  { rate: 0.08, cap: 2 },
                } },
+  // bell-casting-mrd Phase B (21.9.2026) — mirror kovar/sklar (dep: uhlic,
+  // furnace-based craft). Žádné producesItems — velký zvon je jednorázová
+  // zakázka (Scriptorium glassOrders vzor), ne průběžná item-produkce.
+  zvonar:    { base: 2.0, deps: ['uhlic'],   produces: 'zvony' },
 };
 
 // [prodMod, moodDelta] pro [Jaro, Léto, Podzim, Zima]
@@ -86,7 +98,7 @@ const SEASON_MODS = {
 
 const COMMODITY_VALUE = {
   uhli: 1.0, mouka: 1.5, kovani: 2.0, vlna: 2.0, med: 3.0,
-  ryby: 1.5, doprava: 1.5, myto: 1.5, legitimita: 2.0, sklo: 2.5,
+  ryby: 1.5, doprava: 1.5, myto: 1.5, legitimita: 2.0, sklo: 2.5, zvony: 3.0,
 };
 
 const SEASON_DEMAND = {
@@ -98,6 +110,11 @@ const PROD_BLOCK_TEXTS = {
   kovar_uhlic: [
     'Výheň <em>Kováře</em> chladne — uhlí nedochází od <em>Uhlíře</em>.',
     '<em>Kovář</em> čeká na dodávku uhlí. Kladivo mlčí.',
+  ],
+  // bell-casting-mrd Phase B (21.9.2026) — mirror kovar_uhlic.
+  zvonar_uhlic: [
+    '<em>Zvonař</em>ova pec chladne — uhlí nedochází od <em>Uhlíře</em>.',
+    'Forma na zvon čeká v <em>Zvonaři</em>ho dílně — bez žáru se kov neroztaví.',
   ],
   mlynar_kovar: [
     '<em>Mlynář</em> hlásí: bez kování se kolo zastavilo. Mouka nedochází.',
@@ -127,6 +144,7 @@ const MATERIAL_REQUEST_POOL = {
   kovar: { itemId: 'charcoal', qty: 5, days: 14, grose: 25 },  // dep: uhlic
   sklar: { itemId: 'charcoal', qty: 5, days: 14, grose: 20 },  // dep: uhlic
   mlynar: { itemId: 'kovani', qty: 2, days: 14, grose: 15 },   // dep: kovar
+  zvonar: { itemId: 'charcoal', qty: 5, days: 14, grose: 20 }, // dep: uhlic — mirror sklar
 };
 
 module.exports = {
