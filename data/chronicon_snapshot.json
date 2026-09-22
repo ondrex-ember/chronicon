@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-21T16:21:09.895Z",
-  "valid_until": "2026-09-28T16:21:09.895Z",
+  "generated": "2026-09-22T00:39:59.325Z",
+  "valid_until": "2026-09-29T00:39:59.325Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 16,
+    "tempC": 13,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 21,
-    "total_tick": 236,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 21"
+    "day": 22,
+    "total_tick": 237,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 22"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 92,
-      "mood": 76,
+      "wealth": 91,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 89,
+      "mood": 86,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -136,8 +136,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -183,7 +183,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 97,
-      "mood": 79,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -206,7 +206,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 84,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -229,7 +229,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 83,
+      "mood": 81,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -252,7 +252,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 81,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -274,8 +274,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 97,
+      "mood": 81,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -298,7 +298,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 83,
+      "mood": 82,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -321,7 +321,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 82,
+      "mood": 83,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1802,6 +1802,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
+      "type": "C",
+      "icon": "💍",
+      "source": "distant_events",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
+    {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
+    {
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
+      "type": "D",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
+    {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
@@ -2004,45 +2040,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 19
-    },
-    {
-      "text": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_cs": "Do města přicestoval potulný tiskař původem z Norimberka a nabídl městské radě dodávku tištěných odpustkových listin. Zástupci místních skriptorií ostře protestují s tím, že toto strojové umění postrádá zbožnost. Konšelé si vyžádali čas na rozmyšlenou, než udělí povolení k prodeji.",
-      "text_en": "A wandering printer originally from Nuremberg arrived in the town and offered the town council a supply of printed indulgences. Representatives of local scriptoria strongly protest, claiming that this mechanical art lacks piety. The aldermen requested time to consider before granting permission to sell.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 227,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
-    },
-    {
-      "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
-      "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
-      "text_en": "That year Master Jan Příbram disputed with Peter Payne the Englishman on the Nativity and on the sacrament of the Lord's Body.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 226,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
-    },
-    {
-      "text": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
-      "text_cs": "Výběrčí mýta u městské brány zadrželi obchodníka, který zkoušel pronést tři sudy soli maskované jako zkažené zelí. Sůl byla na místě zkonfiskována a pašerák přišel o vůz i svobodu.",
-      "text_en": "Toll collectors at the town gate detained a merchant trying to smuggle three barrels of salt disguised as spoiled cabbage. The salt was confiscated on the spot, and the smuggler lost his wagon and his freedom.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 226,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
+    {
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
+      "type": "D",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
     {
       "text": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
       "text_cs": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
@@ -2138,33 +2162,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 20
-    },
-    {
-      "text": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_cs": "Z vyškovského trhu: Nedostatek včelího vosku vyhnal jeho cenu na dvojnásobek. Svíčkaři z okolí začali do vosku tajně přimíchávat levný zvířecí lůj, což při hoření silně páchne. Purkmistr nařídil kontroly dílen.",
-      "text_en": "From the Vyškov market: A shortage of beeswax has doubled its price. Local chandlers have secretly begun mixing cheap animal tallow into the wax, which smells strongly when burned. The burgomaster ordered inspections of the workshops.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 229,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
-    },
-    {
-      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 229,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
+      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
+      "type": "C",
+      "icon": "💍",
+      "source": "distant_events",
+      "tick": 237,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 22
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -2272,22 +2284,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 18
-    },
-    {
-      "text": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_cs": "Zápis z Prahy: Stařena jedna na trhu prorokovala, že po králi tomto přijde král cizí, a po něm zas jiný, a že země tato ještě dlouho mezi pány tahanou bude. Lidé se smáli, ale poslouchali.",
-      "text_en": "A note from Prague: a certain old woman at the market prophesied that after this king shall come a foreign king, and after him yet another, and that our land shall long be pulled between lords. People laughed, but they listened.",
-      "type": "A",
-      "icon": "❓",
-      "source": "distant_events",
-      "tick": 221,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 17
     }
   ],
   "church_calendar": {
-    "day_of_year": 201,
+    "day_of_year": 202,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
