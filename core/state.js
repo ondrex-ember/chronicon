@@ -63,6 +63,11 @@ const GameState = {
   // nemaže — jakmile je ID tady, ten event už se v tomhle save nikdy
   // znovu nespustí, i kdyby jeho sezónní okno přišlo znovu příští rok.
   _firedOnceEvents: [],
+  // chronicon-wave2-deadline-mrd (15.9.2026) — počítadlo po sobě jdoucích
+  // eligible týdnů pro once+forceAfterWeeks eventy (papežský půhon,
+  // Zelenohorská jednota). Jakmile počet dosáhne forceAfterWeeks, engine.js
+  // event spustí natvrdo mimo vážený pool — viz blok 3b.
+  _onceEligibleWeeks: {},
   actors: RICNI_ACTORS.map(a => ({
     ...a,
     status: 'stable',
