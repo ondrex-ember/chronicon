@@ -320,16 +320,38 @@ const GameEngine = {
       GameState._chainQueue.push({ chainId, dueWeek: GameState.week + delayWeeks, data });
     };
     const firedOnce = GameState._firedOnceEvents || [];
-    const pool = EVENT_REGISTRY.filter(ev => {
-      if (ev.once && firedOnce.includes(ev.id)) return false;
-      if ((cooldowns[ev.id] || 0) > 0) return false;
-      try { return ev.trigger(GameState); } catch (e) { return false; }
-    });
-    if (pool.length > 0) {
-      const totalW = pool.reduce((acc, ev) => acc + ev.weight, 0);
-      let rand = Math.random() * totalW;
-      let selected = pool[0];
-      for (const ev of pool) { rand -= ev.weight; if (rand <= 0) { selected = ev; break; } }
+
+    // chronicon-wave2-deadline-mrd (15.9.2026) — forced-deadline scan.
+    // Eventy s once:true + forceAfterWeeks se nesmí spolehnout jen na
+    // T.chance() v trigger() — po forceAfterWeeks po sobě jdoucích
+    // eligible týdnech se spustí natvrdo, mimo vážený pool níže.
+    GameState._onceEligibleWeeks = GameState._onceEligibleWeeks || {};
+    let selected = null;
+    for (const ev of EVENT_REGISTRY) {
+      if (!ev.once || !ev.forceAfterWeeks || firedOnce.includes(ev.id)) continue;
+      let eligible;
+      try { eligible = !!(ev.eligible && ev.eligible(GameState)); } catch (e) { eligible = false; }
+      if (!eligible) { GameState._onceEligibleWeeks[ev.id] = 0; continue; }
+      const weeks = (GameState._onceEligibleWeeks[ev.id] || 0) + 1;
+      GameState._onceEligibleWeeks[ev.id] = weeks;
+      if (weeks >= ev.forceAfterWeeks && !selected) selected = ev;
+    }
+
+    if (!selected) {
+      const pool = EVENT_REGISTRY.filter(ev => {
+        if (ev.once && firedOnce.includes(ev.id)) return false;
+        if ((cooldowns[ev.id] || 0) > 0) return false;
+        try { return ev.trigger(GameState); } catch (e) { return false; }
+      });
+      if (pool.length > 0) {
+        const totalW = pool.reduce((acc, ev) => acc + ev.weight, 0);
+        let rand = Math.random() * totalW;
+        selected = pool[0];
+        for (const ev of pool) { rand -= ev.weight; if (rand <= 0) { selected = ev; break; } }
+      }
+    }
+
+    if (selected) {
       try {
         cooldowns[selected.id] = selected.cooldown;
         const result = selected.execute(GameState, addChronicleFn, scheduleChain);
