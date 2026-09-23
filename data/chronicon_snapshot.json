@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-23T14:49:14.338Z",
-  "valid_until": "2026-09-30T14:49:14.338Z",
+  "generated": "2026-09-23T19:35:10.647Z",
+  "valid_until": "2026-09-30T19:35:10.647Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
-    "windKmH": 8,
+    "tempC": 15,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 23,
-    "total_tick": 243,
+    "total_tick": 244,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 23"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 92,
-      "mood": 75,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 83,
+      "wealth": 97,
+      "mood": 82,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 76,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 76,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 96,
-      "mood": 79,
+      "mood": 77,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 97,
-      "mood": 75,
+      "wealth": 96,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 74,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 76,
+      "wealth": 95,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 76,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 49,
-      "mood": 58,
+      "wealth": 50,
+      "mood": 61,
       "stores": 30,
       "status": "stable",
       "relations": {
@@ -1841,6 +1841,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
+      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
+      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
+      "type": "C",
+      "icon": "🖼️",
+      "source": "distant_events",
+      "tick": 244,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
+    {
+      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
+      "type": "C",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 244,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
+    {
       "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
@@ -2055,33 +2079,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 21
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 234,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 21
-    },
-    {
-      "text": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_cs": "Skrz město projel vyslanec slavné florentské kupecké společnosti Alberti. Přinesl s sebou svitky psaných směnek, kterými uhradil obrovské dluhy za nákupy stříbra. Místní konšelé se s údivem dívali, jak pouhý papír s pečetí nahrazuje těžké truhly s mincemi.",
-      "text_en": "An envoy of the famous Florentine Alberti merchant company passed through the town. He brought with him scrolls of written bills of exchange, which he used to settle huge debts for silver purchases. Local aldermen watched in astonishment as mere paper with a seal replaced heavy chests of coins.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 233,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 20
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
+      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
+      "type": "C",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 244,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
     {
       "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
       "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
@@ -2189,21 +2201,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 237,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
+      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
+      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
+      "type": "C",
+      "icon": "🖼️",
+      "source": "distant_events",
+      "tick": 244,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
     {
       "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
       "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
@@ -2311,18 +2323,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 19
-    },
-    {
-      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 224,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 18
     }
   ],
   "church_calendar": {
