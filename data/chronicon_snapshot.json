@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-23T00:12:47.762Z",
-  "valid_until": "2026-09-30T00:12:47.762Z",
+  "generated": "2026-09-23T09:12:23.052Z",
+  "valid_until": "2026-09-30T09:12:23.052Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 4,
+    "tempC": 14,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 23,
-    "total_tick": 241,
+    "total_tick": 242,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 23"
   },
   "actors": [
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 79,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 100,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 80,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 80,
       "stores": 6,
       "status": "prosperujici",
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 78,
+      "mood": 76,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 50,
-      "mood": 56,
+      "mood": 57,
       "stores": 30,
       "status": "stable",
       "relations": {
@@ -1841,6 +1841,18 @@
   ],
   "chronicle": [
     {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 242,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
+    {
       "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
@@ -2067,21 +2079,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 20
-    },
-    {
-      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 231,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 20
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 242,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
     {
       "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
@@ -2189,18 +2201,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
-      "text_cs": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
-      "text_en": "From Přerov: Wandering blacksmiths brought cheap swords and halberds made of inferior soft steel to the market. Aldermen confiscated the weapons and broke them in the square, as such blades would betray a defender at the very first strike.",
-      "type": "C",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 236,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 21
     }
   ],
   "chronicle_distant": [
