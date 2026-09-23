@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-22T19:39:33.653Z",
-  "valid_until": "2026-09-29T19:39:33.653Z",
+  "generated": "2026-09-23T00:12:47.762Z",
+  "valid_until": "2026-09-30T00:12:47.762Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,7 +71,7 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
+    "tempC": 10,
     "windKmH": 4,
     "rainMm": 0,
     "season": 2,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 22,
-    "total_tick": 240,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 22"
+    "day": 23,
+    "total_tick": 241,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 23"
   },
   "actors": [
     {
@@ -90,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 92,
+      "wealth": 93,
       "mood": 74,
       "stores": 0,
       "status": "stable",
@@ -114,7 +118,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 82,
       "stores": 9,
       "status": "prosperujici",
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 100,
+      "mood": 79,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 82,
+      "wealth": 98,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 79,
+      "mood": 80,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 77,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 80,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 80,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 80,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -362,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 49,
+      "wealth": 50,
       "mood": 56,
       "stores": 30,
       "status": "stable",
@@ -1837,6 +1841,18 @@
   ],
   "chronicle": [
     {
+      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 241,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
+    {
       "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
       "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
@@ -2063,21 +2079,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 20
-    },
-    {
-      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
-      "type": "A",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 231,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 20
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
+      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "local_events",
+      "tick": 241,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 23
+    },
     {
       "text": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
       "text_cs": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
@@ -2182,18 +2198,6 @@
       "icon": "🗡️",
       "source": "local_events",
       "tick": 236,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 21
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 235,
       "year": 1465,
       "season": "Podzim",
       "day": 21
@@ -2322,7 +2326,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 202,
+    "day_of_year": 203,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
