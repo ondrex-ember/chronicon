@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-24T09:10:23.817Z",
-  "valid_until": "2026-10-01T09:10:23.817Z",
+  "generated": "2026-09-24T14:47:34.482Z",
+  "valid_until": "2026-10-01T14:47:34.482Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 13,
-    "windKmH": 7,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 15,
+    "windKmH": 17,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 24,
-    "total_tick": 246,
+    "total_tick": 247,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 24"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 81,
+      "mood": 79,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 77,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 77,
+      "mood": 76,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 96,
-      "mood": 78,
+      "mood": 79,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 97,
-      "mood": 71,
+      "wealth": 98,
+      "mood": 70,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 78,
+      "mood": 76,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 100,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 50,
-      "mood": 63,
+      "wealth": 49,
+      "mood": 62,
       "stores": 30,
       "status": "stable",
       "relations": {
@@ -1837,6 +1837,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 247,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
+    {
+      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
+      "type": "C",
+      "icon": "🔨",
+      "source": "local_events",
+      "tick": 247,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
+    {
       "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
       "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
       "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
@@ -2051,33 +2075,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
-      "type": "D",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 237,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 236,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 21
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
+      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
+      "type": "C",
+      "icon": "🔨",
+      "source": "local_events",
+      "tick": 247,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
     {
       "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
       "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
@@ -2185,21 +2197,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_cs": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_en": "From the annals of 1433: on the Sunday and Monday before St Anthony fell a snow so deep that village folk could not reach the town markets. And so bread in Prague grew very dear — a strych of rye at thirty-four groschen. Snow raises the price of bread better than any bad harvest.",
-      "type": "A",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 239,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 247,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
     {
       "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
       "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
@@ -2304,18 +2316,6 @@
       "icon": "💰",
       "source": "distant_events",
       "tick": 228,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
-    },
-    {
-      "text": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_cs": "Agent z Avignonu píše: Cena anglické vlny klesla o osm zlatých za pytel po příjezdu lodí ze Southamptonu. Kdo nakoupil minulý měsíc, prodělal. Kdo čekal, koupí nyní levně. Posílám vzorek kvality.",
-      "text_en": "Agent from Avignon writes: The price of English wool fell by eight gold pieces per bale after ships arrived from Southampton. Those who bought last month lost money. Those who waited can now buy cheaply. Sending a sample of quality.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 227,
       "year": 1465,
       "season": "Podzim",
       "day": 19
