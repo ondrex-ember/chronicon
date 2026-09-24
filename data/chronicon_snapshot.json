@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-24T00:19:57.481Z",
-  "valid_until": "2026-10-01T00:19:57.481Z",
+  "generated": "2026-09-24T09:10:23.817Z",
+  "valid_until": "2026-10-01T09:10:23.817Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 5,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 13,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 24,
-    "total_tick": 245,
+    "total_tick": 246,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 24"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 91,
-      "mood": 76,
+      "wealth": 90,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 79,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 73,
+      "mood": 71,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 95,
-      "mood": 77,
+      "wealth": 96,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1837,6 +1837,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 246,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
+    {
       "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
       "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
       "text_en": "From the Zbraslav Chronicle: Sorrowful news from Bohemia: Lord Oldřich of Krajk, a faithful knight of King George, fell in an ambush on the road from Prague to Jihlava. It is said he was lured by a false messenger and rode into a trap. His overlord recorded in the chronicle that loyalty to the king brought him to the bed of glory.",
@@ -2063,21 +2075,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 21
-    },
-    {
-      "text": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
-      "text_cs": "Z Přerova: Potulní kováři přivezli na trh laciné meče a halapartny z podřadné měkké oceli. Radní zbraně zkonfiskovali a zlomili na náměstí, neboť takové ostří by zradilo obránce hned při prvním úderu.",
-      "text_en": "From Přerov: Wandering blacksmiths brought cheap swords and halberds made of inferior soft steel to the market. Aldermen confiscated the weapons and broke them in the square, as such blades would betray a defender at the very first strike.",
-      "type": "C",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 236,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 21
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 246,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 24
+    },
     {
       "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
       "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
@@ -2182,18 +2194,6 @@
       "icon": "🌨️",
       "source": "monastery_internal",
       "tick": 239,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
-    },
-    {
-      "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 238,
       "year": 1465,
       "season": "Podzim",
       "day": 22
