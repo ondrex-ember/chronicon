@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-24T19:54:21.434Z",
-  "valid_until": "2026-10-01T19:54:21.434Z",
+  "generated": "2026-09-25T00:22:37.944Z",
+  "valid_until": "2026-10-02T00:22:37.944Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
-    "windKmH": 6,
+    "tempC": 11,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 24,
-    "total_tick": 248,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 24"
+    "day": 25,
+    "total_tick": 249,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 25"
   },
   "actors": [
     {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 80,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 76,
+      "mood": 73,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 76,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 78,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 76,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 69,
+      "mood": 71,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -282,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 76,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 100,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -363,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 50,
-      "mood": 63,
+      "mood": 64,
       "stores": 30,
       "status": "stable",
       "relations": {
@@ -1837,6 +1841,30 @@
   ],
   "chronicle": [
     {
+      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
+      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
+      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
+      "type": "B",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 249,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
+    {
+      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
+      "type": "A",
+      "icon": "🪰",
+      "source": "monastery_internal",
+      "tick": 249,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
+    {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
@@ -2051,33 +2079,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_cs": "Z análů léta 1433: v neděli a v pondělí před svatým Antonínem napadl sníh tak veliký, že lidé ze vsí nemohli na trhy do měst. A proto byl v Praze chléb velmi drahý — strych žita po čtyřiatřiceti groších. Sníh umí zdražit chleba líp než neúroda.",
-      "text_en": "From the annals of 1433: on the Sunday and Monday before St Anthony fell a snow so deep that village folk could not reach the town markets. And so bread in Prague grew very dear — a strych of rye at thirty-four groschen. Snow raises the price of bread better than any bad harvest.",
-      "type": "A",
-      "icon": "🌨️",
-      "source": "monastery_internal",
-      "tick": 239,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
-    },
-    {
-      "text": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_cs": "Sedláci z nedalekých usedlostí odmítli odevzdat podzimní desátky z obilí s odůvodněním, že zrno ještě nedoschlo. Panský úředník jim pohrozil vsazením do klády a zabavením dobytka. Nakonec musel zasáhnout místní kněz, aby obě strany dovedl k mírové dohodě.",
-      "text_en": "Farmers from nearby homesteads refused to hand over their autumn grain tithes, arguing that the grain had not yet dried out. The manorial official threatened to put them in the stocks and confiscate their cattle. Finally, the local priest had to intervene to lead both parties to a peaceful agreement.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 238,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
+      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
+      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
+      "type": "B",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 249,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
+    {
+      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
+      "type": "A",
+      "icon": "🪰",
+      "source": "monastery_internal",
+      "tick": 249,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
     {
       "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
       "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
@@ -2173,30 +2201,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 23
-    },
-    {
-      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 241,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 23
-    },
-    {
-      "text": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
-      "text_cs": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
-      "text_en": "During the excavation of a new exploratory adit near the town, the supporting wooden shoring failed. Three miners were buried by a pile of rocks and mud. Although rescue parties dug even at night, they only managed to extricate lifeless bodies from the rubble.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 240,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "chronicle_distant": [
@@ -2322,7 +2326,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 204,
+    "day_of_year": 205,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
