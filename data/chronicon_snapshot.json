@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-25T00:22:37.944Z",
-  "valid_until": "2026-10-02T00:22:37.944Z",
+  "generated": "2026-09-25T09:30:19.831Z",
+  "valid_until": "2026-10-02T09:30:19.831Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 4,
+    "tempC": 15,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 25,
-    "total_tick": 249,
+    "total_tick": 250,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 25"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 91,
-      "mood": 74,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 78,
+      "mood": 77,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 100,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 100,
+      "mood": 74,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 76,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,7 +214,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 78,
       "stores": 5,
       "status": "prosperujici",
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 76,
+      "mood": 74,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 76,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 78,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 75,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "itemStock": {
@@ -1841,6 +1841,18 @@
   ],
   "chronicle": [
     {
+      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 250,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
+    {
       "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
       "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
       "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
@@ -2067,18 +2079,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 22
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 239,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "chronicle_local": [
@@ -2205,6 +2205,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
+      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 250,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 25
+    },
+    {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
@@ -2311,18 +2323,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 21
-    },
-    {
-      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 229,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 19
     }
   ],
   "church_calendar": {
