@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-26T14:16:31.973Z",
-  "valid_until": "2026-10-03T14:16:31.973Z",
+  "generated": "2026-09-26T19:07:58.940Z",
+  "valid_until": "2026-10-03T19:07:58.940Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 22,
-    "windKmH": 4,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 17,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 26,
-    "total_tick": 255,
+    "total_tick": 256,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 26"
   },
   "actors": [
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 87,
+      "wealth": 95,
+      "mood": 85,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 79,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 93,
+      "wealth": 98,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 88,
+      "wealth": 99,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 95,
+      "mood": 94,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 73,
+      "wealth": 94,
+      "mood": 71,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1864,6 +1864,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
+      "type": "A",
+      "icon": "🏇",
+      "source": "distant_events",
+      "tick": 256,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 256,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
       "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
       "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
       "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
@@ -2078,33 +2102,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 24
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 247,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
-      "type": "C",
-      "icon": "🔨",
-      "source": "local_events",
-      "tick": 247,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
+      "text_en": "During today's inventory, one jug of altar wine was missing. The cook swears he used it to baste the Sunday roast on the abbot's orders. I recorded it as a loss caused by force majeure and gross culinary ignorance.",
+      "type": "D",
+      "icon": "🍷",
+      "source": "monastery_internal",
+      "tick": 256,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
       "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
@@ -2212,21 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
-      "type": "A",
-      "icon": "🪰",
-      "source": "monastery_internal",
-      "tick": 249,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
+      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
+      "type": "A",
+      "icon": "🏇",
+      "source": "distant_events",
+      "tick": 256,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
       "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
@@ -2331,18 +2343,6 @@
       "icon": "🖼️",
       "source": "distant_events",
       "tick": 244,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 23
-    },
-    {
-      "text": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_cs": "Zpráva z Prahy: Vyslanec z Říma na hrad přijel, řeč o víře krále vedl za zavřenými dveřmi. Po odjezdu jeho tvář králova prý ztemněla. Co praveno bylo, dvořané netuší, leč obávají se nejhoršího.",
-      "text_en": "News from Prague: an envoy from Rome came to the castle, speaking of the king's faith behind closed doors. After his departure the king's countenance, it is said, grew dark. What was spoken the courtiers know not, yet they fear the worst.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 243,
       "year": 1465,
       "season": "Podzim",
       "day": 23
