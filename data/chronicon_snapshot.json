@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-26T09:15:19.479Z",
-  "valid_until": "2026-10-03T09:15:19.479Z",
+  "generated": "2026-09-26T14:16:31.973Z",
+  "valid_until": "2026-10-03T14:16:31.973Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Zlaté babí léto",
     "icon": "🍂",
     "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 15,
-    "windKmH": 3,
+    "tempC": 22,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.05,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 26,
-    "total_tick": 254,
+    "total_tick": 255,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 26"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 89,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 90,
+      "mood": 87,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 81,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 80,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 88,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 97,
+      "wealth": 99,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 91,
+      "mood": 90,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 89,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 98,
+      "mood": 95,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 74,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1864,6 +1864,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 255,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
+      "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
+      "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
+      "text_en": "The steward of the local estate sent bailiffs to catch a serf family that secretly fled at night with their cow to a neighboring estate. The runaways hope to gain better conditions there or find asylum behind town walls. The landowner is offering a hefty reward for bringing them back in chains.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 255,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
       "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
       "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
       "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
@@ -2078,33 +2102,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 24
-    },
-    {
-      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 246,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_en": "From the Zbraslav Chronicle: Sorrowful news from Bohemia: Lord Oldřich of Krajk, a faithful knight of King George, fell in an ambush on the road from Prague to Jihlava. It is said he was lured by a false messenger and rode into a trap. His overlord recorded in the chronicle that loyalty to the king brought him to the bed of glory.",
-      "type": "D",
-      "icon": "💀",
-      "source": "distant_events",
-      "tick": 245,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
+      "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
+      "text_en": "The steward of the local estate sent bailiffs to catch a serf family that secretly fled at night with their cow to a neighboring estate. The runaways hope to gain better conditions there or find asylum behind town walls. The landowner is offering a hefty reward for bringing them back in chains.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 255,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
       "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
@@ -2212,21 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_cs": "Ze staročeských letopisů: Bylo uzavřeno příměří mezi králem Jiřím a pány Zelenohorské ligy. Kurýři jezdí mezi Prahou a Brnem a přinášejí podmínky. Jedni říkají, že mír vydrží do jara, druzí nevěří ani do Vánoc. Obě strany si odpočívají a doplňují zásoby.",
+      "text_en": "From the Old Czech Chronicles: A truce was concluded between King George and the lords of the League of Zelená Hora. Couriers ride between Prague and Brno carrying the terms. Some say the peace will hold until spring, others do not believe it will last until Christmas. Both sides are resting and replenishing their supplies.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 255,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
       "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
@@ -2334,18 +2346,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 23
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_cs": "Ze zápisků zbraslavských: Klášter jeden na Moravě, an artikulové čtyři vyhlášeni byli, o veškeré pozemky přišel. Bratři se rozešli, kam koho cesta nesla. Dům stál léta pustý, než nový řád jej obsadil.",
-      "text_en": "From the Zbraslav notes: a certain monastery in Moravia, when the four articles were proclaimed, lost all its lands. The brothers scattered, whither each one's road led him. The house stood empty for years, ere a new order occupied it.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 240,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
     }
   ],
   "church_calendar": {
