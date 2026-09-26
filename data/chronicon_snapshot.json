@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-26T00:27:29.999Z",
-  "valid_until": "2026-10-03T00:27:29.999Z",
+  "generated": "2026-09-26T09:15:19.479Z",
+  "valid_until": "2026-10-03T09:15:19.479Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 15,
     "windKmH": 3,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 26,
-    "total_tick": 253,
+    "total_tick": 254,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 26"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 92,
+      "mood": 90,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 82,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 81,
+      "mood": 80,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 89,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 99,
+      "mood": 97,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 93,
+      "mood": 91,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 83,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 88,
+      "mood": 89,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 98,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 76,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 85,
-      "mood": 70,
+      "wealth": 84,
+      "mood": 72,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
+      "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
+      "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
+      "type": "C",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
+      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
+      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
+      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
+      "type": "A",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
+      "type": "B",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
       "text": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
       "text_cs": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
       "text_en": "From the London coroner's records, news many weeks old: John Baker went drunk from the tavern after vespers. He tripped over a pig, fell into an open drain and broke his neck. His wife found the body in the morning. The pig is healthy.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 24
-    },
-    {
-      "text": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_cs": "Z Hranic: Bystrá stráž dopadla mnicha, který pod kutnou tajně pašoval sud s neprocleným vínem z Uher. Byl vsazen do žaláře a opat místního kláštera se za něj přijel osobně omluvit s peněžitým darem.",
-      "text_en": "From Hranice: A sharp-eyed guard caught a monk secretly smuggling a barrel of untaxed wine from Hungary beneath his cowl. He was thrown into jail, and the abbot of the local monastery came to apologize in person with a monetary gift.",
-      "type": "A",
-      "icon": "⛓️",
-      "source": "local_events",
-      "tick": 245,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
-      "type": "C",
-      "icon": "🖼️",
-      "source": "distant_events",
-      "tick": 244,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 23
-    },
-    {
-      "text": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_cs": "Z radnice v Litovli: Po špatné sklizni chmele purkmistr povolil krčmářům zvednout cenu piva o jeden haléř za máz. Obyvatelé reptají a několik tovaryšů z hněvu rozbilo hospodskému okna.",
-      "text_en": "From the Litovel town hall: Following a poor hops harvest, the burgomaster allowed tavern keepers to raise the price of beer by one heller per measure. The inhabitants complain, and several journeymen broke an innkeeper's windows in anger.",
-      "type": "C",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 244,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 23
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
+      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
+      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
+      "type": "A",
+      "icon": "🍺",
+      "source": "local_events",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
+    {
+      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
+      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
+      "type": "B",
+      "icon": "🕊️",
+      "source": "monastery_internal",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
       "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 24
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_cs": "Královský úředník přijel na inspekci do stříbrných dolů a mincovny, kde odhalil skupinu kovářů tajně razících falešné mince z olova potaženého stříbrem. Pachatelé byli ihned vsazeni do temnice. Na trzích nyní vládne nedůvěra a každý kupec mince pečlivě zkouší zuby.",
-      "text_en": "A royal official arrived to inspect the silver mines and the mint, uncovering a group of blacksmiths secretly striking fake coins from lead coated in silver. The perpetrators were immediately thrown into the dungeon. Suspicion now reigns in the markets, and every merchant carefully tests coins with their teeth.",
-      "type": "C",
-      "icon": "🔨",
-      "source": "local_events",
-      "tick": 247,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
+      "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
+      "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
+      "type": "C",
+      "icon": "🏰",
+      "source": "distant_events",
+      "tick": 254,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 26
+    },
     {
       "text": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
       "text_cs": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
@@ -2331,18 +2343,6 @@
       "icon": "🏚️",
       "source": "distant_events",
       "tick": 240,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 22
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_cs": "Ze zbraslavské kroniky: Byl dohodnut sňatek dcery krále Jiřího z Poděbrad s princem z polského rodu Jagellonců. Věno bylo stanoveno na osm tisíc zlatých florinů. Hosté a hudebníci jsou prý zváni z Krakova i z Vídně. Pro Čechy by to znamenalo mocného spojence na severu.",
-      "text_en": "From the Zbraslav Chronicle: A marriage was arranged between a daughter of King George of Podiebrad and a prince of the Polish Jagiellonian dynasty. The dowry was set at eight thousand gold florins. Guests and musicians are reportedly being invited from Kraków and Vienna. For Bohemia, this would mean a powerful ally to the north.",
-      "type": "C",
-      "icon": "💍",
-      "source": "distant_events",
-      "tick": 237,
       "year": 1465,
       "season": "Podzim",
       "day": 22
