@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-27T09:55:11.591Z",
-  "valid_until": "2026-10-04T09:55:11.591Z",
+  "generated": "2026-09-27T15:03:03.782Z",
+  "valid_until": "2026-10-04T15:03:03.782Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 14,
-    "windKmH": 3,
+    "tempC": 22,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 27,
-    "total_tick": 258,
+    "total_tick": 259,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 27"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 90,
-      "mood": 74,
+      "wealth": 89,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 81,
+      "wealth": 96,
+      "mood": 80,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 79,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 76,
       "stores": 3,
       "status": "stable",
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 88,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 87,
+      "wealth": 98,
+      "mood": 85,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 80,
       "stores": 2,
       "status": "stable",
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 86,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 93,
       "stores": 4,
       "status": "prosperujici",
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 94,
-      "mood": 71,
+      "mood": 70,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 84,
+      "wealth": 83,
       "mood": 74,
       "stores": 20,
       "status": "stable",
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
       "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
       "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
       "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 250,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 249,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
-      "type": "A",
-      "icon": "🪰",
-      "source": "monastery_internal",
-      "tick": 249,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
+      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
+      "type": "B",
+      "icon": "🍞",
+      "source": "monastery_internal",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
       "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "<em>Mlynář</em> obvinil <em>Rybníkář</em>a z úmyslného zadržování vody v rybniční strouze.",
-      "text_cs": "<em>Mlynář</em> obvinil <em>Rybníkář</em>a z úmyslného zadržování vody v rybniční strouze.",
-      "text_en": null,
-      "type": "C",
-      "icon": "💧",
-      "source": "monastery_internal",
-      "tick": 252,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 251,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 259,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
       "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
@@ -2331,18 +2343,6 @@
       "icon": "💰",
       "source": "distant_events",
       "tick": 247,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_cs": "Ze zbraslavské kroniky: Truchlivá zpráva z Čech: Pan Oldřich z Krajku, věrný rytíř krále Jiřího, padl v přepadu na cestě z Prahy do Jihlavi. Prý se nechal zlákat falešným poslem a vjel do zálohy. Jeho pán zapsal do kroniky, že věrnost ke králi ho přivedla na lože slávy.",
-      "text_en": "From the Zbraslav Chronicle: Sorrowful news from Bohemia: Lord Oldřich of Krajk, a faithful knight of King George, fell in an ambush on the road from Prague to Jihlava. It is said he was lured by a false messenger and rode into a trap. His overlord recorded in the chronicle that loyalty to the king brought him to the bed of glory.",
-      "type": "D",
-      "icon": "💀",
-      "source": "distant_events",
-      "tick": 245,
       "year": 1465,
       "season": "Podzim",
       "day": 24
