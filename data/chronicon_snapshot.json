@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-27T00:23:05.714Z",
-  "valid_until": "2026-10-04T00:23:05.714Z",
+  "generated": "2026-09-27T09:55:11.591Z",
+  "valid_until": "2026-10-04T09:55:11.591Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 1,
+    "tempC": 14,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 27,
-    "total_tick": 257,
+    "total_tick": 258,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 27"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 90,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 82,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 95,
-      "mood": 78,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 76,
       "stores": 3,
       "status": "stable",
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 98,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 91,
+      "wealth": 100,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 89,
+      "wealth": 99,
+      "mood": 87,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 85,
+      "wealth": 84,
       "mood": 74,
       "stores": 20,
       "status": "stable",
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
+      "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
+      "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
+      "type": "C",
+      "icon": "🧶",
+      "source": "distant_events",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
+      "type": "A",
+      "icon": "🤕",
+      "source": "local_events",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
+      "type": "A",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
       "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
       "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
       "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_cs": "Zpráva z Bruntálu: Stráže u městské brány objevily vůz, který měl pod nákladem sena ukryté čtyři sudy neproclené polské soli. Pašerák byl uvržen do městské šatlavy a vůz propadl rychtáři.",
-      "text_en": "News from Bruntál: Guards at the town gate discovered a wagon with four barrels of untaxed Polish salt hidden under a load of hay. The smuggler was thrown into the town jail, and the wagon was forfeit to the alderman.",
-      "type": "A",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
+      "type": "A",
+      "icon": "🤕",
+      "source": "local_events",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
+      "type": "A",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
       "text_cs": "Při dnešní inventuře chyběl jeden džbán mešního vína. Kuchmistr se dušuje, že s ním podléval nedělní pečeni na příkaz opata. Zapsal jsem to jako ztrátu způsobenou vyšší mocí a hrubou kulinářskou nevzdělaností.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 251,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 249,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
+      "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
+      "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
+      "type": "C",
+      "icon": "🧶",
+      "source": "distant_events",
+      "tick": 258,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
       "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
@@ -2334,18 +2346,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 24
-    },
-    {
-      "text": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_cs": "Z Florencie po moři dorazily náboženské obrazy na plátkovém zlatě, pocházející z dílny Niccola a Lodovica del Bono. Velký panel Panny Marie s podstavcem a bohatě vyřezávanými listy má hodnotu více než šesti florénů. Zboží je určeno náročným kupcům, kteří hledají tu nejlepší kvalitu.",
-      "text_en": "Religious pictures painted on fine gold have arrived by sea from Florence, coming from the workshop of Niccolo and Lodovico del Bono. A large panel of Our Lady with a pedestal and richly carved leaves is worth over six florins. The goods are intended for demanding buyers who seek only the finest quality.",
-      "type": "C",
-      "icon": "🖼️",
-      "source": "distant_events",
-      "tick": 244,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 23
     }
   ],
   "church_calendar": {
