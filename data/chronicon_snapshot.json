@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-27T15:03:03.782Z",
-  "valid_until": "2026-10-04T15:03:03.782Z",
+  "generated": "2026-09-27T19:40:02.827Z",
+  "valid_until": "2026-10-04T19:40:02.827Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 22,
-    "windKmH": 11,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 16,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 27,
-    "total_tick": 259,
+    "total_tick": 260,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 27"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 89,
-      "mood": 72,
+      "mood": 70,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 80,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 80,
+      "wealth": 94,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 78,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 86,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 85,
       "stores": 6,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 80,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 85,
+      "wealth": 100,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 93,
+      "mood": 92,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
-      "mood": 70,
+      "wealth": 95,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 83,
-      "mood": 74,
+      "mood": 73,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
+      "type": "B",
+      "icon": "💰",
+      "source": "monastery_internal",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
       "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
       "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
       "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "<em>Mlynář</em> obvinil <em>Rybníkář</em>a z úmyslného zadržování vody v rybniční strouze.",
-      "text_cs": "<em>Mlynář</em> obvinil <em>Rybníkář</em>a z úmyslného zadržování vody v rybniční strouze.",
-      "text_en": null,
-      "type": "C",
-      "icon": "💧",
-      "source": "monastery_internal",
-      "tick": 252,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 251,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 251,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
+      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
+    {
+      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
+      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
+      "type": "B",
+      "icon": "💰",
+      "source": "monastery_internal",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
       "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 253,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 253,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
+      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
+      "type": "C",
+      "icon": "🕊️",
+      "source": "distant_events",
+      "tick": 260,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 27
+    },
     {
       "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
       "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
@@ -2331,18 +2343,6 @@
       "icon": "🗺️",
       "source": "distant_events",
       "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 247,
       "year": 1465,
       "season": "Podzim",
       "day": 24
