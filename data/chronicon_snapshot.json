@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-28T00:27:12.721Z",
-  "valid_until": "2026-10-05T00:27:12.721Z",
+  "generated": "2026-09-28T10:44:28.526Z",
+  "valid_until": "2026-10-05T10:44:28.526Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -65,15 +65,15 @@
     "name_en": "St. Wenceslas' Fair"
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 12,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 19,
     "windKmH": 3,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -82,7 +82,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 28,
-    "total_tick": 261,
+    "total_tick": 262,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 28"
   },
   "actors": [
@@ -92,8 +92,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 90,
-      "mood": 69,
+      "wealth": 91,
+      "mood": 71,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -116,7 +116,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 77,
       "stores": 9,
       "status": "prosperujici",
@@ -140,8 +140,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
-      "mood": 77,
+      "wealth": 95,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -164,8 +164,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 100,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -237,7 +237,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -261,7 +261,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -284,8 +284,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -309,7 +309,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 88,
+      "mood": 86,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -333,7 +333,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 95,
-      "mood": 72,
+      "mood": 70,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -364,8 +364,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 82,
-      "mood": 73,
+      "wealth": 81,
+      "mood": 71,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1866,6 +1866,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 262,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 262,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
@@ -2080,33 +2104,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
-      "type": "B",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 254,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
-      "text_cs": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
-      "text_en": "From the London coroner's records, news many weeks old: John Baker went drunk from the tavern after vespers. He tripped over a pig, fell into an open drain and broke his neck. His wife found the body in the morning. The pig is healthy.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 253,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 262,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -2214,21 +2226,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_en": "The steward of the local estate sent bailiffs to catch a serf family that secretly fled at night with their cow to a neighboring estate. The runaways hope to gain better conditions there or find asylum behind town walls. The landowner is offering a hefty reward for bringing them back in chains.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 255,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 262,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
     {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
@@ -2333,18 +2345,6 @@
       "icon": "⚔️",
       "source": "distant_events",
       "tick": 252,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
-    },
-    {
-      "text": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_cs": "Léta tisíc CCCXLVII narodila se jest Alžběta, césařovna římská a královna česká.",
-      "text_en": "In 1347 was born Elizabeth, Roman empress and queen of Bohemia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 250,
       "year": 1465,
       "season": "Podzim",
       "day": 25
