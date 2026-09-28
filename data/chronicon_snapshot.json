@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-27T19:40:02.827Z",
-  "valid_until": "2026-10-04T19:40:02.827Z",
+  "generated": "2026-09-28T00:27:12.721Z",
+  "valid_until": "2026-10-05T00:27:12.721Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -60,15 +60,17 @@
     }
   },
   "veletrh": {
-    "active": false
+    "active": true,
+    "name_cs": "Veletrh sv. Václava",
+    "name_en": "St. Wenceslas' Fair"
   },
   "weather": {
     "key": "autumn_golden",
     "name": "Zlaté babí léto",
     "icon": "🍂",
     "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 16,
-    "windKmH": 5,
+    "tempC": 12,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.05,
@@ -79,9 +81,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 27,
-    "total_tick": 260,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 27"
+    "day": 28,
+    "total_tick": 261,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 28"
   },
   "actors": [
     {
@@ -90,8 +92,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 89,
-      "mood": 70,
+      "wealth": 90,
+      "mood": 69,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +117,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 78,
+      "mood": 77,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +141,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 78,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +165,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 75,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -211,7 +213,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +236,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 85,
+      "wealth": 100,
+      "mood": 84,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -283,7 +285,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 83,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +308,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 92,
+      "wealth": 98,
+      "mood": 88,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -362,7 +364,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 83,
+      "wealth": 82,
       "mood": 73,
       "stores": 20,
       "status": "stable",
@@ -1864,6 +1866,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
+      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
+      "type": "A",
+      "icon": "🫏",
+      "source": "monastery_internal",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
       "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
       "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
@@ -2066,45 +2104,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_cs": "Konala se velkolepá svatba dcery místního sladovníka a zámožného kupce z Krakova. Oslavy trvaly tři dny, víno teklo proudem a stoly se prohýbaly pod pečenými selaty a kapry. Novomanželé štědře obdarovali tamní farní kostel novým stříbrným kalichem.",
-      "text_en": "A magnificent wedding took place between the daughter of a local maltster and a wealthy merchant from Krakow. The celebrations lasted three days, wine flowed freely, and tables groaned under roasted piglets and carp. The newlyweds generously endowed the local parish church with a new silver chalice.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 253,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 253,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 252,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 25
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
+    {
+      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
+      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
+      "type": "A",
+      "icon": "🫏",
+      "source": "monastery_internal",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
     {
       "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
       "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
@@ -2200,33 +2226,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
-      "type": "A",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 254,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_cs": "Četlo se o žáku Štěpánovi, hříšném, jenž přesto sloužil svaté Máří Magdaleně. Zjevila se mu: „Proč mi nadarmo sloužíš? Vstaň a kaj se.“ Opustil svět, vstoupil do řádu a zemřel svatě — jeho duši prý vynesla k nebi jako třpytnou holubičku. Novicové po večeři dlouho mlčeli.",
-      "text_en": "We read of the student Stephen, a sinner who nonetheless served St Mary Magdalene. She appeared to him: 'Why do you serve me in vain? Rise and repent.' He left the world, entered the order and died holily — his soul, they say, borne heavenward like a shining dove. The novices sat long in silence after supper.",
-      "type": "B",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 254,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 261,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 28
+    },
     {
       "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
       "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
@@ -2334,22 +2348,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 25
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 248,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 24
     }
   ],
   "church_calendar": {
-    "day_of_year": 207,
+    "day_of_year": 208,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
