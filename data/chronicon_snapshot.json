@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-29T10:32:13.198Z",
-  "valid_until": "2026-10-06T10:32:13.198Z",
+  "generated": "2026-09-29T20:36:11.113Z",
+  "valid_until": "2026-10-06T20:36:11.113Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 22,
-    "windKmH": 13,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 16,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 29,
-    "total_tick": 265,
+    "total_tick": 266,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 29"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 76,
+      "mood": 75,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 77,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 73,
       "stores": 3,
       "status": "stable",
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 83,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 82,
       "stores": 6,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 73,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 80,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 70,
+      "wealth": 94,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 82,
-      "mood": 75,
+      "wealth": 83,
+      "mood": 73,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
+    {
+      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
+      "type": "B",
+      "icon": "🦴",
+      "source": "local_events",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
+    {
       "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
       "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
       "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 27
-    },
-    {
-      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
-      "type": "A",
-      "icon": "🤕",
-      "source": "local_events",
-      "tick": 258,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 258,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
-    },
-    {
-      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
-      "type": "A",
-      "icon": "🏇",
-      "source": "distant_events",
-      "tick": 256,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
+      "type": "B",
+      "icon": "🦴",
+      "source": "local_events",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
     {
       "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
       "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 27
-    },
-    {
-      "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_cs": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná.",
-      "text_en": "We read of the rich man Urban, who gave all to the poor and offered his son a choice: ten marks of gold, or the intercession of Our Lady. The son chose the intercession — and begged. Yet people gave to him more gladly than to any other pauper. Brother cellarer always mutters at that story that heaven's bookkeeping is beyond him.",
-      "type": "B",
-      "icon": "💰",
-      "source": "monastery_internal",
-      "tick": 260,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
-    },
-    {
-      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 259,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 266,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 29
+    },
     {
       "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
       "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
@@ -2331,18 +2343,6 @@
       "icon": "🏰",
       "source": "distant_events",
       "tick": 254,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
-    },
-    {
-      "text": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
-      "text_cs": "Ze záznamů londýnského koronera, zpráva stará mnoho neděl: Jan Pekař šel opilý z krčmy po nešporách. Zakopl o prase, spadl do otevřené stoky a zlomil si vaz. Mrtvolu našla ráno jeho žena. Prase je zdravé.",
-      "text_en": "From the London coroner's records, news many weeks old: John Baker went drunk from the tavern after vespers. He tripped over a pig, fell into an open drain and broke his neck. His wife found the body in the morning. The pig is healthy.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 253,
       "year": 1465,
       "season": "Podzim",
       "day": 26
