@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-29T20:36:11.113Z",
-  "valid_until": "2026-10-06T20:36:11.113Z",
+  "generated": "2026-09-30T01:10:32.873Z",
+  "valid_until": "2026-10-07T01:10:32.873Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Zlaté babí léto",
     "icon": "🍂",
     "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 16,
-    "windKmH": 5,
+    "tempC": 12,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.05,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 29,
-    "total_tick": 266,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 29"
+    "day": 30,
+    "total_tick": 267,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 30"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 90,
-      "mood": 69,
+      "mood": 70,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 75,
+      "mood": 76,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 73,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 80,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 82,
+      "mood": 81,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 74,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 80,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -1864,6 +1868,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
+      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
       "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
       "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
       "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
@@ -2066,45 +2106,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 27
-    },
-    {
-      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 259,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
-    },
-    {
-      "text": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_cs": "Chléb dnes z pece vyšel černý jako uhel. Sklepmistr mi dodal příliš vlhké dřevo, které místo hoření jen doutnalo a dýmilo. Jsem umělec, ne kouzelník. Bratři jedli v tichosti, s černými zuby.",
-      "text_en": "The bread came out of the oven today as black as coal. The cellarer supplied me with wood that was too damp; instead of burning, it merely smoldered and smoked. I am an artist, not a magician. The brothers ate in silence, with black teeth.",
-      "type": "B",
-      "icon": "🍞",
-      "source": "monastery_internal",
-      "tick": 259,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
-    },
-    {
-      "text": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_cs": "Z Londýna, zpráva stará přes sedm neděl: Anglický parlament zvýšil clo na vývoz vlněného sukna. Flanderští tkalci zuří. Někteří se prý chystají přesunout dílny do Brabantska.",
-      "text_en": "From London, news over seven weeks old: The English Parliament raised the export duty on woolen cloth. Flemish weavers are furious. Some are reportedly planning to move their workshops to Brabant.",
-      "type": "C",
-      "icon": "🧶",
-      "source": "distant_events",
-      "tick": 258,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
     {
       "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
       "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
@@ -2200,33 +2228,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 28
-    },
-    {
-      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
-      "type": "A",
-      "icon": "🫏",
-      "source": "monastery_internal",
-      "tick": 261,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
-    },
-    {
-      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 260,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 267,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
     {
       "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
       "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
@@ -2334,22 +2350,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 26
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_cs": "Ze zápisků zbraslavských: Léta, kdy zemská obec krále sesadila a sama vládla, dosud žijí v pamětech panstva. Někteří páni prý onu moc rádi by zpět drželi, byť nahlas to nevyslovují.",
-      "text_en": "From the Zbraslav notes: the years when the land's community deposed the king and ruled itself live yet in the memories of the nobility. Some lords, it is said, would gladly hold that power again, though they speak it not aloud.",
-      "type": "C",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 254,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "church_calendar": {
-    "day_of_year": 209,
+    "day_of_year": 210,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
