@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-09-30T10:22:44.044Z",
-  "valid_until": "2026-10-07T10:22:44.044Z",
+  "generated": "2026-09-30T20:40:42.396Z",
+  "valid_until": "2026-10-07T20:40:42.396Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 21,
-    "windKmH": 7,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 16,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 30,
-    "total_tick": 268,
+    "total_tick": 269,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 30"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 90,
-      "mood": 71,
+      "wealth": 89,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 77,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
-      "mood": 72,
+      "wealth": 96,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 82,
+      "mood": 81,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 75,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 81,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 79,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 93,
-      "mood": 73,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1868,6 +1868,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 269,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
+      "text": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
+      "text_cs": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
+      "text_en": "From the Vyškov market: Peasant women brought huge quantities of fattened geese and hens to the market ahead of the approaching holidays. Wealthy burghers are buying poultry by the basketful, and the poor must settle for scraps.",
+      "type": "C",
+      "icon": "🐓",
+      "source": "local_events",
+      "tick": 269,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
+    {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
@@ -2082,33 +2106,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 28
-    },
-    {
-      "text": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_cs": "Anály umějí i úsměv: při obléhání Karlštejna jedli Poláci oslí maso místo zvěřiny. Bratr kuchař tvrdí, že hlad je nejlepší kuchař — a obležení nejlepší hospodyně.",
-      "text_en": "The annals can smile too: at the siege of Karlštejn the Poles ate donkey meat in place of venison. Brother cook maintains that hunger is the best chef — and a siege the best housekeeper.",
-      "type": "A",
-      "icon": "🫏",
-      "source": "monastery_internal",
-      "tick": 261,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 260,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
+      "text_cs": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
+      "text_en": "From the Vyškov market: Peasant women brought huge quantities of fattened geese and hens to the market ahead of the approaching holidays. Wealthy burghers are buying poultry by the basketful, and the poor must settle for scraps.",
+      "type": "C",
+      "icon": "🐓",
+      "source": "local_events",
+      "tick": 269,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
     {
       "text": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
       "text_cs": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
@@ -2216,21 +2228,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 28
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
+      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "distant_events",
+      "tick": 269,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 30
+    },
     {
       "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
       "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
@@ -2338,18 +2350,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 27
-    },
-    {
-      "text": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_cs": "Ze zbraslavské kroniky: V Olomouci proběhl velký turnaj ke cti biskupa Rudolfa ze Rüdesheim. Zvítězil rytíř z Moravy, jehož jméno zatím neznáme, na vraném koni s bílým znakem. Říká se, že vsadil svůj meč a vyhrál stříbrný pohár s erbem biskupství.",
-      "text_en": "From the Zbraslav Chronicle: A great tournament took place in Olomouc in honor of Bishop Rudolf of Rüdesheim. The victor was a knight from Moravia, whose name is not yet known to us, riding a black horse with a white coat of arms. It is said he wagered his sword and won a silver cup bearing the coat of arms of the bishopric.",
-      "type": "A",
-      "icon": "🏇",
-      "source": "distant_events",
-      "tick": 256,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 26
     }
   ],
   "church_calendar": {
