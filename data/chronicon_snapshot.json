@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-01T10:49:39.950Z",
-  "valid_until": "2026-10-08T10:49:39.950Z",
+  "generated": "2026-10-01T20:54:52.930Z",
+  "valid_until": "2026-10-08T20:54:52.930Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 21,
-    "windKmH": 2,
+    "tempC": 18,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 31,
-    "total_tick": 271,
+    "total_tick": 272,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 31"
   },
   "actors": [
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 77,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 75,
       "stores": 5,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 96,
-      "mood": 74,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 77,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 74,
+      "wealth": 99,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 79,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 76,
+      "mood": 75,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 92,
-      "mood": 75,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1864,6 +1864,30 @@
   ],
   "chronicle": [
     {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 272,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 31
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 272,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 31
+    },
+    {
       "text": "Z Mallorky přišla dobrá zpráva: hned po jarním stříhání ovcí nakoupil agent Datiniho domu 29 žoků prvotřídní menorské vlny. Najata byla španělská loď, která zboží na podzim v pořádku doručila do Porto Pisano. Zde bude náklad přebalen do 39 balíků a po řece či na mezcích dopraven přímo do skladů v Pratu a Florencii.",
       "text_cs": "Z Mallorky přišla dobrá zpráva: hned po jarním stříhání ovcí nakoupil agent Datiniho domu 29 žoků prvotřídní menorské vlny. Najata byla španělská loď, která zboží na podzim v pořádku doručila do Porto Pisano. Zde bude náklad přebalen do 39 balíků a po řece či na mezcích dopraven přímo do skladů v Pratu a Florencii.",
       "text_en": "Good news from Mallorca: right after the spring sheep-shearing, an agent of the Datini house bought 29 sacks of first-rate Minorcan wool. A Spanish ship was chartered, which safely delivered the goods to Porto Pisano in the autumn. There the cargo will be repacked into 39 bales and transported by river or mule directly to the warehouses in Prato and Florence.",
@@ -2078,33 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 28
-    },
-    {
-      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
-      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
-      "type": "E",
-      "icon": "💍",
-      "source": "local_events",
-      "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
     }
   ],
   "chronicle_local": [
+    {
+      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
+      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 272,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 31
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 272,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 31
+    },
     {
       "text": "Z Fulneku: Cech kovářů vydal nová pravidla. Žádný tovaryš nesmí opustit město bez souhlasu mistra pod pokutou jednoho florénu. Mistři si stěžují, že mladí raději utíkají hledat lepší výdělek na jih.",
       "text_cs": "Z Fulneku: Cech kovářů vydal nová pravidla. Žádný tovaryš nesmí opustit město bez souhlasu mistra pod pokutou jednoho florénu. Mistři si stěžují, že mladí raději utíkají hledat lepší výdělek na jih.",
@@ -2200,30 +2224,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
-      "type": "B",
-      "icon": "🦴",
-      "source": "local_events",
-      "tick": 266,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 266,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
     }
   ],
   "chronicle_distant": [
