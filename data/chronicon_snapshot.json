@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-02T01:28:59.749Z",
-  "valid_until": "2026-10-09T01:28:59.749Z",
+  "generated": "2026-10-02T10:24:00.313Z",
+  "valid_until": "2026-10-09T10:24:00.313Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 3,
+    "tempC": 16,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 32,
-    "total_tick": 273,
+    "total_tick": 274,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 32"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 89,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,7 +118,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 76,
       "stores": 9,
       "status": "prosperujici",
@@ -166,7 +166,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 74,
       "stores": 3,
       "status": "stable",
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 76,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 73,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 73,
+      "wealth": 95,
+      "mood": 74,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 84,
-      "mood": 73,
+      "wealth": 85,
+      "mood": 72,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1868,6 +1868,42 @@
   ],
   "chronicle": [
     {
+      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
+      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
+      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
+      "type": "A",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
       "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
@@ -2070,45 +2106,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 266,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
-    },
-    {
-      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
-      "type": "B",
-      "icon": "🦴",
-      "source": "local_events",
-      "tick": 266,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 266,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
     {
       "text": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
       "text_cs": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
@@ -2204,33 +2228,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
-      "text_cs": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
-      "text_en": "From Hranice: A group of Bohemian mercenaries has pitched camp just a mile from the town walls. They are extorting protection money from villagers in the form of oats and bacon. The burgomaster has sent a complaint to the provincial captain.",
-      "type": "B",
-      "icon": "⛺",
-      "source": "local_events",
-      "tick": 268,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
-    },
-    {
-      "text": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_cs": "Počítal jsem prázdné sudy a jeden přebývá. Třikrát jsem prošel celý sklep, a stále jich je 43 místo 42. Někdo musel tajně přinést sud do sklepa. Svět se zbláznil, nebo já ztrácím rozum z kuchmistrova jídla.",
-      "text_en": "I counted the empty barrels and there is one extra. I walked through the whole cellar three times, and there are still 43 instead of 42. Someone must have secretly brought a barrel into the cellar. The world has gone mad, or I am losing my mind from the cook's food.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 268,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
+      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
+      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
+      "type": "A",
+      "icon": "✉️",
+      "source": "distant_events",
+      "tick": 274,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
     {
       "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
       "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
@@ -2338,18 +2350,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 28
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_cs": "Ze zápisků zbraslavských: Opat starý řekl bratřím, že snad jednou kalich i kříž v zemi té spolu pokojně budou žíti, bez nucení k víře jedné. Bratři mladší pochybovali, on sám doufal tiše.",
-      "text_en": "From the Zbraslav notes: an aged abbot told the brothers that perhaps one day the chalice and the cross shall live together in this land in peace, with none compelled to a single faith. The younger brothers doubted; he himself hoped quietly.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 260,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "church_calendar": {
