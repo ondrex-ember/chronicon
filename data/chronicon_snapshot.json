@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-01T20:54:52.930Z",
-  "valid_until": "2026-10-08T20:54:52.930Z",
+  "generated": "2026-10-02T01:28:59.749Z",
+  "valid_until": "2026-10-09T01:28:59.749Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,7 +71,7 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 18,
+    "tempC": 13,
     "windKmH": 3,
     "rainMm": 0,
     "season": 2,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 31,
-    "total_tick": 272,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 31"
+    "day": 32,
+    "total_tick": 273,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 32"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 89,
-      "mood": 74,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 76,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 75,
+      "wealth": 94,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 96,
-      "mood": 75,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -186,7 +190,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 80,
       "stores": 3,
       "status": "prosperujici",
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 80,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 78,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 80,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 75,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 92,
-      "mood": 76,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1864,6 +1868,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
+      "type": "D",
+      "icon": "🥷",
+      "source": "distant_events",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
+      "text_cs": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
+      "text_en": "From Opava: A spark from the forge ignited the town smithy, and the fire spread to an adjacent barn. The damages are immense, as the heat also destroyed precious bellows and tools imported all the way from Passau. The blacksmith is ruined.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "local_events",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
       "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
       "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
       "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
@@ -2066,45 +2106,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 29
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 265,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
-    },
-    {
-      "text": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_cs": "Zápis, u něhož se bratři smějí nahlas: před Božím narozením se Čechové vojensky sebrali a jeli do Míšně — mstít jelenů, které Míšeňští postříleli v oboře před Prahou. Války začínají i kvůli zvěřině.",
-      "text_en": "An entry that makes the brothers laugh aloud: before Christmas the Bohemians mustered in arms and rode into Meissen — to avenge the deer the Meisseners had shot in the game park before Prague. Wars begin over venison too.",
-      "type": "A",
-      "icon": "🦌",
-      "source": "monastery_internal",
-      "tick": 264,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 29
-    },
-    {
-      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
+      "text_cs": "Z Opavy: Jiskra z výhně zapálila městskou kovárnu a oheň se rozšířil na přilehlou stodolu. Škody jsou obrovské, neboť žár zničil i drahocenné měchy a nástroje dovezené až z Pasova. Kovář je na mizině.",
+      "text_en": "From Opava: A spark from the forge ignited the town smithy, and the fire spread to an adjacent barn. The damages are immense, as the heat also destroyed precious bellows and tools imported all the way from Passau. The blacksmith is ruined.",
+      "type": "D",
+      "icon": "🏚️",
+      "source": "local_events",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
+      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
     {
       "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
       "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
@@ -2200,33 +2228,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 267,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
-    },
-    {
-      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
-      "type": "A",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 267,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
+      "type": "D",
+      "icon": "🥷",
+      "source": "distant_events",
+      "tick": 273,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
     {
       "text": "Z Mallorky přišla dobrá zpráva: hned po jarním stříhání ovcí nakoupil agent Datiniho domu 29 žoků prvotřídní menorské vlny. Najata byla španělská loď, která zboží na podzim v pořádku doručila do Porto Pisano. Zde bude náklad přebalen do 39 balíků a po řece či na mezcích dopraven přímo do skladů v Pratu a Florencii.",
       "text_cs": "Z Mallorky přišla dobrá zpráva: hned po jarním stříhání ovcí nakoupil agent Datiniho domu 29 žoků prvotřídní menorské vlny. Najata byla španělská loď, která zboží na podzim v pořádku doručila do Porto Pisano. Zde bude náklad přebalen do 39 balíků a po řece či na mezcích dopraven přímo do skladů v Pratu a Florencii.",
@@ -2334,22 +2350,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 27
-    },
-    {
-      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 259,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 27
     }
   ],
   "church_calendar": {
-    "day_of_year": 211,
+    "day_of_year": 212,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
