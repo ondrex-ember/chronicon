@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-02T10:24:00.313Z",
-  "valid_until": "2026-10-09T10:24:00.313Z",
+  "generated": "2026-10-02T20:33:44.616Z",
+  "valid_until": "2026-10-09T20:33:44.616Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 4,
+    "tempC": 14,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 32,
-    "total_tick": 274,
+    "total_tick": 275,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 32"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 89,
-      "mood": 74,
+      "wealth": 90,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 75,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,7 +142,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 77,
       "stores": 5,
       "status": "prosperujici",
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
-      "mood": 74,
+      "wealth": 98,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 79,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,7 +214,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 79,
       "stores": 5,
       "status": "prosperujici",
@@ -238,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 76,
       "stores": 6,
       "status": "prosperujici",
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 72,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 95,
-      "mood": 74,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 85,
-      "mood": 72,
+      "mood": 73,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1868,6 +1868,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Tovačova: Poptávka po běleném plátně láme rekordy. Místní tkalcovské dílny nestíhají plnit zakázky od kupců směřujících do Uher. Cena plátna utěšeně roste a tkalci mají zajištěnou obživu na celou zimu.",
+      "text_cs": "Z Tovačova: Poptávka po běleném plátně láme rekordy. Místní tkalcovské dílny nestíhají plnit zakázky od kupců směřujících do Uher. Cena plátna utěšeně roste a tkalci mají zajištěnou obživu na celou zimu.",
+      "text_en": "From Tovačov: Demand for bleached linen is breaking records. Local weaving workshops cannot keep up with orders from merchants heading to Hungary. The price of linen is growing steadily, and weavers have their livelihood secured for the whole winter.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 275,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 275,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
       "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
@@ -2082,33 +2106,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 267,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
-    },
-    {
-      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
-      "type": "A",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 267,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Tovačova: Poptávka po běleném plátně láme rekordy. Místní tkalcovské dílny nestíhají plnit zakázky od kupců směřujících do Uher. Cena plátna utěšeně roste a tkalci mají zajištěnou obživu na celou zimu.",
+      "text_cs": "Z Tovačova: Poptávka po běleném plátně láme rekordy. Místní tkalcovské dílny nestíhají plnit zakázky od kupců směřujících do Uher. Cena plátna utěšeně roste a tkalci mají zajištěnou obživu na celou zimu.",
+      "text_en": "From Tovačov: Demand for bleached linen is breaking records. Local weaving workshops cannot keep up with orders from merchants heading to Hungary. The price of linen is growing steadily, and weavers have their livelihood secured for the whole winter.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 275,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 275,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 32
+    },
     {
       "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
       "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
@@ -2204,30 +2228,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 31
-    },
-    {
-      "text": "Zápis koronera: Panský psovod byl při lovu na kance nešťastnou náhodou zasažen střelou z kuše do krku. Střelec nebyl identifikován, neboť se všichni účastníci lovu zapřísahali mlčenlivostí.",
-      "text_cs": "Zápis koronera: Panský psovod byl při lovu na kance nešťastnou náhodou zasažen střelou z kuše do krku. Střelec nebyl identifikován, neboť se všichni účastníci lovu zapřísahali mlčenlivostí.",
-      "text_en": "Coroner's record: A lord's dog handler was accidentally hit in the neck by a crossbow bolt during a boar hunt. The shooter was not identified, as all participants in the hunt swore an oath of silence.",
-      "type": "D",
-      "icon": "🏹",
-      "source": "local_events",
-      "tick": 270,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 31
-    },
-    {
-      "text": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
-      "text_cs": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
-      "text_en": "From the Vyškov market: Peasant women brought huge quantities of fattened geese and hens to the market ahead of the approaching holidays. Wealthy burghers are buying poultry by the basketful, and the poor must settle for scraps.",
-      "type": "C",
-      "icon": "🐓",
-      "source": "local_events",
-      "tick": 269,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_distant": [
