@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-03T09:46:06.467Z",
-  "valid_until": "2026-10-10T09:46:06.467Z",
+  "generated": "2026-10-03T14:37:05.225Z",
+  "valid_until": "2026-10-10T14:37:05.225Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 14,
-    "windKmH": 2,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 21,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 33,
-    "total_tick": 277,
+    "total_tick": 278,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 33"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 91,
-      "mood": 74,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 77,
+      "mood": 76,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 96,
-      "mood": 77,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
-      "mood": 77,
+      "wealth": 96,
+      "mood": 76,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 72,
+      "mood": 71,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 92,
-      "mood": 73,
+      "wealth": 93,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 85,
-      "mood": 73,
+      "mood": 72,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1864,6 +1864,42 @@
   ],
   "chronicle": [
     {
+      "text": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
+      "text_cs": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
+      "text_en": "A monk from Zbraslav wrote: a royal messenger rode through these parts toward the Moravian lords, his horse wearied, himself silent. What tidings he bore he said not, only asked for water and rode on.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "distant_events",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
+      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
+      "type": "A",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
@@ -2066,45 +2102,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 31
-    },
-    {
-      "text": "Zápis koronera: Panský psovod byl při lovu na kance nešťastnou náhodou zasažen střelou z kuše do krku. Střelec nebyl identifikován, neboť se všichni účastníci lovu zapřísahali mlčenlivostí.",
-      "text_cs": "Zápis koronera: Panský psovod byl při lovu na kance nešťastnou náhodou zasažen střelou z kuše do krku. Střelec nebyl identifikován, neboť se všichni účastníci lovu zapřísahali mlčenlivostí.",
-      "text_en": "Coroner's record: A lord's dog handler was accidentally hit in the neck by a crossbow bolt during a boar hunt. The shooter was not identified, as all participants in the hunt swore an oath of silence.",
-      "type": "D",
-      "icon": "🏹",
-      "source": "local_events",
-      "tick": 270,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 31
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 269,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
-    },
-    {
-      "text": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
-      "text_cs": "Z vyškovského trhu: Selky přinesly na trh obrovské množství vykrmených hus a slepic před blížícími se svátky. Bohatí měšťané skupují drůbež po celých koších a chudina se musí spokojit jen s odřezky.",
-      "text_en": "From the Vyškov market: Peasant women brought huge quantities of fattened geese and hens to the market ahead of the approaching holidays. Wealthy burghers are buying poultry by the basketful, and the poor must settle for scraps.",
-      "type": "C",
-      "icon": "🐓",
-      "source": "local_events",
-      "tick": 269,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
+      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
+      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
+      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
+      "type": "A",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
     {
       "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
       "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
@@ -2200,33 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 32
-    },
-    {
-      "text": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_cs": "České království zahalil hluboký smutek. Během jediného měsíce zemřel nejprve volený arcibiskup Jan Rokycana a vzápětí po něm i samotný král Jiří z Poděbrad. Srdce husitského panovníka prý spočine v Týnském chrámu, zatímco zbytek těla byl uložen po boku starých králů.",
-      "text_en": "The Kingdom of Bohemia was cloaked in deep mourning. Within a single month, the elected Archbishop Jan Rokycana died first, followed closely by King George of Poděbrady himself. The heart of the Hussite monarch will reportedly rest in the Týn Church, while the rest of his body was laid alongside the old kings.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 272,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 31
-    },
-    {
-      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 272,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 31
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
+      "text_cs": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
+      "text_en": "A monk from Zbraslav wrote: a royal messenger rode through these parts toward the Moravian lords, his horse wearied, himself silent. What tidings he bore he said not, only asked for water and rode on.",
+      "type": "A",
+      "icon": "🐎",
+      "source": "distant_events",
+      "tick": 278,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
     {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
@@ -2334,18 +2346,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 29
-    },
-    {
-      "text": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_cs": "Léta tisíc CCCXLIIII volen jest Arnošt, první arcibiskup pražský, kterýž leží v Kladsku.",
-      "text_en": "In 1344 Ernest was elected the first Archbishop of Prague; he lies at Kladsko.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
     }
   ],
   "church_calendar": {
