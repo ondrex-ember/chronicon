@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-03T01:00:41.953Z",
-  "valid_until": "2026-10-10T01:00:41.953Z",
+  "generated": "2026-10-03T09:46:06.467Z",
+  "valid_until": "2026-10-10T09:46:06.467Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_fog",
-    "name": "Mlha",
-    "icon": "🌫",
-    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
-    "tempC": 12,
-    "windKmH": 1,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 14,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 33,
-    "total_tick": 276,
+    "total_tick": 277,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 33"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 90,
+      "wealth": 91,
       "mood": 74,
       "stores": 0,
       "status": "stable",
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 77,
       "stores": 9,
       "status": "prosperujici",
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 94,
-      "mood": 75,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 97,
-      "mood": 70,
+      "mood": 71,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 76,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 95,
-      "mood": 78,
+      "wealth": 96,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 75,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 73,
+      "mood": 72,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 94,
-      "mood": 74,
+      "wealth": 95,
+      "mood": 72,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 92,
-      "mood": 75,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 84,
-      "mood": 72,
+      "wealth": 85,
+      "mood": 73,
       "stores": 20,
       "status": "stable",
       "relations": {
@@ -1864,6 +1864,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 277,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 277,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
+    {
       "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
       "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
       "text_en": "From Prague: the bells of the Old Town churches ring longer than is custom, the priests calling the people to prayer for peace in the land. People come willingly, for they bear in their hearts an anxious dread of what is to come.",
@@ -2078,33 +2102,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 268,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
-    },
-    {
-      "text": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
-      "text_cs": "Z Hranic: Skupina českých žoldnéřů si rozbila tábor jen míli od městských hradeb. Vymáhají po vesničanech výkupné za ochranu v podobě ovsa a slaniny. Purkmistr vyslal stížnost zemskému hejtmanovi.",
-      "text_en": "From Hranice: A group of Bohemian mercenaries has pitched camp just a mile from the town walls. They are extorting protection money from villagers in the form of oats and bacon. The burgomaster has sent a complaint to the provincial captain.",
-      "type": "B",
-      "icon": "⛺",
-      "source": "local_events",
-      "tick": 268,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
+      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 277,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
     {
       "text": "V pondělí večer vypukl požár v kovářské dílně mistra Hanuše v Bruntále. Oheň zničil dílnu a dvě sousední stodoly, než jej měšťané uhasili vodou z kašen. Mistr Hanuš vyvázl s popáleninami rukou.",
       "text_cs": "V pondělí večer vypukl požár v kovářské dílně mistra Hanuše v Bruntále. Oheň zničil dílnu a dvě sousední stodoly, než jej měšťané uhasili vodou z kašen. Mistr Hanuš vyvázl s popáleninami rukou.",
@@ -2212,21 +2224,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 31
-    },
-    {
-      "text": "Z Fulneku: Cech kovářů vydal nová pravidla. Žádný tovaryš nesmí opustit město bez souhlasu mistra pod pokutou jednoho florénu. Mistři si stěžují, že mladí raději utíkají hledat lepší výdělek na jih.",
-      "text_cs": "Z Fulneku: Cech kovářů vydal nová pravidla. Žádný tovaryš nesmí opustit město bez souhlasu mistra pod pokutou jednoho florénu. Mistři si stěžují, že mladí raději utíkají hledat lepší výdělek na jih.",
-      "text_en": "From Fulnek: The blacksmiths' guild issued new rules. No journeyman may leave the town without the master's consent under penalty of one florin. Masters complain that the young prefer to flee south in search of better pay.",
-      "type": "C",
-      "icon": "🔨",
-      "source": "local_events",
-      "tick": 271,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 31
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 277,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 33
+    },
     {
       "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
       "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
@@ -2331,18 +2343,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 263,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 28
-    },
-    {
-      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 262,
       "year": 1465,
       "season": "Podzim",
       "day": 28
