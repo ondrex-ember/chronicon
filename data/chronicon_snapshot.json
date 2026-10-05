@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-04T19:22:27.574Z",
-  "valid_until": "2026-10-11T19:22:27.574Z",
+  "generated": "2026-10-05T00:37:23.544Z",
+  "valid_until": "2026-10-12T00:37:23.544Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 4,
+    "tempC": 12,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 34,
-    "total_tick": 282,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 34"
+    "day": 35,
+    "total_tick": 283,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 35"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 88,
-      "mood": 78,
+      "wealth": 89,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 94,
+      "wealth": 99,
+      "mood": 91,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 90,
+      "wealth": 96,
+      "mood": 87,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 92,
+      "mood": 89,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 96,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 95,
+      "mood": 93,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 85,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 91,
+      "mood": 89,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +330,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 81,
       "stores": 2,
       "status": "stable",
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 93,
+      "wealth": 92,
       "mood": 70,
       "stores": 13,
       "status": "stable",
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 283,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 35
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 283,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 35
+    },
+    {
       "text": "Volební sněm v Kutné Hoře drtivou většinou hlasů zvolil za nového českého krále Vladislava Jagellonského. Polský princ přislíbil dodržovat kompaktáta a chránit zemi před nepřáteli. Uherský vzdorokrál zuří a dožaduje se svých nároků za pomoci papežských legátů.",
       "text_cs": "Volební sněm v Kutné Hoře drtivou většinou hlasů zvolil za nového českého krále Vladislava Jagellonského. Polský princ přislíbil dodržovat kompaktáta a chránit zemi před nepřáteli. Uherský vzdorokrál zuří a dožaduje se svých nároků za pomoci papežských legátů.",
       "text_en": "The electoral diet in Kutná Hora elected Vladislaus Jagiellon as the new Czech king by an overwhelming majority. The Polish prince promised to uphold the Compactata and protect the land from enemies. The Hungarian anti-king is furious and demands his claims with the help of papal legates.",
@@ -2083,33 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 32
-    },
-    {
-      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
-      "type": "A",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 274,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 32
-    },
-    {
-      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
-      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
-      "type": "D",
-      "icon": "🧱",
-      "source": "local_events",
-      "tick": 274,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 32
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 283,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 35
+    },
     {
       "text": "Volební sněm v Kutné Hoře drtivou většinou hlasů zvolil za nového českého krále Vladislava Jagellonského. Polský princ přislíbil dodržovat kompaktáta a chránit zemi před nepřáteli. Uherský vzdorokrál zuří a dožaduje se svých nároků za pomoci papežských legátů.",
       "text_cs": "Volební sněm v Kutné Hoře drtivou většinou hlasů zvolil za nového českého krále Vladislava Jagellonského. Polský princ přislíbil dodržovat kompaktáta a chránit zemi před nepřáteli. Uherský vzdorokrál zuří a dožaduje se svých nároků za pomoci papežských legátů.",
@@ -2217,21 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 33
-    },
-    {
-      "text": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_cs": "Ze zápisků farního kněze: Sousedka Dorota porodila dvojčata, obě holky. Manžel byl zklamaný, ale víno ho rychle rozveselilo. Zahrada prospívá. Sluha od Novotných ukradl slaninu a byl přistižen na místě činu.",
-      "text_en": "From the parish priest's notes: Neighbor Dorota gave birth to twins, both girls. The husband was disappointed, but wine soon cheered him up. The garden is doing well. The servant from the Novotný household stole bacon and was caught in the act.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 277,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 283,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 35
+    },
     {
       "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
       "text_cs": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
@@ -2339,22 +2351,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 30
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 268,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 30
     }
   ],
   "church_calendar": {
-    "day_of_year": 214,
+    "day_of_year": 215,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
