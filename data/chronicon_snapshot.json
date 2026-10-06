@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-06T11:08:28.874Z",
-  "valid_until": "2026-10-13T11:08:28.874Z",
+  "generated": "2026-10-06T20:51:59.943Z",
+  "valid_until": "2026-10-13T20:51:59.943Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,7 +67,7 @@
     "name": "Zlaté babí léto",
     "icon": "🍂",
     "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 18,
+    "tempC": 15,
     "windKmH": 2,
     "rainMm": 0,
     "season": 2,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 36,
-    "total_tick": 286,
+    "total_tick": 287,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 36"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 88,
-      "mood": 80,
+      "wealth": 87,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 86,
+      "mood": 83,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
-      "mood": 84,
+      "wealth": 97,
+      "mood": 82,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 86,
+      "mood": 87,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 87,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 81,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 72,
       "stores": 13,
       "status": "stable",
@@ -1869,6 +1869,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
@@ -2071,45 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 33
-    },
-    {
-      "text": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_cs": "Jiskra z kovářské výhně zapálila doškovou střechu na předměstí. Během hodiny lehlo popelem šest stavení chudiny. Purkmistr nařídil strhnout sousední chlévy, aby se oheň dál nešířil.",
-      "text_en": "A spark from a blacksmith's forge ignited a thatched roof in the suburbs. Within an hour, six poor dwellings were reduced to ashes. The burgomaster ordered the neighboring cowsheds torn down to prevent the fire from spreading further.",
-      "type": "D",
-      "icon": "🛖",
-      "source": "local_events",
-      "tick": 279,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
-    },
-    {
-      "text": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
-      "text_cs": "Mnich ze Zbraslavi zapsal: Posel královský jel přes zdejší kraje k pánům moravským, kůň jeho znaven, sám mlčenlivý. Co nesl za zprávu, nepravil, jen vodu si vyžádal a jel dál.",
-      "text_en": "A monk from Zbraslav wrote: a royal messenger rode through these parts toward the Moravian lords, his horse wearied, himself silent. What tidings he bore he said not, only asked for water and rode on.",
-      "type": "A",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 278,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
-    },
-    {
-      "text": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_cs": "Z Bruntálu hlásí: Mezi panskými koňmi propukla záhadná nemoc, po které zvířata slepnou a padají v křečích. Místní kovář podezřívá ze zákeřné otravy potulné šarlatány, kteří nedávno projeli městem.",
-      "text_en": "Reports from Bruntál: A mysterious illness has broken out among the lord's horses, causing the animals to go blind and fall in spasms. The local blacksmith suspects deliberate poisoning by wandering charlatans who recently passed through the town.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 278,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
     {
       "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
       "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
@@ -2205,33 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 34
-    },
-    {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 281,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    },
-    {
-      "text": "Jiskra odlétnuvší z kovářské výhně zapálila suchou doškovou střechu a oheň se rychle rozšířil na okolní domy. Měšťané bojovali s plameny pomocí kožených věder několik hodin, přesto popelem lehly tři rodinné usedlosti. Rodina kováře musela před rozzuřeným davem uprchnout z města.",
-      "text_cs": "Jiskra odlétnuvší z kovářské výhně zapálila suchou doškovou střechu a oheň se rychle rozšířil na okolní domy. Měšťané bojovali s plameny pomocí kožených věder několik hodin, přesto popelem lehly tři rodinné usedlosti. Rodina kováře musela před rozzuřeným davem uprchnout z města.",
-      "text_en": "A spark flying from a blacksmith's forge ignited a dry thatched roof, and the fire quickly spread to surrounding houses. Burghers fought the flames with leather buckets for several hours, yet three family homesteads burned to ashes. The blacksmith's family had to flee the town from an angry mob.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 280,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
+      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
+      "type": "C",
+      "icon": "👑",
+      "source": "distant_events",
+      "tick": 287,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
     {
       "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
       "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
@@ -2339,18 +2351,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 33
-    },
-    {
-      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
-      "type": "A",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 274,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 32
     }
   ],
   "church_calendar": {
