@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-05T22:26:09.149Z",
-  "valid_until": "2026-10-12T22:26:09.149Z",
+  "generated": "2026-10-06T11:08:28.874Z",
+  "valid_until": "2026-10-13T11:08:28.874Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 4,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 18,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 36,
-    "total_tick": 285,
+    "total_tick": 286,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 36"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 89,
-      "mood": 81,
+      "wealth": 88,
+      "mood": 80,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 89,
+      "wealth": 100,
+      "mood": 86,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 96,
-      "mood": 86,
+      "mood": 84,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 87,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 90,
+      "wealth": 99,
+      "mood": 87,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 90,
+      "wealth": 98,
+      "mood": 89,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 82,
+      "wealth": 98,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 89,
+      "mood": 87,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 80,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 93,
-      "mood": 70,
+      "wealth": 94,
+      "mood": 72,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 286,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 286,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
+    {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
@@ -2083,33 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 33
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 278,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
-    },
-    {
-      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
-      "type": "B",
-      "icon": "📯",
-      "source": "distant_events",
-      "tick": 277,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
+      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
+      "type": "D",
+      "icon": "🔗",
+      "source": "monastery_internal",
+      "tick": 286,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
     {
       "text": "Zápis koronera: Bohatý pláteník Matěj pořádal hostinu a nešťastně se udávil ostrou husí kostí. Přivolaný lazebník mu již nedokázal pomoci a muž se udusil. Rodina ihned začala dělit jeho obrovský majetek.",
       "text_cs": "Zápis koronera: Bohatý pláteník Matěj pořádal hostinu a nešťastně se udávil ostrou husí kostí. Přivolaný lazebník mu již nedokázal pomoci a muž se udusil. Rodina ihned začala dělit jeho obrovský majetek.",
@@ -2217,21 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 34
-    },
-    {
-      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_en": "From the annals: Bishop John of Dražice, twenty-seventh on the see of Prague, died after founding a monastery, a hospital and a stone bridge at Roudnice, and having a silver tomb wrought for St Adalbert. Brother prior adds: bishops are judged by the stone they leave behind.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 280,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
+      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 286,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 36
+    },
     {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
@@ -2336,18 +2348,6 @@
       "icon": "✉️",
       "source": "distant_events",
       "tick": 274,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 32
-    },
-    {
-      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
-      "type": "D",
-      "icon": "🥷",
-      "source": "distant_events",
-      "tick": 273,
       "year": 1465,
       "season": "Podzim",
       "day": 32
