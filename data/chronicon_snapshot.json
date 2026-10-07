@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-07T10:57:00.434Z",
-  "valid_until": "2026-10-14T10:57:00.434Z",
+  "generated": "2026-10-07T21:08:54.816Z",
+  "valid_until": "2026-10-14T21:08:54.816Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 2,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 14,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 37,
-    "total_tick": 289,
+    "total_tick": 290,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 37"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 88,
-      "mood": 76,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 79,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 79,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 81,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 97,
-      "mood": 85,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -238,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 87,
       "stores": 6,
       "status": "prosperujici",
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 80,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -286,7 +286,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 80,
       "stores": 3,
       "status": "stable",
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 84,
+      "mood": 82,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 80,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1873,6 +1873,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
+      "type": "B",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 290,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
+      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
+      "type": "B",
+      "icon": "🦴",
+      "source": "local_events",
+      "tick": 290,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 290,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
       "text": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
       "text_cs": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
       "text_en": "From the Mohelnice market: A group of butchers arrived in town offering first-class cowhides. Local parchment-makers and tanners quickly bought up the hides, promising a rich winter for shoemakers and scriptoria.",
@@ -2075,6 +2111,20 @@
       "year": 1465,
       "season": "Podzim",
       "day": 34
+    }
+  ],
+  "chronicle_local": [
+    {
+      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
+      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
+      "type": "B",
+      "icon": "🦴",
+      "source": "local_events",
+      "tick": 290,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
     },
     {
       "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
@@ -2083,37 +2133,11 @@
       "type": "A",
       "icon": "⚖️",
       "source": "monastery_internal",
-      "tick": 282,
+      "tick": 290,
       "year": 1465,
       "season": "Podzim",
-      "day": 34
+      "day": 37
     },
-    {
-      "text": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_cs": "Z českých zemí: Stařena jedna na poutním místě řekla, že nejvzácnější věcí, jakou poznala, jest klid. Po patnácti letech zbraní prý i ticho zní jako zázrak. Mladí tomu nerozumí, staří mlčky přikyvují.",
-      "text_en": "From the Bohemian lands: a certain old woman at a place of pilgrimage said that the most precious thing she hath known is quiet. After fifteen years of arms, even silence, it is said, soundeth like a marvel. The young understand it not; the old nod in silence.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 281,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    },
-    {
-      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 281,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    }
-  ],
-  "chronicle_local": [
     {
       "text": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
       "text_cs": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
@@ -2209,33 +2233,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
-      "source": "monastery_internal",
-      "tick": 285,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
-    },
-    {
-      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 284,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
+      "type": "B",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 290,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
     {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
@@ -2340,18 +2352,6 @@
       "icon": "📯",
       "source": "distant_events",
       "tick": 277,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
-    },
-    {
-      "text": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_cs": "Z Prahy: V kostelích staroměstských se zvoní déle než obvykle, kněží lid k modlitbám za mír v zemi svolávajíce. Lidé chodí ochotně, neb úzkost z budoucnosti v srdcích nosí.",
-      "text_en": "From Prague: the bells of the Old Town churches ring longer than is custom, the priests calling the people to prayer for peace in the land. People come willingly, for they bear in their hearts an anxious dread of what is to come.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "distant_events",
-      "tick": 276,
       "year": 1465,
       "season": "Podzim",
       "day": 33
