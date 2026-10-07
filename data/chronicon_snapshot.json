@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-06T20:51:59.943Z",
-  "valid_until": "2026-10-13T20:51:59.943Z",
+  "generated": "2026-10-07T01:19:49.224Z",
+  "valid_until": "2026-10-14T01:19:49.224Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 15,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 12,
     "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 36,
-    "total_tick": 287,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 36"
+    "day": 37,
+    "total_tick": 288,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 37"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 87,
-      "mood": 79,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 83,
+      "mood": 82,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 82,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 87,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 84,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 89,
       "stores": 6,
       "status": "prosperujici",
@@ -258,7 +262,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 79,
       "stores": 2,
       "status": "stable",
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 87,
+      "mood": 84,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 81,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 93,
-      "mood": 72,
+      "wealth": 94,
+      "mood": 74,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1873,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 288,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
+      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
+      "type": "B",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 288,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
@@ -2083,33 +2111,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 34
-    },
-    {
-      "text": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_cs": "Z análů: biskup Jan z Dražic, sedmadvacátý na pražském stolci, zemřel poté, co založil klášter, špitál i kamenný most v Roudnici a dal zhotovit stříbrný náhrobek svatému Vojtěchovi. Bratr převor dodává: biskupy soudí kámen, který po nich zůstal.",
-      "text_en": "From the annals: Bishop John of Dražice, twenty-seventh on the see of Prague, died after founding a monastery, a hospital and a stone bridge at Roudnice, and having a silver tomb wrought for St Adalbert. Brother prior adds: bishops are judged by the stone they leave behind.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 280,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    },
-    {
-      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
-      "type": "B",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 279,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
+      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 288,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
+    {
+      "text": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_cs": "Bratr lektor dnes četl o muži, jenž se styděl vyznat starý hřích. I zjevil se mu ďábel v kněžském rouše a uložil mu pokání podivné: aby se z toho hříchu už nikdy nezpovídal. Na smrtelném loži se pak andělé přeli s ďábly o jeho duši. Bratři u stolu ani nedýchali.",
+      "text_en": "Brother lector read today of a man ashamed to confess an old sin. The devil appeared to him in a priest's robes and set him a strange penance: never to confess that sin again. On his deathbed, angels and devils quarrelled over his soul. The brothers at table scarcely breathed.",
+      "type": "B",
+      "icon": "📖",
+      "source": "monastery_internal",
+      "tick": 288,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 37
+    },
     {
       "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
       "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
@@ -2202,30 +2230,6 @@
       "icon": "👑",
       "source": "local_events",
       "tick": 282,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 282,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 34
-    },
-    {
-      "text": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_cs": "Výběrčí mýta odhalili polského vozku, který se pokusil propašovat soudky se solí maskované pod vrstvou shnilé slámy. Náklad byl okamžitě zkonfiskován a vozka byl vsazen do městského pranýře. Pašeráctví na obchodních stezkách kvůli vysokým daním neustále roste.",
-      "text_en": "Toll collectors discovered a Polish carter attempting to smuggle kegs of salt disguised under a layer of rotten straw. The cargo was immediately confiscated, and the carter was put in the town pillory. Smuggling on the trade routes continues to grow due to high taxes.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 281,
       "year": 1465,
       "season": "Podzim",
       "day": 34
@@ -2354,7 +2358,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 216,
+    "day_of_year": 217,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
