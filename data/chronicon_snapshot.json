@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-08T11:14:10.199Z",
-  "valid_until": "2026-10-15T11:14:10.199Z",
+  "generated": "2026-10-08T21:12:02.423Z",
+  "valid_until": "2026-10-15T21:12:02.423Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 19,
-    "windKmH": 7,
+    "tempC": 12,
+    "windKmH": 13,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 38,
-    "total_tick": 292,
+    "total_tick": 293,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 38"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 88,
-      "mood": 74,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 79,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 85,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 96,
-      "mood": 79,
+      "mood": 80,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 82,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +330,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 80,
       "stores": 2,
       "status": "stable",
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 293,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
+    {
+      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
+      "type": "D",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 293,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
+    {
       "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
@@ -2083,33 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 35
-    },
-    {
-      "text": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_cs": "Z pohraničních hor pronikají zkazky o nové sektě, jež se usadila ve vsi Kunvald. Říkají si Jednota bratrská a jejich prvním knězem se stal jistý Michal ze Žamberka. Většinu těchto blouznivců tvoří prostí sedláci a řemeslníci, kteří se odtrhli od obou hlavních církví.",
-      "text_en": "Rumors of a new sect that has settled in the village of Kunvald are spreading from the border mountains. They call themselves the Unity of the Brethren, and a certain Michal of Žamberk has become their first priest. Most of these dreamers are simple peasants and craftsmen who have broken away from both main churches.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 284,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 283,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
+      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
+      "type": "D",
+      "icon": "🌲",
+      "source": "local_events",
+      "tick": 293,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
     {
       "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
@@ -2217,21 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "monastery_internal",
-      "tick": 287,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 293,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
     {
       "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
@@ -2336,18 +2348,6 @@
       "icon": "🐎",
       "source": "distant_events",
       "tick": 278,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 33
-    },
-    {
-      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
-      "type": "B",
-      "icon": "📯",
-      "source": "distant_events",
-      "tick": 277,
       "year": 1465,
       "season": "Podzim",
       "day": 33
