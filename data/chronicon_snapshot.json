@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-08T01:40:27.721Z",
-  "valid_until": "2026-10-15T01:40:27.721Z",
+  "generated": "2026-10-08T11:14:10.199Z",
+  "valid_until": "2026-10-15T11:14:10.199Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 2,
+    "tempC": 19,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 38,
-    "total_tick": 291,
+    "total_tick": 292,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 38"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
-      "mood": 76,
+      "wealth": 88,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 81,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 79,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 81,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 87,
+      "mood": 86,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 76,
       "stores": 2,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 80,
+      "wealth": 96,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 92,
-      "mood": 76,
+      "wealth": 93,
+      "mood": 75,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,18 @@
   ],
   "chronicle": [
     {
+      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 292,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
+    {
       "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
       "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
       "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
@@ -2095,21 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 35
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 283,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 292,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 38
+    },
     {
       "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
       "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
@@ -2214,18 +2226,6 @@
       "icon": "🐴",
       "source": "monastery_internal",
       "tick": 287,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 286,
       "year": 1465,
       "season": "Podzim",
       "day": 36
