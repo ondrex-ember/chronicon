@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-09T01:53:53.665Z",
-  "valid_until": "2026-10-16T01:53:53.665Z",
+  "generated": "2026-10-09T11:13:13.696Z",
+  "valid_until": "2026-10-16T11:13:13.696Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 13,
+    "tempC": 12,
+    "windKmH": 17,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 39,
-    "total_tick": 294,
+    "total_tick": 295,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 39"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
-      "mood": 70,
+      "wealth": 88,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 75,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -166,7 +166,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 80,
       "stores": 3,
       "status": "stable",
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 79,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 97,
+      "mood": 84,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 79,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -366,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 76,
       "stores": 13,
       "status": "stable",
@@ -1873,6 +1873,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 295,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
+    {
+      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
+      "type": "B",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 295,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
+    {
       "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
       "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
       "text_en": "From the Old Czech Chronicles: King George personally rode at the head of his mercenaries to meet the army of the League of Zelená Hora, which had fortified the crossings of the Sázava River. It is said that his presence in the saddle caused many nobles to turn back without a fight. The lord of Poděbrady has not yet forgotten how to rule by the sword.",
@@ -2087,33 +2111,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 286,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
-    },
-    {
-      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "distant_events",
-      "tick": 285,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
+      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 295,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
+    {
+      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
+      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
+      "type": "B",
+      "icon": "🕯️",
+      "source": "monastery_internal",
+      "tick": 295,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
     {
       "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
       "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
@@ -2206,30 +2230,6 @@
       "icon": "👞",
       "source": "local_events",
       "tick": 289,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_cs": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_en": "Brother librarian recalls from the annals: in 1346, on the twenty-sixth day of November, Charles, Margrave of Moravia, was elected King of the Romans. A margrave of ours — and a king over the Empire. Moravia remembers.",
-      "type": "A",
-      "icon": "👑",
-      "source": "monastery_internal",
-      "tick": 289,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 288,
       "year": 1465,
       "season": "Podzim",
       "day": 37
