@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-09T11:13:13.696Z",
-  "valid_until": "2026-10-16T11:13:13.696Z",
+  "generated": "2026-10-09T20:42:24.939Z",
+  "valid_until": "2026-10-16T20:42:24.939Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
     "tempC": 12,
-    "windKmH": 17,
-    "rainMm": 0,
+    "windKmH": 14,
+    "rainMm": 0.1,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 39,
-    "total_tick": 295,
+    "total_tick": 296,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 39"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 88,
-      "mood": 72,
+      "wealth": 87,
+      "mood": 71,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,7 +118,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 77,
       "stores": 9,
       "status": "prosperujici",
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 74,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 98,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 82,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 84,
+      "mood": 83,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -334,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 95,
-      "mood": 76,
+      "wealth": 94,
+      "mood": 74,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1873,6 +1873,18 @@
   ],
   "chronicle": [
     {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 296,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
+    {
       "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
       "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
       "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
@@ -2099,21 +2111,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 286,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 296,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 39
+    },
     {
       "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
       "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
@@ -2218,18 +2230,6 @@
       "icon": "⚖️",
       "source": "monastery_internal",
       "tick": 290,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
-      "text_cs": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
-      "text_en": "From the Mohelnice market: A group of butchers arrived in town offering first-class cowhides. Local parchment-makers and tanners quickly bought up the hides, promising a rich winter for shoemakers and scriptoria.",
-      "type": "C",
-      "icon": "👞",
-      "source": "local_events",
-      "tick": 289,
       "year": 1465,
       "season": "Podzim",
       "day": 37
