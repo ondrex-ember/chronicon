@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-10T10:30:16.111Z",
-  "valid_until": "2026-10-17T10:30:16.111Z",
+  "generated": "2026-10-10T19:54:57.781Z",
+  "valid_until": "2026-10-17T19:54:57.781Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 13,
-    "windKmH": 8,
-    "rainMm": 0.3,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 11,
+    "windKmH": 7,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 40,
-    "total_tick": 298,
+    "total_tick": 299,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 40"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 87,
-      "mood": 72,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 75,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 76,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 83,
+      "mood": 82,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 78,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
-      "mood": 77,
+      "wealth": 95,
+      "mood": 76,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1869,6 +1869,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
+    {
+      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
+    {
+      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
+      "type": "A",
+      "icon": "🪰",
+      "source": "monastery_internal",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
+    {
       "text": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
       "text_cs": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
       "text_en": "From the trading house in Prato: This year's saffron harvest in Tuscany was good. Wax stocks from Germany are running low — the price is rising. Those who need candles for altars should buy before Advent.",
@@ -2071,45 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 37
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 290,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
-      "text_cs": "Z mohelnického trhu: Do města přijela skupina řezníků s nabídkou prvotřídních hovězích kůží. Místní pergameníci i koželuhové kůže rychle skoupili, což slibuje bohatou zimu pro ševce a skriptoria.",
-      "text_en": "From the Mohelnice market: A group of butchers arrived in town offering first-class cowhides. Local parchment-makers and tanners quickly bought up the hides, promising a rich winter for shoemakers and scriptoria.",
-      "type": "C",
-      "icon": "👞",
-      "source": "local_events",
-      "tick": 289,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_cs": "Bratr knihovník připomíná z análů: Léta 1346, šestadvacátého dne měsíce listopadu, Karel, markrabě moravský, zvolen byl králem římským. Markrabě od nás — a král nad císařstvím. Morava si to pamatuje.",
-      "text_en": "Brother librarian recalls from the annals: in 1346, on the twenty-sixth day of November, Charles, Margrave of Moravia, was elected King of the Romans. A margrave of ours — and a king over the Empire. Moravia remembers.",
-      "type": "A",
-      "icon": "👑",
-      "source": "monastery_internal",
-      "tick": 289,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
+      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
+    {
+      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
+      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
+      "type": "A",
+      "icon": "🪰",
+      "source": "monastery_internal",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
     {
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
@@ -2205,33 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 39
-    },
-    {
-      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
-      "type": "D",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 293,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
-    },
-    {
-      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 292,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
+      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 299,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 40
+    },
     {
       "text": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
       "text_cs": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
@@ -2336,18 +2348,6 @@
       "icon": "🍷",
       "source": "distant_events",
       "tick": 284,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 283,
       "year": 1465,
       "season": "Podzim",
       "day": 35
