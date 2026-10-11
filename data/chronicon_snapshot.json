@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-10T19:54:57.781Z",
-  "valid_until": "2026-10-17T19:54:57.781Z",
+  "generated": "2026-10-11T00:45:15.033Z",
+  "valid_until": "2026-10-18T00:45:15.033Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 7,
+    "tempC": 9,
+    "windKmH": 11,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 40,
-    "total_tick": 299,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 40"
+    "day": 41,
+    "total_tick": 300,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 41"
   },
   "actors": [
     {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 76,
+      "mood": 74,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 73,
+      "mood": 72,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 78,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 82,
+      "mood": 79,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 95,
-      "mood": 76,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 98,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 95,
-      "mood": 71,
+      "wealth": 96,
+      "mood": 70,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
+      "text_cs": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
+      "text_en": "Prince Victorin of Poděbrady marched at the head of a strong royal army toward rebellious Silesia. He managed to recapture Münsterberg and Frankenstein, demonstrating the power of Hussite arms. A part of his troops is now rushing to Moravia to relieve the garrison besieged at Brno's Špilberk.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
@@ -2071,45 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 38
-    },
-    {
-      "text": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_cs": "Posel z Litovle přinesl zprávu: Ondřej Bednář šel v úterý po nešporách z krčmy. Zakopl o prase, jež leželo napříč ulicí, a udeřil hlavou o studniční obrubník. Mrtvolu našla ráno manželka. Prase je zdravé.",
-      "text_en": "A messenger from Litovel brings news: Ondřej the Cooper went drunk from the tavern on Tuesday after vespers. He tripped over a pig lying across the road and struck his head on the well kerb. His wife found the body in the morning. The pig is unharmed.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 291,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
-    },
-    {
-      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
-      "type": "B",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 290,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
-    },
-    {
-      "text": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_cs": "Z Prostějova: Potulný kazatel prodával na náměstí prý zázračné kosti svatých mučedníků. Místní řezník však poznal, že jde o prasečí a kozí kosti vařené v popelu. Kazatel byl bičován a vyhnán.",
-      "text_en": "From Prostějov: A wandering preacher was selling supposedly miraculous bones of holy martyrs in the square. However, a local butcher recognized them as pig and goat bones boiled in ash. The preacher was flogged and banished.",
-      "type": "B",
-      "icon": "🦴",
-      "source": "local_events",
-      "tick": 290,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
+      "text_cs": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
+      "text_en": "Prince Victorin of Poděbrady marched at the head of a strong royal army toward rebellious Silesia. He managed to recapture Münsterberg and Frankenstein, demonstrating the power of Hussite arms. A part of his troops is now rushing to Moravia to relieve the garrison besieged at Brno's Špilberk.",
+      "type": "A",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
+      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
+      "type": "D",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
     {
       "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
       "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
@@ -2205,33 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 39
-    },
-    {
-      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
-      "type": "B",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 294,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 294,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
+      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
+      "type": "A",
+      "icon": "📚",
+      "source": "distant_events",
+      "tick": 300,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -2339,22 +2351,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
-      "type": "E",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 284,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 35
     }
   ],
   "church_calendar": {
-    "day_of_year": 220,
+    "day_of_year": 221,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
