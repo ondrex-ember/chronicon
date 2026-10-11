@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-11T00:45:15.033Z",
-  "valid_until": "2026-10-18T00:45:15.033Z",
+  "generated": "2026-10-11T10:42:24.578Z",
+  "valid_until": "2026-10-18T10:42:24.578Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 11,
+    "tempC": 13,
+    "windKmH": 14,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 41,
-    "total_tick": 300,
+    "total_tick": 301,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 41"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 87,
-      "mood": 74,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 74,
+      "mood": 72,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 72,
+      "wealth": 98,
+      "mood": 71,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 79,
       "stores": 6,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 77,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 95,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 77,
+      "mood": 76,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 96,
-      "mood": 70,
+      "mood": 69,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 301,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
+      "text_cs": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
+      "text_en": "Reports from Tovačov: The autumn harvest of the lord's ponds was immensely rich. Nets burst under the weight of fat carp and pike. Salted and smoked fish are now sold at a fraction of the usual price throughout Moravia.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "local_events",
+      "tick": 301,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
       "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
@@ -2083,33 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 38
-    },
-    {
-      "text": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_cs": "Zápis koronera: Zkušený dřevorubec neodhadl směr pádu káceného buku. Mohutný kmen se zřítil přímo na něj a na místě ho rozdrtil. Pozůstalá rodina ztratila jediného živitele.",
-      "text_en": "Coroner's record: An experienced woodcutter misjudged the falling direction of a felled beech. The massive trunk crashed directly onto him, crushing him on the spot. The surviving family lost their sole breadwinner.",
-      "type": "D",
-      "icon": "🌲",
-      "source": "local_events",
-      "tick": 293,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
-    },
-    {
-      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 292,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
+      "text_cs": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
+      "text_en": "Reports from Tovačov: The autumn harvest of the lord's ponds was immensely rich. Nets burst under the weight of fat carp and pike. Salted and smoked fish are now sold at a fraction of the usual price throughout Moravia.",
+      "type": "E",
+      "icon": "🐟",
+      "source": "local_events",
+      "tick": 301,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
     {
       "text": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
       "text_cs": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
@@ -2217,21 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 39
-    },
-    {
-      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
-      "type": "B",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 295,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
+      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
+      "type": "A",
+      "icon": "🍞",
+      "source": "distant_events",
+      "tick": 301,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
     {
       "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
       "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
@@ -2336,18 +2348,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 286,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
-    },
-    {
-      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
-      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "distant_events",
-      "tick": 285,
       "year": 1465,
       "season": "Podzim",
       "day": 36
