@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-11T10:42:24.578Z",
-  "valid_until": "2026-10-18T10:42:24.578Z",
+  "generated": "2026-10-11T20:05:57.973Z",
+  "valid_until": "2026-10-18T20:05:57.973Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 14,
+    "tempC": 9,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 41,
-    "total_tick": 301,
+    "total_tick": 302,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 41"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
+      "wealth": 88,
       "mood": 76,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 72,
+      "mood": 74,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 78,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 79,
+      "mood": 78,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 75,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 96,
-      "mood": 69,
+      "wealth": 95,
+      "mood": 67,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
+      "text_cs": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
+      "text_en": "Unheard-of sacrilege reported from Fulnek: A group of craftsmen broke into the belfry at night, took down the smaller bronze bell, and carted it away. They likely plan to melt it down and sell the metal to Hungary.",
+      "type": "B",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 302,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 302,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
@@ -2083,33 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 39
-    },
-    {
-      "text": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_cs": "Bratr sklepmistr i kuchmistr stáli před opatem kvůli chybějícímu vínu. Opat je vyslechl a přikázal jim společně umýt dvůr. Konflikt sice není vyřešen, ale dvůr je čistý. Protokolární vítězství.",
-      "text_en": "Both the cellarer and the cook stood before the abbot regarding the missing wine. The abbot heard them out and ordered them to wash the courtyard together. The conflict is not resolved, but the courtyard is clean. A protocol victory.",
-      "type": "C",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 294,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
-      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
-      "type": "A",
-      "icon": "🐟",
-      "source": "distant_events",
-      "tick": 293,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 38
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
+      "text_cs": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
+      "text_en": "Unheard-of sacrilege reported from Fulnek: A group of craftsmen broke into the belfry at night, took down the smaller bronze bell, and carted it away. They likely plan to melt it down and sell the metal to Hungary.",
+      "type": "B",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 302,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 302,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 41
+    },
     {
       "text": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
       "text_cs": "Z Tovačova hlásí: Podzimní výlov panských rybníků byl nesmírně bohatý. Sítě praskaly pod tíhou vypasených kaprů a štik. Slané a uzené ryby se nyní prodávají za zlomek běžné ceny po celé Moravě.",
@@ -2205,30 +2229,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 40
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 296,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 295,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
     }
   ],
   "chronicle_distant": [
