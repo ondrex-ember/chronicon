@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-12T01:06:13.369Z",
-  "valid_until": "2026-10-19T01:06:13.369Z",
+  "generated": "2026-10-12T11:47:34.512Z",
+  "valid_until": "2026-10-19T11:47:34.512Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 12,
+    "tempC": 13,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 42,
-    "total_tick": 303,
+    "total_tick": 304,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 42"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 89,
-      "mood": 76,
+      "wealth": 88,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 75,
+      "mood": 74,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 98,
+      "mood": 71,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 72,
+      "wealth": 99,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 81,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 100,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 78,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 95,
-      "mood": 75,
+      "wealth": 96,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 96,
-      "mood": 69,
+      "mood": 70,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 304,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 304,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
@@ -2083,33 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 40
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 296,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_cs": "Ze severu od Hranic: Na moravsko-uherské hranici se pohybují ozbrojenci bez znaků. Nevíme čí jsou. Vesnice u Lipníku se stahují za hradby. Naši bratři v tamním klášteře prosí o modlitby.",
-      "text_en": "From north of Hranice: Armed men without insignia are moving on the Moravian-Hungarian border. We do not know whose they are. Villages near Lipník are withdrawing behind the walls. Our brothers in the local monastery ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 295,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 304,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 304,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
     {
       "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
       "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
@@ -2202,30 +2226,6 @@
       "icon": "🤝",
       "source": "local_events",
       "tick": 299,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_cs": "Převor zapsal: Horka přinesla do pivovaru a sýrárny oblaka much. Bratr sýrař hlásil, že musel vyhodit tři bochníky, do nichž se pustili červi. Opat nařídil vyvěsit do oken svazky vratiče a levandule.",
-      "text_en": "The prior wrote: The heat has brought clouds of flies to the brewery and dairy. Brother the cheesemaker reported he had to throw out three loaves into which worms had gotten. The abbot ordered bunches of tansy and lavender hung in the windows.",
-      "type": "A",
-      "icon": "🪰",
-      "source": "monastery_internal",
-      "tick": 299,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 298,
       "year": 1465,
       "season": "Podzim",
       "day": 40
