@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-11T20:05:57.973Z",
-  "valid_until": "2026-10-18T20:05:57.973Z",
+  "generated": "2026-10-12T01:06:13.369Z",
+  "valid_until": "2026-10-19T01:06:13.369Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 9,
+    "tempC": 8,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 41,
-    "total_tick": 302,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 41"
+    "day": 42,
+    "total_tick": 303,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 42"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 88,
+      "wealth": 89,
       "mood": 76,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 74,
+      "mood": 75,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 71,
+      "wealth": 99,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 100,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 79,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 80,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 97,
-      "mood": 78,
+      "mood": 77,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 77,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 95,
-      "mood": 67,
+      "wealth": 96,
+      "mood": 69,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
+      "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_en": "This year's grape harvest around Tovačov was exceptionally successful. Sweet wine flows freely, and cellar masters lack enough barrels. The local lord ordered three days of celebrations for all serfs on the estate.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
       "text": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
       "text_cs": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
       "text_en": "Unheard-of sacrilege reported from Fulnek: A group of craftsmen broke into the belfry at night, took down the smaller bronze bell, and carted it away. They likely plan to melt it down and sell the metal to Hungary.",
@@ -2071,45 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 39
-    },
-    {
-      "text": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_cs": "Z knihy exempel: panně bylo dáno vidění mše, při níž sám Kristus četl čtení a svatý Jan jáhnoval. Anděl jí dal svíci; když se vracela k tělu, zlomil ji vpůli — a tu půlku svíce pak nalezla v sevřené dlani. Uzdravovala prý nemocné. Bratr sakristán od té doby počítá naše svíce dvakrát.",
-      "text_en": "From the book of exempla: a maiden was granted a vision of a mass at which Christ himself read the lesson and St John served as deacon. An angel gave her a candle; on her return to her body he broke it in half — and that half she found clasped in her hand. It healed the sick, they say. Brother sacristan has counted our candles twice ever since.",
-      "type": "B",
-      "icon": "🕯️",
-      "source": "monastery_internal",
-      "tick": 295,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
-      "text_cs": "Ze staročeských letopisů: Král Jiří osobně vyrazil v čelo svých žoldnéřů vstříc vojsku Zelenohorské ligy, která opevnila přechody přes Sázavu. Říká se, že jeho přítomnost v sedle způsobila, že mnozí šlechtici se obrátili zpět bez boje. Pán na Poděbradech dosud nezapomněl, jak se vládne mečem.",
-      "text_en": "From the Old Czech Chronicles: King George personally rode at the head of his mercenaries to meet the army of the League of Zelená Hora, which had fortified the crossings of the Sázava River. It is said that his presence in the saddle caused many nobles to turn back without a fight. The lord of Poděbrady has not yet forgotten how to rule by the sword.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 294,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
-    },
-    {
-      "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
-      "text_en": "A stabbed smuggler of Austrian wine was found in a dark alley near the town walls. Guards also found a broken barrel of red wine nearby, which stained the cobblestones blood-red. It is expected to be a settling of scores between thieving gangs that evade paying duties.",
-      "type": "B",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 294,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 39
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_en": "This year's grape harvest around Tovačov was exceptionally successful. Sweet wine flows freely, and cellar masters lack enough barrels. The local lord ordered three days of celebrations for all serfs on the estate.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
     {
       "text": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
       "text_cs": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
@@ -2205,33 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 40
-    },
-    {
-      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 297,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_cs": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_en": "Due to today's fog, my set-aside sheet got damp, and the ink is bleeding. I will have to trim the quill to make the line sharper. A scribe's life is a battle with humidity, blunt pens, and one's own inattention.",
-      "type": "B",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 297,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
+      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 303,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 42
+    },
     {
       "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
       "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
@@ -2339,22 +2351,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 36
-    },
-    {
-      "text": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_cs": "Léta téhož král uherský s velikým vojskem cizozemcóv přitrhl před Prahu a oblehl ji a ležal na Hradě pražském a za Hradem na Brusce u Obory.",
-      "text_en": "That year the Hungarian king with a great host of foreigners marched before Prague, besieged it, and lay at the Castle and beyond it at Bruska by the Game Park.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 286,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
     }
   ],
   "church_calendar": {
-    "day_of_year": 221,
+    "day_of_year": 222,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
