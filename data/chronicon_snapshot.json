@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-12T11:47:34.512Z",
-  "valid_until": "2026-10-19T11:47:34.512Z",
+  "generated": "2026-10-12T22:49:35.058Z",
+  "valid_until": "2026-10-19T22:49:35.058Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 8,
+    "tempC": 6,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 42,
-    "total_tick": 304,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 42"
+    "day": 43,
+    "total_tick": 305,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 43"
   },
   "actors": [
     {
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 88,
-      "mood": 75,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 74,
       "stores": 9,
       "status": "prosperujici",
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 71,
+      "wealth": 99,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 73,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 97,
+      "mood": 79,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 96,
-      "mood": 73,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 77,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -1869,6 +1869,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
+      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
+      "type": "D",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
       "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
       "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
       "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
@@ -2071,45 +2107,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 40
-    },
-    {
-      "text": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_cs": "Z Prahy, paměť stará: Vypravuje se, jak dav za kazatelem jedním z oken radnice konšely vyházel, na kopí dole čekající. Od onoho dne prý žádné okno na radnici novoměstské nehledí na náměstí klidně.",
-      "text_en": "From Prague, an old memory: it is told how a mob, following a certain preacher, cast the councillors from the windows of the town hall, upon the pikes waiting below. Since that day, it is said, no window of the New Town hall looketh upon the square in peace.",
-      "type": "B",
-      "icon": "🪟",
-      "source": "distant_events",
-      "tick": 297,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 297,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_cs": "Kvůli dnešní mlze mi namokl odložený arch a inkoust se rozpíjí. Budu muset seříznout brk, abych udělal linku ostřejší. Život písaře je boj s vlhkostí, tupými pery a vlastní nepozorností.",
-      "text_en": "Due to today's fog, my set-aside sheet got damp, and the ink is bleeding. I will have to trim the quill to make the line sharper. A scribe's life is a battle with humidity, blunt pens, and one's own inattention.",
-      "type": "B",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 297,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
+      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
+      "type": "D",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
     {
       "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
       "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
@@ -2205,33 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 41
-    },
-    {
-      "text": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
-      "text_cs": "Skriptor zapsal: V knihovně chybí dodnes díla, jež za válek husitských shořela nebo byla uloupena. Prázdná místa na poličkách bratr knihovník značí štítky s nápisem: Ztraceno léta Páně, bez data.",
-      "text_en": "The scriptor wrote: the library still lacketh works that burned or were carried off during the Hussite wars. The empty places upon the shelves the brother librarian marketh with tags reading: Lost in the year of our Lord, no date given.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 300,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 41
-    },
-    {
-      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 299,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
+      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 305,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
     {
       "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
       "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
@@ -2339,22 +2351,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 37
-    },
-    {
-      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 287,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 36
     }
   ],
   "church_calendar": {
-    "day_of_year": 222,
+    "day_of_year": 223,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
