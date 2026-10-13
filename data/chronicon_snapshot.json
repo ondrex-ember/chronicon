@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-12T22:49:35.058Z",
-  "valid_until": "2026-10-19T22:49:35.058Z",
+  "generated": "2026-10-13T11:35:25.863Z",
+  "valid_until": "2026-10-20T11:35:25.863Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 6,
-    "windKmH": 3,
+    "tempC": 13,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 43,
-    "total_tick": 305,
+    "total_tick": 306,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 43"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 74,
+      "mood": 76,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 73,
       "stores": 4,
       "status": "prosperujici",
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 100,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 79,
       "stores": 6,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 78,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 96,
-      "mood": 72,
+      "mood": 70,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 73,
       "stores": 4,
       "status": "prosperujici",
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 96,
-      "mood": 70,
+      "wealth": 95,
+      "mood": 69,
       "stores": 13,
       "status": "stable",
       "relations": {
@@ -1869,6 +1869,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 306,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 306,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
+    {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
@@ -2083,33 +2107,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 40
-    },
-    {
-      "text": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
-      "text_cs": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
-      "text_en": "From the trading house in Prato: This year's saffron harvest in Tuscany was good. Wax stocks from Germany are running low — the price is rising. Those who need candles for altars should buy before Advent.",
-      "type": "A",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 298,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 298,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 306,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
     {
       "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
       "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
@@ -2217,21 +2229,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 41
-    },
-    {
-      "text": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
-      "text_cs": "Kníže Viktorin z Poděbrad vytáhl v čele silného královského vojska směrem do vzpurného Slezska. Podařilo se mu dobýt zpět Münsterberk i Frankenštejn a ukázat sílu husitských zbraní. Část jeho oddílů nyní spěchá na Moravu, aby ulevila posádce obléhané na brněnském Špilberku.",
-      "text_en": "Prince Victorin of Poděbrady marched at the head of a strong royal army toward rebellious Silesia. He managed to recapture Münsterberg and Frankenstein, demonstrating the power of Hussite arms. A part of his troops is now rushing to Moravia to relieve the garrison besieged at Brno's Špilberk.",
-      "type": "A",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 300,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 41
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 306,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 43
+    },
     {
       "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
       "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
@@ -2339,18 +2351,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 38
-    },
-    {
-      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
-      "type": "B",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 290,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 37
     }
   ],
   "church_calendar": {
