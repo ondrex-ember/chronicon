@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-14T09:23:36.597Z",
-  "valid_until": "2026-10-21T09:23:36.597Z",
+  "generated": "2026-10-14T14:57:28.929Z",
+  "valid_until": "2026-10-21T14:57:28.929Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 12,
+    "tempC": 17,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 44,
-    "total_tick": 309,
+    "total_tick": 310,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 44"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 87,
+      "wealth": 86,
       "mood": 81,
       "stores": 0,
       "status": "stable",
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 98,
+      "mood": 95,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 95,
+      "wealth": 99,
+      "mood": 91,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 86,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 92,
+      "mood": 90,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 95,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 96,
+      "mood": 94,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 88,
+      "mood": 86,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 94,
+      "mood": 91,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 97,
+      "mood": 96,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 90,
+      "mood": 88,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 94,
-      "mood": 76,
+      "wealth": 95,
+      "mood": 77,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 310,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 44
+    },
+    {
+      "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
+      "text_en": "This year's grape harvest around Tovačov was exceptionally successful. Sweet wine flows freely, and cellar masters lack enough barrels. The local lord ordered three days of celebrations for all serfs on the estate.",
+      "type": "E",
+      "icon": "🍇",
+      "source": "local_events",
+      "tick": 310,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 44
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 310,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 44
+    },
+    {
       "text": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
       "text_cs": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
       "text_en": "From reports from Bohemia: the band of simple folk from the eastern parts is said to refuse learning itself, saying that bookish wisdom leadeth to pride. A certain monk paused at this, for he hath given his whole life to books.",
@@ -2021,7 +2057,9 @@
       "year": 1465,
       "season": "Podzim",
       "day": 42
-    },
+    }
+  ],
+  "chronicle_local": [
     {
       "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
       "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
@@ -2029,37 +2067,23 @@
       "type": "E",
       "icon": "🍇",
       "source": "local_events",
-      "tick": 303,
+      "tick": 310,
       "year": 1465,
       "season": "Podzim",
-      "day": 42
+      "day": 44
     },
     {
-      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
-      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
-      "type": "A",
-      "icon": "🛢️",
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
       "source": "monastery_internal",
-      "tick": 303,
+      "tick": 310,
       "year": 1465,
       "season": "Podzim",
-      "day": 42
+      "day": 44
     },
-    {
-      "text": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
-      "text_cs": "Z Fulneku hlásí neslýchanou svatokrádež: Skupina řemeslníků se v noci vloupala na zvonici, sundala menší bronzový zvon a odvezla ho na voze pryč. Zřejmě ho plánují roztavit a prodat kováňům do Uher.",
-      "text_en": "Unheard-of sacrilege reported from Fulnek: A group of craftsmen broke into the belfry at night, took down the smaller bronze bell, and carted it away. They likely plan to melt it down and sell the metal to Hungary.",
-      "type": "B",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 302,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 41
-    }
-  ],
-  "chronicle_local": [
     {
       "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
       "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
@@ -2155,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 305,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 304,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 42
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
+      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
+      "type": "B",
+      "icon": "🦅",
+      "source": "distant_events",
+      "tick": 310,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 44
+    },
     {
       "text": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
       "text_cs": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
@@ -2286,18 +2298,6 @@
       "icon": "🤝",
       "source": "distant_events",
       "tick": 299,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 40
-    },
-    {
-      "text": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
-      "text_cs": "Z obchodního domu v Pratu: Letošní sklizeň šafránu v Toskáně byla dobrá. Zásoby vosku z Německa docházejí — cena stoupá. Kdo potřebuje svíce pro oltáře, ať nakoupí před Adventem.",
-      "text_en": "From the trading house in Prato: This year's saffron harvest in Tuscany was good. Wax stocks from Germany are running low — the price is rising. Those who need candles for altars should buy before Advent.",
-      "type": "A",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 298,
       "year": 1465,
       "season": "Podzim",
       "day": 40
