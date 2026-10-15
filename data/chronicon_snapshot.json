@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-15T00:22:24.224Z",
-  "valid_until": "2026-10-22T00:22:24.224Z",
+  "generated": "2026-10-15T09:01:46.693Z",
+  "valid_until": "2026-10-22T09:01:46.693Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 7,
-    "windKmH": 3,
+    "tempC": 9,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 45,
-    "total_tick": 312,
+    "total_tick": 313,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 45"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 86,
+      "wealth": 85,
       "mood": 79,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 89,
+      "mood": 88,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 87,
+      "mood": 86,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 85,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 91,
+      "mood": 89,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 82,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 90,
+      "mood": 89,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 92,
+      "mood": 89,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 100,
+      "mood": 83,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 77,
       "stores": 8,
       "status": "stable",
@@ -1815,6 +1815,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
+      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
@@ -2017,45 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_cs": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni.",
-      "text_en": "From the parish of St. Maurice: An unknown perpetrator pried open the side door at night and stole a gilded chalice donated by a wealthy clothier. The bishop ordered a search of all city pawnshops. The faithful are outraged.",
-      "type": "D",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 305,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 305,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 304,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 42
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
+      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
+      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
+      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
     {
       "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
       "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
@@ -2151,33 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 307,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 306,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 313,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
     {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
@@ -2282,18 +2294,6 @@
       "icon": "🍞",
       "source": "distant_events",
       "tick": 301,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 41
-    },
-    {
-      "text": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_cs": "Zápis z Prahy: Po odchodu mistrů cizích prý univerzita pražská léta váhala mezi úpadkem a obnovou. Nyní se v ní opět hovoří, byť hlasů méně a jazykem převahou jedním.",
-      "text_en": "A note from Prague: after the departure of the foreign masters, the Prague university, it is said, wavered for years between decline and renewal. Now it speaketh again, though with fewer voices and chiefly in one tongue.",
-      "type": "A",
-      "icon": "📚",
-      "source": "distant_events",
-      "tick": 300,
       "year": 1465,
       "season": "Podzim",
       "day": 41
