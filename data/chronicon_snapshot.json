@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-15T14:46:58.430Z",
-  "valid_until": "2026-10-22T14:46:58.430Z",
+  "generated": "2026-10-15T19:47:03.940Z",
+  "valid_until": "2026-10-22T19:47:03.940Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 15,
-    "windKmH": 4,
+    "tempC": 12,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 45,
-    "total_tick": 314,
+    "total_tick": 315,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 45"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 84,
-      "mood": 79,
+      "wealth": 85,
+      "mood": 78,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 87,
+      "mood": 85,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 86,
       "stores": 4,
       "status": "stable",
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 90,
+      "mood": 87,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 87,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +330,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 83,
       "stores": 1,
       "status": "stable",
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 93,
-      "mood": 75,
+      "mood": 76,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 315,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
+      "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "local_events",
+      "tick": 315,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
+    {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_cs": "Zkoušel jsem do iluminace přidat více červené, ale vylil se mi kalíšek. Teď to vypadá, že svatý Jeroným trpí vážnou nemocí krve. Připsal jsem k tomu modlitbu za zdraví. Umění se nedá plánovat.",
-      "text_en": "I tried adding more red to the illumination but spilled the cup. Now it looks like Saint Jerome is suffering from a serious blood disease. I added a prayer for health next to it. Art cannot be planned.",
-      "type": "A",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 307,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
-      "type": "A",
-      "icon": "🐂",
-      "source": "distant_events",
-      "tick": 306,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "local_events",
+      "tick": 315,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
     {
       "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
       "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "monastery_internal",
-      "tick": 308,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
+      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 315,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 45
+    },
     {
       "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
       "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
@@ -2285,18 +2297,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_cs": "Léta MCCCCXXV Litomyšl a Mýto od táboróv jest dobyto, kteréžto v ty časy držal pan Diviš Bořek od pražan.",
-      "text_en": "In 1425 Litomyšl and Mýto were taken by the Taborites; at that time Lord Diviš Bořek held them for the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 303,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 42
     }
   ],
   "church_calendar": {
