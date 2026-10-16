@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-15T19:47:03.940Z",
-  "valid_until": "2026-10-22T19:47:03.940Z",
+  "generated": "2026-10-16T00:10:38.626Z",
+  "valid_until": "2026-10-23T00:10:38.626Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
-    "windKmH": 2,
+    "tempC": 9,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 45,
-    "total_tick": 315,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 45"
+    "day": 46,
+    "total_tick": 316,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 46"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 85,
-      "mood": 78,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 86,
+      "wealth": 96,
+      "mood": 84,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 82,
+      "wealth": 98,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +214,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 85,
       "stores": 5,
       "status": "prosperujici",
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 87,
+      "mood": 85,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 78,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -282,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 98,
+      "mood": 87,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 97,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +334,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 83,
       "stores": 1,
       "status": "stable",
@@ -363,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 93,
-      "mood": 76,
+      "mood": 77,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
@@ -2017,45 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "monastery_internal",
-      "tick": 308,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 307,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
-    },
-    {
-      "text": "Tajný transport stříbra mířící z horního města do královské mincovny byl v noci drze oloupen. Strážci byli uspáni zkaženým vínem a těžké truhly s pruty zmizely beze stopy. Podezření padlo na samotného velitele eskorty, který se po události nečekaně vypařil.",
-      "text_cs": "Tajný transport stříbra mířící z horního města do královské mincovny byl v noci drze oloupen. Strážci byli uspáni zkaženým vínem a těžké truhly s pruty zmizely beze stopy. Podezření padlo na samotného velitele eskorty, který se po události nečekaně vypařil.",
-      "text_en": "A secret transport of silver heading from the mining town to the royal mint was brazenly robbed at night. The guards were drugged with tainted wine, and the heavy chests of bars disappeared without a trace. Suspicion fell on the commander of the escort himself, who vanished unexpectedly after the event.",
-      "type": "B",
-      "icon": "🏴‍☠️",
-      "source": "local_events",
-      "tick": 307,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
     {
       "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
       "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
@@ -2151,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_cs": "Nalezl jsem kočku Metoděje, jak spí přímo na otevřeném traktátu svatého Augustina. Zdá se, že si pro odpočinek vybírá výhradně teologické spisy těžšího ražení. Knihu jsem opatrně vysvobodil, kočka mrzutě odešla.",
-      "text_en": "I found the cat Metoděj sleeping directly on an open tract by Saint Augustine. She seems to choose exclusively heavier theological writings for her rest. I carefully rescued the book, and the cat left grumpily.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 309,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 308,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_cs": "Londýnský koronerský záznam: Petr Provazník se pokusil přejít Temží po ledu v noci. Led praskl. Tělo bylo nalezeno o tři dny později u mostu. Byl dlužen dvěma sousedům. Ti své peníze nedostanou.",
+      "text_en": "London coroner's record: Peter Ropemaker attempted to cross the Thames on ice at night. The ice broke. The body was found three days later near the bridge. He owed money to two neighbors. They will not get their money.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 316,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
     {
       "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
       "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
@@ -2285,22 +2301,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 43
-    },
-    {
-      "text": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_cs": "Ze zápisků londýnského koronera: Vdova Alžběta Tkalcová vystoupila na střechu, aby spravila střešní krytinu po bouřce. Střecha nevydržela. Sousedé sbírali tašky i ji. Dům přechází na syna.",
-      "text_en": "From the London coroner's notes: Widow Elizabeth the Weaver climbed onto the roof to repair the roofing after a storm. The roof did not hold. Neighbors gathered both the tiles and her. The house passes to her son.",
-      "type": "A",
-      "icon": "📋",
-      "source": "distant_events",
-      "tick": 305,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
     }
   ],
   "church_calendar": {
-    "day_of_year": 225,
+    "day_of_year": 226,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
