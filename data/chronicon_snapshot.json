@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-16T08:54:07.488Z",
-  "valid_until": "2026-10-23T08:54:07.488Z",
+  "generated": "2026-10-16T14:41:07.866Z",
+  "valid_until": "2026-10-23T14:41:07.866Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 7,
-    "windKmH": 1,
+    "tempC": 16,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 46,
-    "total_tick": 317,
+    "total_tick": 318,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 46"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 86,
-      "mood": 79,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 83,
+      "wealth": 98,
+      "mood": 82,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 80,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -190,7 +190,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 82,
       "stores": 3,
       "status": "prosperujici",
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 100,
+      "mood": 82,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 87,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 85,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -334,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 81,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1819,6 +1819,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
+      "text_cs": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
+      "text_en": "From Olomouc: The town council announced the collection of an extraordinary tax to repair damaged walls and armories. Every burgher must surrender a twentieth of their wealth. Many craftsmen are protesting loudly and threatening a strike.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 318,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 318,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
       "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
       "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
       "text_en": "That year Master Jan Příbram disputed with Peter Payne the Englishman on the Nativity and on the sacrament of the Lord's Body.",
@@ -2033,33 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
-      "text_cs": "Ze zpráv z Čech: Sbor lidí prostých z kraje východního prý odmítá i vzdělání samo, řkouce, že moudrost knižní k pýše vede. Mnich jeden se nad tím pozastavil, neb celý život svůj knihám zasvětil.",
-      "text_en": "From reports from Bohemia: the band of simple folk from the eastern parts is said to refuse learning itself, saying that bookish wisdom leadeth to pride. A certain monk paused at this, for he hath given his whole life to books.",
-      "type": "C",
-      "icon": "🤲",
-      "source": "distant_events",
-      "tick": 309,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_cs": "Z radnice: Přijel posel od krále Jiřího s listem pro olomouckou radu. Co list obsahuje, rada neprozradila. Zasedala do noci. Ráno byl purkmistr velmi tichý a objednal si víno dříve než obvykle.",
-      "text_en": "From the town hall: A messenger arrived from King George with a letter for the Olomouc council. What the letter contains, the council did not reveal. They sat until midnight. In the morning the burgomaster was very quiet and ordered wine earlier than usual.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 309,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
+      "text_cs": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
+      "text_en": "From Olomouc: The town council announced the collection of an extraordinary tax to repair damaged walls and armories. Every burgher must surrender a twentieth of their wealth. Many craftsmen are protesting loudly and threatening a strike.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 318,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_cs": "Ztratil se klíč od spíže. Po třech dnech pátrání byl nalezen v kapse bratra spíže. Bratr spíže si nevzpomíná, jak se tam dostal. Opat mu přidělil klíč na těžkém železném řetězu kolem krku.",
+      "text_en": "The pantry key went missing. After three days of searching, it was found in the pocket of the pantry brother. The pantry brother does not remember how it got there. The abbot assigned him a key on a heavy iron chain around his neck.",
+      "type": "A",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 318,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
     {
       "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
@@ -2155,30 +2179,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 45
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 311,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
-      "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
-      "text_en": "This year's grape harvest around Tovačov was exceptionally successful. Sweet wine flows freely, and cellar masters lack enough barrels. The local lord ordered three days of celebrations for all serfs on the estate.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 310,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_distant": [
