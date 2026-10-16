@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-16T14:41:07.866Z",
-  "valid_until": "2026-10-23T14:41:07.866Z",
+  "generated": "2026-10-16T19:28:07.725Z",
+  "valid_until": "2026-10-23T19:28:07.725Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 7,
+    "tempC": 11,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 46,
-    "total_tick": 318,
+    "total_tick": 319,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 46"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 86,
+      "wealth": 85,
       "mood": 77,
       "stores": 0,
       "status": "stable",
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 83,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 83,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 78,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 92,
-      "mood": 78,
+      "mood": 79,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
+      "text_cs": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
+      "text_en": "And then that entry: after the truce Prince Sigismund, the Praguers and Žižka with his brethren marched on Moravia — and Žižka died on the way, by the castle of Přibyslav. He was marching against us. He never arrived. Brother librarian adds nothing; he only left a blank line.",
+      "type": "A",
+      "icon": "⚰️",
+      "source": "monastery_internal",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
       "text": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
       "text_cs": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
       "text_en": "From Olomouc: The town council announced the collection of an extraordinary tax to repair damaged walls and armories. Every burgher must surrender a twentieth of their wealth. Many craftsmen are protesting loudly and threatening a strike.",
@@ -2021,45 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 310,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
-      "text_cs": "Letošní vinobraní v okolí Tovačova bylo mimořádně úspěšné. Sladké víno teče proudem a sklepmistři nemají dostatek sudů. Místní pán nařídil tři dny oslav pro všechny poddané na panství.",
-      "text_en": "This year's grape harvest around Tovačov was exceptionally successful. Sweet wine flows freely, and cellar masters lack enough barrels. The local lord ordered three days of celebrations for all serfs on the estate.",
-      "type": "E",
-      "icon": "🍇",
-      "source": "local_events",
-      "tick": 310,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 310,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
+    {
+      "text": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
+      "text_cs": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
+      "text_en": "And then that entry: after the truce Prince Sigismund, the Praguers and Žižka with his brethren marched on Moravia — and Žižka died on the way, by the castle of Přibyslav. He was marching against us. He never arrived. Brother librarian adds nothing; he only left a blank line.",
+      "type": "A",
+      "icon": "⚰️",
+      "source": "monastery_internal",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
     {
       "text": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
       "text_cs": "Z Olomouce: Městská rada ohlásila vybírání mimořádné berně na opravu poničených hradeb a zbrojnic. Každý měšťan musí odevzdat dvacetinu svého majetku. Mnozí řemeslníci hlasitě protestují a hrozí stávkou.",
@@ -2155,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 45
-    },
-    {
-      "text": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
-      "text_cs": "Z Hranic: Na pomezí s Uhrami se množí potyčky mezi panskými hlídkami a ozbrojenými loupeživými tlupami. Obyvatelé pohraničních osad začali ze strachu ukrývat cennosti do lesních jam.",
-      "text_en": "From Hranice: Skirmishes between noble patrols and armed robber bands are multiplying on the border with Hungary. In fear, inhabitants of border settlements have begun hiding valuables in forest pits.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 313,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 313,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
+      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
+      "type": "C",
+      "icon": "🖨️",
+      "source": "distant_events",
+      "tick": 319,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 46
+    },
     {
       "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
       "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
@@ -2289,18 +2301,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 307,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 43
     }
   ],
   "church_calendar": {
