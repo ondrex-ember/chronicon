@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-16T19:28:07.725Z",
-  "valid_until": "2026-10-23T19:28:07.725Z",
+  "generated": "2026-10-17T00:14:19.239Z",
+  "valid_until": "2026-10-24T00:14:19.239Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 3,
+    "key": "autumn_fog",
+    "name": "Mlha",
+    "icon": "🌫",
+    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
+    "tempC": 8,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 46,
-    "total_tick": 319,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 46"
+    "day": 47,
+    "total_tick": 320,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 47"
   },
   "actors": [
     {
@@ -94,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 85,
+      "wealth": 84,
       "mood": 77,
       "stores": 0,
       "status": "stable",
@@ -119,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 81,
+      "mood": 82,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 82,
+      "mood": 84,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -191,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 82,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -215,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 84,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 83,
+      "mood": 84,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 97,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -286,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -335,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 80,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -367,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 92,
-      "mood": 79,
+      "mood": 78,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1819,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
+      "text_cs": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
+      "text_en": "That year the Taborites drew near Prague to Vršovice and besieged it; on St Luke's day they made peace with the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 320,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 320,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
@@ -2033,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 45
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 311,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_cs": "Mezi bitvami stojí v análech i tichá věta: ve středu po Všech svatých zemřela urozená, ctná a šlechetná paní Škonka z Vartemberka. Války plní stránky — ale anály nezapomínají ani na jedno jméno, které nikoho nezabilo.",
-      "text_en": "Between the battles the annals hold a quiet sentence too: on the Wednesday after All Saints died the noble, honest and gracious Lady Škonka of Vartemberk. Wars fill the pages — but the annals do not forget a single name that killed no one.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "monastery_internal",
-      "tick": 311,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 320,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
     {
       "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
       "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
@@ -2167,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 45
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 314,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
+      "text_cs": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
+      "text_en": "That year the Taborites drew near Prague to Vršovice and besieged it; on St Luke's day they made peace with the Praguers.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 320,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
     {
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
@@ -2289,22 +2297,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 44
-    },
-    {
-      "text": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_cs": "Z Prahy: Stařec jeden na trhu vyprávěl, kterak před lety obě strany, kalich i kříž, k jednání na koncilu zasedly a smír sjednaly. Mladí poslouchají s podivem, neb válku znají jen z vyprávění.",
-      "text_en": "From Prague: an old man at the market told how, years past, both sides, chalice and cross, sat down together in council and made peace. The young listen with wonder, for they know war only from telling.",
-      "type": "C",
-      "icon": "🕊️",
-      "source": "distant_events",
-      "tick": 308,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
     }
   ],
   "church_calendar": {
-    "day_of_year": 226,
+    "day_of_year": 227,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
