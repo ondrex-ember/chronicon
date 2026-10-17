@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-17T08:26:12.020Z",
-  "valid_until": "2026-10-24T08:26:12.020Z",
+  "generated": "2026-10-17T13:32:40.124Z",
+  "valid_until": "2026-10-24T13:32:40.124Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 1,
+    "tempC": 16,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 47,
-    "total_tick": 321,
+    "total_tick": 322,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 47"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 84,
-      "mood": 76,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 79,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 83,
+      "mood": 81,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 76,
       "stores": 2,
       "status": "stable",
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 85,
+      "mood": 82,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 79,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 83,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 92,
-      "mood": 76,
+      "wealth": 91,
+      "mood": 74,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
+      "text_cs": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
+      "text_en": "Business news came from Avignon: at the Datini house's shop there, shields, bassinets, and breastplates are not only sold, but armor is also profitably hired out to mercenaries when needed. For adjusting and mending coats of mail, a skilled Belgian armorer named Hennequin of Bruges is even employed there. This business model, it is said, maximizes the profit from every piece of imported Milanese steel.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
+      "text": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
+      "text_cs": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
+      "text_en": "A magnificent joust took place beneath the castle, drawing knights from all over Moravia and Silesia. Brave riders shattered lances to the cheers of the ladies, and in the evening a noisy feast scented with roasted meat and wine was held. Local market vendors are rubbing their hands, as the visitors spent a lot of money.",
+      "type": "E",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
+      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
+      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
+      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
+      "type": "C",
+      "icon": "📚",
+      "source": "monastery_internal",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
@@ -2017,45 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 45
-    },
-    {
-      "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
-      "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
-      "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "local_events",
-      "tick": 315,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
-    },
-    {
-      "text": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_cs": "Ze staročeských letopisů: Zpráva z bojiště u Litovle, vyprávěná uprchlíkem: Slezští žoldnéři vystřelili do hustého deště šípů a tětivy jim zvlhly. Přední šiky králových vojsk to využily a prolomily levé křídlo. Padlo prý na čtyři sta mužů, přesný počet nezná nikdo.",
-      "text_en": "From the Old Czech Chronicles: A report from the battlefield near Litovel, told by a refugee: Silesian mercenaries fired into a heavy rain of arrows and their bowstrings became damp. The vanguard of the king's forces took advantage of this and broke through the left flank. About four hundred men are said to have fallen, but no one knows the exact count.",
-      "type": "B",
-      "icon": "🏹",
-      "source": "distant_events",
-      "tick": 314,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
-    },
-    {
-      "text": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_cs": "Dlouhý a vyčerpávající spor mezi dvěma statkáři o posunutý hraniční kámen vyvrcholil fyzickým napadením vidlemi. Purkmistr proto nechal měřiče, aby pozemek znovu vytyčil, a oba aktéry poslal na dva dny na pranýř. Odškodnění propadlo ve prospěch městské pokladny.",
-      "text_en": "A long and exhausting dispute between two landowners over a moved boundary stone culminated in a physical assault with pitchforks. The burgomaster therefore had surveyors remeasure the land and sent both actors to the pillory for two days. Compensation was forfeited to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 314,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
+      "text_cs": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
+      "text_en": "A magnificent joust took place beneath the castle, drawing knights from all over Moravia and Silesia. Brave riders shattered lances to the cheers of the ladies, and in the evening a noisy feast scented with roasted meat and wine was held. Local market vendors are rubbing their hands, as the visitors spent a lot of money.",
+      "type": "E",
+      "icon": "🛡️",
+      "source": "local_events",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
+      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
+      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
+      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
+      "type": "C",
+      "icon": "📚",
+      "source": "monastery_internal",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
     {
       "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
       "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
@@ -2151,33 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 46
-    },
-    {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 317,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 316,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
+      "text_cs": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
+      "text_en": "Business news came from Avignon: at the Datini house's shop there, shields, bassinets, and breastplates are not only sold, but armor is also profitably hired out to mercenaries when needed. For adjusting and mending coats of mail, a skilled Belgian armorer named Hennequin of Bruges is even employed there. This business model, it is said, maximizes the profit from every piece of imported Milanese steel.",
+      "type": "C",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 322,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
     {
       "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
       "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
@@ -2282,18 +2294,6 @@
       "icon": "🧵",
       "source": "distant_events",
       "tick": 311,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 44
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 310,
       "year": 1465,
       "season": "Podzim",
       "day": 44
