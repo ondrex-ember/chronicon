@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-17T13:32:40.124Z",
-  "valid_until": "2026-10-24T13:32:40.124Z",
+  "generated": "2026-10-17T18:19:15.471Z",
+  "valid_until": "2026-10-24T18:19:15.471Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 16,
-    "windKmH": 7,
+    "tempC": 13,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 47,
-    "total_tick": 322,
+    "total_tick": 323,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 47"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 84,
-      "mood": 77,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 79,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 78,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 76,
       "stores": 2,
       "status": "stable",
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 82,
       "stores": 5,
       "status": "prosperujici",
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 82,
+      "mood": 80,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 78,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 81,
       "stores": 3,
       "status": "prosperujici",
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 74,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 91,
-      "mood": 74,
+      "wealth": 90,
+      "mood": 76,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,18 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 323,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
+    {
       "text": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
       "text_cs": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
       "text_en": "Business news came from Avignon: at the Datini house's shop there, shields, bassinets, and breastplates are not only sold, but armor is also profitably hired out to mercenaries when needed. For adjusting and mending coats of mail, a skilled Belgian armorer named Hennequin of Bruges is even employed there. This business model, it is said, maximizes the profit from every piece of imported Milanese steel.",
@@ -2041,21 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 46
-    },
-    {
-      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 315,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 323,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 47
+    },
     {
       "text": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
       "text_cs": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
@@ -2160,18 +2172,6 @@
       "icon": "🗝️",
       "source": "monastery_internal",
       "tick": 318,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
-    },
-    {
-      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 317,
       "year": 1465,
       "season": "Podzim",
       "day": 46
