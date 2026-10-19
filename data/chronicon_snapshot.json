@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-19T09:44:59.329Z",
-  "valid_until": "2026-10-26T09:44:59.329Z",
+  "generated": "2026-10-19T16:52:32.168Z",
+  "valid_until": "2026-10-26T16:52:32.168Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
     "tempC": 10,
-    "windKmH": 6,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 49,
-    "total_tick": 329,
+    "total_tick": 330,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 49"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 84,
+      "wealth": 85,
       "mood": 80,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 77,
+      "mood": 79,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 72,
+      "mood": 71,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 96,
-      "mood": 73,
+      "mood": 71,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 97,
-      "mood": 75,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 100,
+      "mood": 74,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 73,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 76,
       "stores": 2,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 100,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 78,
+      "wealth": 98,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 74,
+      "mood": 72,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 91,
-      "mood": 76,
+      "wealth": 90,
+      "mood": 75,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 330,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
+    {
+      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 330,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
+    {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
-      "type": "A",
-      "icon": "☀️",
-      "source": "monastery_internal",
-      "tick": 321,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
-    },
-    {
-      "text": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
-      "text_cs": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
-      "text_en": "That year the Taborites drew near Prague to Vršovice and besieged it; on St Luke's day they made peace with the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 320,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 330,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
     {
       "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
       "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 322,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
+      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "distant_events",
+      "tick": 330,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -2282,18 +2294,6 @@
       "icon": "🖨️",
       "source": "distant_events",
       "tick": 319,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
-    },
-    {
-      "text": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
-      "text_cs": "Léta téhož mistr Jan Příbram s Petrem Englišem měl hádanie o Božiem narození o svátosti těla božieho.",
-      "text_en": "That year Master Jan Příbram disputed with Peter Payne the Englishman on the Nativity and on the sacrament of the Lord's Body.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 317,
       "year": 1465,
       "season": "Podzim",
       "day": 46
