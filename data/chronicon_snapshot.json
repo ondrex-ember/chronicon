@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-18T18:31:53.547Z",
-  "valid_until": "2026-10-25T18:31:53.547Z",
+  "generated": "2026-10-19T00:02:36.201Z",
+  "valid_until": "2026-10-26T00:02:36.201Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
-    "windKmH": 5,
+    "tempC": 8,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 48,
-    "total_tick": 327,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 48"
+    "day": 49,
+    "total_tick": 328,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 49"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 86,
+      "wealth": 85,
       "mood": 78,
       "stores": 0,
       "status": "stable",
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 77,
       "stores": 9,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 96,
-      "mood": 74,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 77,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 100,
+      "mood": 77,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 74,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 77,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 78,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 74,
+      "mood": 73,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 91,
-      "mood": 79,
+      "mood": 77,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
+      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
+      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 328,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
+    {
+      "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
+      "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
+      "text_en": "A known horse thief, sought by catchpoles throughout the region, made a fatal mistake. He attempted to steal a stallion straight from the bishop's stables, but the guards caught him in the act and beat him to death with maces on the spot. His body was dumped outside the walls without a proper Christian burial.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 328,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
+    {
       "text": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
       "text_cs": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
       "text_en": "A massive cave-in occurred in a deep shaft outside the town, trapping a group of silver miners. Rescue efforts are complicated by groundwater and the threat of further rock collapse. Mining has been temporarily suspended, causing panic among Italian silver buyers.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 46
-    },
-    {
-      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
-      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
-      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
-      "type": "A",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 319,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
-    },
-    {
-      "text": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
-      "text_cs": "A pak ten zápis: po smíření táhli kníže Zikmund, Pražané i Žižka s bratřími na Moravu — a Žižka cestou u hradu Přibyslavi zemřel. Táhl na nás. Nedošel. Bratr knihovník k tomu nepíše nic; jen tam nechal prázdný řádek.",
-      "text_en": "And then that entry: after the truce Prince Sigismund, the Praguers and Žižka with his brethren marched on Moravia — and Žižka died on the way, by the castle of Přibyslav. He was marching against us. He never arrived. Brother librarian adds nothing; he only left a blank line.",
-      "type": "A",
-      "icon": "⚰️",
-      "source": "monastery_internal",
-      "tick": 319,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
+      "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
+      "text_en": "A known horse thief, sought by catchpoles throughout the region, made a fatal mistake. He attempted to steal a stallion straight from the bishop's stables, but the guards caught him in the act and beat him to death with maces on the spot. His body was dumped outside the walls without a proper Christian burial.",
+      "type": "D",
+      "icon": "🐎",
+      "source": "local_events",
+      "tick": 328,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
     {
       "text": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
       "text_cs": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
-      "type": "A",
-      "icon": "☀️",
-      "source": "monastery_internal",
-      "tick": 321,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
+      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
+      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 328,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 49
+    },
     {
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
       "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
@@ -2285,22 +2297,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 46
-    },
-    {
-      "text": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_cs": "Objednaná zbroj od platnéřů Basetamuola z Pesciny a Danestruolla z Coma konečně dorazila do Avignonu. Zboží cestovalo přes Alpy na hřbetech mezků téměř tři týdny. Cesta proběhla bez nehod a milánská ocel půjde dobře na odbyt.",
-      "text_en": "The ordered armor from the armorers Basetamuolo of Pescina and Danestruollo of Como has finally arrived in Avignon. The goods traveled across the Alps on mule-back for nearly three weeks. The journey passed without mishap, and the Milanese steel will sell well.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 315,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 45
     }
   ],
   "church_calendar": {
-    "day_of_year": 228,
+    "day_of_year": 229,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
