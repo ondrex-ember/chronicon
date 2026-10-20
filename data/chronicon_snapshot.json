@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-19T16:52:32.168Z",
-  "valid_until": "2026-10-26T16:52:32.168Z",
+  "generated": "2026-10-20T00:59:06.918Z",
+  "valid_until": "2026-10-27T00:59:06.918Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 10,
-    "windKmH": 8,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 6,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 49,
-    "total_tick": 330,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 49"
+    "day": 50,
+    "total_tick": 331,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 50"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 85,
-      "mood": 80,
+      "wealth": 84,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 71,
+      "wealth": 97,
+      "mood": 72,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 96,
-      "mood": 71,
+      "wealth": 97,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 97,
-      "mood": 74,
+      "wealth": 96,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 74,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 73,
+      "mood": 74,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 75,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 97,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 90,
-      "mood": 75,
+      "wealth": 89,
+      "mood": 74,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,18 @@
   ],
   "chronicle": [
     {
+      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 331,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
+    {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
@@ -2041,21 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
-      "text_en": "In response to a wave of night-time disturbances, aldermen restricted the opening hours of all town taverns. Once the evening bell rings, neither beer nor wine may be poured, and innkeepers must drive their guests home. Drinkers grumble, but guards have already taken the first ten sinners to the stocks.",
-      "type": "A",
-      "icon": "🍺",
-      "source": "local_events",
-      "tick": 321,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
+      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 331,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
     {
       "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
       "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
@@ -2160,18 +2172,6 @@
       "icon": "📋",
       "source": "local_events",
       "tick": 323,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
-    },
-    {
-      "text": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
-      "text_cs": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
-      "text_en": "A magnificent joust took place beneath the castle, drawing knights from all over Moravia and Silesia. Brave riders shattered lances to the cheers of the ladies, and in the evening a noisy feast scented with roasted meat and wine was held. Local market vendors are rubbing their hands, as the visitors spent a lot of money.",
-      "type": "E",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 322,
       "year": 1465,
       "season": "Podzim",
       "day": 47
@@ -2300,7 +2300,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 229,
+    "day_of_year": 230,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
