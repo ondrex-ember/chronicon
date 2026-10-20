@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-20T09:18:05.686Z",
-  "valid_until": "2026-10-27T09:18:05.686Z",
+  "generated": "2026-10-20T14:51:50.047Z",
+  "valid_until": "2026-10-27T14:51:50.047Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 6,
+    "tempC": 14,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 50,
-    "total_tick": 332,
+    "total_tick": 333,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 50"
   },
   "actors": [
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 78,
       "stores": 9,
       "status": "prosperujici",
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 71,
+      "wealth": 96,
+      "mood": 72,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 97,
-      "mood": 76,
+      "wealth": 96,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 76,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -282,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 73,
       "stores": 2,
       "status": "stable",
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 79,
       "stores": 3,
       "status": "prosperujici",
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 73,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 89,
-      "mood": 74,
+      "mood": 75,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 333,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
+    {
+      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
+      "type": "E",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 333,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
+    {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
-      "text_cs": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
-      "text_en": "Business news came from Avignon: at the Datini house's shop there, shields, bassinets, and breastplates are not only sold, but armor is also profitably hired out to mercenaries when needed. For adjusting and mending coats of mail, a skilled Belgian armorer named Hennequin of Bruges is even employed there. This business model, it is said, maximizes the profit from every piece of imported Milanese steel.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 322,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
-    },
-    {
-      "text": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
-      "text_cs": "Pod hradem se konalo velkolepé klání, na které se sjelo rytířstvo z celé Moravy i Slezska. Odvážní jezdci lámali dřevce za jásotu dam a večer proběhla hlučná hostina provoněná pečeným masem a vínem. Místní trhovci si mnou ruce, neboť návštěvníci utratili spoustu peněz.",
-      "text_en": "A magnificent joust took place beneath the castle, drawing knights from all over Moravia and Silesia. Brave riders shattered lances to the cheers of the ladies, and in the evening a noisy feast scented with roasted meat and wine was held. Local market vendors are rubbing their hands, as the visitors spent a lot of money.",
-      "type": "E",
-      "icon": "🛡️",
-      "source": "local_events",
-      "tick": 322,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
+      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
+      "type": "E",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 333,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
     {
       "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
       "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 48
-    },
-    {
-      "text": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
-      "text_cs": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla.",
-      "text_en": "During the excavation of a new exploratory adit near the town, the supporting wooden shoring failed. Three miners were buried by a pile of rocks and mud. Although rescue parties dug even at night, they only managed to extricate lifeless bodies from the rubble.",
-      "type": "D",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 324,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 333,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
     {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
@@ -2282,18 +2294,6 @@
       "icon": "🧵",
       "source": "distant_events",
       "tick": 321,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
-    },
-    {
-      "text": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
-      "text_cs": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení.",
-      "text_en": "That year the Taborites drew near Prague to Vršovice and besieged it; on St Luke's day they made peace with the Praguers.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 320,
       "year": 1465,
       "season": "Podzim",
       "day": 47
