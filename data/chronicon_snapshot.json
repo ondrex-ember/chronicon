@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-20T00:59:06.918Z",
-  "valid_until": "2026-10-27T00:59:06.918Z",
+  "generated": "2026-10-20T09:18:05.686Z",
+  "valid_until": "2026-10-27T09:18:05.686Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 6,
-    "windKmH": 5,
+    "tempC": 8,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 50,
-    "total_tick": 331,
+    "total_tick": 332,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 50"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 84,
-      "mood": 79,
+      "mood": 80,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 72,
+      "mood": 71,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 73,
       "stores": 2,
       "status": "stable",
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 76,
       "stores": 3,
       "status": "prosperujici",
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 75,
+      "wealth": 99,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 74,
+      "mood": 75,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 74,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 80,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 72,
+      "mood": 73,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 332,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
+    {
+      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 332,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
+    {
       "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 322,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
-    },
-    {
-      "text": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_cs": "Z Janova přišla poptávka: shání se mimořádně luxusní látka na šaty pro paní Margheritu. Žádáno je nejjemnější modré hedvábí 'zetani' dovážené z Rumunska, případně kvalitní modrý damašek stejného odstínu. Útrata za průměrné zboží je nežádoucí — pokud se nenajde naprosto dokonalý kus, raději se nemá kupovat nic.",
-      "text_en": "A request came from Genoa: an exceptionally luxurious cloth is sought to make a gown for Monna Margherita. The finest blue 'zetani' silk imported from Roumania is requested, or alternatively a high-quality blue damask of the same shade. Spending on mediocre goods is unwelcome — if no absolutely perfect piece can be found, it is better to buy nothing at all.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "distant_events",
-      "tick": 321,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 332,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
     {
       "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 48
-    },
-    {
-      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
-      "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
-      "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
-      "type": "A",
-      "icon": "📋",
-      "source": "local_events",
-      "tick": 323,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 332,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 50
+    },
     {
       "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
       "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
@@ -2285,18 +2297,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 47
-    },
-    {
-      "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
-      "text_en": "A merchant who had come from the Rhineland told the brother scriptor a strange thing: a certain man in Mainz maketh books not by hand, but by some machine with metal letters that stamp like a seal. The scriptor believed it not, until a leaf was shown to him.",
-      "type": "C",
-      "icon": "🖨️",
-      "source": "distant_events",
-      "tick": 319,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 46
     }
   ],
   "church_calendar": {
