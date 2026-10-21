@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-20T19:55:55.602Z",
-  "valid_until": "2026-10-27T19:55:55.602Z",
+  "generated": "2026-10-21T00:28:14.474Z",
+  "valid_until": "2026-10-28T00:28:14.474Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 7,
+    "tempC": 8,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 50,
-    "total_tick": 334,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 50"
+    "day": 51,
+    "total_tick": 335,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 51"
   },
   "actors": [
     {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 81,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
-      "mood": 72,
+      "wealth": 95,
+      "mood": 73,
       "stores": 4,
       "status": "stable",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 96,
-      "mood": 71,
+      "wealth": 95,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 95,
-      "mood": 77,
+      "wealth": 96,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 74,
+      "mood": 73,
       "stores": 6,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +310,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 79,
       "stores": 3,
       "status": "prosperujici",
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 74,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 89,
-      "mood": 73,
+      "mood": 71,
       "stores": 8,
       "status": "stable",
       "relations": {
@@ -1815,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
+      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
+      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
+      "type": "D",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
@@ -2017,45 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 48
-    },
-    {
-      "text": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_cs": "Soudní dvůr v Prostějově musel řešit absurdní spor dvou řezníků o vlastnictví ukradeného vozu. Oba předložili pochybné směnky a začali se před konšely bít pěstmi. Purkmistr je oba nechal na den zavřít do chládku a vůz dočasně zabavilo město.",
-      "text_en": "The court in Prostějov had to resolve an absurd dispute between two butchers over the ownership of a stolen wagon. Both presented dubious promissory notes and began fighting with their fists in front of the aldermen. The burgomaster had them both locked in the cooler for a day and the wagon temporarily confiscated by the town.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 326,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
-    },
-    {
-      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "distant_events",
-      "tick": 325,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
-    },
-    {
-      "text": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_cs": "Cesty ze severu hlásí neklid a přesuny vojenských oddílů s těžkými samostříly a pavézami. Skupina radikálních šlechticů údajně hrozí obléháním Uničova, pokud město nepodpoří jejich frakci proti králi. Zbrojíři mají nařízeno pracovat dnem i nocí a brány se na noc zamykají o hodinu dříve.",
-      "text_en": "Roads from the north report unrest and movements of military detachments with heavy crossbows and pavises. A group of radical nobles allegedly threatens to besiege Uničov unless the town supports their faction against the king. Armorers are ordered to work day and night, and gates are locked an hour earlier at night.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 325,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
+      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
+      "type": "C",
+      "icon": "🧂",
+      "source": "local_events",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
+      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
+      "type": "A",
+      "icon": "⚡",
+      "source": "monastery_internal",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
     {
       "text": "Městem projelo velkolepé uherské poselstvo mířící do Čech. V průvodu bylo k vidění dvanáct velbloudů a několik vzácných loveckých sokolů. Brněnští měšťané lemovali ulice v úžasu.",
       "text_cs": "Městem projelo velkolepé uherské poselstvo mířící do Čech. V průvodu bylo k vidění dvanáct velbloudů a několik vzácných loveckých sokolů. Brněnští měšťané lemovali ulice v úžasu.",
@@ -2151,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 49
-    },
-    {
-      "text": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_cs": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_en": "A massive cave-in occurred in a deep shaft outside the town, trapping a group of silver miners. Rescue efforts are complicated by groundwater and the threat of further rock collapse. Mining has been temporarily suspended, causing panic among Italian silver buyers.",
-      "type": "B",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 327,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 327,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
+      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
+      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
+      "type": "D",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 335,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
     {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
@@ -2285,22 +2301,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 48
-    },
-    {
-      "text": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
-      "text_cs": "Z Avignonu přišla obchodní zpráva: v tamní prodejně Datiniho domu se nejen prodávají štíty, přilbice a hrudní pláty, ale zbroj se v případě potřeby i výhodně pronajímá žoldnéřům. Na úpravy a opravy ocelových košil je zde dokonce zaměstnán zručný belgický zbrojíř jménem Hennequin z Brugg. Tento obchodní model prý maximalizuje zisk z každého kusu dovezené milánské oceli.",
-      "text_en": "Business news came from Avignon: at the Datini house's shop there, shields, bassinets, and breastplates are not only sold, but armor is also profitably hired out to mercenaries when needed. For adjusting and mending coats of mail, a skilled Belgian armorer named Hennequin of Bruges is even employed there. This business model, it is said, maximizes the profit from every piece of imported Milanese steel.",
-      "type": "C",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 322,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 47
     }
   ],
   "church_calendar": {
-    "day_of_year": 230,
+    "day_of_year": 231,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
