@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-21T09:14:49.295Z",
-  "valid_until": "2026-10-28T09:14:49.295Z",
+  "generated": "2026-10-21T14:59:03.172Z",
+  "valid_until": "2026-10-28T14:59:03.172Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 1,
+    "tempC": 17,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 51,
-    "total_tick": 336,
+    "total_tick": 337,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 51"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 82,
-      "mood": 81,
+      "mood": 80,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 100,
+      "mood": 98,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 100,
+      "wealth": 99,
+      "mood": 97,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 86,
+      "wealth": 99,
+      "mood": 87,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 93,
+      "mood": 90,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 90,
+      "wealth": 99,
+      "mood": 89,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 94,
+      "mood": 91,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 100,
+      "mood": 98,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 100,
+      "mood": 98,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 79,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,30 @@
   ],
   "chronicle": [
     {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 337,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
+      "text_cs": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
+      "text_en": "While cataloging, I discovered a book inserted upside down. Someone must have been secretly reading Virgil and shelved it wrong in a hurry. I set it straight. Order must be maintained even among the pagans.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 337,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
       "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
@@ -2033,33 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 49
-    },
-    {
-      "text": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_cs": "V hlubinné štole za městem došlo k rozsáhlému závalu, který uvěznil skupinu stříbrných havířů. Záchranné práce komplikuje spodní voda a hrozba dalšího propadu horniny. Těžba byla dočasně pozastavena, což vyvolalo paniku mezi italskými nákupčími stříbra.",
-      "text_en": "A massive cave-in occurred in a deep shaft outside the town, trapping a group of silver miners. Rescue efforts are complicated by groundwater and the threat of further rock collapse. Mining has been temporarily suspended, causing panic among Italian silver buyers.",
-      "type": "B",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 327,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 327,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 337,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
+      "text_cs": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
+      "text_en": "While cataloging, I discovered a book inserted upside down. Someone must have been secretly reading Virgil and shelved it wrong in a hurry. I set it straight. Order must be maintained even among the pagans.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 337,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
     {
       "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
       "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
@@ -2152,30 +2176,6 @@
       "icon": "👑",
       "source": "local_events",
       "tick": 330,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 329,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
-    {
-      "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_en": "A known horse thief, sought by catchpoles throughout the region, made a fatal mistake. He attempted to steal a stallion straight from the bishop's stables, but the guards caught him in the act and beat him to death with maces on the spot. His body was dumped outside the walls without a proper Christian burial.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 328,
       "year": 1465,
       "season": "Podzim",
       "day": 49
