@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-21T14:59:03.172Z",
-  "valid_until": "2026-10-28T14:59:03.172Z",
+  "generated": "2026-10-21T19:59:06.570Z",
+  "valid_until": "2026-10-28T19:59:06.570Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 17,
-    "windKmH": 3,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 12,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 51,
-    "total_tick": 337,
+    "total_tick": 338,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 51"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 82,
-      "mood": 80,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 98,
+      "wealth": 99,
+      "mood": 96,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 87,
+      "mood": 86,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 90,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 96,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 96,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 89,
+      "wealth": 100,
+      "mood": 88,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 98,
+      "wealth": 99,
+      "mood": 96,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 98,
+      "mood": 97,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 338,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 338,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
       "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
@@ -2033,33 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 49
-    },
-    {
-      "text": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_cs": "Léta tisíc CCCLXII Anna, matka krále Václava, umřela vrzela jest.",
-      "text_en": "In 1362 died Anna, mother of King Wenceslas.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 328,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
-    {
-      "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_en": "A known horse thief, sought by catchpoles throughout the region, made a fatal mistake. He attempted to steal a stallion straight from the bishop's stables, but the guards caught him in the act and beat him to death with maces on the spot. His body was dumped outside the walls without a proper Christian burial.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 328,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
+      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "local_events",
+      "tick": 338,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
+    {
+      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
+      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
+      "type": "B",
+      "icon": "🍲",
+      "source": "monastery_internal",
+      "tick": 338,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 51
+    },
     {
       "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
@@ -2155,30 +2179,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 50
-    },
-    {
-      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 331,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 330,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
     }
   ],
   "chronicle_distant": [
