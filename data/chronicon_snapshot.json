@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-21T19:59:06.570Z",
-  "valid_until": "2026-10-28T19:59:06.570Z",
+  "generated": "2026-10-22T00:31:50.952Z",
+  "valid_until": "2026-10-29T00:31:50.952Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,9 +67,9 @@
     "name": "Déšť",
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 12,
-    "windKmH": 12,
-    "rainMm": 0,
+    "tempC": 9,
+    "windKmH": 14,
+    "rainMm": 0.1,
     "season": 2,
     "modifier_grain": 0.95,
     "modifier_wood": 1
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 51,
-    "total_tick": 338,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 51"
+    "day": 52,
+    "total_tick": 339,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 52"
   },
   "actors": [
     {
@@ -94,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 82,
-      "mood": 79,
+      "wealth": 81,
+      "mood": 78,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 96,
+      "mood": 93,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 97,
+      "wealth": 98,
+      "mood": 95,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 86,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 88,
+      "mood": 87,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -214,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 96,
+      "wealth": 100,
+      "mood": 94,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 88,
+      "mood": 85,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -287,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 91,
+      "mood": 88,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 96,
+      "mood": 94,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 97,
+      "mood": 95,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -367,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1819,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 339,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 339,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
       "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
       "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
       "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
@@ -2033,33 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 49
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 329,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
-    {
-      "text": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_cs": "V rybníce u Tovačova bylo nalezeno tělo cizího mnicha v roztrhaném rouchu. Na krku měl modřiny, ale měšec u opasku zůstal plný. Identita mrtvého ani totožnost vraha nejsou známy.",
-      "text_en": "The body of a foreign monk in a torn habit was found in a pond near Tovačov. He had bruises on his neck, but the purse at his belt remained full. Neither the identity of the dead man nor the killer is known.",
-      "type": "B",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 329,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
+      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 339,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
+      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
+      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 339,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
     {
       "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
       "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
@@ -2152,30 +2172,6 @@
       "icon": "🩹",
       "source": "monastery_internal",
       "tick": 334,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
-      "text_cs": "Kuchmistr zapsal s uspokojením: Zásobárna je po sklizni plná jako již dlouho nebyla. Obilí, luštěniny, sušené ovoce. Pokud zima nebude příliš krutá, vyžijeme pohodlně až do jara.",
-      "text_en": "The cook wrote with satisfaction: The storeroom is fuller after the harvest than it has been for a long time. Grain, legumes, dried fruit. If the winter is not too harsh, we shall live comfortably until spring.",
-      "type": "E",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 333,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 332,
       "year": 1465,
       "season": "Podzim",
       "day": 50
@@ -2304,7 +2300,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 231,
+    "day_of_year": 232,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
