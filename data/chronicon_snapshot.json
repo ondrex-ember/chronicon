@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-22T14:58:41.046Z",
-  "valid_until": "2026-10-29T14:58:41.046Z",
+  "generated": "2026-10-22T19:52:18.768Z",
+  "valid_until": "2026-10-29T19:52:18.768Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
-    "windKmH": 14,
+    "tempC": 9,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 52,
-    "total_tick": 341,
+    "total_tick": 342,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 52"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 81,
-      "mood": 80,
+      "wealth": 82,
+      "mood": 78,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 91,
+      "wealth": 98,
+      "mood": 89,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 94,
+      "mood": 91,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 98,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 84,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 90,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 89,
+      "wealth": 100,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 84,
+      "mood": 83,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 90,
+      "mood": 87,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 78,
+      "mood": 76,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,18 @@
   ],
   "chronicle": [
     {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 342,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
       "text": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_cs": "Z Janova přichází varování o nebezpečné poště: v těchto pohnutých časech je třeba být mimořádně opatrný s korespondencí. Dopisy posílané z Janova mohou být zadrženy na hranicích a čteny nepřátelskými úředníky. Zkušení agenti doporučují psát vždy několik kopií, svěřit je do rukou spolehlivých přátel a odesílat je do cíle různými cestami.",
       "text_en": "A warning about dangerous mail comes from Genoa: in these troubled times, one must be exceptionally careful with correspondence. Letters sent from Genoa may be seized at the borders and read by hostile officials. Experienced agents advise always writing several copies, entrusting them to reliable friends, and sending them to their destination by different routes.",
@@ -2041,21 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 50
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 333,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
+      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "monastery_internal",
+      "tick": 342,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
     {
       "text": "Zápis koronera: Pod kovářovým vozem naloženým železem se prolomil zchátralý dřevěný most přes potok. Kovář i oba tažní koně utonuli pod těžkým nákladem. Radnice slíbila most do léta strhnout a postavit nový.",
       "text_cs": "Zápis koronera: Pod kovářovým vozem naloženým železem se prolomil zchátralý dřevěný most přes potok. Kovář i oba tažní koně utonuli pod těžkým nákladem. Radnice slíbila most do léta strhnout a postavit nový.",
@@ -2159,18 +2171,6 @@
       "type": "A",
       "icon": "📜",
       "source": "local_events",
-      "tick": 337,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
-      "text_cs": "Při katalogizaci jsem objevil knihu vloženou vzhůru nohama. Někdo musel tajně číst Vergilia a ve spěchu ho špatně uložil. Srovnal jsem ji. Řád musí být zachován i mezi pohany.",
-      "text_en": "While cataloging, I discovered a book inserted upside down. Someone must have been secretly reading Virgil and shelved it wrong in a hurry. I set it straight. Order must be maintained even among the pagans.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
       "tick": 337,
       "year": 1465,
       "season": "Podzim",
