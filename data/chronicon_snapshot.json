@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-22T00:31:50.952Z",
-  "valid_until": "2026-10-29T00:31:50.952Z",
+  "generated": "2026-10-22T09:17:34.688Z",
+  "valid_until": "2026-10-29T09:17:34.688Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 9,
-    "windKmH": 14,
-    "rainMm": 0.1,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 11,
+    "windKmH": 19,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 52,
-    "total_tick": 339,
+    "total_tick": 340,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 52"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 81,
-      "mood": 78,
+      "wealth": 82,
+      "mood": 79,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 93,
+      "mood": 92,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 95,
       "stores": 3,
       "status": "prosperujici",
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 98,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 94,
+      "mood": 91,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 92,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 85,
+      "mood": 86,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 88,
+      "wealth": 99,
+      "mood": 85,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 94,
+      "wealth": 98,
+      "mood": 92,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 95,
+      "mood": 93,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 77,
       "stores": 5,
       "status": "stable",
@@ -1815,6 +1815,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prata přišla zpráva o nepříjemném sporu: znalci ohodnotili výzdobu Datiniho rezidence na nehorázných šedesát florénů, což bylo zásadně odmítáno zaplatit. Po dlouhých a zbytečných tahanicích před cechovním soudem se nakonec po intervenci notáře Lapo Mazzeie muselo ustoupit a uhradit 55 florénů.",
+      "text_cs": "Z Prata přišla zpráva o nepříjemném sporu: znalci ohodnotili výzdobu Datiniho rezidence na nehorázných šedesát florénů, což bylo zásadně odmítáno zaplatit. Po dlouhých a zbytečných tahanicích před cechovním soudem se nakonec po intervenci notáře Lapo Mazzeie muselo ustoupit a uhradit 55 florénů.",
+      "text_en": "News came from Prato of an unpleasant dispute: experts valued the decoration of the Datini residence at an outrageous sixty florins, which was flatly refused. After long and pointless wrangling before the guild's court, following the intervention of the notary Lapo Mazzei, the house finally had to yield and pay 55 florins.",
+      "type": "D",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 340,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
+      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 340,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 340,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
+    {
       "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
@@ -2017,31 +2053,9 @@
       "year": 1465,
       "season": "Podzim",
       "day": 50
-    },
-    {
-      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 331,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 330,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
+    }
+  ],
+  "chronicle_local": [
     {
       "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
       "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
@@ -2049,13 +2063,23 @@
       "type": "B",
       "icon": "👑",
       "source": "local_events",
-      "tick": 330,
+      "tick": 340,
       "year": 1465,
       "season": "Podzim",
-      "day": 49
-    }
-  ],
-  "chronicle_local": [
+      "day": 52
+    },
+    {
+      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
+      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
+      "type": "B",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 340,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
     {
       "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
@@ -2151,33 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 51
-    },
-    {
-      "text": "Městem projelo velkolepé uherské poselstvo mířící do Čech. V průvodu bylo k vidění dvanáct velbloudů a několik vzácných loveckých sokolů. Brněnští měšťané lemovali ulice v úžasu.",
-      "text_cs": "Městem projelo velkolepé uherské poselstvo mířící do Čech. V průvodu bylo k vidění dvanáct velbloudů a několik vzácných loveckých sokolů. Brněnští měšťané lemovali ulice v úžasu.",
-      "text_en": "A magnificent Hungarian embassy heading for Bohemia passed through the town. Twelve camels and several rare hunting falcons were seen in the procession. The burghers of Brno lined the streets in amazement.",
-      "type": "E",
-      "icon": "🐪",
-      "source": "local_events",
-      "tick": 334,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 334,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prata přišla zpráva o nepříjemném sporu: znalci ohodnotili výzdobu Datiniho rezidence na nehorázných šedesát florénů, což bylo zásadně odmítáno zaplatit. Po dlouhých a zbytečných tahanicích před cechovním soudem se nakonec po intervenci notáře Lapo Mazzeie muselo ustoupit a uhradit 55 florénů.",
+      "text_cs": "Z Prata přišla zpráva o nepříjemném sporu: znalci ohodnotili výzdobu Datiniho rezidence na nehorázných šedesát florénů, což bylo zásadně odmítáno zaplatit. Po dlouhých a zbytečných tahanicích před cechovním soudem se nakonec po intervenci notáře Lapo Mazzeie muselo ustoupit a uhradit 55 florénů.",
+      "text_en": "News came from Prato of an unpleasant dispute: experts valued the decoration of the Datini residence at an outrageous sixty florins, which was flatly refused. After long and pointless wrangling before the guild's court, following the intervention of the notary Lapo Mazzei, the house finally had to yield and pay 55 florins.",
+      "type": "D",
+      "icon": "⚖️",
+      "source": "distant_events",
+      "tick": 340,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 52
+    },
     {
       "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
       "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
@@ -2282,18 +2294,6 @@
       "icon": "💰",
       "source": "distant_events",
       "tick": 326,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 48
-    },
-    {
-      "text": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_cs": "Z českých zemí: Pekaři v městech zemských hlásí, že mouky je nyní více než kdy za posledních dvacet let. Ceny klesly, lidé si mohou dovolit chléb častěji. Stará bída se pomalu zapomíná.",
-      "text_en": "From the Bohemian lands: bakers in the towns of the land report that there is now more flour than at any time these twenty years past. Prices have fallen, and people can afford bread more often. The old want is slowly forgotten.",
-      "type": "A",
-      "icon": "🍞",
-      "source": "distant_events",
-      "tick": 325,
       "year": 1465,
       "season": "Podzim",
       "day": 48
