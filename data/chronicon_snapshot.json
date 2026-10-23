@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-23T14:49:03.692Z",
-  "valid_until": "2026-10-30T14:49:03.692Z",
+  "generated": "2026-10-23T19:52:29.091Z",
+  "valid_until": "2026-10-30T19:52:29.091Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 12,
-    "windKmH": 6,
+    "tempC": 10,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 53,
-    "total_tick": 345,
+    "total_tick": 346,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 53"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 81,
-      "mood": 74,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 84,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 86,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,7 +166,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 78,
       "stores": 2,
       "status": "stable",
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 86,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 81,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 78,
+      "mood": 79,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 81,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 80,
+      "wealth": 97,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 73,
+      "mood": 75,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 346,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 346,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
       "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
       "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
       "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
@@ -2033,33 +2057,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 51
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 338,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 337,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 346,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
     {
       "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
       "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
@@ -2167,21 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 52
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 340,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
+      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
+      "type": "C",
+      "icon": "🕯️",
+      "source": "distant_events",
+      "tick": 346,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
     {
       "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
       "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
@@ -2286,18 +2298,6 @@
       "icon": "⛪",
       "source": "distant_events",
       "tick": 333,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
-    },
-    {
-      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
-      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
-      "type": "B",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 332,
       "year": 1465,
       "season": "Podzim",
       "day": 50
