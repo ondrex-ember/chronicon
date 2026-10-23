@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-23T00:28:49.389Z",
-  "valid_until": "2026-10-30T00:28:49.389Z",
+  "generated": "2026-10-23T09:13:20.706Z",
+  "valid_until": "2026-10-30T09:13:20.706Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 9,
+    "tempC": 9,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 53,
-    "total_tick": 343,
+    "total_tick": 344,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 53"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 81,
-      "mood": 77,
+      "wealth": 82,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 86,
+      "mood": 85,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -142,7 +142,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 89,
       "stores": 3,
       "status": "prosperujici",
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 79,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 87,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 81,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 84,
+      "wealth": 96,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 89,
+      "mood": 88,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 74,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1819,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
+      "type": "A",
+      "icon": "🔨",
+      "source": "distant_events",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
+      "text": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
+      "text_cs": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
+      "text_en": "The Lord blessed the local orchards with an extraordinary harvest of apples, pears, and plums. There is so much fruit that it is literally given away for free to the poor, and drying kilns run at full capacity. Housewives are preparing plum jam and fruit spirits for long winter evenings.",
+      "type": "E",
+      "icon": "🍎",
+      "source": "local_events",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
       "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
       "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
       "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
@@ -2021,45 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 51
-    },
-    {
-      "text": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_cs": "Dovoz polské soli po starých stezkách je neustále přerušován kvůli drancujícím zbojníkům. Sůl na trhu podražila o čtvrtinu, což omezuje řezníky v přípravách uzenin. Radní volají po sjednání ozbrojené pohraniční hotovosti, aby ochránila plynulý tok obchodních povozů.",
-      "text_en": "The import of Polish salt along old trails is constantly disrupted due to plundering bandits. Salt on the market has become a quarter more expensive, limiting butchers in their preparation of smoked meats. Aldermen are calling for the formation of an armed border militia to protect the steady flow of merchant wagons.",
-      "type": "C",
-      "icon": "🧂",
-      "source": "local_events",
-      "tick": 335,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_cs": "Z análů: o vigilii svatých Petra a Pavla, po první hodině noční, zapálil hrom střechu kostela svatého Jiljí v Praze a shořela celá. Náš konvrš Jiljí se u toho zápisu pokaždé ošije. Jmenovec, říká, za nic nemůže.",
-      "text_en": "From the annals: on the vigil of Saints Peter and Paul, past the first hour of night, a thunderbolt set the roof of St Giles's church in Prague alight and it burned entire. Our lay brother Jiljí squirms at that entry every time. The namesake, he says, is not to blame.",
-      "type": "A",
-      "icon": "⚡",
-      "source": "monastery_internal",
-      "tick": 335,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 334,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
+      "text_cs": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
+      "text_en": "The Lord blessed the local orchards with an extraordinary harvest of apples, pears, and plums. There is so much fruit that it is literally given away for free to the poor, and drying kilns run at full capacity. Housewives are preparing plum jam and fruit spirits for long winter evenings.",
+      "type": "E",
+      "icon": "🍎",
+      "source": "local_events",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
     {
       "text": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
       "text_cs": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
@@ -2155,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 52
-    },
-    {
-      "text": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_cs": "Z Vyškova: Chamtivý sedlák byl přistižen, jak v noci přeřezal proutěný plot a odváděl sousedovy nejlepší ovce. Rychtář ho odsoudil k vrácení zvířat a k potupnému stání u pranýře po dobu dvou trhových dnů.",
-      "text_en": "From Vyškov: A greedy farmer was caught cutting a wattle fence at night and leading away his neighbor's best sheep. The alderman sentenced him to return the animals and to stand shamefully at the pillory for two market days.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "local_events",
-      "tick": 338,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_cs": "Sklepmistr mi odmítl vydat koření na zítřejší omáčku s tvrzením, že pravá zbožnost nevyžaduje pepř. Podal jsem tedy bratrům k večeři vařený tuřín bez chuti. Uvidíme, jak silná je sklepmistrova víra zítra.",
-      "text_en": "The cellarer refused to give me spices for tomorrow's sauce, claiming true piety does not require pepper. I therefore served the brothers boiled tasteless turnips for dinner. Let us see how strong the cellarer's faith is tomorrow.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 338,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
+      "type": "A",
+      "icon": "🔨",
+      "source": "distant_events",
+      "tick": 344,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 53
+    },
     {
       "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
       "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
@@ -2286,18 +2298,6 @@
       "icon": "🔥",
       "source": "distant_events",
       "tick": 330,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 49
-    },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 329,
       "year": 1465,
       "season": "Podzim",
       "day": 49
