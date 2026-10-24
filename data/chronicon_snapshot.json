@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-24T00:24:38.884Z",
-  "valid_until": "2026-10-31T00:24:38.884Z",
+  "generated": "2026-10-24T08:46:35.789Z",
+  "valid_until": "2026-10-31T08:46:35.789Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -68,7 +68,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 10,
-    "windKmH": 12,
+    "windKmH": 21,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 54,
-    "total_tick": 347,
+    "total_tick": 348,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 54"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 82,
-      "mood": 74,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 82,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 84,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 97,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 77,
+      "mood": 76,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 78,
+      "wealth": 96,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 74,
+      "mood": 73,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
+      "text_cs": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
+      "text_en": "From Kroměříž: A bishop's official posted a strict ban on night-time drinking and dancing for all clergy on the church doors, under threat of losing their benefices. Three young vicars have already had to pay a fine of five groats.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 348,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 54
+    },
+    {
+      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
+      "type": "C",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 348,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 54
+    },
+    {
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
       "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
       "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
@@ -2029,33 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 52
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 339,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 339,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
+      "text_cs": "Z Kroměříže: Biskupský úředník vyvěsil na dveře kostela přísný zákaz nočních pitek a tanců pro všechny duchovní pod hrozbou odnětí obročí. Tři mladí vikáři již museli zaplatit pokutu pět grošů.",
+      "text_en": "From Kroměříž: A bishop's official posted a strict ban on night-time drinking and dancing for all clergy on the church doors, under threat of losing their benefices. Three young vicars have already had to pay a fine of five groats.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 348,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 54
+    },
+    {
+      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
+      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
+      "type": "C",
+      "icon": "🗝️",
+      "source": "monastery_internal",
+      "tick": 348,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 54
+    },
     {
       "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
       "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
@@ -2148,30 +2172,6 @@
       "icon": "🐴",
       "source": "monastery_internal",
       "tick": 342,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
-    },
-    {
-      "text": "Zápis koronera: Pod kovářovým vozem naloženým železem se prolomil zchátralý dřevěný most přes potok. Kovář i oba tažní koně utonuli pod těžkým nákladem. Radnice slíbila most do léta strhnout a postavit nový.",
-      "text_cs": "Zápis koronera: Pod kovářovým vozem naloženým železem se prolomil zchátralý dřevěný most přes potok. Kovář i oba tažní koně utonuli pod těžkým nákladem. Radnice slíbila most do léta strhnout a postavit nový.",
-      "text_en": "Coroner's record: A dilapidated wooden bridge over the stream collapsed under a blacksmith's wagon loaded with iron. The blacksmith and both draft horses drowned beneath the heavy cargo. The town hall promised to tear the bridge down and build a new one by summer.",
-      "type": "D",
-      "icon": "🌉",
-      "source": "local_events",
-      "tick": 341,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
-    },
-    {
-      "text": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_cs": "Při čištění řetězů u svázaných rukopisů jsem zjistil, že bratr Ambrož používá jeden z foliantů jako podložku pod kratší nohu u stolu. Opat to vyřešil tím, že Ambrožovi nařídil stát celou studii na jedné noze.",
-      "text_en": "While cleaning the chains of the bound manuscripts, I discovered that Brother Ambrose uses one of the tomes as a prop for a short table leg. The abbot resolved this by ordering Ambrose to stand on one leg during the entire study period.",
-      "type": "D",
-      "icon": "🔗",
-      "source": "monastery_internal",
-      "tick": 341,
       "year": 1465,
       "season": "Podzim",
       "day": 52
