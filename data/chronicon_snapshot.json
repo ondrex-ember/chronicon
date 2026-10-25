@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-25T00:08:32.892Z",
-  "valid_until": "2026-11-01T00:08:32.892Z",
+  "generated": "2026-10-25T09:02:32.494Z",
+  "valid_until": "2026-11-01T09:02:32.494Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 5,
-    "windKmH": 12,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 9,
+    "windKmH": 19,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 55,
-    "total_tick": 351,
+    "total_tick": 352,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 55"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 84,
+      "wealth": 83,
       "mood": 75,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 78,
+      "mood": 77,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 74,
       "stores": 2,
       "status": "stable",
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 96,
-      "mood": 77,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 97,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 96,
-      "mood": 80,
+      "wealth": 95,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 73,
+      "mood": 72,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 81,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 74,
+      "wealth": 95,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 84,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
+      "type": "B",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 352,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
+      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 352,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
       "text": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
       "text_cs": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
       "text_en": "From Jihlava: An armed group ambushed a transport of silver bars heading to the royal mint. The guards were beaten and tied up in the forest. Burghers fear the robbers have allies right in the town hall.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 53
-    },
-    {
-      "text": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_cs": "Dnes byl do rodinné hrobky uložen nejbohatší brněnský obchodník se suknem. Pozůstalá rodina zanechala na oltáři značný finanční dar a nechala rozdat chudým před kostelem sto bílých chlebů. Dlouhý průvod truchlících blokoval hlavní ulici po celé odpoledne.",
-      "text_en": "Today, the richest broadcloth merchant in Brno was laid to rest in his family tomb. The surviving family left a substantial financial donation on the altar and had a hundred white loaves of bread distributed to the poor in front of the church. The long procession of mourners blocked the main street all afternoon.",
-      "type": "A",
-      "icon": "🕊️",
-      "source": "local_events",
-      "tick": 343,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
-    },
-    {
-      "text": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_cs": "Biskupův vyslanec přijel na koni, který byl zjevně lépe živen než on sám. Zavedl jsem koně do stáje a vyslance k opatovi. U koně bylo jasné, co mu dát, u vyslance si nejsem jist vůbec ničím.",
-      "text_en": "The bishop's envoy arrived on a horse that was clearly better fed than he was. I led the horse to the stable and the envoy to the abbot. With the horse, it was clear what to give him; with the envoy, I am sure of nothing.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "monastery_internal",
-      "tick": 342,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 52
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
+      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
+      "type": "C",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 352,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
       "text_cs": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 53
-    },
-    {
-      "text": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_cs": "Na výročním trhu ve Vyškově skoupili norimberští obchodníci veškerý včelí vosk. Cena stoupla na tři groše za hroudu. Místní svíčkaři protestovali u purkmistra, avšak bez úspěchu.",
-      "text_en": "At the annual market in Vyškov, Nuremberg merchants bought up all the beeswax. The price rose to three groats per lump. Local chandlers protested to the burgomaster, but without success.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "local_events",
-      "tick": 345,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
+      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
+      "type": "B",
+      "icon": "🛡️",
+      "source": "distant_events",
+      "tick": 352,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
       "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
@@ -2285,18 +2297,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 51
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 334,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 50
     }
   ],
   "church_calendar": {
