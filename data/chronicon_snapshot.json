@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-25T14:12:15.150Z",
-  "valid_until": "2026-11-01T14:12:15.150Z",
+  "generated": "2026-10-25T18:49:29.763Z",
+  "valid_until": "2026-11-01T18:49:29.763Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 10,
-    "windKmH": 15,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 11,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 55,
-    "total_tick": 353,
+    "total_tick": 354,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 55"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 83,
-      "mood": 76,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 77,
       "stores": 9,
       "status": "prosperujici",
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 77,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 74,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 97,
-      "mood": 79,
+      "wealth": 96,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 96,
-      "mood": 77,
+      "wealth": 95,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 73,
       "stores": 1,
       "status": "prosperujici",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 94,
-      "mood": 75,
+      "mood": 73,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 71,
+      "mood": 72,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 354,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
+      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 354,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
       "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
       "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
       "text_en": "In 1365 the body of St Sigismund was brought to the land.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 53
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 345,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
-    },
-    {
-      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
-      "type": "A",
-      "icon": "🔨",
-      "source": "distant_events",
-      "tick": 344,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
+      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
+      "type": "C",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 354,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
       "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 54
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 348,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
+      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 354,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
       "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
@@ -2285,18 +2297,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 52
-    },
-    {
-      "text": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_cs": "Manželka kupce z Prata píše svému muži v Avignonu: Zahrada prospívá, sousedka porodila dvojčata, obě holky. Vrátí se pro Vánoce nebo ne? Sluha ukradl víno. Ať se nestarám sama o všechno.",
-      "text_en": "The merchant's wife from Prato writes to her husband in Avignon: The garden is doing well, the neighbor gave birth to twins, both girls. Will he return for Christmas or not? The servant stole wine. She should not have to manage everything alone.",
-      "type": "A",
-      "icon": "✉️",
-      "source": "distant_events",
-      "tick": 336,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
     }
   ],
   "church_calendar": {
