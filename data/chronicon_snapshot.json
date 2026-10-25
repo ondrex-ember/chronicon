@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-25T09:02:32.494Z",
-  "valid_until": "2026-11-01T09:02:32.494Z",
+  "generated": "2026-10-25T14:12:15.150Z",
+  "valid_until": "2026-11-01T14:12:15.150Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Déšť",
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 9,
-    "windKmH": 19,
+    "tempC": 10,
+    "windKmH": 15,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 0.95,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 55,
-    "total_tick": 352,
+    "total_tick": 353,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 55"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 83,
-      "mood": 75,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 100,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 97,
-      "mood": 80,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 95,
-      "mood": 79,
+      "wealth": 96,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 72,
+      "mood": 73,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 95,
-      "mood": 76,
+      "wealth": 94,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +330,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 84,
       "stores": 1,
       "status": "stable",
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 70,
+      "wealth": 99,
+      "mood": 71,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
+      "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
+      "text_en": "In 1365 the body of St Sigismund was brought to the land.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
+      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
+      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
+      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
       "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
@@ -2017,45 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 53
-    },
-    {
-      "text": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
-      "text_cs": "Pán požehnal zdejším sadům mimořádnou úrodou jablek, hrušek a švestek. Ovoce je tolik, že se doslova zadarmo rozdává chudině, a sušárny jedou naplno. Hospodyně připravují povidla a ovocné destiláty na dlouhé zimní večery.",
-      "text_en": "The Lord blessed the local orchards with an extraordinary harvest of apples, pears, and plums. There is so much fruit that it is literally given away for free to the poor, and drying kilns run at full capacity. Housewives are preparing plum jam and fruit spirits for long winter evenings.",
-      "type": "E",
-      "icon": "🍎",
-      "source": "local_events",
-      "tick": 344,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 344,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 343,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
+      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
+      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
+      "type": "A",
+      "icon": "🪙",
+      "source": "local_events",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
+    {
+      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
+      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
+      "type": "A",
+      "icon": "🌱",
+      "source": "monastery_internal",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
       "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
@@ -2151,33 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 54
-    },
-    {
-      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
-      "type": "E",
-      "icon": "🐟",
-      "source": "monastery_internal",
-      "tick": 347,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 346,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
+      "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
+      "text_en": "In 1365 the body of St Sigismund was brought to the land.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 353,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 55
+    },
     {
       "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
       "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
@@ -2282,18 +2294,6 @@
       "icon": "✉️",
       "source": "distant_events",
       "tick": 336,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 51
-    },
-    {
-      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
-      "type": "D",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 335,
       "year": 1465,
       "season": "Podzim",
       "day": 51
