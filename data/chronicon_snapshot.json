@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-25T23:59:45.674Z",
-  "valid_until": "2026-11-01T23:59:45.674Z",
+  "generated": "2026-10-26T09:56:51.444Z",
+  "valid_until": "2026-11-02T09:56:51.444Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 17,
+    "tempC": 11,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 56,
-    "total_tick": 355,
+    "total_tick": 356,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 56"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 82,
-      "mood": 75,
+      "wealth": 81,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 76,
+      "mood": 75,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 72,
+      "mood": 70,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 97,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 78,
       "stores": 5,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 74,
+      "mood": 73,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 74,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 95,
-      "mood": 74,
+      "wealth": 94,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 356,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 56
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 356,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 56
+    },
+    {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
@@ -2029,33 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 54
-    },
-    {
-      "text": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_cs": "Dnes se mi podařilo připravit kapra tak, že i převor dvakrát přikývl. Sklepmistr se to snažil pokazit dodáním zteplalého piva k obědu. Moje kulinářské umění však zvítězilo nad jeho sabotáží.",
-      "text_en": "Today I managed to prepare the carp so well that even the prior nodded twice. The cellarer tried to ruin it by supplying warm beer for lunch. However, my culinary art triumphed over his sabotage.",
-      "type": "E",
-      "icon": "🐟",
-      "source": "monastery_internal",
-      "tick": 347,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 346,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
+      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
+      "type": "B",
+      "icon": "🔥",
+      "source": "local_events",
+      "tick": 356,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 56
+    },
+    {
+      "text": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_cs": "Přelil jsem včerejší zbytky piva do menšího sudu a označil to jako novou várku. Pokud si někdo stěžuje, poukazuji na tajemství kvašení. V číslech mám naprostý pořádek, chuť je věcí Boží milosti.",
+      "text_en": "I poured yesterday's leftover beer into a smaller barrel and marked it as a new batch. If anyone complains, I point to the mysteries of fermentation. My numbers are in perfect order; taste is a matter of God's grace.",
+      "type": "A",
+      "icon": "🛢️",
+      "source": "monastery_internal",
+      "tick": 356,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 56
+    },
     {
       "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
       "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
@@ -2151,30 +2175,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_cs": "Řeka Bečva se otevírá obchodu, připluly sem první čluny naložené sudy rakouského vína. Zboží je ihned překládáno na selské vozy a pod těžkou stráží pokračuje severně přes Hranice do Slezska. Rychtář pečlivě zaznamenává vybrané říční i silniční clo.",
-      "text_en": "The Bečva River opens for trade; the first boats loaded with barrels of Austrian wine have arrived. The goods are immediately transferred to peasant wagons and, under heavy guard, continue north via Hranice to Silesia. The alderman carefully records the collected river and road tolls.",
-      "type": "C",
-      "icon": "🍷",
-      "source": "local_events",
-      "tick": 350,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
-    },
-    {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 349,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
     }
   ],
   "chronicle_distant": [
