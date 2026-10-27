@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-27T09:42:21.210Z",
-  "valid_until": "2026-11-03T09:42:21.210Z",
+  "generated": "2026-10-27T15:47:49.491Z",
+  "valid_until": "2026-11-03T15:47:49.491Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 8,
+    "key": "autumn_golden",
+    "name": "Zlaté babí léto",
+    "icon": "🍂",
+    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
+    "tempC": 13,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1.05,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 57,
-    "total_tick": 359,
+    "total_tick": 360,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 57"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 83,
-      "mood": 74,
+      "wealth": 84,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 73,
       "stores": 9,
       "status": "prosperujici",
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 74,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 98,
+      "mood": 71,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 77,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 94,
-      "mood": 74,
+      "mood": 73,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 73,
+      "wealth": 97,
+      "mood": 72,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 93,
-      "mood": 74,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 82,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1815,6 +1815,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 360,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
@@ -2041,21 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
-      "text_cs": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
-      "text_en": "From Jihlava: An armed group ambushed a transport of silver bars heading to the royal mint. The guards were beaten and tied up in the forest. Burghers fear the robbers have allies right in the town hall.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 351,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 360,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
     {
       "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
       "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
@@ -2160,18 +2172,6 @@
       "icon": "📜",
       "source": "local_events",
       "tick": 354,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 353,
       "year": 1465,
       "season": "Podzim",
       "day": 55
