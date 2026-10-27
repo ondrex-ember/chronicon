@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-27T15:47:49.491Z",
-  "valid_until": "2026-11-03T15:47:49.491Z",
+  "generated": "2026-10-27T20:31:49.284Z",
+  "valid_until": "2026-11-03T20:31:49.284Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_golden",
-    "name": "Zlaté babí léto",
-    "icon": "🍂",
-    "desc": "Nádherné babí léto. Poutníci přicházejí naposledy před zimou.",
-    "tempC": 13,
-    "windKmH": 6,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 9,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.05,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 57,
-    "total_tick": 360,
+    "total_tick": 361,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 57"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 84,
-      "mood": 76,
+      "mood": 77,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 73,
+      "mood": 74,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 76,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 71,
+      "mood": 70,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 76,
       "stores": 5,
       "status": "prosperujici",
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 94,
-      "mood": 73,
+      "mood": 72,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 72,
       "stores": 1,
       "status": "prosperujici",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 69,
+      "wealth": 99,
+      "mood": 71,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 93,
-      "mood": 76,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 80,
+      "mood": 81,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 97,
-      "mood": 75,
+      "wealth": 96,
+      "mood": 73,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 361,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
+      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
+      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
+      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 361,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
       "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
       "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
       "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
@@ -2029,33 +2053,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
-      "type": "B",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 352,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 352,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
+      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
+      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 361,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
     {
       "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
       "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
@@ -2163,21 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 56
-    },
-    {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 354,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
+      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 361,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
     {
       "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
       "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
@@ -2282,18 +2294,6 @@
       "icon": "🕯️",
       "source": "distant_events",
       "tick": 346,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
-    },
-    {
-      "text": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_cs": "Z moravských krajů, pamět stará: Ves jedna za válek husitských zanikla zcela, jen jméno v deskách zemských zůstalo. Kde stávaly chalupy, dnes roste les. Pastýři tomu místu říkají Tichá.",
-      "text_en": "From the Moravian lands, an old memory: a certain village perished utterly during the Hussite wars; only its name remained in the land registers. Where cottages once stood, a forest now grows. The shepherds call that place the Silent Place.",
-      "type": "D",
-      "icon": "🌫️",
-      "source": "distant_events",
-      "tick": 345,
       "year": 1465,
       "season": "Podzim",
       "day": 53
