@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-26T16:42:39.809Z",
-  "valid_until": "2026-11-02T16:42:39.809Z",
+  "generated": "2026-10-27T01:19:35.339Z",
+  "valid_until": "2026-11-03T01:19:35.339Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 6,
+    "tempC": 4,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 56,
-    "total_tick": 357,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 56"
+    "day": 57,
+    "total_tick": 358,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 57"
   },
   "actors": [
     {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 74,
+      "wealth": 99,
+      "mood": 76,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 71,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 97,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 73,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 97,
-      "mood": 77,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 94,
+      "wealth": 95,
       "mood": 76,
       "stores": 5,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 73,
+      "mood": 72,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 73,
+      "wealth": 100,
+      "mood": 71,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 94,
-      "mood": 75,
+      "wealth": 93,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 97,
-      "mood": 83,
+      "mood": 81,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 97,
-      "mood": 72,
+      "wealth": 96,
+      "mood": 74,
       "stores": 5,
       "status": "stable",
       "relations": {
@@ -1815,6 +1815,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
+      "type": "B",
+      "icon": "🐄",
+      "source": "local_events",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
@@ -2017,45 +2053,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 54
-    },
-    {
-      "text": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
-      "text_cs": "Léta téhož táboři a sirotci v Slezí mnoho měst dobyli sú.",
-      "text_en": "That year the Taborites and Orphans took many towns in Silesia.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 349,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
-    },
-    {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 349,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
-    },
-    {
-      "text": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_cs": "Má teorie o prospěšnosti konzumace křídy proti žaludečním vředům byla dnes otestována. Bratr skriptor si ji olízl omylem a přežil. Zítra nabídnu prášek z vápence celému sboru.",
-      "text_en": "My theory about the benefits of consuming chalk against stomach ulcers was tested today. Brother scribe licked it by mistake and survived. Tomorrow I will offer limestone powder to the whole choir.",
-      "type": "E",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 349,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 54
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
+      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
+      "type": "B",
+      "icon": "🐄",
+      "source": "local_events",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
+    {
+      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
+      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "monastery_internal",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
     {
       "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
       "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
@@ -2151,33 +2175,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_cs": "Městská rada udělila oficiální povolení dvěma sběračům hadrů, aby vykupovali starý len a konopí od místních obyvatel. Tento materiál je následně po vozech odvážen do nově založené papírny na řece. Pergameníci si stěžují, že toto nové řemeslo přináší do města jen zápach a špínu.",
-      "text_en": "The town council granted official permission to two rag gatherers to buy old linen and hemp from local residents. This material is subsequently carted away to a newly established paper mill on the river. Parchment makers complain that this new trade brings only stench and dirt to the town.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 352,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
-      "text_cs": "Z Jihlavy: Ozbrojená skupina přepadla transport stříbrných prutů směřující do královské mincovny. Strážní byli zbiti a svázáni v lese. Měšťané se bojí, že lapkové mají spojence přímo na radnici.",
-      "text_en": "From Jihlava: An armed group ambushed a transport of silver bars heading to the royal mint. The guards were beaten and tied up in the forest. Burghers fear the robbers have allies right in the town hall.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 351,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
+      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
+      "type": "C",
+      "icon": "✝️",
+      "source": "distant_events",
+      "tick": 358,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 57
+    },
     {
       "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
       "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
@@ -2285,22 +2297,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 53
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 343,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "church_calendar": {
-    "day_of_year": 236,
+    "day_of_year": 237,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
