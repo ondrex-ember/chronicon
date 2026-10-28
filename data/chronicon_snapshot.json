@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-27T20:31:49.284Z",
-  "valid_until": "2026-11-03T20:31:49.284Z",
+  "generated": "2026-10-28T01:03:18.411Z",
+  "valid_until": "2026-11-04T01:03:18.411Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 4,
+    "tempC": 6,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 57,
-    "total_tick": 361,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 57"
+    "day": 58,
+    "total_tick": 362,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 58"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 84,
-      "mood": 77,
+      "mood": 78,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 74,
+      "mood": 75,
       "stores": 9,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 75,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 73,
+      "wealth": 97,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 70,
+      "mood": 69,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -210,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 74,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 94,
-      "mood": 72,
+      "mood": 73,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 96,
-      "mood": 72,
+      "wealth": 95,
+      "mood": 73,
       "stores": 1,
       "status": "prosperujici",
       "relations": {
@@ -282,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 71,
+      "wealth": 98,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 93,
-      "mood": 74,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 96,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 73,
       "stores": 5,
       "status": "stable",
@@ -1815,6 +1819,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
+      "text_cs": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
+      "text_en": "In 1345 King John lay before the city of Kraków, and bread ran very short in the town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
+    {
+      "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
+      "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
+      "text_en": "From Bystřice: Local hunters managed to trap a massive bear that had been plaguing mountain homesteads in a deep pit. The beast was carted off in a cage to entertain the duke, while the hunters celebrate a rich reward.",
+      "type": "E",
+      "icon": "🐻",
+      "source": "local_events",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
+    {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
@@ -2017,45 +2057,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
-      "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
-      "text_en": "In 1365 the body of St Sigismund was brought to the land.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 353,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 353,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_cs": "Zahradník zapsal: Stromy, jež dnes ovoce nesou, sázel ještě bratr před ním, an válka skončila a pole se obnovovala. Sám prý říkal, že sází pro ty, kdo přijdou po něm, ne pro sebe.",
-      "text_en": "The gardener wrote: the trees that today bear fruit were planted by the brother before him, when the war had ended and the fields were being restored anew. He himself, it is said, would say he planted for those who should come after him, not for himself.",
-      "type": "A",
-      "icon": "🌱",
-      "source": "monastery_internal",
-      "tick": 353,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
+      "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
+      "text_en": "From Bystřice: Local hunters managed to trap a massive bear that had been plaguing mountain homesteads in a deep pit. The beast was carted off in a cage to entertain the duke, while the hunters celebrate a rich reward.",
+      "type": "E",
+      "icon": "🐻",
+      "source": "local_events",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
+    {
+      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
+      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
+      "type": "A",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
     {
       "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
       "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
@@ -2151,33 +2179,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 56
-    },
-    {
-      "text": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_cs": "Známý zloděj koní, po kterém pátrali biřici v celém kraji, udělal osudovou chybu. Pokusil se ukrást hřebce přímo z biskupských stájí, ale hlídači ho chytili při činu a na místě ubili palcáty. Jeho tělo bylo pohozeno za hradbami bez řádného křesťanského pohřbu.",
-      "text_en": "A known horse thief, sought by catchpoles throughout the region, made a fatal mistake. He attempted to steal a stallion straight from the bishop's stables, but the guards caught him in the act and beat him to death with maces on the spot. His body was dumped outside the walls without a proper Christian burial.",
-      "type": "D",
-      "icon": "🐎",
-      "source": "local_events",
-      "tick": 355,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 56
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 355,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 56
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
+      "text_cs": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
+      "text_en": "In 1345 King John lay before the city of Kraków, and bread ran very short in the town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 362,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 58
+    },
     {
       "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
       "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
@@ -2285,22 +2301,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 54
-    },
-    {
-      "text": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_cs": "Ze zápisků zbraslavských: V mnohých klášterech zemských se nyní zvláštní modlitby konají za mír mezi králem a pány. Opati si dopisují mezi sebou, jak dlouho to ještě potrvá, nikdo z nich neví.",
-      "text_en": "From the Zbraslav notes: in many monasteries of the land special prayers are now said for peace between the king and the lords. The abbots write to one another asking how long this shall yet endure, and none of them knoweth.",
-      "type": "C",
-      "icon": "🕯️",
-      "source": "distant_events",
-      "tick": 346,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 53
     }
   ],
   "church_calendar": {
-    "day_of_year": 237,
+    "day_of_year": 238,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
