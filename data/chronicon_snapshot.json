@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-29T10:47:30.006Z",
-  "valid_until": "2026-11-05T10:47:30.006Z",
+  "generated": "2026-10-29T20:57:59.654Z",
+  "valid_until": "2026-11-05T20:57:59.654Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 9,
+    "tempC": 6,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 59,
-    "total_tick": 366,
+    "total_tick": 367,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 59"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 79,
-      "mood": 75,
+      "wealth": 78,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 96,
+      "wealth": 99,
+      "mood": 92,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 98,
+      "mood": 97,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 83,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 93,
+      "mood": 91,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 90,
+      "wealth": 98,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 77,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 83,
+      "wealth": 97,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 97,
+      "wealth": 99,
+      "mood": 93,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -1852,6 +1852,30 @@
   ],
   "chronicle": [
     {
+      "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "local_events",
+      "tick": 367,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 367,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
       "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
@@ -2066,33 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 358,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
-    },
-    {
-      "text": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
-      "text_cs": "Zpráva z Opavy: Mezi dobytkem na knížecích pastvinách se šíří krvavá slintavka, přes padesát kusů již uhynulo. Místní rychtáři zakázali převoz masa z nakažených obcí pod trestem bičování.",
-      "text_en": "News from Opava: A bloody foot-and-mouth disease is spreading among cattle on the ducal pastures; over fifty head have already died. Local aldermen have forbidden the transport of meat from infected villages under penalty of flogging.",
-      "type": "B",
-      "icon": "🐄",
-      "source": "local_events",
-      "tick": 358,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
+      "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
+      "type": "B",
+      "icon": "🏹",
+      "source": "local_events",
+      "tick": 367,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 367,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
     {
       "text": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
       "text_cs": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
@@ -2188,30 +2212,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 58
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 362,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 361,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_distant": [
