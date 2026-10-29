@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-29T01:39:54.037Z",
-  "valid_until": "2026-11-05T01:39:54.037Z",
+  "generated": "2026-10-29T10:47:30.006Z",
+  "valid_until": "2026-11-05T10:47:30.006Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 6,
+    "tempC": 11,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 59,
-    "total_tick": 365,
+    "total_tick": 366,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 59"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 78,
-      "mood": 74,
+      "wealth": 79,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 99,
+      "mood": 96,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 99,
+      "mood": 98,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 86,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 90,
       "stores": 5,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 79,
+      "mood": 77,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 95,
+      "mood": 93,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 83,
       "stores": 3,
       "status": "stable",
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 98,
+      "mood": 97,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -1852,6 +1852,18 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 366,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
       "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
       "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
       "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
@@ -2078,18 +2090,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_cs": "Z análů: Léta MCCCXLII bylo drahé léto v Čechách — strych žita za kopu, pšenice za sedmdesát grošů, ječmene za padesát. Bratr celerář ta čísla předčítá pokaždé, když někdo reptá na cenu na olomouckém trhu.",
-      "text_en": "From the annals: 1342 was a dear year in Bohemia — a strych of rye for a threescore of groschen, wheat for seventy, barley for fifty. Brother cellarer recites those figures whenever anyone grumbles at the Olomouc market price.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "monastery_internal",
-      "tick": 358,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_local": [
@@ -2216,6 +2216,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 366,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
       "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
       "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
       "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
@@ -2319,18 +2331,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 354,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
-    },
-    {
-      "text": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
-      "text_cs": "Léta tisíc CCCLXV přineseno jest tělo svatého Sigmunda.",
-      "text_en": "In 1365 the body of St Sigismund was brought to the land.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 353,
       "year": 1465,
       "season": "Podzim",
       "day": 55
