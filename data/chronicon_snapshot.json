@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-28T20:52:56.962Z",
-  "valid_until": "2026-11-04T20:52:56.962Z",
+  "generated": "2026-10-29T01:39:54.037Z",
+  "valid_until": "2026-11-05T01:39:54.037Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 10,
-    "windKmH": 5,
+    "tempC": 9,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 58,
-    "total_tick": 364,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 58"
+    "day": 59,
+    "total_tick": 365,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 59"
   },
   "actors": [
     {
@@ -95,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 78,
-      "mood": 75,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 100,
+      "mood": 99,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 86,
       "stores": 2,
       "status": "stable",
@@ -191,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 85,
+      "mood": 84,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -215,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 96,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 91,
+      "mood": 90,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -287,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 97,
+      "mood": 95,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -311,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 84,
+      "mood": 83,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -335,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 100,
+      "mood": 98,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -367,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 91,
+      "mood": 90,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1852,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
+      "type": "C",
+      "icon": "🏛️",
+      "source": "distant_events",
+      "tick": 365,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
+      "text": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
+      "text_cs": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
+      "text_en": "Hungarian King Matthias Corvinus concluded a truce with the Turks and officially declared war on Prince Victorin in Trnava. With this intervention, domestic skirmishes turn into a major international conflict. Corvinus's army, numbering thousands of men, is already on the march toward the Moravian borders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 365,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
+    {
       "text": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
       "text_cs": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
       "text_en": "The deputy of the local bailiff was caught at night playing dice with dubious strangers in a coaching inn. When he lost everything, he tried to flee without paying, which resulted in a massive uproar and broken barrels. The parish priest publicly denied him holy communion the next day for obvious scandal.",
@@ -2070,33 +2090,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
-      "text_cs": "Z českých zemí zpráva stará: Páni se prý spolčili, slib daný před oltářem, že víru otců svých brániti budou, byť proti králi samému. Co z toho vzejde, ví jen Bůh a oni sami.",
-      "text_en": "An old report from the Bohemian lands: lords are said to have banded together, vowing before the altar to defend the faith of their fathers, even against the king himself. What shall come of it, God alone knoweth, and they themselves.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 357,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 56
-    },
-    {
-      "text": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_cs": "Z jihu přijelo nádherně oděné poselstvo krále Matyáše Korvína vyjednávat o podpoře katolických pánů. Město hosty uvítalo otevřenými sklepy a bohatou hostinou na náměstí. Konšelé věří, že spojenectví zajistí klidné obchodní cesty směrem do Vídně a Uher.",
-      "text_en": "A magnificently dressed embassy from King Matthias Corvinus arrived from the south to negotiate support from Catholic lords. The town welcomed the guests with open cellars and a rich feast in the square. Aldermen believe the alliance will ensure peaceful trade routes toward Vienna and Hungary.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 357,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 56
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
+      "text_cs": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
+      "text_en": "Hungarian King Matthias Corvinus concluded a truce with the Turks and officially declared war on Prince Victorin in Trnava. With this intervention, domestic skirmishes turn into a major international conflict. Corvinus's army, numbering thousands of men, is already on the march toward the Moravian borders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 365,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
     {
       "text": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
       "text_cs": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
@@ -2204,21 +2212,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 360,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
+      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
+      "type": "C",
+      "icon": "🏛️",
+      "source": "distant_events",
+      "tick": 365,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 59
+    },
     {
       "text": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
       "text_cs": "Kupec, jenž z Porýní přijel, vypravoval bratru skriptorovi podivnou věc: prý muž jeden v Mohuči knihy nedělá rukou, ale jakýmsi strojem s kovovými písmeny, jež se otiskují jako pečeť. Skriptor tomu nevěřil, dokud mu list neukázali.",
@@ -2326,22 +2334,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 55
-    },
-    {
-      "text": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_cs": "Z Prahy: Zbrojíři na Starém Městě hlásí, že objednávky od panstva jižního vzrostly náhle a beze slova vysvětlení. Král o tom prý ví, ale mlčí, vyčkávaje, co se dál semele.",
-      "text_en": "From Prague: the armourers of the Old Town report that orders from the southern nobility have risen suddenly, without a word of explanation. The king, it is said, knoweth of this but holdeth his peace, awaiting what shall yet come to pass.",
-      "type": "B",
-      "icon": "🛡️",
-      "source": "distant_events",
-      "tick": 352,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "church_calendar": {
-    "day_of_year": 238,
+    "day_of_year": 239,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
