@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-29T20:57:59.654Z",
-  "valid_until": "2026-11-05T20:57:59.654Z",
+  "generated": "2026-10-30T01:45:51.451Z",
+  "valid_until": "2026-11-06T01:45:51.451Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 6,
-    "windKmH": 3,
+    "key": "autumn_fog",
+    "name": "Mlha",
+    "icon": "🌫",
+    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
+    "tempC": 3,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 59,
-    "total_tick": 367,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 59"
+    "day": 60,
+    "total_tick": 368,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 60"
   },
   "actors": [
     {
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 78,
-      "mood": 74,
+      "wealth": 79,
+      "mood": 76,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 92,
+      "wealth": 100,
+      "mood": 90,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 97,
+      "wealth": 99,
+      "mood": 96,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 82,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -210,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 91,
+      "wealth": 99,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 89,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 93,
+      "wealth": 99,
+      "mood": 90,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 82,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 93,
+      "mood": 91,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 90,
+      "wealth": 99,
+      "mood": 89,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1856,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
+      "type": "A",
+      "icon": "💰",
+      "source": "local_events",
+      "tick": 368,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 368,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
       "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
       "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
       "text_en": "An empty wagon with arrows stuck in its sides was found on the merchant trail. The goods and draft animals disappeared. Fear of Hungarian robbers is growing in the surrounding villages.",
@@ -2066,33 +2094,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 359,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
-    },
-    {
-      "text": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_cs": "Kolem poledne přišla žena a žádala, abychom přijali jejího syna za novice. Chlapec se tvářil, jako by chtěl spíše do lesa. Slíbil jsem předat vzkaz opatovi, ale lístek se mi ztratil. Osud má své cesty.",
-      "text_en": "Around noon, a woman came asking us to accept her son as a novice. The boy looked as if he'd rather go to the forest. I promised to pass the message to the abbot, but I lost the slip of paper. Fate has its ways.",
-      "type": "A",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 359,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
+      "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
+      "type": "A",
+      "icon": "💰",
+      "source": "local_events",
+      "tick": 368,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 368,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
     {
       "text": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
       "text_cs": "Na kupecké stezce byl nalezen prázdný vůz se šípy zabodanými do bočnic. Zboží i tažná zvířata zmizela. V okolních obcích roste strach z uherských lapků.",
@@ -2185,30 +2213,6 @@
       "icon": "⛏️",
       "source": "local_events",
       "tick": 363,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 363,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_en": "From Bystřice: Local hunters managed to trap a massive bear that had been plaguing mountain homesteads in a deep pit. The beast was carted off in a cage to entertain the duke, while the hunters celebrate a rich reward.",
-      "type": "E",
-      "icon": "🐻",
-      "source": "local_events",
-      "tick": 362,
       "year": 1465,
       "season": "Podzim",
       "day": 58
@@ -2337,7 +2341,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 239,
+    "day_of_year": 240,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
