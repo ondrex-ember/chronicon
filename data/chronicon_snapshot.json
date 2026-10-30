@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-30T10:46:21.837Z",
-  "valid_until": "2026-11-06T10:46:21.837Z",
+  "generated": "2026-10-30T20:36:47.868Z",
+  "valid_until": "2026-11-06T20:36:47.868Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -72,7 +72,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 8,
-    "windKmH": 1,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 60,
-    "total_tick": 369,
+    "total_tick": 370,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 60"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 78,
-      "mood": 76,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 89,
+      "mood": 87,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 95,
+      "wealth": 98,
+      "mood": 93,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 79,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,7 +214,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 85,
       "stores": 5,
       "status": "prosperujici",
@@ -286,7 +286,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 87,
       "stores": 2,
       "status": "prosperujici",
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 80,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 91,
+      "mood": 90,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 87,
+      "mood": 86,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1856,18 @@
   ],
   "chronicle": [
     {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 370,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
@@ -2082,21 +2094,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 58
-    },
-    {
-      "text": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_cs": "Zpráva z Prahy: Městská hotovost posiluje hlídky na hradbách, nálada ve městě je napjatá. Kláštery dostaly výzvu odevzdat třetinu zásob obilí pro posádku. Opati protestují, ale tiše.",
-      "text_en": "News from Prague: The city militia is reinforcing the watch on the walls, the mood in the city is tense. Monasteries received a call to surrender a third of their grain stores for the garrison. The abbots protest — quietly.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 361,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
+      "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
+      "type": "D",
+      "icon": "🧱",
+      "source": "local_events",
+      "tick": 370,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
     {
       "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
       "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
@@ -2199,18 +2211,6 @@
       "text_en": "According to my theories, regular rubbing of the joints with onion juice should protect against stiffness. Most brothers refused the treatment, claiming it makes their eyes water. They do not understand that eye cleansing is a welcome side effect.",
       "type": "A",
       "icon": "🧅",
-      "source": "monastery_internal",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Demografie: v tomto týdnu podlehlo nemocem, hladu či neklidu v kraji celkem 20 poddaných. Celková populace klesla na 10101 duší.",
-      "text_cs": "Demografie: v tomto týdnu podlehlo nemocem, hladu či neklidu v kraji celkem 20 poddaných. Celková populace klesla na 10101 duší.",
-      "text_en": null,
-      "type": "E",
-      "icon": "💀",
       "source": "monastery_internal",
       "tick": 364,
       "year": 1465,
