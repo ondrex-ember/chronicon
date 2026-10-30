@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-30T01:45:51.451Z",
-  "valid_until": "2026-11-06T01:45:51.451Z",
+  "generated": "2026-10-30T10:46:21.837Z",
+  "valid_until": "2026-11-06T10:46:21.837Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_fog",
-    "name": "Mlha",
-    "icon": "🌫",
-    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
-    "tempC": 3,
-    "windKmH": 2,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 8,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 60,
-    "total_tick": 368,
+    "total_tick": 369,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 60"
   },
   "actors": [
@@ -94,7 +94,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 79,
+      "wealth": 78,
       "mood": 76,
       "stores": 0,
       "status": "stable",
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 90,
+      "mood": 89,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 96,
+      "mood": 95,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 83,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 80,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 88,
+      "wealth": 100,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
-      "mood": 86,
+      "wealth": 97,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,7 +262,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 77,
       "stores": 1,
       "status": "stable",
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 90,
+      "mood": 87,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 80,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 89,
+      "wealth": 100,
+      "mood": 87,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1856,30 @@
   ],
   "chronicle": [
     {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 369,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 369,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
@@ -2070,33 +2094,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 57
-    },
-    {
-      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 361,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
-    },
-    {
-      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
-      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
-      "type": "E",
-      "icon": "🕰️",
-      "source": "local_events",
-      "tick": 360,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
+      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
+      "type": "E",
+      "icon": "👶",
+      "source": "local_events",
+      "tick": 369,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 369,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 60
+    },
     {
       "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
       "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
@@ -2189,30 +2213,6 @@
       "icon": "💀",
       "source": "monastery_internal",
       "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Kroupy velké jako vlašské ořechy bily přes čtvrt hodiny. Obilí v pytlích na mlýně navlhlo skrz rozbitou střechu a včelaři popadaly úly i s roji.",
-      "text_cs": "Kroupy velké jako vlašské ořechy bily přes čtvrt hodiny. Obilí v pytlích na mlýně navlhlo skrz rozbitou střechu a včelaři popadaly úly i s roji.",
-      "text_en": "Hailstones the size of walnuts battered the land for a quarter of an hour. Grain sacks at the mill soaked through a shattered roof, and the beekeeper lost hives, swarms and all.",
-      "type": "D",
-      "icon": "🧊",
-      "source": "monastery_internal",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
-      "text_cs": "Posel z Jihlavy hlásí objevení nové stříbrné žíly v horních dolech. Mincmistr ihned najal dalších třicet dělníků a cena stříbra na trhu mírně klesla.",
-      "text_en": "A messenger from Jihlava reports the discovery of a new silver vein in the upper mines. The mintmaster immediately hired thirty more workers, and the price of silver on the market dropped slightly.",
-      "type": "C",
-      "icon": "⛏️",
-      "source": "local_events",
-      "tick": 363,
       "year": 1465,
       "season": "Podzim",
       "day": 58
