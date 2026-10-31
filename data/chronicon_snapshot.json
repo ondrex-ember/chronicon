@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-30T20:36:47.868Z",
-  "valid_until": "2026-11-06T20:36:47.868Z",
+  "generated": "2026-10-31T01:27:58.100Z",
+  "valid_until": "2026-11-07T01:27:58.100Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 8,
+    "tempC": 7,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 60,
-    "total_tick": 370,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 60"
+    "day": 61,
+    "total_tick": 371,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 61"
   },
   "actors": [
     {
@@ -94,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 78,
-      "mood": 75,
+      "wealth": 77,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -143,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 93,
+      "mood": 90,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 85,
       "stores": 5,
       "status": "prosperujici",
@@ -287,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 87,
+      "mood": 84,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 90,
+      "mood": 88,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -367,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 86,
+      "mood": 84,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1852,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
+      "text_cs": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
+      "text_en": "News from London: The Datini house received instructions to invest 1000 ducats in Cotswold wool. The partner Neri Vettori rode out to the country abbeys to purvey a store of the highest quality. He managed to purchase perfect, fine wool at the cost of 11 marks per sack.",
+      "type": "C",
+      "icon": "🐑",
+      "source": "distant_events",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
+    {
+      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
+    {
+      "text": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_cs": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_en": "I tested my theory that consuming garlic drives away foul humors. The brothers have foul breath and no one talks to anyone. A truce has been established; the illness was evidently defeated.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
+    {
       "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
       "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
       "text_en": "The wall of a burgher house under construction collapsed on two workers. The masonry was allegedly laid too hastily and dried poorly. One man died on the spot, the other lost his arm.",
@@ -2058,45 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 58
-    },
-    {
-      "text": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
-      "text_cs": "Léta MCCCXLV král Jan ležal před městem Krakovem a byl nedostatek veliký v chlebě u městě.",
-      "text_en": "In 1345 King John lay before the city of Kraków, and bread ran very short in the town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 362,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_cs": "Z Bystřice: Místním lovcům se podařilo do hluboké jámy polapit obrovského medvěda, který trápil horské samoty. Zvíře bylo v kleci odvezeno k pobavení knížete, zatímco lovci oslavují bohatou odměnu.",
-      "text_en": "From Bystřice: Local hunters managed to trap a massive bear that had been plaguing mountain homesteads in a deep pit. The beast was carted off in a cage to entertain the duke, while the hunters celebrate a rich reward.",
-      "type": "E",
-      "icon": "🐻",
-      "source": "local_events",
-      "tick": 362,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_cs": "Dnes jsem opsal slovo hříšník třikrát za sebou. Buď na mě útočí únava, nebo se Bůh snaží něco naznačit. Vykryl jsem to zlatým listem. Krása zakryje každý hřích.",
-      "text_en": "Today I copied the word sinner three times in a row. Either fatigue is attacking me, or God is trying to hint at something. I covered it with gold leaf. Beauty covers every sin.",
-      "type": "A",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 362,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_cs": "Z Krnova: Svatba dcery místního purkmistra s bohatým slezským kupcem trvala plné tři dny. Náměstí bylo vyzdobeno chvojím a z kašny teklo levné pivo pro chudinu. Novomanželé štědře obdarovali farní kostel.",
+      "text_en": "From Krnov: The wedding of the local burgomaster's daughter to a wealthy Silesian merchant lasted a full three days. The square was decorated with boughs, and cheap beer flowed from the fountain for the poor. The newlyweds generously endowed the parish church.",
+      "type": "E",
+      "icon": "💍",
+      "source": "local_events",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
+    {
+      "text": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_cs": "Otestoval jsem svou teorii, že konzumace česneku vyhání zlé nálady. Bratrům páchne z úst a nikdo s nikým nemluví. Klid zbraní je nastolen, nemoc byla evidentně poražena.",
+      "text_en": "I tested my theory that consuming garlic drives away foul humors. The brothers have foul breath and no one talks to anyone. A truce has been established; the illness was evidently defeated.",
+      "type": "D",
+      "icon": "💊",
+      "source": "monastery_internal",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
     {
       "text": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
       "text_cs": "Zeď rozestavěného měšťanského domu se zřítila na dva dělníky. Zdivo bylo prý příliš narychlo zděné a špatně vyschlé. Jeden muž zahynul na místě, druhý ztratil ruku.",
@@ -2192,33 +2212,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 59
-    },
-    {
-      "text": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
-      "text_cs": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
-      "text_en": "The deputy of the local bailiff was caught at night playing dice with dubious strangers in a coaching inn. When he lost everything, he tried to flee without paying, which resulted in a massive uproar and broken barrels. The parish priest publicly denied him holy communion the next day for obvious scandal.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Podle mých teorií by pravidelné potírání kloubů cibulovou šťávou mělo chránit před ztuhlostí. Většina bratrů léčbu odmítla, tvrdí, že z nich slzí oči. Nechápou, že pročištění zraku je vítaný vedlejší účinek.",
-      "text_cs": "Podle mých teorií by pravidelné potírání kloubů cibulovou šťávou mělo chránit před ztuhlostí. Většina bratrů léčbu odmítla, tvrdí, že z nich slzí oči. Nechápou, že pročištění zraku je vítaný vedlejší účinek.",
-      "text_en": "According to my theories, regular rubbing of the joints with onion juice should protect against stiffness. Most brothers refused the treatment, claiming it makes their eyes water. They do not understand that eye cleansing is a welcome side effect.",
-      "type": "A",
-      "icon": "🧅",
-      "source": "monastery_internal",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
+      "text_cs": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
+      "text_en": "News from London: The Datini house received instructions to invest 1000 ducats in Cotswold wool. The partner Neri Vettori rode out to the country abbeys to purvey a store of the highest quality. He managed to purchase perfect, fine wool at the cost of 11 marks per sack.",
+      "type": "C",
+      "icon": "🐑",
+      "source": "distant_events",
+      "tick": 371,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 61
+    },
     {
       "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
       "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
@@ -2326,22 +2334,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 56
-    },
-    {
-      "text": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_cs": "Léta MCCCXLI klášter kartúský podlé Prahy založen králem Janem.",
-      "text_en": "In 1341 King John founded the Carthusian monastery by Prague.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 354,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 55
     }
   ],
   "church_calendar": {
-    "day_of_year": 240,
+    "day_of_year": 241,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
