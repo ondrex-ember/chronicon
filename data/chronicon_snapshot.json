@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-10-31T19:49:57.127Z",
-  "valid_until": "2026-11-07T19:49:57.127Z",
+  "generated": "2026-11-01T00:50:34.719Z",
+  "valid_until": "2026-11-08T00:50:34.719Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 10,
-    "rainMm": 0,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 7,
+    "windKmH": 9,
+    "rainMm": 0.2,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 61,
-    "total_tick": 373,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 61"
+    "day": 62,
+    "total_tick": 374,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 62"
   },
   "actors": [
     {
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 78,
-      "mood": 73,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 86,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 82,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 77,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 83,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 84,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 99,
+      "mood": 82,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1852,30 @@
   ],
   "chronicle": [
     {
+      "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
+      "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
+      "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
+      "type": "A",
+      "icon": "✒️",
+      "source": "local_events",
+      "tick": 374,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 374,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
@@ -2066,33 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 59
-    },
-    {
-      "text": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
-      "text_cs": "Zástupce místního fojta byl v noci přistižen, jak hraje v zájezdní krčmě v kostky s pochybnými cizinci. Když všechno prohrál, pokusil se utéci bez placení, což vyústilo v ohromný povyk a rozbité sudy. Farář mu druhý den veřejně odepřel svaté přijímání pro zjevné pohoršení.",
-      "text_en": "The deputy of the local bailiff was caught at night playing dice with dubious strangers in a coaching inn. When he lost everything, he tried to flee without paying, which resulted in a massive uproar and broken barrels. The parish priest publicly denied him holy communion the next day for obvious scandal.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
-    },
-    {
-      "text": "Podle mých teorií by pravidelné potírání kloubů cibulovou šťávou mělo chránit před ztuhlostí. Většina bratrů léčbu odmítla, tvrdí, že z nich slzí oči. Nechápou, že pročištění zraku je vítaný vedlejší účinek.",
-      "text_cs": "Podle mých teorií by pravidelné potírání kloubů cibulovou šťávou mělo chránit před ztuhlostí. Většina bratrů léčbu odmítla, tvrdí, že z nich slzí oči. Nechápou, že pročištění zraku je vítaný vedlejší účinek.",
-      "text_en": "According to my theories, regular rubbing of the joints with onion juice should protect against stiffness. Most brothers refused the treatment, claiming it makes their eyes water. They do not understand that eye cleansing is a welcome side effect.",
-      "type": "A",
-      "icon": "🧅",
-      "source": "monastery_internal",
-      "tick": 364,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 58
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
+      "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
+      "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
+      "type": "A",
+      "icon": "✒️",
+      "source": "local_events",
+      "tick": 374,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
+      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
+      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 374,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
     {
       "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
       "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
@@ -2185,30 +2209,6 @@
       "icon": "📜",
       "source": "monastery_internal",
       "tick": 369,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 60
-    },
-    {
-      "text": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
-      "text_cs": "Z Brna: Šerifovi drábové objevili ve sklepě opuštěného domu tajnou dílnu padělatelů mincí. Našli kadluby, olovo i měď, ale pachatelé stihli uprchnout. Trhovci nyní každou minci nedůvěřivě zkoumají.",
-      "text_en": "From Brno: The sheriff's bailiffs discovered a secret coin counterfeiters' workshop in the cellar of an abandoned house. They found molds, lead, and copper, but the perpetrators managed to flee. Market vendors now suspiciously inspect every coin.",
-      "type": "A",
-      "icon": "💰",
-      "source": "local_events",
-      "tick": 368,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 60
-    },
-    {
-      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 368,
       "year": 1465,
       "season": "Podzim",
       "day": 60
@@ -2337,7 +2337,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 241,
+    "day_of_year": 242,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
