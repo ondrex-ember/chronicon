@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-01T00:50:34.719Z",
-  "valid_until": "2026-11-08T00:50:34.719Z",
+  "generated": "2026-11-01T11:09:09.621Z",
+  "valid_until": "2026-11-08T11:09:09.621Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 7,
-    "windKmH": 9,
-    "rainMm": 0.2,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 9,
+    "windKmH": 8,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 62,
-    "total_tick": 374,
+    "total_tick": 375,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 62"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 78,
-      "mood": 72,
+      "wealth": 79,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 83,
       "stores": 0,
       "status": "prosperujici",
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 98,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 75,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 75,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 100,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 80,
       "stores": 5,
       "status": "prosperujici",
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 75,
       "stores": 1,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 82,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 82,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 98,
+      "mood": 82,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 82,
+      "wealth": 100,
+      "mood": 81,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1852,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
+      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
+      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
+      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
       "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
@@ -2054,45 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 59
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 366,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
-    },
-    {
-      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
-      "type": "C",
-      "icon": "🏛️",
-      "source": "distant_events",
-      "tick": 365,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
-    },
-    {
-      "text": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
-      "text_cs": "Uherský král Matyáš Korvín uzavřel příměří s Turky a v Trnavě oficiálně vyhlásil válku knížeti Viktorinovi. Tímto zásahem se domácí šarvátky mění ve velký mezinárodní konflikt. Korvínova armáda, čítající tisíce mužů, se již dává na pochod směrem k moravským hranicím.",
-      "text_en": "Hungarian King Matthias Corvinus concluded a truce with the Turks and officially declared war on Prince Victorin in Trnava. With this intervention, domestic skirmishes turn into a major international conflict. Corvinus's army, numbering thousands of men, is already on the march toward the Moravian borders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 365,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
+      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
+      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
+      "type": "C",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
+      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
+      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
+      "type": "A",
+      "icon": "🐝",
+      "source": "monastery_internal",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
     {
       "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
       "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
@@ -2188,33 +2212,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 60
-    },
-    {
-      "text": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_cs": "Vlivná rodina italských obchodníků slavila narození zdravého syna opulentními křtinami ve farním kostele. Kmotr dítěte, oděný v těžkém rudém sametu, vhodil do pokladničky štědrou hrst zlatých dukátů. Farář uspořádal na počest této radostné události slavnostní mši.",
-      "text_en": "An influential family of Italian merchants celebrated the birth of a healthy son with opulent baptisms in the parish church. The child's godfather, dressed in heavy red velvet, tossed a generous handful of gold ducats into the collection box. The parish priest held a solemn mass in honor of this joyous event.",
-      "type": "E",
-      "icon": "👶",
-      "source": "local_events",
-      "tick": 369,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 60
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 369,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 60
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 375,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
     {
       "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
       "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
@@ -2319,18 +2331,6 @@
       "icon": "🗺️",
       "source": "distant_events",
       "tick": 359,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_cs": "Ze zápisků zbraslavských: Pohřeb vznešené paní trval tři dny. Přijelo dvanáct rodů. Klášter dostal na památku jejího jména pozemek u řeky a čtyři sudy medu ročně. Budiž její památka zachována.",
-      "text_en": "From the Zbraslav notes: The funeral of a noble lady lasted three days. Twelve families came. The monastery received in her memory a field by the river and four barrels of honey annually. Memory to be honored.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "distant_events",
-      "tick": 358,
       "year": 1465,
       "season": "Podzim",
       "day": 57
