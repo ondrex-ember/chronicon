@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-01T11:09:09.621Z",
-  "valid_until": "2026-11-08T11:09:09.621Z",
+  "generated": "2026-11-01T20:22:52.889Z",
+  "valid_until": "2026-11-08T20:22:52.889Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 8,
+    "tempC": 7,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 62,
-    "total_tick": 375,
+    "total_tick": 376,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 62"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 79,
+      "wealth": 80,
       "mood": 74,
       "stores": 0,
       "status": "stable",
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
-      "mood": 83,
+      "wealth": 100,
+      "mood": 81,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 100,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 74,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -210,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 81,
       "stores": 5,
       "status": "prosperujici",
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 97,
-      "mood": 80,
+      "wealth": 96,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 79,
       "stores": 3,
       "status": "stable",
@@ -1852,6 +1852,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
+      "type": "A",
+      "icon": "🔮",
+      "source": "distant_events",
+      "tick": 376,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
@@ -2078,18 +2090,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 59
-    },
-    {
-      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 367,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
     }
   ],
   "chronicle_local": [
@@ -2216,6 +2216,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
+      "type": "A",
+      "icon": "🔮",
+      "source": "distant_events",
+      "tick": 376,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 62
+    },
+    {
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
@@ -2319,18 +2331,6 @@
       "icon": "⚔️",
       "source": "distant_events",
       "tick": 361,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 57
-    },
-    {
-      "text": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_cs": "Z Barcelony přišla pozoruhodná zpráva: florentský kupec a klenotník Baldassarre degli Ubriachi uschoval v Datiniho domě nádherné námořní mapy od dvou mistrovských židovských kartografů z Barcelony. Tyto vzácné kresby, které ho stály 111 florénů, jsou určeny jako dary pro panovníky v Anglii a Navaře. Zajišťují mu prý přízeň a bezpečný průchod pro jeho drahocenné zboží.",
-      "text_en": "A remarkable piece of news came from Barcelona: the Florentine merchant and jeweller Baldassarre degli Ubriachi stored with the Datini house magnificent nautical maps made by two master Jewish cartographers from Barcelona. These rare drawings, which cost him 111 florins, are intended as gifts for the sovereigns of England and Navarre. They are said to secure him favor and safe passage for his precious goods.",
-      "type": "C",
-      "icon": "🗺️",
-      "source": "distant_events",
-      "tick": 359,
       "year": 1465,
       "season": "Podzim",
       "day": 57
