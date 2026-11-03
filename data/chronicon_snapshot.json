@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-03T11:45:41.183Z",
-  "valid_until": "2026-11-10T11:45:41.183Z",
+  "generated": "2026-11-03T21:38:26.010Z",
+  "valid_until": "2026-11-10T21:38:26.010Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 8,
-    "windKmH": 12,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 6,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 64,
-    "total_tick": 380,
+    "total_tick": 381,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 64"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 80,
-      "mood": 73,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 74,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 82,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 73,
       "stores": 2,
       "status": "stable",
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 73,
+      "mood": 74,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 97,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 96,
-      "mood": 76,
+      "wealth": 95,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 74,
+      "wealth": 98,
+      "mood": 76,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 78,
+      "mood": 76,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 78,
+      "mood": 76,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 77,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1852,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
@@ -2054,45 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 62
-    },
-    {
-      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 373,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
-    },
-    {
-      "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_en": "Skilled weavers from Šternberk brought new supplies of coarse linen cloth to the markets, selling it at very favorable prices. Merchants from Hungary are lightning-fast at buying up this merchandise in whole rolls. The weavers' guild master praises the profits and is taking on new apprentices.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 373,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 373,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
+      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
+      "type": "E",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
+      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
+      "type": "A",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
     {
       "text": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
       "text_cs": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
@@ -2188,33 +2212,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 62
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 375,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
-    },
-    {
-      "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
-      "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
-      "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
-      "type": "A",
-      "icon": "✒️",
-      "source": "local_events",
-      "tick": 374,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
+      "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
+      "type": "A",
+      "icon": "🐟",
+      "source": "distant_events",
+      "tick": 381,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
     {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
@@ -2322,18 +2334,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 61
-    },
-    {
-      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
-      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 366,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
     }
   ],
   "church_calendar": {
