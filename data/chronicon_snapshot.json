@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-02T23:21:55.076Z",
-  "valid_until": "2026-11-09T23:21:55.076Z",
+  "generated": "2026-11-03T11:45:41.183Z",
+  "valid_until": "2026-11-10T11:45:41.183Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 6,
-    "windKmH": 7,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 8,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 64,
-    "total_tick": 379,
+    "total_tick": 380,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 64"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 80,
-      "mood": 74,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 74,
+      "wealth": 97,
+      "mood": 76,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
+      "wealth": 97,
       "mood": 82,
       "stores": 3,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 74,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 73,
       "stores": 3,
       "status": "stable",
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 97,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 95,
-      "mood": 78,
+      "wealth": 96,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 80,
+      "mood": 78,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 97,
-      "mood": 80,
+      "mood": 78,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 79,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -1852,6 +1852,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
+      "text_cs": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
+      "text_en": "The annual market drew crowds of merchants from the surrounding area and abroad into the town. The square is filled with stalls selling Flanders broadcloth, Venetian glass, and weapons from the German lands. The town treasury fills purses with silver collected from customs and market fees.",
+      "type": "C",
+      "icon": "🎪",
+      "source": "local_events",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
+      "type": "A",
+      "icon": "🏰",
+      "source": "monastery_internal",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
@@ -2054,45 +2090,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 61
-    },
-    {
-      "text": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_cs": "Ze zpráv z Čech: Dva páni sousední se o hranici pozemků pohádali tak, že čeleď jednoho stodoly druhého zapálila. Král prý nařídil mír mezi nimi, ale ohně tím nezhasly hned.",
-      "text_en": "From reports from Bohemia: two neighbouring lords quarrelled so over a boundary that the men of one burned the barns of the other. The king, it is said, hath ordered peace between them, yet the fires were not so soon quenched.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "distant_events",
-      "tick": 372,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
-    },
-    {
-      "text": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_cs": "Hrnčíři a výrobci keramiky uspořádali v Tovačově velký cechovní trh. Prodávali nádherně glazované džbány, mísy i kachle pro stavbu pecí. Kvalita zboží přitáhla pozornost panských správců, kteří nakoupili vybavení pro celý zámek a zaplatili hotovým stříbrem.",
-      "text_en": "Potters and ceramics makers held a large guild market in Tovačov. They sold beautifully glazed jugs, bowls, and tiles for building stoves. The quality of the goods attracted the attention of manorial stewards, who bought equipment for the entire castle and paid in ready silver.",
-      "type": "A",
-      "icon": "🏺",
-      "source": "local_events",
-      "tick": 372,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
-    },
-    {
-      "text": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
-      "text_cs": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
-      "text_en": "News from London: The Datini house received instructions to invest 1000 ducats in Cotswold wool. The partner Neri Vettori rode out to the country abbeys to purvey a store of the highest quality. He managed to purchase perfect, fine wool at the cost of 11 marks per sack.",
-      "type": "C",
-      "icon": "🐑",
-      "source": "distant_events",
-      "tick": 371,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
+      "text_cs": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
+      "text_en": "The annual market drew crowds of merchants from the surrounding area and abroad into the town. The square is filled with stalls selling Flanders broadcloth, Venetian glass, and weapons from the German lands. The town treasury fills purses with silver collected from customs and market fees.",
+      "type": "C",
+      "icon": "🎪",
+      "source": "local_events",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
+    {
+      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
+      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
+      "type": "A",
+      "icon": "🏰",
+      "source": "monastery_internal",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
     {
       "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
       "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
@@ -2188,33 +2212,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 62
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 374,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
-    },
-    {
-      "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_en": "Skilled weavers from Šternberk brought new supplies of coarse linen cloth to the markets, selling it at very favorable prices. Merchants from Hungary are lightning-fast at buying up this merchandise in whole rolls. The weavers' guild master praises the profits and is taking on new apprentices.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 373,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 380,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 64
+    },
     {
       "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
       "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
@@ -2319,18 +2331,6 @@
       "icon": "⚔️",
       "source": "distant_events",
       "tick": 366,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 59
-    },
-    {
-      "text": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_cs": "Z Prahy, stará pamět: V Čáslavi prý kdysi sněm zemský bez krále zasedal, pána z trůnu sesazuje. Města a páni vládu na čas sami drželi. Od těch dob purkmistři s panstvem mluví jinak než dřív.",
-      "text_en": "From Prague, an old memory: at Čáslav, it is said, the land's diet once sat without a king, deposing the lord from his throne. Towns and lords held rule themselves for a time. Since those days the burgomasters speak with the nobility otherwise than before.",
-      "type": "C",
-      "icon": "🏛️",
-      "source": "distant_events",
-      "tick": 365,
       "year": 1465,
       "season": "Podzim",
       "day": 59
