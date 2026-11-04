@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-03T21:38:26.010Z",
-  "valid_until": "2026-11-10T21:38:26.010Z",
+  "generated": "2026-11-04T02:02:56.629Z",
+  "valid_until": "2026-11-11T02:02:56.629Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -68,7 +72,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 6,
-    "windKmH": 7,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 64,
-    "total_tick": 381,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 64"
+    "day": 65,
+    "total_tick": 382,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 65"
   },
   "actors": [
     {
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 80,
-      "mood": 74,
+      "wealth": 79,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 74,
+      "wealth": 97,
+      "mood": 72,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 81,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +166,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 73,
       "stores": 2,
       "status": "stable",
@@ -186,7 +190,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 74,
       "stores": 3,
       "status": "stable",
@@ -258,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 99,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 76,
+      "mood": 78,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 76,
+      "wealth": 96,
+      "mood": 75,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 77,
+      "mood": 79,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 97,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1856,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_en": "From the Bohemian lands: in the southern parts there is said to spread some new manner of husbanding water, devised by the local lords. The farmers marvel where they learned such a thing, and whether it shall yield profit, or only mud.",
@@ -2054,45 +2094,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 62
-    },
-    {
-      "text": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_cs": "Jeden roj dnes odletěl směrem k městu. Popřál jsem jim šťastnou cestu. Asi je přitahovala vůně trhů více než ticho kláštera. Naše komunita by si z nich měla vzít příklad.",
-      "text_en": "One swarm flew off towards the town today. I wished them a safe journey. They were probably more attracted to the smell of markets than the silence of the monastery. Our community should take an example from them.",
-      "type": "A",
-      "icon": "🐝",
-      "source": "monastery_internal",
-      "tick": 375,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
-    },
-    {
-      "text": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
-      "text_cs": "Napětí mezi mistry pergameníky a novými prodejci papíru sílí. Písaři si stěžují, že na papíře se inkoust příliš rozpíjí a brky do něj drhnou. Přesto však nákupčí upřednostňují dovozové balíky papíru kvůli jejich nesmírně nízké ceně.",
-      "text_en": "Tension between master parchment makers and new paper sellers is growing. Scribes complain that ink bleeds too much on paper and quills scratch against it. Nevertheless, buyers prefer imported bales of paper due to their extremely low price.",
-      "type": "A",
-      "icon": "✒️",
-      "source": "local_events",
-      "tick": 374,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
-    },
-    {
-      "text": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_cs": "Dorazil posel a požadoval, abych rychle otevřel bránu. Nechal jsem ho zaklepat ještě třikrát. Trpělivost je ctnost, a já jsem zde od toho, abych ji pěstoval u jiných. Pak si teprve vzal svůj vzkaz.",
-      "text_en": "A messenger arrived demanding I open the gate quickly. I made him knock three more times. Patience is a virtue, and I am here to cultivate it in others. Only then did he deliver his message.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 374,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
+      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
+      "type": "D",
+      "icon": "📜",
+      "source": "monastery_internal",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
     {
       "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
       "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
@@ -2188,33 +2216,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 63
-    },
-    {
-      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 377,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 63
-    },
-    {
-      "text": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_cs": "Z Přerova: Pán z Kravař projel městem se čtyřiceti jezdci. Zastavil se na noc, snědl co bylo, vypil co bylo, a ráno odjel bez poděkování. Hospodský říká, že aspoň nezapálil stáj.",
-      "text_en": "From Přerov: The lord of Kravař passed through the town with forty riders. He stopped for the night, ate what there was, drank what there was, and left in the morning without thanks. The innkeeper says at least he did not burn the stable.",
-      "type": "C",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 375,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
+      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
+      "type": "B",
+      "icon": "⛪",
+      "source": "distant_events",
+      "tick": 382,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
     {
       "text": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
       "text_cs": "Z českých zemí: V krajích jižních se prý šíří jakýsi nový způsob hospodaření s vodou, jejž páni místní vymysleli. Sedláci se diví, kde se k tomu naučili, a zda z toho bude užitek, či jen bahno.",
@@ -2322,22 +2338,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 61
-    },
-    {
-      "text": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
-      "text_cs": "Z Londýna přišla zpráva: Datiniho dům obdržel pokyn investovat 1000 dukátů do cotswoldské vlny. Společník Neri Vettori vyrazil na venkov k místním opatstvím, aby zajistil zásoby té nejvyšší kvality. Podařilo se mu nakoupit dokonalou a čistou vlnu za cenu 11 marek za žok.",
-      "text_en": "News from London: The Datini house received instructions to invest 1000 ducats in Cotswold wool. The partner Neri Vettori rode out to the country abbeys to purvey a store of the highest quality. He managed to purchase perfect, fine wool at the cost of 11 marks per sack.",
-      "type": "C",
-      "icon": "🐑",
-      "source": "distant_events",
-      "tick": 371,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
     }
   ],
   "church_calendar": {
-    "day_of_year": 244,
+    "day_of_year": 245,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
