@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-04T11:57:21.940Z",
-  "valid_until": "2026-11-11T11:57:21.940Z",
+  "generated": "2026-11-04T21:46:00.720Z",
+  "valid_until": "2026-11-11T21:46:00.720Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 7,
+    "tempC": 5,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 65,
-    "total_tick": 383,
+    "total_tick": 384,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 65"
   },
   "actors": [
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 78,
-      "mood": 71,
+      "wealth": 77,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 71,
+      "mood": 73,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 80,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 74,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 73,
+      "wealth": 99,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 97,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 73,
+      "wealth": 99,
+      "mood": 74,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -310,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 75,
+      "wealth": 96,
+      "mood": 76,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 77,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1856,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
+      "type": "D",
+      "icon": "🥷",
+      "source": "distant_events",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
       "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
       "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
       "text_en": "From the Zbraslav notes: a nearby monastery, burned in the Hussite wars, the abbot now rebuildeth, stone by stone. Brothers from neighbouring houses send what they can spare. The memory of ruin is slowly walled over.",
@@ -2058,45 +2094,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 63
-    },
-    {
-      "text": "V Pratu měli tu čest hostit krále Ludvíka II. z Anjou i s jeho slavným velitelem Pippo Spanem. Pobývali v Datiniho domě osmnáct dní a král během své návštěvy zakoupil 12 délek kvalitního šarlatového sukna. Na důkaz vděčnosti panovník udělil hostiteli privilegium nosit v rodovém znaku jeho královské lilie.",
-      "text_cs": "V Pratu měli tu čest hostit krále Ludvíka II. z Anjou i s jeho slavným velitelem Pippo Spanem. Pobývali v Datiniho domě osmnáct dní a král během své návštěvy zakoupil 12 délek kvalitního šarlatového sukna. Na důkaz vděčnosti panovník udělil hostiteli privilegium nosit v rodovém znaku jeho královské lilie.",
-      "text_en": "In Prato, the honor was had of hosting King Louis II of Anjou, along with his famous commander Pippo Spano. They stayed in the Datini house for eighteen days, during which the King purchased 12 rods of fine scarlet cloth. As a token of gratitude, the sovereign granted the host the privilege of bearing his royal lilies upon the family's coat of arms.",
-      "type": "E",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 377,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 63
-    },
-    {
-      "text": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_cs": "Bratr Metoděj, vzdor mým stížnostem, dnes při antifoně přidal podivný trylek. Prý mu to vnukl Duch Svatý. Zaznamenal jsem si, že Duch Svatý má zjevné nedostatky v hudebním cítění.",
-      "text_en": "Brother Metoděj, despite my complaints, added a strange trill during the antiphon today. He claims the Holy Spirit inspired him. I noted that the Holy Spirit has obvious shortcomings in musical sensibility.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 377,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 63
-    },
-    {
-      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
-      "type": "A",
-      "icon": "🔮",
-      "source": "distant_events",
-      "tick": 376,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
     {
       "text": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
       "text_cs": "V reakci na vlnu nočních výtržností omezili konšelé otevírací dobu všech městských výčepů. Jakmile zazní večerní zvon, nesmí se nalévat ani pivo, ani víno, a hospodští musí své hosty vyhnat domů. Pijáci reptají, ale stráže už odvedly do klády prvních deset hříšníků.",
@@ -2192,33 +2216,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 64
-    },
-    {
-      "text": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_cs": "Dnes jsem statisticky prokázal, že varhaník se mýlí ve třetině svých nástupů. Když jsem mu předložil tabulku, obvinil mě z nedostatku pokory a přestal hrát úplně. Sbor zněl lépe než kdykoli předtím.",
-      "text_en": "Today I statistically proved that the organist is wrong in a third of his entries. When I presented the chart to him, he accused me of a lack of humility and stopped playing altogether. The choir sounded better than ever before.",
-      "type": "C",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 379,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
-    },
-    {
-      "text": "Zpráva z jihu hlásí, že královské vojsko konečně dobylo hrad Cornštejn. Vzpurný pan Hynek Bítovský z Lichtenburka byl poražen a jeho sídlo padlo. Vítězství krále Jiřího však dalo papeži záminku k novým výhrůžkám a obnovení půhonu.",
-      "text_cs": "Zpráva z jihu hlásí, že královské vojsko konečně dobylo hrad Cornštejn. Vzpurný pan Hynek Bítovský z Lichtenburka byl poražen a jeho sídlo padlo. Vítězství krále Jiřího však dalo papeži záminku k novým výhrůžkám a obnovení půhonu.",
-      "text_en": "A report from the south indicates that the royal army has finally captured Cornštejn Castle. The rebellious Lord Hynek Bítovský of Lichtenburg was defeated and his stronghold fell. However, King George's victory gave the Pope a pretext for new threats and renewed citations.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "local_events",
-      "tick": 378,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 63
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
+      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
+      "type": "D",
+      "icon": "🥷",
+      "source": "distant_events",
+      "tick": 384,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 65
+    },
     {
       "text": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
       "text_cs": "Ze zápisků zbraslavských: Klášter nedaleký, vypálený za válek husitských, opat nyní obnovuje, kámen po kameni. Bratři z okolních domů posílají, co mohou postrádati. Paměť zkázy se pomalu zazdívá.",
@@ -2326,18 +2338,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 62
-    },
-    {
-      "text": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_cs": "Ze správy panství zní zásada: nikomu nelze plně důvěřovat. Poddaní jsou prý často nevděční, klamou a pracují laxně, pokud necítí pevný dohled. Správce musí osobně překontrolovat kvalitu setí, prověřovat váhy na mlatu i v sýpkách a udržovat s poddanými odměřený, leč spravedlivý vztah.",
-      "text_en": "From the estate management comes a maxim: no man is to be fully trusted. The peasants, it is said, are often ungrateful, deceitful, and work laxly unless they feel a firm watch. The steward must personally verify the quality of the sowing, check the scales at the threshing-floor and granaries, and maintain a distant yet just relationship with the peasants.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "distant_events",
-      "tick": 373,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 61
     }
   ],
   "church_calendar": {
