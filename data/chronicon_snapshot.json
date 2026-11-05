@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-05T12:01:25.786Z",
-  "valid_until": "2026-11-12T12:01:25.786Z",
+  "generated": "2026-11-05T21:51:17.080Z",
+  "valid_until": "2026-11-12T21:51:17.080Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 9,
+    "tempC": 3,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 66,
-    "total_tick": 386,
+    "total_tick": 387,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 66"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 77,
-      "mood": 71,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 78,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 75,
       "stores": 2,
       "status": "stable",
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 72,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 97,
-      "mood": 77,
+      "wealth": 96,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 93,
-      "mood": 80,
+      "wealth": 94,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 73,
+      "mood": 72,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 74,
+      "mood": 72,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 95,
-      "mood": 75,
+      "mood": 73,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 78,
+      "mood": 79,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 78,
+      "mood": 80,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1852,6 +1852,18 @@
   ],
   "chronicle": [
     {
+      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
+      "type": "D",
+      "icon": "🐭",
+      "source": "monastery_internal",
+      "tick": 387,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 66
+    },
+    {
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
@@ -2078,21 +2090,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 64
-    },
-    {
-      "text": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_cs": "Italský kurýr přivezl na brněnský trh nové směnky a zprávy od kupeckých společností z Benátek. Cena zámořského kamence, který je nezbytný pro barvení látek, výrazně stoupla kvůli hrozbě pirátů. Místní soukeníci varují, že červené a modré sukno bude do zimy mnohem dražší.",
-      "text_en": "An Italian courier brought new bills of exchange and news from merchant companies in Venice to the Brno market. The price of overseas alum, essential for dyeing cloth, has risen significantly due to the threat of pirates. Local clothiers warn that red and blue broadcloth will be much more expensive by winter.",
-      "type": "C",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 379,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
+      "type": "D",
+      "icon": "🐭",
+      "source": "monastery_internal",
+      "tick": 387,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 66
+    },
     {
       "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
       "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
@@ -2196,18 +2208,6 @@
       "type": "E",
       "icon": "⚖️",
       "source": "local_events",
-      "tick": 381,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
-    },
-    {
-      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
-      "type": "A",
-      "icon": "🚪",
-      "source": "monastery_internal",
       "tick": 381,
       "year": 1465,
       "season": "Podzim",
