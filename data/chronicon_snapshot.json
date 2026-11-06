@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-06T02:07:18.601Z",
-  "valid_until": "2026-11-13T02:07:18.601Z",
+  "generated": "2026-11-06T11:56:55.051Z",
+  "valid_until": "2026-11-13T11:56:55.051Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_early_frost",
-    "name": "Ranní mráz",
-    "icon": "🌨",
-    "desc": "První mráz. Část sklizně je ohrožena.",
-    "tempC": 0,
-    "windKmH": 2,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 4,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.85,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 67,
-    "total_tick": 388,
+    "total_tick": 389,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 67"
   },
   "actors": [
@@ -119,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 96,
-      "mood": 68,
+      "mood": 67,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -142,7 +142,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 79,
       "stores": 3,
       "status": "prosperujici",
@@ -166,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 76,
+      "wealth": 97,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 72,
+      "wealth": 100,
+      "mood": 71,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -214,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 96,
-      "mood": 75,
+      "wealth": 95,
+      "mood": 74,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 94,
-      "mood": 80,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 74,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 97,
-      "mood": 72,
+      "mood": 74,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -310,7 +310,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 95,
+      "wealth": 96,
       "mood": 72,
       "stores": 3,
       "status": "stable",
@@ -334,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 76,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 80,
+      "wealth": 99,
+      "mood": 79,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -1856,6 +1856,30 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
+      "text_cs": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
+      "text_en": "That year Archbishop Zbyněk took the church's sacrament from Prague Castle and carried it to Roudnice; later it was brought back to the Castle.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 389,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
+      "text": "Hladový a podrážděný medvěd sestoupil z hor, aby si před zimním spánkem ulovil ovci přímo u ohrady na kraji města. Pasák ho stěží odehnal pochodní, ale jedno jehně šelma odvlekla do hvozdu. Lovčí radí nevycházet k lesu bez kopí nebo těžkého kuše.",
+      "text_cs": "Hladový a podrážděný medvěd sestoupil z hor, aby si před zimním spánkem ulovil ovci přímo u ohrady na kraji města. Pasák ho stěží odehnal pochodní, ale jedno jehně šelma odvlekla do hvozdu. Lovčí radí nevycházet k lesu bez kopí nebo těžkého kuše.",
+      "text_en": "A hungry and irritated bear came down from the mountains to hunt a sheep right at the pen on the edge of town before hibernation. The herdsman barely drove it off with a torch, but the beast dragged one lamb into the woods. The huntsman advises not to go to the forest without a spear or heavy crossbow.",
+      "type": "B",
+      "icon": "🐻",
+      "source": "local_events",
+      "tick": 389,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
       "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
       "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
       "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
@@ -2070,33 +2094,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 64
-    },
-    {
-      "text": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_cs": "Dnes odešel šlechticův syn bez zaplacení desátku. Zapsal jsem jeho rod do své malé knihy. Spravedlnost nedojde vždy rychle, ale vrátný nezapomíná. Klášter se dozví, až přijde čas.",
-      "text_en": "Today a nobleman's son left without paying the tithe. I recorded his family in my little book. Justice does not always come quickly, but the porter never forgets. The monastery will know when the time comes.",
-      "type": "A",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 381,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 380,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Hladový a podrážděný medvěd sestoupil z hor, aby si před zimním spánkem ulovil ovci přímo u ohrady na kraji města. Pasák ho stěží odehnal pochodní, ale jedno jehně šelma odvlekla do hvozdu. Lovčí radí nevycházet k lesu bez kopí nebo těžkého kuše.",
+      "text_cs": "Hladový a podrážděný medvěd sestoupil z hor, aby si před zimním spánkem ulovil ovci přímo u ohrady na kraji města. Pasák ho stěží odehnal pochodní, ale jedno jehně šelma odvlekla do hvozdu. Lovčí radí nevycházet k lesu bez kopí nebo těžkého kuše.",
+      "text_en": "A hungry and irritated bear came down from the mountains to hunt a sheep right at the pen on the edge of town before hibernation. The herdsman barely drove it off with a torch, but the beast dragged one lamb into the woods. The huntsman advises not to go to the forest without a spear or heavy crossbow.",
+      "type": "B",
+      "icon": "🐻",
+      "source": "local_events",
+      "tick": 389,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
     {
       "text": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
       "text_cs": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
@@ -2204,21 +2216,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 65
-    },
-    {
-      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 382,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
+      "text_cs": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
+      "text_en": "That year Archbishop Zbyněk took the church's sacrament from Prague Castle and carried it to Roudnice; later it was brought back to the Castle.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 389,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
     {
       "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
       "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
@@ -2323,18 +2335,6 @@
       "icon": "🏚️",
       "source": "distant_events",
       "tick": 378,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 63
-    },
-    {
-      "text": "V Pratu měli tu čest hostit krále Ludvíka II. z Anjou i s jeho slavným velitelem Pippo Spanem. Pobývali v Datiniho domě osmnáct dní a král během své návštěvy zakoupil 12 délek kvalitního šarlatového sukna. Na důkaz vděčnosti panovník udělil hostiteli privilegium nosit v rodovém znaku jeho královské lilie.",
-      "text_cs": "V Pratu měli tu čest hostit krále Ludvíka II. z Anjou i s jeho slavným velitelem Pippo Spanem. Pobývali v Datiniho domě osmnáct dní a král během své návštěvy zakoupil 12 délek kvalitního šarlatového sukna. Na důkaz vděčnosti panovník udělil hostiteli privilegium nosit v rodovém znaku jeho královské lilie.",
-      "text_en": "In Prato, the honor was had of hosting King Louis II of Anjou, along with his famous commander Pippo Spano. They stayed in the Datini house for eighteen days, during which the King purchased 12 rods of fine scarlet cloth. As a token of gratitude, the sovereign granted the host the privilege of bearing his royal lilies upon the family's coat of arms.",
-      "type": "E",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 377,
       "year": 1465,
       "season": "Podzim",
       "day": 63
