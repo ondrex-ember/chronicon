@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-05T21:51:17.080Z",
-  "valid_until": "2026-11-12T21:51:17.080Z",
+  "generated": "2026-11-06T02:07:18.601Z",
+  "valid_until": "2026-11-13T02:07:18.601Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 3,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": 0,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 66,
-    "total_tick": 387,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 66"
+    "day": 67,
+    "total_tick": 388,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 67"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 77,
-      "mood": 73,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 70,
+      "wealth": 96,
+      "mood": 68,
       "stores": 0,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +142,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 79,
       "stores": 3,
       "status": "prosperujici",
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 98,
-      "mood": 75,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 73,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 96,
-      "mood": 76,
+      "mood": 75,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 94,
-      "mood": 79,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
-      "mood": 72,
+      "wealth": 99,
+      "mood": 74,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,7 +286,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 72,
       "stores": 2,
       "status": "prosperujici",
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 95,
-      "mood": 73,
+      "mood": 72,
       "stores": 3,
       "status": "stable",
       "relations": {
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 1,
       "status": "prosperujici",
       "itemStock": {
@@ -362,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 80,
       "stores": 3,
       "status": "stable",
@@ -1852,6 +1856,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
+      "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
+      "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "distant_events",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
+      "text": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
+      "text_cs": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
+      "text_en": "A portion of the royal army clashed with raiders in black armor speaking Hungarian. The mercenary detachments mercilessly plundered a subject village outside the town and led away all the cattle. Villagers are fleeing in terror behind the saving walls, causing immense chaos.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
       "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
       "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
       "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
@@ -2054,45 +2094,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 64
-    },
-    {
-      "text": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
-      "text_cs": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
-      "text_en": "The annual market drew crowds of merchants from the surrounding area and abroad into the town. The square is filled with stalls selling Flanders broadcloth, Venetian glass, and weapons from the German lands. The town treasury fills purses with silver collected from customs and market fees.",
-      "type": "C",
-      "icon": "🎪",
-      "source": "local_events",
-      "tick": 380,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
-    },
-    {
-      "text": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_cs": "V postě onoho roku, praví anály, oblehl uherský král klášter Kladruby — a uslyšev, že Pražané táhnou na pomoc, utekl do Litoměřic. I králové utíkají. Kláštery zůstávají.",
-      "text_en": "In Lent of that year, the annals say, the Hungarian king besieged the monastery of Kladruby — and hearing that the Praguers marched to its relief, fled to Litoměřice. Even kings flee. Monasteries remain.",
-      "type": "A",
-      "icon": "🏰",
-      "source": "monastery_internal",
-      "tick": 380,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
-    },
-    {
-      "text": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
-      "text_cs": "Z Prahy: Na dvoře královském panuje nevole. Páni, kteří dříve k jídlu krále zváni bývali, nyní se omlouvají nemocí a na hrad nejezdí. Šeptá se, že srdce jejich obrácena jsou jinam.",
-      "text_en": "From Prague: discontent reigneth at the royal court. Lords who once were bidden to the king's table now plead sickness and come not to the castle. It is whispered their hearts are turned elsewhere.",
-      "type": "B",
-      "icon": "🗣️",
-      "source": "distant_events",
-      "tick": 379,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
+      "text_cs": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
+      "text_en": "A portion of the royal army clashed with raiders in black armor speaking Hungarian. The mercenary detachments mercilessly plundered a subject village outside the town and led away all the cattle. Villagers are fleeing in terror behind the saving walls, causing immense chaos.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
+    {
+      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
+      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
+      "type": "B",
+      "icon": "🎶",
+      "source": "monastery_internal",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
     {
       "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
       "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
@@ -2188,33 +2216,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 65
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 382,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
-    },
-    {
-      "text": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_cs": "Ze zasedání sněmu dorazila převratná zpráva o přijetí kutnohorského náboženského míru. Dohoda zaručuje všem poddaným svobodnou volbu přijímat z kalicha i pod jednou způsobou bez ohledu na vůli vrchnosti. Dlouhá desetiletí náboženských sporů tímto dostávají pevný právní řád a slibují zemi tolik potřebný klid.",
-      "text_en": "Groundbreaking news of the adoption of the Kutná Hora religious peace arrived from the diet session. The agreement guarantees all subjects the free choice to receive from the chalice or in one kind, regardless of their lords' will. Long decades of religious disputes thus receive a firm legal framework, promising the land much-needed peace.",
-      "type": "E",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 381,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 64
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
+      "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
+      "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
+      "type": "A",
+      "icon": "🐑",
+      "source": "distant_events",
+      "tick": 388,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 67
+    },
     {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
@@ -2322,22 +2338,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 63
-    },
-    {
-      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
-      "type": "A",
-      "icon": "🔮",
-      "source": "distant_events",
-      "tick": 376,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 62
     }
   ],
   "church_calendar": {
-    "day_of_year": 246,
+    "day_of_year": 247,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
