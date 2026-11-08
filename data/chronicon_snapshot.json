@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-08T01:13:12.727Z",
-  "valid_until": "2026-11-15T01:13:12.727Z",
+  "generated": "2026-11-08T11:09:42.140Z",
+  "valid_until": "2026-11-15T11:09:42.140Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_fog",
-    "name": "Mlha",
-    "icon": "🌫",
-    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
-    "tempC": -1,
-    "windKmH": 3,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 1,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 69,
-    "total_tick": 394,
+    "total_tick": 395,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 69"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 75,
+      "mood": 73,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 93,
       "stores": 3,
       "status": "prosperujici",
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 98,
+      "mood": 95,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 87,
+      "mood": 86,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 95,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 97,
+      "mood": 96,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 94,
+      "wealth": 99,
+      "mood": 91,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +330,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 97,
       "stores": 1,
       "status": "stable",
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 94,
+      "wealth": 99,
+      "mood": 95,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
+      "type": "A",
+      "icon": "🐖",
+      "source": "local_events",
+      "tick": 395,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 69
+    },
+    {
       "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
       "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
       "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
@@ -2106,21 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 65
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 384,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
+      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
+      "type": "A",
+      "icon": "🐖",
+      "source": "local_events",
+      "tick": 395,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 69
+    },
     {
       "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
       "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
@@ -2228,18 +2240,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 67
-    },
-    {
-      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
-      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
-      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
-      "type": "D",
-      "icon": "🐭",
-      "source": "monastery_internal",
-      "tick": 387,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 66
     }
   ],
   "chronicle_distant": [
