@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-07T20:03:04.899Z",
-  "valid_until": "2026-11-14T20:03:04.899Z",
+  "generated": "2026-11-08T01:13:12.727Z",
+  "valid_until": "2026-11-15T01:13:12.727Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 2,
+    "key": "autumn_fog",
+    "name": "Mlha",
+    "icon": "🌫",
+    "desc": "Hustá podzimní mlha. Poutníci ztrácejí cestu.",
+    "tempC": -1,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 68,
-    "total_tick": 393,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 68"
+    "day": 69,
+    "total_tick": 394,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 69"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 73,
+      "wealth": 72,
       "mood": 75,
       "stores": 0,
       "status": "stable",
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 96,
+      "wealth": 99,
+      "mood": 93,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 98,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 86,
+      "mood": 87,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 97,
+      "wealth": 100,
+      "mood": 95,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 99,
+      "wealth": 100,
+      "mood": 97,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 93,
+      "wealth": 100,
+      "mood": 91,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 96,
+      "mood": 94,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 99,
+      "wealth": 99,
+      "mood": 97,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 96,
+      "mood": 94,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,18 @@
   ],
   "chronicle": [
     {
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 394,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 69
+    },
+    {
       "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
@@ -2106,21 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 65
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 384,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
     }
   ],
   "chronicle_local": [
+    {
+      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
+      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 394,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 69
+    },
     {
       "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
       "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
@@ -2225,18 +2237,6 @@
       "icon": "🐭",
       "source": "monastery_internal",
       "tick": 387,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 66
-    },
-    {
-      "text": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_cs": "Z Prostějova: V noci shořely tři domy u koželužny. Říká se, že koželuh nechal hořet svíci příliš blízko kůžím. Říká se také, že mu to někdo zapálil schválně kvůli dluhu. Vyšetřování probíhá.",
-      "text_en": "From Prostějov: Three houses near the tannery burned down in the night. They say the tanner left a candle burning too close to the hides. They also say someone set it deliberately over a debt. Investigation is ongoing.",
-      "type": "B",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 386,
       "year": 1465,
       "season": "Podzim",
       "day": 66
@@ -2365,7 +2365,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 248,
+    "day_of_year": 249,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
