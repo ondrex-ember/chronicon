@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-09T01:32:53.282Z",
-  "valid_until": "2026-11-16T01:32:53.282Z",
+  "generated": "2026-11-09T12:41:30.825Z",
+  "valid_until": "2026-11-16T12:41:30.825Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 2,
+    "tempC": 5,
+    "windKmH": 4,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 70,
-    "total_tick": 397,
+    "total_tick": 398,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 70"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 92,
+      "mood": 90,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 91,
+      "wealth": 99,
+      "mood": 90,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 85,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 87,
+      "wealth": 100,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 91,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 82,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 88,
       "stores": 2,
       "status": "stable",
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 89,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 94,
+      "wealth": 100,
+      "mood": 93,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 89,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
+      "type": "A",
+      "icon": "🔮",
+      "source": "distant_events",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
+    {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
+    {
+      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
+      "type": "A",
+      "icon": "🗡️",
+      "source": "monastery_internal",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
+    {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 67
-    },
-    {
-      "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "distant_events",
-      "tick": 388,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
-      "text_cs": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
-      "text_en": "A portion of the royal army clashed with raiders in black armor speaking Hungarian. The mercenary detachments mercilessly plundered a subject village outside the town and led away all the cattle. Villagers are fleeing in terror behind the saving walls, causing immense chaos.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 388,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 388,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
+      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "local_events",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
+    {
+      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
+      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
+      "type": "A",
+      "icon": "🗡️",
+      "source": "monastery_internal",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
     {
       "text": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
       "text_cs": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 68
-    },
-    {
-      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 391,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 68
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
+      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
+      "type": "A",
+      "icon": "🔮",
+      "source": "distant_events",
+      "tick": 398,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 70
+    },
     {
       "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
       "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
@@ -2347,18 +2359,6 @@
       "icon": "🗿",
       "source": "distant_events",
       "tick": 383,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 382,
       "year": 1465,
       "season": "Podzim",
       "day": 65
