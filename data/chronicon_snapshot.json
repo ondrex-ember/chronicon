@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-10T00:01:53.639Z",
-  "valid_until": "2026-11-17T00:01:53.639Z",
+  "generated": "2026-11-10T12:21:50.687Z",
+  "valid_until": "2026-11-17T12:21:50.687Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 1,
+    "tempC": 7,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 71,
-    "total_tick": 399,
+    "total_tick": 400,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 71"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 100,
-      "mood": 90,
+      "mood": 88,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 80,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 87,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 79,
       "stores": 1,
       "status": "stable",
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 99,
-      "mood": 86,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 88,
+      "mood": 87,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 90,
+      "wealth": 99,
+      "mood": 88,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 68
-    },
-    {
-      "text": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_cs": "Anály zaznamenávají stroze: Léta 1415, v oktávu svatých Petra a Pavla, upálen byl v Kostnici mistr Jan Hus, kazatel pražský. Od té věty se v Čechách a na Moravě všechno změnilo. Bratři u toho zápisu dodnes ztiší hlas.",
-      "text_en": "The annals record it tersely: in 1415, in the octave of Saints Peter and Paul, Master Jan Hus, preacher of Prague, was burned at Constance. From that sentence everything in Bohemia and Moravia changed. The brothers still lower their voices at that entry.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 391,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 68
-    },
-    {
-      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_en": "From Mainz, by way of the merchant post: the brothers in the scriptorium passed the leaf of that printed work from hand to hand as though it were a relic. The lettering was exact, line after line alike, a thing no hand could ever achieve.",
-      "type": "A",
-      "icon": "📄",
-      "source": "distant_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
     {
       "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
       "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 69
-    },
-    {
-      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
-      "type": "A",
-      "icon": "🐖",
-      "source": "local_events",
-      "tick": 395,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
-    },
-    {
-      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 394,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
+      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
+      "type": "C",
+      "icon": "🤝",
+      "source": "distant_events",
+      "tick": 400,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
     {
       "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
       "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
@@ -2350,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 66
-    },
-    {
-      "text": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_cs": "Z Pisy přichází varování pro všechny obchodníky: zboží je na cestách ve velkém ohrožení. Kurýři hlásí, že kupci byli přepadeni a oloupeni na cestách z Pisy do Florencie i z Pisy do Lukky. Datiniho dům prý zatím pozastavuje další transporty, dokud cesty nebudou opět bezpečné.",
-      "text_en": "A warning comes from Pisa to all merchants: goods on the roads are in great peril. Couriers report that men have been waylaid and robbed both on the road from Pisa to Florence and from Pisa to Lucca. The Datini house is said to be halting further transports for now, until the roads are safe once more.",
-      "type": "D",
-      "icon": "🥷",
-      "source": "distant_events",
-      "tick": 384,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
     }
   ],
   "church_calendar": {
