@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-10T12:21:50.687Z",
-  "valid_until": "2026-11-17T12:21:50.687Z",
+  "generated": "2026-11-10T21:43:21.413Z",
+  "valid_until": "2026-11-17T21:43:21.413Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 7,
-    "windKmH": 9,
+    "tempC": 3,
+    "windKmH": 1,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 71,
-    "total_tick": 400,
+    "total_tick": 401,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 71"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 73,
+      "wealth": 72,
       "mood": 76,
       "stores": 0,
       "status": "stable",
@@ -114,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 88,
       "stores": 3,
       "status": "prosperujici",
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 88,
+      "wealth": 100,
+      "mood": 85,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 97,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 81,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 100,
+      "mood": 87,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 79,
       "stores": 1,
       "status": "stable",
@@ -282,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 83,
       "stores": 2,
       "status": "stable",
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 87,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 88,
+      "wealth": 100,
+      "mood": 85,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 86,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
+      "type": "A",
+      "icon": "🔨",
+      "source": "distant_events",
+      "tick": 401,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
@@ -2106,18 +2118,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 68
-    },
-    {
-      "text": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_cs": "Ze staročeských letopisů: Město Znojmo drží obléhání královských vojsk již čtyři týdny. Měšťané prý posílají tajné posly k uherskému králi Matyášovi s prosbou o pomoc. Zásoby obilí ve městě docházejí a na hradbách jsou prý vidět ženy vedle mužů.",
-      "text_en": "From the Old Czech Chronicles: The city of Znojmo has been under siege by the royal forces for four weeks. The burghers are said to be sending secret messengers to the Hungarian king Matthias begging for help. The grain stores in the city are running out and women can reportedly be seen alongside men on the walls.",
-      "type": "B",
-      "icon": "🏰",
-      "source": "distant_events",
-      "tick": 391,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 68
     }
   ],
   "chronicle_local": [
@@ -2244,6 +2244,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
+      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
+      "type": "A",
+      "icon": "🔨",
+      "source": "distant_events",
+      "tick": 401,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 71
+    },
+    {
       "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
       "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
@@ -2350,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 67
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 385,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 66
     }
   ],
   "church_calendar": {
