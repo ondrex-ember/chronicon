@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-11T01:46:59.387Z",
-  "valid_until": "2026-11-18T01:46:59.387Z",
+  "generated": "2026-11-11T11:45:13.225Z",
+  "valid_until": "2026-11-18T11:45:13.225Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 3,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 4,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 72,
-    "total_tick": 402,
+    "total_tick": 403,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 72"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 74,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 100,
-      "mood": 88,
+      "wealth": 99,
+      "mood": 89,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 83,
+      "mood": 80,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 76,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 82,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 87,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 77,
+      "wealth": 98,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -286,7 +286,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 82,
       "stores": 2,
       "status": "stable",
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 83,
+      "mood": 82,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -367,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 84,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1884,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 403,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 403,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
       "text": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
       "text_cs": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
       "text_en": "From the Prostějov court: A wealthy burgher is suing a master tailor, claiming he sewed a cloak from precious Flanders cloth with one sleeve shorter. The tailor argues the burgher has crooked shoulders. The case was adjourned.",
@@ -2098,33 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 69
-    },
-    {
-      "text": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_cs": "Z Krnova: Neodpovědný pasák nechal bránu ohrady otevřenou a stádo padesáti prasat vběhlo do měšťanských zelných zahrad. Prasata úrodu zcela zdevastovala, než je strážní zahnali zpět klacky.",
-      "text_en": "From Krnov: An irresponsible herdsman left the pen gate open, and a herd of fifty pigs ran into the burghers' cabbage gardens. The pigs completely devastated the crop before guards drove them back with sticks.",
-      "type": "A",
-      "icon": "🐖",
-      "source": "local_events",
-      "tick": 395,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
-    },
-    {
-      "text": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_cs": "O rok později, praví anály, upálen byl v Kostnici i mistr Jeroným z Prahy, před Božím vstoupením. Bratr knihovník ty dva zápisy nechává na stejné straně — patří k sobě jako jiskra a požár.",
-      "text_en": "A year later, the annals say, Master Jerome of Prague was burned at Constance too, before the Ascension. Brother librarian keeps the two entries on the same page — they belong together like spark and blaze.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 394,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
+      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
+      "type": "B",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 403,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 403,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
     {
       "text": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
       "text_cs": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
@@ -2217,30 +2241,6 @@
       "icon": "🗡️",
       "source": "monastery_internal",
       "tick": 398,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
-    },
-    {
-      "text": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
-      "text_cs": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
-      "text_en": "From Opava: Five of the best hunting horses disappeared from the lord's stables at night. Tracks lead toward the Polish border. The duke has posted a generous reward of fifty groats for their safe return.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 397,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 397,
       "year": 1465,
       "season": "Podzim",
       "day": 70
