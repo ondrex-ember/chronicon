@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-10T21:43:21.413Z",
-  "valid_until": "2026-11-17T21:43:21.413Z",
+  "generated": "2026-11-11T01:46:59.387Z",
+  "valid_until": "2026-11-18T01:46:59.387Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -68,7 +72,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 3,
-    "windKmH": 1,
+    "windKmH": 3,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 71,
-    "total_tick": 401,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 71"
+    "day": 72,
+    "total_tick": 402,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 72"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +118,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 88,
       "stores": 3,
       "status": "prosperujici",
@@ -138,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
-      "mood": 85,
+      "wealth": 99,
+      "mood": 83,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,7 +166,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 84,
       "stores": 2,
       "status": "stable",
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 78,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 79,
+      "mood": 77,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 83,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -307,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 86,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 85,
+      "mood": 83,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 84,
       "stores": 3,
       "status": "prosperujici",
@@ -1880,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
+      "text_cs": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
+      "text_en": "From the Prostějov court: A wealthy burgher is suing a master tailor, claiming he sewed a cloak from precious Flanders cloth with one sleeve shorter. The tailor argues the burgher has crooked shoulders. The case was adjourned.",
+      "type": "A",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 402,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 402,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
       "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
       "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
       "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
@@ -2094,33 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 69
-    },
-    {
-      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
-      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 392,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 68
-    },
-    {
-      "text": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_cs": "Bratr vrátný hlásil, že na obzoru je vůz plný podvodníků. Opat z okna usoudil, že jde o naše dodavatele pergamenu. Zapsáno do knihy jako omyl zraku, nikoliv jako omyl ducha.",
-      "text_en": "Brother porter reported a cart full of swindlers on the horizon. The abbot judged from the window that it was our parchment suppliers. Recorded in the book as an error of sight, not an error of spirit.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 392,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 68
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
+      "text_cs": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
+      "text_en": "From the Prostějov court: A wealthy burgher is suing a master tailor, claiming he sewed a cloak from precious Flanders cloth with one sleeve shorter. The tailor argues the burgher has crooked shoulders. The case was adjourned.",
+      "type": "A",
+      "icon": "🧵",
+      "source": "local_events",
+      "tick": 402,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
+    {
+      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
+      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
+      "type": "A",
+      "icon": "🌊",
+      "source": "monastery_internal",
+      "tick": 402,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 72
+    },
     {
       "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
       "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
@@ -2216,30 +2244,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 70
-    },
-    {
-      "text": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_cs": "Z Brna: Mistr kovářský hledá svého učedníka Matěje, který uprchl s ukradeným měšcem a stříbrnou sponou. Kdo by ho přivedl zpět do města, dostane odměnu dva zlaté groše. Chlapec kulhá na levou nohu.",
-      "text_en": "From Brno: A master blacksmith is seeking his apprentice Matěj, who fled with a stolen purse and a silver clasp. Whoever brings him back to the town will receive a reward of two gold groats. The boy limps on his left leg.",
-      "type": "A",
-      "icon": "🏃",
-      "source": "local_events",
-      "tick": 396,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
-    },
-    {
-      "text": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_cs": "Z análů: Léta 1303 zemřel král Václav na svatého Vojtěcha — ten, který založil a vystavěl klášter zbraslavský. Králové umírají; kláštery, které založili, se za ně modlí dál.",
-      "text_en": "From the annals: in 1303 King Wenceslas died on St Adalbert's day — he who founded and built the monastery of Zbraslav. Kings die; the monasteries they founded pray on for them.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "monastery_internal",
-      "tick": 396,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 69
     }
   ],
   "chronicle_distant": [
@@ -2365,7 +2369,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 251,
+    "day_of_year": 252,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
