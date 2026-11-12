@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-12T12:24:24.106Z",
-  "valid_until": "2026-11-19T12:24:24.106Z",
+  "generated": "2026-11-12T22:09:11.449Z",
+  "valid_until": "2026-11-19T22:09:11.449Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 13,
-    "windKmH": 7,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 5,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 73,
-    "total_tick": 405,
+    "total_tick": 406,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 73"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 73,
+      "wealth": 72,
       "mood": 76,
       "stores": 0,
       "status": "stable",
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 85,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 79,
+      "mood": 78,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 98,
-      "mood": 84,
+      "wealth": 97,
+      "mood": 85,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 76,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 81,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 77,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 80,
       "stores": 2,
       "status": "stable",
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 81,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
+    {
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
+    {
       "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 70
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 397,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
-    },
-    {
-      "text": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
-      "text_cs": "Z Opavy: V noci zmizelo z panských stájí pět nejlepších loveckých koní. Stopy vedou k polským hranicím. Kníže vypsal štědrou odměnu padesát grošů za jejich bezpečné navrácení.",
-      "text_en": "From Opava: Five of the best hunting horses disappeared from the lord's stables at night. Tracks lead toward the Polish border. The duke has posted a generous reward of fifty groats for their safe return.",
-      "type": "A",
-      "icon": "🐴",
-      "source": "local_events",
-      "tick": 397,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
-    },
-    {
-      "text": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_cs": "Zavedl jsem novou metodu počítání chyb během mše. Po prvním dni musím pořídit nový arch pergamenu, stávající už nestačí. Zpěv bratří je čirá symfonie zkázy. Jen Bůh to může poslouchat.",
-      "text_en": "I introduced a new method of counting mistakes during mass. After the first day, I must acquire a new sheet of parchment; the current one is insufficient. The brothers' singing is a pure symphony of ruin. Only God can listen to it.",
-      "type": "B",
-      "icon": "🎵",
-      "source": "monastery_internal",
-      "tick": 397,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
+      "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
+      "type": "A",
+      "icon": "🐴",
+      "source": "local_events",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
     {
       "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
       "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 71
-    },
-    {
-      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
-      "type": "C",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 400,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
-    },
-    {
-      "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_en": "Skilled weavers from Šternberk brought new supplies of coarse linen cloth to the markets, selling it at very favorable prices. Merchants from Hungary are lightning-fast at buying up this merchandise in whole rolls. The weavers' guild master praises the profits and is taking on new apprentices.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 399,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
+      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
+      "type": "B",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 406,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 73
+    },
     {
       "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
       "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
@@ -2347,18 +2359,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 389,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "distant_events",
-      "tick": 388,
       "year": 1465,
       "season": "Podzim",
       "day": 67
