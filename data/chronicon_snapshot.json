@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-12T22:09:11.449Z",
-  "valid_until": "2026-11-19T22:09:11.449Z",
+  "generated": "2026-11-13T11:59:40.463Z",
+  "valid_until": "2026-11-20T11:59:40.463Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 5,
-    "windKmH": 9,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 8,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 73,
-    "total_tick": 406,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 73"
+    "day": 74,
+    "total_tick": 407,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 74"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 76,
+      "mood": 78,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 84,
+      "mood": 85,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 97,
-      "mood": 85,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +214,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +239,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 86,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 98,
-      "mood": 78,
+      "mood": 77,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 80,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,7 +310,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 77,
       "stores": 3,
       "status": "prosperujici",
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
-      "mood": 79,
+      "wealth": 99,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 98,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
+      "type": "B",
+      "icon": "🎲",
+      "source": "local_events",
+      "tick": 407,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
+      "type": "A",
+      "icon": "🪶",
+      "source": "monastery_internal",
+      "tick": 407,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
       "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
       "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
       "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
@@ -2094,33 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 70
-    },
-    {
-      "text": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_cs": "Z Brna: Do města přijela bohatě zdobená kupecká delegace z Vratislavi dojednat nové obchodní dohody ohledně dovozu soli a železa. Konšelé je přivítali slavnostní hostinou a sudy drahého vína.",
-      "text_en": "From Brno: A richly decorated merchant delegation from Wrocław arrived in the town to negotiate new trade agreements regarding the import of salt and iron. Aldermen welcomed them with a festive banquet and barrels of expensive wine.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "local_events",
-      "tick": 398,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
-    },
-    {
-      "text": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
-      "text_cs": "Bratr knihovník listoval v análech: Léta tisíc CCCVI zabit jest v Olomúci král Václav, poslední z rodu Přemyslova. Stalo se to nedaleko odtud — a dodnes nikdo s jistotou neví, čí ruka nůž vedla.",
-      "text_en": "Brother librarian leafed through the annals: in the year 1306 King Wenceslas, last of the Přemyslids, was slain in Olomouc. It happened not far from here — and to this day no one knows for certain whose hand guided the knife.",
-      "type": "A",
-      "icon": "🗡️",
-      "source": "monastery_internal",
-      "tick": 398,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
+      "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
+      "type": "B",
+      "icon": "🎲",
+      "source": "local_events",
+      "tick": 407,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
+      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
+      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
+      "type": "A",
+      "icon": "🪶",
+      "source": "monastery_internal",
+      "tick": 407,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
     {
       "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
       "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
@@ -2216,30 +2244,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 72
-    },
-    {
-      "text": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_cs": "Anály praví: v pondělí před svatou Máří Magdalenou byla v Praze povodeň tak veliká, že po Rynku Starého Města jezdili na lodích. Voda zbořila nový kamenný most a všechny mlýny. Náš mlynář to vypráví pokaždé, když někdo reptá na cenu mletí.",
-      "text_en": "The annals say: on the Monday before St Mary Magdalene there was in Prague a flood so great that boats sailed the Old Town Square. The water broke the new stone bridge and every mill. Our miller tells it whenever someone grumbles at the price of grinding.",
-      "type": "A",
-      "icon": "🌊",
-      "source": "monastery_internal",
-      "tick": 402,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
-    },
-    {
-      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 400,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
     }
   ],
   "chronicle_distant": [
@@ -2365,7 +2369,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 253,
+    "day_of_year": 254,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
