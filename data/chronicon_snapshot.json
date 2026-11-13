@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-13T11:59:40.463Z",
-  "valid_until": "2026-11-20T11:59:40.463Z",
+  "generated": "2026-11-13T21:51:28.957Z",
+  "valid_until": "2026-11-20T21:51:28.957Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 8,
-    "windKmH": 16,
+    "tempC": 3,
+    "windKmH": 12,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 74,
-    "total_tick": 407,
+    "total_tick": 408,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 74"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 72,
-      "mood": 78,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 85,
+      "wealth": 97,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 77,
+      "mood": 76,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 97,
-      "mood": 83,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -214,7 +214,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 83,
       "stores": 5,
       "status": "prosperujici",
@@ -238,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 84,
       "stores": 5,
       "status": "prosperujici",
@@ -262,7 +262,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 77,
       "stores": 1,
       "status": "stable",
@@ -286,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 77,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -335,7 +335,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 78,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,7 +366,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 78,
       "stores": 3,
       "status": "prosperujici",
@@ -1884,6 +1884,42 @@
   ],
   "chronicle": [
     {
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
+      "type": "C",
+      "icon": "🧰",
+      "source": "distant_events",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
+      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
+      "type": "D",
+      "icon": "🐭",
+      "source": "monastery_internal",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
       "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
       "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
       "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
@@ -2086,45 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 71
-    },
-    {
-      "text": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_cs": "Zruční tkalci ze Šternberka přivezli na trhy nové zásoby hrubého lněného plátna, které se prodává za velmi výhodné ceny. Obchodníci z Uher toto zboží bleskově vykupují po celých rolích. Cechmistr tkalců si pochvaluje zisky a nabírá nové učedníky.",
-      "text_en": "Skilled weavers from Šternberk brought new supplies of coarse linen cloth to the markets, selling it at very favorable prices. Merchants from Hungary are lightning-fast at buying up this merchandise in whole rolls. The weavers' guild master praises the profits and is taking on new apprentices.",
-      "type": "C",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 399,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
-    },
-    {
-      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 399,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
-    },
-    {
-      "text": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_cs": "Z Prahy: Na trhu se objevil muž, jenž za peníz věštil z dlaně, že páni jednou poddané své tvrději sevřou, než nyní jest. Lid mu nevěřil příliš, ale peníz mu dával.",
-      "text_en": "From Prague: a man appeared at the market who, for a coin, would foretell from the palm that lords shall one day grip their subjects harder than now they do. The people believed him little, yet gave him the coin all the same.",
-      "type": "A",
-      "icon": "🔮",
-      "source": "distant_events",
-      "tick": 398,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
+      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
+    {
+      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
+      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
+      "type": "D",
+      "icon": "🐭",
+      "source": "monastery_internal",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
     {
       "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
       "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
@@ -2220,33 +2244,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 72
-    },
-    {
-      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
-      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
-      "type": "D",
-      "icon": "🖋️",
-      "source": "monastery_internal",
-      "tick": 403,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
-    },
-    {
-      "text": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
-      "text_cs": "Z prostějovského soudu: Bohatý měšťan žaluje mistra krejčího, že mu ze vzácného flanderského sukna ušil plášť s jedním rukávem kratším. Krejčí se brání, že měšťan má křivá ramena. Případ byl odročen.",
-      "text_en": "From the Prostějov court: A wealthy burgher is suing a master tailor, claiming he sewed a cloak from precious Flanders cloth with one sleeve shorter. The tailor argues the burgher has crooked shoulders. The case was adjourned.",
-      "type": "A",
-      "icon": "🧵",
-      "source": "local_events",
-      "tick": 402,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
+      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
+      "type": "C",
+      "icon": "🧰",
+      "source": "distant_events",
+      "tick": 408,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 74
+    },
     {
       "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
       "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
@@ -2351,18 +2363,6 @@
       "icon": "📄",
       "source": "distant_events",
       "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
-      "text_cs": "Léta téhož kněz Sbyněk, arcibiskup pražský, pobrav svátost kostelní na Hradě pražském, i vezl ji na Rúdnici. A když jest zase přivezena na Hrad do Kostela, tehda král Václav, pobrav tu svátost, kázal ji vézti na Karštejn.",
-      "text_en": "That year Archbishop Zbyněk took the church's sacrament from Prague Castle and carried it to Roudnice; later it was brought back to the Castle.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 389,
       "year": 1465,
       "season": "Podzim",
       "day": 67
