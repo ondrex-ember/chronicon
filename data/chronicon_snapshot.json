@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-13T21:51:28.957Z",
-  "valid_until": "2026-11-20T21:51:28.957Z",
+  "generated": "2026-11-14T02:07:43.026Z",
+  "valid_until": "2026-11-21T02:07:43.026Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 12,
+    "tempC": 2,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 74,
-    "total_tick": 408,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 74"
+    "day": 75,
+    "total_tick": 409,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 75"
   },
   "actors": [
     {
@@ -94,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 72,
-      "mood": 75,
+      "wealth": 71,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -119,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 84,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -143,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 76,
+      "mood": 75,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -191,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -215,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 83,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -239,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 84,
+      "mood": 85,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 97,
-      "mood": 77,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -286,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 79,
+      "wealth": 96,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -310,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 75,
       "stores": 3,
       "status": "prosperujici",
@@ -334,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 100,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 97,
-      "mood": 78,
+      "wealth": 98,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1884,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
+    {
+      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
+    {
+      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
+      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
+      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
+      "type": "A",
+      "icon": "📚",
+      "source": "monastery_internal",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
+    {
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
@@ -2086,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 71
-    },
-    {
-      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
-      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 400,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
-    },
-    {
-      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
-      "type": "C",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 400,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
-    },
-    {
-      "text": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_cs": "Z Prata se šíří zpráva o štědrosti: na posílení dobrých vztahů a pro spásu duše bylo darováno deset sudů vynikajícího červeného vína z Pimonte klášteru svatých Andělů. Zároveň byl odeslán soudek vzácného vína z Malagy přímo pokladníkovi florentské komuny, panu Federigovi. Takové dary se prý vždy ukážou jako prozřetelná investice.",
-      "text_en": "News of generosity spreads from Prato: to strengthen good relations and for the salvation of souls, ten barrels of excellent red wine from Pimonte were donated to the monks of the Angels. At the same time, a small barrel of rare wine from Malaga was dispatched directly to the Treasurer of the Florentine Commune, Messer Federigo. Such gifts, it is said, always prove a prudent investment.",
-      "type": "E",
-      "icon": "🍷",
-      "source": "distant_events",
-      "tick": 399,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
+      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
+      "type": "D",
+      "icon": "☠️",
+      "source": "local_events",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
+    {
+      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
+      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
+      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
+      "type": "A",
+      "icon": "📚",
+      "source": "monastery_internal",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
     {
       "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
       "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
@@ -2220,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 72
-    },
-    {
-      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 404,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
-    },
-    {
-      "text": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
-      "text_cs": "Na polích nedaleko města rozbil tábor oddíl potulných žoldnéřů čekajících na najmutí. Ozbrojenci obtěžují místní selky, kradou drůbež a vyhrožují vypálením mlýna, pokud nedostanou výkupné. Purkmistr spěšně shání stříbro, aby je přesvědčil k odchodu do Čech.",
-      "text_en": "A detachment of wandering mercenaries waiting to be hired pitched camp in the fields near the town. The armed men harass local peasant women, steal poultry, and threaten to burn down the mill unless they receive a ransom. The burgomaster is hastily gathering silver to persuade them to leave for Bohemia.",
-      "type": "B",
-      "icon": "🏕️",
-      "source": "local_events",
-      "tick": 403,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
+      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 409,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 75
+    },
     {
       "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
       "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
@@ -2354,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 68
-    },
-    {
-      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_en": "From Mainz, by way of the merchant post: the brothers in the scriptorium passed the leaf of that printed work from hand to hand as though it were a relic. The lettering was exact, line after line alike, a thing no hand could ever achieve.",
-      "type": "A",
-      "icon": "📄",
-      "source": "distant_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
     }
   ],
   "church_calendar": {
-    "day_of_year": 254,
+    "day_of_year": 255,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
