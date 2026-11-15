@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-14T20:31:31.092Z",
-  "valid_until": "2026-11-21T20:31:31.092Z",
+  "generated": "2026-11-15T01:39:16.446Z",
+  "valid_until": "2026-11-22T01:39:16.446Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 3,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": 0,
+    "windKmH": 7,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 75,
-    "total_tick": 411,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 75"
+    "day": 76,
+    "total_tick": 412,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 76"
   },
   "actors": [
     {
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 71,
-      "mood": 73,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 96,
-      "mood": 80,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 78,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 99,
-      "mood": 83,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 97,
+      "wealth": 98,
       "mood": 77,
       "stores": 1,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
-      "mood": 79,
+      "wealth": 95,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 72,
+      "wealth": 97,
+      "mood": 73,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 100,
-      "mood": 79,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 76,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
+      "type": "E",
+      "icon": "🧪",
+      "source": "distant_events",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
+    {
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
+    {
       "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 73
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 405,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 73
-    },
-    {
-      "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_en": "The steward of the local estate sent bailiffs to catch a serf family that secretly fled at night with their cow to a neighboring estate. The runaways hope to gain better conditions there or find asylum behind town walls. The landowner is offering a hefty reward for bringing them back in chains.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 404,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
-    },
-    {
-      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 404,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
+      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
+    {
+      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
+      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
+      "type": "A",
+      "icon": "❄️",
+      "source": "monastery_internal",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
     {
       "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
       "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 74
-    },
-    {
-      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
-      "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
-      "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
-      "type": "B",
-      "icon": "🎲",
-      "source": "local_events",
-      "tick": 407,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
-    },
-    {
-      "text": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_cs": "Bratři se dnes při kapitule hádali celou hodinu o tom, zda má pravý mnich spát na pravém, či levém boku. Opat celou debatu prospal na zádech. Zapsáno do protokolu jako vzor dokonalé neutrality.",
-      "text_en": "The brothers argued for an hour at the chapter today about whether a true monk should sleep on his right or left side. The abbot slept through the entire debate on his back. Recorded in the minutes as a model of perfect neutrality.",
-      "type": "A",
-      "icon": "🪶",
-      "source": "monastery_internal",
-      "tick": 407,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_cs": "Z Janova přišla dobrá zpráva: lodě Datiniho domu úspěšně dopravily drahocenný náklad z Černého moře a Balkánu. V janovském skladu je nyní evidováno velké množství železa, vosku, kamence, santalového dřeva a gallových oříšků. Tyto suroviny jsou nezbytné pro barvíře a koželužny, což zajistí stabilní odbyt v toskánských dílnách.",
+      "text_en": "Good news from Genoa: ships of the Datini house have successfully brought a precious cargo from the Black Sea and the Balkans. The Genoese warehouse now records large quantities of iron, wax, alum, sandalwood, and gall-nuts. These raw materials are essential for dyers and tanneries, ensuring steady sales in Tuscan workshops.",
+      "type": "E",
+      "icon": "🧪",
+      "source": "distant_events",
+      "tick": 412,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 76
+    },
     {
       "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
       "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
@@ -2350,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 70
-    },
-    {
-      "text": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_cs": "V kupecké poště z Pisy je zaznamenáno: dne 9. května byla uzavřena pojistná smlouva na tatarskou otrokyni jménem Margherita, odeslanou z Porto Pisano zákazníkovi v Barceloně. Pojistka zní na 50 zlatých florénů a plně kryje rizika ze strany moře a pirátů. Pojistné plnění bylo výslovně vyloučeno v případě jejího útěku nebo skrytého těhotenství.",
-      "text_en": "Recorded in the Pisa merchant post: on the 9th of May, an insurance policy was drawn up for a Tartar slave named Margherita, sent from Porto Pisano to a customer in Barcelona. The policy is for 50 gold florins and fully covers risks from the sea and pirates. Coverage was expressly excluded in the event of her flight or concealed pregnancy.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 397,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 70
     }
   ],
   "church_calendar": {
-    "day_of_year": 255,
+    "day_of_year": 256,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
