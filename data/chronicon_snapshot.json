@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-16T01:42:55.520Z",
-  "valid_until": "2026-11-23T01:42:55.520Z",
+  "generated": "2026-11-16T12:33:27.366Z",
+  "valid_until": "2026-11-23T12:33:27.366Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,13 +63,13 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "key": "autumn_storm",
+    "name": "Bouřka",
+    "icon": "⛈",
+    "desc": "Podzimní bouřka. Dřevo i obilí trpí.",
     "season": 2,
-    "modifier_grain": 0.95,
-    "modifier_wood": 1
+    "modifier_grain": 0.85,
+    "modifier_wood": 0.8
   },
   "time": {
     "year": 1465,
@@ -77,7 +77,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 77,
-    "total_tick": 415,
+    "total_tick": 416,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 77"
   },
   "actors": [
@@ -88,7 +88,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 74,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -112,7 +112,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 78,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +136,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 96,
-      "mood": 72,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -183,8 +183,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -207,7 +207,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 81,
       "stores": 5,
       "status": "prosperujici",
@@ -256,7 +256,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 72,
+      "mood": 71,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -279,8 +279,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
-      "mood": 75,
+      "wealth": 95,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -304,7 +304,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 72,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -328,7 +328,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 77,
+      "mood": 76,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -360,7 +360,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 74,
+      "mood": 72,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1877,6 +1877,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
+      "type": "D",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
       "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
       "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
       "text_en": "From the Zbraslav notes: at Lipany, it is said, many of the field armies fell, when the moderates joined with the lords. An old man who was there yet cannot abide the sound of drums, for it recalleth to him that field full of the dead.",
@@ -2079,45 +2115,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
-      "type": "C",
-      "icon": "🧰",
-      "source": "distant_events",
-      "tick": 408,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
+      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
+      "type": "B",
+      "icon": "👑",
+      "source": "local_events",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
+      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
+      "type": "D",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
     {
       "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
       "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
@@ -2213,33 +2237,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 410,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 410,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
+      "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
+      "type": "A",
+      "icon": "📋",
+      "source": "distant_events",
+      "tick": 416,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
     {
       "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
       "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
@@ -2347,18 +2359,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 73
-    },
-    {
-      "text": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_cs": "Z českých zemí: Po letech válek se řemesla pomalu vracejí. Kováři a tesaři, jichž za bojů ubylo, mají dnes znovu hojně práce. Mistr jeden řekl, že ruce mu nestačí na všechny zakázky.",
-      "text_en": "From the Bohemian lands: after the years of war, the crafts slowly return. Smiths and carpenters, of whom there were few during the fighting, today again have abundant work. One master said his hands suffice not for all the orders.",
-      "type": "A",
-      "icon": "🔨",
-      "source": "distant_events",
-      "tick": 401,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
     }
   ],
   "church_calendar": {
