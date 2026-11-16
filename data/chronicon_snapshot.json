@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-15T20:55:29.827Z",
-  "valid_until": "2026-11-22T20:55:29.827Z",
+  "generated": "2026-11-16T01:42:55.520Z",
+  "valid_until": "2026-11-23T01:42:55.520Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,12 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 4,
-    "windKmH": 6,
-    "rainMm": 0,
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.95,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +76,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 76,
-    "total_tick": 414,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 76"
+    "day": 77,
+    "total_tick": 415,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 77"
   },
   "actors": [
     {
@@ -91,7 +88,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 75,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,7 +111,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
+      "wealth": 95,
       "mood": 78,
       "stores": 3,
       "status": "prosperujici",
@@ -138,8 +135,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 74,
+      "wealth": 96,
+      "mood": 72,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +160,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 95,
-      "mood": 77,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +208,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 98,
-      "mood": 82,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +256,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 73,
+      "mood": 72,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +280,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 96,
-      "mood": 76,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +303,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 97,
-      "mood": 70,
+      "wealth": 96,
+      "mood": 72,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,7 +327,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 77,
       "stores": 1,
       "status": "stable",
@@ -362,8 +359,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 75,
+      "wealth": 98,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1877,42 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
+      "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
+      "text_en": "From the Zbraslav notes: at Lipany, it is said, many of the field armies fell, when the moderates joined with the lords. An old man who was there yet cannot abide the sound of drums, for it recalleth to him that field full of the dead.",
+      "type": "D",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
+      "type": "A",
+      "icon": "☀️",
+      "source": "monastery_internal",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
@@ -2082,45 +2115,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 74
-    },
-    {
-      "text": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_cs": "Spor o hraniční kámen mezi dvěma statkáři vyústil ve rvačku s vidlemi. Purkmistr oba aktéry vsadil do klády na náměstí. Navíc musí zaplatit pět grošů pokuty městské pokladně.",
-      "text_en": "A dispute over a boundary stone between two landowners resulted in a brawl with pitchforks. The burgomaster put both participants in the stocks in the square. Furthermore, they must pay a fine of five groats to the town treasury.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 408,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
-    },
-    {
-      "text": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
-      "text_cs": "Našel jsem myš v prázdném sudu. Je záhadou, jak tam vlezla, protože zátka byla na svém místě. Kočka Metoděj jen lenivě přihlížela, jak myš vyháním. Zaznamenávám ztrátu jednoho zrnka pšenice a kočičí cti.",
-      "text_en": "I found a mouse in an empty barrel. It's a mystery how it got in, as the bung was in place. The cat Metoděj watched lazily as I chased the mouse out. I record the loss of one grain of wheat and feline honor.",
-      "type": "D",
-      "icon": "🐭",
-      "source": "monastery_internal",
-      "tick": 408,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
-    },
-    {
-      "text": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
-      "text_cs": "Tři pacholci se v hospodě pohádali o výhru v kostkách. Jeden z nich vytáhl tesák a bodl svého soka do břicha. Zraněný do rána skonal, zatímco vrah se skrývá v okolních lesích.",
-      "text_en": "Three farmhands argued in a tavern over winnings in dice. One of them drew a hanger and stabbed his rival in the belly. The wounded man died by morning, while the killer hides in the surrounding woods.",
-      "type": "B",
-      "icon": "🎲",
-      "source": "local_events",
-      "tick": 407,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
+      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
+      "type": "E",
+      "icon": "🏕️",
+      "source": "local_events",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
+    {
+      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
+      "type": "A",
+      "icon": "☀️",
+      "source": "monastery_internal",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
     {
       "text": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
       "text_cs": "V temné uličce u městských hradeb byl nalezen ubodaný pašerák rakouského vína. Stráže našly opodál i rozbitý sud s červeným vínem, které zbarvilo dlažební kameny do krvava. Očekává se, že jde o vyřizování účtů mezi zlodějskými bandami, které se vyhýbají placení cla.",
@@ -2216,33 +2237,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_cs": "Zápis koronera: V krčmě u hradeb došlo k hádce mezi dvěma žoldnéři u kostek. Jeden prořízl druhému hrdlo dýkou a uprchl oknem do tmy. Zavražděný u sebe neměl žádné mince, jen falešné kostky.",
-      "text_en": "Coroner's record: An argument broke out between two mercenaries over dice in a tavern near the walls. One slit the other's throat with a dagger and fled through the window into the dark. The murdered man had no coins on him, only loaded dice.",
-      "type": "D",
-      "icon": "☠️",
-      "source": "local_events",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_cs": "Při řazení knih jsem zjistil, že svazky sázíme podle velikosti a ne podle obsahu. Je logické, že teologie musí zabrat více místa než poezie. Zapsáno jako vítězství rozumu nad abecedou.",
-      "text_en": "While arranging books, I found we sort them by size, not content. It is logical that theology must take up more space than poetry. Recorded as a victory of reason over the alphabet.",
-      "type": "A",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
+      "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
+      "text_en": "From the Zbraslav notes: at Lipany, it is said, many of the field armies fell, when the moderates joined with the lords. An old man who was there yet cannot abide the sound of drums, for it recalleth to him that field full of the dead.",
+      "type": "D",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 415,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 77
+    },
     {
       "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
       "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
@@ -2350,22 +2359,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 71
-    },
-    {
-      "text": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_cs": "Ze starých zápisků: Když páni umírnění s katolíky se spojili proti vojskům polním, mnozí to za zradu měli, jiní za rozum. Od bitvy té prý teprve začal v zemi pomalý návrat kupců a řemesel.",
-      "text_en": "From old notes: when the moderate lords joined with the Catholics against the field armies, many called it betrayal, others called it reason. From that battle, it is said, began at last the slow return of merchants and craft to the land.",
-      "type": "C",
-      "icon": "🤝",
-      "source": "distant_events",
-      "tick": 400,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 71
     }
   ],
   "church_calendar": {
-    "day_of_year": 256,
+    "day_of_year": 257,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
