@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-17T00:05:31.366Z",
-  "valid_until": "2026-11-24T00:05:31.366Z",
+  "generated": "2026-11-17T12:57:52.904Z",
+  "valid_until": "2026-11-24T12:57:52.904Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,9 +67,9 @@
     "name": "Déšť",
     "icon": "🌧",
     "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 7,
-    "windKmH": 9,
-    "rainMm": 0,
+    "tempC": 9,
+    "windKmH": 6,
+    "rainMm": 0.1,
     "season": 2,
     "modifier_grain": 0.95,
     "modifier_wood": 1
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 78,
-    "total_tick": 417,
+    "total_tick": 418,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 78"
   },
   "actors": [
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 79,
+      "mood": 78,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 96,
-      "mood": 72,
+      "wealth": 95,
+      "mood": 73,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 96,
-      "mood": 77,
+      "wealth": 95,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 75,
+      "wealth": 97,
+      "mood": 73,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 77,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 73,
+      "mood": 72,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 94,
-      "mood": 76,
+      "wealth": 95,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 96,
-      "mood": 72,
+      "wealth": 95,
+      "mood": 73,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 74,
+      "wealth": 99,
+      "mood": 72,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
-      "mood": 70,
+      "wealth": 98,
+      "mood": 71,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
+      "type": "D",
+      "icon": "🍯",
+      "source": "monastery_internal",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
       "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
       "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
-      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
-      "type": "A",
-      "icon": "🚶",
-      "source": "distant_events",
-      "tick": 410,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
+      "text_en": "From Olomouc: A master clockmaker from Prague successfully completed the installation of a new tower mechanism. Burghers gathered in the square to watch in awe as the hours struck. The bells reportedly echo far beyond the walls.",
+      "type": "E",
+      "icon": "🕰️",
+      "source": "local_events",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
+      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
+      "type": "D",
+      "icon": "🍯",
+      "source": "monastery_internal",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
     {
       "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
       "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 76
-    },
-    {
-      "text": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_cs": "Městem projel slezský kníže se silně ozbrojenou družinou a arogantně nařídil radnici poskytnout ubytování pro stovku svých mužů zdarma. Vojáci se chovají hrubě k měšťanům a pijí v krčmách na dluh. Purkmistr se obává násilností, pokud šlechtic brzy neodtáhne.",
-      "text_en": "The Silesian duke rode through the town with a heavily armed retinue and arrogantly ordered the town hall to provide free lodging for a hundred of his men. The soldiers behave roughly toward the burghers and drink in taverns on credit. The burgomaster fears violence if the nobleman does not move on soon.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 412,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 76
-    },
-    {
-      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 412,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 76
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
+      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
+      "type": "A",
+      "icon": "🐂",
+      "source": "distant_events",
+      "tick": 418,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
     {
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
       "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
@@ -2350,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_cs": "Do skladu v Avignonu dorazila zásilka malovaných svatebních truhel z Florencie, zdobených na vermilionovém a azurovém podkladu. Pro urozené paní byly také naskladněny dvě cestovní truhlice se sedmi sponami a bytelnými zámky. Zdejší dvůr a bohatí měšťané za tyto skvosty prý zaplatí štědře.",
-      "text_en": "A shipment of painted bridal coffers from Florence, decorated on a vermilion and azure ground, has arrived at the Avignon warehouse. For noble ladies, two travelling coffers with seven clasps and sturdy locks have also been stocked. The local court and wealthy burghers are expected to pay handsomely for such treasures.",
-      "type": "C",
-      "icon": "🧰",
-      "source": "distant_events",
-      "tick": 408,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 74
     }
   ],
   "church_calendar": {
