@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-17T12:57:52.904Z",
-  "valid_until": "2026-11-24T12:57:52.904Z",
+  "generated": "2026-11-17T23:25:10.204Z",
+  "valid_until": "2026-11-24T23:25:10.204Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
-    "tempC": 9,
-    "windKmH": 6,
-    "rainMm": 0.1,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 12,
+    "windKmH": 10,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 78,
-    "total_tick": 418,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 78"
+    "day": 79,
+    "total_tick": 419,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 79"
   },
   "actors": [
     {
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 70,
+      "wealth": 69,
       "mood": 75,
       "stores": 0,
       "status": "stable",
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 95,
-      "mood": 78,
+      "wealth": 94,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -138,8 +138,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 95,
-      "mood": 73,
+      "wealth": 96,
+      "mood": 75,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 95,
-      "mood": 76,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 97,
-      "mood": 73,
+      "wealth": 98,
+      "mood": 71,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 82,
       "stores": 5,
       "status": "prosperujici",
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 72,
+      "mood": 73,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 74,
       "stores": 2,
       "status": "stable",
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 95,
-      "mood": 73,
+      "mood": 71,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 72,
+      "wealth": 100,
+      "mood": 71,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 71,
+      "mood": 72,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1880,6 +1880,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
+      "type": "B",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 419,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 79
+    },
+    {
+      "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
+      "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
+      "text_en": "A merchant caravan heading to Silesia was brutally ambushed in the deep woods beyond the town. The robbers, probably deserting mercenaries, killed the guards and stole wagons with linen and wax. Traveling north is becoming deadly dangerous, and merchants are demanding armed escorts.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "local_events",
+      "tick": 419,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 79
+    },
+    {
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
@@ -2094,33 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 76
-    },
-    {
-      "text": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_cs": "Krátký zápis v análech, nejkratší z celého roku: „Byl hlad v Čechách a zima velmi ukrutná.“ Bratr celerář říká, že čím kratší zápis, tím delší byla zima.",
-      "text_en": "A short entry in the annals, the shortest of its year: 'There was famine in Bohemia and a most cruel winter.' Brother cellarer says the shorter the entry, the longer the winter.",
-      "type": "A",
-      "icon": "❄️",
-      "source": "monastery_internal",
-      "tick": 412,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 76
-    },
-    {
-      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
+      "text_cs": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod.",
+      "text_en": "A merchant caravan heading to Silesia was brutally ambushed in the deep woods beyond the town. The robbers, probably deserting mercenaries, killed the guards and stole wagons with linen and wax. Traveling north is becoming deadly dangerous, and merchants are demanding armed escorts.",
+      "type": "B",
+      "icon": "🏴‍☠️",
+      "source": "local_events",
+      "tick": 419,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 79
+    },
     {
       "text": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
       "text_cs": "Z Olomouce: Mistr hodinář z Prahy úspěšně dokončil instalaci nového věžního stroje. Měšťané se shromáždili na náměstí, aby s úžasem sledovali odbíjení hodin. Zvony se prý rozléhají široko za hradby.",
@@ -2228,21 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 76
-    },
-    {
-      "text": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_cs": "Královské vojsko knížete Viktorina nedokázalo udržet město Třebíč před náporem uherských oddílů. Poslední vojáci se zoufale bránili v opevněném klášteře, ale nakonec se museli vzdát za slib svobodného odchodu. Matyáš Korvín si tak upevnil svou pozici na jihozápadní Moravě.",
-      "text_en": "The royal army of Prince Victorin failed to hold the town of Třebíč against the onslaught of Hungarian troops. The last soldiers fought desperately in the fortified monastery, but finally had to surrender in exchange for a promise of free departure. Matthias Corvinus thus strengthened his position in southwestern Moravia.",
-      "type": "D",
-      "icon": "🔥",
-      "source": "local_events",
-      "tick": 413,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 76
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
+      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
+      "type": "B",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 419,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 79
+    },
     {
       "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
       "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
@@ -2350,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "church_calendar": {
-    "day_of_year": 258,
+    "day_of_year": 259,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
