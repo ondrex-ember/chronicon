@@ -2,15 +2,18 @@
   "time": {
     "year": 1465,
     "season": 2,
-    "day": 77,
+    "day": 78,
     "daysPerSeason": 90,
-    "totalTick": 416
+    "totalTick": 417
   },
   "weather": {
-    "key": "autumn_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Podzimní bouřka. Dřevo i obilí trpí."
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 7,
+    "windKmH": 9,
+    "rainMm": 0
   },
   "virtue": {
     "value": 3,
@@ -64,8 +67,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 69.78987036154749,
-      "mood": 75.36783843734655,
+      "wealth": 70.16935376838357,
+      "mood": 75.47653803579361,
       "stores": 0,
       "storesMax": 100,
       "status": "stable",
@@ -93,8 +96,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 95.13140258821745,
-      "mood": 79.55096388939852,
+      "wealth": 95.18101447438976,
+      "mood": 78.5482711112868,
       "stores": 2.965625,
       "storesMax": 90,
       "status": "prosperujici",
@@ -122,8 +125,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 96.43330716719272,
-      "mood": 72.85462732411021,
+      "wealth": 95.74639144006417,
+      "mood": 71.5838974213381,
       "stores": 3.7373788377377264,
       "storesMax": 80,
       "status": "prosperujici",
@@ -151,8 +154,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 95.21301654527242,
-      "mood": 77.96784767515085,
+      "wealth": 95.60642888373737,
+      "mood": 77.21276212923954,
       "stores": 1.9953780909158547,
       "storesMax": 70,
       "status": "stable",
@@ -180,8 +183,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 98.45906304692924,
-      "mood": 74.0054346412367,
+      "wealth": 98.01765688317691,
+      "mood": 74.52957996722868,
       "stores": 2.401220466785686,
       "storesMax": 50,
       "status": "stable",
@@ -209,8 +212,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 97.21677411509978,
-      "mood": 80.80992216769695,
+      "wealth": 97.51470751079276,
+      "mood": 81.55297637404628,
       "stores": 4.970899070309355,
       "storesMax": 70,
       "status": "prosperujici",
@@ -239,7 +242,7 @@
       "profession": "Mýtný",
       "core": true,
       "wealth": 100,
-      "mood": 78.07330548383575,
+      "mood": 77.16912668327974,
       "stores": 5.396761403894523,
       "storesMax": 60,
       "status": "prosperujici",
@@ -267,8 +270,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.01623608304199,
-      "mood": 70.73595554216986,
+      "wealth": 98.99965169345315,
+      "mood": 72.61341203698738,
       "stores": 1.094487002503148,
       "storesMax": 70,
       "status": "stable",
@@ -296,8 +299,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 94.89792423242301,
-      "mood": 76.0470179559044,
+      "wealth": 94.30141363757674,
+      "mood": 75.63237516032571,
       "stores": 1.8895128645709243,
       "storesMax": 100,
       "status": "stable",
@@ -325,8 +328,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 96.48355708873981,
-      "mood": 73.84745428520192,
+      "wealth": 95.93948712527124,
+      "mood": 72.31709695403362,
       "stores": 3.0308164727231874,
       "storesMax": 80,
       "status": "prosperujici",
@@ -356,8 +359,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 99.01128090539501,
-      "mood": 75.68429927835116,
+      "wealth": 98.19032281927711,
+      "mood": 73.86107628462742,
       "stores": 1.060750040818675,
       "storesMax": 75,
       "status": "stable",
@@ -393,8 +396,8 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "core": true,
-      "wealth": 98.14461747163242,
-      "mood": 71.880570156633,
+      "wealth": 99.08771029167929,
+      "mood": 70.2202847826499,
       "stores": 2.58756671875,
       "storesMax": 70,
       "literacy": 1,
@@ -480,6 +483,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
+      "type": "A",
+      "icon": "🤕",
+      "source": "local_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -1400,42 +1439,6 @@
       "icon": "🍺",
       "source": "local_events",
       "tick": 383,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
-    },
-    {
-      "text": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_cs": "Z Prahy: Kazatel přespolní na trhu hlásal, že kdo krále poslouchá, sám kacířem se stává. Stráž jej odvedla, lid se však nerozešel hned, ale dlouho ještě o tom rokoval.",
-      "text_en": "From Prague: a wandering preacher proclaimed in the marketplace that whoso obeyeth the king becometh himself a heretic. The watch led him away, yet the people did not disperse at once, but long debated the matter still.",
-      "type": "B",
-      "icon": "⛪",
-      "source": "distant_events",
-      "tick": 382,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
-    },
-    {
-      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
-      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
-      "type": "C",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 382,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 65
-    },
-    {
-      "text": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_cs": "Převor zapsal do staré knihy: Pole u potoka, jež dům tento od pradávna držel, artikulové oni čtyři odňali pánu světskému. Listina o tom dosud leží v truhle, ač navrácena nikdy nebyla.",
-      "text_en": "The prior wrote into the old book: the field by the brook, held by our house from time out of mind, was taken by those four articles and given to a worldly lord. The deed concerning it lieth yet in the chest, though it was never returned.",
-      "type": "D",
-      "icon": "📜",
-      "source": "monastery_internal",
-      "tick": 382,
       "year": 1465,
       "season": "Podzim",
       "day": 65
@@ -6478,7 +6481,7 @@
       "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli."
     },
     "local_049": {
-      "tick": 258,
+      "tick": 417,
       "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka."
     },
     "letopisy_001": {
@@ -6726,7 +6729,7 @@
       "text": "Při ražbě nové průzkumné štoly nedaleko města selhala nosná dřevěná výdřeva. Tři havíři byli zasypáni hromadou kamení a bahna. Přestože záchranné party kopaly i v noci, podařilo se jim ze sutin vyprostit už jen bezvládná těla."
     },
     "mohuc_003": {
-      "tick": 326,
+      "tick": 417,
       "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky."
     },
     "anales_sel_015": {
@@ -7080,6 +7083,10 @@
     "zbras_021": {
       "tick": 415,
       "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých."
+    },
+    "mono_015": {
+      "tick": 417,
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",

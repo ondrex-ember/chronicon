@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-16T12:33:27.366Z",
-  "valid_until": "2026-11-23T12:33:27.366Z",
+  "generated": "2026-11-17T00:05:31.366Z",
+  "valid_until": "2026-11-24T00:05:31.366Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,22 +63,25 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_storm",
-    "name": "Bouřka",
-    "icon": "⛈",
-    "desc": "Podzimní bouřka. Dřevo i obilí trpí.",
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 7,
+    "windKmH": 9,
+    "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.85,
-    "modifier_wood": 0.8
+    "modifier_grain": 0.95,
+    "modifier_wood": 1
   },
   "time": {
     "year": 1465,
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 77,
-    "total_tick": 416,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 77"
+    "day": 78,
+    "total_tick": 417,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 78"
   },
   "actors": [
     {
@@ -112,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 95,
-      "mood": 80,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 96,
-      "mood": 73,
+      "mood": 72,
       "stores": 4,
       "status": "prosperujici",
       "relations": {
@@ -159,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 95,
-      "mood": 78,
+      "wealth": 96,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -184,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 74,
+      "mood": 75,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -207,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -232,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 100,
-      "mood": 78,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -256,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 99,
-      "mood": 71,
+      "mood": 73,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -279,7 +282,7 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 95,
+      "wealth": 94,
       "mood": 76,
       "stores": 2,
       "status": "stable",
@@ -304,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 96,
-      "mood": 74,
+      "mood": 72,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -327,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 99,
-      "mood": 76,
+      "wealth": 98,
+      "mood": 74,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -359,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 72,
+      "wealth": 99,
+      "mood": 70,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1877,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
+      "type": "A",
+      "icon": "🤕",
+      "source": "local_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_en": "From old coroner's notes: Master Thomas the Tailor fell from a third-floor window, having leaned too far out to watch a procession in the street. Bystanders say it was a very fine procession.",
@@ -2079,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 75
-    },
-    {
-      "text": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_cs": "Zpráva z Hranic: Skupina polských kupců odmítla zaplatit zvýšené mýtné na mostě a pokusila se projet násilím. Městská stráž je zadržela a jejich vozy s plátnem zabavila do doby, než uhradí pokutu.",
-      "text_en": "News from Hranice: A group of Polish merchants refused to pay the increased bridge toll and tried to force their way through. The town guard detained them and confiscated their wagons of linen until they pay the fine.",
-      "type": "A",
-      "icon": "🪙",
-      "source": "local_events",
-      "tick": 410,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_cs": "Našel jsem kočku Metoděje, jak si hraje se stuhou od spisu od svatého Řehoře. Pokusil jsem se jí to vzít, ale poškrábala mě. Svatý Řehoř by jistě obdivoval její vytrvalost.",
-      "text_en": "I found the cat Metoděj playing with a ribbon from a tract by Saint Gregory. I tried to take it from her, but she scratched me. Saint Gregory would surely have admired her perseverance.",
-      "type": "C",
-      "icon": "📚",
-      "source": "monastery_internal",
-      "tick": 410,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_cs": "Léta téhož Pražené a Žižka oblehli město Plzeňské, ale nedobyli sú jeho.",
-      "text_en": "That year the Praguers and Žižka besieged the city of Plzeň, but did not take it.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 409,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
+      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
+      "type": "A",
+      "icon": "🤕",
+      "source": "local_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
+    {
+      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
+      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
+      "type": "A",
+      "icon": "🌧️",
+      "source": "monastery_internal",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
     {
       "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
       "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
@@ -2213,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 76
-    },
-    {
-      "text": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_cs": "Do města s velkou pompou zavítal olomoucký biskup, doprovázený početnou suitou prelátů a ozbrojenců. Ulice byly vyčištěny, domy ozdobeny chvojím a zněly všechny zvony. Při slavnostní mši biskup varoval před bludařstvím a vyzval k upevnění pravé víry.",
-      "text_en": "The Bishop of Olomouc visited the town with great pomp, accompanied by a large suite of prelates and men-at-arms. The streets were cleaned, houses decorated with boughs, and all the bells rang. During the solemn mass, the bishop warned against heresy and urged the strengthening of the true faith.",
-      "type": "C",
-      "icon": "✝️",
-      "source": "local_events",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
-    },
-    {
-      "text": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_cs": "Dnešní Gloria byla katastrofou. Varhaník přidal ozdobu tam, kde měla být prostá pauza. Bratři ztratili rytmus a sbor se rozpadl na tři nezávislé skupiny. Do deníku varhaníka kreslím velký křížek.",
-      "text_en": "Today's Gloria was a disaster. The organist added an ornament where there should have been a simple pause. The brothers lost their rhythm, and the choir split into three independent groups. I draw a large cross in the organist's diary.",
-      "type": "B",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
+      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
+      "type": "C",
+      "icon": "💰",
+      "source": "distant_events",
+      "tick": 417,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 78
+    },
     {
       "text": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
       "text_cs": "Ze starých zápisků koronera: Mistr Krejčí Tomáš vypadl z okna třetího patra, neboť se naklonil příliš daleko, aby viděl průvod na ulici. Přihlížející říkají, že to byl opravdu hezký průvod.",
@@ -2347,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 74
-    },
-    {
-      "text": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_cs": "Ze zápisků zbraslavských: Stařec jeden varoval, že páni po válkách zchudlí prý budou jednou na poddaných svých vymáhat víc, než zvykem bývalo, a svobodu jejich krátiti. Mladí se tomu smáli.",
-      "text_en": "From the Zbraslav notes: a certain old man warned that lords, impoverished after the wars, shall one day demand more of their subjects than was custom, and curtail their freedom. The young laughed at this.",
-      "type": "B",
-      "icon": "⛓️",
-      "source": "distant_events",
-      "tick": 406,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 73
     }
   ],
   "church_calendar": {
-    "day_of_year": 257,
+    "day_of_year": 258,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
