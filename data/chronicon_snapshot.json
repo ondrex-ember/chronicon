@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-19T12:42:09.677Z",
-  "valid_until": "2026-11-26T12:42:09.677Z",
+  "generated": "2026-11-19T22:57:53.976Z",
+  "valid_until": "2026-11-26T22:57:53.976Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,12 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 9,
+    "windKmH": 15,
+    "rainMm": 0.1,
     "season": 2,
-    "modifier_grain": 0.95,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -77,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 80,
-    "total_tick": 422,
+    "total_tick": 423,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 80"
   },
   "actors": [
@@ -88,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 76,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -112,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 98,
+      "mood": 94,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -136,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 98,
+      "mood": 95,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -160,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 84,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -207,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 96,
+      "wealth": 100,
+      "mood": 92,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -256,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 85,
+      "mood": 82,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -303,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 98,
+      "mood": 84,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -1877,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
+    {
+      "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_cs": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_en": "From the parish in Mohelnice: The local bell-ringer was caught secretly drinking from the communion wine hidden in the sacristy. As a punishment, the priest made him kneel before the altar all day with an empty jug around his neck.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
+    {
+      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
+      "type": "A",
+      "icon": "☀️",
+      "source": "monastery_internal",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
+    {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
@@ -2079,18 +2118,20 @@
       "year": 1465,
       "season": "Podzim",
       "day": 77
-    },
+    }
+  ],
+  "chronicle_local": [
     {
-      "text": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_cs": "Králi Jiřímu se podařil mistrovský tah, když obklíčil uherskou armádu Matyáše Korvína v hlubokých lesích u Vilémova. Zaskočený Korvín musel přistoupit na osobní jednání ve zničené vsi Úhrov, kde slíbil zprostředkovat mír s papežem. Vojáci reptají, že měl český král raději zničit uherské vojsko v bitvě.",
-      "text_en": "King George achieved a masterstroke by encircling the Hungarian army of Matthias Corvinus in the deep forests near Vilémov. The caught-off-guard Corvinus had to agree to a personal meeting in the ruined village of Úhrov, where he promised to mediate peace with the Pope. Soldiers grumble that the Czech king should have rather destroyed the Hungarian army in battle.",
-      "type": "E",
-      "icon": "🏕️",
+      "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_cs": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_en": "From the parish in Mohelnice: The local bell-ringer was caught secretly drinking from the communion wine hidden in the sacristy. As a punishment, the priest made him kneel before the altar all day with an empty jug around his neck.",
+      "type": "A",
+      "icon": "🔔",
       "source": "local_events",
-      "tick": 415,
+      "tick": 423,
       "year": 1465,
       "season": "Podzim",
-      "day": 77
+      "day": 80
     },
     {
       "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
@@ -2099,25 +2140,11 @@
       "type": "A",
       "icon": "☀️",
       "source": "monastery_internal",
-      "tick": 415,
+      "tick": 423,
       "year": 1465,
       "season": "Podzim",
-      "day": 77
+      "day": 80
     },
-    {
-      "text": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_cs": "Z Prahy přišla zvěst neurčitá: Kupci od jihu povídají, že král uherský mladý prý oko upírá k Čechám, ač zatím jen slovy. Dvořané tomu smích strojí, ale smích ten zní vyčkávavě.",
-      "text_en": "From Prague came an uncertain report: merchants from the south say the young Hungarian king casteth his eye toward Bohemia, though as yet only in words. The courtiers make light of it, yet that laughter soundeth watchful.",
-      "type": "B",
-      "icon": "🦅",
-      "source": "distant_events",
-      "tick": 414,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 76
-    }
-  ],
-  "chronicle_local": [
     {
       "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
       "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
@@ -2213,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 78
-    },
-    {
-      "text": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_cs": "Bratr opisovač zapsal s lítostí: Vlhkost ze střechy prokapala na rozkládaný rukopis. Pergamen se zkroutil. Bratr knihař říká, že ho lze zachránit, ale bude to práce na týden.",
-      "text_en": "Brother the copyist wrote with regret: Moisture from the roof seeped onto the manuscript being transcribed. The parchment curled. Brother the bookbinder says it can be saved, but it will take a week's work.",
-      "type": "A",
-      "icon": "🌧️",
-      "source": "monastery_internal",
-      "tick": 417,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
-    },
-    {
-      "text": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_cs": "Z Uher přicházejí znepokojivé zprávy o krocích krále Matyáše Korvína. Ten prý navázal tajnou spolupráci s římskou kurií a slíbil papeži vojenskou pomoc nejen proti Turkům, ale i proti českým kacířům. Za to očekává od Svatého otce tučnou finanční odměnu, což ohrožuje mír v celém kraji.",
-      "text_en": "Disturbing news regarding the actions of King Matthias Corvinus arrives from Hungary. He has reportedly established secret cooperation with the Roman Curia and promised the Pope military aid not only against the Turks but also against Czech heretics. In return, he expects a hefty financial reward from the Holy Father, which threatens peace in the entire region.",
-      "type": "B",
-      "icon": "👑",
-      "source": "local_events",
-      "tick": 416,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 77
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
     {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
@@ -2347,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 76
-    },
-    {
-      "text": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_cs": "Ze starých zápisků: Tvrz, jež kdysi stávala na kopci u řeky, dosud leží v rozvalinách z dob válek husitských. Pastýři ovce mezi kameny pasou, nikdo ji znovu nestavěl. Země pamatuje déle než lidé.",
-      "text_en": "From old notes: the fortress that once stood upon the hill by the river lieth yet in ruin from the Hussite wars. Shepherds graze their sheep among the stones; none hath rebuilt it. The land remembereth longer than men.",
-      "type": "D",
-      "icon": "🏚️",
-      "source": "distant_events",
-      "tick": 411,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 75
     }
   ],
   "church_calendar": {

@@ -4,13 +4,16 @@
     "season": 2,
     "day": 80,
     "daysPerSeason": 90,
-    "totalTick": 422
+    "totalTick": 423
   },
   "weather": {
-    "key": "autumn_rain",
-    "name": "Déšť",
-    "icon": "🌧",
-    "desc": "Podzimní déšť. Sklizeň je náročnější."
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 9,
+    "windKmH": 15,
+    "rainMm": 0.1
   },
   "virtue": {
     "value": 3,
@@ -65,8 +68,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 70.11902008970655,
-      "mood": 76.01193145770112,
+      "wealth": 70.32896600239832,
+      "mood": 74.18254684124682,
       "stores": 0,
       "storesMax": 100,
       "status": "stable",
@@ -94,8 +97,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 99.0846456310215,
-      "mood": 97.86165146637876,
+      "wealth": 98.76605946578998,
+      "mood": 93.96067981871332,
       "stores": 4.893281249999999,
       "storesMax": 90,
       "status": "prosperujici",
@@ -123,8 +126,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 99.81490610440619,
-      "mood": 98.19247929194897,
+      "wealth": 100,
+      "mood": 95.4358752406761,
       "stores": 3.469296244529522,
       "storesMax": 80,
       "status": "prosperujici",
@@ -152,8 +155,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 99.22398249947553,
-      "mood": 83.99823023503035,
+      "wealth": 98.78594737100289,
+      "mood": 81.98346719763049,
       "stores": 1.9469957590953058,
       "storesMax": 70,
       "status": "stable",
@@ -181,8 +184,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 99.17704786463864,
-      "mood": 85.39869939709656,
+      "wealth": 99.39119026436494,
+      "mood": 84.59188152218748,
       "stores": 2.210793303410696,
       "storesMax": 50,
       "status": "stable",
@@ -210,8 +213,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 99.21290992429343,
-      "mood": 96.09033410040941,
+      "wealth": 100,
+      "mood": 92.24625545747566,
       "stores": 4.97795939570108,
       "storesMax": 70,
       "status": "prosperujici",
@@ -240,7 +243,7 @@
       "profession": "Mýtný",
       "core": true,
       "wealth": 100,
-      "mood": 94.72738639248584,
+      "mood": 94.93497147559816,
       "stores": 5.3766449125314395,
       "storesMax": 60,
       "status": "prosperujici",
@@ -268,8 +271,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.87937129200266,
-      "mood": 84.58642750760816,
+      "wealth": 100,
+      "mood": 82.2414039899758,
       "stores": 1.0364165516270463,
       "storesMax": 70,
       "status": "stable",
@@ -297,8 +300,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 99.96850442683093,
-      "mood": 90.19582603777393,
+      "wealth": 99.5801270852912,
+      "mood": 89.90241824052414,
       "stores": 1.7156833619711007,
       "storesMax": 100,
       "status": "prosperujici",
@@ -326,8 +329,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.03271777560401,
-      "mood": 85.93072541074875,
+      "wealth": 98.29796157817289,
+      "mood": 84.04217128936175,
       "stores": 2.993780707270072,
       "storesMax": 80,
       "status": "prosperujici",
@@ -357,8 +360,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 99.51710146548857,
-      "mood": 92.26842237316708,
+      "wealth": 99.53930287628064,
+      "mood": 92.00660435633499,
       "stores": 1.014487526532139,
       "storesMax": 75,
       "status": "stable",
@@ -394,8 +397,8 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "core": true,
-      "wealth": 99.85410267637228,
-      "mood": 95.28633563384926,
+      "wealth": 100,
+      "mood": 95.37755788413956,
       "stores": 1.6819183671875004,
       "storesMax": 70,
       "literacy": 1,
@@ -481,6 +484,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
+      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
+      "type": "C",
+      "icon": "📜",
+      "source": "distant_events",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
+    {
+      "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_cs": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
+      "text_en": "From the parish in Mohelnice: The local bell-ringer was caught secretly drinking from the communion wine hidden in the sacristy. As a punishment, the priest made him kneel before the altar all day with an empty jug around his neck.",
+      "type": "A",
+      "icon": "🔔",
+      "source": "local_events",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
+    {
+      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
+      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
+      "type": "A",
+      "icon": "☀️",
+      "source": "monastery_internal",
+      "tick": 423,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 80
+    },
     {
       "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
       "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
@@ -1401,42 +1440,6 @@
       "icon": "🐻",
       "source": "local_events",
       "tick": 389,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_cs": "Z českých zemí: Stáda, jež za válek husitských rozprchla se po lesích, sedláci postupně sháněli zpátky, léto co léto o pár kusů víc. Dnes se v krajích jižních pasou stáda znovu velká.",
-      "text_en": "From the Bohemian lands: the herds that scattered into the forests during the Hussite wars, the farmers gradually rounded up again, a few more head each summer. Today large herds graze once more in the southern parts.",
-      "type": "A",
-      "icon": "🐑",
-      "source": "distant_events",
-      "tick": 388,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
-      "text_cs": "Část královského vojska se utkala s nájezdníky v černé zbroji mluvícími uhersky. Oddíly žoldnéřů bez milosti vyplenily poddanskou vesnici za městem a odvedly všechen dobytek. Venkované v hrůze prchají za spásné hradby, čímž způsobují obrovský chaos.",
-      "text_en": "A portion of the royal army clashed with raiders in black armor speaking Hungarian. The mercenary detachments mercilessly plundered a subject village outside the town and led away all the cattle. Villagers are fleeing in terror behind the saving walls, causing immense chaos.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 388,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_cs": "Při včerejším žalmu jsem zaznamenal 14 falešných not. Všechny vydal bratr Metoděj. Možná má talent od Boha, ale zjevně jím plýtvá v naší tónině. Dál vedu záznamy.",
-      "text_en": "During yesterday's psalm, I recorded 14 false notes. All were emitted by Brother Metoděj. Perhaps he has a talent from God, but he is clearly wasting it in our key. I continue keeping records.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 388,
       "year": 1465,
       "season": "Podzim",
       "day": 67
@@ -5727,7 +5730,7 @@
       "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně."
     },
     "letopisy_065": {
-      "tick": 380,
+      "tick": 423,
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě."
     },
     "mono_136": {
@@ -6907,7 +6910,7 @@
       "text": "Léta téhož táborští přitrhli sú blízko ku Praze do Vršovic a oblehli sú Prahu. A tu v středu na svatého Lukáše smířili sú se s pražany. A po tom smíření kněz Sigmund s pražany a s tábory jeli sú do Moravy a do Rakús a dobyli sú města Retcě, z něhožto přinesli sú hrabí retckého, kterýžto u Praze chován jest. A po dvú letú umřel jest na Hradě pražském u vězení."
     },
     "anales_sel_025": {
-      "tick": 415,
+      "tick": 423,
       "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu."
     },
     "local_188": {
@@ -7089,6 +7092,10 @@
     "local_194": {
       "tick": 419,
       "text": "Kupecká karavana směřující na Slezsko byla surově přepadena v hlubokých lesích za městem. Lapkové, pravděpodobně zběhlí žoldnéři, pobili stráže a ukradli vozy s plátnem a voskem. Cestování na sever se stává smrtelně nebezpečným a kupci žádají ozbrojený doprovod."
+    },
+    "local_091": {
+      "tick": 423,
+      "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",
