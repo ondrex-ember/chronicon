@@ -4,16 +4,16 @@
     "season": 2,
     "day": 81,
     "daysPerSeason": 90,
-    "totalTick": 424
+    "totalTick": 425
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 11,
-    "windKmH": 20,
-    "rainMm": 0
+    "key": "autumn_rain",
+    "name": "Déšť",
+    "icon": "🌧",
+    "desc": "Podzimní déšť. Sklizeň je náročnější.",
+    "tempC": 7,
+    "windKmH": 10,
+    "rainMm": 0.7
   },
   "virtue": {
     "value": 3,
@@ -68,8 +68,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 71.27156885046533,
-      "mood": 75.2628029613599,
+      "wealth": 70.32883073613206,
+      "mood": 74.30611835047989,
       "stores": 0,
       "storesMax": 100,
       "status": "stable",
@@ -97,8 +97,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 99.26849314636043,
-      "mood": 92.75102595197447,
+      "wealth": 98.7649067460055,
+      "mood": 91.93065791315023,
       "stores": 4.893281249999999,
       "storesMax": 90,
       "status": "prosperujici",
@@ -127,7 +127,7 @@
       "profession": "Kovář",
       "core": true,
       "wealth": 100,
-      "mood": 93.55034752620767,
+      "mood": 90.35877691115319,
       "stores": 3.469296244529522,
       "storesMax": 80,
       "status": "prosperujici",
@@ -155,8 +155,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 98.14541024832066,
-      "mood": 79.76443538806052,
+      "wealth": 98.14304715427662,
+      "mood": 80.66673864224754,
       "stores": 1.9469957590953058,
       "storesMax": 70,
       "status": "stable",
@@ -184,8 +184,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 98.39211586452416,
-      "mood": 81.89838149550775,
+      "wealth": 98.30843355247379,
+      "mood": 83.0745154086157,
       "stores": 2.210793303410696,
       "storesMax": 50,
       "status": "stable",
@@ -213,8 +213,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 99.687453826194,
-      "mood": 88.70762790213728,
+      "wealth": 99.98529922592517,
+      "mood": 89.24801779363274,
       "stores": 4.97795939570108,
       "storesMax": 70,
       "status": "prosperujici",
@@ -242,8 +242,8 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 99.39156905847463,
-      "mood": 94.3736535473574,
+      "wealth": 99.39157795089865,
+      "mood": 92.28324766489686,
       "stores": 5.3766449125314395,
       "storesMax": 60,
       "status": "prosperujici",
@@ -271,8 +271,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 99.8188134748536,
-      "mood": 83.3498570862481,
+      "wealth": 100,
+      "mood": 81.91449557424777,
       "stores": 1.0364165516270463,
       "storesMax": 70,
       "status": "stable",
@@ -300,8 +300,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 100,
-      "mood": 89.27769091102928,
+      "wealth": 99.87607397017284,
+      "mood": 86.22788107420999,
       "stores": 1.7156833619711007,
       "storesMax": 100,
       "status": "prosperujici",
@@ -329,8 +329,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 98.9457472337837,
-      "mood": 84.49124487688968,
+      "wealth": 99.17922226950503,
+      "mood": 84.21109099893188,
       "stores": 2.993780707270072,
       "storesMax": 80,
       "status": "prosperujici",
@@ -360,8 +360,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 99.71108263564788,
-      "mood": 91.68340968190631,
+      "wealth": 100,
+      "mood": 91.35384983347075,
       "stores": 1.014487526532139,
       "storesMax": 75,
       "status": "stable",
@@ -397,8 +397,8 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "core": true,
-      "wealth": 99.25822230067453,
-      "mood": 93.06190070971842,
+      "wealth": 99.27660847871155,
+      "mood": 91.04904945704769,
       "stores": 1.6819183671875004,
       "storesMax": 70,
       "literacy": 1,
@@ -484,6 +484,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
+      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
+      "type": "D",
+      "icon": "🚩",
+      "source": "distant_events",
+      "tick": 425,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
+    {
+      "text": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
+      "text_cs": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
+      "text_en": "A messenger from Uničov warns: An organized band of robbers in chainmail shirts has settled in the woods around the town. Yesterday they ambushed an Olomouc canon's carriage, taking his silver cross and horses. Roads to the north are very dangerous.",
+      "type": "B",
+      "icon": "🥷",
+      "source": "local_events",
+      "tick": 425,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
+    {
+      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
+      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "monastery_internal",
+      "tick": 425,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
     {
       "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
       "text_cs": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
@@ -1407,42 +1443,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 68
-    },
-    {
-      "text": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_cs": "Z Mohuče přes kupeckou poštu: List onoho tištěného díla bratři ve skriptoriu obraceli z ruky do ruky jako relikvii. Písmo bylo přesné, řádek za řádkem stejné, což se rukou nikdy nepodaří.",
-      "text_en": "From Mainz, by way of the merchant post: the brothers in the scriptorium passed the leaf of that printed work from hand to hand as though it were a relic. The lettering was exact, line after line alike, a thing no hand could ever achieve.",
-      "type": "A",
-      "icon": "📄",
-      "source": "distant_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
-    },
-    {
-      "text": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_cs": "Bratr Metoděj si při zpěvu odkašlal a zcela vypadl z rytmu. Zbytek chóru ho z nějakého nepochopitelného důvodu následoval. Výsledek zněl jako hejno plašených hus. Varhaník se zlomyslně usmíval.",
-      "text_en": "Brother Metoděj cleared his throat while singing and fell completely out of rhythm. For some incomprehensible reason, the rest of the choir followed him. The result sounded like a flock of startled geese. The organist smiled maliciously.",
-      "type": "B",
-      "icon": "🎶",
-      "source": "monastery_internal",
-      "tick": 390,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 67
     }
   ],
   "portaLetterHistory": [
@@ -6126,7 +6126,7 @@
       "text": "Z farnosti svatého Mořice: Neznámý pachatel v noci vypáčil boční dveře a ukradl zlacený kalich darovaný bohatým soukeníkem. Biskup nařídil prohledat všechny městské zastavárny. Věřící jsou pobouřeni."
     },
     "frois_010": {
-      "tick": 343,
+      "tick": 425,
       "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího."
     },
     "mono_039": {
@@ -6478,7 +6478,7 @@
       "text": "Četlo se o boháči Urbanovi, jenž vše rozdal chudým a synovi nabídl volbu: deset hřiven zlata, nebo přímluvu Panny Marie. Syn zvolil přímluvu — a žebral. Ale lidé mu dávali raději než všem jiným chudým. Bratr celerář u toho příběhu vždy zamručí, že účetnictví nebes nezná."
     },
     "mono_081": {
-      "tick": 344,
+      "tick": 425,
       "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli."
     },
     "local_049": {
@@ -7100,6 +7100,10 @@
     "local_034": {
       "tick": 424,
       "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout."
+    },
+    "local_075": {
+      "tick": 425,
+      "text": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné."
     }
   },
   "_lastAbbotLetterKey": "msg_20260824_401",
