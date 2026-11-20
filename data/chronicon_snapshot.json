@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-19T22:57:53.976Z",
-  "valid_until": "2026-11-26T22:57:53.976Z",
+  "generated": "2026-11-20T12:39:51.971Z",
+  "valid_until": "2026-11-27T12:39:51.971Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,9 +71,9 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 9,
-    "windKmH": 15,
-    "rainMm": 0.1,
+    "tempC": 11,
+    "windKmH": 20,
+    "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
     "modifier_wood": 1
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 80,
-    "total_tick": 423,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 80"
+    "day": 81,
+    "total_tick": 424,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 81"
   },
   "actors": [
     {
@@ -90,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 70,
-      "mood": 74,
+      "wealth": 71,
+      "mood": 75,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 94,
+      "mood": 93,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 95,
+      "mood": 94,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +166,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 82,
+      "wealth": 98,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 85,
+      "wealth": 98,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 92,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 95,
+      "wealth": 99,
+      "mood": 94,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -283,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 90,
+      "mood": 89,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +310,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 84,
       "stores": 3,
       "status": "prosperujici",
@@ -362,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 95,
+      "wealth": 99,
+      "mood": 93,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
+      "text_cs": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
+      "text_en": "An armed band led by a deserting mercenary has settled in the dense woods behind Zábřeh. On Tuesday, they ambushed drapers from Mohelnice and stole three wagons of goods. The town guard is afraid to intervene.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 424,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
+    {
+      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "monastery_internal",
+      "tick": 424,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
+    {
       "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
       "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
@@ -2094,33 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 77
-    },
-    {
-      "text": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_cs": "Bratr Metoděj dnes opět zpíval o půl tónu výš než ostatní. Na mou poznámku reagoval tvrzením, že my všichni jsme o půl tónu níž. Tento spor s ním vedu už třetím rokem. Můj zápisník kárání se plní.",
-      "text_en": "Brother Metoděj sang half a tone higher than the others again today. To my remark, he replied that the rest of us are half a tone lower. I have been having this dispute with him for three years now. My notebook of reprimands is filling up.",
-      "type": "D",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 416,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 77
-    },
-    {
-      "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
-      "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
-      "text_en": "From the Zbraslav notes: at Lipany, it is said, many of the field armies fell, when the moderates joined with the lords. An old man who was there yet cannot abide the sound of drums, for it recalleth to him that field full of the dead.",
-      "type": "D",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 415,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 77
     }
   ],
   "chronicle_local": [
+    {
+      "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
+      "text_cs": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
+      "text_en": "An armed band led by a deserting mercenary has settled in the dense woods behind Zábřeh. On Tuesday, they ambushed drapers from Mohelnice and stole three wagons of goods. The town guard is afraid to intervene.",
+      "type": "B",
+      "icon": "🗡️",
+      "source": "local_events",
+      "tick": 424,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
+    {
+      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
+      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "monastery_internal",
+      "tick": 424,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 81
+    },
     {
       "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
       "text_cs": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
@@ -2213,30 +2241,6 @@
       "icon": "🕰️",
       "source": "local_events",
       "tick": 418,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
-    },
-    {
-      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
-      "type": "D",
-      "icon": "🍯",
-      "source": "monastery_internal",
-      "tick": 418,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
-    },
-    {
-      "text": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_cs": "Starý bednář usnul na půdě svého domu. V noci se náměsíčný procházel, vypadl z vikýře a zlomil si obě nohy i vaz na dlážděné ulici. Ráno jej nalezla městská hlídka.",
-      "text_en": "The old cooper fell asleep in the attic of his house. At night, he sleepwalked, fell out of the dormer window, and broke both legs and his neck on the paved street. The town watch found him in the morning.",
-      "type": "A",
-      "icon": "🤕",
-      "source": "local_events",
-      "tick": 417,
       "year": 1465,
       "season": "Podzim",
       "day": 78
@@ -2365,7 +2369,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 260,
+    "day_of_year": 261,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
