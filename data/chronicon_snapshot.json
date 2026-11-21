@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-21T12:20:32.231Z",
-  "valid_until": "2026-11-28T12:20:32.231Z",
+  "generated": "2026-11-21T21:31:32.968Z",
+  "valid_until": "2026-11-28T21:31:32.968Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 7,
-    "windKmH": 12,
+    "tempC": 3,
+    "windKmH": 16,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 82,
-    "total_tick": 426,
+    "total_tick": 427,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 82"
   },
   "actors": [
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 70,
-      "mood": 75,
+      "wealth": 71,
+      "mood": 74,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 99,
-      "mood": 92,
+      "mood": 91,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 100,
-      "mood": 89,
+      "mood": 86,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 80,
+      "mood": 79,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 83,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 100,
-      "mood": 89,
+      "wealth": 99,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 90,
+      "wealth": 98,
+      "mood": 89,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 82,
       "stores": 1,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 99,
-      "mood": 87,
+      "wealth": 100,
+      "mood": 84,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 83,
       "stores": 3,
       "status": "prosperujici",
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 99,
-      "mood": 90,
+      "mood": 87,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1880,6 +1880,18 @@
   ],
   "chronicle": [
     {
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 427,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 82
+    },
+    {
       "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
       "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
       "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
@@ -2106,21 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 78
-    },
-    {
-      "text": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_cs": "Sklepmistr zapsal: Úly, jichž dům tento za starého opata choval na čtyři desítky, válka husitská zredukovala na čtyři. Dnes jich klášter má přes dvacet, ale starý počet, řekl bratr včelař, snad už nikdy nedohoníme.",
-      "text_en": "The cellarer wrote: the hives our house kept under the old abbot, four score in number, the Hussite war reduced to four. Today we have above twenty, but the old number, said the brother beekeeper, we shall perhaps never again match.",
-      "type": "D",
-      "icon": "🍯",
-      "source": "monastery_internal",
-      "tick": 418,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
+      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
+      "type": "A",
+      "icon": "⛪",
+      "source": "local_events",
+      "tick": 427,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 82
+    },
     {
       "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
       "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
@@ -2224,18 +2236,6 @@
       "type": "C",
       "icon": "🎪",
       "source": "local_events",
-      "tick": 420,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
-    },
-    {
-      "text": "Dnes mi spadla do polévky lžíce soli navíc. Chtěl jsem to zachránit přidáním vody, ale výsledkem byl slaný kaluž. Opat mě pochválil za vynikající očistný půstní pokrm. Jsem nedoceněný génius.",
-      "text_cs": "Dnes mi spadla do polévky lžíce soli navíc. Chtěl jsem to zachránit přidáním vody, ale výsledkem byl slaný kaluž. Opat mě pochválil za vynikající očistný půstní pokrm. Jsem nedoceněný génius.",
-      "text_en": "Today an extra spoonful of salt fell into my soup. I tried to save it by adding water, but the result was a salty puddle. The abbot praised me for an excellent cleansing Lenten dish. I am an unappreciated genius.",
-      "type": "D",
-      "icon": "🥣",
-      "source": "monastery_internal",
       "tick": 420,
       "year": 1465,
       "season": "Podzim",
