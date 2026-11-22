@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-22T12:23:27.351Z",
-  "valid_until": "2026-11-29T12:23:27.351Z",
+  "generated": "2026-11-22T21:38:15.474Z",
+  "valid_until": "2026-11-29T21:38:15.474Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 6,
-    "windKmH": 5,
+    "tempC": 2,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 83,
-    "total_tick": 429,
+    "total_tick": 430,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 83"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 71,
+      "mood": 70,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 86,
+      "wealth": 97,
+      "mood": 87,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 85,
       "stores": 3,
       "status": "prosperujici",
@@ -162,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 78,
       "stores": 2,
       "status": "stable",
@@ -186,7 +186,7 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 84,
       "stores": 2,
       "status": "stable",
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 85,
+      "wealth": 100,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 88,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -283,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 100,
-      "mood": 84,
+      "mood": 82,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 79,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 85,
+      "mood": 84,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -362,8 +362,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 100,
-      "mood": 87,
+      "wealth": 99,
+      "mood": 86,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1880,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 430,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 430,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
       "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
       "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
@@ -2094,33 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 80
-    },
-    {
-      "text": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_cs": "Sklepmistr mi dnes místo oleje poslal vodu po mytí sudů. Omáčka byla natolik řídká, že v ní plavalo i dno talíře. Bratři mě označili za traviče. Přísahám mu pomstu příští neděli.",
-      "text_en": "The cellarer sent me barrel-washing water instead of oil today. The sauce was so thin that even the bottom of the plate floated in it. The brothers labeled me a poisoner. I swear revenge next Sunday.",
-      "type": "B",
-      "icon": "🍲",
-      "source": "monastery_internal",
-      "tick": 422,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
-    },
-    {
-      "text": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
-      "text_cs": "Výroční trh přitáhl do města zástupy obchodníků z širokého okolí i ze zahraničí. Náměstí je zaplněno stánky s flanderským suknem, benátskými skly a zbraněmi z německých zemí. Městská pokladna plní měšce stříbrem vybraným na clech a trhových poplatcích.",
-      "text_en": "The annual market drew crowds of merchants from the surrounding area and abroad into the town. The square is filled with stalls selling Flanders broadcloth, Venetian glass, and weapons from the German lands. The town treasury fills purses with silver collected from customs and market fees.",
-      "type": "C",
-      "icon": "🎪",
-      "source": "local_events",
-      "tick": 420,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
+      "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
+      "type": "A",
+      "icon": "📋",
+      "source": "local_events",
+      "tick": 430,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
+      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
+      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
+      "type": "B",
+      "icon": "🕸️",
+      "source": "monastery_internal",
+      "tick": 430,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
     {
       "text": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
       "text_cs": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
@@ -2213,30 +2237,6 @@
       "icon": "⚖️",
       "source": "monastery_internal",
       "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
-      "text_cs": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
-      "text_en": "An armed band led by a deserting mercenary has settled in the dense woods behind Zábřeh. On Tuesday, they ambushed drapers from Mohelnice and stole three wagons of goods. The town guard is afraid to intervene.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 424,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 424,
       "year": 1465,
       "season": "Podzim",
       "day": 81
