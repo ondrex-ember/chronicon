@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-22T01:59:19.598Z",
-  "valid_until": "2026-11-29T01:59:19.598Z",
+  "generated": "2026-11-22T12:23:27.351Z",
+  "valid_until": "2026-11-29T12:23:27.351Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,8 +67,8 @@
     "name": "Jasno",
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 12,
+    "tempC": 6,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 83,
-    "total_tick": 428,
+    "total_tick": 429,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 83"
   },
   "actors": [
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 73,
+      "mood": 71,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +115,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 98,
-      "mood": 89,
+      "mood": 86,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 100,
-      "mood": 77,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -235,7 +235,7 @@
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
       "wealth": 98,
-      "mood": 87,
+      "mood": 88,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 100,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 98,
-      "mood": 84,
+      "mood": 85,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 100,
-      "mood": 90,
+      "mood": 87,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
+      "text": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
+      "text_cs": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
+      "text_en": "A wealthy donor, who grew rich from the timber trade, bequeathed to the local church a beautifully bound missal imported from Italy. The pages are of the purest parchment, and the initials shine with gold leaf. The book was immediately shackled to the lectern with an iron chain to prevent theft.",
+      "type": "A",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 79
-    },
-    {
-      "text": "Dnes mi spadla do polévky lžíce soli navíc. Chtěl jsem to zachránit přidáním vody, ale výsledkem byl slaný kaluž. Opat mě pochválil za vynikající očistný půstní pokrm. Jsem nedoceněný génius.",
-      "text_cs": "Dnes mi spadla do polévky lžíce soli navíc. Chtěl jsem to zachránit přidáním vody, ale výsledkem byl slaný kaluž. Opat mě pochválil za vynikající očistný půstní pokrm. Jsem nedoceněný génius.",
-      "text_en": "Today an extra spoonful of salt fell into my soup. I tried to save it by adding water, but the result was a salty puddle. The abbot praised me for an excellent cleansing Lenten dish. I am an unappreciated genius.",
-      "type": "D",
-      "icon": "🥣",
-      "source": "monastery_internal",
-      "tick": 420,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
-    },
-    {
-      "text": "Panská kovárna <em>Kovář</em>e nestíhá vyřizovat zakázky ze sousedních újezdů. Hospodářství kvete.",
-      "text_cs": "Panská kovárna <em>Kovář</em>e nestíhá vyřizovat zakázky ze sousedních újezdů. Hospodářství kvete.",
-      "text_en": null,
-      "type": "C",
-      "icon": "⚒️",
-      "source": "monastery_internal",
-      "tick": 420,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
-    },
-    {
-      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
-      "type": "B",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 419,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
+      "text_cs": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
+      "text_en": "A wealthy donor, who grew rich from the timber trade, bequeathed to the local church a beautifully bound missal imported from Italy. The pages are of the purest parchment, and the initials shine with gold leaf. The book was immediately shackled to the lectern with an iron chain to prevent theft.",
+      "type": "A",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
+    {
+      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
+      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
+      "type": "A",
+      "icon": "✝️",
+      "source": "monastery_internal",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
     {
       "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
       "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 81
-    },
-    {
-      "text": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
-      "text_cs": "Z farnosti v Mohelnici: Místní zvoník byl přistižen, jak tajně upíjí z mešního vína schovaného v sakristii. Kněz ho nechal za trest klečet celý den před oltářem s prázdným džbánem na krku.",
-      "text_en": "From the parish in Mohelnice: The local bell-ringer was caught secretly drinking from the communion wine hidden in the sacristy. As a punishment, the priest made him kneel before the altar all day with an empty jug around his neck.",
-      "type": "A",
-      "icon": "🔔",
-      "source": "local_events",
-      "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
-    },
-    {
-      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
-      "type": "A",
-      "icon": "☀️",
-      "source": "monastery_internal",
-      "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
+      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
+      "type": "B",
+      "icon": "📯",
+      "source": "distant_events",
+      "tick": 429,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 83
+    },
     {
       "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
       "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
@@ -2347,18 +2359,6 @@
       "icon": "📋",
       "source": "distant_events",
       "tick": 416,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 77
-    },
-    {
-      "text": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
-      "text_cs": "Ze zápisků zbraslavských: U Lipan prý padlo polních vojsk mnoho, an se umírnění s pány spojili. Stařec jeden, jenž tam byl, dosud nesnese zvuk bubnů, neb mu připomíná to pole plné mrtvých.",
-      "text_en": "From the Zbraslav notes: at Lipany, it is said, many of the field armies fell, when the moderates joined with the lords. An old man who was there yet cannot abide the sound of drums, for it recalleth to him that field full of the dead.",
-      "type": "D",
-      "icon": "⚔️",
-      "source": "distant_events",
-      "tick": 415,
       "year": 1465,
       "season": "Podzim",
       "day": 77
