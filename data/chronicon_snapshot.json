@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-22T21:38:15.474Z",
-  "valid_until": "2026-11-29T21:38:15.474Z",
+  "generated": "2026-11-23T02:24:11.116Z",
+  "valid_until": "2026-11-30T02:24:11.116Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -68,7 +68,7 @@
     "icon": "☀️",
     "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
     "tempC": 2,
-    "windKmH": 9,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 1.1,
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 83,
-    "total_tick": 430,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 83"
+    "day": 84,
+    "total_tick": 431,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 84"
   },
   "actors": [
     {
@@ -91,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 70,
-      "mood": 70,
+      "mood": 72,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 99,
-      "mood": 85,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -162,8 +162,8 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 85,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 82,
+      "mood": 83,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 86,
       "stores": 5,
       "status": "prosperujici",
@@ -258,7 +258,7 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 79,
       "stores": 1,
       "status": "stable",
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 100,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 83,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +306,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 98,
-      "mood": 84,
+      "wealth": 97,
+      "mood": 81,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -1880,6 +1880,30 @@
   ],
   "chronicle": [
     {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 431,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 84
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 431,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 84
+    },
+    {
       "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
       "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
       "text_en": "Coroner's record: Boy Matěj, son of carpenter Novák, fell into the well at the Lower Square. He was pulled out alive but broke his arm and tore his coat. His father is asking the town to repair the cover. The town declined.",
@@ -2094,33 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 80
-    },
-    {
-      "text": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_cs": "Anály: toho léta bylo v české zemi vedro tak veliké, že lidé mřeli při práci na poli. Bratr celerář od té doby v parných žních posílá žencům vodu a velí odpočívat v poledním stínu.",
-      "text_en": "The annals: that summer the heat in the Bohemian land was so great that people died working the fields. Ever since, in scorching harvests brother cellarer sends water to the reapers and orders rest in the noon shade.",
-      "type": "A",
-      "icon": "☀️",
-      "source": "monastery_internal",
-      "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
-    },
-    {
-      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
-      "type": "B",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 422,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
+      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
+      "type": "A",
+      "icon": "📜",
+      "source": "local_events",
+      "tick": 431,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 84
+    },
+    {
+      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
+      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
+      "type": "A",
+      "icon": "🔥",
+      "source": "monastery_internal",
+      "tick": 431,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 84
+    },
     {
       "text": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
       "text_cs": "Zápis koronera: Chlapec Matěj, syn tesaře Nováka, spadl do studny na Dolním náměstí. Byl vytažen živý, ale zlomil si ruku a roztrhl kabát. Otec žádá město o opravu poklopu. Město zamítlo.",
@@ -2216,30 +2240,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 82
-    },
-    {
-      "text": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
-      "text_cs": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
-      "text_en": "A messenger from Uničov warns: An organized band of robbers in chainmail shirts has settled in the woods around the town. Yesterday they ambushed an Olomouc canon's carriage, taking his silver cross and horses. Roads to the north are very dangerous.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
     }
   ],
   "chronicle_distant": [
@@ -2365,7 +2365,7 @@
     }
   ],
   "church_calendar": {
-    "day_of_year": 263,
+    "day_of_year": 264,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
