@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-24T02:49:11.193Z",
-  "valid_until": "2026-12-01T02:49:11.193Z",
+  "generated": "2026-11-24T14:41:13.090Z",
+  "valid_until": "2026-12-01T14:41:13.090Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_early_frost",
-    "name": "Ranní mráz",
-    "icon": "🌨",
-    "desc": "První mráz. Část sklizně je ohrožena.",
-    "tempC": 0,
-    "windKmH": 10,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 2,
+    "windKmH": 5,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.85,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -80,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 85,
-    "total_tick": 433,
+    "total_tick": 434,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 85"
   },
   "actors": [
@@ -90,7 +90,7 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 72,
+      "wealth": 71,
       "mood": 69,
       "stores": 0,
       "status": "stable",
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 84,
+      "wealth": 97,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 80,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 76,
+      "mood": 74,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -187,7 +187,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,7 +210,7 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 98,
+      "wealth": 99,
       "mood": 79,
       "stores": 5,
       "status": "prosperujici",
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
-      "mood": 87,
+      "wealth": 99,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 79,
+      "mood": 80,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 76,
+      "mood": 74,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 78,
+      "mood": 76,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 84,
+      "mood": 83,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1880,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
+      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
+      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
+      "type": "A",
+      "icon": "🚶",
+      "source": "distant_events",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
@@ -2082,45 +2118,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 81
-    },
-    {
-      "text": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
-      "text_cs": "Posel z Uničova varuje: V lesích kolem města se usadila organizovaná tlupa lapků v kroužkových košilích. Včera přepadli kočár olomouckého kanovníka a vzali mu stříbrný kříž i koně. Cesty na sever jsou velmi nebezpečné.",
-      "text_en": "A messenger from Uničov warns: An organized band of robbers in chainmail shirts has settled in the woods around the town. Yesterday they ambushed an Olomouc canon's carriage, taking his silver cross and horses. Roads to the north are very dangerous.",
-      "type": "B",
-      "icon": "🥷",
-      "source": "local_events",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_cs": "Opat dnes při kapitule usnul s otevřenýma očima. Zapsal jsem to jako stav hlubokého rozjímání. Žádný z bratrů se neodvážil ho přerušit, a tak kapitula trvala o hodinu déle. Všichni mlčeli.",
-      "text_en": "The abbot fell asleep at the chapter today with his eyes open. I recorded it as a state of deep contemplation. None of the brothers dared to interrupt him, so the chapter lasted an hour longer. Everyone was silent.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "monastery_internal",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
-      "text_cs": "V hustých lesích za Zábřehem se usadila ozbrojená tlupa vedená zběhlým žoldnéřem. V úterý přepadli pláteníky z Mohelnice a ukradli tři vozy zboží. Městská stráž se bojí zasáhnout.",
-      "text_en": "An armed band led by a deserting mercenary has settled in the dense woods behind Zábřeh. On Tuesday, they ambushed drapers from Mohelnice and stole three wagons of goods. The town guard is afraid to intervene.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 424,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
+      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
+      "type": "A",
+      "icon": "🌾",
+      "source": "local_events",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
+      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
+      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
+      "type": "C",
+      "icon": "🎼",
+      "source": "monastery_internal",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
     {
       "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
       "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
@@ -2216,33 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 428,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
-    },
-    {
-      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 427,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 82
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
+      "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
+      "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
+      "type": "A",
+      "icon": "🚶",
+      "source": "distant_events",
+      "tick": 434,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
     {
       "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
       "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
@@ -2350,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 79
-    },
-    {
-      "text": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_cs": "Z moravských krajů: Trhy s dobytkem prořídly, neb mnozí sedláci raději stáda v lesích skrývají, bojíce se odvodů na obranu panství. Ceny masa proto v městech stoupají.",
-      "text_en": "From the Moravian lands: the cattle markets have thinned, for many farmers hide their herds in the forests, fearing levies for the lords' defence. Therefore the price of meat in the towns doth rise.",
-      "type": "A",
-      "icon": "🐂",
-      "source": "distant_events",
-      "tick": 418,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
     }
   ],
   "church_calendar": {
