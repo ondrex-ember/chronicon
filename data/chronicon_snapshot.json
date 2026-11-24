@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-23T14:15:27.231Z",
-  "valid_until": "2026-11-30T14:15:27.231Z",
+  "generated": "2026-11-24T02:49:11.193Z",
+  "valid_until": "2026-12-01T02:49:11.193Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -63,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 3,
-    "windKmH": 13,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": 0,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 84,
-    "total_tick": 432,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 84"
+    "day": 85,
+    "total_tick": 433,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 85"
   },
   "actors": [
     {
@@ -90,8 +90,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 71,
-      "mood": 70,
+      "wealth": 72,
+      "mood": 69,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +114,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 86,
+      "wealth": 96,
+      "mood": 84,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -138,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 80,
       "stores": 3,
       "status": "prosperujici",
@@ -163,7 +163,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 77,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 84,
+      "wealth": 99,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -210,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,8 +234,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 86,
+      "wealth": 100,
+      "mood": 87,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -258,8 +258,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 99,
-      "mood": 78,
+      "wealth": 100,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 98,
-      "mood": 83,
+      "wealth": 97,
+      "mood": 81,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -307,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 75,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -331,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 96,
-      "mood": 80,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 86,
+      "mood": 84,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1880,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
+      "type": "D",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 433,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 433,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
+    {
       "text": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
       "text_cs": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
       "text_en": "A reminder came from the management of the Il Palco estate: in November the sowing and the olive picking must be organized. The pickers must work carefully and not neglect the pressing of the oil. The grain and wine have already been brought to the granaries, so the household is said to pass the winter in plenty.",
@@ -2094,33 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 81
-    },
-    {
-      "text": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_cs": "Navzdory sklepmistrově lakotě jsem stvořil hostinu z toho mála, co mi dal. Falešný bažant upečený z obyčejné slepice! Bratři chválili pokrm do nebes, zatímco sklepmistr žvýkal s nevěřícným výrazem.",
-      "text_en": "Despite the cellarer's miserliness, I created a feast from the little he gave me. Mock pheasant roasted from an ordinary hen! The brothers praised the dish to the heavens while the cellarer chewed with an incredulous expression.",
-      "type": "E",
-      "icon": "🍗",
-      "source": "monastery_internal",
-      "tick": 424,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
+      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
+      "type": "A",
+      "icon": "👀",
+      "source": "monastery_internal",
+      "tick": 433,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
     {
       "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
       "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
@@ -2228,21 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 82
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 426,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 82
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
+      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
+      "type": "D",
+      "icon": "⛓️",
+      "source": "distant_events",
+      "tick": 433,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 85
+    },
     {
       "text": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
       "text_cs": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
@@ -2350,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 78
-    },
-    {
-      "text": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_cs": "Zpráva z Porýní: Prý onen vynálezce z Mohuče zadlužil se těžce, neb stroj jeho zlato požírá jako pec dříví. Někteří kupci se domnívají, že brzy zkrachuje. Jiní praví, že vynález jeho zboháne potomky.",
-      "text_en": "News from the Rhineland: that inventor of Mainz, it is said, hath fallen heavily into debt, for his machine devoureth gold as a furnace devoureth wood. Some merchants suppose he shall soon fail. Others say his invention shall enrich his heirs.",
-      "type": "C",
-      "icon": "💰",
-      "source": "distant_events",
-      "tick": 417,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 78
     }
   ],
   "church_calendar": {
-    "day_of_year": 264,
+    "day_of_year": 265,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
