@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-24T14:41:13.090Z",
-  "valid_until": "2026-12-01T14:41:13.090Z",
+  "generated": "2026-11-25T00:29:31.647Z",
+  "valid_until": "2026-12-02T00:29:31.647Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní středa",
+    "name_en": "Fasting Wednesday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 5,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": -1,
+    "windKmH": 2,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 85,
-    "total_tick": 434,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 85"
+    "day": 86,
+    "total_tick": 435,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 86"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 71,
-      "mood": 69,
+      "mood": 71,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -114,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
-      "mood": 82,
+      "wealth": 98,
+      "mood": 81,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -163,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 74,
+      "mood": 76,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -186,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 80,
+      "wealth": 98,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 79,
+      "mood": 78,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -259,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 80,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -282,8 +286,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 96,
+      "mood": 80,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -306,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
-      "mood": 74,
+      "wealth": 99,
+      "mood": 75,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 96,
-      "mood": 76,
+      "wealth": 95,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 98,
-      "mood": 83,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1884,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
+      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
+      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
+      "type": "E",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
+      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
       "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
       "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
       "text_en": "From the Bohemian lands: a certain pilgrim told of a band of simple folk who are said to have written a teaching, holding any violence for sin, even when committed in the name of faith. Their name is known in the neighbouring parts but dimly.",
@@ -2082,45 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 82
-    },
-    {
-      "text": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_cs": "Ze starých zápisků: Když artikulové čtyři vyhlášeni byli, bod jeden o panování světském církve mnohé domy klášterní o pozemky a důchody připravil. Mnozí bratři tehdy putovali bez střechy, hledajíce domov nový.",
-      "text_en": "From old notes: when the four articles were proclaimed, one point concerning the church's worldly dominion stripped many a monastic house of its lands and revenues. Many brothers in those days wandered roofless, seeking a new home.",
-      "type": "D",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 426,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 82
-    },
-    {
-      "text": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_cs": "Převor zapsal: Ostatky patrona našeho byly za válek ukryty ve studni zahradní, an se vojska polní blížila. Tři léta tam ležely, než opat tehdejší dal je vyzvednout. Kámen na nich dosud nese stopu vlhka.",
-      "text_en": "The prior wrote: the relics of our patron were hidden in the garden well during the wars, when the field armies drew near. Three years they lay there, ere the abbot of that time had them raised again. The stone upon them yet beareth the mark of damp.",
-      "type": "C",
-      "icon": "🗝️",
-      "source": "monastery_internal",
-      "tick": 426,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 82
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
+      "text_en": "A large cargo of Italian rag paper marked with a scales watermark arrived in the bishop's city. Foreign merchants sell it at a fraction of the price of high-quality parchment. Scribes and bookbinders are hastily buying bundles of this material for writing ordinary documents and drafts.",
+      "type": "C",
+      "icon": "📖",
+      "source": "local_events",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
+      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
+      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
+      "type": "C",
+      "icon": "🚪",
+      "source": "monastery_internal",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
     {
       "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
       "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
@@ -2216,33 +2244,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_cs": "V análech stojí: ve čtvrtek a v pátek po svatém Mauricovi viděn byl červený kříž prostřed nebe, veliký, jako by slunce stálo na poledni. Bratři se přou, zda to bylo znamení milosti, či výstrahy. Anály mlčí.",
-      "text_en": "It stands in the annals: on the Thursday and Friday after St Maurice a red cross was seen in the midst of the sky, vast, as though the sun stood at noon. The brothers argue whether it was a sign of grace or of warning. The annals are silent.",
-      "type": "A",
-      "icon": "✝️",
-      "source": "monastery_internal",
-      "tick": 429,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 428,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
+      "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
+      "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
+      "type": "E",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 435,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
     {
       "text": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
       "text_cs": "Z českých zemí: Poutník jeden vyprávěl o sboru lidí prostých, kteří prý učení sepsali, an násilí jakékoliv za hřích mají, byť ve jménu víry páchané. Jméno jejich se v krajích sousedních zná jen matně.",
@@ -2350,22 +2366,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 80
-    },
-    {
-      "text": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_cs": "Zpráva z Prahy: Někteří páni z rodu Šternberků list sepsali, v němž se proti králi staví, řkouce, že víru pravou v zemi opouštěti nedají. List koloval mezi šlechtou tajně, než purkmistr o něm zvěděl.",
-      "text_en": "News from Prague: certain lords of the house of Šternberk have penned a letter against the king, declaring they shall not suffer the true faith to be forsaken in the land. The letter passed among the nobility in secret, ere the burgomaster came to know of it.",
-      "type": "B",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 419,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 79
     }
   ],
   "church_calendar": {
-    "day_of_year": 265,
+    "day_of_year": 266,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
