@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-25T00:29:31.647Z",
-  "valid_until": "2026-12-02T00:29:31.647Z",
+  "generated": "2026-11-25T14:03:09.772Z",
+  "valid_until": "2026-12-02T14:03:09.772Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -67,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_early_frost",
-    "name": "Ranní mráz",
-    "icon": "🌨",
-    "desc": "První mráz. Část sklizně je ohrožena.",
-    "tempC": -1,
-    "windKmH": 2,
+    "key": "autumn_clear",
+    "name": "Jasno",
+    "icon": "☀️",
+    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
+    "tempC": 2,
+    "windKmH": 9,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 0.85,
+    "modifier_grain": 1.1,
     "modifier_wood": 1
   },
   "time": {
@@ -84,7 +84,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 86,
-    "total_tick": 435,
+    "total_tick": 436,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 86"
   },
   "actors": [
@@ -95,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 71,
-      "mood": 71,
+      "mood": 70,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 80,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 97,
-      "mood": 81,
+      "wealth": 98,
+      "mood": 82,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 76,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -191,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 98,
-      "mood": 81,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 78,
+      "mood": 79,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,8 +238,8 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 99,
-      "mood": 84,
+      "wealth": 100,
+      "mood": 82,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -263,7 +263,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 78,
+      "mood": 79,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -287,7 +287,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 96,
-      "mood": 80,
+      "mood": 78,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -310,7 +310,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 75,
       "stores": 3,
       "status": "prosperujici",
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 99,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1884,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 436,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 436,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
+    {
       "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
       "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
       "text_en": "News reached Pisa of the routing of a company of free lances in Liguria. Stoldo di Lorenzo, a partner of the Datini house, hastened to Genoa at once to buy up all their armor. Once peace is made, the mercenaries are expected to sell everything below cost — and the trading house stands to profit handsomely.",
@@ -2098,33 +2122,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_cs": "Z let válek: v sobotu před svatým Martinem vydrancovali měšťané pražští Malou Stranu pod Hradem a vypálili ji. U toho zápisu začíná v análech jméno, které se pak vrací na každé straně: Žižka.",
-      "text_en": "From the war years: on the Saturday before St Martin the Prague burghers plundered the Lesser Town beneath the Castle and burned it. At that entry begins a name that then returns on every page of the annals: Žižka.",
-      "type": "A",
-      "icon": "💥",
-      "source": "monastery_internal",
-      "tick": 428,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
-    },
-    {
-      "text": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_cs": "Během nedělní mše vběhl do kostela rozzuřený řezník a obvinil varhaníka ze svádění své dcery. Došlo k potyčce přímo před oltářem. Kostel musí být znovu vysvěcen a varhaník utekl z města.",
-      "text_en": "During Sunday mass, a furious butcher ran into the church and accused the organist of seducing his daughter. A scuffle broke out right in front of the altar. The church must be reconsecrated, and the organist has fled the town.",
-      "type": "A",
-      "icon": "⛪",
-      "source": "local_events",
-      "tick": 427,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 82
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_cs": "Z Konice: Dlouholetý spor mezi dvěma sedláky o posunutý hraniční kámen vyvrcholil rvačkou s cepy. Purkmistr oběma uložil pokutu a vyslal městského měřiče, aby hranici pozemků trvale vytyčil.",
+      "text_en": "From Konice: A long-standing dispute between two farmers over a moved boundary stone culminated in a brawl with flails. The burgomaster fined them both and sent the town surveyor to permanently mark the property line.",
+      "type": "A",
+      "icon": "⚖️",
+      "source": "local_events",
+      "tick": 436,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
     {
       "text": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
       "text_cs": "Do biskupského města dorazil velký náklad italského hadrového papíru označeného průsvitkou váhy. Zahraniční kupci jej prodávají za zlomek ceny kvalitního pergamenu. Skriptoři a knihaři spěšně nakupují balíky tohoto materiálu pro psaní běžných listin a konceptů.",
@@ -2232,21 +2244,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
-      "text_cs": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
-      "text_en": "A wealthy donor, who grew rich from the timber trade, bequeathed to the local church a beautifully bound missal imported from Italy. The pages are of the purest parchment, and the initials shine with gold leaf. The book was immediately shackled to the lectern with an iron chain to prevent theft.",
-      "type": "A",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 429,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
+      "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 436,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 86
+    },
     {
       "text": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
       "text_cs": "Z Pisy přišla zpráva o rozprášení tlupy žoldnéřů v Ligurech. Společník Datiniho domu Stoldo di Lorenzo ihned vyrazil do Janova, aby skoupil veškerou jejich zbroj. Jakmile bude uzavřen mír, žoldnéři prý vše rozprodají pod cenou — a kupecký dům na tom slušně vydělá.",
@@ -2351,18 +2363,6 @@
       "icon": "📜",
       "source": "distant_events",
       "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
-    },
-    {
-      "text": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_cs": "Zlořečený milánský vévoda poslal do Toskánska více než 6000 jezdců pod velením Alberica da Barbiano. Žoldnéři se utábořili jen dvanáct mil od Prata a plení venkovské usedlosti. Ze správy Datiniho domu prý vyšel okamžitý pokyn stáhnout veškeré zásoby, dobytek a dokonce i kousky železa z usedlosti Il Palco do bezpečí městských hradeb.",
-      "text_en": "The cursed Duke of Milan has sent over 6000 horses to Tuscany under the command of Alberico da Barbiano. The mercenaries have camped but twelve miles from Prato, ravaging the rural estates. The Datini house is said to have issued immediate orders to bring all stores, beasts, and even pieces of iron from the Il Palco estate into the safety of the city walls.",
-      "type": "B",
-      "icon": "🐎",
-      "source": "distant_events",
-      "tick": 422,
       "year": 1465,
       "season": "Podzim",
       "day": 80
