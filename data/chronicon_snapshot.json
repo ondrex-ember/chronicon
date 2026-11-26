@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-25T14:03:09.772Z",
-  "valid_until": "2026-12-02T14:03:09.772Z",
+  "generated": "2026-11-26T00:05:39.939Z",
+  "valid_until": "2026-12-03T00:05:39.939Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní středa",
-    "name_en": "Fasting Wednesday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -67,15 +63,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 9,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": 0,
+    "windKmH": 10,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -83,9 +79,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 86,
-    "total_tick": 436,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 86"
+    "day": 87,
+    "total_tick": 437,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 87"
   },
   "actors": [
     {
@@ -95,7 +91,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 71,
-      "mood": 70,
+      "mood": 69,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -142,7 +138,7 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 82,
       "stores": 3,
       "status": "prosperujici",
@@ -190,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 98,
-      "mood": 82,
+      "wealth": 99,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -214,8 +210,8 @@
       "label_en": "The Pondkeeper",
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 98,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,7 +234,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 82,
       "stores": 5,
       "status": "prosperujici",
@@ -263,7 +259,7 @@
       "profession": "Valach",
       "profession_en": "Shepherd",
       "wealth": 100,
-      "mood": 79,
+      "mood": 77,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -286,8 +282,8 @@
       "label_en": "The Abbot",
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
-      "wealth": 96,
-      "mood": 78,
+      "wealth": 97,
+      "mood": 79,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -311,7 +307,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 100,
-      "mood": 75,
+      "mood": 77,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -334,8 +330,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 95,
-      "mood": 75,
+      "wealth": 94,
+      "mood": 76,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -366,7 +362,7 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 99,
+      "wealth": 98,
       "mood": 80,
       "stores": 2,
       "status": "stable",
@@ -1884,6 +1880,18 @@
   ],
   "chronicle": [
     {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 437,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 87
+    },
+    {
       "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
@@ -2110,18 +2118,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_cs": "Z radnice: Dva šlechtici z okolí Olomouce se přou o hranici pozemků u Topolan. Jeden přijel s deseti jezdci, druhý s dvanácti. Purkmistr oběma vzkázal, ať nechají koně za hradbami.",
-      "text_en": "From the town hall: Two noblemen from the Olomouc area are disputing the boundary of lands near Topolany. One arrived with ten riders, the other with twelve. The burgomaster sent word to both to leave their horses outside the walls.",
-      "type": "B",
-      "icon": "⚔️",
-      "source": "local_events",
-      "tick": 428,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "chronicle_local": [
@@ -2248,6 +2244,18 @@
   ],
   "chronicle_distant": [
     {
+      "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
+      "text_en": "A custom of generosity spreads from the Datini house: to delight close friends, substantial gifts are regularly sent from the estate — braces of partridges, fat capons, and fresh fruit. Ser Lapo is said to often scold that such costly delicacies are not fitting for him and a waste. Yet it is believed in the house that entertaining friends shows prosperity and good standing to the world.",
+      "type": "E",
+      "icon": "🍗",
+      "source": "distant_events",
+      "tick": 437,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 87
+    },
+    {
       "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_cs": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel.",
       "text_en": "From the Bohemian lands: books written against the king circulate through the countryside, copied by hand in the night. Whoso readeth them holdeth his peace; whoso hath them, hideth them. One priest burned them openly in the church; the people watched in silence.",
@@ -2354,22 +2362,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 81
-    },
-    {
-      "text": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_cs": "Léta téhož po rozjetí dřéve řečeného sebránie dřieveřečená města pražská ve spolek vzali hořkost a kyselost mezi sebú pro nepřivolenie Velka a Novoměstských k jednání míru s králem uherským a zdělali sú proti sobě zdi a plaňky a ponócky, nevěřiece sobě.",
-      "text_en": "That year, after that gathering dispersed, the towns of Prague fell into bitterness among themselves over the disagreement of the New Town.",
-      "type": "C",
-      "icon": "📜",
-      "source": "distant_events",
-      "tick": 423,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 80
     }
   ],
   "church_calendar": {
-    "day_of_year": 266,
+    "day_of_year": 267,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
