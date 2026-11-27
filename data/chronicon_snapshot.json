@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-27T13:38:33.556Z",
-  "valid_until": "2026-12-04T13:38:33.556Z",
+  "generated": "2026-11-27T23:57:43.446Z",
+  "valid_until": "2026-12-04T23:57:43.446Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -71,8 +71,8 @@
     "name": "Ranní mráz",
     "icon": "🌨",
     "desc": "První mráz. Část sklizně je ohrožena.",
-    "tempC": 0,
-    "windKmH": 4,
+    "tempC": -1,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 0.85,
@@ -83,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 88,
-    "total_tick": 440,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 88"
+    "day": 89,
+    "total_tick": 441,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 89"
   },
   "actors": [
     {
@@ -94,8 +94,8 @@
       "label_en": "The Lordship",
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
-      "wealth": 71,
-      "mood": 70,
+      "wealth": 70,
+      "mood": 71,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -118,8 +118,8 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 96,
-      "mood": 76,
+      "wealth": 97,
+      "mood": 74,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -142,8 +142,8 @@
       "label_en": "The Blacksmith",
       "profession": "Kovář",
       "profession_en": "Blacksmith",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 80,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -167,7 +167,7 @@
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
       "wealth": 99,
-      "mood": 74,
+      "mood": 72,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -190,8 +190,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 99,
-      "mood": 79,
+      "wealth": 100,
+      "mood": 78,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -215,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 78,
+      "mood": 76,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -238,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 81,
       "stores": 5,
       "status": "prosperujici",
@@ -262,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -311,7 +311,7 @@
       "profession": "Včelař",
       "profession_en": "Beekeeper",
       "wealth": 98,
-      "mood": 78,
+      "mood": 79,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -334,7 +334,7 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
+      "wealth": 93,
       "mood": 74,
       "stores": 1,
       "status": "stable",
@@ -366,8 +366,8 @@
       "label_en": "The Bellfounder",
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
-      "wealth": 98,
-      "mood": 81,
+      "wealth": 97,
+      "mood": 82,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1884,6 +1884,30 @@
   ],
   "chronicle": [
     {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 441,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 441,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
+    {
       "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
       "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
       "text_en": "News from Bohemia: an old man, who is said in his youth to have marched with Žižka, sitteth before the tavern telling of battles to whoso will hear. The young mock him; the old nod silently.",
@@ -2098,33 +2122,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 85
-    },
-    {
-      "text": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_cs": "Sledoval jsem bratra kuchaře, jak sype z okna drobky. Hned nato se objevil bratr sklepmistr a hledal ztracený bochník. Zapsal jsem si to do paměti. Vše souvisí se vším, jen to umět pozorovat.",
-      "text_en": "I watched the cook brother throwing crumbs out the window. Right after, the cellarer appeared looking for a lost loaf. I committed this to memory. Everything connects to everything else, one just has to know how to observe.",
-      "type": "A",
-      "icon": "👀",
-      "source": "monastery_internal",
-      "tick": 433,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 85
-    },
-    {
-      "text": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
-      "text_cs": "Ze správy usedlosti Il Palco přišlo upozornění: v listopadu je třeba zorganizovat setí a sběr oliv. Česáči musí pracovat pečlivě a nesmí zanedbat lisování oleje. Obilí i víno již byly svezeny do sýpek, takže domácnost prý přečká zimu v hojnosti.",
-      "text_en": "A reminder came from the management of the Il Palco estate: in November the sowing and the olive picking must be organized. The pickers must work carefully and not neglect the pressing of the oil. The grain and wine have already been brought to the granaries, so the household is said to pass the winter in plenty.",
-      "type": "A",
-      "icon": "🫒",
-      "source": "distant_events",
-      "tick": 432,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 84
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
+      "text_en": "My quill stopped writing sharply. I had to trim it three times before I realized the ink supplied by the infirmarian contains fine sand. My meticulousness has been trampled by the coarseness of the material.",
+      "type": "D",
+      "icon": "🖋️",
+      "source": "monastery_internal",
+      "tick": 441,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
     {
       "text": "Slezský kníže projel Opavou s družinou padesáti těžkooděnců na cestě do Vratislavi. Vojáci zrekvírovali pět sudů piva a dvě desítky slepic. Radnice nyní požaduje náhradu škody po knížecím komořím.",
       "text_cs": "Slezský kníže projel Opavou s družinou padesáti těžkooděnců na cestě do Vratislavi. Vojáci zrekvírovali pět sudů piva a dvě desítky slepic. Radnice nyní požaduje náhradu škody po knížecím komořím.",
@@ -2232,21 +2244,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 86
-    },
-    {
-      "text": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_cs": "Z olomouckého sobotního trhu: Cena žita stoupla již podruhé tento měsíc. Mlynáři říkají, že za kámen se platí více než dřív. Chudí stojí fronty od svítání. Několik žen omdlelo přímo před stánkem.",
-      "text_en": "From the Olomouc Saturday market: The price of rye has risen for the second time this month. Millers say the millstone costs more than before. The poor queue from dawn. Several women fainted right in front of the stall.",
-      "type": "A",
-      "icon": "🌾",
-      "source": "local_events",
-      "tick": 434,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 85
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
+      "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
+      "type": "B",
+      "icon": "🌫️",
+      "source": "distant_events",
+      "tick": 441,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
     {
       "text": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
       "text_cs": "Zpráva z Čech: Stařec, jenž prý za mlada s Žižkou táhl, sedává před krčmou a o bitvách vypravuje, komu se chce poslouchat. Mladí se posmívají, staří mlčky kývají hlavou.",
@@ -2354,22 +2366,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_cs": "Z Prahy: Král Jiří projel městem v průvodu o čtyřiceti koních. Lidé ho vítali, protože je to rozptýlení. Jeden žebrák se přiblížil příliš blízko a byl odtažen stráží. Jinak klid.",
-      "text_en": "From Prague: King George passed through the city in a procession of forty horses. People welcomed him because it is a distraction. One beggar approached too close and was dragged away by the guard. Otherwise quiet.",
-      "type": "C",
-      "icon": "👑",
-      "source": "distant_events",
-      "tick": 428,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "church_calendar": {
-    "day_of_year": 268,
+    "day_of_year": 269,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,
