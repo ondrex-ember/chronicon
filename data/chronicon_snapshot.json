@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-26T13:41:12.713Z",
-  "valid_until": "2026-12-03T13:41:12.713Z",
+  "generated": "2026-11-27T00:27:13.521Z",
+  "valid_until": "2026-12-04T00:27:13.521Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,7 +16,11 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": null,
+  "fast": {
+    "active": true,
+    "name_cs": "Postní pátek",
+    "name_en": "Fasting Friday"
+  },
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -63,15 +67,15 @@
     "active": false
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 13,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": -1,
+    "windKmH": 6,
     "rainMm": 0,
     "season": 2,
-    "modifier_grain": 1.1,
+    "modifier_grain": 0.85,
     "modifier_wood": 1
   },
   "time": {
@@ -79,9 +83,9 @@
     "season": 2,
     "season_name": "Podzim",
     "season_icon": "🍂",
-    "day": 87,
-    "total_tick": 438,
-    "date_string": "🍂 Podzim, Léta Páně 1465, den 87"
+    "day": 88,
+    "total_tick": 439,
+    "date_string": "🍂 Podzim, Léta Páně 1465, den 88"
   },
   "actors": [
     {
@@ -91,7 +95,7 @@
       "profession": "Pán panství",
       "profession_en": "Lord of the Manor",
       "wealth": 71,
-      "mood": 68,
+      "mood": 69,
       "stores": 0,
       "status": "stable",
       "relations": {
@@ -115,7 +119,7 @@
       "profession": "Mlynář",
       "profession_en": "Miller",
       "wealth": 97,
-      "mood": 79,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -139,7 +143,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 98,
-      "mood": 82,
+      "mood": 83,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -187,7 +191,7 @@
       "profession": "Vorař",
       "profession_en": "Raftsman",
       "wealth": 99,
-      "mood": 81,
+      "mood": 80,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -211,7 +215,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 99,
-      "mood": 76,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -234,7 +238,7 @@
       "label_en": "The Ferryman",
       "profession": "Mýtný",
       "profession_en": "Toll Collector",
-      "wealth": 100,
+      "wealth": 99,
       "mood": 80,
       "stores": 5,
       "status": "prosperujici",
@@ -258,8 +262,8 @@
       "label_en": "The Shepherd",
       "profession": "Valach",
       "profession_en": "Shepherd",
-      "wealth": 100,
-      "mood": 77,
+      "wealth": 99,
+      "mood": 78,
       "stores": 1,
       "status": "stable",
       "relations": {
@@ -306,8 +310,8 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 100,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 76,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -330,8 +334,8 @@
       "label_en": "The Glassmaker",
       "profession": "Sklář",
       "profession_en": "Glassmaker",
-      "wealth": 94,
-      "mood": 77,
+      "wealth": 93,
+      "mood": 75,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -363,7 +367,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 99,
-      "mood": 80,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1880,6 +1884,42 @@
   ],
   "chronicle": [
     {
+      "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_en": "From Mainz: by that machine, it is said, an entire work hath been printed, the Holy Scripture itself, in many copies wholly alike. The abbot shook his head at this, saying a work written by hand hath a soul, whereas the machine hath only exactness.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
       "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
       "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
       "text_en": "A drunken stable boy attempted to saddle a stranger's stallion stabled at a coaching inn at night. The animal spooked and kicked the man in the head with full force, shattering his skull. The coroner closed the case as a tragic accident caused by the man's own stupidity.",
@@ -2082,45 +2122,33 @@
       "year": 1465,
       "season": "Podzim",
       "day": 83
-    },
-    {
-      "text": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_cs": "Při oprašování kronik jsem našel na polici pavouka. Bratr zahradník mě přesvědčoval, abych ho vynesl ven. Zabil jsem ho kodexem kanonického práva. Zákon platí pro všechny vetřelce stejně.",
-      "text_en": "While dusting the chronicles, I found a spider on the shelf. Brother gardener tried to persuade me to take it outside. I killed it with a codex of canon law. The law applies equally to all intruders.",
-      "type": "B",
-      "icon": "🕸️",
-      "source": "monastery_internal",
-      "tick": 430,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
-    },
-    {
-      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
-      "type": "B",
-      "icon": "📯",
-      "source": "distant_events",
-      "tick": 429,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
-    },
-    {
-      "text": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
-      "text_cs": "Bohatý donátor, jenž zbohatl na obchodu s dřevem, odkázal tamnímu chrámu nádherně vázaný misál dovezený z Itálie. Stránky jsou z nejčistšího pergamenu a iniciály září plátkovým zlatem. Kniha byla okamžitě připoutána železným řetězem k pultu, aby se zabránilo krádeži.",
-      "text_en": "A wealthy donor, who grew rich from the timber trade, bequeathed to the local church a beautifully bound missal imported from Italy. The pages are of the purest parchment, and the initials shine with gold leaf. The book was immediately shackled to the lectern with an iron chain to prevent theft.",
-      "type": "A",
-      "icon": "📖",
-      "source": "local_events",
-      "tick": 429,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
     {
       "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
       "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
@@ -2216,33 +2244,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 85
-    },
-    {
-      "text": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_cs": "Potulný tiskařský pomocník zprostředkoval nákup kvalitního hrubého papíru pro několik městských i klášterních písařů. Papír má průsvitku býčí hlavy a jeho cena je tak nízká, že sráží zisky pergameníkům. Úřad začal zkoumat, zda tito noví obchodníci platí z dovozu mýto.",
-      "text_en": "A wandering printer's assistant brokered the purchase of high-quality coarse paper for several town and monastic scribes. The paper has a bull's head watermark and its price is so low that it cuts the profits of parchment makers. The office has begun investigating whether these new merchants pay import tolls.",
-      "type": "A",
-      "icon": "📜",
-      "source": "local_events",
-      "tick": 431,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 84
-    },
-    {
-      "text": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_cs": "Nejtěžší zápis análů pro naše bratrstvo: Žižka spálil mnoho vsí a městeček — a v Turnově v klášteře upálil mnichy. Za ty bratry sloužíme mši každý rok. Jména neznáme; Bůh ano.",
-      "text_en": "The heaviest entry in the annals for our brotherhood: Žižka burned many villages and towns — and at Turnov burned the monks in their monastery. We hold a mass for those brothers every year. We do not know their names; God does.",
-      "type": "A",
-      "icon": "🔥",
-      "source": "monastery_internal",
-      "tick": 431,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 84
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_en": "From Mainz: by that machine, it is said, an entire work hath been printed, the Holy Scripture itself, in many copies wholly alike. The abbot shook his head at this, saying a work written by hand hath a soul, whereas the machine hath only exactness.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
     {
       "text": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
       "text_cs": "Z Datiniho domu se šíří zvyk štědrosti: pro potěšení nejbližších přátel jsou z usedlosti pravidelně rozesílány objemné dary — páry koroptví, tlustí kapouni a čerstvé ovoce. Ser Lapo prý často kárá, že takové drahé pochoutky jemu nenáleží a je jich škoda. V domě se ale věří, že pohoštění přátel ukazuje světu prosperitu a dobrou pověst.",
@@ -2350,22 +2366,10 @@
       "year": 1465,
       "season": "Podzim",
       "day": 82
-    },
-    {
-      "text": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_cs": "Ze staročeských letopisů: Z téhož tažení: Páni Zelenohorské ligy prý ztratili korouhev pana z Pernštejna i většinu urozených zbrojnošů z jihomoravských statků. Říká se, že velitel ligy uprchl na koni tak rychle, že zanechal stan i pokladnici. Takové zprávy potěší každého věrného poddaného krále Jiřího.",
-      "text_en": "From the Old Czech Chronicles: From the same campaign: The lords of the League of Zelená Hora reportedly lost the banner of Lord of Pernštejn and most of the noble squires from the south Moravian estates. It is said that the league's commander fled on horseback so swiftly that he left behind his tent and treasury. Such news will gladden every loyal subject of King George.",
-      "type": "D",
-      "icon": "🚩",
-      "source": "distant_events",
-      "tick": 425,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 81
     }
   ],
   "church_calendar": {
-    "day_of_year": 267,
+    "day_of_year": 268,
     "season": "Podzim",
     "season_icon": "🍂",
     "year": 1465,

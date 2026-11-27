@@ -2,17 +2,17 @@
   "time": {
     "year": 1465,
     "season": 2,
-    "day": 87,
+    "day": 88,
     "daysPerSeason": 90,
-    "totalTick": 438
+    "totalTick": 439
   },
   "weather": {
-    "key": "autumn_clear",
-    "name": "Jasno",
-    "icon": "☀️",
-    "desc": "Zlatý podzim. Sklizeň probíhá za příznivých podmínek.",
-    "tempC": 2,
-    "windKmH": 13,
+    "key": "autumn_early_frost",
+    "name": "Ranní mráz",
+    "icon": "🌨",
+    "desc": "První mráz. Část sklizně je ohrožena.",
+    "tempC": -1,
+    "windKmH": 6,
     "rainMm": 0
   },
   "virtue": {
@@ -68,8 +68,8 @@
       "label": "Vrchnost",
       "profession": "Pán panství",
       "core": true,
-      "wealth": 71.07984581001867,
-      "mood": 68.32683885934479,
+      "wealth": 70.97650799059343,
+      "mood": 68.59453379814423,
       "stores": 0,
       "storesMax": 100,
       "status": "stable",
@@ -97,8 +97,8 @@
       "label": "Mlynář",
       "profession": "Mlynář",
       "core": true,
-      "wealth": 96.78950834923614,
-      "mood": 78.66121975510998,
+      "wealth": 97.10484542803256,
+      "mood": 77.30408641907465,
       "stores": 4.893281249999999,
       "storesMax": 90,
       "status": "prosperujici",
@@ -126,8 +126,8 @@
       "label": "Kovář",
       "profession": "Kovář",
       "core": true,
-      "wealth": 97.73353568629612,
-      "mood": 82.21546390111178,
+      "wealth": 97.50094935068715,
+      "mood": 83.33875574393691,
       "stores": 3.469296244529522,
       "storesMax": 80,
       "status": "prosperujici",
@@ -155,8 +155,8 @@
       "label": "Uhlíř",
       "profession": "Uhlíř",
       "core": true,
-      "wealth": 98.99182059915148,
-      "mood": 74.67666989213639,
+      "wealth": 98.57078070851355,
+      "mood": 74.93956280217074,
       "stores": 1.9469957590953058,
       "storesMax": 70,
       "status": "stable",
@@ -184,8 +184,8 @@
       "label": "Vorař",
       "profession": "Vorař",
       "core": true,
-      "wealth": 98.54093937938278,
-      "mood": 80.5391927965522,
+      "wealth": 98.61369034626598,
+      "mood": 79.53214513565028,
       "stores": 2.210793303410696,
       "storesMax": 50,
       "status": "stable",
@@ -213,8 +213,8 @@
       "label": "Rybníkář",
       "profession": "Rybníkář",
       "core": true,
-      "wealth": 98.50474828454679,
-      "mood": 75.6569828510182,
+      "wealth": 99.49914512689062,
+      "mood": 76.673992757,
       "stores": 4.97795939570108,
       "storesMax": 70,
       "status": "prosperujici",
@@ -242,8 +242,8 @@
       "label": "Převozník",
       "profession": "Mýtný",
       "core": true,
-      "wealth": 100,
-      "mood": 80.45127607778437,
+      "wealth": 99.32014137966782,
+      "mood": 80.1161668330127,
       "stores": 5.3766449125314395,
       "storesMax": 60,
       "status": "prosperujici",
@@ -271,8 +271,8 @@
       "label": "Valach",
       "profession": "Valach",
       "core": true,
-      "wealth": 100,
-      "mood": 77.43577662581417,
+      "wealth": 99.2677139489097,
+      "mood": 77.6257729707045,
       "stores": 1.0364165516270463,
       "storesMax": 70,
       "status": "stable",
@@ -300,8 +300,8 @@
       "label": "Opat",
       "profession": "Opat ve městě",
       "core": true,
-      "wealth": 96.64641218526312,
-      "mood": 79.66512777434109,
+      "wealth": 97.36447656144526,
+      "mood": 79.85231175214643,
       "stores": 1.7156833619711007,
       "storesMax": 100,
       "status": "prosperujici",
@@ -329,8 +329,8 @@
       "label": "Včelař",
       "profession": "Včelař",
       "core": true,
-      "wealth": 99.59928009312813,
-      "mood": 78.28788372888252,
+      "wealth": 98.65072962970451,
+      "mood": 76.36021016499396,
       "stores": 2.993780707270072,
       "storesMax": 80,
       "status": "prosperujici",
@@ -360,8 +360,8 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "core": true,
-      "wealth": 93.75048935245295,
-      "mood": 76.7403571387334,
+      "wealth": 93.49001827394677,
+      "mood": 75.48205373793321,
       "stores": 1.014487526532139,
       "storesMax": 75,
       "status": "stable",
@@ -397,8 +397,8 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "core": true,
-      "wealth": 98.87379596335097,
-      "mood": 80.39155402521837,
+      "wealth": 99.00879153669447,
+      "mood": 80.61620279287716,
       "stores": 1.6819183671875004,
       "storesMax": 70,
       "literacy": 1,
@@ -484,6 +484,42 @@
     "guilds_noticed"
   ],
   "log": [
+    {
+      "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_cs": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost.",
+      "text_en": "From Mainz: by that machine, it is said, an entire work hath been printed, the Holy Scripture itself, in many copies wholly alike. The abbot shook his head at this, saying a work written by hand hath a soul, whereas the machine hath only exactness.",
+      "type": "A",
+      "icon": "📖",
+      "source": "distant_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
+      "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_cs": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném.",
+      "text_en": "The town's inhabitants live in constant fear of an approaching royal garrison, which threatens harsh quartering in burgher houses. Walls are being feverishly reinforced with wood and stone, while the richest patricians prefer to cart their families and valuables away to safer places. The burgomaster is desperately trying to negotiate a ransom agreement with the military commanders.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "local_events",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
+    {
+      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
+      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
+      "type": "A",
+      "icon": "🩹",
+      "source": "monastery_internal",
+      "tick": 439,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 88
+    },
     {
       "text": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
       "text_cs": "Opilý podomek se v noci pokusil osedlat cizího hřebce ustájeného v zájezdním hostinci. Zvíře se splašilo a koplo muže plnou silou do hlavy, čímž mu roztříštilo lebku. Koroner případ uzavřel jako nešťastnou nehodu zaviněnou vlastní hloupostí.",
@@ -1407,42 +1443,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 73
-    },
-    {
-      "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_cs": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času.",
-      "text_en": "The infirmarian wrote: Brother Simon, who hath lain in the infirmary these many years, was wounded in his youth in battle, though he was not then yet a monk. He showeth the scar upon his shoulder to the novices as a piece of a long-past time.",
-      "type": "A",
-      "icon": "🩹",
-      "source": "monastery_internal",
-      "tick": 406,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 73
-    },
-    {
-      "text": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_cs": "Z olomoucké radnice: Ve středu večer se v krčmě Pod Věží pohádali dva soukeníci o cenu vlny. Jeden vzal džbán, druhý nůž. Džbán vyhrál. Případ předán purkmistrovi. Vdova žádá odškodnění.",
-      "text_en": "From the Olomouc town hall: On Wednesday evening two cloth merchants argued in the tavern Pod Věží over the price of wool. One took a jug, the other a knife. The jug won. The case has been handed to the burgomaster. The widow seeks compensation.",
-      "type": "B",
-      "icon": "🗡️",
-      "source": "local_events",
-      "tick": 405,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 73
-    },
-    {
-      "text": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_cs": "Správce místního panství vyslal dráby, aby dopadli rodinu nevolníků, která v noci tajně uprchla i s krávou do sousedního panství. Zběhové doufají, že tam získají lepší podmínky nebo najdou azyl za městskými hradbami. Majitel půdy nabízí tučnou odměnu za jejich přivedení v řetězech.",
-      "text_en": "The steward of the local estate sent bailiffs to catch a serf family that secretly fled at night with their cow to a neighboring estate. The runaways hope to gain better conditions there or find asylum behind town walls. The landowner is offering a hefty reward for bringing them back in chains.",
-      "type": "A",
-      "icon": "⚖️",
-      "source": "local_events",
-      "tick": 404,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 72
     }
   ],
   "portaLetterHistory": [
@@ -5390,7 +5390,7 @@
       "text": "Z českých zemí: Knihy psané proti králi po krajích kolují, opisované rukou v noci. Kdo je čte, mlčí, kdo je má, skrývá. Kněz jeden je v kostele veřejně spálil, lid mlčky přihlížel."
     },
     "mono_133": {
-      "tick": 406,
+      "tick": 439,
       "text": "Infirmář zapsal: Bratr Šimon, jenž v infirmáriu leží již léta, byl za mlada raněn v boji, ač jako mnich tehdy ještě nebyl. Jizvu na rameni ukazuje novicům jako kus dávno minulého času."
     },
     "local_245": {
@@ -6606,7 +6606,7 @@
       "text": "Z Kroměříže: Letošní vinobraní na biskupských svazích je obzvláště úspěšné. Sladké hrozny plní kádě a sklepmistři předpovídají víno výtečné chuti. Část produkce bude odeslána darem do Říma."
     },
     "local_260": {
-      "tick": 392,
+      "tick": 439,
       "text": "Obyvatelé města žijí v neustálém strachu z blížící se královské posádky, která hrozí tvrdým ubytováním v měšťanských domech. Hradby se horečně zpevňují dřevem i kamením, zatímco nejbohatší patricijové raději odvážejí své rodiny i cennosti do bezpečnějších míst. Purkmistr se zoufale snaží domluvit s vojenskými veliteli dohodu o výkupném."
     },
     "mono_135": {
@@ -6662,7 +6662,7 @@
       "text": "Ze Zábřehu: Bohatý panský průvod slavnostně vjel do města. Šlechtic rozdával chudině drobné mince ze stříbra a nechal narazit dva sudy piva na náměstí na oslavu narození svého dědice."
     },
     "mohuc_004": {
-      "tick": 217,
+      "tick": 439,
       "text": "Z Mohuče: Prý se oním strojem vytisklo dílo celé, Písmo svaté samo, ve mnoha výtiscích zcela stejných. Opat tomu kroutil hlavou, řka, že dílo psané rukou má duši, kdežto stroj má jen přesnost."
     },
     "local_230": {
