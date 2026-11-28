@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated": "2026-11-27T23:57:43.446Z",
-  "valid_until": "2026-12-04T23:57:43.446Z",
+  "generated": "2026-11-28T12:49:27.201Z",
+  "valid_until": "2026-12-05T12:49:27.201Z",
   "abbot": {
     "name": "Bratr Augustin",
     "mood": "natěšený",
@@ -16,11 +16,7 @@
     "guilds_noticed"
   ],
   "feast": null,
-  "fast": {
-    "active": true,
-    "name_cs": "Postní pátek",
-    "name_en": "Fasting Friday"
-  },
+  "fast": null,
   "guilds": {
     "mlynarsky": {
       "label": "Mlynářský cech",
@@ -71,8 +67,8 @@
     "name": "Ranní mráz",
     "icon": "🌨",
     "desc": "První mráz. Část sklizně je ohrožena.",
-    "tempC": -1,
-    "windKmH": 6,
+    "tempC": 1,
+    "windKmH": 8,
     "rainMm": 0,
     "season": 2,
     "modifier_grain": 0.85,
@@ -84,7 +80,7 @@
     "season_name": "Podzim",
     "season_icon": "🍂",
     "day": 89,
-    "total_tick": 441,
+    "total_tick": 442,
     "date_string": "🍂 Podzim, Léta Páně 1465, den 89"
   },
   "actors": [
@@ -118,7 +114,7 @@
       "label_en": "The Miller",
       "profession": "Mlynář",
       "profession_en": "Miller",
-      "wealth": 97,
+      "wealth": 96,
       "mood": 74,
       "stores": 5,
       "status": "prosperujici",
@@ -143,7 +139,7 @@
       "profession": "Kovář",
       "profession_en": "Blacksmith",
       "wealth": 97,
-      "mood": 80,
+      "mood": 81,
       "stores": 3,
       "status": "prosperujici",
       "relations": {
@@ -166,7 +162,7 @@
       "label_en": "The Charcoal Burner",
       "profession": "Uhlíř",
       "profession_en": "Charcoal Burner",
-      "wealth": 99,
+      "wealth": 100,
       "mood": 72,
       "stores": 2,
       "status": "stable",
@@ -190,8 +186,8 @@
       "label_en": "The Raftsman",
       "profession": "Vorař",
       "profession_en": "Raftsman",
-      "wealth": 100,
-      "mood": 78,
+      "wealth": 99,
+      "mood": 77,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -215,7 +211,7 @@
       "profession": "Rybníkář",
       "profession_en": "Pondkeeper",
       "wealth": 100,
-      "mood": 76,
+      "mood": 77,
       "stores": 5,
       "status": "prosperujici",
       "relations": {
@@ -287,7 +283,7 @@
       "profession": "Opat ve městě",
       "profession_en": "Abbot in the City",
       "wealth": 98,
-      "mood": 81,
+      "mood": 79,
       "stores": 2,
       "status": "prosperujici",
       "relations": {
@@ -310,7 +306,7 @@
       "label_en": "The Beekeeper",
       "profession": "Včelař",
       "profession_en": "Beekeeper",
-      "wealth": 98,
+      "wealth": 97,
       "mood": 79,
       "stores": 3,
       "status": "prosperujici",
@@ -335,7 +331,7 @@
       "profession": "Sklář",
       "profession_en": "Glassmaker",
       "wealth": 93,
-      "mood": 74,
+      "mood": 76,
       "stores": 1,
       "status": "stable",
       "itemStock": {
@@ -367,7 +363,7 @@
       "profession": "Zvonař",
       "profession_en": "Bellfounder",
       "wealth": 97,
-      "mood": 82,
+      "mood": 81,
       "stores": 2,
       "status": "stable",
       "relations": {
@@ -1884,6 +1880,30 @@
   ],
   "chronicle": [
     {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 442,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 442,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
+    {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_en": "From reports from Bohemia: a certain messenger told that in the south the lords speak among themselves of a war yet to come, not the one past. The brothers pray that this report remain but a report.",
@@ -2098,33 +2118,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 85
-    },
-    {
-      "text": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_cs": "Cantor zapsal: Zpěvníky, jež za válek shořely, opisovali bratři znovu z paměti starců, kteří melodie ještě znali. Některé žalmy prý zůstaly napořád ztraceny, jiné se vrátily, byť trochu jinak znějící.",
-      "text_en": "The cantor wrote: the songbooks burned during the wars, the brothers copied anew from the memory of the elders who still knew the melodies. Some psalms, it is said, remained lost forever; others returned, though sounding somewhat changed.",
-      "type": "C",
-      "icon": "🎼",
-      "source": "monastery_internal",
-      "tick": 434,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 85
-    },
-    {
-      "text": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
-      "text_cs": "Ze staročeských letopisů: Pan Burian ze Šternberka byl obviněn ze zrady a uvězněn na hradě Přerov. Jeho pán ho hájí a vymáhá propuštění, avšak královská rada trvá na výslechu. Šeptem se říká, že tajně vedl korespondenci s Matyášem Korvínem.",
-      "text_en": "From the Old Czech Chronicles: Lord Burian of Šternberk was accused of treason and imprisoned at Přerov castle. His overlord is defending him and demanding his release, but the royal council insists on an interrogation. It is whispered that he secretly conducted correspondence with Matthias Corvinus.",
-      "type": "D",
-      "icon": "⛓️",
-      "source": "distant_events",
-      "tick": 433,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 85
     }
   ],
   "chronicle_local": [
+    {
+      "text": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_cs": "Díky štědrosti cechu místních voskařů získal místní kostel zásobu mohutných svící z čistého včelího vosku na celý rok. Jejich světlo při večerních mších je mnohem jasnější a nečadí jako obyčejné lojové svíčky. Všichni věřící obdivují tu nádhernou podívanou.",
+      "text_en": "Thanks to the generosity of the local wax-makers' guild, the local church received a year's supply of massive candles made of pure beeswax. Their light during evening masses is much brighter and does not soot like ordinary tallow candles. All the faithful admire the beautiful sight.",
+      "type": "A",
+      "icon": "🕯️",
+      "source": "local_events",
+      "tick": 442,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
     {
       "text": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
       "text_cs": "Můj brk přestal psát ostře. Musel jsem ho třikrát ořezat, než jsem zjistil, že inkoust, který mi dodal infirmář, obsahuje jemný písek. Má pečlivost byla pošlapána hrubostí materiálu.",
@@ -2232,21 +2240,21 @@
       "year": 1465,
       "season": "Podzim",
       "day": 86
-    },
-    {
-      "text": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_cs": "Vrátný zapsal: Starý bratr Vít vzpomíná, jak za války mladý opustil dům s jediným rancem, hledaje útočiště v krajích cizích. Vrátil se po letech, dům znova obsazený nalezl, a vstoupil jako host do toho, co bývalo jeho domovem.",
-      "text_en": "The porter wrote: old Brother Vitus recalleth how, as a young man, he left the house during the war with but a single bundle, seeking refuge in foreign parts. He returned after years, found the house occupied anew, and entered as a guest into what once had been his home.",
-      "type": "C",
-      "icon": "🚪",
-      "source": "monastery_internal",
-      "tick": 435,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 86
     }
   ],
   "chronicle_distant": [
+    {
+      "text": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_cs": "Zpráva z Čech: Na moravské hranici se objevily ozbrojené skupiny bez znaků. Nevíme, čí jsou. Vesnice na severu se stěhují do opevněných míst. Naši bratři v tamních klášterech prosí o modlitby.",
+      "text_en": "News from Bohemia: Armed groups without insignia appeared on the Moravian border. We do not know whose they are. Villages in the north are moving to fortified places. Our brothers in the monasteries there ask for prayers.",
+      "type": "B",
+      "icon": "⚔️",
+      "source": "distant_events",
+      "tick": 442,
+      "year": 1465,
+      "season": "Podzim",
+      "day": 89
+    },
     {
       "text": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
       "text_cs": "Ze zpráv z Čech: Posel jeden vyprávěl, že na jihu prý páni mezi sebou hovoří o válce, jež teprve přijít má, ne o té minulé. Bratři se modlí, aby zvěst ta zůstala jen zvěstí.",
@@ -2354,18 +2362,6 @@
       "year": 1465,
       "season": "Podzim",
       "day": 84
-    },
-    {
-      "text": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_cs": "Z Prahy: Kazatelé na náměstí čtou list z Říma, v němž král naším kacířem nazýván jest, ač kompaktáta dosud platná jsou. Lid se dělí, jedni reptají proti králi, jiní proti Římu.",
-      "text_en": "From Prague: preachers in the square read aloud a letter from Rome, wherein our king is named a heretic, though the Compacts yet stand in force. The people are divided, some murmuring against the king, others against Rome.",
-      "type": "B",
-      "icon": "📯",
-      "source": "distant_events",
-      "tick": 429,
-      "year": 1465,
-      "season": "Podzim",
-      "day": 83
     }
   ],
   "church_calendar": {
